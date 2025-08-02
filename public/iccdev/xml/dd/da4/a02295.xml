@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/da4/a02295" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccDumpProfile_2Readme</compoundname>
+    <title>iccDumpProfile</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="dd/da4/a02295_1autotoc_md84"/> </para>
+<sect1 id="dd/da4/a02295_1autotoc_md85">
+<title>Overview</title>
+<para><computeroutput>iccDumpProfile</computeroutput> is a command-line tool for inspecting and validating ICC profile files. It provides detailed output of the profile header, tag table, and individual tag contents, with options for verbose output and structural validation against ICC specifications.</para>
+<para>This tool is particularly useful for developers, color scientists, and QA engineers who need to ensure ICC profiles conform to standards and contain expected metadata.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/da4/a02295_1autotoc_md87">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Displays comprehensive ICC header and tag table information</para>
+</listitem><listitem><para>Validates tag layout, structure, and alignment (compliance with ICC.1/ICC.2)</para>
+</listitem><listitem><para>Detects overlapping or redundant tag entries</para>
+</listitem><listitem><para>Offers detailed output for each tag, including localized descriptions</para>
+</listitem><listitem><para>Supports verbose tag content dumps</para>
+</listitem><listitem><para>Flags non-compliance issues and prints warnings or critical errors</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/da4/a02295_1autotoc_md89">
+<title>Output Details</title>
+<sect2 id="dd/da4/a02295_1autotoc_md90">
+<title>Profile Header</title>
+<para><itemizedlist>
+<listitem><para>Profile ID, creation date, version, and profile class</para>
+</listitem><listitem><para>Color spaces, rendering intent, platform, and device info</para>
+</listitem><listitem><para>PCS and spectral data ranges</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="dd/da4/a02295_1autotoc_md91">
+<title>Tag Table</title>
+<para><itemizedlist>
+<listitem><para>Tag type, offset, size, and padding</para>
+</listitem><listitem><para>Warning for duplicate and misaligned tag entries</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="dd/da4/a02295_1autotoc_md92">
+<title>Validation Report (if &lt;tt&gt;-v&lt;/tt&gt; is used)</title>
+<para><itemizedlist>
+<listitem><para>Status levels: OK, Warning, NonCompliant, CriticalError</para>
+</listitem><listitem><para>Reports on misaligned tags, overlapping data, non-4-byte padded files</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="dd/da4/a02295_1autotoc_md94">
+<title>Build Instructions</title>
+<sect2 id="dd/da4/a02295_1autotoc_md95">
+<title>Clean previous build artifacts</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="dd/da4/a02295_1autotoc_md96">
+<title>Configure build with debugging and AddressSanitizer</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="dd/da4/a02295_1autotoc_md97">
+<title>Compile the tool</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="dd/da4/a02295_1autotoc_md99">
+<title>Usage Examples</title>
+<sect2 id="dd/da4/a02295_1autotoc_md100">
+<title>Dump header and tag info of a profile</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">Tools/IccDumpProfile/iccDumpProfile<sp/>profile.icc</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="dd/da4/a02295_1autotoc_md101">
+<title>Dump all tags with max verbosity</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">Tools/IccDumpProfile/iccDumpProfile<sp/>-v<sp/>100<sp/>profile.icc<sp/>ALL</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="dd/da4/a02295_1autotoc_md102">
+<title>Validate and dump a specific tag</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">Tools/IccDumpProfile/iccDumpProfile<sp/>-v<sp/>50<sp/>profile.icc<sp/>desc</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="dd/da4/a02295_1autotoc_md104">
+<title>Validation Options</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>-v</computeroutput> enables validation mode</para>
+</listitem><listitem><para>Optional verbosity level (1–100); default is 100</para>
+</listitem><listitem><para>Tag name can be <computeroutput>ALL</computeroutput> or a specific tag (e.g., <computeroutput>desc</computeroutput>, <computeroutput>wtpt</computeroutput>)</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/da4/a02295_1autotoc_md106">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Initial implementation by Max Derhak (2003)</para>
+</listitem><listitem><para>Validation improvements by Peter Wyatt (2021)</para>
+</listitem><listitem><para>Additional diagnostics added by David Hoyt (2025) </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccDumpProfile/Readme.md"/>
+  </compounddef>
+</doxygen>

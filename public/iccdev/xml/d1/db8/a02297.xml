@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d1/db8/a02297" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccJpegDump_2Readme</compoundname>
+    <title>📸 iccJpegDump</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="d1/db8/a02297_1autotoc_md123"/> <bold>iccJpegDump</bold> is a command-line utility for extracting and injecting ICC color profiles in JPEG images. <linebreak/>
+ It supports standard <computeroutput>APP2</computeroutput> ICC markers and intelligently scans EXIF or raw JPEG byte streams for profile detection.</para>
+<para><hruler/>
+</para>
+<sect1 id="d1/db8/a02297_1autotoc_md125">
+<title>🔧 Features</title>
+<para><itemizedlist>
+<listitem><para>✅ <bold>ICC Extraction:</bold><itemizedlist>
+<listitem><para>From <computeroutput>APP2</computeroutput> segments with <computeroutput>ICC_PROFILE\0</computeroutput> (Adobe ICC standard)</para>
+</listitem><listitem><para>From <computeroutput>APPx</computeroutput> markers containing the <computeroutput>acsp</computeroutput> ICC signature</para>
+</listitem><listitem><para>Via fallback binary scan for malformed or non-standard files</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>✅ <bold>ICC Injection:</bold><itemizedlist>
+<listitem><para>Single-segment injection using <computeroutput>APP2</computeroutput></para>
+</listitem><listitem><para>Inserts ICC before the first image scan for maximum compatibility</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>🧪 <bold>Fuzzing Support:</bold><itemizedlist>
+<listitem><para>Ideal for image fuzzers and ICC validation pipelines</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d1/db8/a02297_1autotoc_md127">
+<title>🚀 Usage</title>
+<sect2 id="d1/db8/a02297_1autotoc_md128">
+<title>📤 Extract ICC Profile</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">iccJpegDump<sp/>input.jpg<sp/>output.icc</highlight></codeline>
+</programlisting></para>
+<para>Saves the embedded ICC profile (if any) into <computeroutput>output.icc</computeroutput>.</para>
+<para><hruler/>
+</para>
+</sect2>
+<sect2 id="d1/db8/a02297_1autotoc_md130">
+<title>📥 Inject ICC Profile</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">iccJpegDump<sp/>input.jpg<sp/>--write-icc<sp/>profile.icc<sp/>--output<sp/>output.jpg</highlight></codeline>
+</programlisting></para>
+<para>Injects <computeroutput>profile.icc</computeroutput> into the JPEG and creates <computeroutput>output.jpg</computeroutput>.</para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="d1/db8/a02297_1autotoc_md132">
+<title>📘 Segment Heuristics</title>
+<para><itemizedlist>
+<listitem><para>🔍 <computeroutput>APP2</computeroutput> ICC header: <computeroutput>&quot;ICC_PROFILE\0&quot;</computeroutput></para>
+</listitem><listitem><para>🔍 <computeroutput>APPx</computeroutput> fallback: scans for <computeroutput>&quot;acsp&quot;</computeroutput> ICC signature</para>
+</listitem><listitem><para>🔍 Full file scan if no standard marker found</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d1/db8/a02297_1autotoc_md134">
+<title>⚠️ Known Limitations</title>
+<para><itemizedlist>
+<listitem><para>Only supports single <computeroutput>APP2</computeroutput> segment (64KB max)</para>
+</listitem><listitem><para>Will not strip or merge existing ICC tags</para>
+</listitem><listitem><para>Does not validate ICC contents or conformance</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d1/db8/a02297_1autotoc_md136">
+<title>✅ Reproduction Example</title>
+<sect2 id="d1/db8/a02297_1autotoc_md137">
+<title>Inject ICC Profile</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">../Build/Tools/IccJpegDump/iccJpegDump<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>xnu_image_fuzzer_non_premultiplied_alpha.jpg<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>--write-icc<sp/>sRGB_v4_ICC_preference.icc<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>--output<sp/>export.jpg</highlight></codeline>
+</programlisting></para>
+<para><bold>Expected Output:</bold></para>
+<para><programlisting><codeline><highlight class="normal">[INFO]<sp/>ICC<sp/>profile<sp/>successfully<sp/>injected<sp/>into:<sp/>export.jpg</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="d1/db8/a02297_1autotoc_md139">
+<title>🔍 Validation Steps</title>
+<sect2 id="d1/db8/a02297_1autotoc_md140">
+<title>1. Check output with &lt;tt&gt;file&lt;/tt&gt;</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">file<sp/>export.jpg</highlight></codeline>
+</programlisting></para>
+<para><programlisting><codeline><highlight class="normal">export.jpg:<sp/>JPEG<sp/>image<sp/>data,<sp/>Exif<sp/>Standard:<sp/>[TIFF<sp/>image<sp/>data...],<sp/>baseline,<sp/>precision<sp/>8,<sp/>32x32,<sp/>components<sp/>3</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+<sect2 id="d1/db8/a02297_1autotoc_md142">
+<title>2. Inspect with ImageMagick</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">identify<sp/>export.jpg</highlight></codeline>
+</programlisting></para>
+<para><programlisting><codeline><highlight class="normal">export.jpg<sp/>JPEG<sp/>32x32<sp/>32x32+0+0<sp/>8-bit<sp/>sRGB<sp/>63054B<sp/>0.000u<sp/>0:00.001</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+<sect2 id="d1/db8/a02297_1autotoc_md144">
+<title>3. Compare with original JPEG</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">file<sp/>xnu_image_fuzzer_non_premultiplied_alpha.jpg</highlight></codeline>
+</programlisting></para>
+<para><programlisting><codeline><highlight class="normal">JPEG<sp/>image<sp/>data,<sp/>JFIF<sp/>standard<sp/>1.01,<sp/>density<sp/>72x72,<sp/>baseline,<sp/>...</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+<sect2 id="d1/db8/a02297_1autotoc_md146">
+<title>4. Inspect the ICC profile metadata</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">file<sp/>sRGB_v4_ICC_preference.icc</highlight></codeline>
+</programlisting></para>
+<para><programlisting><codeline><highlight class="normal">sRGB_v4_ICC_preference.icc:<sp/>color<sp/>profile<sp/>4.2,<sp/>RGB/Lab-spac<sp/>device,<sp/>60960<sp/>bytes,<sp/>2007-07-25<sp/>00:05:37,<sp/>...</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="d1/db8/a02297_1autotoc_md148">
+<title>🧰 Integration</title>
+<para><itemizedlist>
+<listitem><para>AFL++, Honggfuzz, Radamsa compatible</para>
+</listitem><listitem><para>Easily dropped into PNG/JPEG/WebP ICC fuzzing suites</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+ </para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccJpegDump/Readme.md"/>
+  </compounddef>
+</doxygen>

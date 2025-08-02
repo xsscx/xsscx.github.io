@@ -1,0 +1,1283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d4b/a01309" kind="class" language="C++" prot="public">
+    <compoundname>CIccCalculatorFunc</compoundname>
+    <includes refid="d5/de0/a00050" local="no">IccMpeCalc.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCalculatorFunc::m_nOps</definition>
+        <argsstring></argsstring>
+        <name>m_nOps</name>
+        <qualifiedname>CIccCalculatorFunc::m_nOps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="416" column="18" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="416" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1ac863c9fab669a2fe1117a9ca5e259b3c" compoundref="d9/d77/a00095" startline="2747" endline="2754">CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac7cdb571e8028b41ec463fd75e7e0bfd" compoundref="d9/d77/a00095" startline="2766" endline="2780">CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac6bd4526a461f6704f374a2006dca5e4" compoundref="d9/d77/a00095" startline="3685" endline="3700">Apply</referencedby>
+        <referencedby refid="db/d4b/a01309_1a65d21079a68552cfab97cc7d7f35c5f5" compoundref="d9/d77/a00095" startline="2956" endline="2964">Describe</referencedby>
+        <referencedby refid="db/d4b/a01309_1a3a1093a21ac11509dd0a6fde8116befb" compoundref="d9/d77/a00095" startline="4155" endline="4165">DoesOverflowInput</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac462b676dc7cc7894a6bbc029594c1e4" compoundref="d9/d77/a00095" startline="4178" endline="4188">DoesOverflowOutput</referencedby>
+        <referencedby refid="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" compoundref="d9/d77/a00095" startline="4035" endline="4052">DoesStackUnderflowOverflow</referencedby>
+        <referencedby refid="db/d4b/a01309_1a8fa46d4a25767da744417c4fe3813bd2" compoundref="d9/d77/a00095" startline="3786" endline="3798">GetMaxTemp</referencedby>
+        <referencedby refid="db/d4b/a01309_1accf8b94700915bbdf3914fd3c743f804" compoundref="d9/d77/a00095" startline="4112" endline="4142">HasUnsupportedOperations</referencedby>
+        <referencedby refid="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" compoundref="d9/d77/a00095" startline="4064" endline="4100">HasValidOperations</referencedby>
+        <referencedby refid="db/d4b/a01309_1ad5b782783552b631a625f28f4b57e60f" compoundref="d9/d77/a00095" startline="3499" endline="3511">InitSelectOps</referencedby>
+        <referencedby refid="db/d4b/a01309_1af7df6d45e33436bee522f4e93be556d8" compoundref="d9/d77/a00095" startline="3810" endline="3813">NeedTempReset</referencedby>
+        <referencedby refid="db/d4b/a01309_1a0c91c847d1315b43305a843ae96c25fa" compoundref="d9/d77/a00095" startline="2792" endline="2811">operator=</referencedby>
+        <referencedby refid="db/d4b/a01309_1a42480d803f2054946b97eecad98ee430" compoundref="d9/d77/a00095" startline="3335" endline="3387">Read</referencedby>
+        <referencedby refid="db/d4b/a01309_1a546cfd127844bb34c938929822ae8440" compoundref="d9/d77/a00095" startline="3296" endline="3323">SetFunction</referencedby>
+        <referencedby refid="db/d4b/a01309_1adc771ef7293167b3dbcc8308fda379b4" compoundref="d9/d77/a00095" startline="3437" endline="3449">SetOpDefs</referencedby>
+        <referencedby refid="db/d4b/a01309_1acc272cf47e01269c89013f0e73c5276f" compoundref="d9/d77/a00095" startline="3399" endline="3424">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d4b/a01309_1a4bc8e33e0f4207c47b4a4e0d6f604736" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCalculatorFunc::m_nReserved</definition>
+        <argsstring></argsstring>
+        <name>m_nReserved</name>
+        <qualifiedname>CIccCalculatorFunc::m_nReserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="414" column="18" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="414" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1ac863c9fab669a2fe1117a9ca5e259b3c" compoundref="d9/d77/a00095" startline="2747" endline="2754">CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac7cdb571e8028b41ec463fd75e7e0bfd" compoundref="d9/d77/a00095" startline="2766" endline="2780">CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1a0c91c847d1315b43305a843ae96c25fa" compoundref="d9/d77/a00095" startline="2792" endline="2811">operator=</referencedby>
+        <referencedby refid="db/d4b/a01309_1a42480d803f2054946b97eecad98ee430" compoundref="d9/d77/a00095" startline="3335" endline="3387">Read</referencedby>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">Validate</referencedby>
+        <referencedby refid="db/d4b/a01309_1acc272cf47e01269c89013f0e73c5276f" compoundref="d9/d77/a00095" startline="3399" endline="3424">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" prot="protected" static="no" mutable="no">
+        <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+        <definition>SIccCalcOp* CIccCalculatorFunc::m_Op</definition>
+        <argsstring></argsstring>
+        <name>m_Op</name>
+        <qualifiedname>CIccCalculatorFunc::m_Op</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="417" column="14" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="417" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1ac863c9fab669a2fe1117a9ca5e259b3c" compoundref="d9/d77/a00095" startline="2747" endline="2754">CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac7cdb571e8028b41ec463fd75e7e0bfd" compoundref="d9/d77/a00095" startline="2766" endline="2780">CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1a5dd971f8bf0ffa03e2f746cf3a1076eb" compoundref="d9/d77/a00095" startline="2823" endline="2828">~CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac6bd4526a461f6704f374a2006dca5e4" compoundref="d9/d77/a00095" startline="3685" endline="3700">Apply</referencedby>
+        <referencedby refid="db/d4b/a01309_1a65d21079a68552cfab97cc7d7f35c5f5" compoundref="d9/d77/a00095" startline="2956" endline="2964">Describe</referencedby>
+        <referencedby refid="db/d4b/a01309_1a3a1093a21ac11509dd0a6fde8116befb" compoundref="d9/d77/a00095" startline="4155" endline="4165">DoesOverflowInput</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac462b676dc7cc7894a6bbc029594c1e4" compoundref="d9/d77/a00095" startline="4178" endline="4188">DoesOverflowOutput</referencedby>
+        <referencedby refid="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" compoundref="d9/d77/a00095" startline="4035" endline="4052">DoesStackUnderflowOverflow</referencedby>
+        <referencedby refid="db/d4b/a01309_1a8fa46d4a25767da744417c4fe3813bd2" compoundref="d9/d77/a00095" startline="3786" endline="3798">GetMaxTemp</referencedby>
+        <referencedby refid="db/d4b/a01309_1accf8b94700915bbdf3914fd3c743f804" compoundref="d9/d77/a00095" startline="4112" endline="4142">HasUnsupportedOperations</referencedby>
+        <referencedby refid="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" compoundref="d9/d77/a00095" startline="4064" endline="4100">HasValidOperations</referencedby>
+        <referencedby refid="db/d4b/a01309_1ad5b782783552b631a625f28f4b57e60f" compoundref="d9/d77/a00095" startline="3499" endline="3511">InitSelectOps</referencedby>
+        <referencedby refid="db/d4b/a01309_1af7df6d45e33436bee522f4e93be556d8" compoundref="d9/d77/a00095" startline="3810" endline="3813">NeedTempReset</referencedby>
+        <referencedby refid="db/d4b/a01309_1a0c91c847d1315b43305a843ae96c25fa" compoundref="d9/d77/a00095" startline="2792" endline="2811">operator=</referencedby>
+        <referencedby refid="db/d4b/a01309_1a42480d803f2054946b97eecad98ee430" compoundref="d9/d77/a00095" startline="3335" endline="3387">Read</referencedby>
+        <referencedby refid="db/d4b/a01309_1a546cfd127844bb34c938929822ae8440" compoundref="d9/d77/a00095" startline="3296" endline="3323">SetFunction</referencedby>
+        <referencedby refid="db/d4b/a01309_1adc771ef7293167b3dbcc8308fda379b4" compoundref="d9/d77/a00095" startline="3437" endline="3449">SetOpDefs</referencedby>
+        <referencedby refid="db/d4b/a01309_1acc272cf47e01269c89013f0e73c5276f" compoundref="d9/d77/a00095" startline="3399" endline="3424">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d4b/a01309_1a675b10d1e29812dce50aab2e021b95e0" prot="protected" static="no" mutable="no">
+        <type><ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref> *</type>
+        <definition>CIccMpeCalculator* CIccCalculatorFunc::m_pCalc</definition>
+        <argsstring></argsstring>
+        <name>m_pCalc</name>
+        <qualifiedname>CIccCalculatorFunc::m_pCalc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="412" column="21" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="412" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1ac863c9fab669a2fe1117a9ca5e259b3c" compoundref="d9/d77/a00095" startline="2747" endline="2754">CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac7cdb571e8028b41ec463fd75e7e0bfd" compoundref="d9/d77/a00095" startline="2766" endline="2780">CIccCalculatorFunc</referencedby>
+        <referencedby refid="db/d4b/a01309_1ac6bd4526a461f6704f374a2006dca5e4" compoundref="d9/d77/a00095" startline="3685" endline="3700">Apply</referencedby>
+        <referencedby refid="db/d4b/a01309_1aba85f3a6076601d03354f4d6d2b07def" compoundref="d9/d77/a00095" startline="3908" endline="4023">CheckUnderflowOverflow</referencedby>
+        <referencedby refid="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" compoundref="d9/d77/a00095" startline="4064" endline="4100">HasValidOperations</referencedby>
+        <referencedby refid="db/d4b/a01309_1a0c91c847d1315b43305a843ae96c25fa" compoundref="d9/d77/a00095" startline="2792" endline="2811">operator=</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d4b/a01309_1ac863c9fab669a2fe1117a9ca5e259b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCalculatorFunc::CIccCalculatorFunc</definition>
+        <argsstring>(CIccMpeCalculator *pCalc)</argsstring>
+        <name>CIccCalculatorFunc</name>
+        <qualifiedname>CIccCalculatorFunc::CIccCalculatorFunc</qualifiedname>
+        <param>
+          <type><ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref> *</type>
+          <declname>pCalc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1ac863c9fab669a2fe1117a9ca5e259b3c" kindref="member">CIccCalculatorFunc::CIccCalculatorFunc</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="366" column="3" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2747" bodyend="2754"/>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a4bc8e33e0f4207c47b4a4e0d6f604736" compoundref="d5/de0/a00050" startline="414">m_nReserved</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="db/d4b/a01309_1a675b10d1e29812dce50aab2e021b95e0" compoundref="d5/de0/a00050" startline="412">m_pCalc</references>
+        <referencedby refid="df/db8/a01317_1a7fefc4a48200f353586b9cb1f60af820" compoundref="d9/d77/a00095" startline="4474" endline="4586">CIccMpeCalculator::Read</referencedby>
+        <referencedby refid="df/db8/a01317_1acdbfc664ad2c016bf8eec0948657fb0d" compoundref="d9/d77/a00095" startline="4396" endline="4417">CIccMpeCalculator::SetCalcFunc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1ac7cdb571e8028b41ec463fd75e7e0bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCalculatorFunc::CIccCalculatorFunc</definition>
+        <argsstring>(const CIccCalculatorFunc &amp;ICF)</argsstring>
+        <name>CIccCalculatorFunc</name>
+        <qualifiedname>CIccCalculatorFunc::CIccCalculatorFunc</qualifiedname>
+        <param>
+          <type>const <ref refid="db/d4b/a01309" kindref="compound">CIccCalculatorFunc</ref> &amp;</type>
+          <declname>ICF</declname>
+          <defname>func</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1ac863c9fab669a2fe1117a9ca5e259b3c" kindref="member">CIccCalculatorFunc::CIccCalculatorFunc</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="367" column="3" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2766" bodyend="2780"/>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a4bc8e33e0f4207c47b4a4e0d6f604736" compoundref="d5/de0/a00050" startline="414">m_nReserved</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="db/d4b/a01309_1a675b10d1e29812dce50aab2e021b95e0" compoundref="d5/de0/a00050" startline="412">m_pCalc</references>
+        <referencedby refid="db/d4b/a01309_1af39cb97b8823c2a969e268883366371e" compoundref="d5/de0/a00050" startline="369" endline="369">NewCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a5dd971f8bf0ffa03e2f746cf3a1076eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccCalculatorFunc::~CIccCalculatorFunc</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccCalculatorFunc</name>
+        <qualifiedname>CIccCalculatorFunc::~CIccCalculatorFunc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: CIccCalculatorFunc::~CIccChannelFunc</para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="370" column="11" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2823" bodyend="2828"/>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1ac6bd4526a461f6704f374a2006dca5e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::Apply</definition>
+        <argsstring>(CIccApplyMpeCalculator *pApply) const</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccCalculatorFunc::Apply</qualifiedname>
+        <param>
+          <type><ref refid="d9/d5c/a01321" kindref="compound">CIccApplyMpeCalculator</ref> *</type>
+          <declname>pApply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1ac6bd4526a461f6704f374a2006dca5e4" kindref="member">CIccCalculatorFunc::Apply</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="381" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3685" bodyend="3700"/>
+        <references refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">ApplySequence</references>
+        <references refid="d9/d5c/a01321_1ac845f91083427b9cb9b9828c6d1fc612" compoundref="d5/de0/a00050" startline="514" endline="514">CIccApplyMpeCalculator::GetOutput</references>
+        <references refid="d9/d5c/a01321_1a1866ac5981892ce78e553a96c6671652" compoundref="d5/de0/a00050" startline="517" endline="517">CIccApplyMpeCalculator::GetStack</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="db/d4b/a01309_1a675b10d1e29812dce50aab2e021b95e0" compoundref="d5/de0/a00050" startline="412">m_pCalc</references>
+        <references refid="dd/d43/a01193_1a431d2d96c834f4f9b0674dafe8609ae1" compoundref="d7/d25/a00182" startline="160" endline="160">CIccMultiProcessElement::NumOutputChannels</references>
+        <referencedby refid="df/db8/a01317_1af7e561bbcbd75d01594aa512368d5bd5" compoundref="d9/d77/a00095" startline="4782" endline="4807">CIccMpeCalculator::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::Begin</definition>
+        <argsstring>(const CIccMpeCalculator *pChannelMux, CIccTagMultiProcessElement *pMPE)</argsstring>
+        <name>Begin</name>
+        <qualifiedname>CIccCalculatorFunc::Begin</qualifiedname>
+        <param>
+          <type>const <ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref> *</type>
+          <declname>pChannelMux</declname>
+          <defname>pChannelCalc</defname>
+        </param>
+        <param>
+          <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" kindref="member">CIccCalculatorFunc::Begin</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="380" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3462" bodyend="3487"/>
+        <references refid="db/d4b/a01309_1a3a1093a21ac11509dd0a6fde8116befb" compoundref="d9/d77/a00095" startline="4155" endline="4165">DoesOverflowInput</references>
+        <references refid="db/d4b/a01309_1ac462b676dc7cc7894a6bbc029594c1e4" compoundref="d9/d77/a00095" startline="4178" endline="4188">DoesOverflowOutput</references>
+        <references refid="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" compoundref="d9/d77/a00095" startline="4035" endline="4052">DoesStackUnderflowOverflow</references>
+        <references refid="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" compoundref="d9/d77/a00095" startline="4064" endline="4100">HasValidOperations</references>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfa841f99754b281b98f20e2c31b0291b8b" compoundref="d5/de0/a00050" startline="309">icFuncParseNoError</references>
+        <references refid="db/d4b/a01309_1ad5b782783552b631a625f28f4b57e60f" compoundref="d9/d77/a00095" startline="3499" endline="3511">InitSelectOps</references>
+        <references refid="dd/d43/a01193_1a0e7393d937cb768d52265a7ebed2b3a9" compoundref="d7/d25/a00182" startline="159" endline="159">CIccMultiProcessElement::NumInputChannels</references>
+        <references refid="dd/d43/a01193_1a431d2d96c834f4f9b0674dafe8609ae1" compoundref="d7/d25/a00182" startline="160" endline="160">CIccMultiProcessElement::NumOutputChannels</references>
+        <references refid="db/d4b/a01309_1adc771ef7293167b3dbcc8308fda379b4" compoundref="d9/d77/a00095" startline="3437" endline="3449">SetOpDefs</references>
+        <referencedby refid="df/db8/a01317_1a50a7b43d464c5f29708701aa7b5a9096" compoundref="d9/d77/a00095" startline="4687" endline="4722">CIccMpeCalculator::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1aba85f3a6076601d03354f4d6d2b07def" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CIccCalculatorFunc::CheckUnderflowOverflow</definition>
+        <argsstring>(SIccCalcOp *op, icUInt32Number nOps, int nArgs, bool bCheckUnderflow, std::string &amp;sReport) const</argsstring>
+        <name>CheckUnderflowOverflow</name>
+        <qualifiedname>CIccCalculatorFunc::CheckUnderflowOverflow</qualifiedname>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nOps</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nArgs</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bCheckUnderflow</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: CIccCalculatorFunc::CheckUnderflow</para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="389" column="7" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3908" bodyend="4023"/>
+        <references refid="d1/d1a/a01285_1ad9f4e4455faa5f2579ee193a4b5f42ab" compoundref="d9/d77/a00095" startline="2354" endline="2480">SIccCalcOp::ArgsPushed</references>
+        <references refid="d1/d1a/a01285_1a2552fea250b0f04b586affc3a3d45e00" compoundref="d9/d77/a00095" startline="2222" endline="2341">SIccCalcOp::ArgsUsed</references>
+        <references refid="db/d4b/a01309_1aba85f3a6076601d03354f4d6d2b07def" compoundref="d9/d77/a00095" startline="3908" endline="4023">CheckUnderflowOverflow</references>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="d7/dce/a00143_1a8889bba08c143da6590f47879f24ccbe" compoundref="d5/db1/a00140" startline="913" endline="916">icIntMax</references>
+        <references refid="d7/dce/a00143_1ad24afa240a65b1f84c71f10c7a62a370" compoundref="d5/db1/a00140" startline="908" endline="911">icIntMin</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5acd864139aa04e4a78cec675a35e5fcf8" compoundref="d5/de0/a00050" startline="215">icSigCaseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a924018bac2720908f9b4b0bc318a94ab" compoundref="d5/de0/a00050" startline="216">icSigDefaultOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5afe4df58903a5a5ac9ce8b8ada79f6494" compoundref="d5/de0/a00050" startline="211">icSigElseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="db/d4b/a01309_1a675b10d1e29812dce50aab2e021b95e0" compoundref="d5/de0/a00050" startline="412">m_pCalc</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1aba85f3a6076601d03354f4d6d2b07def" compoundref="d9/d77/a00095" startline="3908" endline="4023">CheckUnderflowOverflow</referencedby>
+        <referencedby refid="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" compoundref="d9/d77/a00095" startline="4035" endline="4052">DoesStackUnderflowOverflow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a65d21079a68552cfab97cc7d7f35c5f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccCalculatorFunc::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness=0, int nBlanks=0)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccCalculatorFunc::Describe</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBlanks</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a65d21079a68552cfab97cc7d7f35c5f5" kindref="member">CIccCalculatorFunc::Describe</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="375" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2956" bodyend="2964"/>
+        <references refid="db/d4b/a01309_1a3482ed3e135e7ec695f301c8a5c212ee" compoundref="d9/d77/a00095" startline="2843" endline="2944">DescribeSequence</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <referencedby refid="df/db8/a01317_1a7afd3e680abb8c914f51da8746145738" compoundref="d9/d77/a00095" startline="4430" endline="4459">CIccMpeCalculator::Describe</referencedby>
+        <referencedby refid="d8/de6/a02061_1ac2201e8656c54d4760a8b1f07e79ff51" compoundref="dd/dd7/a00260" startline="2265" endline="2314">CIccMpeXmlCalculator::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a3a1093a21ac11509dd0a6fde8116befb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::DoesOverflowInput</definition>
+        <argsstring>(icUInt16Number nInputChannels) const</argsstring>
+        <name>DoesOverflowInput</name>
+        <qualifiedname>CIccCalculatorFunc::DoesOverflowInput</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nInputChannels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: CIccChannelFunc::DoesOverflowInput</para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="393" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="4155" bodyend="4165"/>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac860e1f45e03b8008a7facfd9953542c" compoundref="d5/de0/a00050" startline="119">icSigInputChanOp</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" compoundref="d9/d77/a00095" startline="3462" endline="3487">Begin</referencedby>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1ac462b676dc7cc7894a6bbc029594c1e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::DoesOverflowOutput</definition>
+        <argsstring>(icUInt16Number nOutputChannels) const</argsstring>
+        <name>DoesOverflowOutput</name>
+        <qualifiedname>CIccCalculatorFunc::DoesOverflowOutput</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nOutputChannels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: CIccChannelFunc::DoesOverflowOutput</para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="394" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="4178" bodyend="4188"/>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a8bc17bc8722e0d7149b7a7f00e2963bb" compoundref="d5/de0/a00050" startline="120">icSigOutputChanOp</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" compoundref="d9/d77/a00095" startline="3462" endline="3487">Begin</referencedby>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92df" kindref="member">icFuncParseStatus</ref></type>
+        <definition>icFuncParseStatus CIccCalculatorFunc::DoesStackUnderflowOverflow</definition>
+        <argsstring>(std::string &amp;sReport) const</argsstring>
+        <name>DoesStackUnderflowOverflow</name>
+        <qualifiedname>CIccCalculatorFunc::DoesStackUnderflowOverflow</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" kindref="member">CIccCalculatorFunc::DoesStackUnderflowOverflow</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="390" column="21" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="4035" bodyend="4052"/>
+        <references refid="db/d4b/a01309_1aba85f3a6076601d03354f4d6d2b07def" compoundref="d9/d77/a00095" startline="3908" endline="4023">CheckUnderflowOverflow</references>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfa841f99754b281b98f20e2c31b0291b8b" compoundref="d5/de0/a00050" startline="309">icFuncParseNoError</references>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfa135fba6c4eefb5836b5136f7d3c6d26c" compoundref="d5/de0/a00050" startline="313">icFuncParseStackOverflow</references>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfa8fd4b48d359fee5fb6a0354e9b072d8d" compoundref="d5/de0/a00050" startline="312">icFuncParseStackUnderflow</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <referencedby refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" compoundref="d9/d77/a00095" startline="3462" endline="3487">Begin</referencedby>
+        <referencedby refid="db/d4b/a01309_1a546cfd127844bb34c938929822ae8440" compoundref="d9/d77/a00095" startline="3296" endline="3323">SetFunction</referencedby>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1af38c42e8cee8ffa01aeacd4c9baa19cb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccCalculatorFunc::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccCalculatorFunc::GetClassName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="373" column="24" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="373" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a8fa46d4a25767da744417c4fe3813bd2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCalculatorFunc::GetMaxTemp</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMaxTemp</name>
+        <qualifiedname>CIccCalculatorFunc::GetMaxTemp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a8fa46d4a25767da744417c4fe3813bd2" kindref="member">CIccCalculatorFunc::GetMaxTemp</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="388" column="18" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3786" bodyend="3798"/>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aecfc2fa7d43fa74a309781683b2332fb" compoundref="d5/de0/a00050" startline="121">icSigTempGetChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3f45b717f863a83251ed2c6d52c155e6" compoundref="d5/de0/a00050" startline="122">icSigTempPutChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ae83056829ca9655b9c9fded62bb4de58" compoundref="d5/de0/a00050" startline="123">icSigTempSaveChanOp</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="df/db8/a01317_1a50a7b43d464c5f29708701aa7b5a9096" compoundref="d9/d77/a00095" startline="4687" endline="4722">CIccMpeCalculator::Begin</referencedby>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1afe51fcae50201fc2c2fabafe3234b2c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d5/de0/a00050_1a264dc7ee31d9805f4d4d9c0bb4db73aa" kindref="member">icChannelFuncSignature</ref></type>
+        <definition>virtual icChannelFuncSignature CIccCalculatorFunc::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccCalculatorFunc::GetType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="372" column="34" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="372" bodyend="372"/>
+        <references refid="d5/de0/a00050_1a264dc7ee31d9805f4d4d9c0bb4db73aaa98ae4d3122f7f0c368f103b1b5cc001b" compoundref="d5/de0/a00050" startline="103">icSigChannelFunction</references>
+        <referencedby refid="db/d4b/a01309_1a42480d803f2054946b97eecad98ee430" compoundref="d9/d77/a00095" startline="3335" endline="3387">Read</referencedby>
+        <referencedby refid="db/d4b/a01309_1acc272cf47e01269c89013f0e73c5276f" compoundref="d9/d77/a00095" startline="3399" endline="3424">Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1accf8b94700915bbdf3914fd3c743f804" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::HasUnsupportedOperations</definition>
+        <argsstring>(std::string &amp;sReport, const CIccProfile *pProfile) const</argsstring>
+        <name>HasUnsupportedOperations</name>
+        <qualifiedname>CIccCalculatorFunc::HasUnsupportedOperations</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1accf8b94700915bbdf3914fd3c743f804" kindref="member">CIccCalculatorFunc::HasUnsupportedOperations</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="392" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="4112" bodyend="4142"/>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad9150b69ae1992c608699bb21d8cc3aa" compoundref="d5/de0/a00050" startline="193">icSigNotEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a617666ca5bf46bab3866a77db3ce2deb" compoundref="d5/de0/a00050" startline="197">icSigNotOp</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <references refid="d4/dd7/a00793_1ab4a2c325ab3c203cc7a7d79be401425d" compoundref="d7/d46/a00002" startline="2046">icHeader::version</references>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::HasValidOperations</definition>
+        <argsstring>(std::string &amp;sReport) const</argsstring>
+        <name>HasValidOperations</name>
+        <qualifiedname>CIccCalculatorFunc::HasValidOperations</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" kindref="member">CIccCalculatorFunc::HasValidOperations</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="391" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="4064" bodyend="4100"/>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5acd864139aa04e4a78cec675a35e5fcf8" compoundref="d5/de0/a00050" startline="215">icSigCaseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a924018bac2720908f9b4b0bc318a94ab" compoundref="d5/de0/a00050" startline="216">icSigDefaultOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5afe4df58903a5a5ac9ce8b8ada79f6494" compoundref="d5/de0/a00050" startline="211">icSigElseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="d1/d1a/a01285_1af39ccc3ae699b73bd2327d0422758ca6" compoundref="d9/d77/a00095" startline="2191" endline="2210">SIccCalcOp::IsValidOp</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="db/d4b/a01309_1a675b10d1e29812dce50aab2e021b95e0" compoundref="d5/de0/a00050" startline="412">m_pCalc</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" compoundref="d9/d77/a00095" startline="3462" endline="3487">Begin</referencedby>
+        <referencedby refid="db/d4b/a01309_1a546cfd127844bb34c938929822ae8440" compoundref="d9/d77/a00095" startline="3296" endline="3323">SetFunction</referencedby>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1af7df6d45e33436bee522f4e93be556d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::NeedTempReset</definition>
+        <argsstring>(icUInt8Number *tempUsage, icUInt32Number nMaxTemp)</argsstring>
+        <name>NeedTempReset</name>
+        <qualifiedname>CIccCalculatorFunc::NeedTempReset</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref> *</type>
+          <declname>tempUsage</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nMaxTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1af7df6d45e33436bee522f4e93be556d8" kindref="member">CIccCalculatorFunc::NeedTempReset</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="395" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3810" bodyend="3813"/>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="db/d4b/a01309_1abfcbc59f8a7782a98ad506566ac1681d" compoundref="d9/d77/a00095" startline="3825" endline="3895">SequenceNeedTempReset</references>
+        <referencedby refid="df/db8/a01317_1a50a7b43d464c5f29708701aa7b5a9096" compoundref="d9/d77/a00095" startline="4687" endline="4722">CIccMpeCalculator::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1af39cb97b8823c2a969e268883366371e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="db/d4b/a01309" kindref="compound">CIccCalculatorFunc</ref> *</type>
+        <definition>virtual CIccCalculatorFunc * CIccCalculatorFunc::NewCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccCalculatorFunc::NewCopy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="369" column="30" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="369" bodyend="369"/>
+        <references refid="db/d4b/a01309_1ac7cdb571e8028b41ec463fd75e7e0bfd" compoundref="d9/d77/a00095" startline="2766" endline="2780">CIccCalculatorFunc</references>
+        <referencedby refid="df/db8/a01317_1afef6001883de149ccd8293c77600b880" compoundref="d9/d77/a00095" startline="4225" endline="4266">CIccMpeCalculator::CIccMpeCalculator</referencedby>
+        <referencedby refid="df/db8/a01317_1ad8378d67b67eb04ef201e03a0ff7e757" compoundref="d9/d77/a00095" startline="4278" endline="4317">CIccMpeCalculator::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a0c91c847d1315b43305a843ae96c25fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/d4b/a01309" kindref="compound">CIccCalculatorFunc</ref> &amp;</type>
+        <definition>CIccCalculatorFunc &amp; CIccCalculatorFunc::operator=</definition>
+        <argsstring>(const CIccCalculatorFunc &amp;ICF)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccCalculatorFunc::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="db/d4b/a01309" kindref="compound">CIccCalculatorFunc</ref> &amp;</type>
+          <declname>ICF</declname>
+          <defname>func</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: &amp;<ref refid="db/d4b/a01309_1a0c91c847d1315b43305a843ae96c25fa" kindref="member">CIccCalculatorFunc::operator=</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="368" column="22" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2792" bodyend="2811"/>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a4bc8e33e0f4207c47b4a4e0d6f604736" compoundref="d5/de0/a00050" startline="414">m_nReserved</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="db/d4b/a01309_1a675b10d1e29812dce50aab2e021b95e0" compoundref="d5/de0/a00050" startline="412">m_pCalc</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a42480d803f2054946b97eecad98ee430" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccCalculatorFunc::Read</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a42480d803f2054946b97eecad98ee430" kindref="member">CIccCalculatorFunc::Read</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="377" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3335" bodyend="3387"/>
+        <references refid="db/d4b/a01309_1afe51fcae50201fc2c2fabafe3234b2c8" compoundref="d5/de0/a00050" startline="372" endline="372">GetType</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a4bc8e33e0f4207c47b4a4e0d6f604736" compoundref="d5/de0/a00050" startline="414">m_nReserved</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">CIccIO::Read32</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="df/db8/a01317_1a7fefc4a48200f353586b9cb1f60af820" compoundref="d9/d77/a00095" startline="4474" endline="4586">CIccMpeCalculator::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a546cfd127844bb34c938929822ae8440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92df" kindref="member">icFuncParseStatus</ref></type>
+        <definition>icFuncParseStatus CIccCalculatorFunc::SetFunction</definition>
+        <argsstring>(CIccCalcOpList &amp;opList, std::string &amp;sReport)</argsstring>
+        <name>SetFunction</name>
+        <qualifiedname>CIccCalculatorFunc::SetFunction</qualifiedname>
+        <param>
+          <type><ref refid="d5/de0/a00050_1a0738ddc0794aad30d1cfc2485b3d5a89" kindref="member">CIccCalcOpList</ref> &amp;</type>
+          <declname>opList</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a5367162a9245551fbc6dabc90ba50568" kindref="member">CIccCalculatorFunc::SetFunction</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="386" column="21" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3296" bodyend="3323"/>
+        <references refid="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" compoundref="d9/d77/a00095" startline="4035" endline="4052">DoesStackUnderflowOverflow</references>
+        <references refid="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" compoundref="d9/d77/a00095" startline="4064" endline="4100">HasValidOperations</references>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfa9f976b1286b239c7cd6de94ff03a8584" compoundref="d5/de0/a00050" startline="315">icFuncParseEmptyFunction</references>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfaccc0030c92371a184b26499c92a1571f" compoundref="d5/de0/a00050" startline="311">icFuncParseInvalidOperation</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <referencedby refid="db/d4b/a01309_1a5367162a9245551fbc6dabc90ba50568" compoundref="d9/d77/a00095" startline="3276" endline="3284">SetFunction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a5367162a9245551fbc6dabc90ba50568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92df" kindref="member">icFuncParseStatus</ref></type>
+        <definition>icFuncParseStatus CIccCalculatorFunc::SetFunction</definition>
+        <argsstring>(const char *szFuncDef, std::string &amp;sReport)</argsstring>
+        <name>SetFunction</name>
+        <qualifiedname>CIccCalculatorFunc::SetFunction</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szFuncDef</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a5367162a9245551fbc6dabc90ba50568" kindref="member">CIccCalculatorFunc::SetFunction</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="385" column="21" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3276" bodyend="3284"/>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfa4dc45810e4c803b167e2c22c6c69cf68" compoundref="d5/de0/a00050" startline="310">icFuncParseSyntaxError</references>
+        <references refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">ParseFuncDef</references>
+        <references refid="db/d4b/a01309_1a546cfd127844bb34c938929822ae8440" compoundref="d9/d77/a00095" startline="3296" endline="3323">SetFunction</references>
+        <referencedby refid="df/db8/a01317_1acdbfc664ad2c016bf8eec0948657fb0d" compoundref="d9/d77/a00095" startline="4396" endline="4417">CIccMpeCalculator::SetCalcFunc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1adc771ef7293167b3dbcc8308fda379b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::SetOpDefs</definition>
+        <argsstring>()</argsstring>
+        <name>SetOpDefs</name>
+        <qualifiedname>CIccCalculatorFunc::SetOpDefs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1adc771ef7293167b3dbcc8308fda379b4" kindref="member">CIccCalculatorFunc::SetOpDefs</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="396" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3437" bodyend="3449"/>
+        <references refid="d1/d1a/a01285_1a18828146f9b811accd19c30531962aee" compoundref="d5/de0/a00050" startline="248">SIccCalcOp::def</references>
+        <references refid="db/d95/a01637_1a3d67a4568acf65b88fbad239708c52b1" compoundref="d9/d77/a00095" startline="2170" endline="2178">CIccCalcOpMgr::getOpDef</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" compoundref="d9/d77/a00095" startline="3462" endline="3487">Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccCalculatorFunc::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccMpeCalculator *pChannelCalc=NULL, const CIccProfile *pProfile=NULL) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccCalculatorFunc::Validate</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref> *</type>
+          <declname>pChannelCalc</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" kindref="member">CIccCalculatorFunc::Validate</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="382" column="28" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3712" bodyend="3774"/>
+        <references refid="db/d4b/a01309_1a3a1093a21ac11509dd0a6fde8116befb" compoundref="d9/d77/a00095" startline="4155" endline="4165">DoesOverflowInput</references>
+        <references refid="db/d4b/a01309_1ac462b676dc7cc7894a6bbc029594c1e4" compoundref="d9/d77/a00095" startline="4178" endline="4188">DoesOverflowOutput</references>
+        <references refid="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" compoundref="d9/d77/a00095" startline="4035" endline="4052">DoesStackUnderflowOverflow</references>
+        <references refid="db/d4b/a01309_1a8fa46d4a25767da744417c4fe3813bd2" compoundref="d9/d77/a00095" startline="3786" endline="3798">GetMaxTemp</references>
+        <references refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">CIccInfo::GetSigPathName</references>
+        <references refid="db/d4b/a01309_1accf8b94700915bbdf3914fd3c743f804" compoundref="d9/d77/a00095" startline="4112" endline="4142">HasUnsupportedOperations</references>
+        <references refid="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" compoundref="d9/d77/a00095" startline="4064" endline="4100">HasValidOperations</references>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfa841f99754b281b98f20e2c31b0291b8b" compoundref="d5/de0/a00050" startline="309">icFuncParseNoError</references>
+        <references refid="d5/de0/a00050_1a36db9e101e447d0d68e6ac2f21ad92dfa8fd4b48d359fee5fb6a0354e9b072d8d" compoundref="d5/de0/a00050" startline="312">icFuncParseStackUnderflow</references>
+        <references refid="d7/dce/a00143_1aa1bd59040ac26f5314f409e295cf9162" compoundref="d5/db1/a00140" startline="92">icMsgValidateCriticalError</references>
+        <references refid="d7/dce/a00143_1a96f185a7e8c155604a95848b2c9f4d2f" compoundref="d5/db1/a00140" startline="90">icMsgValidateWarning</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a371bf9a02d77f4dd8f339b4f4fff51c3" compoundref="d4/d81/a00110" startline="122">icValidateCriticalError</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a28bebc69f605af2c45812f342b3b3f74" compoundref="d4/d81/a00110" startline="120">icValidateWarning</references>
+        <references refid="db/d4b/a01309_1a4bc8e33e0f4207c47b4a4e0d6f604736" compoundref="d5/de0/a00050" startline="414">m_nReserved</references>
+        <references refid="dd/d43/a01193_1a0e7393d937cb768d52265a7ebed2b3a9" compoundref="d7/d25/a00182" startline="159" endline="159">CIccMultiProcessElement::NumInputChannels</references>
+        <references refid="dd/d43/a01193_1a431d2d96c834f4f9b0674dafe8609ae1" compoundref="d7/d25/a00182" startline="160" endline="160">CIccMultiProcessElement::NumOutputChannels</references>
+        <referencedby refid="df/db8/a01317_1a84dbede92659116443f4f6c0ebfad7dd" compoundref="d9/d77/a00095" startline="4819" endline="4851">CIccMpeCalculator::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1acc272cf47e01269c89013f0e73c5276f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccCalculatorFunc::Write</qualifiedname>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1acc272cf47e01269c89013f0e73c5276f" kindref="member">CIccCalculatorFunc::Write</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="378" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3399" bodyend="3424"/>
+        <references refid="db/d4b/a01309_1afe51fcae50201fc2c2fabafe3234b2c8" compoundref="d5/de0/a00050" startline="372" endline="372">GetType</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a4bc8e33e0f4207c47b4a4e0d6f604736" compoundref="d5/de0/a00050" startline="414">m_nReserved</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <references refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" compoundref="d9/d2e/a00056" startline="152" endline="171">CIccIO::Write32</references>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::ApplySequence</definition>
+        <argsstring>(CIccApplyMpeCalculator *pApply, icUInt32Number nOps, SIccCalcOp *op) const</argsstring>
+        <name>ApplySequence</name>
+        <qualifiedname>CIccCalculatorFunc::ApplySequence</qualifiedname>
+        <param>
+          <type><ref refid="d9/d5c/a01321" kindref="compound">CIccApplyMpeCalculator</ref> *</type>
+          <declname>pApply</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nOps</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+          <defname>ops</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" kindref="member">CIccCalculatorFunc::ApplySequence</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="408" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3561" bodyend="3673"/>
+        <references refid="dd/d5d/a01325_1a48d5eb95b4bcebad6d0522f1ba9d0174">IIccCalcDebugger::AfterOp</references>
+        <references refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">ApplySequence</references>
+        <references refid="dd/d5d/a01325_1a280970908eb062c22d3f14f50b08e658">IIccCalcDebugger::BeforeOp</references>
+        <references refid="d1/d1a/a01285_1a18828146f9b811accd19c30531962aee" compoundref="d5/de0/a00050" startline="248">SIccCalcOp::def</references>
+        <references refid="d3/d07/a01301_1ac2ad79a6b7ca267a33afc380eacc81c5" compoundref="d5/de0/a00050" startline="304" endline="304">IIccOpDef::Exec</references>
+        <references refid="d1/d1a/a01285_1a5e3601e5336ce7a6d5bcc510d565e718" compoundref="d5/de0/a00050" startline="247">SIccCalcOp::extra</references>
+        <references refid="d9/d77/a00095_1af1e538bb71e14151ca446799994795bc" compoundref="d9/d77/a00095" startline="154">g_pDebugger</references>
+        <references refid="d9/d5c/a01321_1aa2c1ad6c0a08b6bcb59f87c5a1e43075" compoundref="d5/de0/a00050" startline="513" endline="513">CIccApplyMpeCalculator::GetInput</references>
+        <references refid="d9/d5c/a01321_1ac845f91083427b9cb9b9828c6d1fc612" compoundref="d5/de0/a00050" startline="514" endline="514">CIccApplyMpeCalculator::GetOutput</references>
+        <references refid="d9/d5c/a01321_1a31fa99bf546434d5fb3f5302a2e0c10d" compoundref="d5/de0/a00050" startline="519" endline="519">CIccApplyMpeCalculator::GetScratch</references>
+        <references refid="d9/d5c/a01321_1a1866ac5981892ce78e553a96c6671652" compoundref="d5/de0/a00050" startline="517" endline="517">CIccApplyMpeCalculator::GetStack</references>
+        <references refid="d9/d5c/a01321_1a4d0d3246b2f66f024c9076ceab991bde" compoundref="d5/de0/a00050" startline="515" endline="515">CIccApplyMpeCalculator::GetTemp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a924018bac2720908f9b4b0bc318a94ab" compoundref="d5/de0/a00050" startline="216">icSigDefaultOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5afe4df58903a5a5ac9ce8b8ada79f6494" compoundref="d5/de0/a00050" startline="211">icSigElseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="dc/d8c/a01297_1a07edc976440a9b564c509426c16e7808" compoundref="d5/de0/a00050" startline="280">SIccOpState::idx</references>
+        <references refid="dc/d8c/a01297_1a3d4421a95f068a86c2ee794b3439e372" compoundref="d5/de0/a00050" startline="281">SIccOpState::nOps</references>
+        <references refid="dc/d8c/a01297_1a5a8da342d73f944976651389096def65" compoundref="d5/de0/a00050" startline="279">SIccOpState::output</references>
+        <references refid="dc/d8c/a01297_1ae0a44dde754f5fb4e93e47b4fafd6bef" compoundref="d5/de0/a00050" startline="274">SIccOpState::pApply</references>
+        <references refid="dc/d8c/a01297_1adde8698f9acb4dafaf8702cdb9809e16" compoundref="d5/de0/a00050" startline="278">SIccOpState::pixel</references>
+        <references refid="dc/d8c/a01297_1a7f057bcb322a86fbd0be20edc9e91ee6" compoundref="d5/de0/a00050" startline="276">SIccOpState::pScratch</references>
+        <references refid="dc/d8c/a01297_1ab3754fddf22c18661914dc452cc1cfbd" compoundref="d5/de0/a00050" startline="275">SIccOpState::pStack</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <references refid="dc/d8c/a01297_1a2c05b4f0131bf03cb4297d5fa21a994f" compoundref="d5/de0/a00050" startline="277">SIccOpState::temp</references>
+        <referencedby refid="db/d4b/a01309_1ac6bd4526a461f6704f374a2006dca5e4" compoundref="d9/d77/a00095" startline="3685" endline="3700">Apply</referencedby>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">ApplySequence</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a3482ed3e135e7ec695f301c8a5c212ee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCalculatorFunc::DescribeSequence</definition>
+        <argsstring>(std::string &amp;sDescription, icUInt32Number nOps, SIccCalcOp *op, int nBlanks)</argsstring>
+        <name>DescribeSequence</name>
+        <qualifiedname>CIccCalculatorFunc::DescribeSequence</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nOps</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBlanks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="406" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2843" bodyend="2944"/>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="db/d4b/a01309_1a3482ed3e135e7ec695f301c8a5c212ee" compoundref="d9/d77/a00095" startline="2843" endline="2944">DescribeSequence</references>
+        <references refid="d7/dce/a00143_1ad24afa240a65b1f84c71f10c7a62a370" compoundref="d5/db1/a00140" startline="908" endline="911">icIntMin</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5acd864139aa04e4a78cec675a35e5fcf8" compoundref="d5/de0/a00050" startline="215">icSigCaseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a924018bac2720908f9b4b0bc318a94ab" compoundref="d5/de0/a00050" startline="216">icSigDefaultOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5afe4df58903a5a5ac9ce8b8ada79f6494" compoundref="d5/de0/a00050" startline="211">icSigElseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="db/d4b/a01309_1a1f621f63d6a4826b8b934550e17e5d35" compoundref="d9/d77/a00095" startline="2830" endline="2841">InsertBlanks</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1a65d21079a68552cfab97cc7d7f35c5f5" compoundref="d9/d77/a00095" startline="2956" endline="2964">Describe</referencedby>
+        <referencedby refid="db/d4b/a01309_1a3482ed3e135e7ec695f301c8a5c212ee" compoundref="d9/d77/a00095" startline="2843" endline="2944">DescribeSequence</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a773286be5d9bf312af796f77e5d9e841" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::InitSelectOp</definition>
+        <argsstring>(SIccCalcOp *ops, icUInt32Number nOps)</argsstring>
+        <name>InitSelectOp</name>
+        <qualifiedname>CIccCalculatorFunc::InitSelectOp</qualifiedname>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>ops</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nOps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1a773286be5d9bf312af796f77e5d9e841" kindref="member">CIccCalculatorFunc::InitSelectOp</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="401" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3523" bodyend="3549"/>
+        <references refid="d1/d1a/a01285_1a5e3601e5336ce7a6d5bcc510d565e718" compoundref="d5/de0/a00050" startline="247">SIccCalcOp::extra</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5acd864139aa04e4a78cec675a35e5fcf8" compoundref="d5/de0/a00050" startline="215">icSigCaseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a924018bac2720908f9b4b0bc318a94ab" compoundref="d5/de0/a00050" startline="216">icSigDefaultOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1ad5b782783552b631a625f28f4b57e60f" compoundref="d9/d77/a00095" startline="3499" endline="3511">InitSelectOps</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1ad5b782783552b631a625f28f4b57e60f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::InitSelectOps</definition>
+        <argsstring>()</argsstring>
+        <name>InitSelectOps</name>
+        <qualifiedname>CIccCalculatorFunc::InitSelectOps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1ad5b782783552b631a625f28f4b57e60f" kindref="member">CIccCalculatorFunc::InitSelectOps</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="400" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3499" bodyend="3511"/>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="db/d4b/a01309_1a773286be5d9bf312af796f77e5d9e841" compoundref="d9/d77/a00095" startline="3523" endline="3549">InitSelectOp</references>
+        <references refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" compoundref="d5/de0/a00050" startline="416">m_nOps</references>
+        <references refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" compoundref="d5/de0/a00050" startline="417">m_Op</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" compoundref="d9/d77/a00095" startline="3462" endline="3487">Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1a1f621f63d6a4826b8b934550e17e5d35" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCalculatorFunc::InsertBlanks</definition>
+        <argsstring>(std::string &amp;sDescription, int nBlanks)</argsstring>
+        <name>InsertBlanks</name>
+        <qualifiedname>CIccCalculatorFunc::InsertBlanks</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBlanks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="405" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2830" bodyend="2841"/>
+        <referencedby refid="db/d4b/a01309_1a3482ed3e135e7ec695f301c8a5c212ee" compoundref="d9/d77/a00095" startline="2843" endline="2944">DescribeSequence</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * CIccCalculatorFunc::ParseFuncDef</definition>
+        <argsstring>(const char *szFuncDef, CIccCalcOpList &amp;m_list, std::string &amp;sReport)</argsstring>
+        <name>ParseFuncDef</name>
+        <qualifiedname>CIccCalculatorFunc::ParseFuncDef</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szFuncDef</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/de0/a00050_1a0738ddc0794aad30d1cfc2485b3d5a89" kindref="member">CIccCalcOpList</ref> &amp;</type>
+          <declname>m_list</declname>
+          <defname>scanList</defname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" kindref="member">CIccCalculatorFunc::ParseFuncDef</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="410" column="14" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2985" bodyend="3263"/>
+        <references refid="dc/d9e/a01305_1a2df1ca6eb411b8f226848935674b903b" compoundref="d9/d77/a00095" startline="2482" endline="2487">CIccFuncTokenizer::CIccFuncTokenizer</references>
+        <references refid="d9/d77/a00095_1a96619b46a5bd03d5e6a6d7ebaf26dd51" compoundref="d9/d77/a00095" startline="2966" endline="2973">AppendOpList</references>
+        <references refid="d1/d1a/a01285_1a18828146f9b811accd19c30531962aee" compoundref="d5/de0/a00050" startline="248">SIccCalcOp::def</references>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="d1/d1a/a01285_1a5e3601e5336ce7a6d5bcc510d565e718" compoundref="d5/de0/a00050" startline="247">SIccCalcOp::extra</references>
+        <references refid="dc/d9e/a01305_1a0bf8bc23f19cf2277ef854d0a6f9704d" compoundref="d9/d77/a00095" startline="2673" endline="2713">CIccFuncTokenizer::GetEnvSig</references>
+        <references refid="dc/d9e/a01305_1a3a63a50846af14dfa16e88d82c096a99" compoundref="d9/d77/a00095" startline="2630" endline="2661">CIccFuncTokenizer::GetIndex</references>
+        <references refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">CIccFuncTokenizer::GetNext</references>
+        <references refid="dc/d9e/a01305_1a8c16d4a0985723da637811f100e461db" compoundref="d5/de0/a00050" startline="329" endline="329">CIccFuncTokenizer::GetPos</references>
+        <references refid="dc/d9e/a01305_1a3026ce719c69a45b36e878273cd7f21c" compoundref="d9/d77/a00095" startline="2569" endline="2599">CIccFuncTokenizer::GetSig</references>
+        <references refid="dc/d9e/a01305_1a2a30013f443c182714ccd310608d588a" compoundref="d9/d77/a00095" startline="2664" endline="2670">CIccFuncTokenizer::GetValue</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a8a7ad0f0354dfdf6907253443ae9f99f" compoundref="d5/de0/a00050" startline="172">icSigAbsoluteValOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a82f1d2df5717ca25d10f07332f47024c" compoundref="d5/de0/a00050" startline="156">icSigAddOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a54ce705cd295f850594e2a364ba0889e" compoundref="d5/de0/a00050" startline="151">icSigAndOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab0e2aa7cfee452f02c31dcc0f66bdb1f" compoundref="d5/de0/a00050" startline="135">icSigApplyCalcOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a2c8135133124a8f578b29f0c09f3ac73" compoundref="d5/de0/a00050" startline="131">icSigApplyCLutOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a71c6523824599f5f07dd9b54b9bc1fb2" compoundref="d5/de0/a00050" startline="129">icSigApplyCurvesOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a8a2bca5bdd3d2c51eb440a4a9bb75287" compoundref="d5/de0/a00050" startline="136">icSigApplyElemOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a156f20c79106e6f7584a2c80f2fbaf16" compoundref="d5/de0/a00050" startline="134">icSigApplyFromJabOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5abcd774f52080f3e825ce8d06df544f59" compoundref="d5/de0/a00050" startline="130">icSigApplyMatrixOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aaaa4c2c42f8cbeac06816c1852fa3899" compoundref="d5/de0/a00050" startline="132">icSigApplyTintOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a9c6f3db5c320e7f5ac5bddea954e0234" compoundref="d5/de0/a00050" startline="133">icSigApplyToJabOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a82c75b2681992cbcfa8894e7afa49a89" compoundref="d5/de0/a00050" startline="184">icSigArcCosineOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7358ecd68c4f205fdc3dd715690c06a6" compoundref="d5/de0/a00050" startline="183">icSigArcSineOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5abf354d34d498e0f9ec52b5991e9b7b34" compoundref="d5/de0/a00050" startline="186">icSigArcTan2Op</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a12aa7f6a537e71da60112fca506378eb" compoundref="d5/de0/a00050" startline="185">icSigArcTangentOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a80f21b7220baf8f73be10134181785c2" compoundref="d5/de0/a00050" startline="187">icSigCartesianToPolarOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5acd864139aa04e4a78cec675a35e5fcf8" compoundref="d5/de0/a00050" startline="215">icSigCaseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5af585ca36d7b29c8a00ca900742967f0d" compoundref="d5/de0/a00050" startline="174">icSigCeilingOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a9275a27f32721657a64098334fca0adc" compoundref="d5/de0/a00050" startline="139">icSigCopyOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a459fc062657d7eb78b52926a20e354e9" compoundref="d5/de0/a00050" startline="181">icSigCosineOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a07ef39558efdffd6d5e337cf17a1d7ca" compoundref="d5/de0/a00050" startline="169">icSigCubeOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a9491775114a0a21cd33fae8d27bc766b" compoundref="d5/de0/a00050" startline="170">icSigCubeRootOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a799fa857823055001ccb0c044c069a2d" compoundref="d5/de0/a00050" startline="112">icSigDataOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a924018bac2720908f9b4b0bc318a94ab" compoundref="d5/de0/a00050" startline="216">icSigDefaultOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aa063b30cd95463b6b2de352af13252e6" compoundref="d5/de0/a00050" startline="159">icSigDivideOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5afe4df58903a5a5ac9ce8b8ada79f6494" compoundref="d5/de0/a00050" startline="211">icSigElseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a09d57bb1e4ba7d276472de3f7a7d6fcc" compoundref="d5/de0/a00050" startline="126">icSigEnvVarOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a750e346a6fe85d8f4ef6e2c8cf5fbf11" compoundref="d5/de0/a00050" startline="192">icSigEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad2da20267ec858cc915401cf5928b110" compoundref="d5/de0/a00050" startline="177">icSigExpOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7296ac1a68ce9c73fa1a2a4b2735aa8a" compoundref="d5/de0/a00050" startline="143">icSigFlipOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a134875e0110424b2e4ac994b77dda4c6" compoundref="d5/de0/a00050" startline="173">icSigFloorOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a6bcaa4641f6aaa6710856078d4248d35" compoundref="d5/de0/a00050" startline="162">icSigGammaOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac00b060e975ebc74448fdb8ed818bb24" compoundref="d5/de0/a00050" startline="195">icSigGreaterThanEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a6398186a57eaaa00a66862b80e29b207" compoundref="d5/de0/a00050" startline="196">icSigGreaterThanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac860e1f45e03b8008a7facfd9953542c" compoundref="d5/de0/a00050" startline="119">icSigInputChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a918daa3caf99e1e8d3e90f3b2becdacc" compoundref="d5/de0/a00050" startline="191">icSigLessThanEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a511c50e9b3e6ca216623bee50735021c" compoundref="d5/de0/a00050" startline="190">icSigLessThanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a98ba57e36bf6b183bc4948441444941f" compoundref="d5/de0/a00050" startline="178">icSigLogrithmOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aefd32ddbb757de57087ea975e4154336" compoundref="d5/de0/a00050" startline="150">icSigMaximumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a29984557fc13e771676e20e2562b6f84" compoundref="d5/de0/a00050" startline="149">icSigMinimumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a66c5ee33099f7e2f2be97a17aa3484c9" compoundref="d5/de0/a00050" startline="160">icSigModulusOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aeccc3a2ecfd2dee0740b2c8eba1f12c6" compoundref="d5/de0/a00050" startline="158">icSigMultiplyOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a49b2e57f044db4efc98ce4068b6fee41" compoundref="d5/de0/a00050" startline="179">icSigNaturalLogOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7646131fad5cc5c7b404a96a669899e9" compoundref="d5/de0/a00050" startline="194">icSigNearOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a6a523132bb7ee7ee410256cd830152f1" compoundref="d5/de0/a00050" startline="155">icSigNegOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad9150b69ae1992c608699bb21d8cc3aa" compoundref="d5/de0/a00050" startline="193">icSigNotEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a617666ca5bf46bab3866a77db3ce2deb" compoundref="d5/de0/a00050" startline="197">icSigNotOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a1843d7e03ca98e6b14d66e649ae5579e" compoundref="d5/de0/a00050" startline="152">icSigOrOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a8bc17bc8722e0d7149b7a7f00e2963bb" compoundref="d5/de0/a00050" startline="120">icSigOutputChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3bf349a74673da5fe873cf586e67e00e" compoundref="d5/de0/a00050" startline="188">icSigPolarToCartesianOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a94cfb3eaff29c45c0d931a80ba314ae4" compoundref="d5/de0/a00050" startline="144">icSigPopOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5abedcb82c3a3a4df60784ce7ea87357d1" compoundref="d5/de0/a00050" startline="142">icSigPositionDupOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7b926fd8e2de445adfd6a404f4aae2b9" compoundref="d5/de0/a00050" startline="161">icSigPowOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3a918e6a0fd73207f3da459740555de1" compoundref="d5/de0/a00050" startline="148">icSigProductOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a832aca3f7c43edfd18b975be9388f7df" compoundref="d5/de0/a00050" startline="189">icSigRealNumberOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab04ecf29d907d499e8c2845f33667f9c" compoundref="d5/de0/a00050" startline="140">icSigRotateLeftOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a66bb9ecde360dc55dc618e54555bfec1" compoundref="d5/de0/a00050" startline="141">icSigRotateRightOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a89499005134f558175ce7cf33a7b6ee8" compoundref="d5/de0/a00050" startline="176">icSigRoundOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a1c732d44a6bff92631ea958696a7cdba" compoundref="d5/de0/a00050" startline="163">icSigScalarAddOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a995f5baa90c739ecb92ac7c915e96e10" compoundref="d5/de0/a00050" startline="166">icSigScalarDivideOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5abd520c976147ab83f9957b19b773cb05" compoundref="d5/de0/a00050" startline="165">icSigScalarMultiplyOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7de076799d586bb1a8584a2ef7a35ca0" compoundref="d5/de0/a00050" startline="164">icSigScalarSubtractOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3878b94b3fe3c15ae150b3627c9d539a" compoundref="d5/de0/a00050" startline="171">icSigSignOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a2fe6e9538982585343404acc32def6a2" compoundref="d5/de0/a00050" startline="180">icSigSineOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac1fc159d052c268f10beb5ac5f049acb" compoundref="d5/de0/a00050" startline="206">icSigSolveOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a55966e72b6b27a54ae79284087f6557b" compoundref="d5/de0/a00050" startline="167">icSigSquareOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a12ee69d5e45a93bd32a1c81134ae3988" compoundref="d5/de0/a00050" startline="168">icSigSquareRootOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a92ed917ca5468c6a251666f80712aa5e" compoundref="d5/de0/a00050" startline="157">icSigSubtractOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3380dc725bf17ac85ca27777fccc359c" compoundref="d5/de0/a00050" startline="147">icSigSumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aa804348dda0af75df5f9cafa24b668ae" compoundref="d5/de0/a00050" startline="182">icSigTangentOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aecfc2fa7d43fa74a309781683b2332fb" compoundref="d5/de0/a00050" startline="121">icSigTempGetChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3f45b717f863a83251ed2c6d52c155e6" compoundref="d5/de0/a00050" startline="122">icSigTempPutChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ae83056829ca9655b9c9fded62bb4de58" compoundref="d5/de0/a00050" startline="123">icSigTempSaveChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac7c9c8858202611484afa2c6f3136c15" compoundref="d5/de0/a00050" startline="198">icSigToLabOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac0230afc2325c3865fd979c6a4bc8a2c" compoundref="d5/de0/a00050" startline="199">icSigToXYZOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad3888eb0b04167b13deb7d86f16e4314" compoundref="d5/de0/a00050" startline="207">icSigTransposeOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aab810625133c2ef182f9a4ff18d80f9c" compoundref="d5/de0/a00050" startline="175">icSigTruncateOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5adcd746a41f24ab8a51686950a829d9e5" compoundref="d5/de0/a00050" startline="202">icSigVectorAndOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7bb41102bf797b6490ff928f99ae9c0b" compoundref="d5/de0/a00050" startline="201">icSigVectorMaximumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad21d56c80f5b8f7fae4071ac4a0f00a3" compoundref="d5/de0/a00050" startline="200">icSigVectorMinimumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac075fe96d244ca9f82d0b88540e22fb2" compoundref="d5/de0/a00050" startline="203">icSigVectorOrOp</references>
+        <references refid="d1/d1a/a01285_1a0149b17292eba11d31c6b67c4d1a5b5e" compoundref="d9/d77/a00095" startline="2073" endline="2168">SIccCalcOp::IsValidOp</references>
+        <references refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">ParseFuncDef</references>
+        <references refid="dc/d9e/a01305_1a77cd739a5c3d806995e91624ea957996" compoundref="d5/de0/a00050" startline="330" endline="330">CIccFuncTokenizer::SetPos</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">ParseFuncDef</referencedby>
+        <referencedby refid="db/d4b/a01309_1a5367162a9245551fbc6dabc90ba50568" compoundref="d9/d77/a00095" startline="3276" endline="3284">SetFunction</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d4b/a01309_1abfcbc59f8a7782a98ad506566ac1681d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCalculatorFunc::SequenceNeedTempReset</definition>
+        <argsstring>(SIccCalcOp *op, icUInt32Number nOps, icUInt8Number *tempUsage, icUInt32Number nMaxTemp)</argsstring>
+        <name>SequenceNeedTempReset</name>
+        <qualifiedname>CIccCalculatorFunc::SequenceNeedTempReset</qualifiedname>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nOps</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref> *</type>
+          <declname>tempUsage</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nMaxTemp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="db/d4b/a01309_1abfcbc59f8a7782a98ad506566ac1681d" kindref="member">CIccCalculatorFunc::SequenceNeedTempReset</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="403" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="3825" bodyend="3895"/>
+        <references refid="d7/dce/a00143_1ad24afa240a65b1f84c71f10c7a62a370" compoundref="d5/db1/a00140" startline="908" endline="911">icIntMin</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5afe4df58903a5a5ac9ce8b8ada79f6494" compoundref="d5/de0/a00050" startline="211">icSigElseOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aecfc2fa7d43fa74a309781683b2332fb" compoundref="d5/de0/a00050" startline="121">icSigTempGetChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3f45b717f863a83251ed2c6d52c155e6" compoundref="d5/de0/a00050" startline="122">icSigTempPutChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ae83056829ca9655b9c9fded62bb4de58" compoundref="d5/de0/a00050" startline="123">icSigTempSaveChanOp</references>
+        <references refid="db/d4b/a01309_1abfcbc59f8a7782a98ad506566ac1681d" compoundref="d9/d77/a00095" startline="3825" endline="3895">SequenceNeedTempReset</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+        <referencedby refid="db/d4b/a01309_1af7df6d45e33436bee522f4e93be556d8" compoundref="d9/d77/a00095" startline="3810" endline="3813">NeedTempReset</referencedby>
+        <referencedby refid="db/d4b/a01309_1abfcbc59f8a7782a98ad506566ac1681d" compoundref="d9/d77/a00095" startline="3825" endline="3895">SequenceNeedTempReset</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="db/d4b/a01309" kindref="compound">CIccCalculatorFunc</ref></para>
+<para>Purpose: The Calculator function sequence </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccCalculatorFunc</label>
+        <link refid="db/d4b/a01309"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_pCalc</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_Op</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccMpeCalculator</label>
+        <link refid="df/db8/a01317"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_SubElem</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>m_calcFunc</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_pCmmEnvVarLookup</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+      <node id="4">
+        <label>IIccCmmEnvVarLookup</label>
+        <link refid="dd/d07/a00433"/>
+      </node>
+      <node id="6">
+        <label>IIccOpDef</label>
+        <link refid="d3/d07/a01301"/>
+      </node>
+      <node id="5">
+        <label>SIccCalcOp</label>
+        <link refid="d1/d1a/a01285"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>def</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeCalc.h" line="363" column="1" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="364" bodyend="419"/>
+    <listofallmembers>
+      <member refid="db/d4b/a01309_1ac6bd4526a461f6704f374a2006dca5e4" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>Apply</name></member>
+      <member refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>ApplySequence</name></member>
+      <member refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>Begin</name></member>
+      <member refid="db/d4b/a01309_1aba85f3a6076601d03354f4d6d2b07def" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>CheckUnderflowOverflow</name></member>
+      <member refid="db/d4b/a01309_1ac863c9fab669a2fe1117a9ca5e259b3c" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>CIccCalculatorFunc</name></member>
+      <member refid="db/d4b/a01309_1ac7cdb571e8028b41ec463fd75e7e0bfd" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>CIccCalculatorFunc</name></member>
+      <member refid="db/d4b/a01309_1a65d21079a68552cfab97cc7d7f35c5f5" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>Describe</name></member>
+      <member refid="db/d4b/a01309_1a3482ed3e135e7ec695f301c8a5c212ee" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>DescribeSequence</name></member>
+      <member refid="db/d4b/a01309_1a3a1093a21ac11509dd0a6fde8116befb" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>DoesOverflowInput</name></member>
+      <member refid="db/d4b/a01309_1ac462b676dc7cc7894a6bbc029594c1e4" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>DoesOverflowOutput</name></member>
+      <member refid="db/d4b/a01309_1ab0f95f0513d6cb97c914353d091f8463" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>DoesStackUnderflowOverflow</name></member>
+      <member refid="db/d4b/a01309_1af38c42e8cee8ffa01aeacd4c9baa19cb" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>GetClassName</name></member>
+      <member refid="db/d4b/a01309_1a8fa46d4a25767da744417c4fe3813bd2" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>GetMaxTemp</name></member>
+      <member refid="db/d4b/a01309_1afe51fcae50201fc2c2fabafe3234b2c8" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>GetType</name></member>
+      <member refid="db/d4b/a01309_1accf8b94700915bbdf3914fd3c743f804" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>HasUnsupportedOperations</name></member>
+      <member refid="db/d4b/a01309_1a72036463efdf79b45a1ae48e6fb8eacc" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>HasValidOperations</name></member>
+      <member refid="db/d4b/a01309_1a773286be5d9bf312af796f77e5d9e841" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>InitSelectOp</name></member>
+      <member refid="db/d4b/a01309_1ad5b782783552b631a625f28f4b57e60f" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>InitSelectOps</name></member>
+      <member refid="db/d4b/a01309_1a1f621f63d6a4826b8b934550e17e5d35" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>InsertBlanks</name></member>
+      <member refid="db/d4b/a01309_1ac81f41852f8772e2b2108d38c2a515a3" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>m_nOps</name></member>
+      <member refid="db/d4b/a01309_1a4bc8e33e0f4207c47b4a4e0d6f604736" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>m_nReserved</name></member>
+      <member refid="db/d4b/a01309_1a71e2807b36d28b4ce29a787eb9d5197a" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>m_Op</name></member>
+      <member refid="db/d4b/a01309_1a675b10d1e29812dce50aab2e021b95e0" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>m_pCalc</name></member>
+      <member refid="db/d4b/a01309_1af7df6d45e33436bee522f4e93be556d8" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>NeedTempReset</name></member>
+      <member refid="db/d4b/a01309_1af39cb97b8823c2a969e268883366371e" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>NewCopy</name></member>
+      <member refid="db/d4b/a01309_1a0c91c847d1315b43305a843ae96c25fa" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>operator=</name></member>
+      <member refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>ParseFuncDef</name></member>
+      <member refid="db/d4b/a01309_1a42480d803f2054946b97eecad98ee430" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>Read</name></member>
+      <member refid="db/d4b/a01309_1abfcbc59f8a7782a98ad506566ac1681d" prot="protected" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>SequenceNeedTempReset</name></member>
+      <member refid="db/d4b/a01309_1a5367162a9245551fbc6dabc90ba50568" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>SetFunction</name></member>
+      <member refid="db/d4b/a01309_1a546cfd127844bb34c938929822ae8440" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>SetFunction</name></member>
+      <member refid="db/d4b/a01309_1adc771ef7293167b3dbcc8308fda379b4" prot="public" virt="non-virtual"><scope>CIccCalculatorFunc</scope><name>SetOpDefs</name></member>
+      <member refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>Validate</name></member>
+      <member refid="db/d4b/a01309_1acc272cf47e01269c89013f0e73c5276f" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>Write</name></member>
+      <member refid="db/d4b/a01309_1a5dd971f8bf0ffa03e2f746cf3a1076eb" prot="public" virt="virtual"><scope>CIccCalculatorFunc</scope><name>~CIccCalculatorFunc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

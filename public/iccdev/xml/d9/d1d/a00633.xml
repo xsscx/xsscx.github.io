@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d9/d1d/a00633" kind="struct" language="C++" prot="public">
+    <compoundname>icViewingCondition</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/d1d/a00633_1ab9a88f355ec8c6936707d794d81f1d41" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/dc7/a00517" kindref="compound">icXYZNumber</ref></type>
+        <definition>icXYZNumber icViewingCondition::illuminant</definition>
+        <argsstring></argsstring>
+        <name>illuminant</name>
+        <qualifiedname>icViewingCondition::illuminant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1767" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1767" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d1d/a00633_1add5cd0a942444287f46df691615381d0" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17" kindref="member">icIlluminant</ref></type>
+        <definition>icIlluminant icViewingCondition::stdIluminant</definition>
+        <argsstring></argsstring>
+        <name>stdIluminant</name>
+        <qualifiedname>icViewingCondition::stdIluminant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1769" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d1d/a00633_1a17b2450814e112e22ba03fbc81ecafe5" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/dc7/a00517" kindref="compound">icXYZNumber</ref></type>
+        <definition>icXYZNumber icViewingCondition::surround</definition>
+        <argsstring></argsstring>
+        <name>surround</name>
+        <qualifiedname>icViewingCondition::surround</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1768" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1768" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>viewingConditionsType </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>icViewingCondition</label>
+        <link refid="d9/d1d/a00633"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>illuminant</edgelabel>
+          <edgelabel>surround</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icXYZNumber</label>
+        <link refid="d8/dc7/a00517"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1766" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1766" bodyend="1770"/>
+    <listofallmembers>
+      <member refid="d9/d1d/a00633_1ab9a88f355ec8c6936707d794d81f1d41" prot="public" virt="non-virtual"><scope>icViewingCondition</scope><name>illuminant</name></member>
+      <member refid="d9/d1d/a00633_1add5cd0a942444287f46df691615381d0" prot="public" virt="non-virtual"><scope>icViewingCondition</scope><name>stdIluminant</name></member>
+      <member refid="d9/d1d/a00633_1a17b2450814e112e22ba03fbc81ecafe5" prot="public" virt="non-virtual"><scope>icViewingCondition</scope><name>surround</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d58/a02302" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccV5DspObsToV4Dsp_2Readme</compoundname>
+    <title>🔄 iccV5DspObsToV4Dsp</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="d3/d58/a02302_1autotoc_md211"/> <bold>iccV5DspObsToV4Dsp</bold> converts ICC v5 Display Observer profiles into ICC v4 Display profiles. This enables broader compatibility with systems and applications that only support ICC v4.</para>
+<para><hruler/>
+</para>
+<sect1 id="d3/d58/a02302_1autotoc_md213">
+<title>🔧 Features</title>
+<para><itemizedlist>
+<listitem><para>✅ <bold>ICC v5 → v4 Conversion</bold><itemizedlist>
+<listitem><para>Converts observer-specific tags to legacy v4-compatible structures</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>✅ <bold>Display Profile Simplification</bold><itemizedlist>
+<listitem><para>Translates spectral viewing conditions into ICC v4 colorimetric approximations</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>✅ <bold>CLI Integration</bold><itemizedlist>
+<listitem><para>Usable in batch pipelines and profile pre-processing</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>✅ <bold>Metadata Preservation</bold><itemizedlist>
+<listitem><para>Retains device class, rendering intent, and profile description</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d3/d58/a02302_1autotoc_md215">
+<title>🚀 Usage</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">iccV5DspObsToV4Dsp<sp/>input.icc<sp/>--output<sp/>output.icc</highlight></codeline>
+</programlisting></para>
+<para>Converts the <computeroutput>input.icc</computeroutput> (v5 observer-based) profile into a legacy v4 format written to <computeroutput>output.icc</computeroutput>.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d3/d58/a02302_1autotoc_md217">
+<title>📘 Use Cases</title>
+<para><itemizedlist>
+<listitem><para>Ensures ICC v5 profiles can be interpreted by legacy apps</para>
+</listitem><listitem><para>Enables testing fallback behavior in color pipelines</para>
+</listitem><listitem><para>Supports roundtrip simulations for v4-only workflows</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d3/d58/a02302_1autotoc_md219">
+<title>🔒 Notes</title>
+<para><itemizedlist>
+<listitem><para>Only applicable to Display class profiles with observer extensions</para>
+</listitem><listitem><para>Conversion may lose fidelity of original observer data</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+<para>© ICC Consortium — MIT License </para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccV5DspObsToV4Dsp/Readme.md"/>
+  </compounddef>
+</doxygen>

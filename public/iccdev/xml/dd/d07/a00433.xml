@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d07/a00433" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccCmmEnvVarLookup</compoundname>
+    <derivedcompoundref refid="db/dc0/a01757" prot="public" virt="non-virtual">CIccCmmEnvVarsWrapper</derivedcompoundref>
+    <derivedcompoundref refid="d3/d07/a01241" prot="public" virt="non-virtual">CIccCmmVarLookup</derivedcompoundref>
+    <includes refid="d7/dce/a00143" local="no">IccUtil.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d07/a00433_1a65381324bd0b4709f339acea4dc85015" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccCmmEnvVarLookup::~IIccCmmEnvVarLookup</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccCmmEnvVarLookup</name>
+        <qualifiedname>IIccCmmEnvVarLookup::~IIccCmmEnvVarLookup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="403" column="11" bodyfile="IccProfLib/IccUtil.h" bodystart="403" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d07/a00433_1a100f1cadcc235854ad75e8dfe5f4962d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool IIccCmmEnvVarLookup::GetEnvVar</definition>
+        <argsstring>(icSigCmmEnvVar sig, icFloatNumber &amp;val)=0</argsstring>
+        <name>GetEnvVar</name>
+        <qualifiedname>IIccCmmEnvVarLookup::GetEnvVar</qualifiedname>
+        <reimplementedby refid="d3/d07/a01241_1a103d001655a0bd0d207a885e5e8ef3b0">GetEnvVar</reimplementedby>
+        <reimplementedby refid="db/dc0/a01757_1ab0344ef17f0b006faedcddc6b4d04af9">GetEnvVar</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1af6a4f8757485de5bcefb83418483d3a5" kindref="member">icSigCmmEnvVar</ref></type>
+          <declname>sig</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="405" column="16"/>
+        <referencedby refid="d9/d5c/a01321_1acd7df38d6488af6c3ebe10fdb2d9051d" compoundref="d9/d77/a00095" startline="5071" endline="5078">CIccApplyMpeCalculator::GetEnvVar</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d07/a00433_1a81a390bf90c1e106f8326f59e2fb3dd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool IIccCmmEnvVarLookup::IndexedEnvVar</definition>
+        <argsstring>(icUInt32Number nIndex, icSigCmmEnvVar &amp;sig, icFloatNumber &amp;val)=0</argsstring>
+        <name>IndexedEnvVar</name>
+        <qualifiedname>IIccCmmEnvVarLookup::IndexedEnvVar</qualifiedname>
+        <reimplementedby refid="d3/d07/a01241_1ac584a3eafd49b866b4e3dca2a78cda44">IndexedEnvVar</reimplementedby>
+        <reimplementedby refid="db/dc0/a01757_1ab6fcc94bfb75a631cd1e2f82a404450b">IndexedEnvVar</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1af6a4f8757485de5bcefb83418483d3a5" kindref="member">icSigCmmEnvVar</ref> &amp;</type>
+          <declname>sig</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="406" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Type: Class</para>
+<para>Purpose: Interface for performing Cmm Environment Variable Lookup </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccCmmEnvVarsWrapper</label>
+        <link refid="db/dc0/a01757"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccCmmVarLookup</label>
+        <link refid="d3/d07/a01241"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccCmmEnvVarLookup</label>
+        <link refid="dd/d07/a00433"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccUtil.h" line="400" column="1" bodyfile="IccProfLib/IccUtil.h" bodystart="401" bodyend="407"/>
+    <listofallmembers>
+      <member refid="dd/d07/a00433_1a100f1cadcc235854ad75e8dfe5f4962d" prot="public" virt="pure-virtual"><scope>IIccCmmEnvVarLookup</scope><name>GetEnvVar</name></member>
+      <member refid="dd/d07/a00433_1a81a390bf90c1e106f8326f59e2fb3dd4" prot="public" virt="pure-virtual"><scope>IIccCmmEnvVarLookup</scope><name>IndexedEnvVar</name></member>
+      <member refid="dd/d07/a00433_1a65381324bd0b4709f339acea4dc85015" prot="public" virt="virtual"><scope>IIccCmmEnvVarLookup</scope><name>~IIccCmmEnvVarLookup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

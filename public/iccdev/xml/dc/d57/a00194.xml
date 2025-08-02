@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/d57/a00194" kind="file" language="C++">
+    <compoundname>IccMpeFactory.h</compoundname>
+    <includes refid="d4/d81/a00110" local="yes">IccDefs.h</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">list</includes>
+    <includedby refid="d9/db6/a00146" local="yes">IccProfLib/IccMpeFactory.cpp</includedby>
+    <includedby refid="dc/d87/a00032" local="yes">IccProfLib/IccTagMPE.cpp</includedby>
+    <includedby refid="d5/db1/a00140" local="yes">IccProfLib/IccUtil.cpp</includedby>
+    <includedby refid="d3/d1a/a00251" local="yes">IccXML/IccLibXML/IccMpeXmlFactory.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccMpeFactory.h</label>
+        <link refid="dc/d57/a00194"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="8">
+        <label>list</label>
+      </node>
+      <node id="7">
+        <label>memory</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>IccProfLib/IccMpeFactory.cpp</label>
+        <link refid="d9/db6/a00146"/>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccMpeFactory.h</label>
+        <link refid="dc/d57/a00194"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccProfLib/IccTagMPE.cpp</label>
+        <link refid="dc/d87/a00032"/>
+      </node>
+      <node id="4">
+        <label>IccProfLib/IccUtil.cpp</label>
+        <link refid="d5/db1/a00140"/>
+      </node>
+      <node id="6">
+        <label>IccXML/CmdLine/IccFromXml/IccFromXml.cpp</label>
+        <link refid="d2/d04/a00281"/>
+      </node>
+      <node id="7">
+        <label>IccXML/CmdLine/IccToXml/IccToXml.cpp</label>
+        <link refid="d6/d82/a00293"/>
+      </node>
+      <node id="8">
+        <label>IccXML/IccLibXML/IccMpeXmlFactory.cpp</label>
+        <link refid="d6/d22/a00245"/>
+      </node>
+      <node id="5">
+        <label>IccXML/IccLibXML/IccMpeXmlFactory.h</label>
+        <link refid="d3/d1a/a00251"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="dd/db4/a01693" prot="public">CIccBasicMpeFactory</innerclass>
+    <innerclass refid="d6/d15/a01697" prot="public">CIccMpeCreator</innerclass>
+    <innerclass refid="da/d20/a01689" prot="public">IIccMpeFactory</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="dc/d57/a00194_1a38cd2741b86aecba3233c4472243d4cf" prot="public" static="no">
+        <type>std::unique_ptr&lt; <ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref> &gt;</type>
+        <definition>typedef std::unique_ptr&lt;CIccMpeCreator&gt; CIccMpeCreatorPtr</definition>
+        <argsstring></argsstring>
+        <name>CIccMpeCreatorPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="184" column="25" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="dc/d57/a00194_1adc8aa35c9f6c0f1f69a56c79c2d18900" prot="public" static="no">
+        <type>std::list&lt; <ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> * &gt;</type>
+        <definition>typedef std::list&lt;IIccMpeFactory*&gt; CIccMpeFactoryList</definition>
+        <argsstring></argsstring>
+        <name>CIccMpeFactoryList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="140" column="19" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="dc/d57/a00194" kindref="compound">IccMpeFactory.h</ref></para>
+<para>Contains: Header for implementation of CIccMpeFactory class and creation factories</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2005<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Feb<sp/>4,<sp/>2006<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>A<sp/>CIccMpeCreator<sp/>singleton<sp/>class<sp/>has<sp/>been<sp/>added<sp/>to<sp/>provide<sp/>general</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>support<sp/>for<sp/>dynamically<sp/>creating<sp/>element<sp/>classes<sp/>using<sp/>a<sp/>element<sp/>signature.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Prototype<sp/>and<sp/>private<sp/>element<sp/>type<sp/>support<sp/>can<sp/>be<sp/>added<sp/>to<sp/>the<sp/>system</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>by<sp/>pushing<sp/>additional<sp/>IIccMpeFactory<sp/>based<sp/>objects<sp/>to<sp/>the<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>singleton<sp/>CIccMpeCreator<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Nov<sp/>6,<sp/>2006</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Merged<sp/>into<sp/>release</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_ICCMPEFACTORY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_ICCMPEFACTORY_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/d81/a00110" kindref="compound">IccDefs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;list&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//CIccProcessElement<sp/>factory<sp/>support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">refIccMAX<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="da/d20/a01689" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref><sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="107" refid="da/d20/a01689_1a07b0583f06dd69f09793e1be4dc490c0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="da/d20/a01689_1a07b0583f06dd69f09793e1be4dc490c0" kindref="member">~IIccMpeFactory</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="da/d20/a01689_1a9e3ee9e5b0978a03846c770681f42c6a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref>*<sp/><ref refid="da/d20/a01689_1a9e3ee9e5b0978a03846c770681f42c6a" kindref="member">CreateElement</ref>(<ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref><sp/>elemTypeSig)=0;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="da/d20/a01689_1aab3a1365474e7deb94027d2253ef24ab" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="da/d20/a01689_1aab3a1365474e7deb94027d2253ef24ab" kindref="member">GetElementSigName</ref>(std::string<sp/>&amp;elemName,<sp/><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref><sp/>elemTypeSig)=0;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">//A<sp/>CIccMpeFactoryList<sp/>is<sp/>used<sp/>by<sp/>CIccMpeCreator<sp/>to<sp/>keep<sp/>track<sp/>of<sp/>element</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//creation<sp/>factories</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="dc/d57/a00194_1adc8aa35c9f6c0f1f69a56c79c2d18900" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::list&lt;IIccMpeFactory*&gt;<sp/><ref refid="dc/d57/a00194_1adc8aa35c9f6c0f1f69a56c79c2d18900" kindref="member">CIccMpeFactoryList</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="dd/db4/a01693" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/db4/a01693" kindref="compound">CIccBasicMpeFactory</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref>*<sp/>CreateElement(<ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref><sp/>elementSig);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>GetElementSigName(std::string<sp/>&amp;elemName,<sp/><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref><sp/>elemTypeSig);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref>;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="dc/d57/a00194_1a38cd2741b86aecba3233c4472243d4cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::unique_ptr&lt;CIccMpeCreator&gt;<sp/><ref refid="dc/d57/a00194_1a38cd2741b86aecba3233c4472243d4cf" kindref="member">CIccMpeCreatorPtr</ref>;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="d6/d15/a01697" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref><sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><ref refid="d6/d15/a01697" kindref="compound">~CIccMpeCreator</ref>();</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="d6/d15/a01697_1abcc6f083b23b883d12dc88cc1f366673" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref>*<sp/><ref refid="d6/d15/a01697_1abcc6f083b23b883d12dc88cc1f366673" kindref="member">CreateElement</ref>(<ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref><sp/>elemTypeSig)</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" kindref="member">CIccMpeCreator::GetInstance</ref>()-&gt;<ref refid="d6/d15/a01697_1a5518331b97ab9dbb0934e7f04a0ff1f4" kindref="member">DoCreateElement</ref>(elemTypeSig);<sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="d6/d15/a01697_1adb40b8192b4afd94f3e2f214dbb34373" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d15/a01697_1adb40b8192b4afd94f3e2f214dbb34373" kindref="member">GetElementSigName</ref>(std::string<sp/>&amp;elemName,<sp/><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref><sp/>elemTypeSig)</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" kindref="member">CIccMpeCreator::GetInstance</ref>()-&gt;<ref refid="d6/d15/a01697_1ae70b0c0cb6f60f21d651e4227a70e8c5" kindref="member">DoGetElementSigName</ref>(elemName,<sp/>elemTypeSig);<sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="d6/d15/a01697_1a2c9c2043489bd488cadc6e22b012914e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d6/d15/a01697_1a2c9c2043489bd488cadc6e22b012914e" kindref="member">PushFactory</ref>(<ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref><sp/>*pFactory)</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><ref refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" kindref="member">CIccMpeCreator::GetInstance</ref>()-&gt;CIccMpeCreator::DoPushFactory(pFactory);<sp/>}</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="d6/d15/a01697_1ae449dbffc230d98841210ecc28aa5468" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref>*<sp/><ref refid="d6/d15/a01697_1ae449dbffc230d98841210ecc28aa5468" kindref="member">PopFactory</ref>()</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" kindref="member">CIccMpeCreator::GetInstance</ref>()-&gt;<ref refid="d6/d15/a01697_1a0c81ff12874e5a868df18421e64f9036" kindref="member">DoPopFactory</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="267" refid="d6/d15/a01697_1ab4a834b6ae608750f6ab553c91092892" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d6/d15/a01697_1ab4a834b6ae608750f6ab553c91092892" kindref="member">CIccMpeCreator</ref>()<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref>*<sp/>GetInstance();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref>*<sp/>DoCreateElement(<ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref><sp/>elemTypeSig);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>DoGetElementSigName(std::string<sp/>&amp;elemName,<sp/><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref><sp/>elemTypeSig);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DoPushFactory(<ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref><sp/>*pFactory);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref>*<sp/>DoPopFactory(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bAll=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287" refid="d6/d15/a01697_1a82f1d06ee624f6ccd1236578ab15054a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dc/d57/a00194_1a38cd2741b86aecba3233c4472243d4cf" kindref="member">CIccMpeCreatorPtr</ref><sp/><ref refid="d6/d15/a01697_1a82f1d06ee624f6ccd1236578ab15054a" kindref="member">theElementCreator</ref>;<sp/></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="d6/d15/a01697_1ab786d9c33ede15d6aa2e9a9fe26ec181" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="dc/d57/a00194_1adc8aa35c9f6c0f1f69a56c79c2d18900" kindref="member">CIccMpeFactoryList</ref><sp/><ref refid="d6/d15/a01697_1ab786d9c33ede15d6aa2e9a9fe26ec181" kindref="member">factoryStack</ref>;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal">}<sp/></highlight><highlight class="comment">//namespace<sp/>refIccMAX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//_ICCMPEFACTORY_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccMpeFactory.h"/>
+  </compounddef>
+</doxygen>

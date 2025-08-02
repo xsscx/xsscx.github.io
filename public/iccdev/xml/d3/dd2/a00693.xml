@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/dd2/a00693" kind="struct" language="C++" prot="public">
+    <compoundname>icMeasurementType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/dd2/a00693_1a63472f1e2cd87cd7f7bd57601bfeb449" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icMeasurementType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icMeasurementType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1868" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1868" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dd2/a00693_1af621112a946ac354aa7088c0d779a78f" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/da3/a00589" kindref="compound">icMeasurement</ref></type>
+        <definition>icMeasurement icMeasurementType::measurement</definition>
+        <argsstring></argsstring>
+        <name>measurement</name>
+        <qualifiedname>icMeasurementType::measurement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1869" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1869" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Measurement Type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icMeasurement</label>
+        <link refid="d6/da3/a00589"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>backing</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>icMeasurementType</label>
+        <link refid="d3/dd2/a00693"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>measurement</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+      <node id="4">
+        <label>icXYZNumber</label>
+        <link refid="d8/dc7/a00517"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1867" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1867" bodyend="1870"/>
+    <listofallmembers>
+      <member refid="d3/dd2/a00693_1a63472f1e2cd87cd7f7bd57601bfeb449" prot="public" virt="non-virtual"><scope>icMeasurementType</scope><name>base</name></member>
+      <member refid="d3/dd2/a00693_1af621112a946ac354aa7088c0d779a78f" prot="public" virt="non-virtual"><scope>icMeasurementType</scope><name>measurement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

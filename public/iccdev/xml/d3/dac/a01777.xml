@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/dac/a01777" kind="class" language="C++" prot="public">
+    <compoundname>CIccMpeXmlFactory</compoundname>
+    <basecompoundref refid="da/d20/a01689" prot="public" virt="non-virtual">IIccMpeFactory</basecompoundref>
+    <includes refid="d3/d1a/a00251" local="no">IccMpeXmlFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/dac/a01777_1a9e7908b3de364dc9ddc9ce5c2013bb5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement * CIccMpeXmlFactory::CreateElement</definition>
+        <argsstring>(icElemTypeSignature elementSig)</argsstring>
+        <name>CreateElement</name>
+        <qualifiedname>CIccMpeXmlFactory::CreateElement</qualifiedname>
+        <reimplements refid="da/d20/a01689_1a9e3ee9e5b0978a03846c770681f42c6a">CreateElement</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elementSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateElement(elemTypeSig) Create a element of type elemTypeSig.</para>
+<para>Parameter(s): elemTypeSig = signature of the ICC element type for the element to be created</para>
+<para>Returns a new CIccProcessElement object of the given signature type. Unrecognized elemTypeSig&apos;s will be created as a CIccProcessElementUnknown object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXmlFactory.h" line="118" column="35" bodyfile="IccXML/IccLibXML/IccMpeXmlFactory.cpp" bodystart="75" bodyend="132"/>
+        <references refid="d8/de6/a02061_1ab8407adb75bdc8902af617bc268dbdbd" compoundref="d7/d40/a00236" startline="304" endline="304">CIccMpeXmlCalculator::CIccMpeXmlCalculator</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da15787eae3fc948e6596613f3dc0fece0" compoundref="d7/d46/a00002" startline="646">icSigBAcsElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4dac155ef2f2ed9b29c7b77bfba0b4d284a" compoundref="d7/d46/a00002" startline="649">icSigCalculatorElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da525c6722c328164b30a28a6b93bac555" compoundref="d7/d46/a00002" startline="645">icSigCLutElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da4b1b08661df62c97b297732003d151b7" compoundref="d7/d46/a00002" startline="643">icSigCurveSetElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daac3a6911b57fc82d82a4e4269d137b96" compoundref="d7/d46/a00002" startline="647">icSigEAcsElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da1acb64bcd4a2d3684202901f7d083783" compoundref="d7/d46/a00002" startline="662">icSigEmissionCLUTElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da0b816b4330815ebb26199c75c04659de" compoundref="d7/d46/a00002" startline="660">icSigEmissionMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daa0cbe6ff4dce28d8f7616e222655777c" compoundref="d7/d46/a00002" startline="664">icSigEmissionObserverElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da80d64e812348e71cb51dabce689af95f" compoundref="d7/d46/a00002" startline="650">icSigExtCLutElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daa42a79edfc2575f28f99164e4ff2896e" compoundref="d7/d46/a00002" startline="661">icSigInvEmissionMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da966ed281a33416c3e9538c0431a0654b" compoundref="d7/d46/a00002" startline="652">icSigJabToXYZElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da9f1d5e498c47af2a0e0be3fa029970fe" compoundref="d7/d46/a00002" startline="644">icSigMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da253dc498efb69180b248d0346768d4f8" compoundref="d7/d46/a00002" startline="663">icSigReflectanceCLUTElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da7ac1d5f56222852e3ffb4290582a7098" compoundref="d7/d46/a00002" startline="665">icSigReflectanceObserverElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da8e07016fec11f23ad244b87c49e47a62" compoundref="d7/d46/a00002" startline="654">icSigTintArrayElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da64e8170ba88c00d11399469b3e5146f4" compoundref="d7/d46/a00002" startline="657">icSigToneMapElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da8eabe39cdaa93980c8d1a8874425b697" compoundref="d7/d46/a00002" startline="651">icSigXYZToJabElemType</references>
+      </memberdef>
+      <memberdef kind="function" id="d3/dac/a01777_1a64042bec78759254edfcd11dd8d2f987" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccMpeXmlFactory::GetElementSigName</definition>
+        <argsstring>(std::string &amp;elemName, icElemTypeSignature elemTypeSig)</argsstring>
+        <name>GetElementSigName</name>
+        <qualifiedname>CIccMpeXmlFactory::GetElementSigName</qualifiedname>
+        <reimplements refid="da/d20/a01689_1aab3a1365474e7deb94027d2253ef24ab">GetElementSigName</reimplements>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>elemName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elemTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetElementSigName(elemTypeSig) Get display name of elemTypeSig.</para>
+<para>Parameter(s): elemName = string to put element name into, elemTypeSig = signature of the ICC element type to get a name for</para>
+<para>Returns true if element type is recognized by the factory, false if the factory doesn&apos;t create elemTypeSig elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXmlFactory.h" line="131" column="16" bodyfile="IccXML/IccLibXML/IccMpeXmlFactory.cpp" bodystart="134" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d3/dac/a01777" kindref="compound">CIccMpeXmlFactory</ref></para>
+<para>Purpose: <ref refid="d3/dac/a01777" kindref="compound">CIccMpeXmlFactory</ref> provides creation of CIccProcessElement&apos;s defined by the ICC profile specification. The <ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref> always creates a CIccBasicElemFactory. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccMpeXmlFactory</label>
+        <link refid="d3/dac/a01777"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccMpeFactory</label>
+        <link refid="da/d20/a01689"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccMpeXmlFactory</label>
+        <link refid="d3/dac/a01777"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccMpeFactory</label>
+        <link refid="da/d20/a01689"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccXML/IccLibXML/IccMpeXmlFactory.h" line="105" column="1" bodyfile="IccXML/IccLibXML/IccMpeXmlFactory.h" bodystart="106" bodyend="132"/>
+    <listofallmembers>
+      <member refid="d3/dac/a01777_1a9e7908b3de364dc9ddc9ce5c2013bb5d" prot="public" virt="virtual"><scope>CIccMpeXmlFactory</scope><name>CreateElement</name></member>
+      <member refid="d3/dac/a01777_1a64042bec78759254edfcd11dd8d2f987" prot="public" virt="virtual"><scope>CIccMpeXmlFactory</scope><name>GetElementSigName</name></member>
+      <member refid="da/d20/a01689_1a07b0583f06dd69f09793e1be4dc490c0" prot="public" virt="virtual"><scope>CIccMpeXmlFactory</scope><name>~IIccMpeFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

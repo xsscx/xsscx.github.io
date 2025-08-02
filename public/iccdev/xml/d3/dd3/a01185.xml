@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/dd3/a01185" kind="class" language="C++" prot="public">
+    <compoundname>CIccApplyMpePtr</compoundname>
+    <includes refid="d7/d25/a00182" local="no">IccTagMPE.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/dd3/a01185_1a5ce7dd55861ff90ac012157d027f3cfd" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/d10/a01197" kindref="compound">CIccApplyMpe</ref> *</type>
+        <definition>CIccApplyMpe* CIccApplyMpePtr::ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <qualifiedname>CIccApplyMpePtr::ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="126" column="16" bodyfile="IccProfLib/IccTagMPE.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="de/d04/a01209_1a2d8d81260d3c8c4c748e71a0e08c49d1" compoundref="dc/d87/a00032" startline="639" endline="650">CIccApplyTagMpe::~CIccApplyTagMpe</referencedby>
+        <referencedby refid="de/d04/a01209_1a5e064cd8063068d514afdc4bce6b72ca" compoundref="dc/d87/a00032" startline="663" endline="682">CIccApplyTagMpe::AppendElem</referencedby>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+        <referencedby refid="df/d91/a00335_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="df/d91/a00335" startline="86" endline="231">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>CIccApplyMpe</label>
+        <link refid="d4/d10/a01197"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_pApplyTag</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>m_pElem</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccApplyMpePtr</label>
+        <link refid="d3/dd3/a01185"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccApplyTagMpe</label>
+        <link refid="de/d04/a01209"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_pTag</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>m_applyBuf</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccDblPixelBuffer</label>
+        <link refid="de/d61/a01205"/>
+      </node>
+      <node id="10">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+      <node id="5">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="4">
+        <label>CIccTagMultiProcessElement</label>
+        <link refid="d5/d54/a01213"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_pAppliedPCC</edgelabel>
+          <edgelabel>m_pProfilePCC</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_pCmmEnvVarLookup</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IIccCmmEnvVarLookup</label>
+        <link refid="dd/d07/a00433"/>
+      </node>
+      <node id="7">
+        <label>IIccProfileConnectionConditions</label>
+        <link refid="db/d18/a00885"/>
+      </node>
+      <node id="6">
+        <label>icPositionNumber</label>
+        <link refid="d8/d6e/a00537"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagMPE.h" line="123" column="1" bodyfile="IccProfLib/IccTagMPE.h" bodystart="124" bodyend="127"/>
+    <listofallmembers>
+      <member refid="d3/dd3/a01185_1a5ce7dd55861ff90ac012157d027f3cfd" prot="public" virt="non-virtual"><scope>CIccApplyMpePtr</scope><name>ptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

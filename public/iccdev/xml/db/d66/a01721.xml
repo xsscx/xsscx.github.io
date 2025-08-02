@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d66/a01721" kind="class" language="C++" prot="public">
+    <compoundname>CIccStructCreator</compoundname>
+    <includes refid="d1/d44/a00098" local="no">IccStructFactory.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/d66/a01721_1a68bd4f54b05cc7318bede7024db16d11" prot="private" static="yes" mutable="no">
+        <type><ref refid="d1/d44/a00098_1a4f158d4456f74d9f08aa38ff4b0cad78" kindref="member">CIccStructCreatorPtr</ref></type>
+        <definition>std::unique_ptr&lt; CIccStructCreator &gt; CIccStructCreator::theStructCreator</definition>
+        <argsstring></argsstring>
+        <name>theStructCreator</name>
+        <qualifiedname>CIccStructCreator::theStructCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="327" column="31" bodyfile="IccProfLib/IccStructFactory.h" bodystart="327" bodyend="-1"/>
+        <referencedby refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" compoundref="d5/df9/a00044" startline="175" endline="184">GetInstance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d66/a01721_1aabbe278d8b94bcf950c0c03d2f91bf79" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d44/a00098_1ab580b6aaec21aad8b02af2466bb55311" kindref="member">CIccStructFactoryList</ref></type>
+        <definition>CIccStructFactoryList CIccStructCreator::factoryStack</definition>
+        <argsstring></argsstring>
+        <name>factoryStack</name>
+        <qualifiedname>CIccStructCreator::factoryStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="329" column="25" bodyfile="IccProfLib/IccStructFactory.h" bodystart="329" bodyend="-1"/>
+        <referencedby refid="db/d66/a01721_1add0e6225e86cd1c1cd34d8deb056ad3f" compoundref="d5/df9/a00044" startline="186" endline="197">DoCreateStruct</referencedby>
+        <referencedby refid="db/d66/a01721_1a760e96cddc9aa96ca696f72b460e1ce0" compoundref="d5/df9/a00044" startline="211" endline="222">DoGetStructSig</referencedby>
+        <referencedby refid="db/d66/a01721_1add6088cc07b329457d7127a584ff15e2" compoundref="d5/df9/a00044" startline="199" endline="209">DoGetStructSigName</referencedby>
+        <referencedby refid="db/d66/a01721_1a3e29ccdab71f875e4a022af9d66ac59b" compoundref="d5/df9/a00044" startline="229" endline="238">DoPopFactory</referencedby>
+        <referencedby refid="db/d66/a01721_1ac81b15ac8898a38de73c68bc5ec72239" compoundref="d5/df9/a00044" startline="224" endline="227">DoPushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d66/a01721_1aaba7fdc7051bf79e2d4e4c2189662c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccStructCreator::~CIccStructCreator</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccStructCreator</name>
+        <qualifiedname>CIccStructCreator::~CIccStructCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="222" column="3" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="165" bodyend="173"/>
+        <references refid="db/d66/a01721_1a3e29ccdab71f875e4a022af9d66ac59b" compoundref="d5/df9/a00044" startline="229" endline="238">DoPopFactory</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d66/a01721_1aa26f773b9e55762e47809c25d37e50a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dc3/a00453" kindref="compound">IIccStruct</ref> *</type>
+        <definition>static IIccStruct * CIccStructCreator::CreateStruct</definition>
+        <argsstring>(icStructSignature structTypeSig, CIccTagStruct *pTagStruct)</argsstring>
+        <name>CreateStruct</name>
+        <qualifiedname>CIccStructCreator::CreateStruct</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+          <declname>structTypeSig</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+          <declname>pTagStruct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateStruct(structTypeSig) Create a element of type structTypeSig.</para>
+<para>Parameter(s): structTypeSig = signature of the ICC element type for the element to be created</para>
+<para>Returns a new CIccProcessStruct object of the given signature type. Each factory in the factoryStack is used until a factory supports the signature type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="236" column="21" bodyfile="IccProfLib/IccStructFactory.h" bodystart="236" bodyend="237"/>
+        <references refid="db/d66/a01721_1add0e6225e86cd1c1cd34d8deb056ad3f" compoundref="d5/df9/a00044" startline="186" endline="197">DoCreateStruct</references>
+        <references refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" compoundref="d5/df9/a00044" startline="175" endline="184">GetInstance</references>
+        <referencedby refid="d5/d5f/a00461_1a2e25328a4c9d9fc7bc9149fb7bd6f718" compoundref="d5/dcb/a00170" startline="308" endline="333">CIccTagStruct::Describe</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a808fe30ec0d5d5fa13ba5286477e15b1" compoundref="d5/dcb/a00170" startline="973" endline="980">CIccTagStruct::GetStructHandler</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a433e2d1d948f2a08e2e33722a8a08f13" compoundref="d5/dcb/a00170" startline="259" endline="268">CIccTagStruct::SetTagStructType</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1a6901dae2bde9e2a58801a95505d64670" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+        <definition>static icStructSignature CIccStructCreator::GetStructSig</definition>
+        <argsstring>(const icChar *structName)</argsstring>
+        <name>GetStructSig</name>
+        <qualifiedname>CIccStructCreator::GetStructSig</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>structName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetStructSig(structName) Get signature of structure from display name.</para>
+<para>Parameter(s): structName = struct display name</para>
+<para>Returns signature of structure if it is recognized by any factory, 0 if the all the factories don&apos;t create a structure with such a display name. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="266" column="28" bodyfile="IccProfLib/IccStructFactory.h" bodystart="266" bodyend="269"/>
+        <references refid="db/d66/a01721_1a760e96cddc9aa96ca696f72b460e1ce0" compoundref="d5/df9/a00044" startline="211" endline="222">DoGetStructSig</references>
+        <references refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" compoundref="d5/df9/a00044" startline="175" endline="184">GetInstance</references>
+        <referencedby refid="db/d49/a01969_1a4bf99f4ff03849bb6c1a13c7967aeb6c" compoundref="d0/d27/a00239" startline="4669" endline="4732">CIccTagXmlStruct::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1a08a0cc8a9db573c04cb4e7ace7eb4e34" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CIccStructCreator::GetStructSigName</definition>
+        <argsstring>(std::string &amp;structName, icStructSignature structTypeSig, bool bFillUnknown=true)</argsstring>
+        <name>GetStructSigName</name>
+        <qualifiedname>CIccStructCreator::GetStructSigName</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>structName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+          <declname>structTypeSig</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bFillUnknown</declname>
+          <defval><ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetStructSigName(structTypeSig) Get display name of structTypeSig.</para>
+<para>Parameter(s): structName = string to put struct name into structTypeSig = signature of the ICC struct type to get a name for bFillUnknown = flag to indicate structName is filled if not found</para>
+<para>Returns true if struct type is recognized by any factory, false if all factories do not create structTypeSig structs. If struct type is not recognized by any factories a suitable display name will be placed in structName if bFillUknown is true. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="253" column="15" bodyfile="IccProfLib/IccStructFactory.h" bodystart="253" bodyend="254"/>
+        <references refid="db/d66/a01721_1add6088cc07b329457d7127a584ff15e2" compoundref="d5/df9/a00044" startline="199" endline="209">DoGetStructSigName</references>
+        <references refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" compoundref="d5/df9/a00044" startline="175" endline="184">GetInstance</references>
+        <referencedby refid="d5/d5f/a00461_1a2e25328a4c9d9fc7bc9149fb7bd6f718" compoundref="d5/dcb/a00170" startline="308" endline="333">CIccTagStruct::Describe</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a19d253176227bcad2ce11b5ead07ff67" compoundref="d5/db1/a00140" startline="1504" endline="1510">CIccInfo::GetStructSigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1af72dc632d7d7565c7640365b782f39ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d2/d0c/a01713" kindref="compound">IIccStructFactory</ref> *</type>
+        <definition>static IIccStructFactory * CIccStructCreator::PopFactory</definition>
+        <argsstring>()</argsstring>
+        <name>PopFactory</name>
+        <qualifiedname>CIccStructCreator::PopFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="db/d66/a01721_1af72dc632d7d7565c7640365b782f39ee" kindref="member">PopFactory()</ref> Remove the top <ref refid="d2/d0c/a01713" kindref="compound">IIccStructFactory</ref> from the stack of element factories tracked by the system.</para>
+<para>Parameter(s): None</para>
+<para>Returns the top <ref refid="d2/d0c/a01713" kindref="compound">IIccStructFactory</ref> from the stack of element factories tracked by the system. The returned element factory is no longer owned by the system and needs to be deleted to avoid memory leaks.</para>
+<para>Note: The initial CIccBasicElemFactory cannot be popped off the stack. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="301" column="28" bodyfile="IccProfLib/IccStructFactory.h" bodystart="301" bodyend="302"/>
+        <references refid="db/d66/a01721_1a3e29ccdab71f875e4a022af9d66ac59b" compoundref="d5/df9/a00044" startline="229" endline="238">DoPopFactory</references>
+        <references refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" compoundref="d5/df9/a00044" startline="175" endline="184">GetInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1ae9eaff479646a669968015985a75b92b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CIccStructCreator::PushFactory</definition>
+        <argsstring>(IIccStructFactory *pFactory)</argsstring>
+        <name>PushFactory</name>
+        <qualifiedname>CIccStructCreator::PushFactory</qualifiedname>
+        <param>
+          <type><ref refid="d2/d0c/a01713" kindref="compound">IIccStructFactory</ref> *</type>
+          <declname>pFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: PushFactory(pFactory) Add an <ref refid="d2/d0c/a01713" kindref="compound">IIccStructFactory</ref> to the stack of element factories tracked by the system.</para>
+<para>Parameter(s): pFactory = pointer to an <ref refid="d2/d0c/a01713" kindref="compound">IIccStructFactory</ref> object to add to the system. The pFactory must be created with new, and will be owned <ref refid="db/d66/a01721" kindref="compound">CIccStructCreator</ref> until popped off the stack using <ref refid="db/d66/a01721_1af72dc632d7d7565c7640365b782f39ee" kindref="member">PopFactory()</ref>. Any factories not popped off will be taken care of properly on application shutdown. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="284" column="15" bodyfile="IccProfLib/IccStructFactory.h" bodystart="284" bodyend="285"/>
+        <references refid="db/d66/a01721_1ac81b15ac8898a38de73c68bc5ec72239" compoundref="d5/df9/a00044" startline="224" endline="227">DoPushFactory</references>
+        <references refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" compoundref="d5/df9/a00044" startline="175" endline="184">GetInstance</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/d66/a01721_1a4ad84cec8d37e96cf29a8335b3db3087" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccStructCreator::CIccStructCreator</definition>
+        <argsstring>()</argsstring>
+        <name>CIccStructCreator</name>
+        <qualifiedname>CIccStructCreator::CIccStructCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only <ref refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" kindref="member">GetInstance()</ref> can create the singleton </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="306" column="3" bodyfile="IccProfLib/IccStructFactory.h" bodystart="306" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1add0e6225e86cd1c1cd34d8deb056ad3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/dc3/a00453" kindref="compound">IIccStruct</ref> *</type>
+        <definition>IIccStruct * CIccStructCreator::DoCreateStruct</definition>
+        <argsstring>(icStructSignature structTypeSig, CIccTagStruct *pTagStruct=NULL)</argsstring>
+        <name>DoCreateStruct</name>
+        <qualifiedname>CIccStructCreator::DoCreateStruct</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+          <declname>structTypeSig</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+          <declname>pTagStruct</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="321" column="14" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="186" bodyend="197"/>
+        <references refid="d2/d0c/a01713_1a4cce11992b77e940453c521cd7717d72">IIccStructFactory::CreateStruct</references>
+        <references refid="db/d66/a01721_1aabbe278d8b94bcf950c0c03d2f91bf79" compoundref="d1/d44/a00098" startline="329">factoryStack</references>
+        <referencedby refid="db/d66/a01721_1aa26f773b9e55762e47809c25d37e50a1" compoundref="d1/d44/a00098" startline="236" endline="237">CreateStruct</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1a760e96cddc9aa96ca696f72b460e1ce0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+        <definition>icStructSignature CIccStructCreator::DoGetStructSig</definition>
+        <argsstring>(const char *structName)</argsstring>
+        <name>DoGetStructSig</name>
+        <qualifiedname>CIccStructCreator::DoGetStructSig</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>structName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="323" column="21" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="211" bodyend="222"/>
+        <references refid="db/d66/a01721_1aabbe278d8b94bcf950c0c03d2f91bf79" compoundref="d1/d44/a00098" startline="329">factoryStack</references>
+        <references refid="d2/d0c/a01713_1ab73f17fe1f352db0465796b5b63e8955">IIccStructFactory::GetStructSig</references>
+        <referencedby refid="db/d66/a01721_1a6901dae2bde9e2a58801a95505d64670" compoundref="d1/d44/a00098" startline="266" endline="269">GetStructSig</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1add6088cc07b329457d7127a584ff15e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccStructCreator::DoGetStructSigName</definition>
+        <argsstring>(std::string &amp;structName, icStructSignature structTypeSig, bool bFillUnknown=true)</argsstring>
+        <name>DoGetStructSigName</name>
+        <qualifiedname>CIccStructCreator::DoGetStructSigName</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>structName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+          <declname>structTypeSig</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bFillUnknown</declname>
+          <defval><ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="322" column="8" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="199" bodyend="209"/>
+        <references refid="db/d66/a01721_1aabbe278d8b94bcf950c0c03d2f91bf79" compoundref="d1/d44/a00098" startline="329">factoryStack</references>
+        <references refid="d2/d0c/a01713_1abbf2f6b96c8d55e2e42075bfdb8bb7a6">IIccStructFactory::GetStructSigName</references>
+        <referencedby refid="db/d66/a01721_1a08a0cc8a9db573c04cb4e7ace7eb4e34" compoundref="d1/d44/a00098" startline="253" endline="254">GetStructSigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1a3e29ccdab71f875e4a022af9d66ac59b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d2/d0c/a01713" kindref="compound">IIccStructFactory</ref> *</type>
+        <definition>IIccStructFactory * CIccStructCreator::DoPopFactory</definition>
+        <argsstring>(bool bAll=false)</argsstring>
+        <name>DoPopFactory</name>
+        <qualifiedname>CIccStructCreator::DoPopFactory</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>bAll</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="325" column="21" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="229" bodyend="238"/>
+        <references refid="db/d66/a01721_1aabbe278d8b94bcf950c0c03d2f91bf79" compoundref="d1/d44/a00098" startline="329">factoryStack</references>
+        <referencedby refid="db/d66/a01721_1aaba7fdc7051bf79e2d4e4c2189662c71" compoundref="d5/df9/a00044" startline="165" endline="173">~CIccStructCreator</referencedby>
+        <referencedby refid="db/d66/a01721_1af72dc632d7d7565c7640365b782f39ee" compoundref="d1/d44/a00098" startline="301" endline="302">PopFactory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d66/a01721_1ac81b15ac8898a38de73c68bc5ec72239" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccStructCreator::DoPushFactory</definition>
+        <argsstring>(IIccStructFactory *pFactory)</argsstring>
+        <name>DoPushFactory</name>
+        <qualifiedname>CIccStructCreator::DoPushFactory</qualifiedname>
+        <param>
+          <type><ref refid="d2/d0c/a01713" kindref="compound">IIccStructFactory</ref> *</type>
+          <declname>pFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="324" column="8" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="224" bodyend="227"/>
+        <references refid="db/d66/a01721_1aabbe278d8b94bcf950c0c03d2f91bf79" compoundref="d1/d44/a00098" startline="329">factoryStack</references>
+        <referencedby refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" compoundref="d5/df9/a00044" startline="175" endline="184">GetInstance</referencedby>
+        <referencedby refid="db/d66/a01721_1ae9eaff479646a669968015985a75b92b" compoundref="d1/d44/a00098" startline="284" endline="285">PushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/d66/a01721" kindref="compound">CIccStructCreator</ref> *</type>
+        <definition>CIccStructCreator * CIccStructCreator::GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <qualifiedname>CIccStructCreator::GetInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" kindref="member">GetInstance()</ref> Private static function to access singleton CiccStructCreator Object.</para>
+<para>Parameter(s): None</para>
+<para>Returns the singleton <ref refid="db/d66/a01721" kindref="compound">CIccStructCreator</ref> object. It will allocate a new one and push a single CIccSpecStruct Factory object onto the factory stack if the singleton has not been intialized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="319" column="28" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="175" bodyend="184"/>
+        <references refid="db/d66/a01721_1ac81b15ac8898a38de73c68bc5ec72239" compoundref="d5/df9/a00044" startline="224" endline="227">DoPushFactory</references>
+        <references refid="db/d66/a01721_1a68bd4f54b05cc7318bede7024db16d11" compoundref="d1/d44/a00098" startline="327">theStructCreator</references>
+        <referencedby refid="db/d66/a01721_1aa26f773b9e55762e47809c25d37e50a1" compoundref="d1/d44/a00098" startline="236" endline="237">CreateStruct</referencedby>
+        <referencedby refid="db/d66/a01721_1a6901dae2bde9e2a58801a95505d64670" compoundref="d1/d44/a00098" startline="266" endline="269">GetStructSig</referencedby>
+        <referencedby refid="db/d66/a01721_1a08a0cc8a9db573c04cb4e7ace7eb4e34" compoundref="d1/d44/a00098" startline="253" endline="254">GetStructSigName</referencedby>
+        <referencedby refid="db/d66/a01721_1af72dc632d7d7565c7640365b782f39ee" compoundref="d1/d44/a00098" startline="301" endline="302">PopFactory</referencedby>
+        <referencedby refid="db/d66/a01721_1ae9eaff479646a669968015985a75b92b" compoundref="d1/d44/a00098" startline="284" endline="285">PushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="db/d66/a01721" kindref="compound">CIccStructCreator</ref></para>
+<para>Purpose: <ref refid="db/d66/a01721" kindref="compound">CIccStructCreator</ref> uses a singleton pattern to provide dynamically upgradeable IIccStructObject derived object creation based on element signature. </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccStructFactory.h" line="219" column="1" bodyfile="IccProfLib/IccStructFactory.h" bodystart="220" bodyend="330"/>
+    <listofallmembers>
+      <member refid="db/d66/a01721_1a4ad84cec8d37e96cf29a8335b3db3087" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>CIccStructCreator</name></member>
+      <member refid="db/d66/a01721_1aa26f773b9e55762e47809c25d37e50a1" prot="public" virt="non-virtual"><scope>CIccStructCreator</scope><name>CreateStruct</name></member>
+      <member refid="db/d66/a01721_1add0e6225e86cd1c1cd34d8deb056ad3f" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>DoCreateStruct</name></member>
+      <member refid="db/d66/a01721_1a760e96cddc9aa96ca696f72b460e1ce0" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>DoGetStructSig</name></member>
+      <member refid="db/d66/a01721_1add6088cc07b329457d7127a584ff15e2" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>DoGetStructSigName</name></member>
+      <member refid="db/d66/a01721_1a3e29ccdab71f875e4a022af9d66ac59b" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>DoPopFactory</name></member>
+      <member refid="db/d66/a01721_1ac81b15ac8898a38de73c68bc5ec72239" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>DoPushFactory</name></member>
+      <member refid="db/d66/a01721_1aabbe278d8b94bcf950c0c03d2f91bf79" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>factoryStack</name></member>
+      <member refid="db/d66/a01721_1a4ca803bb86035553f73b3d87c3102544" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>GetInstance</name></member>
+      <member refid="db/d66/a01721_1a6901dae2bde9e2a58801a95505d64670" prot="public" virt="non-virtual"><scope>CIccStructCreator</scope><name>GetStructSig</name></member>
+      <member refid="db/d66/a01721_1a08a0cc8a9db573c04cb4e7ace7eb4e34" prot="public" virt="non-virtual"><scope>CIccStructCreator</scope><name>GetStructSigName</name></member>
+      <member refid="db/d66/a01721_1af72dc632d7d7565c7640365b782f39ee" prot="public" virt="non-virtual"><scope>CIccStructCreator</scope><name>PopFactory</name></member>
+      <member refid="db/d66/a01721_1ae9eaff479646a669968015985a75b92b" prot="public" virt="non-virtual"><scope>CIccStructCreator</scope><name>PushFactory</name></member>
+      <member refid="db/d66/a01721_1a68bd4f54b05cc7318bede7024db16d11" prot="private" virt="non-virtual"><scope>CIccStructCreator</scope><name>theStructCreator</name></member>
+      <member refid="db/d66/a01721_1aaba7fdc7051bf79e2d4e4c2189662c71" prot="public" virt="non-virtual"><scope>CIccStructCreator</scope><name>~CIccStructCreator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d53/a01645" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccMatrixInverter</compoundname>
+    <derivedcompoundref refid="d1/da7/a01709" prot="public" virt="non-virtual">CIccSimpleMatrixInverter</derivedcompoundref>
+    <includes refid="d3/d52/a00023" local="no">IccSolve.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d53/a01645_1a55c8cab2153e17ac692ad9f6dfb11bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool IIccMatrixInverter::Invert</definition>
+        <argsstring>(icFloatNumber *dMatrix, icUInt16Number nRows, icUInt16Number nCols)=0</argsstring>
+        <name>Invert</name>
+        <qualifiedname>IIccMatrixInverter::Invert</qualifiedname>
+        <reimplementedby refid="d1/da7/a01709_1ae8ec7b4950a1b7c37f6b5579af1b697a">Invert</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>dMatrix</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nRows</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nCols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Member Function: Invert</para>
+<para>Purpose: Invert a square matrix</para>
+<para>Parameters: -dMatrix is a matrix (M) with nRows x nCols entries -nRows is number of rows in matrix -nCols is number of columns in matrix</para>
+<para>Return: true if matrix was inverted or false if not possible. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.h" line="166" column="16"/>
+        <referencedby refid="d8/d45/a02021_1a1548b3217cbe964eab8e5bfff32af85b" compoundref="dd/dd7/a00260" startline="1236" endline="1278">CIccMpeXmlMatrix::ParseXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure: <ref refid="d7/d53/a01645" kindref="compound">IIccMatrixInverter</ref></para>
+<para>Purpose: Define an interface for allowing external implementation of matrix inversion </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccSimpleMatrixInverter</label>
+        <link refid="d1/da7/a01709"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccMatrixInverter</label>
+        <link refid="d7/d53/a01645"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccSolve.h" line="148" column="1" bodyfile="IccProfLib/IccSolve.h" bodystart="149" bodyend="167"/>
+    <listofallmembers>
+      <member refid="d7/d53/a01645_1a55c8cab2153e17ac692ad9f6dfb11bd0" prot="public" virt="pure-virtual"><scope>IIccMatrixInverter</scope><name>Invert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

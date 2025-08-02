@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d9/d9b/a02310" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>IccFromXml</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`IccFromXml`<sp/>is<sp/>a<sp/>command-line<sp/>tool<sp/>that<sp/>converts<sp/>ICC<sp/>profile<sp/>XML<sp/>representations<sp/>into<sp/>binary<sp/>ICC<sp/>profiles.<sp/>It<sp/>supports<sp/>validation<sp/>against<sp/>RELAX<sp/>NG<sp/>schemas<sp/>and<sp/>preserves<sp/>profile<sp/>metadata<sp/>including<sp/>profile<sp/>IDs.<sp/>This<sp/>tool<sp/>is<sp/>essential<sp/>for<sp/>ICC<sp/>profile<sp/>developers<sp/>working<sp/>with<sp/>XML<sp/>interchange<sp/>formats.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Converts<sp/>`.xml`<sp/>to<sp/>binary<sp/>ICC<sp/>profile<sp/>files</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Validates<sp/>XML<sp/>using<sp/>RELAX<sp/>NG<sp/>schema<sp/>(optional)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>`-noid`<sp/>to<sp/>skip<sp/>profile<sp/>ID<sp/>writing</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Reports<sp/>validation<sp/>warnings<sp/>and<sp/>errors</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Auto-locates<sp/>`SampleIccRELAX.rng`<sp/>schema<sp/>if<sp/>not<sp/>provided</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Compatible<sp/>with<sp/>ICC.1<sp/>and<sp/>ICC.2<sp/>profile<sp/>structures</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">IccFromXml<sp/>input.xml<sp/>output.icc<sp/>{-noid<sp/>-v[=schema.rng]}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Parameters</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`input.xml`:<sp/>The<sp/>ICC<sp/>profile<sp/>XML<sp/>file</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`output.icc`:<sp/>The<sp/>output<sp/>ICC<sp/>binary<sp/>profile</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`-noid`:<sp/>Prevents<sp/>writing<sp/>a<sp/>profile<sp/>ID<sp/>(optional)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`-v[=schema.rng]`:<sp/>Enables<sp/>validation<sp/>using<sp/>optional<sp/>RELAX<sp/>NG<sp/>schema</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Behavior</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>If<sp/>`-v`<sp/>is<sp/>used<sp/>without<sp/>a<sp/>schema<sp/>file,<sp/>the<sp/>tool<sp/>looks<sp/>for<sp/>`SampleIccRELAX.rng`<sp/>in<sp/>the<sp/>current<sp/>directory.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>If<sp/>validation<sp/>fails<sp/>but<sp/>parsing<sp/>succeeds,<sp/>the<sp/>profile<sp/>is<sp/>still<sp/>saved<sp/>and<sp/>marked<sp/>as<sp/>invalid.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Profile<sp/>ID<sp/>is<sp/>handled<sp/>based<sp/>on<sp/>content<sp/>unless<sp/>`-noid`<sp/>is<sp/>used:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`icNeverWriteID`,<sp/>`icAlwaysWriteID`,<sp/>or<sp/>`icVersionBasedID`<sp/>depending<sp/>on<sp/>header<sp/>state</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Output</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Console<sp/>status<sp/>messages<sp/>including:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Parsing<sp/>success<sp/>or<sp/>failure</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Validation<sp/>report<sp/>(if<sp/>applicable)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Save<sp/>status</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">IccFromXml<sp/>DisplayProfile.xml<sp/>DisplayProfile.icc<sp/>-v=SampleIccRELAX.rng</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Initial<sp/>version<sp/>by<sp/>Max<sp/>Derhak</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Validation<sp/>enhancements<sp/>and<sp/>ID<sp/>control<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)</highlight></codeline>
+    </programlisting>
+    <location file="IccXML/CmdLine/IccFromXml/Readme.md"/>
+  </compounddef>
+</doxygen>

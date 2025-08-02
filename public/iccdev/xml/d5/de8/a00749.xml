@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d5/de8/a00749" kind="struct" language="C++" prot="public">
+    <compoundname>icViewingConditionType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/de8/a00749_1adf2f66f492627c2eb366c3990b637854" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icViewingConditionType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icViewingConditionType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1956" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1956" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/de8/a00749_1a0c97a2f823e214a4593f87c88257a7f4" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d1d/a00633" kindref="compound">icViewingCondition</ref></type>
+        <definition>icViewingCondition icViewingConditionType::view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <qualifiedname>icViewingConditionType::view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1957" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1957" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>viewingConditionsType </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+      <node id="3">
+        <label>icViewingCondition</label>
+        <link refid="d9/d1d/a00633"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>illuminant</edgelabel>
+          <edgelabel>surround</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>icViewingConditionType</label>
+        <link refid="d5/de8/a00749"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>icXYZNumber</label>
+        <link refid="d8/dc7/a00517"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1955" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1955" bodyend="1958"/>
+    <listofallmembers>
+      <member refid="d5/de8/a00749_1adf2f66f492627c2eb366c3990b637854" prot="public" virt="non-virtual"><scope>icViewingConditionType</scope><name>base</name></member>
+      <member refid="d5/de8/a00749_1a0c97a2f823e214a4593f87c88257a7f4" prot="public" virt="non-virtual"><scope>icViewingConditionType</scope><name>view</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

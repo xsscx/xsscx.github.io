@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d4/d53/a00429" kind="class" language="C++" prot="public">
+    <compoundname>CIccPixelBuf</compoundname>
+    <includes refid="d7/dce/a00143" local="no">IccUtil.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d4/d53/a00429_1a6d6b2a424772f3b9ad702aef70adc138" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccPixelBuf::m_buf[icDefaultPixelBufSize]</definition>
+        <argsstring>[icDefaultPixelBufSize]</argsstring>
+        <name>m_buf</name>
+        <qualifiedname>CIccPixelBuf::m_buf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="386" column="17" bodyfile="IccProfLib/IccUtil.h" bodystart="386" bodyend="-1"/>
+        <referencedby refid="d4/d53/a00429_1a913e7eb5f85235f9df5fcc1c0835d09a" compoundref="d5/db1/a00140" startline="2596" endline="2604">CIccPixelBuf</referencedby>
+        <referencedby refid="d4/d53/a00429_1a65947b1f68b1376483dd45ce4af7897d" compoundref="d5/db1/a00140" startline="2606" endline="2610">~CIccPixelBuf</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d53/a00429_1a72d57b8eae10c4f731855f30708da9cf" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CIccPixelBuf::m_pixel</definition>
+        <argsstring></argsstring>
+        <name>m_pixel</name>
+        <qualifiedname>CIccPixelBuf::m_pixel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="387" column="17" bodyfile="IccProfLib/IccUtil.h" bodystart="387" bodyend="-1"/>
+        <referencedby refid="d4/d53/a00429_1a65947b1f68b1376483dd45ce4af7897d" compoundref="d5/db1/a00140" startline="2606" endline="2610">~CIccPixelBuf</referencedby>
+        <referencedby refid="d4/d53/a00429_1aa0757174f235f13c4e8a5a28f239d428" compoundref="d7/dce/a00143" startline="380" endline="380">get</referencedby>
+        <referencedby refid="d4/d53/a00429_1a915ad7f8fd8924d29d0f28a0188fea88" compoundref="d7/dce/a00143" startline="382" endline="382">operator icFloatNumber *</referencedby>
+        <referencedby refid="d4/d53/a00429_1a4f37887893093cb3a26c76dc268b048c" compoundref="d7/dce/a00143" startline="383" endline="383">operator void *</referencedby>
+        <referencedby refid="d4/d53/a00429_1a01be9601e6d7b3f86d9e58be12af03cc" compoundref="d7/dce/a00143" startline="379" endline="379">operator[]</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d53/a00429_1a913e7eb5f85235f9df5fcc1c0835d09a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccPixelBuf::CIccPixelBuf</definition>
+        <argsstring>(int nChan=icDefaultPixelBufSize)</argsstring>
+        <name>CIccPixelBuf</name>
+        <qualifiedname>CIccPixelBuf::CIccPixelBuf</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nChan</declname>
+          <defval><ref refid="d7/dce/a00143_1a78614c68d8600a251ffd2c9b3a1f5ee6" kindref="member">icDefaultPixelBufSize</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="377" column="3" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2596" bodyend="2604"/>
+        <references refid="d4/d53/a00429_1a6d6b2a424772f3b9ad702aef70adc138" compoundref="d7/dce/a00143" startline="386">m_buf</references>
+        <referencedby refid="d8/db2/a02125_1a16c5c855a20c0ed7793ad0492891b95b" compoundref="d8/d23/a00326" startline="979" endline="1061">CIccCfgColorData::fromLegacy</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/d53/a00429_1a65947b1f68b1376483dd45ce4af7897d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccPixelBuf::~CIccPixelBuf</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccPixelBuf</name>
+        <qualifiedname>CIccPixelBuf::~CIccPixelBuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="378" column="3" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2606" bodyend="2610"/>
+        <references refid="d4/d53/a00429_1a6d6b2a424772f3b9ad702aef70adc138" compoundref="d7/dce/a00143" startline="386">m_buf</references>
+        <references refid="d4/d53/a00429_1a72d57b8eae10c4f731855f30708da9cf" compoundref="d7/dce/a00143" startline="387">m_pixel</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/d53/a00429_1aa0757174f235f13c4e8a5a28f239d428" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CIccPixelBuf::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>CIccPixelBuf::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="380" column="17" bodyfile="IccProfLib/IccUtil.h" bodystart="380" bodyend="380"/>
+        <references refid="d4/d53/a00429_1a72d57b8eae10c4f731855f30708da9cf" compoundref="d7/dce/a00143" startline="387">m_pixel</references>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/d53/a00429_1a915ad7f8fd8924d29d0f28a0188fea88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccPixelBuf::operator icFloatNumber *</definition>
+        <argsstring>()</argsstring>
+        <name>operator icFloatNumber *</name>
+        <qualifiedname>CIccPixelBuf::operator icFloatNumber *</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="382" column="3" bodyfile="IccProfLib/IccUtil.h" bodystart="382" bodyend="382"/>
+        <references refid="d4/d53/a00429_1a72d57b8eae10c4f731855f30708da9cf" compoundref="d7/dce/a00143" startline="387">m_pixel</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/d53/a00429_1a4f37887893093cb3a26c76dc268b048c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccPixelBuf::operator void *</definition>
+        <argsstring>()</argsstring>
+        <name>operator void *</name>
+        <qualifiedname>CIccPixelBuf::operator void *</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="383" column="3" bodyfile="IccProfLib/IccUtil.h" bodystart="383" bodyend="383"/>
+        <references refid="d4/d53/a00429_1a72d57b8eae10c4f731855f30708da9cf" compoundref="d7/dce/a00143" startline="387">m_pixel</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/d53/a00429_1a01be9601e6d7b3f86d9e58be12af03cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> &amp;</type>
+        <definition>icFloatNumber &amp; CIccPixelBuf::operator[]</definition>
+        <argsstring>(int nPos)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>CIccPixelBuf::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="379" column="17" bodyfile="IccProfLib/IccUtil.h" bodystart="379" bodyend="379"/>
+        <references refid="d4/d53/a00429_1a72d57b8eae10c4f731855f30708da9cf" compoundref="d7/dce/a00143" startline="387">m_pixel</references>
+        <referencedby refid="d8/db2/a02125_1a16c5c855a20c0ed7793ad0492891b95b" compoundref="d8/d23/a00326" startline="979" endline="1061">CIccCfgColorData::fromLegacy</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IccProfLib/IccUtil.h" line="374" column="1" bodyfile="IccProfLib/IccUtil.h" bodystart="375" bodyend="388"/>
+    <listofallmembers>
+      <member refid="d4/d53/a00429_1a913e7eb5f85235f9df5fcc1c0835d09a" prot="public" virt="non-virtual"><scope>CIccPixelBuf</scope><name>CIccPixelBuf</name></member>
+      <member refid="d4/d53/a00429_1aa0757174f235f13c4e8a5a28f239d428" prot="public" virt="non-virtual"><scope>CIccPixelBuf</scope><name>get</name></member>
+      <member refid="d4/d53/a00429_1a6d6b2a424772f3b9ad702aef70adc138" prot="protected" virt="non-virtual"><scope>CIccPixelBuf</scope><name>m_buf</name></member>
+      <member refid="d4/d53/a00429_1a72d57b8eae10c4f731855f30708da9cf" prot="protected" virt="non-virtual"><scope>CIccPixelBuf</scope><name>m_pixel</name></member>
+      <member refid="d4/d53/a00429_1a915ad7f8fd8924d29d0f28a0188fea88" prot="public" virt="non-virtual"><scope>CIccPixelBuf</scope><name>operator icFloatNumber *</name></member>
+      <member refid="d4/d53/a00429_1a4f37887893093cb3a26c76dc268b048c" prot="public" virt="non-virtual"><scope>CIccPixelBuf</scope><name>operator void *</name></member>
+      <member refid="d4/d53/a00429_1a01be9601e6d7b3f86d9e58be12af03cc" prot="public" virt="non-virtual"><scope>CIccPixelBuf</scope><name>operator[]</name></member>
+      <member refid="d4/d53/a00429_1a65947b1f68b1376483dd45ce4af7897d" prot="public" virt="non-virtual"><scope>CIccPixelBuf</scope><name>~CIccPixelBuf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

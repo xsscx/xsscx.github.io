@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d95/a00757" kind="struct" language="C++" prot="public">
+    <compoundname>icCrdInfoType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d95/a00757_1ab9a6844a8a57b4eaba35a8ccd210f7eb" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icCrdInfoType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icCrdInfoType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1971" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1971" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d95/a00757_1ae35afa1cec750f2d4742b624382c8dd7" prot="public" static="no" mutable="no">
+        <type><ref refid="de/dbb/a00637" kindref="compound">icCrdInfo</ref></type>
+        <definition>icCrdInfo icCrdInfoType::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <qualifiedname>icCrdInfoType::info</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1972" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1972" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>CRDInfoType where [0] is the CRD product name count and string and [1] -[5] are the rendering intents 0-4 counts and strings </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icCrdInfo</label>
+        <link refid="de/dbb/a00637"/>
+      </node>
+      <node id="1">
+        <label>icCrdInfoType</label>
+        <link refid="d3/d95/a00757"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>info</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1970" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1970" bodyend="1973"/>
+    <listofallmembers>
+      <member refid="d3/d95/a00757_1ab9a6844a8a57b4eaba35a8ccd210f7eb" prot="public" virt="non-virtual"><scope>icCrdInfoType</scope><name>base</name></member>
+      <member refid="d3/d95/a00757_1ae35afa1cec750f2d4742b624382c8dd7" prot="public" virt="non-virtual"><scope>icCrdInfoType</scope><name>info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

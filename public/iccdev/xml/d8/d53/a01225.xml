@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/d53/a01225" kind="class" language="C++" prot="public">
+    <compoundname>CIccDictEntry</compoundname>
+    <includes refid="df/d03/a00062" local="no">IccTagDict.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d8/d53/a01225_1ac69df93c447d8c1ce740ea0e41d3985f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CIccDictEntry::m_bValueSet</definition>
+        <argsstring></argsstring>
+        <name>m_bValueSet</name>
+        <qualifiedname>CIccDictEntry::m_bValueSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="132" column="8" bodyfile="IccProfLib/IccTagDict.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" compoundref="dd/dc1/a00212" startline="106" endline="113">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a5d44a1046e09386a5f39d876d1af6f66" compoundref="dd/dc1/a00212" startline="125" endline="145">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a7a54c1f218ec1d5536efe064fd3a3079" compoundref="df/d03/a00062" startline="115" endline="115">IsValueSet</referencedby>
+        <referencedby refid="d8/d53/a01225_1a6509512d63f85c63c15a6c5d827f092a" compoundref="dd/dc1/a00212" startline="157" endline="185">operator=</referencedby>
+        <referencedby refid="d8/d53/a01225_1a590d22405afe4324191a9f2fd18bc68a" compoundref="dd/dc1/a00212" startline="264" endline="271">SetValue</referencedby>
+        <referencedby refid="d8/d53/a01225_1a122a789b9c210fc46bbd4b51fedbf85d" compoundref="df/d03/a00062" startline="121" endline="121">UnsetValue</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" prot="protected" static="no" mutable="no">
+        <type><ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref> *</type>
+        <definition>CIccTagMultiLocalizedUnicode* CIccDictEntry::m_pNameLocalized</definition>
+        <argsstring></argsstring>
+        <name>m_pNameLocalized</name>
+        <qualifiedname>CIccDictEntry::m_pNameLocalized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="134" column="32" bodyfile="IccProfLib/IccTagDict.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" compoundref="dd/dc1/a00212" startline="106" endline="113">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a5d44a1046e09386a5f39d876d1af6f66" compoundref="dd/dc1/a00212" startline="125" endline="145">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a3d8ad702b932bf555fd6aecfbff8aa1f" compoundref="dd/dc1/a00212" startline="197" endline="203">~CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a88d7107091080e5989b396dec2dad1b2" compoundref="dd/dc1/a00212" startline="215" endline="241">Describe</referencedby>
+        <referencedby refid="d8/d53/a01225_1a37412e941af64e01b167585f13e6a5ed" compoundref="df/d03/a00062" startline="118" endline="118">GetNameLocalized</referencedby>
+        <referencedby refid="d8/d53/a01225_1a6509512d63f85c63c15a6c5d827f092a" compoundref="dd/dc1/a00212" startline="157" endline="185">operator=</referencedby>
+        <referencedby refid="d8/d53/a01225_1afca473da03e657763ae4fe93ffa25137" compoundref="dd/dc1/a00212" startline="254" endline="261">PosRecSize</referencedby>
+        <referencedby refid="d8/d53/a01225_1a1a7b44f4eef8b9aec08f0e8ffc5bad79" compoundref="dd/dc1/a00212" startline="283" endline="297">SetNameLocalized</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" prot="protected" static="no" mutable="no">
+        <type><ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref> *</type>
+        <definition>CIccTagMultiLocalizedUnicode* CIccDictEntry::m_pValueLocalized</definition>
+        <argsstring></argsstring>
+        <name>m_pValueLocalized</name>
+        <qualifiedname>CIccDictEntry::m_pValueLocalized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="135" column="32" bodyfile="IccProfLib/IccTagDict.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" compoundref="dd/dc1/a00212" startline="106" endline="113">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a5d44a1046e09386a5f39d876d1af6f66" compoundref="dd/dc1/a00212" startline="125" endline="145">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a3d8ad702b932bf555fd6aecfbff8aa1f" compoundref="dd/dc1/a00212" startline="197" endline="203">~CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a88d7107091080e5989b396dec2dad1b2" compoundref="dd/dc1/a00212" startline="215" endline="241">Describe</referencedby>
+        <referencedby refid="d8/d53/a01225_1a26987367916a14b3ddff6d3d6bd8cd01" compoundref="df/d03/a00062" startline="119" endline="119">GetValueLocalized</referencedby>
+        <referencedby refid="d8/d53/a01225_1a6509512d63f85c63c15a6c5d827f092a" compoundref="dd/dc1/a00212" startline="157" endline="185">operator=</referencedby>
+        <referencedby refid="d8/d53/a01225_1afca473da03e657763ae4fe93ffa25137" compoundref="dd/dc1/a00212" startline="254" endline="261">PosRecSize</referencedby>
+        <referencedby refid="d8/d53/a01225_1a1a4b0d8731c5ad9bd5ca37ccad63c628" compoundref="dd/dc1/a00212" startline="310" endline="324">SetValueLocalized</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/a01225_1a6f9a51c8d47a842448d421b11cce4bf3" prot="protected" static="no" mutable="no">
+        <type>std::wstring *</type>
+        <definition>std::wstring* CIccDictEntry::m_sName</definition>
+        <argsstring></argsstring>
+        <name>m_sName</name>
+        <qualifiedname>CIccDictEntry::m_sName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="130" column="16" bodyfile="IccProfLib/IccTagDict.h" bodystart="130" bodyend="-1"/>
+        <referencedby refid="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" compoundref="dd/dc1/a00212" startline="106" endline="113">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a5d44a1046e09386a5f39d876d1af6f66" compoundref="dd/dc1/a00212" startline="125" endline="145">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a3d8ad702b932bf555fd6aecfbff8aa1f" compoundref="dd/dc1/a00212" startline="197" endline="203">~CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a88d7107091080e5989b396dec2dad1b2" compoundref="dd/dc1/a00212" startline="215" endline="241">Describe</referencedby>
+        <referencedby refid="d8/d53/a01225_1a489e028e4a733968d7d2070e35babfc8" compoundref="df/d03/a00062" startline="109" endline="109">GetName</referencedby>
+        <referencedby refid="d8/d53/a01225_1a6509512d63f85c63c15a6c5d827f092a" compoundref="dd/dc1/a00212" startline="157" endline="185">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" prot="protected" static="no" mutable="no">
+        <type>std::wstring *</type>
+        <definition>std::wstring* CIccDictEntry::m_sValue</definition>
+        <argsstring></argsstring>
+        <name>m_sValue</name>
+        <qualifiedname>CIccDictEntry::m_sValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="131" column="16" bodyfile="IccProfLib/IccTagDict.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" compoundref="dd/dc1/a00212" startline="106" endline="113">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a5d44a1046e09386a5f39d876d1af6f66" compoundref="dd/dc1/a00212" startline="125" endline="145">CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a3d8ad702b932bf555fd6aecfbff8aa1f" compoundref="dd/dc1/a00212" startline="197" endline="203">~CIccDictEntry</referencedby>
+        <referencedby refid="d8/d53/a01225_1a88d7107091080e5989b396dec2dad1b2" compoundref="dd/dc1/a00212" startline="215" endline="241">Describe</referencedby>
+        <referencedby refid="d8/d53/a01225_1ac86fb76c6f4640e31aea5ecf07fb8fb6" compoundref="df/d03/a00062" startline="114" endline="114">GetValue</referencedby>
+        <referencedby refid="d8/d53/a01225_1a6509512d63f85c63c15a6c5d827f092a" compoundref="dd/dc1/a00212" startline="157" endline="185">operator=</referencedby>
+        <referencedby refid="d8/d53/a01225_1a590d22405afe4324191a9f2fd18bc68a" compoundref="dd/dc1/a00212" startline="264" endline="271">SetValue</referencedby>
+        <referencedby refid="d8/d53/a01225_1a122a789b9c210fc46bbd4b51fedbf85d" compoundref="df/d03/a00062" startline="121" endline="121">UnsetValue</referencedby>
+        <referencedby refid="d8/d53/a01225_1aa81ab09126babb3391de556d8b03b472" compoundref="df/d03/a00062" startline="111" endline="111">ValueBegin</referencedby>
+        <referencedby refid="d8/d53/a01225_1a2dfefbe294c8c30b8b7e831b512cdbf9" compoundref="df/d03/a00062" startline="112" endline="112">ValueEnd</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccDictEntry::CIccDictEntry</definition>
+        <argsstring>()</argsstring>
+        <name>CIccDictEntry</name>
+        <qualifiedname>CIccDictEntry::CIccDictEntry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" kindref="member">CIccDictEntry::CIccDictEntry</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="99" column="3" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="106" bodyend="113"/>
+        <references refid="d8/d53/a01225_1ac69df93c447d8c1ce740ea0e41d3985f" compoundref="df/d03/a00062" startline="132">m_bValueSet</references>
+        <references refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" compoundref="df/d03/a00062" startline="134">m_pNameLocalized</references>
+        <references refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" compoundref="df/d03/a00062" startline="135">m_pValueLocalized</references>
+        <references refid="d8/d53/a01225_1a6f9a51c8d47a842448d421b11cce4bf3" compoundref="df/d03/a00062" startline="130">m_sName</references>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a5d44a1046e09386a5f39d876d1af6f66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccDictEntry::CIccDictEntry</definition>
+        <argsstring>(const CIccDictEntry &amp;IDE)</argsstring>
+        <name>CIccDictEntry</name>
+        <qualifiedname>CIccDictEntry::CIccDictEntry</qualifiedname>
+        <param>
+          <type>const <ref refid="d8/d53/a01225" kindref="compound">CIccDictEntry</ref> &amp;</type>
+          <declname>IDE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" kindref="member">CIccDictEntry::CIccDictEntry</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="100" column="3" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="125" bodyend="145"/>
+        <references refid="d8/d53/a01225_1ac69df93c447d8c1ce740ea0e41d3985f" compoundref="df/d03/a00062" startline="132">m_bValueSet</references>
+        <references refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" compoundref="df/d03/a00062" startline="134">m_pNameLocalized</references>
+        <references refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" compoundref="df/d03/a00062" startline="135">m_pValueLocalized</references>
+        <references refid="d8/d53/a01225_1a6f9a51c8d47a842448d421b11cce4bf3" compoundref="df/d03/a00062" startline="130">m_sName</references>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <references refid="d2/db8/a01057_1a1f95e9ddec7823fe775207080bef60f2" compoundref="da/dec/a00080" startline="1234" endline="1234">CIccTagMultiLocalizedUnicode::NewCopy</references>
+        <referencedby refid="d6/da1/a01233_1a392ec15a8ebdb6e9130ec3ec36e29685" compoundref="dd/dc1/a00212" startline="358" endline="372">CIccTagDict::CIccTagDict</referencedby>
+        <referencedby refid="d6/da1/a01233_1aff3e229d8d274cc8845b8b8ff389d114" compoundref="dd/dc1/a00212" startline="384" endline="401">CIccTagDict::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a3d8ad702b932bf555fd6aecfbff8aa1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccDictEntry::~CIccDictEntry</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccDictEntry</name>
+        <qualifiedname>CIccDictEntry::~CIccDictEntry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d53/a01225_1a3d8ad702b932bf555fd6aecfbff8aa1f" kindref="member">CIccDictEntry::~CIccDictEntry</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="102" column="11" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="197" bodyend="203"/>
+        <references refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" compoundref="df/d03/a00062" startline="134">m_pNameLocalized</references>
+        <references refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" compoundref="df/d03/a00062" startline="135">m_pValueLocalized</references>
+        <references refid="d8/d53/a01225_1a6f9a51c8d47a842448d421b11cce4bf3" compoundref="df/d03/a00062" startline="130">m_sName</references>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a88d7107091080e5989b396dec2dad1b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccDictEntry::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccDictEntry::Describe</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d53/a01225_1a88d7107091080e5989b396dec2dad1b2" kindref="member">CIccDictEntry::Describe</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="104" column="8" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="215" bodyend="241"/>
+        <references refid="d2/db8/a01057_1a8efff8fe78b729f4c382892169709749" compoundref="d9/dd0/a00191" startline="7598" endline="7637">CIccTagMultiLocalizedUnicode::Describe</references>
+        <references refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" compoundref="df/d03/a00062" startline="134">m_pNameLocalized</references>
+        <references refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" compoundref="df/d03/a00062" startline="135">m_pValueLocalized</references>
+        <references refid="d8/d53/a01225_1a6f9a51c8d47a842448d421b11cce4bf3" compoundref="df/d03/a00062" startline="130">m_sName</references>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <referencedby refid="d6/da1/a01233_1ae97605331e10fbdaa0920c63b696ef6a" compoundref="dd/dc1/a00212" startline="457" endline="473">CIccTagDict::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a489e028e4a733968d7d2070e35babfc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::wstring &amp;</type>
+        <definition>std::wstring &amp; CIccDictEntry::GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <qualifiedname>CIccDictEntry::GetName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="109" column="16" bodyfile="IccProfLib/IccTagDict.h" bodystart="109" bodyend="109"/>
+        <references refid="d8/d53/a01225_1a6f9a51c8d47a842448d421b11cce4bf3" compoundref="df/d03/a00062" startline="130">m_sName</references>
+        <referencedby refid="d6/da1/a01233_1aedba95f60eef3342d247d57242d660f4" compoundref="dd/dc1/a00212" startline="1010" endline="1020">CIccTagDict::AreNamesNonzero</referencedby>
+        <referencedby refid="d6/da1/a01233_1a1dea54ef0b2dc24c8a551855a38cfffd" compoundref="dd/dc1/a00212" startline="982" endline="995">CIccTagDict::AreNamesUnique</referencedby>
+        <referencedby refid="d6/da1/a01233_1ae9a770966868de98518976a6a00e5986" compoundref="dd/dc1/a00212" startline="1036" endline="1046">CIccTagDict::Get</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad357b99940587af51d9346a961eb0e3a" compoundref="dd/dc1/a00212" startline="1312" endline="1326">CIccTagDict::Remove</referencedby>
+        <referencedby refid="d6/da1/a01233_1aa61f784416d9e7b43eb08711234c9e36" compoundref="dd/dc1/a00212" startline="1389" endline="1412">CIccTagDict::Set</referencedby>
+        <referencedby refid="d6/da1/a01233_1abfbc0ece6c95dc865c537f6df0c1c857" compoundref="dd/dc1/a00212" startline="1446" endline="1460">CIccTagDict::SetNameLocalized</referencedby>
+        <referencedby refid="d6/da1/a01233_1aac0b2aad2e01cd2a5c84724224cd7233" compoundref="dd/dc1/a00212" startline="1480" endline="1494">CIccTagDict::SetValueLocalized</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a392a644105c454e2f0aa9b9b7b69a6d6" compoundref="d0/d27/a00239" startline="4219" endline="4277">CIccTagXmlDict::ToXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a37412e941af64e01b167585f13e6a5ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref> *</type>
+        <definition>CIccTagMultiLocalizedUnicode * CIccDictEntry::GetNameLocalized</definition>
+        <argsstring>()</argsstring>
+        <name>GetNameLocalized</name>
+        <qualifiedname>CIccDictEntry::GetNameLocalized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="118" column="32" bodyfile="IccProfLib/IccTagDict.h" bodystart="118" bodyend="118"/>
+        <references refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" compoundref="df/d03/a00062" startline="134">m_pNameLocalized</references>
+        <referencedby refid="d6/da1/a01233_1a30a442cd644a17be37bfda9959e9750d" compoundref="dd/dc1/a00212" startline="1178" endline="1186">CIccTagDict::GetNameLocalized</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a392a644105c454e2f0aa9b9b7b69a6d6" compoundref="d0/d27/a00239" startline="4219" endline="4277">CIccTagXmlDict::ToXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1ac86fb76c6f4640e31aea5ecf07fb8fb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::wstring</type>
+        <definition>std::wstring CIccDictEntry::GetValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetValue</name>
+        <qualifiedname>CIccDictEntry::GetValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="114" column="16" bodyfile="IccProfLib/IccTagDict.h" bodystart="114" bodyend="114"/>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <referencedby refid="d6/da1/a01233_1a20a052f572fdefca0261c65d9226202c" compoundref="dd/dc1/a00212" startline="1104" endline="1121">CIccTagDict::GetValue</referencedby>
+        <referencedby refid="d6/da1/a01233_1aa61f784416d9e7b43eb08711234c9e36" compoundref="dd/dc1/a00212" startline="1389" endline="1412">CIccTagDict::Set</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a392a644105c454e2f0aa9b9b7b69a6d6" compoundref="d0/d27/a00239" startline="4219" endline="4277">CIccTagXmlDict::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a26987367916a14b3ddff6d3d6bd8cd01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref> *</type>
+        <definition>CIccTagMultiLocalizedUnicode * CIccDictEntry::GetValueLocalized</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueLocalized</name>
+        <qualifiedname>CIccDictEntry::GetValueLocalized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="119" column="32" bodyfile="IccProfLib/IccTagDict.h" bodystart="119" bodyend="119"/>
+        <references refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" compoundref="df/d03/a00062" startline="135">m_pValueLocalized</references>
+        <referencedby refid="d6/da1/a01233_1a94466fd7ef8ed4f383bdc93de045d6c6" compoundref="dd/dc1/a00212" startline="1245" endline="1253">CIccTagDict::GetValueLocalized</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a392a644105c454e2f0aa9b9b7b69a6d6" compoundref="d0/d27/a00239" startline="4219" endline="4277">CIccTagXmlDict::ToXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a7a54c1f218ec1d5536efe064fd3a3079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccDictEntry::IsValueSet</definition>
+        <argsstring>()</argsstring>
+        <name>IsValueSet</name>
+        <qualifiedname>CIccDictEntry::IsValueSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="115" column="8" bodyfile="IccProfLib/IccTagDict.h" bodystart="115" bodyend="115"/>
+        <references refid="d8/d53/a01225_1ac69df93c447d8c1ce740ea0e41d3985f" compoundref="df/d03/a00062" startline="132">m_bValueSet</references>
+        <referencedby refid="d6/da1/a01233_1a20a052f572fdefca0261c65d9226202c" compoundref="dd/dc1/a00212" startline="1104" endline="1121">CIccTagDict::GetValue</referencedby>
+        <referencedby refid="d6/da1/a01233_1aa61f784416d9e7b43eb08711234c9e36" compoundref="dd/dc1/a00212" startline="1389" endline="1412">CIccTagDict::Set</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a392a644105c454e2f0aa9b9b7b69a6d6" compoundref="d0/d27/a00239" startline="4219" endline="4277">CIccTagXmlDict::ToXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a6509512d63f85c63c15a6c5d827f092a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d8/d53/a01225" kindref="compound">CIccDictEntry</ref> &amp;</type>
+        <definition>CIccDictEntry &amp; CIccDictEntry::operator=</definition>
+        <argsstring>(const CIccDictEntry &amp;IDE)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccDictEntry::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="d8/d53/a01225" kindref="compound">CIccDictEntry</ref> &amp;</type>
+          <declname>IDE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d53/a01225_1a6509512d63f85c63c15a6c5d827f092a" kindref="member">CIccDictEntry::operator=</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="101" column="17" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="157" bodyend="185"/>
+        <references refid="d8/d53/a01225_1ac69df93c447d8c1ce740ea0e41d3985f" compoundref="df/d03/a00062" startline="132">m_bValueSet</references>
+        <references refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" compoundref="df/d03/a00062" startline="134">m_pNameLocalized</references>
+        <references refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" compoundref="df/d03/a00062" startline="135">m_pValueLocalized</references>
+        <references refid="d8/d53/a01225_1a6f9a51c8d47a842448d421b11cce4bf3" compoundref="df/d03/a00062" startline="130">m_sName</references>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <references refid="d2/db8/a01057_1a1f95e9ddec7823fe775207080bef60f2" compoundref="da/dec/a00080" startline="1234" endline="1234">CIccTagMultiLocalizedUnicode::NewCopy</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1afca473da03e657763ae4fe93ffa25137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccDictEntry::PosRecSize</definition>
+        <argsstring>()</argsstring>
+        <name>PosRecSize</name>
+        <qualifiedname>CIccDictEntry::PosRecSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d53/a01225_1afca473da03e657763ae4fe93ffa25137" kindref="member">CIccDictEntry::PosRecSize</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="106" column="18" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="254" bodyend="261"/>
+        <references refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" compoundref="df/d03/a00062" startline="134">m_pNameLocalized</references>
+        <references refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" compoundref="df/d03/a00062" startline="135">m_pValueLocalized</references>
+        <referencedby refid="d6/da1/a01233_1a36184cf370a8c689a5ee6558668af778" compoundref="dd/dc1/a00212" startline="430" endline="444">CIccTagDict::MaxPosRecSize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a1a7b44f4eef8b9aec08f0e8ffc5bad79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccDictEntry::SetNameLocalized</definition>
+        <argsstring>(CIccTagMultiLocalizedUnicode *pNameLocalized)</argsstring>
+        <name>SetNameLocalized</name>
+        <qualifiedname>CIccDictEntry::SetNameLocalized</qualifiedname>
+        <param>
+          <type><ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref> *</type>
+          <declname>pNameLocalized</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d53/a01225_1a1a7b44f4eef8b9aec08f0e8ffc5bad79" kindref="member">CIccDictEntry::SetNameLocalized</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="126" column="8" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="283" bodyend="297"/>
+        <references refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" compoundref="df/d03/a00062" startline="134">m_pNameLocalized</references>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1abfbc0ece6c95dc865c537f6df0c1c857" compoundref="dd/dc1/a00212" startline="1446" endline="1460">CIccTagDict::SetNameLocalized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a590d22405afe4324191a9f2fd18bc68a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccDictEntry::SetValue</definition>
+        <argsstring>(std::wstring sValue)</argsstring>
+        <name>SetValue</name>
+        <qualifiedname>CIccDictEntry::SetValue</qualifiedname>
+        <param>
+          <type>std::wstring</type>
+          <declname>sValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="122" column="8" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="264" bodyend="271"/>
+        <references refid="d8/d53/a01225_1ac69df93c447d8c1ce740ea0e41d3985f" compoundref="df/d03/a00062" startline="132">m_bValueSet</references>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1aa61f784416d9e7b43eb08711234c9e36" compoundref="dd/dc1/a00212" startline="1389" endline="1412">CIccTagDict::Set</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a1a4b0d8731c5ad9bd5ca37ccad63c628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccDictEntry::SetValueLocalized</definition>
+        <argsstring>(CIccTagMultiLocalizedUnicode *pValueLocalized)</argsstring>
+        <name>SetValueLocalized</name>
+        <qualifiedname>CIccDictEntry::SetValueLocalized</qualifiedname>
+        <param>
+          <type><ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref> *</type>
+          <declname>pValueLocalized</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d53/a01225_1a1a4b0d8731c5ad9bd5ca37ccad63c628" kindref="member">CIccDictEntry::SetValueLocalized</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="127" column="8" bodyfile="IccProfLib/IccTagDict.cpp" bodystart="310" bodyend="324"/>
+        <references refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" compoundref="df/d03/a00062" startline="135">m_pValueLocalized</references>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1aac0b2aad2e01cd2a5c84724224cd7233" compoundref="dd/dc1/a00212" startline="1480" endline="1494">CIccTagDict::SetValueLocalized</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a122a789b9c210fc46bbd4b51fedbf85d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccDictEntry::UnsetValue</definition>
+        <argsstring>()</argsstring>
+        <name>UnsetValue</name>
+        <qualifiedname>CIccDictEntry::UnsetValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="121" column="8" bodyfile="IccProfLib/IccTagDict.h" bodystart="121" bodyend="121"/>
+        <references refid="d8/d53/a01225_1ac69df93c447d8c1ce740ea0e41d3985f" compoundref="df/d03/a00062" startline="132">m_bValueSet</references>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <referencedby refid="d6/da1/a01233_1aa61f784416d9e7b43eb08711234c9e36" compoundref="dd/dc1/a00212" startline="1389" endline="1412">CIccTagDict::Set</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1aa81ab09126babb3391de556d8b03b472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::wstring::const_iterator</type>
+        <definition>std::wstring::const_iterator CIccDictEntry::ValueBegin</definition>
+        <argsstring>()</argsstring>
+        <name>ValueBegin</name>
+        <qualifiedname>CIccDictEntry::ValueBegin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="111" column="32" bodyfile="IccProfLib/IccTagDict.h" bodystart="111" bodyend="111"/>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d53/a01225_1a2dfefbe294c8c30b8b7e831b512cdbf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::wstring::const_iterator</type>
+        <definition>std::wstring::const_iterator CIccDictEntry::ValueEnd</definition>
+        <argsstring>()</argsstring>
+        <name>ValueEnd</name>
+        <qualifiedname>CIccDictEntry::ValueEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="112" column="32" bodyfile="IccProfLib/IccTagDict.h" bodystart="112" bodyend="112"/>
+        <references refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" compoundref="df/d03/a00062" startline="131">m_sValue</references>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Data Class: <ref refid="d8/d53/a01225" kindref="compound">CIccDictEntry</ref></para>
+<para>Purpose: Implementation of a dictionary entry with optional localization of name and value </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccDictEntry</label>
+        <link refid="d8/d53/a01225"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_pNameLocalized</edgelabel>
+          <edgelabel>m_pValueLocalized</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="2">
+        <label>CIccTagMultiLocalizedUnicode</label>
+        <link refid="d2/db8/a01057"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagDict.h" line="96" column="1" bodyfile="IccProfLib/IccTagDict.h" bodystart="97" bodyend="136"/>
+    <listofallmembers>
+      <member refid="d8/d53/a01225_1a1a71d1439f80e11743c3572a636124b1" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>CIccDictEntry</name></member>
+      <member refid="d8/d53/a01225_1a5d44a1046e09386a5f39d876d1af6f66" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>CIccDictEntry</name></member>
+      <member refid="d8/d53/a01225_1a88d7107091080e5989b396dec2dad1b2" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>Describe</name></member>
+      <member refid="d8/d53/a01225_1a489e028e4a733968d7d2070e35babfc8" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>GetName</name></member>
+      <member refid="d8/d53/a01225_1a37412e941af64e01b167585f13e6a5ed" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>GetNameLocalized</name></member>
+      <member refid="d8/d53/a01225_1ac86fb76c6f4640e31aea5ecf07fb8fb6" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>GetValue</name></member>
+      <member refid="d8/d53/a01225_1a26987367916a14b3ddff6d3d6bd8cd01" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>GetValueLocalized</name></member>
+      <member refid="d8/d53/a01225_1a7a54c1f218ec1d5536efe064fd3a3079" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>IsValueSet</name></member>
+      <member refid="d8/d53/a01225_1ac69df93c447d8c1ce740ea0e41d3985f" prot="protected" virt="non-virtual"><scope>CIccDictEntry</scope><name>m_bValueSet</name></member>
+      <member refid="d8/d53/a01225_1ac79d0f8430c2e88669d4b036c405d287" prot="protected" virt="non-virtual"><scope>CIccDictEntry</scope><name>m_pNameLocalized</name></member>
+      <member refid="d8/d53/a01225_1ac705a6ebfcc583009d4d93c3e7de42f4" prot="protected" virt="non-virtual"><scope>CIccDictEntry</scope><name>m_pValueLocalized</name></member>
+      <member refid="d8/d53/a01225_1a6f9a51c8d47a842448d421b11cce4bf3" prot="protected" virt="non-virtual"><scope>CIccDictEntry</scope><name>m_sName</name></member>
+      <member refid="d8/d53/a01225_1a0ef5d49399767b66b739ba9346a79c5b" prot="protected" virt="non-virtual"><scope>CIccDictEntry</scope><name>m_sValue</name></member>
+      <member refid="d8/d53/a01225_1a6509512d63f85c63c15a6c5d827f092a" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>operator=</name></member>
+      <member refid="d8/d53/a01225_1afca473da03e657763ae4fe93ffa25137" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>PosRecSize</name></member>
+      <member refid="d8/d53/a01225_1a1a7b44f4eef8b9aec08f0e8ffc5bad79" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>SetNameLocalized</name></member>
+      <member refid="d8/d53/a01225_1a590d22405afe4324191a9f2fd18bc68a" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>SetValue</name></member>
+      <member refid="d8/d53/a01225_1a1a4b0d8731c5ad9bd5ca37ccad63c628" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>SetValueLocalized</name></member>
+      <member refid="d8/d53/a01225_1a122a789b9c210fc46bbd4b51fedbf85d" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>UnsetValue</name></member>
+      <member refid="d8/d53/a01225_1aa81ab09126babb3391de556d8b03b472" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>ValueBegin</name></member>
+      <member refid="d8/d53/a01225_1a2dfefbe294c8c30b8b7e831b512cdbf9" prot="public" virt="non-virtual"><scope>CIccDictEntry</scope><name>ValueEnd</name></member>
+      <member refid="d8/d53/a01225_1a3d8ad702b932bf555fd6aecfbff8aa1f" prot="public" virt="virtual"><scope>CIccDictEntry</scope><name>~CIccDictEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

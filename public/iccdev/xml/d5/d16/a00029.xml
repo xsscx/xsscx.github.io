@@ -1,0 +1,1479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d5/d16/a00029" kind="file" language="C++">
+    <compoundname>IccProfLibConf.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includedby refid="d3/d00/a00113" local="yes">IccProfLib/IccConvertUTF.h</includedby>
+    <includedby refid="d4/d81/a00110" local="yes">IccProfLib/IccDefs.h</includedby>
+    <includedby refid="df/dc8/a00122" local="yes">IccProfLib/IccMD5.h</includedby>
+    <includedby refid="d7/d25/a00182" local="yes">IccProfLib/IccTagMPE.h</includedby>
+    <includedby refid="d7/dce/a00143" local="yes">IccProfLib/IccUtil.h</includedby>
+    <includedby refid="db/d10/a00350" local="yes">Tools/CmdLine/IccApplyProfiles/TiffImg.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>IccProfLib/IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="37">
+        <label>IccProfLib/IccApplyBPC.cpp</label>
+        <link refid="d1/dc1/a00092"/>
+      </node>
+      <node id="36">
+        <label>IccProfLib/IccApplyBPC.h</label>
+        <link refid="d4/dee/a00008"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IccProfLib/IccArrayBasic.cpp</label>
+        <link refid="dc/de6/a00167"/>
+      </node>
+      <node id="7">
+        <label>IccProfLib/IccArrayBasic.h</label>
+        <link refid="d7/d06/a00131"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>IccProfLib/IccArrayFactory.cpp</label>
+        <link refid="d3/db1/a00200"/>
+      </node>
+      <node id="13">
+        <label>IccProfLib/IccArrayFactory.h</label>
+        <link refid="da/d2a/a00086"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IccProfLib/IccCAM.cpp</label>
+        <link refid="dd/d32/a00041"/>
+      </node>
+      <node id="17">
+        <label>IccProfLib/IccCAM.h</label>
+        <link refid="db/ddf/a00164"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>IccProfLib/IccCmm.cpp</label>
+        <link refid="d3/df8/a00155"/>
+      </node>
+      <node id="35">
+        <label>IccProfLib/IccCmm.h</label>
+        <link refid="d6/d5b/a00026"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccProfLib/IccConvertUTF.cpp</label>
+        <link refid="d5/ddf/a00224"/>
+      </node>
+      <node id="2">
+        <label>IccProfLib/IccConvertUTF.h</label>
+        <link refid="d3/d00/a00113"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IccProfLib/IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>IccProfLib/IccEncoding.cpp</label>
+        <link refid="de/d76/a00134"/>
+      </node>
+      <node id="88">
+        <label>IccProfLib/IccEncoding.h</label>
+        <link refid="d3/dd5/a00215"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>IccProfLib/IccEnvVar.cpp</label>
+        <link refid="de/d79/a00203"/>
+      </node>
+      <node id="23">
+        <label>IccProfLib/IccEnvVar.h</label>
+        <link refid="dc/dee/a00053"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>IccProfLib/IccEval.cpp</label>
+        <link refid="d3/d8b/a00059"/>
+      </node>
+      <node id="41">
+        <label>IccProfLib/IccEval.h</label>
+        <link refid="d0/d89/a00071"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>IccProfLib/IccIO.cpp</label>
+        <link refid="d9/d2e/a00056"/>
+      </node>
+      <node id="30">
+        <label>IccProfLib/IccIO.h</label>
+        <link refid="df/d6a/a00119"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>IccProfLib/IccMD5.cpp</label>
+        <link refid="d7/d9a/a00152"/>
+      </node>
+      <node id="106">
+        <label>IccProfLib/IccMD5.h</label>
+        <link refid="df/dc8/a00122"/>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>IccProfLib/IccMatrixMath.cpp</label>
+        <link refid="db/dab/a00089"/>
+      </node>
+      <node id="89">
+        <label>IccProfLib/IccMatrixMath.h</label>
+        <link refid="dc/dfe/a00125"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>IccProfLib/IccMpeACS.cpp</label>
+        <link refid="d1/d09/a00077"/>
+      </node>
+      <node id="63">
+        <label>IccProfLib/IccMpeACS.h</label>
+        <link refid="d6/d7d/a00161"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>IccProfLib/IccMpeBasic.cpp</label>
+        <link refid="d6/d2d/a00047"/>
+      </node>
+      <node id="67">
+        <label>IccProfLib/IccMpeBasic.h</label>
+        <link refid="d2/de7/a00014"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>IccProfLib/IccMpeCalc.cpp</label>
+        <link refid="d9/d77/a00095"/>
+      </node>
+      <node id="70">
+        <label>IccProfLib/IccMpeCalc.h</label>
+        <link refid="d5/de0/a00050"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>IccProfLib/IccMpeFactory.cpp</label>
+        <link refid="d9/db6/a00146"/>
+      </node>
+      <node id="84">
+        <label>IccProfLib/IccMpeFactory.h</label>
+        <link refid="dc/d57/a00194"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IccProfLib/IccMpeSpectral.cpp</label>
+        <link refid="d5/de9/a00176"/>
+      </node>
+      <node id="71">
+        <label>IccProfLib/IccMpeSpectral.h</label>
+        <link refid="d3/de5/a00209"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>IccProfLib/IccPcc.cpp</label>
+        <link refid="de/db1/a00197"/>
+      </node>
+      <node id="86">
+        <label>IccProfLib/IccPcc.h</label>
+        <link refid="d4/d3a/a00101"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>IccProfLib/IccPrmg.cpp</label>
+        <link refid="db/db6/a00074"/>
+      </node>
+      <node id="46">
+        <label>IccProfLib/IccPrmg.h</label>
+        <link refid="db/dd9/a00179"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="108" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>IccProfLib/IccProfile.cpp</label>
+        <link refid="d0/dc2/a00104"/>
+      </node>
+      <node id="87">
+        <label>IccProfLib/IccProfile.h</label>
+        <link refid="d4/d51/a00017"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>IccProfLib/IccSignatureUtils.h</label>
+        <link refid="d2/d1f/a00083"/>
+      </node>
+      <node id="94">
+        <label>IccProfLib/IccSolve.cpp</label>
+        <link refid="da/d15/a00188"/>
+      </node>
+      <node id="93">
+        <label>IccProfLib/IccSolve.h</label>
+        <link refid="d3/d52/a00023"/>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>IccProfLib/IccSparseMatrix.cpp</label>
+        <link refid="d7/d3f/a00173"/>
+      </node>
+      <node id="95">
+        <label>IccProfLib/IccSparseMatrix.h</label>
+        <link refid="dd/d52/a00221"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>IccProfLib/IccStructBasic.cpp</label>
+        <link refid="d1/d88/a00128"/>
+      </node>
+      <node id="55">
+        <label>IccProfLib/IccStructBasic.h</label>
+        <link refid="da/d1e/a00149"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>IccProfLib/IccStructFactory.cpp</label>
+        <link refid="d5/df9/a00044"/>
+      </node>
+      <node id="97">
+        <label>IccProfLib/IccStructFactory.h</label>
+        <link refid="d1/d44/a00098"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>IccProfLib/IccTag.h</label>
+        <link refid="d2/df5/a00137"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IccProfLib/IccTagBasic.cpp</label>
+        <link refid="d9/dd0/a00191"/>
+      </node>
+      <node id="98">
+        <label>IccProfLib/IccTagBasic.h</label>
+        <link refid="da/dec/a00080"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>IccProfLib/IccTagComposite.cpp</label>
+        <link refid="d5/dcb/a00170"/>
+      </node>
+      <node id="54">
+        <label>IccProfLib/IccTagComposite.h</label>
+        <link refid="d1/da8/a00230"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>IccProfLib/IccTagDict.cpp</label>
+        <link refid="dd/dc1/a00212"/>
+      </node>
+      <node id="58">
+        <label>IccProfLib/IccTagDict.h</label>
+        <link refid="df/d03/a00062"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>IccProfLib/IccTagEmbedIcc.cpp</label>
+        <link refid="d9/d01/a00227"/>
+      </node>
+      <node id="99">
+        <label>IccProfLib/IccTagEmbedIcc.h</label>
+        <link refid="dc/d9a/a00218"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>IccProfLib/IccTagFactory.cpp</label>
+        <link refid="de/de1/a00065"/>
+      </node>
+      <node id="101">
+        <label>IccProfLib/IccTagFactory.h</label>
+        <link refid="d8/d41/a00038"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>IccProfLib/IccTagLut.cpp</label>
+        <link refid="d4/d3e/a00116"/>
+      </node>
+      <node id="100">
+        <label>IccProfLib/IccTagLut.h</label>
+        <link refid="da/d24/a00068"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>IccProfLib/IccTagMPE.cpp</label>
+        <link refid="dc/d87/a00032"/>
+      </node>
+      <node id="62">
+        <label>IccProfLib/IccTagMPE.h</label>
+        <link refid="d7/d25/a00182"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>IccProfLib/IccTagProfSeqId.cpp</label>
+        <link refid="de/df3/a00185"/>
+      </node>
+      <node id="75">
+        <label>IccProfLib/IccTagProfSeqId.h</label>
+        <link refid="d5/df1/a00206"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IccProfLib/IccUtil.cpp</label>
+        <link refid="d5/db1/a00140"/>
+      </node>
+      <node id="103">
+        <label>IccProfLib/IccUtil.h</label>
+        <link refid="d7/dce/a00143"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>IccProfLib/IccWrapper.cpp</label>
+        <link refid="da/d45/a00011"/>
+      </node>
+      <node id="48">
+        <label>IccProfLib/IccWrapper.h</label>
+        <link refid="d6/db8/a00158"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>IccProfLib/IccXformFactory.cpp</label>
+        <link refid="d4/d8c/a00035"/>
+      </node>
+      <node id="49">
+        <label>IccProfLib/IccXformFactory.h</label>
+        <link refid="df/d98/a00107"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>IccXML/CmdLine/IccFromXml/IccFromXml.cpp</label>
+        <link refid="d2/d04/a00281"/>
+      </node>
+      <node id="81">
+        <label>IccXML/CmdLine/IccToXml/IccToXml.cpp</label>
+        <link refid="d6/d82/a00293"/>
+      </node>
+      <node id="83">
+        <label>IccXML/IccLibXML/IccIoXml.cpp</label>
+        <link refid="d9/dd6/a00272"/>
+      </node>
+      <node id="82">
+        <label>IccXML/IccLibXML/IccIoXml.h</label>
+        <link refid="d2/dc8/a00242"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>IccXML/IccLibXML/IccMpeXml.cpp</label>
+        <link refid="dd/dd7/a00260"/>
+      </node>
+      <node id="65">
+        <label>IccXML/IccLibXML/IccMpeXml.h</label>
+        <link refid="d7/d40/a00236"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>IccXML/IccLibXML/IccMpeXmlFactory.cpp</label>
+        <link refid="d6/d22/a00245"/>
+      </node>
+      <node id="85">
+        <label>IccXML/IccLibXML/IccMpeXmlFactory.h</label>
+        <link refid="d3/d1a/a00251"/>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>IccXML/IccLibXML/IccProfileXml.cpp</label>
+        <link refid="dd/dd7/a00248"/>
+      </node>
+      <node id="91">
+        <label>IccXML/IccLibXML/IccProfileXml.h</label>
+        <link refid="d5/d42/a00269"/>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>IccXML/IccLibXML/IccTagXml.cpp</label>
+        <link refid="d0/d27/a00239"/>
+      </node>
+      <node id="73">
+        <label>IccXML/IccLibXML/IccTagXml.h</label>
+        <link refid="d6/de1/a00233"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>IccXML/IccLibXML/IccTagXmlFactory.cpp</label>
+        <link refid="df/da9/a00263"/>
+      </node>
+      <node id="102">
+        <label>IccXML/IccLibXML/IccTagXmlFactory.h</label>
+        <link refid="dc/d5d/a00278"/>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IccXML/IccLibXML/IccUtilXml.cpp</label>
+        <link refid="d5/d35/a00266"/>
+      </node>
+      <node id="77">
+        <label>IccXML/IccLibXML/IccUtilXml.h</label>
+        <link refid="d9/d39/a00257"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp</label>
+        <link refid="d3/d93/a00341"/>
+      </node>
+      <node id="109">
+        <label>Tools/CmdLine/IccApplyProfiles/TiffImg.cpp</label>
+        <link refid="db/ddc/a00353"/>
+      </node>
+      <node id="108">
+        <label>Tools/CmdLine/IccApplyProfiles/TiffImg.h</label>
+        <link refid="db/d10/a00350"/>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Tools/CmdLine/IccApplyProfiles/iccApplyProfiles.cpp</label>
+        <link refid="d6/de1/a00356"/>
+      </node>
+      <node id="27">
+        <label>Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp</label>
+        <link refid="d1/dc6/a00347"/>
+      </node>
+      <node id="29">
+        <label>Tools/CmdLine/IccCommon/IccCmmConfig.cpp</label>
+        <link refid="d8/d23/a00326"/>
+      </node>
+      <node id="28">
+        <label>Tools/CmdLine/IccCommon/IccCmmConfig.h</label>
+        <link refid="dc/d50/a00332"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>Tools/CmdLine/IccCommon/IccJsonUtil.cpp</label>
+        <link refid="de/d55/a00323"/>
+      </node>
+      <node id="105">
+        <label>Tools/CmdLine/IccCommon/IccJsonUtil.h</label>
+        <link refid="dd/d4e/a00329"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>Tools/CmdLine/IccDumpProfile/iccDumpProfile.cpp</label>
+        <link refid="d0/d39/a00314"/>
+      </node>
+      <node id="68">
+        <label>Tools/CmdLine/IccFromCube/iccFromCube.cpp</label>
+        <link refid="dc/d84/a00338"/>
+      </node>
+      <node id="51">
+        <label>Tools/CmdLine/IccPngDump/iccPngDump.cpp</label>
+        <link refid="dd/de2/a00320"/>
+      </node>
+      <node id="43">
+        <label>Tools/CmdLine/IccRoundTrip/iccRoundTrip.cpp</label>
+        <link refid="da/de0/a00317"/>
+      </node>
+      <node id="39">
+        <label>Tools/CmdLine/IccSpecSepToTiff/iccSpecSepToTiff.cpp</label>
+        <link refid="d8/d8e/a00344"/>
+      </node>
+      <node id="40">
+        <label>Tools/CmdLine/IccTiffDump/iccTiffDump.cpp</label>
+        <link refid="d4/def/a00359"/>
+      </node>
+      <node id="69">
+        <label>Tools/CmdLine/IccV5DspObsToV4Dsp/IccV5DspObsToV4Dsp.cpp</label>
+        <link refid="df/d91/a00335"/>
+      </node>
+      <node id="52">
+        <label>Tools/MacOS-X/RefIccMAXCmm/RefIccMAXCmm.cpp</label>
+        <link refid="d0/d61/a00302"/>
+      </node>
+      <node id="53">
+        <label>Tools/Winnt/DemoIccMAXCmm/DemoIccMAXCmm.cpp</label>
+        <link refid="d3/d07/a00305"/>
+      </node>
+      <node id="44">
+        <label>Tools/wxWidget/wxProfileDump/wxProfileDump.cpp</label>
+        <link refid="df/d95/a00299"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d5/d16/a00029_1a20b36d78d142025e6feaf1badb9be2d0" prot="public" static="no">
+        <name>ICC_BYTE_ORDER_LITTLE_ENDIAN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="143" column="20" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a49364ed469660e8cd062c4601485dd82" prot="public" static="no">
+        <name>ICC_CBRTF</name>
+        <param><defname>v</defname></param>
+        <initializer>cbrtf(v)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="153" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a39a6b6487f8e203955a97b2e05f15a50" prot="public" static="no">
+        <name>ICCINT32</name>
+        <initializer>int32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="126" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a0e93ba3df887c9ab175b8cf3b65208b5" prot="public" static="no">
+        <name>ICCINT64</name>
+        <initializer>long long</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="118" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" prot="public" static="no">
+        <name>ICCPROFLIB_API</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="147" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1af4fd5e916e7c5ec6a3a5cc2b876628d4" prot="public" static="no">
+        <name>ICCPROFLIB_EXTERN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="148" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1af4f9a4c07d8766a12ef62c381593d22e" prot="public" static="no">
+        <name>ICCUINT32</name>
+        <initializer>uint32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="125" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a3406d845e3417a574debc60f965fc5c2" prot="public" static="no">
+        <name>ICCUINT64</name>
+        <initializer>unsigned long long</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="117" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a8685400685c64b7cba1cad35482997a7" prot="public" static="no">
+        <name>ICHALFFLOATTYPE</name>
+        <initializer>uint16_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="130" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1ab3460897c171fed660c2e87d8e6bf5fa" prot="public" static="no">
+        <name>ICINT32TYPE</name>
+        <initializer>int32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="128" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1abfe3fb526f7845d38f0170c9bb216139" prot="public" static="no">
+        <name>ICINT64TYPE</name>
+        <initializer>long long</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="120" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a4f621a8f8dd92d4d49db0c35224e86f3" prot="public" static="no">
+        <name>ICUINT32TYPE</name>
+        <initializer>uint32_t</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="127" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a5c43bdb6bfad11adaa1260e0d0ac0426" prot="public" static="no">
+        <name>ICUINT64TYPE</name>
+        <initializer>unsigned long long</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="119" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1abe0883fbee9ab9ba01a626a10a59c694" prot="public" static="no">
+        <name>REFICCMAX_NOCLIPLABTOXYZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="159" column="9" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1afd28936bdd79b5f0edb574d44052cc97" prot="public" static="no">
+        <name>REFICCMAXEXPORT</name>
+        <initializer>__declspec( dllimport)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="168" column="10" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a4e0be90a3757e352f42612d09a7d1aa5" prot="public" static="no">
+        <name>stricmp</name>
+        <initializer>strcasecmp</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="149" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d5/d16/a00029_1a16a19b1831112e876b010468ec15916f" prot="public" static="no">
+        <name>strnicmp</name>
+        <initializer>strncasecmp</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccProfLibConf.h" line="150" column="11" bodyfile="IccProfLib/IccProfLibConf.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="d5/d16/a00029" kindref="compound">IccProfLibConf.h</ref></para>
+<para>Contains: Platform Specific Configuration</para>
+<para>Version: V1</para>
+<para>Copyright: � see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Header<sp/>file<sp/>guard<sp/>bands<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ICCCONFIG_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ICCCONFIG_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//Define<sp/>the<sp/>following<sp/>to<sp/>use<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">refIccMAX<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//PC,<sp/>visual<sp/>C++</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_MSC_VER)<sp/>&amp;&amp;<sp/>!defined(__MWERKS__)<sp/>&amp;&amp;<sp/>(defined(_M_IX86)<sp/>||<sp/>defined(_M_X64))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Define<sp/>how<sp/>64<sp/>bit<sp/>integers<sp/>are<sp/>represented</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCUINT64<sp/>unsigned<sp/>__int64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCINT64<sp/>__int64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICUINT64TYPE<sp/>unsigned<sp/>__int64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICINT64TYPE<sp/>__int64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCUINT32<sp/>unsigned<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCINT32<sp/><sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICUINT32TYPE<sp/>unsigned<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICINT32TYPE<sp/><sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICHALFFLOATTYPE<sp/>unsigned<sp/>short</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>USE_WINDOWS_MB_SUPPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>WIN32_LEAN_AND_MEAN<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Exclude<sp/>rarely-used<sp/>stuff<sp/>from<sp/>Windows<sp/>headers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//#include<sp/>&lt;windows.h&gt;<sp/>//For<sp/>Multibyte<sp/>Translation<sp/>Support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICC_BYTE_ORDER_LITTLE_ENDIAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>defined(ICCPROFLIBDLL_EXPORTS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>ICCPROFLIB_API<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>ICCPROFLIB_EXTERN<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#elif<sp/>defined(ICCPROFLIBDLL_IMPORTS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>ICCPROFLIB_API<sp/>__declspec(dllimport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>ICCPROFLIB_EXTERN<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else<sp/></highlight><highlight class="comment">//just<sp/>a<sp/>regular<sp/>lib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>ICCPROFLIB_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>ICCPROFLIB_EXTERN<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Since<sp/>msvc<sp/>doesn&apos;t<sp/>support<sp/>cbrtf<sp/>use<sp/>pow<sp/>instead</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICC_CBRTF(v)<sp/>pow((double)(v),<sp/>1.0/3.0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>(_MSC_VER<sp/>&lt;<sp/>1300)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>ICC_UNSUPPORTED_TAG_DICT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">//<sp/>non-PC,<sp/>perhaps<sp/>Mac,<sp/>Linux,<sp/>or<sp/>Solaris</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="d5/d16/a00029_1a3406d845e3417a574debc60f965fc5c2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCUINT64<sp/>unsigned<sp/>long<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="d5/d16/a00029_1a0e93ba3df887c9ab175b8cf3b65208b5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCINT64<sp/><sp/>long<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="d5/d16/a00029_1a5c43bdb6bfad11adaa1260e0d0ac0426" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICUINT64TYPE<sp/>unsigned<sp/>long<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="d5/d16/a00029_1abfe3fb526f7845d38f0170c9bb216139" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICINT64TYPE<sp/>long<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Make<sp/>sure<sp/>that<sp/>32<sp/>bit<sp/>values<sp/>are<sp/>set<sp/>correctly</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="d5/d16/a00029_1af4f9a4c07d8766a12ef62c381593d22e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCUINT32<sp/>uint32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="d5/d16/a00029_1a39a6b6487f8e203955a97b2e05f15a50" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCINT32<sp/><sp/>int32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="d5/d16/a00029_1a4f621a8f8dd92d4d49db0c35224e86f3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICUINT32TYPE<sp/>uint32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="d5/d16/a00029_1ab3460897c171fed660c2e87d8e6bf5fa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICINT32TYPE<sp/><sp/>int32_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="130" refid="d5/d16/a00029_1a8685400685c64b7cba1cad35482997a7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICHALFFLOATTYPE<sp/>uint16_t</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>defined(__APPLE__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/><sp/>defined(__LITTLE_ENDIAN__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>ICC_BYTE_ORDER_LITTLE_ENDIAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>ICC_BYTE_ORDER_BIG_ENDIAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else<sp/></highlight><highlight class="comment">//<sp/>Sun<sp/>Solaris<sp/>or<sp/>Linux</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>defined(__sun__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>ICC_BYTE_ORDER_BIG_ENDIAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="d5/d16/a00029_1a20b36d78d142025e6feaf1badb9be2d0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>ICC_BYTE_ORDER_LITTLE_ENDIAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCPROFLIB_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="d5/d16/a00029_1af4fd5e916e7c5ec6a3a5cc2b876628d4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICCPROFLIB_EXTERN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="d5/d16/a00029_1a4e0be90a3757e352f42612d09a7d1aa5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>stricmp<sp/>strcasecmp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="d5/d16/a00029_1a16a19b1831112e876b010468ec15916f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>strnicmp<sp/>strncasecmp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Define<sp/>ICC_CBRTF<sp/>as<sp/>a<sp/>call<sp/>to<sp/>cbrtf<sp/>(replace<sp/>with<sp/>pow<sp/>if<sp/>system<sp/>doesn&apos;t<sp/>support<sp/>cbrtf)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="d5/d16/a00029_1a49364ed469660e8cd062c4601485dd82" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>ICC_CBRTF(v)<sp/>cbrtf(v)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Add<sp/>comment<sp/>below<sp/>if<sp/>you<sp/>do<sp/>not<sp/>want<sp/>LAB<sp/>to<sp/>XYZ<sp/>conversions<sp/>to<sp/>clip<sp/>negative<sp/>XYZ<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(Warning!<sp/>Commenting<sp/>this<sp/>may<sp/>result<sp/>in<sp/>incorrect<sp/>round<sp/>ripping<sp/>for<sp/>some<sp/>Lab<sp/>Values)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="d5/d16/a00029_1abe0883fbee9ab9ba01a626a10a59c694" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>REFICCMAX_NOCLIPLABTOXYZ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>REFICCMAXCMM_EXPORTS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAKE_A_DLL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>MAKE_A_DLL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>REFICCMAXEXPORT<sp/>__declspec(<sp/>dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="d5/d16/a00029_1afd28936bdd79b5f0edb574d44052cc97" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>REFICCMAXEXPORT<sp/>__declspec(<sp/>dllimport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Uncomment<sp/>below<sp/>if<sp/>you<sp/>wish<sp/>to<sp/>utilize<sp/>ZLIB<sp/>for<sp/>compressed<sp/>text<sp/>tag<sp/>types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>ICC_USE_ZLIB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Uncomment<sp/>below<sp/>if<sp/>you<sp/>wish<sp/>to<sp/>utilize<sp/>Eigen<sp/>library<sp/>to<sp/>support<sp/>matrix<sp/>solving</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="comment">//#define<sp/>ICC_USE_EIGEN_SOLVER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//ICCCOFIG_h</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccProfLibConf.h"/>
+  </compounddef>
+</doxygen>

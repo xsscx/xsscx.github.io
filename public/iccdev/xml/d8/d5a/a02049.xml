@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/d5a/a02049" kind="class" language="C++" prot="public">
+    <compoundname>CIccMpePtr</compoundname>
+    <includes refid="d7/d40/a00236" local="no">IccMpeXml.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CIccMpePtr::m_nIndex</definition>
+        <argsstring></argsstring>
+        <name>m_nIndex</name>
+        <qualifiedname>CIccMpePtr::m_nIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="264" column="7" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="264" bodyend="-1"/>
+        <referencedby refid="d8/d5a/a02049_1a554619cf57b9433e244ad3595e5d4268" compoundref="d7/d40/a00236" startline="260" endline="260">CIccMpePtr</referencedby>
+        <referencedby refid="d8/d5a/a02049_1af9ef34a27ccccb967a1814a0de6cd8bb" compoundref="d7/d40/a00236" startline="261" endline="261">CIccMpePtr</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement* CIccMpePtr::m_ptr</definition>
+        <argsstring></argsstring>
+        <name>m_ptr</name>
+        <qualifiedname>CIccMpePtr::m_ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="263" column="27" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="263" bodyend="-1"/>
+        <referencedby refid="d8/d5a/a02049_1a554619cf57b9433e244ad3595e5d4268" compoundref="d7/d40/a00236" startline="260" endline="260">CIccMpePtr</referencedby>
+        <referencedby refid="d8/d5a/a02049_1af9ef34a27ccccb967a1814a0de6cd8bb" compoundref="d7/d40/a00236" startline="261" endline="261">CIccMpePtr</referencedby>
+        <referencedby refid="d8/de6/a02061_1ac5831e989eada2f5e01cbe8ed18cce33" compoundref="dd/dd7/a00260" startline="3005" endline="3027">CIccMpeXmlCalculator::clean</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="d8/de6/a02061_1aa49fb555bcc2fe5e5377f7d608368b94" compoundref="dd/dd7/a00260" startline="3080" endline="3177">CIccMpeXmlCalculator::ParseXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d5a/a02049_1a554619cf57b9433e244ad3595e5d4268" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccMpePtr::CIccMpePtr</definition>
+        <argsstring>(CIccMultiProcessElement *pMpe=NULL, int nIndex=-1)</argsstring>
+        <name>CIccMpePtr</name>
+        <qualifiedname>CIccMpePtr::CIccMpePtr</qualifiedname>
+        <param>
+          <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+          <declname>pMpe</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nIndex</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="260" column="3" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="260" bodyend="260"/>
+        <references refid="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" compoundref="d7/d40/a00236" startline="264">m_nIndex</references>
+        <references refid="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" compoundref="d7/d40/a00236" startline="263">m_ptr</references>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" compoundref="dd/dd7/a00260" startline="2341" endline="2618">CIccMpeXmlCalculator::ParseImport</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d5a/a02049_1af9ef34a27ccccb967a1814a0de6cd8bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccMpePtr::CIccMpePtr</definition>
+        <argsstring>(const CIccMpePtr &amp;mptr)</argsstring>
+        <name>CIccMpePtr</name>
+        <qualifiedname>CIccMpePtr::CIccMpePtr</qualifiedname>
+        <param>
+          <type>const <ref refid="d8/d5a/a02049" kindref="compound">CIccMpePtr</ref> &amp;</type>
+          <declname>mptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="261" column="3" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="261" bodyend="261"/>
+        <references refid="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" compoundref="d7/d40/a00236" startline="264">m_nIndex</references>
+        <references refid="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" compoundref="d7/d40/a00236" startline="263">m_ptr</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccMpePtr</label>
+        <link refid="d8/d5a/a02049"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccXML/IccLibXML/IccMpeXml.h" line="257" column="1" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="258" bodyend="265"/>
+    <listofallmembers>
+      <member refid="d8/d5a/a02049_1a554619cf57b9433e244ad3595e5d4268" prot="public" virt="non-virtual"><scope>CIccMpePtr</scope><name>CIccMpePtr</name></member>
+      <member refid="d8/d5a/a02049_1af9ef34a27ccccb967a1814a0de6cd8bb" prot="public" virt="non-virtual"><scope>CIccMpePtr</scope><name>CIccMpePtr</name></member>
+      <member refid="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" prot="public" virt="non-virtual"><scope>CIccMpePtr</scope><name>m_nIndex</name></member>
+      <member refid="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" prot="public" virt="non-virtual"><scope>CIccMpePtr</scope><name>m_ptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d57/a00701" kind="struct" language="C++" prot="public">
+    <compoundname>icProfileSequenceDescType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/d57/a00701_1a983e08a75682fa4ef6dac30b318ed581" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icProfileSequenceDescType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icProfileSequenceDescType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1884" column="29" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1884" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d57/a00701_1a64544372b797a280319dc91ad4beca2a" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d1c/a00605" kindref="compound">icProfileSequenceDesc</ref></type>
+        <definition>icProfileSequenceDesc icProfileSequenceDescType::desc</definition>
+        <argsstring></argsstring>
+        <name>desc</name>
+        <qualifiedname>icProfileSequenceDescType::desc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1885" column="29" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1885" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Profile sequence description type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icProfileSequenceDesc</label>
+        <link refid="d0/d1c/a00605"/>
+      </node>
+      <node id="1">
+        <label>icProfileSequenceDescType</label>
+        <link refid="dd/d57/a00701"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>desc</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1883" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1883" bodyend="1886"/>
+    <listofallmembers>
+      <member refid="dd/d57/a00701_1a983e08a75682fa4ef6dac30b318ed581" prot="public" virt="non-virtual"><scope>icProfileSequenceDescType</scope><name>base</name></member>
+      <member refid="dd/d57/a00701_1a64544372b797a280319dc91ad4beca2a" prot="public" virt="non-virtual"><scope>icProfileSequenceDescType</scope><name>desc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

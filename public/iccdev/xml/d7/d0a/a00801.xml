@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d0a/a00801" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccXformFactory</compoundname>
+    <derivedcompoundref refid="d7/dff/a00805" prot="public" virt="non-virtual">CIccBaseXformFactory</derivedcompoundref>
+    <includes refid="df/d98/a00107" local="no">IccXformFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d0a/a00801_1af6abbbe912db6c641f28e27574ea1349" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccXformFactory::~IIccXformFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccXformFactory</name>
+        <qualifiedname>IIccXformFactory::~IIccXformFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="102" column="11" bodyfile="IccProfLib/IccXformFactory.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d0a/a00801_1a2b95b3c0df7fd1c94c93fe8ea6bc6d80" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>CIccXform *</type>
+        <definition>virtual CIccXform * IIccXformFactory::CreateXform</definition>
+        <argsstring>(icXformType xformType, CIccTag *pTag=NULL, CIccCreateXformHintManager *pHintManager=0)=0</argsstring>
+        <name>CreateXform</name>
+        <qualifiedname>IIccXformFactory::CreateXform</qualifiedname>
+        <reimplementedby refid="d7/dff/a00805_1a70ec2a25402640f065f7f735285b16b7">CreateXform</reimplementedby>
+        <param>
+          <type><ref refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180f" kindref="member">icXformType</ref></type>
+          <declname>xformType</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+          <declname>pTag</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>CIccCreateXformHintManager *</type>
+          <declname>pHintManager</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateXform(xformTypeSig) Create a xform of type xformTypeSig.</para>
+<para>Parameter(s): xformTypeSig = signature of the ICC xform type for the xform to be created pTag = tag information for created xform pHintManager = contains additional information used to create xform</para>
+<para>Returns a new CIccXform object of the given signature type. If the xform factory doesn&apos;t support creation of xforms of type xformTypeSig then it should return NULL. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="117" column="21"/>
+        <referencedby refid="dd/d7e/a00809_1a6945c1c1d014c79213966ff6a4049b05" compoundref="d4/d8c/a00035" startline="141" endline="152">CIccXformCreator::DoCreateXform</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref></para>
+<para>Purpose: <ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> is a factory pattern interface for CIccXform creation. This class is pure virtual. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccBaseXformFactory</label>
+        <link refid="d7/dff/a00805"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccXformFactory</label>
+        <link refid="d7/d0a/a00801"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccXformFactory.h" line="99" column="1" bodyfile="IccProfLib/IccXformFactory.h" bodystart="100" bodyend="118"/>
+    <listofallmembers>
+      <member refid="d7/d0a/a00801_1a2b95b3c0df7fd1c94c93fe8ea6bc6d80" prot="public" virt="pure-virtual"><scope>IIccXformFactory</scope><name>CreateXform</name></member>
+      <member refid="d7/d0a/a00801_1af6abbbe912db6c641f28e27574ea1349" prot="public" virt="virtual"><scope>IIccXformFactory</scope><name>~IIccXformFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

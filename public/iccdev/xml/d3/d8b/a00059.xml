@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d8b/a00059" kind="file" language="C++">
+    <compoundname>IccEval.cpp</compoundname>
+    <includes local="no">math.h</includes>
+    <includes refid="d0/d89/a00071" local="yes">IccEval.h</includes>
+    <includes refid="d2/df5/a00137" local="yes">IccTag.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>IccCmm.h</label>
+        <link refid="d6/d5b/a00026"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccEval.cpp</label>
+        <link refid="d3/d8b/a00059"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccEval.h</label>
+        <link refid="d0/d89/a00071"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IccIO.h</label>
+        <link refid="df/d6a/a00119"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>IccMatrixMath.h</label>
+        <link refid="dc/dfe/a00125"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>IccPcc.h</label>
+        <link refid="d4/d3a/a00101"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IccProfile.h</label>
+        <link refid="d4/d51/a00017"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>IccTag.h</label>
+        <link refid="d2/df5/a00137"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>IccTagBasic.h</label>
+        <link refid="da/dec/a00080"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>IccTagComposite.h</label>
+        <link refid="d1/da8/a00230"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>IccTagDict.h</label>
+        <link refid="df/d03/a00062"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>IccTagEmbedIcc.h</label>
+        <link refid="dc/d9a/a00218"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>IccTagFactory.h</label>
+        <link refid="d8/d41/a00038"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IccTagLut.h</label>
+        <link refid="da/d24/a00068"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>IccTagMPE.h</label>
+        <link refid="d7/d25/a00182"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>IccTagProfSeqId.h</label>
+        <link refid="d5/df1/a00206"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>IccUtil.h</label>
+        <link refid="d7/dce/a00143"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="30">
+        <label>cstdlib</label>
+      </node>
+      <node id="29">
+        <label>cstring</label>
+      </node>
+      <node id="27">
+        <label>limits</label>
+      </node>
+      <node id="12">
+        <label>list</label>
+      </node>
+      <node id="2">
+        <label>math.h</label>
+      </node>
+      <node id="21">
+        <label>memory</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+      <node id="16">
+        <label>stdio.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="d3/d8b/a00059_1ab91b51d5d96d5f1948e780fb63b85dd2" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>const icFloatNumber LESSTHANONE</definition>
+        <argsstring></argsstring>
+        <name>LESSTHANONE</name>
+        <initializer>= (<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)(1.0 - <ref refid="d3/d8b/a00059_1a91f417141f75f202eb2b1453a51b98fd" kindref="member">SMALLNUM</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEval.cpp" line="80" column="28" bodyfile="IccProfLib/IccEval.cpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d8b/a00059_1a91f417141f75f202eb2b1453a51b98fd" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>const icFloatNumber SMALLNUM</definition>
+        <argsstring></argsstring>
+        <name>SMALLNUM</name>
+        <initializer>= (<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)0.0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEval.cpp" line="79" column="28" bodyfile="IccProfLib/IccEval.cpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="d3/d8b/a00059" kindref="compound">IccEval.cpp</ref></para>
+<para>Contains: Implementation of the CIccProfile Evaluation utilites.</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*<sp/>Copyright<sp/>(c)<sp/>2003-2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment">*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment">*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment">*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment">*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>5-15-2003</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d0/d89/a00071" kindref="compound">IccEval.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/df5/a00137" kindref="compound">IccTag.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">refIccMAX<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="d3/d8b/a00059_1a91f417141f75f202eb2b1453a51b98fd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="d3/d8b/a00059_1a91f417141f75f202eb2b1453a51b98fd" kindref="member">SMALLNUM</ref><sp/>=<sp/>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)0.0001;</highlight></codeline>
+<codeline lineno="80" refid="d3/d8b/a00059_1ab91b51d5d96d5f1948e780fb63b85dd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="d3/d8b/a00059_1ab91b51d5d96d5f1948e780fb63b85dd2" kindref="member">LESSTHANONE</ref><sp/>=<sp/>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)(1.0<sp/>-<sp/><ref refid="d3/d8b/a00059_1a91f417141f75f202eb2b1453a51b98fd" kindref="member">SMALLNUM</ref>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="d3/d0b/a01253_1a4e78a74db74af56bcde82c7c3f4f7147" refkind="member"><highlight class="normal"><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6" kindref="member">icStatusCMM</ref><sp/><ref refid="d3/d0b/a01253_1a4e78a74db74af56bcde82c7c3f4f7147" kindref="member">CIccEvalCompare::EvaluateProfile</ref>(<ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*pProfile,<sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/>nGran</highlight><highlight class="comment">/*<sp/>=0<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77" kindref="member">icRenderingIntent</ref><sp/>nIntent</highlight><highlight class="comment">/*<sp/>=icUnknownIntent<sp/>*/</highlight><highlight class="normal">,<sp/><ref refid="d6/d5b/a00026_1a39ef4ca48f4dbb239b4e3ac0e9e8e913" kindref="member">icXformInterp</ref><sp/>nInterp</highlight><highlight class="comment">/*<sp/>=icInterpLinear<sp/>*/</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>buseMpeTags</highlight><highlight class="comment">/*<sp/>=true<sp/>*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pProfile)</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6a94a1cd52eec49dc84eac5993164c5be0" kindref="member">icCmmStatCantOpenProfile</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pProfile-&gt;m_Header.deviceClass!=<ref refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a787f32c0c9368bc8c4e85a670ae91c8d" kindref="member">icSigInputClass</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>pProfile-&gt;m_Header.deviceClass!=<ref refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a3146ff32df49a9a0515afa2d3da30a14" kindref="member">icSigDisplayClass</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>pProfile-&gt;m_Header.deviceClass!=<ref refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a3d7221c908ff87364cca86a1d275ce8e" kindref="member">icSigOutputClass</ref><sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>pProfile-&gt;m_Header.deviceClass!=<ref refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0ab2c082ddf37925c8cd1e1d58ce4de4e1" kindref="member">icSigColorSpaceClass</ref>)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6a3318d1563e16011fd5d158ce1f1fd860" kindref="member">icCmmStatInvalidProfile</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>CIccCmm<sp/>dev2Lab(<ref refid="d7/d46/a00002_1a80236e8e78fa1f2a6351cb0af0fed8da" kindref="member">icSigUnknownData</ref>,<sp/><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" kindref="member">icSigLabData</ref>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>CIccCmm<sp/>Lab2Dev2Lab(<ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" kindref="member">icSigLabData</ref>,<sp/><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" kindref="member">icSigLabData</ref>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6" kindref="member">icStatusCMM</ref><sp/>result;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>result<sp/>=<sp/>dev2Lab.AddXform(*pProfile,<sp/>nIntent,<sp/>nInterp,<sp/>NULL,<sp/><ref refid="d6/d5b/a00026_1a1ba790142ac961bedde2898273414a7ba8219eb535838b8ca78eef40401ec9013" kindref="member">icXformLutColorimetric</ref>,<sp/>buseMpeTags);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result!=<ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" kindref="member">icCmmStatOk</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>result<sp/>=<sp/>dev2Lab.Begin();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result<sp/>!=<sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" kindref="member">icCmmStatOk</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>result<sp/>=<sp/>Lab2Dev2Lab.AddXform(*pProfile,<sp/>nIntent,<sp/>nInterp,<sp/>NULL,<sp/><ref refid="d6/d5b/a00026_1a1ba790142ac961bedde2898273414a7ba8219eb535838b8ca78eef40401ec9013" kindref="member">icXformLutColorimetric</ref>,<sp/>buseMpeTags);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result<sp/>!=<sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" kindref="member">icCmmStatOk</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>result<sp/>=<sp/>Lab2Dev2Lab.AddXform(*pProfile,<sp/>nIntent,<sp/>nInterp,<sp/>NULL,<sp/><ref refid="d6/d5b/a00026_1a1ba790142ac961bedde2898273414a7ba8219eb535838b8ca78eef40401ec9013" kindref="member">icXformLutColorimetric</ref>,<sp/>buseMpeTags);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result<sp/>!=<sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" kindref="member">icCmmStatOk</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>result<sp/>=<sp/>Lab2Dev2Lab.Begin();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(result<sp/>!=<sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" kindref="member">icCmmStatOk</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>sPixel[15];</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>devPcs[15],<sp/>roundPcs1[15],<sp/>roundPcs2[15];</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ndim<sp/>=<sp/><ref refid="d7/dce/a00143_1a719dc0d47f230294e78ac9c8cbc91a89" kindref="member">icGetSpaceSamples</ref>(pProfile-&gt;m_Header.colorSpace);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ndim1<sp/>=<sp/>ndim+1;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>determine<sp/>granularity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!nGran)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d25/a01157" kindref="compound">CIccTagLutAtoB</ref>*<sp/>pTag<sp/>=<sp/>(<ref refid="d9/d25/a01157" kindref="compound">CIccTagLutAtoB</ref>*)pProfile-&gt;FindTag(<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a48a680ba3049e0c37a44da9f08e411c7" kindref="member">icSigAToB0Tag</ref>+(nIntent==<ref refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77ae6136c556a175effd2e35cb1db5ff944" kindref="member">icAbsoluteColorimetric</ref><sp/>?<sp/><ref refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77a64d6354071e8f3d7b461202675e755cb" kindref="member">icRelativeColorimetric</ref><sp/>:<sp/>nIntent));</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pTag<sp/>||<sp/>ndim==3)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>nGran<sp/>=<sp/>33;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref>*<sp/>pClut<sp/>=<sp/>pTag-&gt;<ref refid="dc/d06/a01153_1abc6ae335b33f73d1ab5f95105d2d38ef" kindref="member">GetCLUT</ref>();</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pClut)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nGran<sp/>=<sp/>pClut-&gt;<ref refid="d8/d02/a01149_1acca93aa550ae0782397cfee701695323" kindref="member">GridPoints</ref>()+2;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nGran<sp/>=<sp/>33;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>stepsize<sp/>=<sp/>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)(1.0/(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)(nGran-1));</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>*<sp/>steps<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>[ndim1];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>nstart<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>nEnd<sp/>=<sp/>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)(1.0+stepsize/2.0);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j=0;<sp/>j&lt;ndim1;<sp/>j++)<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>steps[j]<sp/>=<sp/>nstart;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(steps[0]==nstart)<sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j=0;<sp/>j&lt;ndim;<sp/>j++)<sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>sPixel[j]<sp/>=<sp/><ref refid="d7/dce/a00143_1a1edae29016d2a693e115671bea03162e" kindref="member">icMin</ref>(steps[j+1],1.0);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>steps[ndim]<sp/>=<sp/>(steps[ndim]+stepsize);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i=ndim;<sp/>i&gt;=0;<sp/>i--)<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(steps[i]&gt;nEnd)<sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>steps[i]<sp/>=<sp/>nstart;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>steps[i-1]<sp/>=<sp/>(steps[i-1]+stepsize);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>dev2Lab.Apply(devPcs,<sp/>sPixel);<sp/></highlight><highlight class="comment">//Convert<sp/>device<sp/>value<sp/>to<sp/>pcs<sp/>from<sp/>input<sp/>table</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>Lab2Dev2Lab.Apply(roundPcs1,<sp/>devPcs);<sp/><sp/></highlight><highlight class="comment">//First<sp/>round<sp/>trip<sp/>gets<sp/>color<sp/>into<sp/>output<sp/>gamut</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>Lab2Dev2Lab.Apply(roundPcs2,<sp/>roundPcs1);<sp/><sp/></highlight><highlight class="comment">//Second<sp/>round<sp/>trip<sp/>find<sp/>reproducibility<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1ac5de02865f572ea243f6da8c144c02fa" kindref="member">icLabFromPcs</ref>(devPcs);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1ac5de02865f572ea243f6da8c144c02fa" kindref="member">icLabFromPcs</ref>(roundPcs1);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1ac5de02865f572ea243f6da8c144c02fa" kindref="member">icLabFromPcs</ref>(roundPcs2);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>Compare(sPixel,<sp/>devPcs,<sp/>roundPcs1,<sp/>roundPcs2);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>steps;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" kindref="member">icCmmStatOk</ref>;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="d3/d0b/a01253_1af173aceaa9470757ec5a8b033becad99" refkind="member"><highlight class="normal"><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6" kindref="member">icStatusCMM</ref><sp/><ref refid="d3/d0b/a01253_1a4e78a74db74af56bcde82c7c3f4f7147" kindref="member">CIccEvalCompare::EvaluateProfile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szProfilePath,<sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/>nGrid</highlight><highlight class="comment">/*<sp/>=0<sp/>*/</highlight><highlight class="normal">,<sp/><ref refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77" kindref="member">icRenderingIntent</ref><sp/>nIntent</highlight><highlight class="comment">/*<sp/>=icUnknownIntent<sp/>*/</highlight><highlight class="normal">,<sp/></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d6/d5b/a00026_1a39ef4ca48f4dbb239b4e3ac0e9e8e913" kindref="member">icXformInterp</ref><sp/>nInterp</highlight><highlight class="comment">/*<sp/>=icInterpLinear<sp/>*/</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>buseMpeTags</highlight><highlight class="comment">/*<sp/>=true<sp/>*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*pProfile<sp/>=<sp/><ref refid="d0/dc2/a00104_1a7f4cef5f5d44477887a0b6b2a601177e" kindref="member">ReadIccProfile</ref>(szProfilePath);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pProfile)<sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6a94a1cd52eec49dc84eac5993164c5be0" kindref="member">icCmmStatCantOpenProfile</ref>;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><ref refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6" kindref="member">icStatusCMM</ref><sp/>result<sp/>=<sp/>EvaluateProfile(pProfile,<sp/>nGrid,<sp/>nIntent,<sp/>nInterp,<sp/>buseMpeTags);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>pProfile;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">}<sp/></highlight><highlight class="comment">//namespace<sp/>refIccMAX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccEval.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d52/a02337" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>iccRoundTrip</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`iccRoundTrip`<sp/>is<sp/>a<sp/>command-line<sp/>utility<sp/>that<sp/>performs<sp/>**round-trip<sp/>colorimetric<sp/>evaluation**<sp/>of<sp/>ICC<sp/>color<sp/>profiles.<sp/>It<sp/>computes<sp/>?E<sp/>(Delta<sp/>E)<sp/>statistics<sp/>through<sp/>two<sp/>transformation<sp/>loops<sp/>and<sp/>evaluates<sp/>**Perceptual<sp/>Reference<sp/>Medium<sp/>Gamut<sp/>(PRMG)**<sp/>compatibility<sp/>when<sp/>applicable.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>tool<sp/>is<sp/>part<sp/>of<sp/>the<sp/>ICC<sp/>profile<sp/>diagnostic<sp/>suite<sp/>and<sp/>is<sp/>particularly<sp/>useful<sp/>for<sp/>developers<sp/>validating<sp/>color<sp/>fidelity<sp/>through<sp/>ICC<sp/>transformation<sp/>pipelines.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Performs<sp/>Lab<sp/>?<sp/>Profile<sp/>?<sp/>Lab<sp/>round-trip<sp/>comparisons</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Evaluates<sp/>profile<sp/>using<sp/>a<sp/>perceptual<sp/>gamut<sp/>compatibility<sp/>test<sp/>(PRMG)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Reports<sp/>min,<sp/>mean,<sp/>and<sp/>max<sp/>Delta<sp/>E<sp/>values</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Highlights<sp/>worst-case<sp/>Lab<sp/>values</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Offers<sp/>control<sp/>over<sp/>rendering<sp/>intent<sp/>and<sp/>MPE<sp/>evaluation<sp/>path</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Output<sp/>Details</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Round<sp/>Trip<sp/>Statistics</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**Round<sp/>Trip<sp/>1**:<sp/>Lab<sp/>(device)<sp/>?<sp/>Profile<sp/>?<sp/>Lab</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**Round<sp/>Trip<sp/>2**:<sp/>Round<sp/>Trip<sp/>1<sp/>output<sp/>reprocessed<sp/>via<sp/>profile</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">For<sp/>each<sp/>trip:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Min,<sp/>Mean,<sp/>Max<sp/>?E<sp/>values</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Corresponding<sp/>max<sp/>L*,<sp/>a*,<sp/>b*<sp/>values</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>PRMG<sp/>Evaluation<sp/>(if<sp/>supported<sp/>by<sp/>profile)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>%<sp/>of<sp/>values<sp/>below<sp/>?E<sp/>thresholds:<sp/>1.0,<sp/>2.0,<sp/>3.0,<sp/>5.0,<sp/>10.0</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Total<sp/>pixel<sp/>count<sp/>evaluated</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Build<sp/>Instructions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Clean<sp/>previous<sp/>build<sp/>files</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Configure<sp/>with<sp/>AddressSanitizer<sp/>and<sp/>debug<sp/>flags</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Compile<sp/>with<sp/>multiple<sp/>threads</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage<sp/>Examples</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Basic<sp/>Round<sp/>Trip<sp/>Evaluation</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">Tools/IccRoundTrip/iccRoundTrip<sp/>input.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Specify<sp/>rendering<sp/>intent<sp/>(e.g.,<sp/>Absolute<sp/>Colorimetric)</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">Tools/IccRoundTrip/iccRoundTrip<sp/>input.icc<sp/>3</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Enable<sp/>MPE<sp/>(Multi-Processing<sp/>Elements)<sp/>mode</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">Tools/IccRoundTrip/iccRoundTrip<sp/>input.icc<sp/>1<sp/>1</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Interpretation<sp/>Notes</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>**Rendering<sp/>Intent**<sp/>options:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>0<sp/>=<sp/>Perceptual</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>1<sp/>=<sp/>Relative<sp/>Colorimetric</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>2<sp/>=<sp/>Saturation</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>3<sp/>=<sp/>Absolute<sp/>Colorimetric</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>**MPE<sp/>Toggle**:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>0<sp/>=<sp/>Disable<sp/>MPE<sp/>(default)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>1<sp/>=<sp/>Enable<sp/>MPE<sp/>path</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Original<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>(2007)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Minor<sp/>modifications<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)<sp/>for<sp/>improved<sp/>PRMG<sp/>evaluation<sp/>logging<sp/>and<sp/>batch<sp/>compatibility</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccRoundTrip/Readme.md"/>
+  </compounddef>
+</doxygen>

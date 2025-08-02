@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d90/a02299" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccRoundTrip_2Readme</compoundname>
+    <title>iccRoundTrip</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="db/d90/a02299_1autotoc_md159"/> </para>
+<sect1 id="db/d90/a02299_1autotoc_md160">
+<title>Overview</title>
+<para><computeroutput>iccRoundTrip</computeroutput> is a command-line utility that performs <bold>round-trip colorimetric evaluation</bold> of ICC color profiles. It computes ?E (Delta E) statistics through two transformation loops and evaluates <bold>Perceptual Reference Medium Gamut (PRMG)</bold> compatibility when applicable.</para>
+<para>This tool is part of the ICC profile diagnostic suite and is particularly useful for developers validating color fidelity through ICC transformation pipelines.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="db/d90/a02299_1autotoc_md162">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Performs Lab ? Profile ? Lab round-trip comparisons</para>
+</listitem><listitem><para>Evaluates profile using a perceptual gamut compatibility test (PRMG)</para>
+</listitem><listitem><para>Reports min, mean, and max Delta E values</para>
+</listitem><listitem><para>Highlights worst-case Lab values</para>
+</listitem><listitem><para>Offers control over rendering intent and MPE evaluation path</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="db/d90/a02299_1autotoc_md164">
+<title>Output Details</title>
+<sect2 id="db/d90/a02299_1autotoc_md165">
+<title>Round Trip Statistics</title>
+<para><itemizedlist>
+<listitem><para><bold>Round Trip 1</bold>: Lab (device) ? Profile ? Lab</para>
+</listitem><listitem><para><bold>Round Trip 2</bold>: Round Trip 1 output reprocessed via profile</para>
+</listitem></itemizedlist>
+</para>
+<para>For each trip:<itemizedlist>
+<listitem><para>Min, Mean, Max ?E values</para>
+</listitem><listitem><para>Corresponding max L*, a*, b* values</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="db/d90/a02299_1autotoc_md166">
+<title>PRMG Evaluation (if supported by profile)</title>
+<para><itemizedlist>
+<listitem><para>% of values below ?E thresholds: 1.0, 2.0, 3.0, 5.0, 10.0</para>
+</listitem><listitem><para>Total pixel count evaluated</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="db/d90/a02299_1autotoc_md168">
+<title>Build Instructions</title>
+<sect2 id="db/d90/a02299_1autotoc_md169">
+<title>Clean previous build files</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="db/d90/a02299_1autotoc_md170">
+<title>Configure with AddressSanitizer and debug flags</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="db/d90/a02299_1autotoc_md171">
+<title>Compile with multiple threads</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="db/d90/a02299_1autotoc_md173">
+<title>Usage Examples</title>
+<sect2 id="db/d90/a02299_1autotoc_md174">
+<title>Basic Round Trip Evaluation</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">Tools/IccRoundTrip/iccRoundTrip<sp/>input.icc</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="db/d90/a02299_1autotoc_md175">
+<title>Specify rendering intent (e.g., Absolute Colorimetric)</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">Tools/IccRoundTrip/iccRoundTrip<sp/>input.icc<sp/>3</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="db/d90/a02299_1autotoc_md176">
+<title>Enable MPE (Multi-Processing Elements) mode</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">Tools/IccRoundTrip/iccRoundTrip<sp/>input.icc<sp/>1<sp/>1</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="db/d90/a02299_1autotoc_md178">
+<title>Interpretation Notes</title>
+<para><itemizedlist>
+<listitem><para><bold>Rendering Intent</bold> options:<itemizedlist>
+<listitem><para>0 = Perceptual</para>
+</listitem><listitem><para>1 = Relative Colorimetric</para>
+</listitem><listitem><para>2 = Saturation</para>
+</listitem><listitem><para>3 = Absolute Colorimetric</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><bold>MPE Toggle</bold>:<itemizedlist>
+<listitem><para>0 = Disable MPE (default)</para>
+</listitem><listitem><para>1 = Enable MPE path</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="db/d90/a02299_1autotoc_md180">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Original implementation by Max Derhak (2007)</para>
+</listitem><listitem><para>Minor modifications by David Hoyt (2025) for improved PRMG evaluation logging and batch compatibility </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccRoundTrip/Readme.md"/>
+  </compounddef>
+</doxygen>

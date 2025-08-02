@@ -1,0 +1,28 @@
+var a01065 =
+[
+    [ "CIccTagDateTime", "d0/dc9/a01065.html#a04a28aed53b490c493178bb8c094f560", null ],
+    [ "CIccTagDateTime", "d0/dc9/a01065.html#a1bb8eaedd51a27f5f939466c2e21c1f6", null ],
+    [ "~CIccTagDateTime", "d0/dc9/a01065.html#a13a463aef54a6933046ec921074d15fa", null ],
+    [ "Create", "d0/dc9/a01065.html#a2a2efdbfae5e8820c0dc4cdd1af691a8", null ],
+    [ "Describe", "d0/dc9/a01065.html#add07db65a1f47327aa538550851bd540", null ],
+    [ "DetachIO", "d0/dc9/a01065.html#a3b8c88576df48859517cda49e412c9f3", null ],
+    [ "GetClassName", "d0/dc9/a01065.html#af980c24969f5fabeee4a59b5714c28ab", null ],
+    [ "GetExtension", "d0/dc9/a01065.html#aa4cc7f1dd04e9b537738d1dfa96a9790", null ],
+    [ "GetTagArrayType", "d0/dc9/a01065.html#acc454c2f425b8619187fc75f682d7aa4", null ],
+    [ "GetTagStructType", "d0/dc9/a01065.html#ad53030e068551d6ac9f69124b4a6c9bb", null ],
+    [ "GetType", "d0/dc9/a01065.html#a8d1bcd83b81e7b59969e36a4515d73d8", null ],
+    [ "IsArrayType", "d0/dc9/a01065.html#a80251cce2257d65fff1f45c0d805480f", null ],
+    [ "IsMBBType", "d0/dc9/a01065.html#a5cf5b72ab66ca68a6c8ddfd861741bb8", null ],
+    [ "IsNumArrayType", "d0/dc9/a01065.html#aa2a3dd91bfad9cf1297300d70936121a", null ],
+    [ "IsSupported", "d0/dc9/a01065.html#a3415307280dc7b871cc1797704008991", null ],
+    [ "NewCopy", "d0/dc9/a01065.html#a7cacb8bede1ad1dbac9cede87d41bca2", null ],
+    [ "operator=", "d0/dc9/a01065.html#a52baac45ed1f24f09b19c1cbad996a39", null ],
+    [ "Read", "d0/dc9/a01065.html#a351d04c1e658e77c5b1c54a8321ca212", null ],
+    [ "Read", "d0/dc9/a01065.html#a9c4cabcc7ea3278e375131bb688a8293", null ],
+    [ "ReadAll", "d0/dc9/a01065.html#affe66685d53e2ebf016a5a5126ed968d", null ],
+    [ "SetDateTime", "d0/dc9/a01065.html#a19de7150a740f759eb436ae693efacbf", null ],
+    [ "Validate", "d0/dc9/a01065.html#a2e8592a635b1e712758bdb65231b8911", null ],
+    [ "Write", "d0/dc9/a01065.html#a071ca9e3c84c008802d3f9531e9cb7f8", null ],
+    [ "m_DateTime", "d0/dc9/a01065.html#a5a8f26f843c930bf44cf9d5a7f67e2c1", null ],
+    [ "m_nReserved", "d0/dc9/a01065.html#a0dbc39e419057e941c11cacb8c9e3fb0", null ]
+];

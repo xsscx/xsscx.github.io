@@ -1,0 +1,28 @@
+var a01797 =
+[
+    [ "CIccSampledCurveSegmentXml", "d4/dd1/a01797.html#a1f1f0a6f425ac53a9d0adc5615350002", null ],
+    [ "Apply", "d4/dd1/a01797.html#a2eec246c9890f54897c12f9e03937ff4", null ],
+    [ "Begin", "d4/dd1/a01797.html#a9a49201f9d98916e3cc6c2610540c084", null ],
+    [ "Create", "d4/dd1/a01797.html#ac797e1107b3180a904006511d695a485", null ],
+    [ "Describe", "d4/dd1/a01797.html#ae0ce4adf3f654930af1685b6e97fa973", null ],
+    [ "EndPoint", "d4/dd1/a01797.html#a3c0f15b03cf644c15a14ac7cdb633026", null ],
+    [ "GetClassName", "d4/dd1/a01797.html#ad05a3b1a0f713e3e53b8a3a28c194596", null ],
+    [ "GetSamples", "d4/dd1/a01797.html#ae00c6d7d302e1e4757e2e057b6429206", null ],
+    [ "GetSize", "d4/dd1/a01797.html#a8af07a8b1f5c853a541fbe4d76948e62", null ],
+    [ "GetType", "d4/dd1/a01797.html#a3d60b1723df41ffbec6deb3600e1ad87", null ],
+    [ "NewCopy", "d4/dd1/a01797.html#a40be94319cd6319d640093c77c9751c1", null ],
+    [ "ParseXml", "d4/dd1/a01797.html#a17951bffcfa1b0cc3494411d61ba6fb5", null ],
+    [ "Read", "d4/dd1/a01797.html#aae2ab12b643b973903388f86a939f60f", null ],
+    [ "SetSize", "d4/dd1/a01797.html#a809c6c36d65123021f754b5e770f239b", null ],
+    [ "StartPoint", "d4/dd1/a01797.html#a4c6123fe1f737bc92c43f43779bdd502", null ],
+    [ "ToXml", "d4/dd1/a01797.html#a80f565238b55483b220cc3bfb5528250", null ],
+    [ "Validate", "d4/dd1/a01797.html#ab62183bbf69e74cacfc0bd043a65a014", null ],
+    [ "Write", "d4/dd1/a01797.html#ad1a3f4156084c217b0283f8dbf418143", null ],
+    [ "m_endPoint", "d4/dd1/a01797.html#a62e2386a93d6ec907b92736ce3ee065d", null ],
+    [ "m_last", "d4/dd1/a01797.html#a78683863b79e525af7139b6cc1b205f3", null ],
+    [ "m_nCount", "d4/dd1/a01797.html#afabc2d6954fbefac8775d6e00dd83fd1", null ],
+    [ "m_nReserved", "d4/dd1/a01797.html#af9319a3f998e8093c6d9149ed7557634", null ],
+    [ "m_pSamples", "d4/dd1/a01797.html#a40c6a129475334e9c8e4217ec40882d1", null ],
+    [ "m_range", "d4/dd1/a01797.html#ae0c716927df2a0fd8dc91ceec6ab8dc9", null ],
+    [ "m_startPoint", "d4/dd1/a01797.html#a5ba63ed74456050f60ef1b58cd3e8064", null ]
+];

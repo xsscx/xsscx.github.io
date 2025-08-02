@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d4/d91/a00733" kind="struct" language="C++" prot="public">
+    <compoundname>icUInt16ArrayType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/d91/a00733_1ad8dad4b4b9b78e2bf878cec978bb5132" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icUInt16ArrayType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icUInt16ArrayType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1932" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d91/a00733_1a3eb0e21a5e5c72a36e3d527d37ee6356" prot="public" static="no" mutable="no">
+        <type><ref refid="d3/d58/a00481" kindref="compound">icUInt16Array</ref></type>
+        <definition>icUInt16Array icUInt16ArrayType::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>icUInt16ArrayType::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1933" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1933" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>uInt16Type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+      <node id="3">
+        <label>icUInt16Array</label>
+        <link refid="d3/d58/a00481"/>
+      </node>
+      <node id="1">
+        <label>icUInt16ArrayType</label>
+        <link refid="d4/d91/a00733"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1931" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1931" bodyend="1934"/>
+    <listofallmembers>
+      <member refid="d4/d91/a00733_1ad8dad4b4b9b78e2bf878cec978bb5132" prot="public" virt="non-virtual"><scope>icUInt16ArrayType</scope><name>base</name></member>
+      <member refid="d4/d91/a00733_1a3eb0e21a5e5c72a36e3d527d37ee6356" prot="public" virt="non-virtual"><scope>icUInt16ArrayType</scope><name>data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

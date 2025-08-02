@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="da/d67/a02133" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ILinkWriter</compoundname>
+    <derivedcompoundref refid="de/d74/a02137" prot="public" virt="non-virtual">CCubeWriter</derivedcompoundref>
+    <derivedcompoundref refid="d5/d88/a02141" prot="public" virt="non-virtual">CDevLinkWriter</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d67/a02133_1a317774e1a02fccdbf3175f741ea3930f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ILinkWriter::ILinkWriter</definition>
+        <argsstring>()</argsstring>
+        <name>ILinkWriter</name>
+        <qualifiedname>ILinkWriter::ILinkWriter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="91" column="3" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1a05552ceaf3b6e6860a4b27159480d3ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual ILinkWriter::~ILinkWriter</definition>
+        <argsstring>()</argsstring>
+        <name>~ILinkWriter</name>
+        <qualifiedname>ILinkWriter::~ILinkWriter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="92" column="11" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1a9f00675904807a232de4a21629aeaa2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ILinkWriter::begin</definition>
+        <argsstring>(icColorSpaceSignature srcSpace, icColorSpaceSignature dstSpace)=0</argsstring>
+        <name>begin</name>
+        <qualifiedname>ILinkWriter::begin</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3">begin</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4">begin</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>srcSpace</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>dstSpace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="106" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1abb39a43bb7ffad13c59ae3923bd44b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ILinkWriter::finish</definition>
+        <argsstring>()=0</argsstring>
+        <name>finish</name>
+        <qualifiedname>ILinkWriter::finish</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1aa70013a9ea8f9e68e2d0d04c3fbfb499">finish</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1a004c3173856bb6c4e8d9b9e112913702">finish</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="110" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1a5c5eb0fb9133cc203275e77b34a17e18" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ILinkWriter::setCmm</definition>
+        <argsstring>(CIccCmm *pCmm)=0</argsstring>
+        <name>setCmm</name>
+        <qualifiedname>ILinkWriter::setCmm</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1abb6226fa5a03a0014cdd76359c3c2332">setCmm</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1a7d0b6ded252b97b26dcba7166677f852">setCmm</reimplementedby>
+        <param>
+          <type>CIccCmm *</type>
+          <declname>pCmm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="100" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1ace533c051e60dce185bd3fa8a9286aae" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ILinkWriter::setFile</definition>
+        <argsstring>(const char *szOutputFile)=0</argsstring>
+        <name>setFile</name>
+        <qualifiedname>ILinkWriter::setFile</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1a509811f33b1079af3d06cf407ddd5fe7">setFile</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1acbe310204c94afa7283b05eb5bec7dbb">setFile</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>szOutputFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="94" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1a1a0ec1de1132136c692e47fef95ea4df" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ILinkWriter::setInputRange</definition>
+        <argsstring>(icFloatNumber fMinInput, icFloatNumber fMaxInput)=0</argsstring>
+        <name>setInputRange</name>
+        <qualifiedname>ILinkWriter::setInputRange</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1a86a9ed47e899fbc473f9d9b083f12ed8">setInputRange</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1afdcfba387e2eac70435aca92d389bace">setInputRange</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>fMinInput</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>fMaxInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="104" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1a1e84b92da6f85a0e87aa285196482c5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool ILinkWriter::setLutSize</definition>
+        <argsstring>(icUInt8Number nGridSize)=0</argsstring>
+        <name>setLutSize</name>
+        <qualifiedname>ILinkWriter::setLutSize</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1ae1bac8dcc0821d1f42d56f1b832438db">setLutSize</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1a1f2b3fe929effeb42824d9aca623b69d">setLutSize</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nGridSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="102" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1aee554824cef19c23dc5db814aa8cba3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ILinkWriter::setNextNode</definition>
+        <argsstring>(icFloatNumber *pPixel)=0</argsstring>
+        <name>setNextNode</name>
+        <qualifiedname>ILinkWriter::setNextNode</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1a217362c288100a55aa3d57bc5c3aa9b7">setNextNode</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1a165b62c653eada2f28d388b6513eded9">setNextNode</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="108" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1aee195159919752a100c3014b3cd484be" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ILinkWriter::setOption</definition>
+        <argsstring>(int nOptionValue)=0</argsstring>
+        <name>setOption</name>
+        <qualifiedname>ILinkWriter::setOption</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1af903818b3e3e3930bb6358f6392b1ffd">setOption</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1a125f3ba2e95107efe41d3f2025e338eb">setOption</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>nOptionValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="96" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d67/a02133_1a325a3d01dc27511586f735e07e1c6363" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void ILinkWriter::setTitle</definition>
+        <argsstring>(const char *szTitle)=0</argsstring>
+        <name>setTitle</name>
+        <qualifiedname>ILinkWriter::setTitle</qualifiedname>
+        <reimplementedby refid="de/d74/a02137_1a7da0bc654aed0b0bacf64bb6f189d71b">setTitle</reimplementedby>
+        <reimplementedby refid="d5/d88/a02141_1a9254208f4d565957c563554ea11bc6ad">setTitle</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>szTitle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="98" column="16"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CCubeWriter</label>
+        <link refid="de/d74/a02137"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CDevLinkWriter</label>
+        <link refid="d5/d88/a02141"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ILinkWriter</label>
+        <link refid="da/d67/a02133"/>
+      </node>
+    </inheritancegraph>
+    <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="88" column="1" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="89" bodyend="111"/>
+    <listofallmembers>
+      <member refid="da/d67/a02133_1a9f00675904807a232de4a21629aeaa2c" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>begin</name></member>
+      <member refid="da/d67/a02133_1abb39a43bb7ffad13c59ae3923bd44b74" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>finish</name></member>
+      <member refid="da/d67/a02133_1a317774e1a02fccdbf3175f741ea3930f" prot="public" virt="non-virtual"><scope>ILinkWriter</scope><name>ILinkWriter</name></member>
+      <member refid="da/d67/a02133_1a5c5eb0fb9133cc203275e77b34a17e18" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>setCmm</name></member>
+      <member refid="da/d67/a02133_1ace533c051e60dce185bd3fa8a9286aae" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>setFile</name></member>
+      <member refid="da/d67/a02133_1a1a0ec1de1132136c692e47fef95ea4df" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>setInputRange</name></member>
+      <member refid="da/d67/a02133_1a1e84b92da6f85a0e87aa285196482c5a" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>setLutSize</name></member>
+      <member refid="da/d67/a02133_1aee554824cef19c23dc5db814aa8cba3f" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>setNextNode</name></member>
+      <member refid="da/d67/a02133_1aee195159919752a100c3014b3cd484be" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>setOption</name></member>
+      <member refid="da/d67/a02133_1a325a3d01dc27511586f735e07e1c6363" prot="public" virt="pure-virtual"><scope>ILinkWriter</scope><name>setTitle</name></member>
+      <member refid="da/d67/a02133_1a05552ceaf3b6e6860a4b27159480d3ab" prot="public" virt="virtual"><scope>ILinkWriter</scope><name>~ILinkWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

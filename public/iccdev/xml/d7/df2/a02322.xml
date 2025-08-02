@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/df2/a02322" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>iccApplyToLink</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`iccApplyToLink`<sp/>is<sp/>a<sp/>versatile<sp/>command-line<sp/>tool<sp/>that<sp/>builds<sp/>either<sp/>an<sp/>ICC<sp/>DeviceLink<sp/>profile<sp/>or<sp/>a<sp/>`.cube`<sp/>LUT<sp/>file<sp/>by<sp/>applying<sp/>a<sp/>sequence<sp/>of<sp/>ICC<sp/>profiles.<sp/>It<sp/>supports<sp/>fine-grained<sp/>control<sp/>over<sp/>rendering<sp/>intents,<sp/>LUT<sp/>size,<sp/>interpolation,<sp/>and<sp/>Profile<sp/>Connection<sp/>Conditions<sp/>(PCC).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>tool<sp/>is<sp/>especially<sp/>useful<sp/>for<sp/>creating<sp/>link<sp/>profiles<sp/>for<sp/>production<sp/>workflows<sp/>or<sp/>transforming<sp/>color<sp/>spaces<sp/>for<sp/>VFX,<sp/>printing,<sp/>or<sp/>display<sp/>calibration.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>output<sp/>as<sp/>ICC<sp/>v4/v5<sp/>DeviceLink<sp/>or<sp/>`.cube`<sp/>3D<sp/>LUT<sp/>format</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Accepts<sp/>a<sp/>sequence<sp/>of<sp/>profiles<sp/>and<sp/>rendering<sp/>intents</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Handles<sp/>Profile<sp/>Connection<sp/>Conditions<sp/>(`-PCC`)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Applies<sp/>CMM<sp/>Environment<sp/>variables<sp/>(`-ENV:sig<sp/>value`)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>LUT<sp/>precision<sp/>and<sp/>custom<sp/>input<sp/>ranges</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Choice<sp/>of<sp/>interpolation<sp/>methods<sp/>(linear/tetrahedral)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyToLink<sp/>output_file<sp/>link_type<sp/>lut_size<sp/>option<sp/>title<sp/>min_input<sp/>max_input<sp/>use_src_xform<sp/>interp<sp/>profile_seq...</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyToLink<sp/>myLink.icc<sp/>0<sp/>33<sp/>1<sp/>&quot;My<sp/>DisplayLink&quot;<sp/>0.0<sp/>1.0<sp/>1<sp/>1<sp/>sRGB.icc<sp/>1<sp/>printer.icc<sp/>1</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Parameters</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`output_file`:<sp/>Path<sp/>to<sp/>save<sp/>the<sp/>ICC<sp/>or<sp/>`.cube`<sp/>output</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`link_type`:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0`<sp/>=<sp/>ICC<sp/>DeviceLink</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`1`<sp/>=<sp/>`.cube`<sp/>LUT</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`lut_size`:<sp/>Grid<sp/>size<sp/>per<sp/>dimension<sp/>(e.g.,<sp/>33)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`option`:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>For<sp/>ICC:<sp/>`0`<sp/>=<sp/>v4,<sp/>`1`<sp/>=<sp/>v5</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>For<sp/>cube:<sp/>precision<sp/>(e.g.,<sp/>`4`)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`title`:<sp/>Title<sp/>embedded<sp/>in<sp/>output</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`min_input`<sp/>/<sp/>`max_input`:<sp/>Input<sp/>value<sp/>range,<sp/>e.g.,<sp/>`0.0`<sp/>to<sp/>`1.0`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`use_src_xform`:<sp/>`1`<sp/>=<sp/>use<sp/>source<sp/>xform<sp/>from<sp/>first<sp/>profile,<sp/>else<sp/>destination</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`interp`:<sp/>`0`<sp/>=<sp/>linear,<sp/>`1`<sp/>=<sp/>tetrahedral</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`profile_seq`:<sp/>Sequence<sp/>of<sp/>profile<sp/>files<sp/>and<sp/>intents,<sp/>optionally<sp/>with:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`-ENV:TAG<sp/>value`<sp/>to<sp/>set<sp/>environment<sp/>sigs</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`-PCC<sp/>path.icc`<sp/>to<sp/>provide<sp/>connection<sp/>conditions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Rendering<sp/>Intents</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Supports<sp/>all<sp/>ICC<sp/>intents<sp/>plus<sp/>combinations:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">|<sp/>Code<sp/>|<sp/>Intent<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|------|--------|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>0–3<sp/><sp/>|<sp/>Perceptual<sp/>/<sp/>Relative<sp/>/<sp/>Saturation<sp/>/<sp/>Absolute<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>10+<sp/><sp/>|<sp/>Skip<sp/>D2Bx/B2Dx<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>20+<sp/><sp/>|<sp/>Preview<sp/>Intents<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>40+<sp/><sp/>|<sp/>BPC-enabled<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>50+<sp/><sp/>|<sp/>BDRF<sp/>variations<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>100+<sp/>|<sp/>Luminance<sp/>adjusted<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>1000+|<sp/>V5<sp/>sub-profile<sp/>override<sp/>|</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Build<sp/>Instructions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>(Mar<sp/>2023)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Multi-output<sp/>support<sp/>and<sp/>argument<sp/>extensions<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccApplyToLink/Readme.md"/>
+  </compounddef>
+</doxygen>

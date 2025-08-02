@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d4/dbb/a02097" kind="class" language="C++" prot="public">
+    <compoundname>CIccLogDebugger</compoundname>
+    <basecompoundref refid="dd/d5d/a01325" prot="public" virt="non-virtual">IIccCalcDebugger</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/dbb/a02097_1a083db25efebfea3915a7eb1c9c52fc4b" prot="public" static="no" mutable="no">
+        <type>std::list&lt; std::string &gt;</type>
+        <definition>std::list&lt;std::string&gt; CIccLogDebugger::m_log</definition>
+        <argsstring></argsstring>
+        <name>m_log</name>
+        <qualifiedname>CIccLogDebugger::m_log</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="104" column="13" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="104" bodyend="-1"/>
+        <referencedby refid="d4/dbb/a02097_1a8ad65ef259354e591341ae4320c39820" compoundref="d3/d93/a00341" startline="135" endline="169">AfterOp</referencedby>
+        <referencedby refid="d4/dbb/a02097_1a5e3a58aae40e429f3ec103e0b420ee6c" compoundref="d3/d93/a00341" startline="117" endline="133">BeforeOp</referencedby>
+        <referencedby refid="d4/dbb/a02097_1a1d10e8ddaf85390127ccb530693006ec" compoundref="d3/d93/a00341" startline="106" endline="109">BeginApply</referencedby>
+        <referencedby refid="d4/dbb/a02097_1ac577f9fd78ef2d0a5827539d9c8087d9" compoundref="d3/d93/a00341" startline="111" endline="115">EndApply</referencedby>
+        <referencedby refid="d4/dbb/a02097_1a473356c8d500a8e76eacfc4ef7bd8d4c" compoundref="d3/d93/a00341" startline="170" endline="173">Error</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+        <referencedby refid="d4/dbb/a02097_1ab344183b6d33217507fc6443fe595ec2" compoundref="d3/d93/a00341" startline="99" endline="102">reset</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dbb/a02097_1a05f9cf0c0184e480690cf8d6d0fc7ce7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccLogDebugger::~CIccLogDebugger</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccLogDebugger</name>
+        <qualifiedname>CIccLogDebugger::~CIccLogDebugger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="97" column="11" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dbb/a02097_1a8ad65ef259354e591341ae4320c39820" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccLogDebugger::AfterOp</definition>
+        <argsstring>(SIccCalcOp *op, SIccOpState &amp;os, SIccCalcOp *ops)</argsstring>
+        <name>AfterOp</name>
+        <qualifiedname>CIccLogDebugger::AfterOp</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1a48d5eb95b4bcebad6d0522f1ba9d0174">AfterOp</reimplements>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d8c/a01297" kindref="compound">SIccOpState</ref> &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>ops</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="135" column="16" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="135" bodyend="169"/>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a799fa857823055001ccb0c044c069a2d" compoundref="d5/de0/a00050" startline="112">icSigDataOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="d4/dbb/a02097_1a083db25efebfea3915a7eb1c9c52fc4b" compoundref="d3/d93/a00341" startline="104">m_log</references>
+        <references refid="dc/d8c/a01297_1ab3754fddf22c18661914dc452cc1cfbd" compoundref="d5/de0/a00050" startline="275">SIccOpState::pStack</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/dbb/a02097_1a5e3a58aae40e429f3ec103e0b420ee6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccLogDebugger::BeforeOp</definition>
+        <argsstring>(SIccCalcOp *op, SIccOpState &amp;os, SIccCalcOp *ops)</argsstring>
+        <name>BeforeOp</name>
+        <qualifiedname>CIccLogDebugger::BeforeOp</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1a280970908eb062c22d3f14f50b08e658">BeforeOp</reimplements>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d8c/a01297" kindref="compound">SIccOpState</ref> &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>ops</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="117" column="16" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="117" bodyend="133"/>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="d4/dbb/a02097_1a083db25efebfea3915a7eb1c9c52fc4b" compoundref="d3/d93/a00341" startline="104">m_log</references>
+        <references refid="dc/d8c/a01297_1ab3754fddf22c18661914dc452cc1cfbd" compoundref="d5/de0/a00050" startline="275">SIccOpState::pStack</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/dbb/a02097_1a1d10e8ddaf85390127ccb530693006ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccLogDebugger::BeginApply</definition>
+        <argsstring>()</argsstring>
+        <name>BeginApply</name>
+        <qualifiedname>CIccLogDebugger::BeginApply</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1aeaa7d4a4120b42eb307ed17262238d25">BeginApply</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="106" column="16" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="106" bodyend="109"/>
+        <references refid="d4/dbb/a02097_1a083db25efebfea3915a7eb1c9c52fc4b" compoundref="d3/d93/a00341" startline="104">m_log</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/dbb/a02097_1ac577f9fd78ef2d0a5827539d9c8087d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccLogDebugger::EndApply</definition>
+        <argsstring>()</argsstring>
+        <name>EndApply</name>
+        <qualifiedname>CIccLogDebugger::EndApply</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1a16d288faab94c18ab4a0638624b2b4ee">EndApply</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="111" column="16" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="111" bodyend="115"/>
+        <references refid="d4/dbb/a02097_1a083db25efebfea3915a7eb1c9c52fc4b" compoundref="d3/d93/a00341" startline="104">m_log</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/dbb/a02097_1a473356c8d500a8e76eacfc4ef7bd8d4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccLogDebugger::Error</definition>
+        <argsstring>(const char *szMsg)</argsstring>
+        <name>Error</name>
+        <qualifiedname>CIccLogDebugger::Error</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1ad0ccf386782bd5b24d3446cd2bee398c">Error</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>szMsg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="170" column="16" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="170" bodyend="173"/>
+        <references refid="d4/dbb/a02097_1a083db25efebfea3915a7eb1c9c52fc4b" compoundref="d3/d93/a00341" startline="104">m_log</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/dbb/a02097_1ab344183b6d33217507fc6443fe595ec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccLogDebugger::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>CIccLogDebugger::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="99" column="8" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="99" bodyend="102"/>
+        <references refid="d4/dbb/a02097_1a083db25efebfea3915a7eb1c9c52fc4b" compoundref="d3/d93/a00341" startline="104">m_log</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d5d/a01325_1a703f6f8acef15bb34a6c19dbc8b3aa2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IIccCalcDebugger::SetDebugger</definition>
+        <argsstring>(IIccCalcDebugger *pDebugger)</argsstring>
+        <name>SetDebugger</name>
+        <qualifiedname>IIccCalcDebugger::SetDebugger</qualifiedname>
+        <param>
+          <type><ref refid="dd/d5d/a01325" kindref="compound">IIccCalcDebugger</ref> *</type>
+          <declname>pDebugger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="546" column="15" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="157" bodyend="163"/>
+        <references refid="d9/d77/a00095_1abe9f888eb0b225fb67dc4b2e07a1f594" compoundref="d9/d77/a00095" startline="149">g_ConsoleDebugger</references>
+        <references refid="d9/d77/a00095_1af1e538bb71e14151ca446799994795bc" compoundref="d9/d77/a00095" startline="154">g_pDebugger</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccLogDebugger</label>
+        <link refid="d4/dbb/a02097"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccCalcDebugger</label>
+        <link refid="dd/d5d/a01325"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccLogDebugger</label>
+        <link refid="d4/dbb/a02097"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccCalcDebugger</label>
+        <link refid="dd/d5d/a01325"/>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" line="93" column="1" bodyfile="Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp" bodystart="94" bodyend="174"/>
+    <listofallmembers>
+      <member refid="d4/dbb/a02097_1a8ad65ef259354e591341ae4320c39820" prot="public" virt="virtual"><scope>CIccLogDebugger</scope><name>AfterOp</name></member>
+      <member refid="d4/dbb/a02097_1a5e3a58aae40e429f3ec103e0b420ee6c" prot="public" virt="virtual"><scope>CIccLogDebugger</scope><name>BeforeOp</name></member>
+      <member refid="d4/dbb/a02097_1a1d10e8ddaf85390127ccb530693006ec" prot="public" virt="virtual"><scope>CIccLogDebugger</scope><name>BeginApply</name></member>
+      <member refid="d4/dbb/a02097_1ac577f9fd78ef2d0a5827539d9c8087d9" prot="public" virt="virtual"><scope>CIccLogDebugger</scope><name>EndApply</name></member>
+      <member refid="d4/dbb/a02097_1a473356c8d500a8e76eacfc4ef7bd8d4c" prot="public" virt="virtual"><scope>CIccLogDebugger</scope><name>Error</name></member>
+      <member refid="d4/dbb/a02097_1a083db25efebfea3915a7eb1c9c52fc4b" prot="public" virt="non-virtual"><scope>CIccLogDebugger</scope><name>m_log</name></member>
+      <member refid="d4/dbb/a02097_1ab344183b6d33217507fc6443fe595ec2" prot="public" virt="non-virtual"><scope>CIccLogDebugger</scope><name>reset</name></member>
+      <member refid="dd/d5d/a01325_1a703f6f8acef15bb34a6c19dbc8b3aa2a" prot="public" virt="non-virtual"><scope>CIccLogDebugger</scope><name>SetDebugger</name></member>
+      <member refid="d4/dbb/a02097_1a05f9cf0c0184e480690cf8d6d0fc7ce7" prot="public" virt="virtual"><scope>CIccLogDebugger</scope><name>~CIccLogDebugger</name></member>
+      <member refid="dd/d5d/a01325_1a5518a7c0d9bf439d820c49c868393682" prot="public" virt="virtual"><scope>CIccLogDebugger</scope><name>~IIccCalcDebugger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

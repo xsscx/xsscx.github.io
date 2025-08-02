@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d6/d86/a00781" kind="struct" language="C++" prot="public">
+    <compoundname>icTag</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d86/a00781_1a10766e1e083a846f7032187c71fcbdcd" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number icTag::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>icTag::offset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2023" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2023" bodyend="-1"/>
+        <referencedby refid="d5/d5f/a00461_1a013394d9ae76eb2d65468060d52a50f9" compoundref="d5/dcb/a00170" startline="757" endline="789">CIccTagStruct::AttachElem</referencedby>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d5/d5f/a00461_1ac6d61b8ae0ec667a3a6de3cc20ab96fd" compoundref="d5/dcb/a00170" startline="847" endline="911">CIccTagStruct::LoadElem</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a560ac9d14c6e3c5f85b2568a76823cb2" compoundref="d5/dcb/a00170" startline="346" endline="413">CIccTagStruct::Read</referencedby>
+        <referencedby refid="db/d49/a01969_1a8a1f6fe1c2db87a647aa00e2f98844e4" compoundref="d0/d27/a00239" startline="4363" endline="4478">CIccTagXmlStruct::ToXml</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d86/a00781_1a9e4fa23633a1ca43a6793a61c8252de4" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref></type>
+        <definition>icTagSignature icTag::sig</definition>
+        <argsstring></argsstring>
+        <name>sig</name>
+        <qualifiedname>icTag::sig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2022" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2022" bodyend="-1"/>
+        <referencedby refid="d5/d5f/a00461_1a09593562f52f346cd66f870581996c1c" compoundref="d5/dcb/a00170" startline="615" endline="628">CIccTagStruct::AreElemsUnique</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a013394d9ae76eb2d65468060d52a50f9" compoundref="d5/dcb/a00170" startline="757" endline="789">CIccTagStruct::AttachElem</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a52a413609854f16ec811ab3896882e41" compoundref="d5/dcb/a00170" startline="807" endline="827">CIccTagStruct::DeleteElem</referencedby>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="da/dbf/a00393_1afed6df30c0a290f3e033930c60b607fe" compoundref="d1/d88/a00128" startline="115" endline="137">CIccStructUnknown::Describe</referencedby>
+        <referencedby refid="d5/d5f/a00461_1acfdbca07422fa4d49f793dfb602c4cab" compoundref="d5/dcb/a00170" startline="589" endline="599">CIccTagStruct::GetElem</referencedby>
+        <referencedby refid="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" compoundref="de/d76/a00134" startline="538" endline="604">icConvertEncodingProfile</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a560ac9d14c6e3c5f85b2568a76823cb2" compoundref="d5/dcb/a00170" startline="346" endline="413">CIccTagStruct::Read</referencedby>
+        <referencedby refid="db/d49/a01969_1a8a1f6fe1c2db87a647aa00e2f98844e4" compoundref="d0/d27/a00239" startline="4363" endline="4478">CIccTagXmlStruct::ToXml</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+        <referencedby refid="da/dbf/a00393_1a2ca20ad9e6a3fda566db8c5c460fb3eb" compoundref="d1/d88/a00128" startline="181" endline="201">CIccStructUnknown::Validate</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a3081292ee5bd17119c61e22466e482ec" compoundref="d5/dcb/a00170" startline="519" endline="550">CIccTagStruct::Validate</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d86/a00781_1ae0287f6389e9f6c34dab6fcfc316b4e7" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number icTag::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>icTag::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2026" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2026" bodyend="-1"/>
+        <referencedby refid="d5/d5f/a00461_1a013394d9ae76eb2d65468060d52a50f9" compoundref="d5/dcb/a00170" startline="757" endline="789">CIccTagStruct::AttachElem</referencedby>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d5/d5f/a00461_1ac6d61b8ae0ec667a3a6de3cc20ab96fd" compoundref="d5/dcb/a00170" startline="847" endline="911">CIccTagStruct::LoadElem</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a560ac9d14c6e3c5f85b2568a76823cb2" compoundref="d5/dcb/a00170" startline="346" endline="413">CIccTagStruct::Read</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Lists of tags, tags, profile header and profile structure A tag </para>
+    </detaileddescription>
+    <location file="IccProfLib/icProfileHeader.h" line="2021" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2021" bodyend="2027"/>
+    <listofallmembers>
+      <member refid="d6/d86/a00781_1a10766e1e083a846f7032187c71fcbdcd" prot="public" virt="non-virtual"><scope>icTag</scope><name>offset</name></member>
+      <member refid="d6/d86/a00781_1a9e4fa23633a1ca43a6793a61c8252de4" prot="public" virt="non-virtual"><scope>icTag</scope><name>sig</name></member>
+      <member refid="d6/d86/a00781_1ae0287f6389e9f6c34dab6fcfc316b4e7" prot="public" virt="non-virtual"><scope>icTag</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d47/a00445" kind="class" language="C++" prot="public">
+    <compoundname>CIccArrayCreator</compoundname>
+    <includes refid="da/d2a/a00086" local="no">IccArrayFactory.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/d47/a00445_1a68b62cd47c90de5eb3d02b2685ea89d5" prot="private" static="yes" mutable="no">
+        <type><ref refid="da/d2a/a00086_1a4a4e8bdd7906386d278a73b41f5bb8a9" kindref="member">CIccArrayCreatorPtr</ref></type>
+        <definition>std::unique_ptr&lt; CIccArrayCreator &gt; CIccArrayCreator::theArrayCreator</definition>
+        <argsstring></argsstring>
+        <name>theArrayCreator</name>
+        <qualifiedname>CIccArrayCreator::theArrayCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="327" column="30" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="327" bodyend="-1"/>
+        <referencedby refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" compoundref="d3/db1/a00200" startline="155" endline="164">GetInstance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/d47/a00445_1aa5e513bc0febc6d82e4f2ea654be5fca" prot="private" static="no" mutable="no">
+        <type><ref refid="da/d2a/a00086_1a81af576d7fedcc944d2199f6b7fd93fe" kindref="member">CIccArrayFactoryList</ref></type>
+        <definition>CIccArrayFactoryList CIccArrayCreator::factoryStack</definition>
+        <argsstring></argsstring>
+        <name>factoryStack</name>
+        <qualifiedname>CIccArrayCreator::factoryStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="329" column="24" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="329" bodyend="-1"/>
+        <referencedby refid="dd/d47/a00445_1a7f6efab39e2ce3121aeeda9782eccae3" compoundref="d3/db1/a00200" startline="166" endline="177">DoCreateArray</referencedby>
+        <referencedby refid="dd/d47/a00445_1a3ad9d3d2146aeba46e101ccc36d1fad2" compoundref="d3/db1/a00200" startline="191" endline="202">DoGetArraySig</referencedby>
+        <referencedby refid="dd/d47/a00445_1a0356a4525dc712bf0ebf7b12c4f461c6" compoundref="d3/db1/a00200" startline="179" endline="189">DoGetArraySigName</referencedby>
+        <referencedby refid="dd/d47/a00445_1aafa3db7c38702d1007ef1c280646083c" compoundref="d3/db1/a00200" startline="210" endline="219">DoPopFactory</referencedby>
+        <referencedby refid="dd/d47/a00445_1a6afdc77a0393b00892ea83cf60cca90e" compoundref="d3/db1/a00200" startline="205" endline="208">DoPushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d47/a00445_1a8d948bd75b10c9bbd4b908903369031f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccArrayCreator::~CIccArrayCreator</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccArrayCreator</name>
+        <qualifiedname>CIccArrayCreator::~CIccArrayCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="223" column="3" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="145" bodyend="153"/>
+        <references refid="dd/d47/a00445_1aafa3db7c38702d1007ef1c280646083c" compoundref="d3/db1/a00200" startline="210" endline="219">DoPopFactory</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d47/a00445_1acf6c04bd6490f84670a7df0aee539f4a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/dbd/a00457" kindref="compound">IIccArray</ref> *</type>
+        <definition>static IIccArray * CIccArrayCreator::CreateArray</definition>
+        <argsstring>(icArraySignature arrayTypeSig, CIccTagArray *pTagArray=NULL)</argsstring>
+        <name>CreateArray</name>
+        <qualifiedname>CIccArrayCreator::CreateArray</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+          <declname>arrayTypeSig</declname>
+        </param>
+        <param>
+          <type><ref refid="db/de0/a00465" kindref="compound">CIccTagArray</ref> *</type>
+          <declname>pTagArray</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateArray(structTypeSig) Create a element of type structTypeSig.</para>
+<para>Parameter(s): structTypeSig = signature of the ICC element type for the element to be created</para>
+<para>Returns a new CIccProcessArray object of the given signature type. Each factory in the factoryStack is used until a factory supports the signature type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="237" column="20" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="237" bodyend="238"/>
+        <references refid="dd/d47/a00445_1a7f6efab39e2ce3121aeeda9782eccae3" compoundref="d3/db1/a00200" startline="166" endline="177">DoCreateArray</references>
+        <references refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" compoundref="d3/db1/a00200" startline="155" endline="164">GetInstance</references>
+        <referencedby refid="db/de0/a00465_1ab040f1c5616c6b39dc92a5d2516f7709" compoundref="d5/dcb/a00170" startline="1624" endline="1631">CIccTagArray::GetArrayHandler</referencedby>
+        <referencedby refid="db/de0/a00465_1a97a12ad6238a972fc6e1bbcff3c22116" compoundref="d5/dcb/a00170" startline="1122" endline="1131">CIccTagArray::SetTagArrayType</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1ad40e809373775f4bd441268223ad4cb3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+        <definition>static icArraySignature CIccArrayCreator::GetArraySig</definition>
+        <argsstring>(const icChar *arrayName)</argsstring>
+        <name>GetArraySig</name>
+        <qualifiedname>CIccArrayCreator::GetArraySig</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>arrayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetArraySig(arrayName) Get signature associate with display name arrayName handler</para>
+<para>Parameter(s): arrayName = string to find signature for</para>
+<para>Returns array signuture if arrayName arrays are recognized by any factory, 0 if all factories do not create arrayName arrays. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="268" column="27" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="268" bodyend="269"/>
+        <references refid="dd/d47/a00445_1a3ad9d3d2146aeba46e101ccc36d1fad2" compoundref="d3/db1/a00200" startline="191" endline="202">DoGetArraySig</references>
+        <references refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" compoundref="d3/db1/a00200" startline="155" endline="164">GetInstance</references>
+        <referencedby refid="d3/d59/a01973_1abccc6c4d4ab6b62ac620371e1e5ab361" compoundref="d0/d27/a00239" startline="4791" endline="4907">CIccTagXmlArray::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1ad16c44f0c8404d0d6abceb523108cb94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CIccArrayCreator::GetArraySigName</definition>
+        <argsstring>(std::string &amp;arrayName, icArraySignature arrayTypeSig, bool bFillUnknown=true)</argsstring>
+        <name>GetArraySigName</name>
+        <qualifiedname>CIccArrayCreator::GetArraySigName</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>arrayName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+          <declname>arrayTypeSig</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bFillUnknown</declname>
+          <defval><ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetArraySigName(structTypeSig) Get display name of structTypeSig.</para>
+<para>Parameter(s): arrayName = string to put struct name into arrayTypeSig = signature of the ICC struct type to get a name for bFillUnknown = flag to fill in arrayName if arryTypeSig is unknown</para>
+<para>Returns true if struct type is recognized by any factory, false if all factories do not create arrayTypeSig arrays. If arrayTypeSig is not recognized by any factories a suitable display name will be placed in arrayName if bFindUnkown is true (otherwise arrayName will be empty). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="254" column="15" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="254" bodyend="255"/>
+        <references refid="dd/d47/a00445_1a0356a4525dc712bf0ebf7b12c4f461c6" compoundref="d3/db1/a00200" startline="179" endline="189">DoGetArraySigName</references>
+        <references refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" compoundref="d3/db1/a00200" startline="155" endline="164">GetInstance</references>
+        <referencedby refid="db/de0/a00465_1a84a9831b699a71dccc5490410bedba4d" compoundref="d5/dcb/a00170" startline="1168" endline="1200">CIccTagArray::Describe</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a33e41fb4779a4f8119c999dd9eef0587" compoundref="d5/db1/a00140" startline="1512" endline="1518">CIccInfo::GetArraySigName</referencedby>
+        <referencedby refid="d3/d59/a01973_1a90f7a44016b69c099ea5cb6b71772b0b" compoundref="d0/d27/a00239" startline="4734" endline="4788">CIccTagXmlArray::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1ac581edfa0e002512bb55f28ed40688c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/da8/a00437" kindref="compound">IIccArrayFactory</ref> *</type>
+        <definition>static IIccArrayFactory * CIccArrayCreator::PopFactory</definition>
+        <argsstring>()</argsstring>
+        <name>PopFactory</name>
+        <qualifiedname>CIccArrayCreator::PopFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="dd/d47/a00445_1ac581edfa0e002512bb55f28ed40688c9" kindref="member">PopFactory()</ref> Remove the top <ref refid="d4/da8/a00437" kindref="compound">IIccArrayFactory</ref> from the stack of element factories tracked by the system.</para>
+<para>Parameter(s): None</para>
+<para>Returns the top <ref refid="d4/da8/a00437" kindref="compound">IIccArrayFactory</ref> from the stack of element factories tracked by the system. The returned element factory is no longer owned by the system and needs to be deleted to avoid memory leaks.</para>
+<para>Note: The initial CIccBasicElemFactory cannot be popped off the stack. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="301" column="27" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="301" bodyend="302"/>
+        <references refid="dd/d47/a00445_1aafa3db7c38702d1007ef1c280646083c" compoundref="d3/db1/a00200" startline="210" endline="219">DoPopFactory</references>
+        <references refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" compoundref="d3/db1/a00200" startline="155" endline="164">GetInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1a43134f0f06925c036afaa4011aa45179" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CIccArrayCreator::PushFactory</definition>
+        <argsstring>(IIccArrayFactory *pFactory)</argsstring>
+        <name>PushFactory</name>
+        <qualifiedname>CIccArrayCreator::PushFactory</qualifiedname>
+        <param>
+          <type><ref refid="d4/da8/a00437" kindref="compound">IIccArrayFactory</ref> *</type>
+          <declname>pFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: PushFactory(pFactory) Add an <ref refid="d4/da8/a00437" kindref="compound">IIccArrayFactory</ref> to the stack of element factories tracked by the system.</para>
+<para>Parameter(s): pFactory = pointer to an <ref refid="d4/da8/a00437" kindref="compound">IIccArrayFactory</ref> object to add to the system. The pFactory must be created with new, and will be owned <ref refid="dd/d47/a00445" kindref="compound">CIccArrayCreator</ref> until popped off the stack using <ref refid="dd/d47/a00445_1ac581edfa0e002512bb55f28ed40688c9" kindref="member">PopFactory()</ref>. Any factories not popped off will be taken care of properly on application shutdown. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="284" column="15" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="284" bodyend="285"/>
+        <references refid="dd/d47/a00445_1a6afdc77a0393b00892ea83cf60cca90e" compoundref="d3/db1/a00200" startline="205" endline="208">DoPushFactory</references>
+        <references refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" compoundref="d3/db1/a00200" startline="155" endline="164">GetInstance</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="dd/d47/a00445_1a60122f9abf1e3787bd6172328051861a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccArrayCreator::CIccArrayCreator</definition>
+        <argsstring>()</argsstring>
+        <name>CIccArrayCreator</name>
+        <qualifiedname>CIccArrayCreator::CIccArrayCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only <ref refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" kindref="member">GetInstance()</ref> can create the singleton </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="306" column="3" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="306" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1a7f6efab39e2ce3121aeeda9782eccae3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/dbd/a00457" kindref="compound">IIccArray</ref> *</type>
+        <definition>IIccArray * CIccArrayCreator::DoCreateArray</definition>
+        <argsstring>(icArraySignature arrayTypeSig, CIccTagArray *pArray)</argsstring>
+        <name>DoCreateArray</name>
+        <qualifiedname>CIccArrayCreator::DoCreateArray</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+          <declname>arrayTypeSig</declname>
+        </param>
+        <param>
+          <type><ref refid="db/de0/a00465" kindref="compound">CIccTagArray</ref> *</type>
+          <declname>pArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="321" column="13" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="166" bodyend="177"/>
+        <references refid="d4/da8/a00437_1a20d4a17925a19af353e3022f05f29ae9">IIccArrayFactory::CreateArray</references>
+        <references refid="dd/d47/a00445_1aa5e513bc0febc6d82e4f2ea654be5fca" compoundref="da/d2a/a00086" startline="329">factoryStack</references>
+        <referencedby refid="dd/d47/a00445_1acf6c04bd6490f84670a7df0aee539f4a" compoundref="da/d2a/a00086" startline="237" endline="238">CreateArray</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1a3ad9d3d2146aeba46e101ccc36d1fad2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+        <definition>icArraySignature CIccArrayCreator::DoGetArraySig</definition>
+        <argsstring>(const icChar *arrayName)</argsstring>
+        <name>DoGetArraySig</name>
+        <qualifiedname>CIccArrayCreator::DoGetArraySig</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>arrayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="323" column="20" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="191" bodyend="202"/>
+        <references refid="dd/d47/a00445_1aa5e513bc0febc6d82e4f2ea654be5fca" compoundref="da/d2a/a00086" startline="329">factoryStack</references>
+        <references refid="d4/da8/a00437_1ac80fd5e89a37bc28080a94e78c1c9127">IIccArrayFactory::GetArraySig</references>
+        <referencedby refid="dd/d47/a00445_1ad40e809373775f4bd441268223ad4cb3" compoundref="da/d2a/a00086" startline="268" endline="269">GetArraySig</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1a0356a4525dc712bf0ebf7b12c4f461c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccArrayCreator::DoGetArraySigName</definition>
+        <argsstring>(std::string &amp;arrayName, icArraySignature arrayTypeSig, bool bFillUnknown=true)</argsstring>
+        <name>DoGetArraySigName</name>
+        <qualifiedname>CIccArrayCreator::DoGetArraySigName</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>arrayName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+          <declname>arrayTypeSig</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bFillUnknown</declname>
+          <defval><ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="322" column="8" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="179" bodyend="189"/>
+        <references refid="dd/d47/a00445_1aa5e513bc0febc6d82e4f2ea654be5fca" compoundref="da/d2a/a00086" startline="329">factoryStack</references>
+        <references refid="d4/da8/a00437_1ad18770c543de0b4355e3e92e41d5aa89">IIccArrayFactory::GetArraySigName</references>
+        <referencedby refid="dd/d47/a00445_1ad16c44f0c8404d0d6abceb523108cb94" compoundref="da/d2a/a00086" startline="254" endline="255">GetArraySigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1aafa3db7c38702d1007ef1c280646083c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/da8/a00437" kindref="compound">IIccArrayFactory</ref> *</type>
+        <definition>IIccArrayFactory * CIccArrayCreator::DoPopFactory</definition>
+        <argsstring>(bool bAll=false)</argsstring>
+        <name>DoPopFactory</name>
+        <qualifiedname>CIccArrayCreator::DoPopFactory</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>bAll</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="325" column="20" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="210" bodyend="219"/>
+        <references refid="dd/d47/a00445_1aa5e513bc0febc6d82e4f2ea654be5fca" compoundref="da/d2a/a00086" startline="329">factoryStack</references>
+        <referencedby refid="dd/d47/a00445_1a8d948bd75b10c9bbd4b908903369031f" compoundref="d3/db1/a00200" startline="145" endline="153">~CIccArrayCreator</referencedby>
+        <referencedby refid="dd/d47/a00445_1ac581edfa0e002512bb55f28ed40688c9" compoundref="da/d2a/a00086" startline="301" endline="302">PopFactory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d47/a00445_1a6afdc77a0393b00892ea83cf60cca90e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccArrayCreator::DoPushFactory</definition>
+        <argsstring>(IIccArrayFactory *pFactory)</argsstring>
+        <name>DoPushFactory</name>
+        <qualifiedname>CIccArrayCreator::DoPushFactory</qualifiedname>
+        <param>
+          <type><ref refid="d4/da8/a00437" kindref="compound">IIccArrayFactory</ref> *</type>
+          <declname>pFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="324" column="8" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="205" bodyend="208"/>
+        <references refid="dd/d47/a00445_1aa5e513bc0febc6d82e4f2ea654be5fca" compoundref="da/d2a/a00086" startline="329">factoryStack</references>
+        <referencedby refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" compoundref="d3/db1/a00200" startline="155" endline="164">GetInstance</referencedby>
+        <referencedby refid="dd/d47/a00445_1a43134f0f06925c036afaa4011aa45179" compoundref="da/d2a/a00086" startline="284" endline="285">PushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d47/a00445" kindref="compound">CIccArrayCreator</ref> *</type>
+        <definition>CIccArrayCreator * CIccArrayCreator::GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <qualifiedname>CIccArrayCreator::GetInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" kindref="member">GetInstance()</ref> Private static function to access singleton CiccArrayCreator Object.</para>
+<para>Parameter(s): None</para>
+<para>Returns the singleton <ref refid="dd/d47/a00445" kindref="compound">CIccArrayCreator</ref> object. It will allocate a new one and push a single CIccSpecArray Factory object onto the factory stack if the singleton has not been initialized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="319" column="27" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="155" bodyend="164"/>
+        <references refid="dd/d47/a00445_1a6afdc77a0393b00892ea83cf60cca90e" compoundref="d3/db1/a00200" startline="205" endline="208">DoPushFactory</references>
+        <references refid="dd/d47/a00445_1a68b62cd47c90de5eb3d02b2685ea89d5" compoundref="da/d2a/a00086" startline="327">theArrayCreator</references>
+        <referencedby refid="dd/d47/a00445_1acf6c04bd6490f84670a7df0aee539f4a" compoundref="da/d2a/a00086" startline="237" endline="238">CreateArray</referencedby>
+        <referencedby refid="dd/d47/a00445_1ad40e809373775f4bd441268223ad4cb3" compoundref="da/d2a/a00086" startline="268" endline="269">GetArraySig</referencedby>
+        <referencedby refid="dd/d47/a00445_1ad16c44f0c8404d0d6abceb523108cb94" compoundref="da/d2a/a00086" startline="254" endline="255">GetArraySigName</referencedby>
+        <referencedby refid="dd/d47/a00445_1ac581edfa0e002512bb55f28ed40688c9" compoundref="da/d2a/a00086" startline="301" endline="302">PopFactory</referencedby>
+        <referencedby refid="dd/d47/a00445_1a43134f0f06925c036afaa4011aa45179" compoundref="da/d2a/a00086" startline="284" endline="285">PushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="dd/d47/a00445" kindref="compound">CIccArrayCreator</ref></para>
+<para>Purpose: <ref refid="dd/d47/a00445" kindref="compound">CIccArrayCreator</ref> uses a singleton pattern to provide dynamically upgradeable IIccArrayObject derived object creation based on element signature. </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccArrayFactory.h" line="220" column="1" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="221" bodyend="330"/>
+    <listofallmembers>
+      <member refid="dd/d47/a00445_1a60122f9abf1e3787bd6172328051861a" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>CIccArrayCreator</name></member>
+      <member refid="dd/d47/a00445_1acf6c04bd6490f84670a7df0aee539f4a" prot="public" virt="non-virtual"><scope>CIccArrayCreator</scope><name>CreateArray</name></member>
+      <member refid="dd/d47/a00445_1a7f6efab39e2ce3121aeeda9782eccae3" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>DoCreateArray</name></member>
+      <member refid="dd/d47/a00445_1a3ad9d3d2146aeba46e101ccc36d1fad2" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>DoGetArraySig</name></member>
+      <member refid="dd/d47/a00445_1a0356a4525dc712bf0ebf7b12c4f461c6" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>DoGetArraySigName</name></member>
+      <member refid="dd/d47/a00445_1aafa3db7c38702d1007ef1c280646083c" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>DoPopFactory</name></member>
+      <member refid="dd/d47/a00445_1a6afdc77a0393b00892ea83cf60cca90e" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>DoPushFactory</name></member>
+      <member refid="dd/d47/a00445_1aa5e513bc0febc6d82e4f2ea654be5fca" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>factoryStack</name></member>
+      <member refid="dd/d47/a00445_1ad40e809373775f4bd441268223ad4cb3" prot="public" virt="non-virtual"><scope>CIccArrayCreator</scope><name>GetArraySig</name></member>
+      <member refid="dd/d47/a00445_1ad16c44f0c8404d0d6abceb523108cb94" prot="public" virt="non-virtual"><scope>CIccArrayCreator</scope><name>GetArraySigName</name></member>
+      <member refid="dd/d47/a00445_1ab5d85e8777d9ea8324d9b88f8ca8f46d" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>GetInstance</name></member>
+      <member refid="dd/d47/a00445_1ac581edfa0e002512bb55f28ed40688c9" prot="public" virt="non-virtual"><scope>CIccArrayCreator</scope><name>PopFactory</name></member>
+      <member refid="dd/d47/a00445_1a43134f0f06925c036afaa4011aa45179" prot="public" virt="non-virtual"><scope>CIccArrayCreator</scope><name>PushFactory</name></member>
+      <member refid="dd/d47/a00445_1a68b62cd47c90de5eb3d02b2685ea89d5" prot="private" virt="non-virtual"><scope>CIccArrayCreator</scope><name>theArrayCreator</name></member>
+      <member refid="dd/d47/a00445_1a8d948bd75b10c9bbd4b908903369031f" prot="public" virt="non-virtual"><scope>CIccArrayCreator</scope><name>~CIccArrayCreator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

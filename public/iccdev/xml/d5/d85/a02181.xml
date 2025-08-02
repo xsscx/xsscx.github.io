@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d5/d85/a02181" kind="class" language="C++" prot="public">
+    <compoundname>MyCanvas</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">wxScrolledWindow</basecompoundref>
+    <includes refid="db/d7b/a00296" local="no">wxProfileDump.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d85/a02181_1a70bd8c80e114c1d02b11779b644fd4e3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MyCanvas::m_dirty</definition>
+        <argsstring></argsstring>
+        <name>m_dirty</name>
+        <qualifiedname>MyCanvas::m_dirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="91" column="10" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="91" bodyend="-1"/>
+        <referencedby refid="d5/d85/a02181_1a60a073fe8912ac76381958467dfd6198" compoundref="db/d7b/a00296" startline="86" endline="86">IsDirty</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d85/a02181_1a9fbdd157eb1a41e3c578ada4cb3ce631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MyCanvas::MyCanvas</definition>
+        <argsstring>(wxWindow *parent, const wxPoint &amp;pos, const wxSize &amp;size)</argsstring>
+        <name>MyCanvas</name>
+        <qualifiedname>MyCanvas::MyCanvas</qualifiedname>
+        <param>
+          <type>wxWindow *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const wxPoint &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const wxSize &amp;</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="83" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d85/a02181_1a60a073fe8912ac76381958467dfd6198" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MyCanvas::IsDirty</definition>
+        <argsstring>() const</argsstring>
+        <name>IsDirty</name>
+        <qualifiedname>MyCanvas::IsDirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="86" column="10" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="86" bodyend="86"/>
+        <references refid="d5/d85/a02181_1a70bd8c80e114c1d02b11779b644fd4e3" compoundref="db/d7b/a00296" startline="91">m_dirty</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d85/a02181_1a1b63e5afbceefe59d5416742baa481a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MyCanvas::OnDraw</definition>
+        <argsstring>(wxDC &amp;dc)</argsstring>
+        <name>OnDraw</name>
+        <qualifiedname>MyCanvas::OnDraw</qualifiedname>
+        <param>
+          <type>wxDC &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="84" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d85/a02181_1ad0f3e67d6797ebba9ae30f097d5e081d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MyCanvas::OnEvent</definition>
+        <argsstring>(wxMouseEvent &amp;event)</argsstring>
+        <name>OnEvent</name>
+        <qualifiedname>MyCanvas::OnEvent</qualifiedname>
+        <param>
+          <type>wxMouseEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="88" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="80" column="1" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="81" bodyend="94"/>
+    <listofallmembers>
+      <member refid="d5/d85/a02181_1a60a073fe8912ac76381958467dfd6198" prot="public" virt="non-virtual"><scope>MyCanvas</scope><name>IsDirty</name></member>
+      <member refid="d5/d85/a02181_1a70bd8c80e114c1d02b11779b644fd4e3" prot="private" virt="non-virtual"><scope>MyCanvas</scope><name>m_dirty</name></member>
+      <member refid="d5/d85/a02181_1a9fbdd157eb1a41e3c578ada4cb3ce631" prot="public" virt="non-virtual"><scope>MyCanvas</scope><name>MyCanvas</name></member>
+      <member refid="d5/d85/a02181_1a1b63e5afbceefe59d5416742baa481a8" prot="public" virt="virtual"><scope>MyCanvas</scope><name>OnDraw</name></member>
+      <member refid="d5/d85/a02181_1ad0f3e67d6797ebba9ae30f097d5e081d" prot="public" virt="non-virtual"><scope>MyCanvas</scope><name>OnEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

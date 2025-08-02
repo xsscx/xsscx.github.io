@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d2/d74/a00697" kind="struct" language="C++" prot="public">
+    <compoundname>icNamedColor2Type</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d2/d74/a00697_1a25639050893dd58042cdeb6f5559c4d1" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icNamedColor2Type::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icNamedColor2Type::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1878" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1878" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d74/a00697_1aa8a34c711ae8ecd465def3670bb01792" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/dbd/a00597" kindref="compound">icNamedColor2</ref></type>
+        <definition>icNamedColor2 icNamedColor2Type::ncolor</definition>
+        <argsstring></argsstring>
+        <name>ncolor</name>
+        <qualifiedname>icNamedColor2Type::ncolor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1879" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1879" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Named color type <ref refid="d2/d74/a00697" kindref="compound">icNamedColor2Type</ref>, replaces icNamedColorType </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icNamedColor2</label>
+        <link refid="d8/dbd/a00597"/>
+      </node>
+      <node id="1">
+        <label>icNamedColor2Type</label>
+        <link refid="d2/d74/a00697"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ncolor</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1877" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1877" bodyend="1880"/>
+    <listofallmembers>
+      <member refid="d2/d74/a00697_1a25639050893dd58042cdeb6f5559c4d1" prot="public" virt="non-virtual"><scope>icNamedColor2Type</scope><name>base</name></member>
+      <member refid="d2/d74/a00697_1aa8a34c711ae8ecd465def3670bb01792" prot="public" virt="non-virtual"><scope>icNamedColor2Type</scope><name>ncolor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/ddd/a02089" kind="class" language="C++" prot="public">
+    <compoundname>CIccUTF16String</compoundname>
+    <includes refid="d9/d39/a00257" local="no">IccUtilXml.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t CIccUTF16String::m_alloc</definition>
+        <argsstring></argsstring>
+        <name>m_alloc</name>
+        <qualifiedname>CIccUTF16String::m_alloc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="103" column="10" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="103" bodyend="-1"/>
+        <referencedby refid="db/ddd/a02089_1a7462528d5323b7f03c7b3cfdd125127d" compoundref="d5/d35/a00266" startline="80" endline="85">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1a5209999d2313fd5b19d6832fb90ee9d5" compoundref="d5/d35/a00266" startline="96" endline="118">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1af0cbd8e9ef41edfd147b9c231552e06e" compoundref="d5/d35/a00266" startline="120" endline="127">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1ad19b98d626c8602fb792d9a7bc8d09eb" compoundref="d5/d35/a00266" startline="87" endline="94">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" compoundref="d5/d35/a00266" startline="223" endline="256">FromUtf8</referencedby>
+        <referencedby refid="db/ddd/a02089_1acf2cb3aabc7dafc9c716f9bd2eef3104" compoundref="d5/d35/a00266" startline="170" endline="189">operator=</referencedby>
+        <referencedby refid="db/ddd/a02089_1a4ab1186e889437a5e890455e19061ce9" compoundref="d5/d35/a00266" startline="198" endline="220">operator=</referencedby>
+        <referencedby refid="db/ddd/a02089_1ae37f16812d6f03cd088cfc447ab9da31" compoundref="d5/d35/a00266" startline="140" endline="160">Resize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t CIccUTF16String::m_len</definition>
+        <argsstring></argsstring>
+        <name>m_len</name>
+        <qualifiedname>CIccUTF16String::m_len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="104" column="10" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="104" bodyend="-1"/>
+        <referencedby refid="db/ddd/a02089_1a7462528d5323b7f03c7b3cfdd125127d" compoundref="d5/d35/a00266" startline="80" endline="85">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1a5209999d2313fd5b19d6832fb90ee9d5" compoundref="d5/d35/a00266" startline="96" endline="118">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1af0cbd8e9ef41edfd147b9c231552e06e" compoundref="d5/d35/a00266" startline="120" endline="127">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1ad19b98d626c8602fb792d9a7bc8d09eb" compoundref="d5/d35/a00266" startline="87" endline="94">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1a64280c48fb77967f3fb3acbb959730d2" compoundref="d5/d35/a00266" startline="134" endline="138">Clear</referencedby>
+        <referencedby refid="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" compoundref="d5/d35/a00266" startline="223" endline="256">FromUtf8</referencedby>
+        <referencedby refid="db/ddd/a02089_1acf2cb3aabc7dafc9c716f9bd2eef3104" compoundref="d5/d35/a00266" startline="170" endline="189">operator=</referencedby>
+        <referencedby refid="db/ddd/a02089_1a4ab1186e889437a5e890455e19061ce9" compoundref="d5/d35/a00266" startline="198" endline="220">operator=</referencedby>
+        <referencedby refid="db/ddd/a02089_1ae37f16812d6f03cd088cfc447ab9da31" compoundref="d5/d35/a00266" startline="140" endline="160">Resize</referencedby>
+        <referencedby refid="db/ddd/a02089_1ae2ca9e6072ed8f9d6df5c73653128d73" compoundref="d9/d39/a00257" startline="84" endline="84">Size</referencedby>
+        <referencedby refid="db/ddd/a02089_1a3103facd65438b09816f9b967567ad93" compoundref="d5/d35/a00266" startline="258" endline="261">ToUtf8</referencedby>
+        <referencedby refid="db/ddd/a02089_1aeab87eaf251124a5f4d9af34bceec5a7" compoundref="d5/d35/a00266" startline="263" endline="274">ToWString</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref> *</type>
+        <definition>icUInt16Number* CIccUTF16String::m_str</definition>
+        <argsstring></argsstring>
+        <name>m_str</name>
+        <qualifiedname>CIccUTF16String::m_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="105" column="18" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="105" bodyend="-1"/>
+        <referencedby refid="db/ddd/a02089_1a7462528d5323b7f03c7b3cfdd125127d" compoundref="d5/d35/a00266" startline="80" endline="85">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1a5209999d2313fd5b19d6832fb90ee9d5" compoundref="d5/d35/a00266" startline="96" endline="118">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1af0cbd8e9ef41edfd147b9c231552e06e" compoundref="d5/d35/a00266" startline="120" endline="127">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1ad19b98d626c8602fb792d9a7bc8d09eb" compoundref="d5/d35/a00266" startline="87" endline="94">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1aa94d297d8abaa366e568539b678d778c" compoundref="d5/d35/a00266" startline="129" endline="132">~CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1ac7629e2161d7ada902d83eb93945ebcd" compoundref="d9/d39/a00257" startline="93" endline="93">c_str</referencedby>
+        <referencedby refid="db/ddd/a02089_1a64280c48fb77967f3fb3acbb959730d2" compoundref="d5/d35/a00266" startline="134" endline="138">Clear</referencedby>
+        <referencedby refid="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" compoundref="d5/d35/a00266" startline="223" endline="256">FromUtf8</referencedby>
+        <referencedby refid="db/ddd/a02089_1acf2cb3aabc7dafc9c716f9bd2eef3104" compoundref="d5/d35/a00266" startline="170" endline="189">operator=</referencedby>
+        <referencedby refid="db/ddd/a02089_1a4ab1186e889437a5e890455e19061ce9" compoundref="d5/d35/a00266" startline="198" endline="220">operator=</referencedby>
+        <referencedby refid="db/ddd/a02089_1abb16ed4ae86b18529646d485e2e2c162" compoundref="d9/d39/a00257" startline="91" endline="91">operator[]</referencedby>
+        <referencedby refid="db/ddd/a02089_1ae37f16812d6f03cd088cfc447ab9da31" compoundref="d5/d35/a00266" startline="140" endline="160">Resize</referencedby>
+        <referencedby refid="db/ddd/a02089_1a3103facd65438b09816f9b967567ad93" compoundref="d5/d35/a00266" startline="258" endline="261">ToUtf8</referencedby>
+        <referencedby refid="db/ddd/a02089_1aeab87eaf251124a5f4d9af34bceec5a7" compoundref="d5/d35/a00266" startline="263" endline="274">ToWString</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/ddd/a02089_1a7462528d5323b7f03c7b3cfdd125127d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccUTF16String::CIccUTF16String</definition>
+        <argsstring>()</argsstring>
+        <name>CIccUTF16String</name>
+        <qualifiedname>CIccUTF16String::CIccUTF16String</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="77" column="3" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="80" bodyend="85"/>
+        <references refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" compoundref="d9/d39/a00257" startline="103">m_alloc</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1a5209999d2313fd5b19d6832fb90ee9d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccUTF16String::CIccUTF16String</definition>
+        <argsstring>(const char *szStr)</argsstring>
+        <name>CIccUTF16String</name>
+        <qualifiedname>CIccUTF16String::CIccUTF16String</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="79" column="3" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="96" bodyend="118"/>
+        <references refid="db/ddd/a02089_1a1c563066705191255ff60dff2b8ef8cb" compoundref="d9/d39/a00257" startline="102" endline="102">AllocSize</references>
+        <references refid="d5/ddf/a00224_1a7cdda5a4721eb3c925fa76a61bf20759" compoundref="d5/ddf/a00224" startline="489" endline="558">icConvertUTF8toUTF16</references>
+        <references refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbbac7c2c3c32c7fbed195185e68879e550c" compoundref="d3/d00/a00113" startline="127">lenientConversion</references>
+        <references refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" compoundref="d9/d39/a00257" startline="103">m_alloc</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+        <references refid="db/ddd/a02089_1a3b64269237eff9ec57b1adb8609b19fd" compoundref="d5/d35/a00266" startline="162" endline="168">WStrlen</references>
+        <referencedby refid="d7/db1/a01837_1a90eeefd13346d44fe87970c91ca28287" compoundref="d0/d27/a00239" startline="381" endline="565">CIccTagXmlTextDescription::ParseXml</referencedby>
+        <referencedby refid="d7/d9c/a01885_1adcb1238d1761fc5a61a03df9bcdfa18e" compoundref="d0/d27/a00239" startline="1681" endline="1709">CIccTagXmlMultiLocalizedUnicode::ParseXml</referencedby>
+        <referencedby refid="d2/d23/a01961_1afbaaee340011d5bd09960d699d352e14" compoundref="d0/d27/a00239" startline="4176" endline="4216">CIccTagXmlProfileSequenceId::ParseXml</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1af0cbd8e9ef41edfd147b9c231552e06e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccUTF16String::CIccUTF16String</definition>
+        <argsstring>(const CIccUTF16String &amp;str)</argsstring>
+        <name>CIccUTF16String</name>
+        <qualifiedname>CIccUTF16String::CIccUTF16String</qualifiedname>
+        <param>
+          <type>const <ref refid="db/ddd/a02089" kindref="compound">CIccUTF16String</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="80" column="3" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="120" bodyend="127"/>
+        <references refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" compoundref="d9/d39/a00257" startline="103">m_alloc</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1ad19b98d626c8602fb792d9a7bc8d09eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccUTF16String::CIccUTF16String</definition>
+        <argsstring>(const icUInt16Number *uzStr)</argsstring>
+        <name>CIccUTF16String</name>
+        <qualifiedname>CIccUTF16String::CIccUTF16String</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref> *</type>
+          <declname>uzStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="78" column="3" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="87" bodyend="94"/>
+        <references refid="db/ddd/a02089_1a1c563066705191255ff60dff2b8ef8cb" compoundref="d9/d39/a00257" startline="102" endline="102">AllocSize</references>
+        <references refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" compoundref="d9/d39/a00257" startline="103">m_alloc</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+        <references refid="db/ddd/a02089_1a3b64269237eff9ec57b1adb8609b19fd" compoundref="d5/d35/a00266" startline="162" endline="168">WStrlen</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1aa94d297d8abaa366e568539b678d778c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccUTF16String::~CIccUTF16String</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccUTF16String</name>
+        <qualifiedname>CIccUTF16String::~CIccUTF16String</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="81" column="11" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="129" bodyend="132"/>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1ac7629e2161d7ada902d83eb93945ebcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref> *</type>
+        <definition>const icUInt16Number * CIccUTF16String::c_str</definition>
+        <argsstring>()</argsstring>
+        <name>c_str</name>
+        <qualifiedname>CIccUTF16String::c_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="93" column="24" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="93" bodyend="93"/>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+        <referencedby refid="d9/d39/a00257_1ae6a418d1fc896a14ecad689092946a55" compoundref="d5/d35/a00266" startline="365" endline="370">icUtf8ToUtf16</referencedby>
+        <referencedby refid="d7/d9c/a01885_1adcb1238d1761fc5a61a03df9bcdfa18e" compoundref="d0/d27/a00239" startline="1681" endline="1709">CIccTagXmlMultiLocalizedUnicode::ParseXml</referencedby>
+        <referencedby refid="d2/d23/a01961_1afbaaee340011d5bd09960d699d352e14" compoundref="d0/d27/a00239" startline="4176" endline="4216">CIccTagXmlProfileSequenceId::ParseXml</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1a64280c48fb77967f3fb3acbb959730d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccUTF16String::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <qualifiedname>CIccUTF16String::Clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="83" column="8" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="134" bodyend="138"/>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccUTF16String::FromUtf8</definition>
+        <argsstring>(const char *szStr, size_t sizeSrc=0)</argsstring>
+        <name>FromUtf8</name>
+        <qualifiedname>CIccUTF16String::FromUtf8</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szStr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>sizeSrc</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="95" column="8" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="223" bodyend="256"/>
+        <references refid="db/ddd/a02089_1a1c563066705191255ff60dff2b8ef8cb" compoundref="d9/d39/a00257" startline="102" endline="102">AllocSize</references>
+        <references refid="d5/ddf/a00224_1a7cdda5a4721eb3c925fa76a61bf20759" compoundref="d5/ddf/a00224" startline="489" endline="558">icConvertUTF8toUTF16</references>
+        <references refid="d7/dce/a00143_1af10fd6a1b6f8ecf3c73646fed85a5969" compoundref="d5/db1/a00140" startline="111" endline="124">icRealloc</references>
+        <references refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbbac7c2c3c32c7fbed195185e68879e550c" compoundref="d3/d00/a00113" startline="127">lenientConversion</references>
+        <references refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" compoundref="d9/d39/a00257" startline="103">m_alloc</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+        <references refid="db/ddd/a02089_1a3b64269237eff9ec57b1adb8609b19fd" compoundref="d5/d35/a00266" startline="162" endline="168">WStrlen</references>
+        <referencedby refid="d9/d39/a00257_1ae6a418d1fc896a14ecad689092946a55" compoundref="d5/d35/a00266" startline="365" endline="370">icUtf8ToUtf16</referencedby>
+        <referencedby refid="db/ddd/a02089_1a05e4b7cdf12723b5678b08107235a2bd" compoundref="d5/d35/a00266" startline="191" endline="196">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1a05e4b7cdf12723b5678b08107235a2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/ddd/a02089" kindref="compound">CIccUTF16String</ref> &amp;</type>
+        <definition>CIccUTF16String &amp; CIccUTF16String::operator=</definition>
+        <argsstring>(const char *szStr)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccUTF16String::operator=</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="88" column="19" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="191" bodyend="196"/>
+        <references refid="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" compoundref="d5/d35/a00266" startline="223" endline="256">FromUtf8</references>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1acf2cb3aabc7dafc9c716f9bd2eef3104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/ddd/a02089" kindref="compound">CIccUTF16String</ref> &amp;</type>
+        <definition>CIccUTF16String &amp; CIccUTF16String::operator=</definition>
+        <argsstring>(const CIccUTF16String &amp;wstr)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccUTF16String::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="db/ddd/a02089" kindref="compound">CIccUTF16String</ref> &amp;</type>
+          <declname>wstr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="87" column="19" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="170" bodyend="189"/>
+        <references refid="d7/dce/a00143_1af10fd6a1b6f8ecf3c73646fed85a5969" compoundref="d5/db1/a00140" startline="111" endline="124">icRealloc</references>
+        <references refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" compoundref="d9/d39/a00257" startline="103">m_alloc</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1a4ab1186e889437a5e890455e19061ce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/ddd/a02089" kindref="compound">CIccUTF16String</ref> &amp;</type>
+        <definition>CIccUTF16String &amp; CIccUTF16String::operator=</definition>
+        <argsstring>(const icUInt16Number *uzStr)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccUTF16String::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref> *</type>
+          <declname>uzStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="89" column="19" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="198" bodyend="220"/>
+        <references refid="db/ddd/a02089_1a1c563066705191255ff60dff2b8ef8cb" compoundref="d9/d39/a00257" startline="102" endline="102">AllocSize</references>
+        <references refid="d7/dce/a00143_1af10fd6a1b6f8ecf3c73646fed85a5969" compoundref="d5/db1/a00140" startline="111" endline="124">icRealloc</references>
+        <references refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" compoundref="d9/d39/a00257" startline="103">m_alloc</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+        <references refid="db/ddd/a02089_1a3b64269237eff9ec57b1adb8609b19fd" compoundref="d5/d35/a00266" startline="162" endline="168">WStrlen</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1abb16ed4ae86b18529646d485e2e2c162" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccUTF16String::operator[]</definition>
+        <argsstring>(size_t m_nIndex)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>CIccUTF16String::operator[]</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>m_nIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="91" column="18" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="91" bodyend="91"/>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+        <referencedby refid="d7/db1/a01837_1a90eeefd13346d44fe87970c91ca28287" compoundref="d0/d27/a00239" startline="381" endline="565">CIccTagXmlTextDescription::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1ae37f16812d6f03cd088cfc447ab9da31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccUTF16String::Resize</definition>
+        <argsstring>(size_t len)</argsstring>
+        <name>Resize</name>
+        <qualifiedname>CIccUTF16String::Resize</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="85" column="8" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="140" bodyend="160"/>
+        <references refid="db/ddd/a02089_1a1c563066705191255ff60dff2b8ef8cb" compoundref="d9/d39/a00257" startline="102" endline="102">AllocSize</references>
+        <references refid="d7/dce/a00143_1af10fd6a1b6f8ecf3c73646fed85a5969" compoundref="d5/db1/a00140" startline="111" endline="124">icRealloc</references>
+        <references refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" compoundref="d9/d39/a00257" startline="103">m_alloc</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1ae2ca9e6072ed8f9d6df5c73653128d73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t CIccUTF16String::Size</definition>
+        <argsstring>()</argsstring>
+        <name>Size</name>
+        <qualifiedname>CIccUTF16String::Size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="84" column="10" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="84" bodyend="84"/>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <referencedby refid="d7/db1/a01837_1a90eeefd13346d44fe87970c91ca28287" compoundref="d0/d27/a00239" startline="381" endline="565">CIccTagXmlTextDescription::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1a3103facd65438b09816f9b967567ad93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * CIccUTF16String::ToUtf8</definition>
+        <argsstring>(std::string &amp;buf)</argsstring>
+        <name>ToUtf8</name>
+        <qualifiedname>CIccUTF16String::ToUtf8</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="96" column="14" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="258" bodyend="261"/>
+        <references refid="d9/d39/a00257_1a9f320f9caf10d93233cccf39049a5992" compoundref="d5/d35/a00266" startline="341" endline="363">icUtf16ToUtf8</references>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="db/ddd/a02089_1aeab87eaf251124a5f4d9af34bceec5a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const wchar_t *</type>
+        <definition>const wchar_t * CIccUTF16String::ToWString</definition>
+        <argsstring>(std::wstring &amp;buf)</argsstring>
+        <name>ToWString</name>
+        <qualifiedname>CIccUTF16String::ToWString</qualifiedname>
+        <param>
+          <type>std::wstring &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="97" column="17" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="263" bodyend="274"/>
+        <references refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" compoundref="d9/d39/a00257" startline="104">m_len</references>
+        <references refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" compoundref="d9/d39/a00257" startline="105">m_str</references>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/ddd/a02089_1a3b64269237eff9ec57b1adb8609b19fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t CIccUTF16String::WStrlen</definition>
+        <argsstring>(const icUInt16Number *uzStr)</argsstring>
+        <name>WStrlen</name>
+        <qualifiedname>CIccUTF16String::WStrlen</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref> *</type>
+          <declname>uzStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="99" column="17" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="162" bodyend="168"/>
+        <referencedby refid="db/ddd/a02089_1a5209999d2313fd5b19d6832fb90ee9d5" compoundref="d5/d35/a00266" startline="96" endline="118">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1ad19b98d626c8602fb792d9a7bc8d09eb" compoundref="d5/d35/a00266" startline="87" endline="94">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" compoundref="d5/d35/a00266" startline="223" endline="256">FromUtf8</referencedby>
+        <referencedby refid="d9/d39/a00257_1a9f320f9caf10d93233cccf39049a5992" compoundref="d5/d35/a00266" startline="341" endline="363">icUtf16ToUtf8</referencedby>
+        <referencedby refid="db/ddd/a02089_1a4ab1186e889437a5e890455e19061ce9" compoundref="d5/d35/a00266" startline="198" endline="220">operator=</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="db/ddd/a02089_1a1c563066705191255ff60dff2b8ef8cb" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>static size_t CIccUTF16String::AllocSize</definition>
+        <argsstring>(size_t n)</argsstring>
+        <name>AllocSize</name>
+        <qualifiedname>CIccUTF16String::AllocSize</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="102" column="17" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="102" bodyend="102"/>
+        <referencedby refid="db/ddd/a02089_1a5209999d2313fd5b19d6832fb90ee9d5" compoundref="d5/d35/a00266" startline="96" endline="118">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1ad19b98d626c8602fb792d9a7bc8d09eb" compoundref="d5/d35/a00266" startline="87" endline="94">CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" compoundref="d5/d35/a00266" startline="223" endline="256">FromUtf8</referencedby>
+        <referencedby refid="db/ddd/a02089_1a4ab1186e889437a5e890455e19061ce9" compoundref="d5/d35/a00266" startline="198" endline="220">operator=</referencedby>
+        <referencedby refid="db/ddd/a02089_1ae37f16812d6f03cd088cfc447ab9da31" compoundref="d5/d35/a00266" startline="140" endline="160">Resize</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IccXML/IccLibXML/IccUtilXml.h" line="74" column="1" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="75" bodyend="106"/>
+    <listofallmembers>
+      <member refid="db/ddd/a02089_1a1c563066705191255ff60dff2b8ef8cb" prot="protected" virt="non-virtual"><scope>CIccUTF16String</scope><name>AllocSize</name></member>
+      <member refid="db/ddd/a02089_1ac7629e2161d7ada902d83eb93945ebcd" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>c_str</name></member>
+      <member refid="db/ddd/a02089_1a7462528d5323b7f03c7b3cfdd125127d" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>CIccUTF16String</name></member>
+      <member refid="db/ddd/a02089_1ad19b98d626c8602fb792d9a7bc8d09eb" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>CIccUTF16String</name></member>
+      <member refid="db/ddd/a02089_1a5209999d2313fd5b19d6832fb90ee9d5" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>CIccUTF16String</name></member>
+      <member refid="db/ddd/a02089_1af0cbd8e9ef41edfd147b9c231552e06e" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>CIccUTF16String</name></member>
+      <member refid="db/ddd/a02089_1a64280c48fb77967f3fb3acbb959730d2" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>Clear</name></member>
+      <member refid="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>FromUtf8</name></member>
+      <member refid="db/ddd/a02089_1a3594043736839d6343d5cf8b86711341" prot="protected" virt="non-virtual"><scope>CIccUTF16String</scope><name>m_alloc</name></member>
+      <member refid="db/ddd/a02089_1a76b76345a3c2d7b29efd18499c897f48" prot="protected" virt="non-virtual"><scope>CIccUTF16String</scope><name>m_len</name></member>
+      <member refid="db/ddd/a02089_1a83515b97e1a549321b55b6f025a71ffb" prot="protected" virt="non-virtual"><scope>CIccUTF16String</scope><name>m_str</name></member>
+      <member refid="db/ddd/a02089_1acf2cb3aabc7dafc9c716f9bd2eef3104" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>operator=</name></member>
+      <member refid="db/ddd/a02089_1a05e4b7cdf12723b5678b08107235a2bd" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>operator=</name></member>
+      <member refid="db/ddd/a02089_1a4ab1186e889437a5e890455e19061ce9" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>operator=</name></member>
+      <member refid="db/ddd/a02089_1abb16ed4ae86b18529646d485e2e2c162" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>operator[]</name></member>
+      <member refid="db/ddd/a02089_1ae37f16812d6f03cd088cfc447ab9da31" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>Resize</name></member>
+      <member refid="db/ddd/a02089_1ae2ca9e6072ed8f9d6df5c73653128d73" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>Size</name></member>
+      <member refid="db/ddd/a02089_1a3103facd65438b09816f9b967567ad93" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>ToUtf8</name></member>
+      <member refid="db/ddd/a02089_1aeab87eaf251124a5f4d9af34bceec5a7" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>ToWString</name></member>
+      <member refid="db/ddd/a02089_1a3b64269237eff9ec57b1adb8609b19fd" prot="public" virt="non-virtual"><scope>CIccUTF16String</scope><name>WStrlen</name></member>
+      <member refid="db/ddd/a02089_1aa94d297d8abaa366e568539b678d778c" prot="public" virt="virtual"><scope>CIccUTF16String</scope><name>~CIccUTF16String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

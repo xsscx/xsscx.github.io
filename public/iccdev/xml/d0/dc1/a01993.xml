@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d0/dc1/a01993" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>CIccMpeXml</compoundname>
+    <basecompoundref refid="d3/d10/a01189" prot="public" virt="non-virtual">IIccExtensionMpe</basecompoundref>
+    <derivedcompoundref refid="d6/d94/a02033" prot="public" virt="non-virtual">CIccMpeXmlBAcs</derivedcompoundref>
+    <derivedcompoundref refid="da/d3e/a02025" prot="public" virt="non-virtual">CIccMpeXmlCLUT</derivedcompoundref>
+    <derivedcompoundref refid="d8/de6/a02061" prot="public" virt="non-virtual">CIccMpeXmlCalculator</derivedcompoundref>
+    <derivedcompoundref refid="d3/d39/a02005" prot="public" virt="non-virtual">CIccMpeXmlCurveSet</derivedcompoundref>
+    <derivedcompoundref refid="dd/dfc/a02037" prot="public" virt="non-virtual">CIccMpeXmlEAcs</derivedcompoundref>
+    <derivedcompoundref refid="de/df8/a02073" prot="public" virt="non-virtual">CIccMpeXmlEmissionCLUT</derivedcompoundref>
+    <derivedcompoundref refid="d0/d67/a02065" prot="public" virt="non-virtual">CIccMpeXmlEmissionMatrix</derivedcompoundref>
+    <derivedcompoundref refid="d2/d50/a02081" prot="public" virt="non-virtual">CIccMpeXmlEmissionObserver</derivedcompoundref>
+    <derivedcompoundref refid="d6/d19/a02029" prot="public" virt="non-virtual">CIccMpeXmlExtCLUT</derivedcompoundref>
+    <derivedcompoundref refid="d3/d48/a02069" prot="public" virt="non-virtual">CIccMpeXmlInvEmissionMatrix</derivedcompoundref>
+    <derivedcompoundref refid="d3/dea/a02041" prot="public" virt="non-virtual">CIccMpeXmlJabToXYZ</derivedcompoundref>
+    <derivedcompoundref refid="d8/d45/a02021" prot="public" virt="non-virtual">CIccMpeXmlMatrix</derivedcompoundref>
+    <derivedcompoundref refid="db/dac/a02077" prot="public" virt="non-virtual">CIccMpeXmlReflectanceCLUT</derivedcompoundref>
+    <derivedcompoundref refid="d2/dde/a02085" prot="public" virt="non-virtual">CIccMpeXmlReflectanceObserver</derivedcompoundref>
+    <derivedcompoundref refid="d8/d98/a02009" prot="public" virt="non-virtual">CIccMpeXmlTintArray</derivedcompoundref>
+    <derivedcompoundref refid="d0/dfd/a02017" prot="public" virt="non-virtual">CIccMpeXmlToneMap</derivedcompoundref>
+    <derivedcompoundref refid="d0/d2b/a01997" prot="public" virt="non-virtual">CIccMpeXmlUnknown</derivedcompoundref>
+    <derivedcompoundref refid="d7/d13/a02045" prot="public" virt="non-virtual">CIccMpeXmlXYZToJab</derivedcompoundref>
+    <includes refid="d7/d40/a00236" local="no">IccMpeXml.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/dc1/a01993_1a272a8b925cc2c9732e3c8af0bd4e415b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccMpeXml::~CIccMpeXml</definition>
+        <argsstring>(void)</argsstring>
+        <name>~CIccMpeXml</name>
+        <qualifiedname>CIccMpeXml::~CIccMpeXml</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="79" column="11" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc1/a01993_1af05f90c831e553e88257f725a0cef8fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * CIccMpeXml::GetExtClassName</definition>
+        <argsstring>()</argsstring>
+        <name>GetExtClassName</name>
+        <qualifiedname>CIccMpeXml::GetExtClassName</qualifiedname>
+        <reimplements refid="d3/d10/a01189_1a645d276bf232cfd12c5655d8dd7b817d">GetExtClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="84" column="22" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc1/a01993_1a0f0a4efab7609af9589966f5f2dce20b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccMpeXml::ParseXml</definition>
+        <argsstring>(xmlNode *pNode, std::string &amp;parseStr)=0</argsstring>
+        <name>ParseXml</name>
+        <qualifiedname>CIccMpeXml::ParseXml</qualifiedname>
+        <reimplementedby refid="d0/d2b/a01997_1afd0de293c04c43de441a2152e800cf66">ParseXml</reimplementedby>
+        <reimplementedby refid="d3/d39/a02005_1ab416b1d359f1a1d001a83ceeb3f579d1">ParseXml</reimplementedby>
+        <reimplementedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6">ParseXml</reimplementedby>
+        <reimplementedby refid="d0/dfd/a02017_1a37d0e2cd5456b14801f72b2181ccb94a">ParseXml</reimplementedby>
+        <reimplementedby refid="d8/d45/a02021_1a1548b3217cbe964eab8e5bfff32af85b">ParseXml</reimplementedby>
+        <reimplementedby refid="da/d3e/a02025_1a12bdfaf73489d4043eaef10a429cff0a">ParseXml</reimplementedby>
+        <reimplementedby refid="d6/d19/a02029_1ad58a9eae57a40bbebbc8cfefe6f1e24f">ParseXml</reimplementedby>
+        <reimplementedby refid="d6/d94/a02033_1a0accb98f250503e091797235b89e06c1">ParseXml</reimplementedby>
+        <reimplementedby refid="dd/dfc/a02037_1a42deed0c1855bd1cbfa3c9a8ebc160e6">ParseXml</reimplementedby>
+        <reimplementedby refid="d3/dea/a02041_1a80da7cd38a9645ba1a22a5b81e92af16">ParseXml</reimplementedby>
+        <reimplementedby refid="d7/d13/a02045_1a93de44beabef1e61b64a1bed175b28e2">ParseXml</reimplementedby>
+        <reimplementedby refid="d8/de6/a02061_1aa49fb555bcc2fe5e5377f7d608368b94">ParseXml</reimplementedby>
+        <reimplementedby refid="d0/d67/a02065_1aec428d59121847f8cee29f5d5530d0bd">ParseXml</reimplementedby>
+        <reimplementedby refid="d3/d48/a02069_1a8e2cfe4334c50774e232bd5671b6b683">ParseXml</reimplementedby>
+        <reimplementedby refid="de/df8/a02073_1aa5d45fb5b70d1e4895c876400c2ea344">ParseXml</reimplementedby>
+        <reimplementedby refid="db/dac/a02077_1a96cc9696018abfed330d18170568536b">ParseXml</reimplementedby>
+        <reimplementedby refid="d2/d50/a02081_1a7a0dcf4d4c49e598d0710545f601cbfd">ParseXml</reimplementedby>
+        <reimplementedby refid="d2/dde/a02085_1aea6bb4f288917a8087c52ad06ddb486a">ParseXml</reimplementedby>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="82" column="16"/>
+        <referencedby refid="d2/d6f/a01957_1a09408c36528ddcd6177b41b0d08614ea" compoundref="d0/d27/a00239" startline="4036" endline="4086">CIccTagXmlMultiProcessElement::ParseElement</referencedby>
+        <referencedby refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" compoundref="dd/dd7/a00260" startline="2341" endline="2618">CIccMpeXmlCalculator::ParseImport</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc1/a01993_1aa4c60bf9aed85f83e0fd39c8171b2f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccMpeXml::ToXml</definition>
+        <argsstring>(std::string &amp;xml, std::string blanks=&quot;&quot;)=0</argsstring>
+        <name>ToXml</name>
+        <qualifiedname>CIccMpeXml::ToXml</qualifiedname>
+        <reimplementedby refid="d0/d2b/a01997_1afc27f607d1f137b32dad65b538714536">ToXml</reimplementedby>
+        <reimplementedby refid="d3/d39/a02005_1a858989c2f13b9b4047f8b4675efb49fd">ToXml</reimplementedby>
+        <reimplementedby refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d">ToXml</reimplementedby>
+        <reimplementedby refid="d0/dfd/a02017_1a9efba74ea5302530c03ab16fc7737247">ToXml</reimplementedby>
+        <reimplementedby refid="d8/d45/a02021_1ae853ea83404517db05911c48a9ba5034">ToXml</reimplementedby>
+        <reimplementedby refid="da/d3e/a02025_1a6be0a6ac589d3e7ef65dea4771847ea3">ToXml</reimplementedby>
+        <reimplementedby refid="d6/d19/a02029_1a43c55f1b5cee810f8182340c359c61ee">ToXml</reimplementedby>
+        <reimplementedby refid="d6/d94/a02033_1ab99bd7712342c0d63b6cb2d545f13c9a">ToXml</reimplementedby>
+        <reimplementedby refid="dd/dfc/a02037_1afeb82ef0fbc9b414a1d7131e0f08f037">ToXml</reimplementedby>
+        <reimplementedby refid="d3/dea/a02041_1a34cf7cacb789aa994bea835172cb4967">ToXml</reimplementedby>
+        <reimplementedby refid="d7/d13/a02045_1a54bb536e886c4f512c76956c51e2307f">ToXml</reimplementedby>
+        <reimplementedby refid="d8/de6/a02061_1ac2201e8656c54d4760a8b1f07e79ff51">ToXml</reimplementedby>
+        <reimplementedby refid="d0/d67/a02065_1afed419ced3da8e3dfe34d76c75fae099">ToXml</reimplementedby>
+        <reimplementedby refid="d3/d48/a02069_1aa72eae526f9c0b51758548a11be08aa0">ToXml</reimplementedby>
+        <reimplementedby refid="de/df8/a02073_1a90bc60d68216a101341bba3e58c048d6">ToXml</reimplementedby>
+        <reimplementedby refid="db/dac/a02077_1a65a4dd5664e7e4b7e72db2cb6613c2d3">ToXml</reimplementedby>
+        <reimplementedby refid="d2/d50/a02081_1a97421b83857bdcd9162531eca05446fe">ToXml</reimplementedby>
+        <reimplementedby refid="d2/dde/a02085_1ac006b2c376c05c9bafa2edba85663841">ToXml</reimplementedby>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>blanks</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="81" column="16"/>
+        <referencedby refid="d8/de6/a02061_1ac2201e8656c54d4760a8b1f07e79ff51" compoundref="dd/dd7/a00260" startline="2265" endline="2314">CIccMpeXmlCalculator::ToXml</referencedby>
+        <referencedby refid="d2/d6f/a01957_1a961a44f22ec91143423cbd47ab977371" compoundref="d0/d27/a00239" startline="3940" endline="3973">CIccTagXmlMultiProcessElement::ToXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccMpeXml</label>
+        <link refid="d0/dc1/a01993"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccMpeXmlBAcs</label>
+        <link refid="d6/d94/a02033"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccMpeXmlCLUT</label>
+        <link refid="da/d3e/a02025"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccMpeXmlCalculator</label>
+        <link refid="d8/de6/a02061"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CIccMpeXmlCurveSet</label>
+        <link refid="d3/d39/a02005"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CIccMpeXmlEAcs</label>
+        <link refid="dd/dfc/a02037"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CIccMpeXmlEmissionCLUT</label>
+        <link refid="de/df8/a02073"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccMpeXmlEmissionMatrix</label>
+        <link refid="d0/d67/a02065"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CIccMpeXmlEmissionObserver</label>
+        <link refid="d2/d50/a02081"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>CIccMpeXmlExtCLUT</label>
+        <link refid="d6/d19/a02029"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>CIccMpeXmlInvEmissionMatrix</label>
+        <link refid="d3/d48/a02069"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>CIccMpeXmlJabToXYZ</label>
+        <link refid="d3/dea/a02041"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>CIccMpeXmlMatrix</label>
+        <link refid="d8/d45/a02021"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>CIccMpeXmlReflectanceCLUT</label>
+        <link refid="db/dac/a02077"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>CIccMpeXmlReflectanceObserver</label>
+        <link refid="d2/dde/a02085"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>CIccMpeXmlTintArray</label>
+        <link refid="d8/d98/a02009"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>CIccMpeXmlToneMap</label>
+        <link refid="d0/dfd/a02017"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>CIccMpeXmlUnknown</label>
+        <link refid="d0/d2b/a01997"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>CIccMpeXmlXYZToJab</label>
+        <link refid="d7/d13/a02045"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccExtensionMpe</label>
+        <link refid="d3/d10/a01189"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccMpeXml</label>
+        <link refid="d0/dc1/a01993"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccExtensionMpe</label>
+        <link refid="d3/d10/a01189"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccXML/IccLibXML/IccMpeXml.h" line="76" column="1" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="77" bodyend="85"/>
+    <listofallmembers>
+      <member refid="d0/dc1/a01993_1af05f90c831e553e88257f725a0cef8fb" prot="public" virt="virtual"><scope>CIccMpeXml</scope><name>GetExtClassName</name></member>
+      <member refid="d0/dc1/a01993_1a0f0a4efab7609af9589966f5f2dce20b" prot="public" virt="pure-virtual"><scope>CIccMpeXml</scope><name>ParseXml</name></member>
+      <member refid="d0/dc1/a01993_1aa4c60bf9aed85f83e0fd39c8171b2f16" prot="public" virt="pure-virtual"><scope>CIccMpeXml</scope><name>ToXml</name></member>
+      <member refid="d0/dc1/a01993_1a272a8b925cc2c9732e3c8af0bd4e415b" prot="public" virt="virtual"><scope>CIccMpeXml</scope><name>~CIccMpeXml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

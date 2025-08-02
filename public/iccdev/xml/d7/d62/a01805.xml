@@ -1,0 +1,990 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d62/a01805" kind="class" language="C++" prot="public">
+    <compoundname>CIccSinglSampledeCurveXml</compoundname>
+    <basecompoundref refid="dc/d6e/a00833" prot="public" virt="non-virtual">CIccSingleSampledCurve</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d62/a01805_1a8f895c55f4af0d3a745347200226039a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccSinglSampledeCurveXml::CIccSinglSampledeCurveXml</definition>
+        <argsstring>(icFloatNumber first=0, icFloatNumber last=0)</argsstring>
+        <name>CIccSinglSampledeCurveXml</name>
+        <qualifiedname>CIccSinglSampledeCurveXml::CIccSinglSampledeCurveXml</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>first</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>last</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.cpp" line="605" column="3" bodyfile="IccXML/IccLibXML/IccMpeXml.cpp" bodystart="605" bodyend="605"/>
+        <references refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</references>
+        <referencedby refid="dd/dd7/a00260_1a24c7425edeae7243fd1281274f7dfd59" compoundref="dd/dd7/a00260" startline="1087" endline="1123">ParseXmlCurve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::Apply</definition>
+        <argsstring>(icFloatNumber v) const</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccSingleSampledCurve::Apply</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a6e86a66fdf66a94c4c485923ad0bb336">Apply</reimplements>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" kindref="member">CIccSingleSampledCurve::Apply</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="317" column="25" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1799" bodyend="1816"/>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1adf289108725462c8698233cc8fbdb5dd" compoundref="d2/de7/a00014" startline="338">CIccSingleSampledCurve::m_hiIntercept</references>
+        <references refid="dc/d6e/a00833_1a0588160982793da8c943121ad5a0ef7e" compoundref="d2/de7/a00014" startline="337">CIccSingleSampledCurve::m_hiSlope</references>
+        <references refid="dc/d6e/a00833_1a8807800e472aa9bc5021b409499f9fac" compoundref="d2/de7/a00014" startline="333">CIccSingleSampledCurve::m_last</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+        <references refid="dc/d6e/a00833_1a5509bc31cb6171d1abea63eae815a432" compoundref="d2/de7/a00014" startline="336">CIccSingleSampledCurve::m_loIntercept</references>
+        <references refid="dc/d6e/a00833_1a9e6b0050f6b23451c2cff1075d4dd095" compoundref="d2/de7/a00014" startline="335">CIccSingleSampledCurve::m_loSlope</references>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <references refid="dc/d6e/a00833_1a8e004bc3b0be3b324b94c8acc5a3f348" compoundref="d2/de7/a00014" startline="332">CIccSingleSampledCurve::m_range</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccSingleSampledCurve::Begin</definition>
+        <argsstring>(icElemInterp nInterp, CIccTagMultiProcessElement *pMPE)</argsstring>
+        <name>Begin</name>
+        <qualifiedname>CIccSingleSampledCurve::Begin</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a8c47418576c002142ff11a7d0581a65d">Begin</reimplements>
+        <param>
+          <type><ref refid="d7/d25/a00182_1ac2d11f72d4c98d21c3b2ca1509a52ee8" kindref="member">icElemInterp</ref></type>
+          <declname>nInterp</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" kindref="member">CIccSingleSampledCurve::Begin</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="316" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1753" bodyend="1787"/>
+        <references refid="d7/d46/a00002_1a6bb4739c01627cd3d9a82136eb08107aae4ccca0da40c9e4b5d4a7a506612d3cb" compoundref="d7/d46/a00002" startline="1067">icClipSingleSampledCurve</references>
+        <references refid="d7/d46/a00002_1a6bb4739c01627cd3d9a82136eb08107aad506fc0d8e98abfdceb51102ecd6e218" compoundref="d7/d46/a00002" startline="1068">icExtendSingleSampledCurve</references>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1adf289108725462c8698233cc8fbdb5dd" compoundref="d2/de7/a00014" startline="338">CIccSingleSampledCurve::m_hiIntercept</references>
+        <references refid="dc/d6e/a00833_1a0588160982793da8c943121ad5a0ef7e" compoundref="d2/de7/a00014" startline="337">CIccSingleSampledCurve::m_hiSlope</references>
+        <references refid="dc/d6e/a00833_1a8807800e472aa9bc5021b409499f9fac" compoundref="d2/de7/a00014" startline="333">CIccSingleSampledCurve::m_last</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+        <references refid="dc/d6e/a00833_1a5509bc31cb6171d1abea63eae815a432" compoundref="d2/de7/a00014" startline="336">CIccSingleSampledCurve::m_loIntercept</references>
+        <references refid="dc/d6e/a00833_1a9e6b0050f6b23451c2cff1075d4dd095" compoundref="d2/de7/a00014" startline="335">CIccSingleSampledCurve::m_loSlope</references>
+        <references refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" compoundref="d2/de7/a00014" startline="323">CIccSingleSampledCurve::m_nCount</references>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <references refid="dc/d6e/a00833_1a8e004bc3b0be3b324b94c8acc5a3f348" compoundref="d2/de7/a00014" startline="332">CIccSingleSampledCurve::m_range</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccSingleSampledCurve::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccSingleSampledCurve::Describe</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1ab8e27594debe7cdefed3de3cee800d9a">Describe</reimplements>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" kindref="member">CIccSingleSampledCurve::Describe</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="311" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1513" bodyend="1582"/>
+        <references refid="d7/d46/a00002_1a6bb4739c01627cd3d9a82136eb08107aae4ccca0da40c9e4b5d4a7a506612d3cb" compoundref="d7/d46/a00002" startline="1067">icClipSingleSampledCurve</references>
+        <references refid="d7/d46/a00002_1a6bb4739c01627cd3d9a82136eb08107aad506fc0d8e98abfdceb51102ecd6e218" compoundref="d7/d46/a00002" startline="1068">icExtendSingleSampledCurve</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966a29d583618959ea7777d2aba032b34082" compoundref="d7/d46/a00002" startline="1087">icValueTypeFloat16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966afa247c7bcadffbd485fa946299182123" compoundref="d7/d46/a00002" startline="1086">icValueTypeFloat32</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966ab2645f254cd35005c1cc4a402e29e347" compoundref="d7/d46/a00002" startline="1088">icValueTypeUInt16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966aa4e3209bb199947141c5dae71550efb9" compoundref="d7/d46/a00002" startline="1089">icValueTypeUInt8</references>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+        <references refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" compoundref="d2/de7/a00014" startline="323">CIccSingleSampledCurve::m_nCount</references>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <references refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" compoundref="d2/de7/a00014" startline="326">CIccSingleSampledCurve::m_storageType</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a1ae168f4d9dada010b1b6588ec2d6e86" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccSingleSampledCurve::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccSingleSampledCurve::GetClassName</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a52f1af60750229fe27a16e7c5e393de1">GetClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="296" column="24" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1aa0d80f4a93bf16b47ee6feef2d45743e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccSingleSampledCurve::GetExtensionType</definition>
+        <argsstring>()</argsstring>
+        <name>GetExtensionType</name>
+        <qualifiedname>CIccSingleSampledCurve::GetExtensionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="304" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="304" bodyend="304"/>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a3d5d9a34a381cef509b69f13ce64360c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>virtual icFloatNumber * CIccSingleSampledCurve::GetSamples</definition>
+        <argsstring>()</argsstring>
+        <name>GetSamples</name>
+        <qualifiedname>CIccSingleSampledCurve::GetSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="309" column="25" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="309" bodyend="309"/>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a3bae01825e5569f668401dc3141ecf1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>virtual icUInt32Number CIccSingleSampledCurve::GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <qualifiedname>CIccSingleSampledCurve::GetSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="301" column="26" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="301" bodyend="301"/>
+        <references refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" compoundref="d2/de7/a00014" startline="323">CIccSingleSampledCurve::m_nCount</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1adf04e3c96b835611602dbb6680e8874b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccSingleSampledCurve::GetStorageType</definition>
+        <argsstring>()</argsstring>
+        <name>GetStorageType</name>
+        <qualifiedname>CIccSingleSampledCurve::GetStorageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="307" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="307" bodyend="307"/>
+        <references refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" compoundref="d2/de7/a00014" startline="326">CIccSingleSampledCurve::m_storageType</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a7045dc445a81d21860e72c7c5eb9f928" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821" kindref="member">icCurveElemSignature</ref></type>
+        <definition>virtual icCurveElemSignature CIccSingleSampledCurve::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccSingleSampledCurve::GetType</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1abcb92b6265cfc65e110c293be393960d">GetType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="295" column="32" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="295" bodyend="295"/>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821adf1a2fe66e234712b8d6b183ee662453" compoundref="d7/d46/a00002" startline="1058">icSigSingleSampledCurve</references>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a7f0a0fdbda5719d27150c870b059eddd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="dd/d5f/a00825" kindref="compound">CIccCurveSetCurve</ref> *</type>
+        <definition>virtual CIccCurveSetCurve * CIccSingleSampledCurve::NewCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccSingleSampledCurve::NewCopy</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1ae703a90b768698cd86090fb1345b09d5">NewCopy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="292" column="29" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="292" bodyend="292"/>
+        <references refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccSinglSampledeCurveXml::ParseXml</definition>
+        <argsstring>(xmlNode *pNode, std::string &amp;parseStr)</argsstring>
+        <name>ParseXml</name>
+        <qualifiedname>CIccSinglSampledeCurveXml::ParseXml</qualifiedname>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.cpp" line="608" column="8" bodyfile="IccXML/IccLibXML/IccMpeXml.cpp" bodystart="636" bodyend="961"/>
+        <references refid="de/dd3/a01873_1a8cac7e2a3712ec473c3b2cd8310fb405" compoundref="d9/d39/a00257" startline="165" endline="165">CIccXmlArrayType&lt; T, Tsig &gt;::GetBuf</references>
+        <references refid="dc/d2c/a00893_1a2548156a3c8c463b27ec06a433b7d427" compoundref="df/d6a/a00119" startline="130" endline="130">CIccIO::GetLength</references>
+        <references refid="de/dd3/a01873_1aef8f9bc723c01e852ddda14bd09a59ba" compoundref="d9/d39/a00257" startline="166" endline="166">CIccXmlArrayType&lt; T, Tsig &gt;::GetSize</references>
+        <references refid="d7/d46/a00002_1a6bb4739c01627cd3d9a82136eb08107aae4ccca0da40c9e4b5d4a7a506612d3cb" compoundref="d7/d46/a00002" startline="1067">icClipSingleSampledCurve</references>
+        <references refid="d9/dd6/a00272_1a1787be4d01fe1c357f48a2e8531622a6" compoundref="d9/dd6/a00272" startline="100" endline="107">IccOpenFileIO</references>
+        <references refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" compoundref="d5/db1/a00140" startline="629" endline="671">icF16toF</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966a29d583618959ea7777d2aba032b34082" compoundref="d7/d46/a00002" startline="1087">icValueTypeFloat16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966afa247c7bcadffbd485fa946299182123" compoundref="d7/d46/a00002" startline="1086">icValueTypeFloat32</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966ab2645f254cd35005c1cc4a402e29e347" compoundref="d7/d46/a00002" startline="1088">icValueTypeUInt16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966aa4e3209bb199947141c5dae71550efb9" compoundref="d7/d46/a00002" startline="1089">icValueTypeUInt8</references>
+        <references refid="d9/d39/a00257_1a7f3c355a3556d385d49bc415410aaf6d" compoundref="d5/d35/a00266" startline="572" endline="578">icXmlAttrValue</references>
+        <references refid="d9/d39/a00257_1a459e22a536debe98c547657efa20b5ca" compoundref="d5/d35/a00266" startline="580" endline="587">icXmlAttrValue</references>
+        <references refid="d9/d39/a00257_1a57c0984fcae05f9fa17b70d1db38900c" compoundref="d5/d35/a00266" startline="669" endline="685">icXmlFindAttr</references>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <references refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" compoundref="d2/de7/a00014" startline="326">CIccSingleSampledCurve::m_storageType</references>
+        <references refid="de/dd3/a01873_1a07d799736e57c092e6b375e4b197c75c" compoundref="d5/d35/a00266" startline="755" endline="780">CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</references>
+        <references refid="de/dd3/a01873_1a23e7980af4e5c740a54d8c23ec68acbb" compoundref="d5/d35/a00266" startline="807" endline="817">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArrayNum</references>
+        <references refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">CIccIO::Read16</references>
+        <references refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" compoundref="df/d6a/a00119" startline="104" endline="104">CIccIO::Read8</references>
+        <references refid="dc/d2c/a00893_1a1399dc6dcf7aefe36b78ad96fc117d17" compoundref="d9/d2e/a00056" startline="302" endline="319">CIccIO::ReadFloat32Float</references>
+        <references refid="dc/d6e/a00833_1aaa3aedfdfc42efaabd8c67583b58fba3" compoundref="d6/d2d/a00047" startline="1476" endline="1501">CIccSingleSampledCurve::SetSize</references>
+        <referencedby refid="dd/dd7/a00260_1a24c7425edeae7243fd1281274f7dfd59" compoundref="dd/dd7/a00260" startline="1087" endline="1123">ParseXmlCurve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccSingleSampledCurve::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccSingleSampledCurve::Read</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a996d74980740d4f3159ab10965e2f793">Read</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" kindref="member">CIccSingleSampledCurve::Read</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="313" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1594" bodyend="1676"/>
+        <references refid="dc/d6e/a00833_1a7045dc445a81d21860e72c7c5eb9f928" compoundref="d2/de7/a00014" startline="295" endline="295">CIccSingleSampledCurve::GetType</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966a29d583618959ea7777d2aba032b34082" compoundref="d7/d46/a00002" startline="1087">icValueTypeFloat16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966afa247c7bcadffbd485fa946299182123" compoundref="d7/d46/a00002" startline="1086">icValueTypeFloat32</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966ab2645f254cd35005c1cc4a402e29e347" compoundref="d7/d46/a00002" startline="1088">icValueTypeUInt16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966aa4e3209bb199947141c5dae71550efb9" compoundref="d7/d46/a00002" startline="1089">icValueTypeUInt8</references>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+        <references refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" compoundref="d2/de7/a00014" startline="323">CIccSingleSampledCurve::m_nCount</references>
+        <references refid="dc/d6e/a00833_1a01f69701f0af22ae6fc735ae2b799c9c" compoundref="d2/de7/a00014" startline="321">CIccSingleSampledCurve::m_nReserved</references>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <references refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" compoundref="d2/de7/a00014" startline="326">CIccSingleSampledCurve::m_storageType</references>
+        <references refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">CIccIO::Read16</references>
+        <references refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">CIccIO::Read32</references>
+        <references refid="dc/d2c/a00893_1a05eb65f9187a4c84eec42ba30334ed69" compoundref="d9/d2e/a00056" startline="269" endline="283">CIccIO::ReadFloat16Float</references>
+        <references refid="dc/d2c/a00893_1a1399dc6dcf7aefe36b78ad96fc117d17" compoundref="d9/d2e/a00056" startline="302" endline="319">CIccIO::ReadFloat32Float</references>
+        <references refid="dc/d2c/a00893_1aa610de49d9918d4e354710b04491ae44" compoundref="d9/d2e/a00056" startline="236" endline="250">CIccIO::ReadUInt16Float</references>
+        <references refid="dc/d2c/a00893_1a684b306f5069d36794d70afe2662e660" compoundref="d9/d2e/a00056" startline="203" endline="217">CIccIO::ReadUInt8Float</references>
+        <references refid="dc/d6e/a00833_1aaa3aedfdfc42efaabd8c67583b58fba3" compoundref="d6/d2d/a00047" startline="1476" endline="1501">CIccSingleSampledCurve::SetSize</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a8b4927cd39282b292deb0cdf3da2bc02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccSingleSampledCurve::SetExtensionType</definition>
+        <argsstring>(icUInt16Number nExtensionType)</argsstring>
+        <name>SetExtensionType</name>
+        <qualifiedname>CIccSingleSampledCurve::SetExtensionType</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nExtensionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1a8b4927cd39282b292deb0cdf3da2bc02" kindref="member">CIccSingleSampledCurve::SetExtensionType</ref></para>
+<para>Purpose: Sets extension type of the single sampled curve</para>
+<para>Args: nExtensionType is type of extension to use</para>
+<para>Return: true if valid extension type, false otherwise </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="303" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1422" bodyend="1432"/>
+        <references refid="d7/d46/a00002_1a6bb4739c01627cd3d9a82136eb08107aae4ccca0da40c9e4b5d4a7a506612d3cb" compoundref="d7/d46/a00002" startline="1067">icClipSingleSampledCurve</references>
+        <references refid="d7/d46/a00002_1a6bb4739c01627cd3d9a82136eb08107aad506fc0d8e98abfdceb51102ecd6e218" compoundref="d7/d46/a00002" startline="1068">icExtendSingleSampledCurve</references>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a202d7015922e79be726464c149d8cd65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccSingleSampledCurve::SetRange</definition>
+        <argsstring>(icFloatNumber first=0.0f, icFloatNumber last=1.0f)</argsstring>
+        <name>SetRange</name>
+        <qualifiedname>CIccSingleSampledCurve::SetRange</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>first</declname>
+          <defval>0.0f</defval>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>last</declname>
+          <defval>1.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1a202d7015922e79be726464c149d8cd65" kindref="member">CIccSingleSampledCurve::SetRange</ref></para>
+<para>Purpose: Sets range of sampled lookup table.</para>
+<para>Args: first = first entry input position last = last entry input position </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="298" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1396" bodyend="1406"/>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1aaa3aedfdfc42efaabd8c67583b58fba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccSingleSampledCurve::SetSize</definition>
+        <argsstring>(icUInt32Number nSize, bool bZeroAlloc=true)</argsstring>
+        <name>SetSize</name>
+        <qualifiedname>CIccSingleSampledCurve::SetSize</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nSize</declname>
+          <defname>nCount</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bZeroAlloc</declname>
+          <defval><ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1aaa3aedfdfc42efaabd8c67583b58fba3" kindref="member">CIccSingleSampledCurve::SetSize</ref></para>
+<para>Purpose: Sets size of sampled lookup table. Previous data (if exists) is lost.</para>
+<para>Args: nCount = number of elements in lut (must be &gt;= 2). <linebreak/>
+ bZeroAlloc = flag to decide if memory should be set to zero.</para>
+<para>Return: true if allocation successful. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="300" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1476" bodyend="1501"/>
+        <references refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" compoundref="d2/de7/a00014" startline="323">CIccSingleSampledCurve::m_nCount</references>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">ParseXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1a198e27e06e5c30bd22c36af75c07c325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccSingleSampledCurve::SetStorageType</definition>
+        <argsstring>(icUInt16Number nStorateType)</argsstring>
+        <name>SetStorageType</name>
+        <qualifiedname>CIccSingleSampledCurve::SetStorageType</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nStorateType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1a198e27e06e5c30bd22c36af75c07c325" kindref="member">CIccSingleSampledCurve::SetStorageType</ref></para>
+<para>Purpose: Sets storate type of the data stored in the single sampled curve</para>
+<para>Args: nStorageType is type of data to use</para>
+<para>Return: true if valid storage type, false otherwise </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="306" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1447" bodyend="1459"/>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966a29d583618959ea7777d2aba032b34082" compoundref="d7/d46/a00002" startline="1087">icValueTypeFloat16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966afa247c7bcadffbd485fa946299182123" compoundref="d7/d46/a00002" startline="1086">icValueTypeFloat32</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966ab2645f254cd35005c1cc4a402e29e347" compoundref="d7/d46/a00002" startline="1088">icValueTypeUInt16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966aa4e3209bb199947141c5dae71550efb9" compoundref="d7/d46/a00002" startline="1089">icValueTypeUInt8</references>
+        <references refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" compoundref="d2/de7/a00014" startline="326">CIccSingleSampledCurve::m_storageType</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccSinglSampledeCurveXml::ToXml</definition>
+        <argsstring>(std::string &amp;xml, std::string blanks)</argsstring>
+        <name>ToXml</name>
+        <qualifiedname>CIccSinglSampledeCurveXml::ToXml</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>blanks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.cpp" line="607" column="8" bodyfile="IccXML/IccLibXML/IccMpeXml.cpp" bodystart="611" bodyend="633"/>
+        <references refid="de/dd3/a01873_1a96583e68ac3216ec93072a15f30e8029" compoundref="d5/d35/a00266" startline="820" endline="908">CIccXmlArrayType&lt; T, Tsig &gt;::DumpArray</references>
+        <references refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a7b72d0077e286e2fd4a2113c00cd8663" compoundref="d7/d03/a00254" startline="70">icConvertFloat</references>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+        <references refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" compoundref="d2/de7/a00014" startline="323">CIccSingleSampledCurve::m_nCount</references>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <references refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" compoundref="d2/de7/a00014" startline="326">CIccSingleSampledCurve::m_storageType</references>
+        <referencedby refid="dd/dd7/a00260_1a93b5b044171cd5f4bab2f05b51e63419" compoundref="dd/dd7/a00260" startline="1024" endline="1048">ToXmlCurve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccSingleSampledCurve::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccTagMultiProcessElement *pMPE=NULL, const CIccProfile *pProfile=NULL) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccSingleSampledCurve::Validate</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a7c51821c5dd071c6bf87c7a47a3523fc">Validate</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" kindref="member">CIccSingleSampledCurve::Validate</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="318" column="28" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1828" bodyend="1870"/>
+        <references refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">CIccInfo::GetSigPathName</references>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1aa1bd59040ac26f5314f409e295cf9162" compoundref="d5/db1/a00140" startline="92">icMsgValidateCriticalError</references>
+        <references refid="d7/dce/a00143_1a96f185a7e8c155604a95848b2c9f4d2f" compoundref="d5/db1/a00140" startline="90">icMsgValidateWarning</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a371bf9a02d77f4dd8f339b4f4fff51c3" compoundref="d4/d81/a00110" startline="122">icValidateCriticalError</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a28bebc69f605af2c45812f342b3b3f74" compoundref="d4/d81/a00110" startline="120">icValidateWarning</references>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+        <references refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" compoundref="d2/de7/a00014" startline="323">CIccSingleSampledCurve::m_nCount</references>
+        <references refid="dc/d6e/a00833_1a01f69701f0af22ae6fc735ae2b799c9c" compoundref="d2/de7/a00014" startline="321">CIccSingleSampledCurve::m_nReserved</references>
+        <references refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" compoundref="d2/de7/a00014" startline="326">CIccSingleSampledCurve::m_storageType</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccSingleSampledCurve::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccSingleSampledCurve::Write</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1abc1bb9e4df746a2e84ff41193aa59b74">Write</reimplements>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" kindref="member">CIccSingleSampledCurve::Write</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="314" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="1688" bodyend="1741"/>
+        <references refid="dc/d6e/a00833_1a7045dc445a81d21860e72c7c5eb9f928" compoundref="d2/de7/a00014" startline="295" endline="295">CIccSingleSampledCurve::GetType</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966a29d583618959ea7777d2aba032b34082" compoundref="d7/d46/a00002" startline="1087">icValueTypeFloat16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966afa247c7bcadffbd485fa946299182123" compoundref="d7/d46/a00002" startline="1086">icValueTypeFloat32</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966ab2645f254cd35005c1cc4a402e29e347" compoundref="d7/d46/a00002" startline="1088">icValueTypeUInt16</references>
+        <references refid="d7/d46/a00002_1ada0e4052f7f789491aa3ce0b5d3ba966aa4e3209bb199947141c5dae71550efb9" compoundref="d7/d46/a00002" startline="1089">icValueTypeUInt8</references>
+        <references refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" compoundref="d2/de7/a00014" startline="327">CIccSingleSampledCurve::m_extensionType</references>
+        <references refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" compoundref="d2/de7/a00014" startline="329">CIccSingleSampledCurve::m_firstEntry</references>
+        <references refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" compoundref="d2/de7/a00014" startline="330">CIccSingleSampledCurve::m_lastEntry</references>
+        <references refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" compoundref="d2/de7/a00014" startline="323">CIccSingleSampledCurve::m_nCount</references>
+        <references refid="dc/d6e/a00833_1a01f69701f0af22ae6fc735ae2b799c9c" compoundref="d2/de7/a00014" startline="321">CIccSingleSampledCurve::m_nReserved</references>
+        <references refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" compoundref="d2/de7/a00014" startline="324">CIccSingleSampledCurve::m_pSamples</references>
+        <references refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" compoundref="d2/de7/a00014" startline="326">CIccSingleSampledCurve::m_storageType</references>
+        <references refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" compoundref="d9/d2e/a00056" startline="122" endline="141">CIccIO::Write16</references>
+        <references refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" compoundref="d9/d2e/a00056" startline="152" endline="171">CIccIO::Write32</references>
+        <references refid="dc/d2c/a00893_1a57109e85a49573fd9f1af1e6ad7a53e2" compoundref="d9/d2e/a00056" startline="285" endline="300">CIccIO::WriteFloat16Float</references>
+        <references refid="dc/d2c/a00893_1a9f55b95a792f5aa4353739c49f8952ee" compoundref="d9/d2e/a00056" startline="321" endline="339">CIccIO::WriteFloat32Float</references>
+        <references refid="dc/d2c/a00893_1afd87a27fcc9a6871151f9c07e1721bae" compoundref="d9/d2e/a00056" startline="252" endline="267">CIccIO::WriteUInt16Float</references>
+        <references refid="dc/d2c/a00893_1aa2873808c28b4bc36d5f5ff60c54e817" compoundref="d9/d2e/a00056" startline="219" endline="234">CIccIO::WriteUInt8Float</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccSingleSampledCurve::m_extensionType</definition>
+        <argsstring></argsstring>
+        <name>m_extensionType</name>
+        <qualifiedname>CIccSingleSampledCurve::m_extensionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="327" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="327" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" compoundref="d6/d2d/a00047" startline="1513" endline="1582">CIccSingleSampledCurve::Describe</referencedby>
+        <referencedby refid="dc/d6e/a00833_1aa0d80f4a93bf16b47ee6feef2d45743e" compoundref="d2/de7/a00014" startline="304" endline="304">CIccSingleSampledCurve::GetExtensionType</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">ParseXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a8b4927cd39282b292deb0cdf3da2bc02" compoundref="d6/d2d/a00047" startline="1422" endline="1432">CIccSingleSampledCurve::SetExtensionType</referencedby>
+        <referencedby refid="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" compoundref="dd/dd7/a00260" startline="611" endline="633">ToXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" compoundref="d6/d2d/a00047" startline="1828" endline="1870">CIccSingleSampledCurve::Validate</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::m_firstEntry</definition>
+        <argsstring></argsstring>
+        <name>m_firstEntry</name>
+        <qualifiedname>CIccSingleSampledCurve::m_firstEntry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="329" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="329" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" compoundref="d6/d2d/a00047" startline="1513" endline="1582">CIccSingleSampledCurve::Describe</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">ParseXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a202d7015922e79be726464c149d8cd65" compoundref="d6/d2d/a00047" startline="1396" endline="1406">CIccSingleSampledCurve::SetRange</referencedby>
+        <referencedby refid="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" compoundref="dd/dd7/a00260" startline="611" endline="633">ToXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" compoundref="d6/d2d/a00047" startline="1828" endline="1870">CIccSingleSampledCurve::Validate</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1adf289108725462c8698233cc8fbdb5dd" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::m_hiIntercept</definition>
+        <argsstring></argsstring>
+        <name>m_hiIntercept</name>
+        <qualifiedname>CIccSingleSampledCurve::m_hiIntercept</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="338" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="338" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a0588160982793da8c943121ad5a0ef7e" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::m_hiSlope</definition>
+        <argsstring></argsstring>
+        <name>m_hiSlope</name>
+        <qualifiedname>CIccSingleSampledCurve::m_hiSlope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="337" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="337" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a8807800e472aa9bc5021b409499f9fac" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::m_last</definition>
+        <argsstring></argsstring>
+        <name>m_last</name>
+        <qualifiedname>CIccSingleSampledCurve::m_last</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="333" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="333" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::m_lastEntry</definition>
+        <argsstring></argsstring>
+        <name>m_lastEntry</name>
+        <qualifiedname>CIccSingleSampledCurve::m_lastEntry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="330" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="330" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" compoundref="d6/d2d/a00047" startline="1513" endline="1582">CIccSingleSampledCurve::Describe</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">ParseXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a202d7015922e79be726464c149d8cd65" compoundref="d6/d2d/a00047" startline="1396" endline="1406">CIccSingleSampledCurve::SetRange</referencedby>
+        <referencedby refid="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" compoundref="dd/dd7/a00260" startline="611" endline="633">ToXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" compoundref="d6/d2d/a00047" startline="1828" endline="1870">CIccSingleSampledCurve::Validate</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a5509bc31cb6171d1abea63eae815a432" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::m_loIntercept</definition>
+        <argsstring></argsstring>
+        <name>m_loIntercept</name>
+        <qualifiedname>CIccSingleSampledCurve::m_loIntercept</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="336" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="336" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a9e6b0050f6b23451c2cff1075d4dd095" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::m_loSlope</definition>
+        <argsstring></argsstring>
+        <name>m_loSlope</name>
+        <qualifiedname>CIccSingleSampledCurve::m_loSlope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="335" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="335" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccSingleSampledCurve::m_nCount</definition>
+        <argsstring></argsstring>
+        <name>m_nCount</name>
+        <qualifiedname>CIccSingleSampledCurve::m_nCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="323" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="323" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" compoundref="d6/d2d/a00047" startline="1513" endline="1582">CIccSingleSampledCurve::Describe</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bae01825e5569f668401dc3141ecf1d" compoundref="d2/de7/a00014" startline="301" endline="301">CIccSingleSampledCurve::GetSize</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1aaa3aedfdfc42efaabd8c67583b58fba3" compoundref="d6/d2d/a00047" startline="1476" endline="1501">CIccSingleSampledCurve::SetSize</referencedby>
+        <referencedby refid="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" compoundref="dd/dd7/a00260" startline="611" endline="633">ToXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" compoundref="d6/d2d/a00047" startline="1828" endline="1870">CIccSingleSampledCurve::Validate</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a01f69701f0af22ae6fc735ae2b799c9c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccSingleSampledCurve::m_nReserved</definition>
+        <argsstring></argsstring>
+        <name>m_nReserved</name>
+        <qualifiedname>CIccSingleSampledCurve::m_nReserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="321" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="321" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" compoundref="d6/d2d/a00047" startline="1828" endline="1870">CIccSingleSampledCurve::Validate</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CIccSingleSampledCurve::m_pSamples</definition>
+        <argsstring></argsstring>
+        <name>m_pSamples</name>
+        <qualifiedname>CIccSingleSampledCurve::m_pSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="324" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="324" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a351cb3223825d71d12b0092d78aec6a8" compoundref="d6/d2d/a00047" startline="1379" endline="1383">CIccSingleSampledCurve::~CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" compoundref="d6/d2d/a00047" startline="1513" endline="1582">CIccSingleSampledCurve::Describe</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3d5d9a34a381cef509b69f13ce64360c" compoundref="d2/de7/a00014" startline="309" endline="309">CIccSingleSampledCurve::GetSamples</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">ParseXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1aaa3aedfdfc42efaabd8c67583b58fba3" compoundref="d6/d2d/a00047" startline="1476" endline="1501">CIccSingleSampledCurve::SetSize</referencedby>
+        <referencedby refid="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" compoundref="dd/dd7/a00260" startline="611" endline="633">ToXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a8e004bc3b0be3b324b94c8acc5a3f348" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSingleSampledCurve::m_range</definition>
+        <argsstring></argsstring>
+        <name>m_range</name>
+        <qualifiedname>CIccSingleSampledCurve::m_range</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="332" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="332" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" compoundref="d6/d2d/a00047" startline="1799" endline="1816">CIccSingleSampledCurve::Apply</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" compoundref="d6/d2d/a00047" startline="1753" endline="1787">CIccSingleSampledCurve::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccSingleSampledCurve::m_storageType</definition>
+        <argsstring></argsstring>
+        <name>m_storageType</name>
+        <qualifiedname>CIccSingleSampledCurve::m_storageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="326" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="326" bodyend="-1"/>
+        <referencedby refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" compoundref="d6/d2d/a00047" startline="1298" endline="1325">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" compoundref="d6/d2d/a00047" startline="1513" endline="1582">CIccSingleSampledCurve::Describe</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adf04e3c96b835611602dbb6680e8874b" compoundref="d2/de7/a00014" startline="307" endline="307">CIccSingleSampledCurve::GetStorageType</referencedby>
+        <referencedby refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" compoundref="d6/d2d/a00047" startline="1337" endline="1367">CIccSingleSampledCurve::operator=</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">ParseXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a198e27e06e5c30bd22c36af75c07c325" compoundref="d6/d2d/a00047" startline="1447" endline="1459">CIccSingleSampledCurve::SetStorageType</referencedby>
+        <referencedby refid="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" compoundref="dd/dd7/a00260" startline="611" endline="633">ToXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" compoundref="d6/d2d/a00047" startline="1828" endline="1870">CIccSingleSampledCurve::Validate</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d5f/a00825" kindref="compound">CIccCurveSetCurve</ref> *</type>
+        <definition>CIccCurveSetCurve * CIccCurveSetCurve::Create</definition>
+        <argsstring>(icCurveElemSignature sig)</argsstring>
+        <name>Create</name>
+        <qualifiedname>CIccCurveSetCurve::Create</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821" kindref="member">icCurveElemSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" kindref="member">CIccCurveSetCurve::Create</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="219" column="28" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2944" bodyend="2956"/>
+        <references refid="d1/de6/a00837_1a3118873be68554c684e3d90a7992898d" compoundref="d6/d2d/a00047" startline="1883" endline="1908">CIccSampledCalculatorCurve::CIccSampledCalculatorCurve</references>
+        <references refid="d1/dea/a00829_1af9d0cb7c5f0fd4f00d548631007b9d02" compoundref="d6/d2d/a00047" startline="2524" endline="2530">CIccSegmentedCurve::CIccSegmentedCurve</references>
+        <references refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821ac48b1ac8f84255804cbe32704b1c5af6" compoundref="d7/d46/a00002" startline="1059">icSigSampledCalculatorCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821a363bbdea01b1917a02c55c4b389050a7" compoundref="d7/d46/a00002" startline="1057">icSigSegmentedCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821adf1a2fe66e234712b8d6b183ee662453" compoundref="d7/d46/a00002" startline="1058">icSigSingleSampledCurve</references>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CIccCurveSetCurve</label>
+        <link refid="dd/d5f/a00825"/>
+      </node>
+      <node id="1">
+        <label>CIccSinglSampledeCurveXml</label>
+        <link refid="d7/d62/a01805"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccSingleSampledCurve</label>
+        <link refid="dc/d6e/a00833"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CIccCurveSetCurve</label>
+        <link refid="dd/d5f/a00825"/>
+      </node>
+      <node id="1">
+        <label>CIccSinglSampledeCurveXml</label>
+        <link refid="d7/d62/a01805"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccSingleSampledCurve</label>
+        <link refid="dc/d6e/a00833"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccXML/IccLibXML/IccMpeXml.cpp" line="602" column="1" bodyfile="IccXML/IccLibXML/IccMpeXml.cpp" bodystart="603" bodyend="609"/>
+    <listofallmembers>
+      <member refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>Apply</name></member>
+      <member refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>Begin</name></member>
+      <member refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>CIccSingleSampledCurve</name></member>
+      <member refid="dc/d6e/a00833_1a0ee1951504dc434ef9dcbdf57c343c3e" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>CIccSingleSampledCurve</name></member>
+      <member refid="d7/d62/a01805_1a8f895c55f4af0d3a745347200226039a" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>CIccSinglSampledeCurveXml</name></member>
+      <member refid="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>Create</name></member>
+      <member refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>Describe</name></member>
+      <member refid="dc/d6e/a00833_1a1ae168f4d9dada010b1b6588ec2d6e86" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>GetClassName</name></member>
+      <member refid="dc/d6e/a00833_1aa0d80f4a93bf16b47ee6feef2d45743e" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>GetExtensionType</name></member>
+      <member refid="dc/d6e/a00833_1a3d5d9a34a381cef509b69f13ce64360c" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>GetSamples</name></member>
+      <member refid="dc/d6e/a00833_1a3bae01825e5569f668401dc3141ecf1d" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>GetSize</name></member>
+      <member refid="dc/d6e/a00833_1adf04e3c96b835611602dbb6680e8874b" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>GetStorageType</name></member>
+      <member refid="dc/d6e/a00833_1a7045dc445a81d21860e72c7c5eb9f928" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>GetType</name></member>
+      <member refid="dc/d6e/a00833_1a15790cd61286d2966b0da7e964a6d77c" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_extensionType</name></member>
+      <member refid="dc/d6e/a00833_1a124c40e0efe4e89475f5e21933467eca" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_firstEntry</name></member>
+      <member refid="dc/d6e/a00833_1adf289108725462c8698233cc8fbdb5dd" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_hiIntercept</name></member>
+      <member refid="dc/d6e/a00833_1a0588160982793da8c943121ad5a0ef7e" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_hiSlope</name></member>
+      <member refid="dc/d6e/a00833_1a8807800e472aa9bc5021b409499f9fac" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_last</name></member>
+      <member refid="dc/d6e/a00833_1a4d72595ab5ab429e92cf0a143c0d4fc4" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_lastEntry</name></member>
+      <member refid="dc/d6e/a00833_1a5509bc31cb6171d1abea63eae815a432" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_loIntercept</name></member>
+      <member refid="dc/d6e/a00833_1a9e6b0050f6b23451c2cff1075d4dd095" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_loSlope</name></member>
+      <member refid="dc/d6e/a00833_1a251f1cc704ee180554bd3534ee744519" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_nCount</name></member>
+      <member refid="dc/d6e/a00833_1a01f69701f0af22ae6fc735ae2b799c9c" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_nReserved</name></member>
+      <member refid="dc/d6e/a00833_1a882457f12ff4495c14e5d3dbbac961ec" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_pSamples</name></member>
+      <member refid="dc/d6e/a00833_1a8e004bc3b0be3b324b94c8acc5a3f348" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_range</name></member>
+      <member refid="dc/d6e/a00833_1a92406290dfe39f09b5c85ab0a2587274" prot="protected" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>m_storageType</name></member>
+      <member refid="dc/d6e/a00833_1a7f0a0fdbda5719d27150c870b059eddd" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>NewCopy</name></member>
+      <member refid="dc/d6e/a00833_1adbe5ed54ee37a6230aed5aa99066329c" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>operator=</name></member>
+      <member refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>ParseXml</name></member>
+      <member refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>Read</name></member>
+      <member refid="dc/d6e/a00833_1a8b4927cd39282b292deb0cdf3da2bc02" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>SetExtensionType</name></member>
+      <member refid="dc/d6e/a00833_1a202d7015922e79be726464c149d8cd65" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>SetRange</name></member>
+      <member refid="dc/d6e/a00833_1aaa3aedfdfc42efaabd8c67583b58fba3" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>SetSize</name></member>
+      <member refid="dc/d6e/a00833_1a198e27e06e5c30bd22c36af75c07c325" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>SetStorageType</name></member>
+      <member refid="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" prot="public" virt="non-virtual"><scope>CIccSinglSampledeCurveXml</scope><name>ToXml</name></member>
+      <member refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>Validate</name></member>
+      <member refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>Write</name></member>
+      <member refid="dd/d5f/a00825_1abdd160ab15b04b679b9a0daf352f005b" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>~CIccCurveSetCurve</name></member>
+      <member refid="dc/d6e/a00833_1a351cb3223825d71d12b0092d78aec6a8" prot="public" virt="virtual"><scope>CIccSinglSampledeCurveXml</scope><name>~CIccSingleSampledCurve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

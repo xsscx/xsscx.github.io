@@ -1,0 +1,1209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/ddf/a00469" kind="class" language="C++" prot="public">
+    <compoundname>CIccCamConverter</compoundname>
+    <includes refid="db/ddf/a00164" local="no">IccCAM.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/ddf/a00469_1a5f26171fd69a03c41e0c7181d070fe70" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_alfa</definition>
+        <argsstring></argsstring>
+        <name>m_alfa</name>
+        <qualifiedname>CIccCamConverter::m_alfa</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="114" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" compoundref="dd/d32/a00041" startline="149" endline="177">Hyperbolic</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" compoundref="dd/d32/a00041" startline="182" endline="212">HyperbolicInv</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1afde46c3e0bef394930cd318772d914e6" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_AWhite</definition>
+        <argsstring></argsstring>
+        <name>m_AWhite</name>
+        <qualifiedname>CIccCamConverter::m_AWhite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="109" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="109" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a7cc0ae73fde3919b4ba9a64652c58ed9" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_c</definition>
+        <argsstring></argsstring>
+        <name>m_c</name>
+        <qualifiedname>CIccCamConverter::m_c</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="91" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="91" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7f63aaa837c2b0d9797ca5ed3d38edef" compoundref="dd/d32/a00041" startline="446" endline="449">GetParameter_C</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7e311fec359da8f006d5d355e0b61cb8" compoundref="dd/d32/a00041" startline="393" endline="397">SetParameter_C</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a2d5ccea21c5a85fb871331879a820605" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_cc</definition>
+        <argsstring></argsstring>
+        <name>m_cc</name>
+        <qualifiedname>CIccCamConverter::m_cc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="113" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="113" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" compoundref="dd/d32/a00041" startline="149" endline="177">Hyperbolic</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" compoundref="dd/d32/a00041" startline="182" endline="212">HyperbolicInv</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a1f9687cea9fab9696c0f80037b559dab" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_D</definition>
+        <argsstring></argsstring>
+        <name>m_D</name>
+        <qualifiedname>CIccCamConverter::m_D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="104" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="104" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ae58dbc6a313b6bf425e183e64d082341" compoundref="dd/d32/a00041" startline="93" endline="99">ReferenceConditions</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad9efc6d47c41165ff920e639e7893588" compoundref="dd/d32/a00041" startline="104" endline="110">ReferenceConditionsInv</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1ae874407675f7ef184c7a1fb729eef216" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_exp</definition>
+        <argsstring></argsstring>
+        <name>m_exp</name>
+        <qualifiedname>CIccCamConverter::m_exp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="115" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a08640f1e1df832c262505c9f5dd27ae0" compoundref="dd/d32/a00041" startline="125" endline="132">H_Function</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a31d26e411945d4078630bef91930c2be" compoundref="dd/d32/a00041" startline="137" endline="144">H_FunctionInv</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1ad1e1155842701cad0d6d343163903b59" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_F</definition>
+        <argsstring></argsstring>
+        <name>m_F</name>
+        <qualifiedname>CIccCamConverter::m_F</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="93" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="93" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad639a0beba06250868a353c56b08e855" compoundref="dd/d32/a00041" startline="462" endline="465">GetParameter_F</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5745336e9bd9def6164a0048316aba47" compoundref="dd/d32/a00041" startline="411" endline="415">SetParameter_F</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1ab49e41eb0f76d51962a8ffa117730e08" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_factor</definition>
+        <argsstring></argsstring>
+        <name>m_factor</name>
+        <qualifiedname>CIccCamConverter::m_factor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="96" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="96" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1af895b7c8bb6cd70fa98673820ce02cfd" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_Fl</definition>
+        <argsstring></argsstring>
+        <name>m_Fl</name>
+        <qualifiedname>CIccCamConverter::m_Fl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="105" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="105" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" compoundref="dd/d32/a00041" startline="149" endline="177">Hyperbolic</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" compoundref="dd/d32/a00041" startline="182" endline="212">HyperbolicInv</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a22aa0375791fa6c5e86055b8c8520361" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_La</definition>
+        <argsstring></argsstring>
+        <name>m_La</name>
+        <qualifiedname>CIccCamConverter::m_La</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="89" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="89" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1af1e943d42638a9fe083b816eb5f9314d" compoundref="dd/d32/a00041" startline="430" endline="433">GetParameter_La</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a516ccb5edb55d757569accf9ebf88de5" compoundref="dd/d32/a00041" startline="375" endline="379">SetParameter_La</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a7a0079b843203c7e1c328d33044bc691" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_mFor[3][3]</definition>
+        <argsstring>[3][3]</argsstring>
+        <name>m_mFor</name>
+        <qualifiedname>CIccCamConverter::m_mFor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="94" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="94" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a3663f3a5ff3f0008e1e4d62d0906bd90" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_mInv[3][3]</definition>
+        <argsstring>[3][3]</argsstring>
+        <name>m_mInv</name>
+        <qualifiedname>CIccCamConverter::m_mInv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="95" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="95" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1ae613753579dfac7da4118a32ff40b30a" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_n</definition>
+        <argsstring></argsstring>
+        <name>m_n</name>
+        <qualifiedname>CIccCamConverter::m_n</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="106" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="106" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a8f33b38dfeb1af003e5ebeeac39a10c5" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_Nbb</definition>
+        <argsstring></argsstring>
+        <name>m_Nbb</name>
+        <qualifiedname>CIccCamConverter::m_Nbb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="107" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="107" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a38df64b07e00953cb4278681de20067c" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_Nc</definition>
+        <argsstring></argsstring>
+        <name>m_Nc</name>
+        <qualifiedname>CIccCamConverter::m_Nc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="92" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="92" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1aab58bdc1e9c0440d2e80849ceb015bd8" compoundref="dd/d32/a00041" startline="454" endline="457">GetParameter_Nc</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a30b79740553c8f7861330b14ca6596e2" compoundref="dd/d32/a00041" startline="402" endline="406">SetParameter_Nc</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1aa2231da8d70421275f5e7995f07457a2" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_rgbWhite[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>m_rgbWhite</name>
+        <qualifiedname>CIccCamConverter::m_rgbWhite</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="103" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="103" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ae58dbc6a313b6bf425e183e64d082341" compoundref="dd/d32/a00041" startline="93" endline="99">ReferenceConditions</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad9efc6d47c41165ff920e639e7893588" compoundref="dd/d32/a00041" startline="104" endline="110">ReferenceConditionsInv</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_WhitePoint[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>m_WhitePoint</name>
+        <qualifiedname>CIccCamConverter::m_WhitePoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="88" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="88" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a658d892ed7a73a6702b4aa2af033a248" compoundref="dd/d32/a00041" startline="420" endline="425">GetParameter_WhitePoint</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ae58dbc6a313b6bf425e183e64d082341" compoundref="dd/d32/a00041" startline="93" endline="99">ReferenceConditions</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad9efc6d47c41165ff920e639e7893588" compoundref="dd/d32/a00041" startline="104" endline="110">ReferenceConditionsInv</referencedby>
+        <referencedby refid="dc/ddf/a00469_1af57315ea4ba7f29d9b97d4bfdb0e2df1" compoundref="dd/d32/a00041" startline="364" endline="370">SetParameter_WhitePoint</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a8810947d1a9000399e6a6f876c28ebc0" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_x0</definition>
+        <argsstring></argsstring>
+        <name>m_x0</name>
+        <qualifiedname>CIccCamConverter::m_x0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="112" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="112" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" compoundref="dd/d32/a00041" startline="149" endline="177">Hyperbolic</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" compoundref="dd/d32/a00041" startline="182" endline="212">HyperbolicInv</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1a3348b231f89a4e028d4a226136a6155f" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_Yb</definition>
+        <argsstring></argsstring>
+        <name>m_Yb</name>
+        <qualifiedname>CIccCamConverter::m_Yb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="90" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="90" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1abedc6e406658b3a3563ac22431ee7ce7" compoundref="dd/d32/a00041" startline="438" endline="441">GetParameter_Yb</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1aeeabbc31d25cb8797dedc4dbdbfabb99" compoundref="dd/d32/a00041" startline="384" endline="388">SetParameter_Yb</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/ddf/a00469_1aec32b1277df819f3276f536db311e81f" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::m_z</definition>
+        <argsstring></argsstring>
+        <name>m_z</name>
+        <qualifiedname>CIccCamConverter::m_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="108" column="14" bodyfile="IccProfLib/IccCAM.h" bodystart="108" bodyend="-1"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/ddf/a00469_1a4a36d9bffe9be7be800faaebaee74a51" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::ab2chDeg</definition>
+        <argsstring>(icFloatNumber a, icFloatNumber b, icFloatNumber &amp;c, icFloatNumber &amp;h)</argsstring>
+        <name>ab2chDeg</name>
+        <qualifiedname>CIccCamConverter::ab2chDeg</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> &amp;</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="130" column="8" bodyfile="IccProfLib/IccCAM.cpp" bodystart="291" bodyend="297"/>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::CalcCoefficients</definition>
+        <argsstring>()</argsstring>
+        <name>CalcCoefficients</name>
+        <qualifiedname>CIccCamConverter::CalcCoefficients</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="132" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="250" bodyend="288"/>
+        <references refid="dc/ddf/a00469_1a0114f28979e96fa8f4141f09f4f797cf" compoundref="dd/d32/a00041" startline="115" endline="120">F_Function</references>
+        <references refid="dc/ddf/a00469_1a08640f1e1df832c262505c9f5dd27ae0" compoundref="dd/d32/a00041" startline="125" endline="132">H_Function</references>
+        <references refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" compoundref="dd/d32/a00041" startline="149" endline="177">Hyperbolic</references>
+        <references refid="dc/ddf/a00469_1a5f26171fd69a03c41e0c7181d070fe70" compoundref="db/ddf/a00164" startline="114">m_alfa</references>
+        <references refid="dc/ddf/a00469_1afde46c3e0bef394930cd318772d914e6" compoundref="db/ddf/a00164" startline="109">m_AWhite</references>
+        <references refid="dc/ddf/a00469_1a2d5ccea21c5a85fb871331879a820605" compoundref="db/ddf/a00164" startline="113">m_cc</references>
+        <references refid="dc/ddf/a00469_1a1f9687cea9fab9696c0f80037b559dab" compoundref="db/ddf/a00164" startline="104">m_D</references>
+        <references refid="dc/ddf/a00469_1ad1e1155842701cad0d6d343163903b59" compoundref="db/ddf/a00164" startline="93">m_F</references>
+        <references refid="dc/ddf/a00469_1ab49e41eb0f76d51962a8ffa117730e08" compoundref="db/ddf/a00164" startline="96">m_factor</references>
+        <references refid="dc/ddf/a00469_1af895b7c8bb6cd70fa98673820ce02cfd" compoundref="db/ddf/a00164" startline="105">m_Fl</references>
+        <references refid="dc/ddf/a00469_1a22aa0375791fa6c5e86055b8c8520361" compoundref="db/ddf/a00164" startline="89">m_La</references>
+        <references refid="dc/ddf/a00469_1a7a0079b843203c7e1c328d33044bc691" compoundref="db/ddf/a00164" startline="94">m_mFor</references>
+        <references refid="dc/ddf/a00469_1ae613753579dfac7da4118a32ff40b30a" compoundref="db/ddf/a00164" startline="106">m_n</references>
+        <references refid="dc/ddf/a00469_1a8f33b38dfeb1af003e5ebeeac39a10c5" compoundref="db/ddf/a00164" startline="107">m_Nbb</references>
+        <references refid="dc/ddf/a00469_1aa2231da8d70421275f5e7995f07457a2" compoundref="db/ddf/a00164" startline="103">m_rgbWhite</references>
+        <references refid="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" compoundref="db/ddf/a00164" startline="88">m_WhitePoint</references>
+        <references refid="dc/ddf/a00469_1a8810947d1a9000399e6a6f876c28ebc0" compoundref="db/ddf/a00164" startline="112">m_x0</references>
+        <references refid="dc/ddf/a00469_1a3348b231f89a4e028d4a226136a6155f" compoundref="db/ddf/a00164" startline="90">m_Yb</references>
+        <references refid="dc/ddf/a00469_1aec32b1277df819f3276f536db311e81f" compoundref="db/ddf/a00164" startline="108">m_z</references>
+        <references refid="dc/ddf/a00469_1a498b2df6e8af460e8359dee47d9b6184" compoundref="dd/d32/a00041" startline="81" endline="88">Multiply_vect_by_mx</references>
+        <references refid="dc/ddf/a00469_1ae58dbc6a313b6bf425e183e64d082341" compoundref="dd/d32/a00041" startline="93" endline="99">ReferenceConditions</references>
+        <referencedby refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7e311fec359da8f006d5d355e0b61cb8" compoundref="dd/d32/a00041" startline="393" endline="397">SetParameter_C</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a5745336e9bd9def6164a0048316aba47" compoundref="dd/d32/a00041" startline="411" endline="415">SetParameter_F</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a516ccb5edb55d757569accf9ebf88de5" compoundref="dd/d32/a00041" startline="375" endline="379">SetParameter_La</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a30b79740553c8f7861330b14ca6596e2" compoundref="dd/d32/a00041" startline="402" endline="406">SetParameter_Nc</referencedby>
+        <referencedby refid="dc/ddf/a00469_1af57315ea4ba7f29d9b97d4bfdb0e2df1" compoundref="dd/d32/a00041" startline="364" endline="370">SetParameter_WhitePoint</referencedby>
+        <referencedby refid="dc/ddf/a00469_1aeeabbc31d25cb8797dedc4dbdbfabb99" compoundref="dd/d32/a00041" startline="384" endline="388">SetParameter_Yb</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a0114f28979e96fa8f4141f09f4f797cf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::F_Function</definition>
+        <argsstring>(icFloatNumber x)</argsstring>
+        <name>F_Function</name>
+        <qualifiedname>CIccCamConverter::F_Function</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="120" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="115" bodyend="120"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" compoundref="dd/d32/a00041" startline="149" endline="177">Hyperbolic</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" compoundref="dd/d32/a00041" startline="182" endline="212">HyperbolicInv</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a08640f1e1df832c262505c9f5dd27ae0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::H_Function</definition>
+        <argsstring>(icFloatNumber x)</argsstring>
+        <name>H_Function</name>
+        <qualifiedname>CIccCamConverter::H_Function</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="121" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="125" bodyend="132"/>
+        <references refid="dc/ddf/a00469_1ae874407675f7ef184c7a1fb729eef216" compoundref="db/ddf/a00164" startline="115">m_exp</references>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" compoundref="dd/d32/a00041" startline="149" endline="177">Hyperbolic</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" compoundref="dd/d32/a00041" startline="182" endline="212">HyperbolicInv</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a31d26e411945d4078630bef91930c2be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::H_FunctionInv</definition>
+        <argsstring>(icFloatNumber y)</argsstring>
+        <name>H_FunctionInv</name>
+        <qualifiedname>CIccCamConverter::H_FunctionInv</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="122" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="137" bodyend="144"/>
+        <references refid="dc/ddf/a00469_1ae874407675f7ef184c7a1fb729eef216" compoundref="db/ddf/a00164" startline="115">m_exp</references>
+        <referencedby refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" compoundref="dd/d32/a00041" startline="182" endline="212">HyperbolicInv</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::Hyperbolic</definition>
+        <argsstring>(icFloatNumber x)</argsstring>
+        <name>Hyperbolic</name>
+        <qualifiedname>CIccCamConverter::Hyperbolic</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="125" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="149" bodyend="177"/>
+        <references refid="dc/ddf/a00469_1a0114f28979e96fa8f4141f09f4f797cf" compoundref="dd/d32/a00041" startline="115" endline="120">F_Function</references>
+        <references refid="dc/ddf/a00469_1a08640f1e1df832c262505c9f5dd27ae0" compoundref="dd/d32/a00041" startline="125" endline="132">H_Function</references>
+        <references refid="dc/ddf/a00469_1a5f26171fd69a03c41e0c7181d070fe70" compoundref="db/ddf/a00164" startline="114">m_alfa</references>
+        <references refid="dc/ddf/a00469_1a2d5ccea21c5a85fb871331879a820605" compoundref="db/ddf/a00164" startline="113">m_cc</references>
+        <references refid="dc/ddf/a00469_1af895b7c8bb6cd70fa98673820ce02cfd" compoundref="db/ddf/a00164" startline="105">m_Fl</references>
+        <references refid="dc/ddf/a00469_1a8810947d1a9000399e6a6f876c28ebc0" compoundref="db/ddf/a00164" startline="112">m_x0</references>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::HyperbolicInv</definition>
+        <argsstring>(icFloatNumber x)</argsstring>
+        <name>HyperbolicInv</name>
+        <qualifiedname>CIccCamConverter::HyperbolicInv</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="126" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="182" bodyend="212"/>
+        <references refid="dc/ddf/a00469_1a0114f28979e96fa8f4141f09f4f797cf" compoundref="dd/d32/a00041" startline="115" endline="120">F_Function</references>
+        <references refid="dc/ddf/a00469_1a08640f1e1df832c262505c9f5dd27ae0" compoundref="dd/d32/a00041" startline="125" endline="132">H_Function</references>
+        <references refid="dc/ddf/a00469_1a31d26e411945d4078630bef91930c2be" compoundref="dd/d32/a00041" startline="137" endline="144">H_FunctionInv</references>
+        <references refid="dc/ddf/a00469_1a5f26171fd69a03c41e0c7181d070fe70" compoundref="db/ddf/a00164" startline="114">m_alfa</references>
+        <references refid="dc/ddf/a00469_1a2d5ccea21c5a85fb871331879a820605" compoundref="db/ddf/a00164" startline="113">m_cc</references>
+        <references refid="dc/ddf/a00469_1af895b7c8bb6cd70fa98673820ce02cfd" compoundref="db/ddf/a00164" startline="105">m_Fl</references>
+        <references refid="dc/ddf/a00469_1a8810947d1a9000399e6a6f876c28ebc0" compoundref="db/ddf/a00164" startline="112">m_x0</references>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a29b9b914711f0a9ee6b55da3b1c1b620" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::IccCam_e</definition>
+        <argsstring>(icFloatNumber hue)</argsstring>
+        <name>IccCam_e</name>
+        <qualifiedname>CIccCamConverter::IccCam_e</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>hue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="124" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="217" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a498b2df6e8af460e8359dee47d9b6184" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::Multiply_vect_by_mx</definition>
+        <argsstring>(const icFloatNumber *in, icFloatNumber *out, icFloatNumber m[3][3])</argsstring>
+        <name>Multiply_vect_by_mx</name>
+        <qualifiedname>CIccCamConverter::Multiply_vect_by_mx</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>m</declname>
+          <array>[3][3]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="118" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="81" bodyend="88"/>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1ae58dbc6a313b6bf425e183e64d082341" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::ReferenceConditions</definition>
+        <argsstring>(icFloatNumber *rgb, icFloatNumber *rgbC)</argsstring>
+        <name>ReferenceConditions</name>
+        <qualifiedname>CIccCamConverter::ReferenceConditions</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>rgb</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>rgbC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="127" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="93" bodyend="99"/>
+        <references refid="dc/ddf/a00469_1a1f9687cea9fab9696c0f80037b559dab" compoundref="db/ddf/a00164" startline="104">m_D</references>
+        <references refid="dc/ddf/a00469_1aa2231da8d70421275f5e7995f07457a2" compoundref="db/ddf/a00164" startline="103">m_rgbWhite</references>
+        <references refid="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" compoundref="db/ddf/a00164" startline="88">m_WhitePoint</references>
+        <referencedby refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</referencedby>
+        <referencedby refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" compoundref="dd/d32/a00041" startline="470" endline="523">XYZToJab</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1ad9efc6d47c41165ff920e639e7893588" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::ReferenceConditionsInv</definition>
+        <argsstring>(icFloatNumber *rgbC, icFloatNumber *rgb)</argsstring>
+        <name>ReferenceConditionsInv</name>
+        <qualifiedname>CIccCamConverter::ReferenceConditionsInv</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>rgbC</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>rgb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="128" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="104" bodyend="110"/>
+        <references refid="dc/ddf/a00469_1a1f9687cea9fab9696c0f80037b559dab" compoundref="db/ddf/a00164" startline="104">m_D</references>
+        <references refid="dc/ddf/a00469_1aa2231da8d70421275f5e7995f07457a2" compoundref="db/ddf/a00164" startline="103">m_rgbWhite</references>
+        <references refid="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" compoundref="db/ddf/a00164" startline="88">m_WhitePoint</references>
+        <referencedby refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" compoundref="dd/d32/a00041" startline="528" endline="634">JabToXYZ</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCamConverter::CIccCamConverter</definition>
+        <argsstring>()</argsstring>
+        <name>CIccCamConverter</name>
+        <qualifiedname>CIccCamConverter::CIccCamConverter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="135" column="1" bodyfile="IccProfLib/IccCAM.cpp" bodystart="302" bodyend="345"/>
+        <references refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</references>
+        <references refid="d7/dce/a00143_1a13c4cd8d806f06c8ca38d9098f27ccb7" compoundref="d5/db1/a00140" startline="782" endline="782">icD50XYZ</references>
+        <references refid="dc/ddf/a00469_1a5f26171fd69a03c41e0c7181d070fe70" compoundref="db/ddf/a00164" startline="114">m_alfa</references>
+        <references refid="dc/ddf/a00469_1a7cc0ae73fde3919b4ba9a64652c58ed9" compoundref="db/ddf/a00164" startline="91">m_c</references>
+        <references refid="dc/ddf/a00469_1ae874407675f7ef184c7a1fb729eef216" compoundref="db/ddf/a00164" startline="115">m_exp</references>
+        <references refid="dc/ddf/a00469_1ad1e1155842701cad0d6d343163903b59" compoundref="db/ddf/a00164" startline="93">m_F</references>
+        <references refid="dc/ddf/a00469_1a22aa0375791fa6c5e86055b8c8520361" compoundref="db/ddf/a00164" startline="89">m_La</references>
+        <references refid="dc/ddf/a00469_1a7a0079b843203c7e1c328d33044bc691" compoundref="db/ddf/a00164" startline="94">m_mFor</references>
+        <references refid="dc/ddf/a00469_1a3663f3a5ff3f0008e1e4d62d0906bd90" compoundref="db/ddf/a00164" startline="95">m_mInv</references>
+        <references refid="dc/ddf/a00469_1a38df64b07e00953cb4278681de20067c" compoundref="db/ddf/a00164" startline="92">m_Nc</references>
+        <references refid="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" compoundref="db/ddf/a00164" startline="88">m_WhitePoint</references>
+        <references refid="dc/ddf/a00469_1a3348b231f89a4e028d4a226136a6155f" compoundref="db/ddf/a00164" startline="90">m_Yb</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a8244c2070bcb5d2f8c0cf810ad768cd7" compoundref="dd/d32/a00041" startline="354" endline="359">NewCopy</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d3/dea/a02041_1a80da7cd38a9645ba1a22a5b81e92af16" compoundref="dd/dd7/a00260" startline="2184" endline="2211">CIccMpeXmlJabToXYZ::ParseXml</referencedby>
+        <referencedby refid="d7/d13/a02045_1a93de44beabef1e61b64a1bed175b28e2" compoundref="dd/dd7/a00260" startline="2235" endline="2262">CIccMpeXmlXYZToJab::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a780a5ded9fc4452533ff6ab163a32780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCamConverter::~CIccCamConverter</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccCamConverter</name>
+        <qualifiedname>CIccCamConverter::~CIccCamConverter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="136" column="1" bodyfile="IccProfLib/IccCAM.cpp" bodystart="349" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a7f63aaa837c2b0d9797ca5ed3d38edef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::GetParameter_C</definition>
+        <argsstring>()</argsstring>
+        <name>GetParameter_C</name>
+        <qualifiedname>CIccCamConverter::GetParameter_C</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="157" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="446" bodyend="449"/>
+        <references refid="dc/ddf/a00469_1a7cc0ae73fde3919b4ba9a64652c58ed9" compoundref="db/ddf/a00164" startline="91">m_c</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="d9/d22/a00873_1aee1dbc12f7347814bdc7d47736b9bd12" compoundref="d6/d2d/a00047" startline="6227" endline="6260">CIccMpeCAM::Describe</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a63ffdf99759eade4bc099f3a4ad3b5f7" compoundref="dd/dd7/a00260" startline="2059" endline="2091">icXmlDumpColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1ad639a0beba06250868a353c56b08e855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::GetParameter_F</definition>
+        <argsstring>()</argsstring>
+        <name>GetParameter_F</name>
+        <qualifiedname>CIccCamConverter::GetParameter_F</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="159" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="462" bodyend="465"/>
+        <references refid="dc/ddf/a00469_1ad1e1155842701cad0d6d343163903b59" compoundref="db/ddf/a00164" startline="93">m_F</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="d9/d22/a00873_1aee1dbc12f7347814bdc7d47736b9bd12" compoundref="d6/d2d/a00047" startline="6227" endline="6260">CIccMpeCAM::Describe</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a63ffdf99759eade4bc099f3a4ad3b5f7" compoundref="dd/dd7/a00260" startline="2059" endline="2091">icXmlDumpColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1af1e943d42638a9fe083b816eb5f9314d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::GetParameter_La</definition>
+        <argsstring>()</argsstring>
+        <name>GetParameter_La</name>
+        <qualifiedname>CIccCamConverter::GetParameter_La</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="155" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="430" bodyend="433"/>
+        <references refid="dc/ddf/a00469_1a22aa0375791fa6c5e86055b8c8520361" compoundref="db/ddf/a00164" startline="89">m_La</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="d9/d22/a00873_1aee1dbc12f7347814bdc7d47736b9bd12" compoundref="d6/d2d/a00047" startline="6227" endline="6260">CIccMpeCAM::Describe</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a63ffdf99759eade4bc099f3a4ad3b5f7" compoundref="dd/dd7/a00260" startline="2059" endline="2091">icXmlDumpColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1aab58bdc1e9c0440d2e80849ceb015bd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::GetParameter_Nc</definition>
+        <argsstring>()</argsstring>
+        <name>GetParameter_Nc</name>
+        <qualifiedname>CIccCamConverter::GetParameter_Nc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="158" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="454" bodyend="457"/>
+        <references refid="dc/ddf/a00469_1a38df64b07e00953cb4278681de20067c" compoundref="db/ddf/a00164" startline="92">m_Nc</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="d9/d22/a00873_1aee1dbc12f7347814bdc7d47736b9bd12" compoundref="d6/d2d/a00047" startline="6227" endline="6260">CIccMpeCAM::Describe</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a63ffdf99759eade4bc099f3a4ad3b5f7" compoundref="dd/dd7/a00260" startline="2059" endline="2091">icXmlDumpColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a658d892ed7a73a6702b4aa2af033a248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::GetParameter_WhitePoint</definition>
+        <argsstring>(icFloatNumber *whitePoint)</argsstring>
+        <name>GetParameter_WhitePoint</name>
+        <qualifiedname>CIccCamConverter::GetParameter_WhitePoint</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>whitePoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="154" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="420" bodyend="425"/>
+        <references refid="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" compoundref="db/ddf/a00164" startline="88">m_WhitePoint</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="d9/d22/a00873_1aee1dbc12f7347814bdc7d47736b9bd12" compoundref="d6/d2d/a00047" startline="6227" endline="6260">CIccMpeCAM::Describe</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a63ffdf99759eade4bc099f3a4ad3b5f7" compoundref="dd/dd7/a00260" startline="2059" endline="2091">icXmlDumpColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1abedc6e406658b3a3563ac22431ee7ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCamConverter::GetParameter_Yb</definition>
+        <argsstring>()</argsstring>
+        <name>GetParameter_Yb</name>
+        <qualifiedname>CIccCamConverter::GetParameter_Yb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="156" column="14" bodyfile="IccProfLib/IccCAM.cpp" bodystart="438" bodyend="441"/>
+        <references refid="dc/ddf/a00469_1a3348b231f89a4e028d4a226136a6155f" compoundref="db/ddf/a00164" startline="90">m_Yb</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="d9/d22/a00873_1aee1dbc12f7347814bdc7d47736b9bd12" compoundref="d6/d2d/a00047" startline="6227" endline="6260">CIccMpeCAM::Describe</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a63ffdf99759eade4bc099f3a4ad3b5f7" compoundref="dd/dd7/a00260" startline="2059" endline="2091">icXmlDumpColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::JabToXYZ</definition>
+        <argsstring>(const icFloatNumber *jab, icFloatNumber *xyz, int nbr)</argsstring>
+        <name>JabToXYZ</name>
+        <qualifiedname>CIccCamConverter::JabToXYZ</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>jab</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="140" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="528" bodyend="634"/>
+        <references refid="dc/ddf/a00469_1a4a36d9bffe9be7be800faaebaee74a51" compoundref="dd/d32/a00041" startline="291" endline="297">ab2chDeg</references>
+        <references refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" compoundref="dd/d32/a00041" startline="182" endline="212">HyperbolicInv</references>
+        <references refid="dc/ddf/a00469_1afde46c3e0bef394930cd318772d914e6" compoundref="db/ddf/a00164" startline="109">m_AWhite</references>
+        <references refid="dc/ddf/a00469_1a7cc0ae73fde3919b4ba9a64652c58ed9" compoundref="db/ddf/a00164" startline="91">m_c</references>
+        <references refid="dc/ddf/a00469_1ab49e41eb0f76d51962a8ffa117730e08" compoundref="db/ddf/a00164" startline="96">m_factor</references>
+        <references refid="dc/ddf/a00469_1af895b7c8bb6cd70fa98673820ce02cfd" compoundref="db/ddf/a00164" startline="105">m_Fl</references>
+        <references refid="dc/ddf/a00469_1a3663f3a5ff3f0008e1e4d62d0906bd90" compoundref="db/ddf/a00164" startline="95">m_mInv</references>
+        <references refid="dc/ddf/a00469_1a8f33b38dfeb1af003e5ebeeac39a10c5" compoundref="db/ddf/a00164" startline="107">m_Nbb</references>
+        <references refid="dc/ddf/a00469_1a38df64b07e00953cb4278681de20067c" compoundref="db/ddf/a00164" startline="92">m_Nc</references>
+        <references refid="dc/ddf/a00469_1aec32b1277df819f3276f536db311e81f" compoundref="db/ddf/a00164" startline="108">m_z</references>
+        <references refid="dc/ddf/a00469_1a498b2df6e8af460e8359dee47d9b6184" compoundref="dd/d32/a00041" startline="81" endline="88">Multiply_vect_by_mx</references>
+        <references refid="dc/ddf/a00469_1ad9efc6d47c41165ff920e639e7893588" compoundref="dd/d32/a00041" startline="104" endline="110">ReferenceConditionsInv</references>
+        <referencedby refid="df/d41/a00881_1a7e5dc07bbee1493089d421b553be8267" compoundref="d6/d2d/a00047" startline="6334" endline="6338">CIccMpeJabToXYZ::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a8244c2070bcb5d2f8c0cf810ad768cd7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/ddf/a00469" kindref="compound">CIccCamConverter</ref> *</type>
+        <definition>CIccCamConverter * CIccCamConverter::NewCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccCamConverter::NewCopy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="138" column="20" bodyfile="IccProfLib/IccCAM.cpp" bodystart="354" bodyend="359"/>
+        <references refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter</references>
+        <references refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">operator=</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/ddf/a00469" kindref="compound">CIccCamConverter</ref> &amp;</type>
+        <definition>CIccCamConverter &amp; CIccCamConverter::operator=</definition>
+        <argsstring>(const CIccCamConverter &amp;camcon)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccCamConverter::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="dc/ddf/a00469" kindref="compound">CIccCamConverter</ref> &amp;</type>
+          <declname>camcon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="137" column="20" bodyfile="IccProfLib/IccCAM.cpp" bodystart="636" bodyend="668"/>
+        <references refid="dc/ddf/a00469_1a5f26171fd69a03c41e0c7181d070fe70" compoundref="db/ddf/a00164" startline="114">m_alfa</references>
+        <references refid="dc/ddf/a00469_1afde46c3e0bef394930cd318772d914e6" compoundref="db/ddf/a00164" startline="109">m_AWhite</references>
+        <references refid="dc/ddf/a00469_1a7cc0ae73fde3919b4ba9a64652c58ed9" compoundref="db/ddf/a00164" startline="91">m_c</references>
+        <references refid="dc/ddf/a00469_1a2d5ccea21c5a85fb871331879a820605" compoundref="db/ddf/a00164" startline="113">m_cc</references>
+        <references refid="dc/ddf/a00469_1a1f9687cea9fab9696c0f80037b559dab" compoundref="db/ddf/a00164" startline="104">m_D</references>
+        <references refid="dc/ddf/a00469_1ae874407675f7ef184c7a1fb729eef216" compoundref="db/ddf/a00164" startline="115">m_exp</references>
+        <references refid="dc/ddf/a00469_1ad1e1155842701cad0d6d343163903b59" compoundref="db/ddf/a00164" startline="93">m_F</references>
+        <references refid="dc/ddf/a00469_1ab49e41eb0f76d51962a8ffa117730e08" compoundref="db/ddf/a00164" startline="96">m_factor</references>
+        <references refid="dc/ddf/a00469_1af895b7c8bb6cd70fa98673820ce02cfd" compoundref="db/ddf/a00164" startline="105">m_Fl</references>
+        <references refid="dc/ddf/a00469_1a22aa0375791fa6c5e86055b8c8520361" compoundref="db/ddf/a00164" startline="89">m_La</references>
+        <references refid="dc/ddf/a00469_1a7a0079b843203c7e1c328d33044bc691" compoundref="db/ddf/a00164" startline="94">m_mFor</references>
+        <references refid="dc/ddf/a00469_1a3663f3a5ff3f0008e1e4d62d0906bd90" compoundref="db/ddf/a00164" startline="95">m_mInv</references>
+        <references refid="dc/ddf/a00469_1ae613753579dfac7da4118a32ff40b30a" compoundref="db/ddf/a00164" startline="106">m_n</references>
+        <references refid="dc/ddf/a00469_1a8f33b38dfeb1af003e5ebeeac39a10c5" compoundref="db/ddf/a00164" startline="107">m_Nbb</references>
+        <references refid="dc/ddf/a00469_1a38df64b07e00953cb4278681de20067c" compoundref="db/ddf/a00164" startline="92">m_Nc</references>
+        <references refid="dc/ddf/a00469_1aa2231da8d70421275f5e7995f07457a2" compoundref="db/ddf/a00164" startline="103">m_rgbWhite</references>
+        <references refid="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" compoundref="db/ddf/a00164" startline="88">m_WhitePoint</references>
+        <references refid="dc/ddf/a00469_1a8810947d1a9000399e6a6f876c28ebc0" compoundref="db/ddf/a00164" startline="112">m_x0</references>
+        <references refid="dc/ddf/a00469_1a3348b231f89a4e028d4a226136a6155f" compoundref="db/ddf/a00164" startline="90">m_Yb</references>
+        <references refid="dc/ddf/a00469_1aec32b1277df819f3276f536db311e81f" compoundref="db/ddf/a00164" startline="108">m_z</references>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="dc/ddf/a00469_1a8244c2070bcb5d2f8c0cf810ad768cd7" compoundref="dd/d32/a00041" startline="354" endline="359">NewCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a7e311fec359da8f006d5d355e0b61cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::SetParameter_C</definition>
+        <argsstring>(icFloatNumber c)</argsstring>
+        <name>SetParameter_C</name>
+        <qualifiedname>CIccCamConverter::SetParameter_C</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="149" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="393" bodyend="397"/>
+        <references refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</references>
+        <references refid="dc/ddf/a00469_1a7cc0ae73fde3919b4ba9a64652c58ed9" compoundref="db/ddf/a00164" startline="91">m_c</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a539f9b308a780ec7fadf73e076292ff9" compoundref="dd/dd7/a00260" startline="2093" endline="2160">icXmlParseColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a5745336e9bd9def6164a0048316aba47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::SetParameter_F</definition>
+        <argsstring>(icFloatNumber F)</argsstring>
+        <name>SetParameter_F</name>
+        <qualifiedname>CIccCamConverter::SetParameter_F</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>F</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="153" column="7" bodyfile="IccProfLib/IccCAM.cpp" bodystart="411" bodyend="415"/>
+        <references refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</references>
+        <references refid="dc/ddf/a00469_1ad1e1155842701cad0d6d343163903b59" compoundref="db/ddf/a00164" startline="93">m_F</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a539f9b308a780ec7fadf73e076292ff9" compoundref="dd/dd7/a00260" startline="2093" endline="2160">icXmlParseColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a516ccb5edb55d757569accf9ebf88de5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::SetParameter_La</definition>
+        <argsstring>(icFloatNumber La)</argsstring>
+        <name>SetParameter_La</name>
+        <qualifiedname>CIccCamConverter::SetParameter_La</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>La</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="145" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="375" bodyend="379"/>
+        <references refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</references>
+        <references refid="dc/ddf/a00469_1a22aa0375791fa6c5e86055b8c8520361" compoundref="db/ddf/a00164" startline="89">m_La</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a539f9b308a780ec7fadf73e076292ff9" compoundref="dd/dd7/a00260" startline="2093" endline="2160">icXmlParseColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1a30b79740553c8f7861330b14ca6596e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::SetParameter_Nc</definition>
+        <argsstring>(icFloatNumber Nc)</argsstring>
+        <name>SetParameter_Nc</name>
+        <qualifiedname>CIccCamConverter::SetParameter_Nc</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>Nc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="151" column="7" bodyfile="IccProfLib/IccCAM.cpp" bodystart="402" bodyend="406"/>
+        <references refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</references>
+        <references refid="dc/ddf/a00469_1a38df64b07e00953cb4278681de20067c" compoundref="db/ddf/a00164" startline="92">m_Nc</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a539f9b308a780ec7fadf73e076292ff9" compoundref="dd/dd7/a00260" startline="2093" endline="2160">icXmlParseColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1af57315ea4ba7f29d9b97d4bfdb0e2df1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::SetParameter_WhitePoint</definition>
+        <argsstring>(icFloatNumber *whitePoint)</argsstring>
+        <name>SetParameter_WhitePoint</name>
+        <qualifiedname>CIccCamConverter::SetParameter_WhitePoint</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>whitePoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="143" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="364" bodyend="370"/>
+        <references refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</references>
+        <references refid="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" compoundref="db/ddf/a00164" startline="88">m_WhitePoint</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a539f9b308a780ec7fadf73e076292ff9" compoundref="dd/dd7/a00260" startline="2093" endline="2160">icXmlParseColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1aeeabbc31d25cb8797dedc4dbdbfabb99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::SetParameter_Yb</definition>
+        <argsstring>(icFloatNumber YB)</argsstring>
+        <name>SetParameter_Yb</name>
+        <qualifiedname>CIccCamConverter::SetParameter_Yb</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>YB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="147" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="384" bodyend="388"/>
+        <references refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" compoundref="dd/d32/a00041" startline="250" endline="288">CalcCoefficients</references>
+        <references refid="dc/ddf/a00469_1a3348b231f89a4e028d4a226136a6155f" compoundref="db/ddf/a00164" startline="90">m_Yb</references>
+        <referencedby refid="df/d41/a00881_1ad14f46fcd2eb1dc472466f9a571dbc6a" compoundref="d6/d2d/a00047" startline="6290" endline="6305">CIccMpeJabToXYZ::CIccMpeJabToXYZ</referencedby>
+        <referencedby refid="d1/de7/a00877_1ac69a16cf2dda26c7db2dd1180939f72d" compoundref="d6/d2d/a00047" startline="6344" endline="6360">CIccMpeXYZToJab::CIccMpeXYZToJab</referencedby>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a539f9b308a780ec7fadf73e076292ff9" compoundref="dd/dd7/a00260" startline="2093" endline="2160">icXmlParseColorAppearanceParams</referencedby>
+        <referencedby refid="df/d41/a00881_1af5d4a8d4c2b3d5edfe16aed597efc950" compoundref="d6/d2d/a00047" startline="6307" endline="6328">CIccMpeJabToXYZ::operator=</referencedby>
+        <referencedby refid="d1/de7/a00877_1aa7874dc603cc69bfed77171e08687c56" compoundref="d6/d2d/a00047" startline="6362" endline="6383">CIccMpeXYZToJab::operator=</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCamConverter::XYZToJab</definition>
+        <argsstring>(const icFloatNumber *xyz, icFloatNumber *jab, int nbr)</argsstring>
+        <name>XYZToJab</name>
+        <qualifiedname>CIccCamConverter::XYZToJab</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>xyz</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>jab</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccCAM.h" line="141" column="5" bodyfile="IccProfLib/IccCAM.cpp" bodystart="470" bodyend="523"/>
+        <references refid="dc/ddf/a00469_1a4a36d9bffe9be7be800faaebaee74a51" compoundref="dd/d32/a00041" startline="291" endline="297">ab2chDeg</references>
+        <references refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" compoundref="dd/d32/a00041" startline="149" endline="177">Hyperbolic</references>
+        <references refid="dc/ddf/a00469_1afde46c3e0bef394930cd318772d914e6" compoundref="db/ddf/a00164" startline="109">m_AWhite</references>
+        <references refid="dc/ddf/a00469_1a7cc0ae73fde3919b4ba9a64652c58ed9" compoundref="db/ddf/a00164" startline="91">m_c</references>
+        <references refid="dc/ddf/a00469_1ab49e41eb0f76d51962a8ffa117730e08" compoundref="db/ddf/a00164" startline="96">m_factor</references>
+        <references refid="dc/ddf/a00469_1af895b7c8bb6cd70fa98673820ce02cfd" compoundref="db/ddf/a00164" startline="105">m_Fl</references>
+        <references refid="dc/ddf/a00469_1a7a0079b843203c7e1c328d33044bc691" compoundref="db/ddf/a00164" startline="94">m_mFor</references>
+        <references refid="dc/ddf/a00469_1a8f33b38dfeb1af003e5ebeeac39a10c5" compoundref="db/ddf/a00164" startline="107">m_Nbb</references>
+        <references refid="dc/ddf/a00469_1a38df64b07e00953cb4278681de20067c" compoundref="db/ddf/a00164" startline="92">m_Nc</references>
+        <references refid="dc/ddf/a00469_1aec32b1277df819f3276f536db311e81f" compoundref="db/ddf/a00164" startline="108">m_z</references>
+        <references refid="dc/ddf/a00469_1a498b2df6e8af460e8359dee47d9b6184" compoundref="dd/d32/a00041" startline="81" endline="88">Multiply_vect_by_mx</references>
+        <references refid="dc/ddf/a00469_1ae58dbc6a313b6bf425e183e64d082341" compoundref="dd/d32/a00041" startline="93" endline="99">ReferenceConditions</references>
+        <referencedby refid="d1/de7/a00877_1adf56117f5e638b03142b5234631a1be8" compoundref="d6/d2d/a00047" startline="6389" endline="6393">CIccMpeXYZToJab::Apply</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IccProfLib/IccCAM.h" line="84" column="1" bodyfile="IccProfLib/IccCAM.h" bodystart="85" bodyend="160"/>
+    <listofallmembers>
+      <member refid="dc/ddf/a00469_1a4a36d9bffe9be7be800faaebaee74a51" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>ab2chDeg</name></member>
+      <member refid="dc/ddf/a00469_1a98591a35f6ca98636cb366c26f8cbbeb" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>CalcCoefficients</name></member>
+      <member refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>CIccCamConverter</name></member>
+      <member refid="dc/ddf/a00469_1a0114f28979e96fa8f4141f09f4f797cf" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>F_Function</name></member>
+      <member refid="dc/ddf/a00469_1a7f63aaa837c2b0d9797ca5ed3d38edef" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>GetParameter_C</name></member>
+      <member refid="dc/ddf/a00469_1ad639a0beba06250868a353c56b08e855" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>GetParameter_F</name></member>
+      <member refid="dc/ddf/a00469_1af1e943d42638a9fe083b816eb5f9314d" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>GetParameter_La</name></member>
+      <member refid="dc/ddf/a00469_1aab58bdc1e9c0440d2e80849ceb015bd8" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>GetParameter_Nc</name></member>
+      <member refid="dc/ddf/a00469_1a658d892ed7a73a6702b4aa2af033a248" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>GetParameter_WhitePoint</name></member>
+      <member refid="dc/ddf/a00469_1abedc6e406658b3a3563ac22431ee7ce7" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>GetParameter_Yb</name></member>
+      <member refid="dc/ddf/a00469_1a08640f1e1df832c262505c9f5dd27ae0" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>H_Function</name></member>
+      <member refid="dc/ddf/a00469_1a31d26e411945d4078630bef91930c2be" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>H_FunctionInv</name></member>
+      <member refid="dc/ddf/a00469_1a7c70b65f323c6633e826cbf9edf0e133" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>Hyperbolic</name></member>
+      <member refid="dc/ddf/a00469_1ad90422b3d457fdf5fc543e66c5b3ceaa" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>HyperbolicInv</name></member>
+      <member refid="dc/ddf/a00469_1a29b9b914711f0a9ee6b55da3b1c1b620" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>IccCam_e</name></member>
+      <member refid="dc/ddf/a00469_1a1ef4bb6e17094afd1252c8a95ccde317" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>JabToXYZ</name></member>
+      <member refid="dc/ddf/a00469_1a5f26171fd69a03c41e0c7181d070fe70" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_alfa</name></member>
+      <member refid="dc/ddf/a00469_1afde46c3e0bef394930cd318772d914e6" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_AWhite</name></member>
+      <member refid="dc/ddf/a00469_1a7cc0ae73fde3919b4ba9a64652c58ed9" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_c</name></member>
+      <member refid="dc/ddf/a00469_1a2d5ccea21c5a85fb871331879a820605" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_cc</name></member>
+      <member refid="dc/ddf/a00469_1a1f9687cea9fab9696c0f80037b559dab" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_D</name></member>
+      <member refid="dc/ddf/a00469_1ae874407675f7ef184c7a1fb729eef216" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_exp</name></member>
+      <member refid="dc/ddf/a00469_1ad1e1155842701cad0d6d343163903b59" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_F</name></member>
+      <member refid="dc/ddf/a00469_1ab49e41eb0f76d51962a8ffa117730e08" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_factor</name></member>
+      <member refid="dc/ddf/a00469_1af895b7c8bb6cd70fa98673820ce02cfd" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_Fl</name></member>
+      <member refid="dc/ddf/a00469_1a22aa0375791fa6c5e86055b8c8520361" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_La</name></member>
+      <member refid="dc/ddf/a00469_1a7a0079b843203c7e1c328d33044bc691" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_mFor</name></member>
+      <member refid="dc/ddf/a00469_1a3663f3a5ff3f0008e1e4d62d0906bd90" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_mInv</name></member>
+      <member refid="dc/ddf/a00469_1ae613753579dfac7da4118a32ff40b30a" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_n</name></member>
+      <member refid="dc/ddf/a00469_1a8f33b38dfeb1af003e5ebeeac39a10c5" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_Nbb</name></member>
+      <member refid="dc/ddf/a00469_1a38df64b07e00953cb4278681de20067c" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_Nc</name></member>
+      <member refid="dc/ddf/a00469_1aa2231da8d70421275f5e7995f07457a2" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_rgbWhite</name></member>
+      <member refid="dc/ddf/a00469_1af363d806a7feb65ad70830ea2bdb65b0" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_WhitePoint</name></member>
+      <member refid="dc/ddf/a00469_1a8810947d1a9000399e6a6f876c28ebc0" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_x0</name></member>
+      <member refid="dc/ddf/a00469_1a3348b231f89a4e028d4a226136a6155f" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_Yb</name></member>
+      <member refid="dc/ddf/a00469_1aec32b1277df819f3276f536db311e81f" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>m_z</name></member>
+      <member refid="dc/ddf/a00469_1a498b2df6e8af460e8359dee47d9b6184" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>Multiply_vect_by_mx</name></member>
+      <member refid="dc/ddf/a00469_1a8244c2070bcb5d2f8c0cf810ad768cd7" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>NewCopy</name></member>
+      <member refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>operator=</name></member>
+      <member refid="dc/ddf/a00469_1ae58dbc6a313b6bf425e183e64d082341" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>ReferenceConditions</name></member>
+      <member refid="dc/ddf/a00469_1ad9efc6d47c41165ff920e639e7893588" prot="private" virt="non-virtual"><scope>CIccCamConverter</scope><name>ReferenceConditionsInv</name></member>
+      <member refid="dc/ddf/a00469_1a7e311fec359da8f006d5d355e0b61cb8" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>SetParameter_C</name></member>
+      <member refid="dc/ddf/a00469_1a5745336e9bd9def6164a0048316aba47" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>SetParameter_F</name></member>
+      <member refid="dc/ddf/a00469_1a516ccb5edb55d757569accf9ebf88de5" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>SetParameter_La</name></member>
+      <member refid="dc/ddf/a00469_1a30b79740553c8f7861330b14ca6596e2" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>SetParameter_Nc</name></member>
+      <member refid="dc/ddf/a00469_1af57315ea4ba7f29d9b97d4bfdb0e2df1" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>SetParameter_WhitePoint</name></member>
+      <member refid="dc/ddf/a00469_1aeeabbc31d25cb8797dedc4dbdbfabb99" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>SetParameter_Yb</name></member>
+      <member refid="dc/ddf/a00469_1ac5cba189993bcf0d8600ecdc6d4c2447" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>XYZToJab</name></member>
+      <member refid="dc/ddf/a00469_1a780a5ded9fc4452533ff6ab163a32780" prot="public" virt="non-virtual"><scope>CIccCamConverter</scope><name>~CIccCamConverter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

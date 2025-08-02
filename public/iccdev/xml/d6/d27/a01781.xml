@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d6/d27/a01781" kind="class" language="C++" prot="public">
+    <compoundname>CIccProfileXml</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CIccProfile</basecompoundref>
+    <includes refid="d5/d42/a00269" local="no">IccProfileXml.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d27/a01781_1a04a6aac264c9792168a1cbe8063385f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccProfileXml::CIccProfileXml</definition>
+        <argsstring>()</argsstring>
+        <name>CIccProfileXml</name>
+        <qualifiedname>CIccProfileXml::CIccProfileXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="78" column="3" bodyfile="IccXML/IccLibXML/IccProfileXml.h" bodystart="78" bodyend="78"/>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <referencedby refid="d6/d27/a01781_1a37bed7bd0eeacc55c471f48efcf62c3d" compoundref="d5/d42/a00269" startline="81" endline="81">NewProfile</referencedby>
+        <referencedby refid="dc/d67/a01989_1ae48ad89db3a44ccf101482acece44bdc" compoundref="d0/d27/a00239" startline="5064" endline="5086">CIccTagXmlEmbeddedProfile::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1a0c05e3079a70a95a6804068dd2aa022a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccProfileXml::CIccProfileXml</definition>
+        <argsstring>(const CIccProfileXml &amp;profile)</argsstring>
+        <name>CIccProfileXml</name>
+        <qualifiedname>CIccProfileXml::CIccProfileXml</qualifiedname>
+        <param>
+          <type>const <ref refid="d6/d27/a01781" kindref="compound">CIccProfileXml</ref> &amp;</type>
+          <declname>profile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="79" column="3" bodyfile="IccXML/IccLibXML/IccProfileXml.h" bodystart="79" bodyend="79"/>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <referencedby refid="d6/d27/a01781_1aa763c6ae8b39682eed4c36999aa3d69b" compoundref="d5/d42/a00269" startline="80" endline="80">NewCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1abe0839724354f7a98955f66a903f783c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccProfileXml::~CIccProfileXml</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccProfileXml</name>
+        <qualifiedname>CIccProfileXml::~CIccProfileXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="82" column="11" bodyfile="IccXML/IccLibXML/IccProfileXml.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1a8c7c27c81df3f68ac277b536c1ab82fd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * CIccProfileXml::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccProfileXml::GetClassName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="84" column="22" bodyfile="IccXML/IccLibXML/IccProfileXml.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1a03d4294b5fe3a57880b609a5320eb4e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileXml::LoadXml</definition>
+        <argsstring>(const char *szFilename, const char *szRelaxNGDir, std::string *parseStr=NULL)</argsstring>
+        <name>LoadXml</name>
+        <qualifiedname>CIccProfileXml::LoadXml</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szFilename</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>szRelaxNGDir</declname>
+        </param>
+        <param>
+          <type>std::string *</type>
+          <declname>parseStr</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="90" column="8" bodyfile="IccXML/IccLibXML/IccProfileXml.cpp" bodystart="829" bodyend="882"/>
+        <references refid="d6/d27/a01781_1af4605fcf803152d71090e6c668d8997a" compoundref="dd/dd7/a00248" startline="801" endline="826">ParseXml</references>
+        <referencedby refid="d2/d04/a00281_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d2/d04/a00281" startline="14" endline="113">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1aa763c6ae8b39682eed4c36999aa3d69b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+        <definition>virtual CIccProfile * CIccProfileXml::NewCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccProfileXml::NewCopy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="80" column="23" bodyfile="IccXML/IccLibXML/IccProfileXml.h" bodystart="80" bodyend="80"/>
+        <references refid="d6/d27/a01781_1a0c05e3079a70a95a6804068dd2aa022a" compoundref="d5/d42/a00269" startline="79" endline="79">CIccProfileXml</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1a37bed7bd0eeacc55c471f48efcf62c3d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+        <definition>virtual CIccProfile * CIccProfileXml::NewProfile</definition>
+        <argsstring>() const</argsstring>
+        <name>NewProfile</name>
+        <qualifiedname>CIccProfileXml::NewProfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="81" column="23" bodyfile="IccXML/IccLibXML/IccProfileXml.h" bodystart="81" bodyend="81"/>
+        <references refid="d6/d27/a01781_1a04a6aac264c9792168a1cbe8063385f1" compoundref="d5/d42/a00269" startline="78" endline="78">CIccProfileXml</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1af4605fcf803152d71090e6c668d8997a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileXml::ParseXml</definition>
+        <argsstring>(xmlNode *pNode, std::string &amp;parseStr)</argsstring>
+        <name>ParseXml</name>
+        <qualifiedname>CIccProfileXml::ParseXml</qualifiedname>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="89" column="8" bodyfile="IccXML/IccLibXML/IccProfileXml.cpp" bodystart="801" bodyend="826"/>
+        <references refid="d9/d39/a00257_1a73c51b42259052bca0b176744f8a6bae" compoundref="d5/d35/a00266" startline="687" endline="701">icXmlFindNode</references>
+        <references refid="d6/d27/a01781_1ac2e86ed8d2e31113e5ef612ee29ed712" compoundref="dd/dd7/a00248" startline="333" endline="555">ParseBasic</references>
+        <references refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">ParseTag</references>
+        <referencedby refid="d6/d27/a01781_1a03d4294b5fe3a57880b609a5320eb4e6" compoundref="dd/dd7/a00248" startline="829" endline="882">LoadXml</referencedby>
+        <referencedby refid="dc/d67/a01989_1ae48ad89db3a44ccf101482acece44bdc" compoundref="d0/d27/a00239" startline="5064" endline="5086">CIccTagXmlEmbeddedProfile::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1ae2c077f1bd73ef3f4f1ff91d872957e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileXml::ToXml</definition>
+        <argsstring>(std::string &amp;xmlString)</argsstring>
+        <name>ToXml</name>
+        <qualifiedname>CIccProfileXml::ToXml</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xmlString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="86" column="8" bodyfile="IccXML/IccLibXML/IccProfileXml.cpp" bodystart="74" bodyend="80"/>
+        <references refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">ToXmlWithBlanks</references>
+        <referencedby refid="d6/d82/a00293_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d6/d82/a00293" startline="12" endline="59">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileXml::ToXmlWithBlanks</definition>
+        <argsstring>(std::string &amp;xmlString, std::string blanks)</argsstring>
+        <name>ToXmlWithBlanks</name>
+        <qualifiedname>CIccProfileXml::ToXmlWithBlanks</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xmlString</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>blanks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="87" column="8" bodyfile="IccXML/IccLibXML/IccProfileXml.cpp" bodystart="82" bodyend="309"/>
+        <references refid="d4/dd7/a00793_1a117a1b7fcb21e91fef327acfa94ba6e2" compoundref="d7/d46/a00002" startline="2056">icHeader::attributes</references>
+        <references refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" compoundref="d7/d46/a00002" startline="2064">icHeader::biSpectralRange</references>
+        <references refid="d4/dd7/a00793_1a509d7bafd6f423be87909a7fcd68519a" compoundref="d7/d46/a00002" startline="2045">icHeader::cmmId</references>
+        <references refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" compoundref="d7/d46/a00002" startline="2048">icHeader::colorSpace</references>
+        <references refid="d4/dd7/a00793_1a99ffec205ff7dad8edf68444bc24e9b3" compoundref="d7/d46/a00002" startline="2059">icHeader::creator</references>
+        <references refid="d4/dd7/a00793_1a7c78d60d4a3ab09449f504f7f2149e54" compoundref="d7/d46/a00002" startline="2050">icHeader::date</references>
+        <references refid="da/def/a00513_1aa853a4d45cda9f9542d12edf872d1b95" compoundref="d7/d46/a00002" startline="1421">icDateTimeNumber::day</references>
+        <references refid="d4/dd7/a00793_1a1f3bfb3d969d1976ee9913792496c6c5" compoundref="d7/d46/a00002" startline="2047">icHeader::deviceClass</references>
+        <references refid="d4/dd7/a00793_1a492583b49fddec1f314b2bfd309f84ca" compoundref="d7/d46/a00002" startline="2066">icHeader::deviceSubClass</references>
+        <references refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" compoundref="d7/d46/a00002" startline="1468">icSpectralRange::end</references>
+        <references refid="d4/dd7/a00793_1aa1a83d3855c3f90b2f86de31bb23f98f" compoundref="d7/d46/a00002" startline="2053">icHeader::flags</references>
+        <references refid="d7/dfd/a00969_1aa4cc7f1dd04e9b537738d1dfa96a9790" compoundref="da/dec/a00080" startline="143" endline="143">CIccTag::GetExtension</references>
+        <references refid="dc/d2f/a00425_1af113cdc02ca5a23735be71cbb05e6727" compoundref="d5/db1/a00140" startline="2091" endline="2116">CIccInfo::GetRenderingIntentName</references>
+        <references refid="dc/d2f/a00425_1adf19390ac8376ef3f5b381238ea41861" compoundref="d5/db1/a00140" startline="1438" endline="1446">CIccInfo::GetSubClassVersionName</references>
+        <references refid="dc/d2f/a00425_1a457cbdc77f3728b5b93b939090e7dc67" compoundref="d5/db1/a00140" startline="1495" endline="1502">CIccInfo::GetTagSigName</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="dc/d2f/a00425_1a0efe3504b8790f409f6c7423a92efb86" compoundref="d5/db1/a00140" startline="1428" endline="1436">CIccInfo::GetVersionName</references>
+        <references refid="da/def/a00513_1a750a7db1ac713dfeea3c807a2f3a5a08" compoundref="d7/d46/a00002" startline="1422">icDateTimeNumber::hours</references>
+        <references refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" compoundref="d5/db1/a00140" startline="629" endline="671">icF16toF</references>
+        <references refid="d9/d39/a00257_1ae0c91ded77f7e0a950355b4e6e96efc5" compoundref="d5/d35/a00266" startline="305" endline="339">icFixXml</references>
+        <references refid="d7/dce/a00143_1a52fc751ce015924f9655f8288813a02c" compoundref="d5/db1/a00140" startline="559" endline="564">icFtoD</references>
+        <references refid="d7/dce/a00143_1afba0058b0369309aa83134b2437ce717" compoundref="d5/db1/a00140" startline="1139" endline="1188">icGetColorSigStr</references>
+        <references refid="d9/d39/a00257_1a29395cadeb827a6be39833c934c84074" compoundref="d5/d35/a00266" startline="1426" endline="1467">icGetDeviceAttrName</references>
+        <references refid="d9/d39/a00257_1ac72d9ecf26774be9858d24b2f98435b9" compoundref="d5/d35/a00266" startline="1469" endline="1511">icGetHeaderFlagsName</references>
+        <references refid="d7/dce/a00143_1a1e7460cdfb87cf8171ae3c000cdc73b3" compoundref="d5/db1/a00140" startline="1056" endline="1085">icGetSigStr</references>
+        <references refid="d9/d39/a00257_1a9df441a57e3659e7ae404779feaea9a3" compoundref="d5/d35/a00266" startline="1141" endline="1150">icGetTagSigTypeName</references>
+        <references refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1a38db3a37d46bde64c3d7e11e517cb11d" compoundref="d7/d46/a00002" startline="977">icSigUnknownPlatform</references>
+        <references refid="d8/d7d/a00789_1adb83a0bc8feef5dd6239a30120ffe456" compoundref="d7/d46/a00002" startline="2039">icProfileID::ID32</references>
+        <references refid="d8/d7d/a00789_1afe4fb21fec0213523799be407c8b054f" compoundref="d7/d46/a00002" startline="2037">icProfileID::ID8</references>
+        <references refid="d4/dd7/a00793_1a0af1ab741fa85545aa1852158d09a644" compoundref="d7/d46/a00002" startline="2058">icHeader::illuminant</references>
+        <references refid="d4/dd7/a00793_1ae4dad2671f72ac7610d69886a7984db6" compoundref="d7/d46/a00002" startline="2054">icHeader::manufacturer</references>
+        <references refid="d4/dd7/a00793_1ac30b55bbbcc0caa669cc66d3d708a478" compoundref="d7/d46/a00002" startline="2065">icHeader::mcs</references>
+        <references refid="da/def/a00513_1a263e022871eed8cc62e3d35140d1a0bc" compoundref="d7/d46/a00002" startline="1423">icDateTimeNumber::minutes</references>
+        <references refid="d4/dd7/a00793_1ae7be6a9022d993c5d932a6dba7fe6b05" compoundref="d7/d46/a00002" startline="2055">icHeader::model</references>
+        <references refid="da/def/a00513_1a208ea2fce0a9c7e72c3c06d5cbb43274" compoundref="d7/d46/a00002" startline="1420">icDateTimeNumber::month</references>
+        <references refid="d6/d86/a00781_1a10766e1e083a846f7032187c71fcbdcd" compoundref="d7/d46/a00002" startline="2023">icTag::offset</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <references refid="d4/dd7/a00793_1a7fb23dad4e65f835db46dcc2b16db873" compoundref="d7/d46/a00002" startline="2052">icHeader::platform</references>
+        <references refid="d4/dd7/a00793_1acd51a0cdf376c44ab5a3a4dbb87a2399" compoundref="d7/d46/a00002" startline="2060">icHeader::profileID</references>
+        <references refid="d4/dd7/a00793_1a1153e4423a5db90ca1631cfb85fca5e3" compoundref="d7/d46/a00002" startline="2057">icHeader::renderingIntent</references>
+        <references refid="d4/dd7/a00793_1a71c69d2ac90d6a8a199d484d45d3e8bc" compoundref="d7/d46/a00002" startline="2068">icHeader::reserved</references>
+        <references refid="da/def/a00513_1a455c54212545ed44d29e800c62596c1c" compoundref="d7/d46/a00002" startline="1424">icDateTimeNumber::seconds</references>
+        <references refid="d6/d86/a00781_1a9e4fa23633a1ca43a6793a61c8252de4" compoundref="d7/d46/a00002" startline="2022">icTag::sig</references>
+        <references refid="d4/dd7/a00793_1a5fb0774621ef2028b8e33376633417fa" compoundref="d7/d46/a00002" startline="2062">icHeader::spectralPCS</references>
+        <references refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" compoundref="d7/d46/a00002" startline="2063">icHeader::spectralRange</references>
+        <references refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" compoundref="d7/d46/a00002" startline="1467">icSpectralRange::start</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <references refid="de/d3c/a01809_1a759cbaed8a0553bb035b9ff749052309">CIccTagXml::ToXml</references>
+        <references refid="d4/dd7/a00793_1ab4a2c325ab3c203cc7a7d79be401425d" compoundref="d7/d46/a00002" startline="2046">icHeader::version</references>
+        <references refid="d8/dc7/a00517_1a8a82647ad953c198665aee9e3b659ea7" compoundref="d7/d46/a00002" startline="1429">icXYZNumber::X</references>
+        <references refid="d8/dc7/a00517_1a3e75b8d208a5e4c55eac077643bc7689" compoundref="d7/d46/a00002" startline="1430">icXYZNumber::Y</references>
+        <references refid="da/def/a00513_1a1c28dcfa33b3bba180c5abebd74a29ef" compoundref="d7/d46/a00002" startline="1419">icDateTimeNumber::year</references>
+        <references refid="d8/dc7/a00517_1a8753b09e8d550ace7d30a0af5d0e7ab3" compoundref="d7/d46/a00002" startline="1431">icXYZNumber::Z</references>
+        <referencedby refid="dc/d67/a01989_1a12c3faa07b8bbed8d05127f2590c4ecf" compoundref="d0/d27/a00239" startline="5088" endline="5097">CIccTagXmlEmbeddedProfile::ToXml</referencedby>
+        <referencedby refid="d6/d27/a01781_1ae2c077f1bd73ef3f4f1ff91d872957e4" compoundref="dd/dd7/a00248" startline="74" endline="80">ToXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d6/d27/a01781_1ac2e86ed8d2e31113e5ef612ee29ed712" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileXml::ParseBasic</definition>
+        <argsstring>(xmlNode *pNode, std::string &amp;parseStr)</argsstring>
+        <name>ParseBasic</name>
+        <qualifiedname>CIccProfileXml::ParseBasic</qualifiedname>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d27/a01781_1ac2e86ed8d2e31113e5ef612ee29ed712" kindref="member">CIccProfileXml::ParseBasic</ref></para>
+<para>Purpose: Parse ICC header.</para>
+<para>Args: pNode - pointer to xmlNode object to read data with</para>
+<para>Return: true - valid ICC header, false - failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="93" column="8" bodyfile="IccXML/IccLibXML/IccProfileXml.cpp" bodystart="333" bodyend="555"/>
+        <references refid="d4/dd7/a00793_1a117a1b7fcb21e91fef327acfa94ba6e2" compoundref="d7/d46/a00002" startline="2056">icHeader::attributes</references>
+        <references refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" compoundref="d7/d46/a00002" startline="2064">icHeader::biSpectralRange</references>
+        <references refid="d4/dd7/a00793_1a509d7bafd6f423be87909a7fcd68519a" compoundref="d7/d46/a00002" startline="2045">icHeader::cmmId</references>
+        <references refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" compoundref="d7/d46/a00002" startline="2048">icHeader::colorSpace</references>
+        <references refid="d4/dd7/a00793_1a99ffec205ff7dad8edf68444bc24e9b3" compoundref="d7/d46/a00002" startline="2059">icHeader::creator</references>
+        <references refid="d4/dd7/a00793_1a7c78d60d4a3ab09449f504f7f2149e54" compoundref="d7/d46/a00002" startline="2050">icHeader::date</references>
+        <references refid="d4/dd7/a00793_1a1f3bfb3d969d1976ee9913792496c6c5" compoundref="d7/d46/a00002" startline="2047">icHeader::deviceClass</references>
+        <references refid="d4/dd7/a00793_1a492583b49fddec1f314b2bfd309f84ca" compoundref="d7/d46/a00002" startline="2066">icHeader::deviceSubClass</references>
+        <references refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" compoundref="d7/d46/a00002" startline="1468">icSpectralRange::end</references>
+        <references refid="d4/dd7/a00793_1aa1a83d3855c3f90b2f86de31bb23f98f" compoundref="d7/d46/a00002" startline="2053">icHeader::flags</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77ae6136c556a175effd2e35cb1db5ff944" compoundref="d7/d46/a00002" startline="1147">icAbsoluteColorimetric</references>
+        <references refid="d7/dce/a00143_1a4a143eb09493d53cb1f7252819615498" compoundref="d5/db1/a00140" startline="545" endline="557">icDtoF</references>
+        <references refid="d7/dce/a00143_1a7f49bd1c3d34a4dd4199f6bb0a674f96" compoundref="d5/db1/a00140" startline="673" endline="722">icFtoF16</references>
+        <references refid="d9/d39/a00257_1a522c038996d47b04a3b404b85133e78c" compoundref="d5/d35/a00266" startline="1312" endline="1342">icGetDateTimeValue</references>
+        <references refid="d9/d39/a00257_1ab515209dc98599451e8def16c2cdee32" compoundref="d5/d35/a00266" startline="1344" endline="1375">icGetDeviceAttrValue</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77a300c7e86384819a2318614c61c20a112" compoundref="d7/d46/a00002" startline="1143">icPerceptual</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77a64d6354071e8f3d7b461202675e755cb" compoundref="d7/d46/a00002" startline="1144">icRelativeColorimetric</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77ae73fda5aaf64986600eb12f2f41e85f3" compoundref="d7/d46/a00002" startline="1146">icSaturation</references>
+        <references refid="d9/d39/a00257_1a7f3c355a3556d385d49bc415410aaf6d" compoundref="d5/d35/a00266" startline="572" endline="578">icXmlAttrValue</references>
+        <references refid="d9/d39/a00257_1a57c0984fcae05f9fa17b70d1db38900c" compoundref="d5/d35/a00266" startline="669" endline="685">icXmlFindAttr</references>
+        <references refid="d9/d39/a00257_1a73c51b42259052bca0b176744f8a6bae" compoundref="d5/d35/a00266" startline="687" endline="701">icXmlFindNode</references>
+        <references refid="d9/d39/a00257_1a87a808865a486a3d8e332d0a73806817" compoundref="d5/d35/a00266" startline="589" endline="595">icXmlGetChildSigVal</references>
+        <references refid="d9/d39/a00257_1a7e2e6f47df3c6baacbda01035dfbbbee" compoundref="d5/d35/a00266" startline="609" endline="628">icXmlGetHexData</references>
+        <references refid="d8/d7d/a00789_1afe4fb21fec0213523799be407c8b054f" compoundref="d7/d46/a00002" startline="2037">icProfileID::ID8</references>
+        <references refid="d4/dd7/a00793_1a0af1ab741fa85545aa1852158d09a644" compoundref="d7/d46/a00002" startline="2058">icHeader::illuminant</references>
+        <references refid="d4/dd7/a00793_1aa0f1f80544a6354c74c57cdb491f7a2f" compoundref="d7/d46/a00002" startline="2051">icHeader::magic</references>
+        <references refid="d4/dd7/a00793_1ae4dad2671f72ac7610d69886a7984db6" compoundref="d7/d46/a00002" startline="2054">icHeader::manufacturer</references>
+        <references refid="d4/dd7/a00793_1ac30b55bbbcc0caa669cc66d3d708a478" compoundref="d7/d46/a00002" startline="2065">icHeader::mcs</references>
+        <references refid="d4/dd7/a00793_1ae7be6a9022d993c5d932a6dba7fe6b05" compoundref="d7/d46/a00002" startline="2055">icHeader::model</references>
+        <references refid="dd/dd7/a00248_1a2e7420bb01ebc6df0a70195a6255adbb" compoundref="dd/dd7/a00248" startline="311" endline="318">parseVersion</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <references refid="d4/dd7/a00793_1a7fb23dad4e65f835db46dcc2b16db873" compoundref="d7/d46/a00002" startline="2052">icHeader::platform</references>
+        <references refid="d4/dd7/a00793_1acd51a0cdf376c44ab5a3a4dbb87a2399" compoundref="d7/d46/a00002" startline="2060">icHeader::profileID</references>
+        <references refid="d4/dd7/a00793_1a1153e4423a5db90ca1631cfb85fca5e3" compoundref="d7/d46/a00002" startline="2057">icHeader::renderingIntent</references>
+        <references refid="d4/dd7/a00793_1a71c69d2ac90d6a8a199d484d45d3e8bc" compoundref="d7/d46/a00002" startline="2068">icHeader::reserved</references>
+        <references refid="d4/dd7/a00793_1a5fb0774621ef2028b8e33376633417fa" compoundref="d7/d46/a00002" startline="2062">icHeader::spectralPCS</references>
+        <references refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" compoundref="d7/d46/a00002" startline="2063">icHeader::spectralRange</references>
+        <references refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" compoundref="d7/d46/a00002" startline="1467">icSpectralRange::start</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <references refid="d4/dd7/a00793_1ab4a2c325ab3c203cc7a7d79be401425d" compoundref="d7/d46/a00002" startline="2046">icHeader::version</references>
+        <references refid="d8/dc7/a00517_1a8a82647ad953c198665aee9e3b659ea7" compoundref="d7/d46/a00002" startline="1429">icXYZNumber::X</references>
+        <references refid="d8/dc7/a00517_1a3e75b8d208a5e4c55eac077643bc7689" compoundref="d7/d46/a00002" startline="1430">icXYZNumber::Y</references>
+        <references refid="d8/dc7/a00517_1a8753b09e8d550ace7d30a0af5d0e7ab3" compoundref="d7/d46/a00002" startline="1431">icXYZNumber::Z</references>
+        <referencedby refid="d6/d27/a01781_1af4605fcf803152d71090e6c668d8997a" compoundref="dd/dd7/a00248" startline="801" endline="826">ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileXml::ParseTag</definition>
+        <argsstring>(xmlNode *pNode, std::string &amp;parseStr)</argsstring>
+        <name>ParseTag</name>
+        <qualifiedname>CIccProfileXml::ParseTag</qualifiedname>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" kindref="member">CIccProfileXml::ParseTag</ref></para>
+<para>Purpose: This will load from the indicated IO object and associate a tag object to a tag directory entry. Nothing happens if tag directory entry is associated with a tag object.</para>
+<para>Args: pNode - pointer to xmlNode object to parse from</para>
+<para>Return: true - tag from node successfully parsed, false - failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccProfileXml.h" line="94" column="8" bodyfile="IccXML/IccLibXML/IccProfileXml.cpp" bodystart="574" bodyend="797"/>
+        <references refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" compoundref="d7/d46/a00002" startline="2064">icHeader::biSpectralRange</references>
+        <references refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" compoundref="d7/d46/a00002" startline="2048">icHeader::colorSpace</references>
+        <references refid="d7/dfd/a00969_1a2a2efdbfae5e8820c0dc4cdd1af691a8" compoundref="d9/dd0/a00191" startline="143" endline="146">CIccTag::Create</references>
+        <references refid="d3/dcd/a00965_1afc77445123182ddaec413f6353c719be">IIccExtensionTag::GetExtClassName</references>
+        <references refid="d7/dfd/a00969_1aa4cc7f1dd04e9b537738d1dfa96a9790" compoundref="da/dec/a00080" startline="143" endline="143">CIccTag::GetExtension</references>
+        <references refid="d7/dfd/a00969_1acc454c2f425b8619187fc75f682d7aa4" compoundref="da/dec/a00080" startline="133" endline="133">CIccTag::GetTagArrayType</references>
+        <references refid="dc/d2f/a00425_1aa4d31231b22a56dc869b51eaa2b1f933" compoundref="d5/db1/a00140" startline="1594" endline="1602">CIccInfo::GetTagTypeSigName</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="d7/dce/a00143_1a3a009765ea132eda6aadf6bedbf10e2d" compoundref="d5/db1/a00140" startline="1258" endline="1300">icGetSigVal</references>
+        <references refid="d1/da8/a00230_1ad185e4ba4865dcafcbca5d38bd001274" compoundref="d5/dcb/a00170" startline="1654" endline="1664">icGetTagArrayHandler</references>
+        <references refid="d9/d39/a00257_1adc2f3af8fcb19d532371a3776c95dcdd" compoundref="d5/d35/a00266" startline="1169" endline="1172">icGetTagNameSig</references>
+        <references refid="d9/d39/a00257_1a7e4a8379f29fbaded2a4dd75b6222e55" compoundref="d5/d35/a00266" startline="1152" endline="1156">icGetTypeNameTagSig</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a48a680ba3049e0c37a44da9f08e411c7" compoundref="d7/d46/a00002" startline="342">icSigAToB0Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab04125e571eb02f134e54fb3b0bcdb45" compoundref="d7/d46/a00002" startline="343">icSigAToB1Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a58f2209b5887e2dd73b279b5b2c6f4b2" compoundref="d7/d46/a00002" startline="344">icSigAToB2Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a19b39e0d70b49c0c8864ec3b5ee2f1ba" compoundref="d7/d46/a00002" startline="345">icSigAToB3Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a78413df8b7d634ae4e0ec02f006e5bd0" compoundref="d7/d46/a00002" startline="374">icSigBToA0Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a53147bf01d2c36339096d2f22b9c2869" compoundref="d7/d46/a00002" startline="375">icSigBToA1Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a0ba36c77684b04845f69da317ef3feb8" compoundref="d7/d46/a00002" startline="376">icSigBToA2Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab6a3ba830b4ac279851cb5674c83ce06" compoundref="d7/d46/a00002" startline="377">icSigBToA3Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ad57d49a829f89f04159908e21ffe9d01" compoundref="d7/d46/a00002" startline="412">icSigGamutTag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a91088345233e12514ec483327a00dbe8" compoundref="d7/d46/a00002" startline="417">icSigHToS0Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a85d24fc4ed8a193b8718b540ecfd003d" compoundref="d7/d46/a00002" startline="418">icSigHToS1Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a46872db563207dce392030175e993f7d" compoundref="d7/d46/a00002" startline="419">icSigHToS2Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a23a1145e55d8486dcad5566bad1ee9bf" compoundref="d7/d46/a00002" startline="420">icSigHToS3Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ac9a9457a436bbfaa9212552f337d2beb" compoundref="d7/d46/a00002" startline="445">icSigNamedColor2Tag</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeabd3b6889c64ac3ffb16f1c48be950dc8" compoundref="d7/d46/a00002" startline="551">icSigNamedColor2Type</references>
+        <references refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beba58bd0f3ca3c177aacc2b9fd1cbc0009b" compoundref="d7/d46/a00002" startline="618">icSigNamedColorArray</references>
+        <references refid="d9/d39/a00257_1a7f3c355a3556d385d49bc415410aaf6d" compoundref="d5/d35/a00266" startline="572" endline="578">icXmlAttrValue</references>
+        <references refid="d9/d39/a00257_1a459e22a536debe98c547657efa20b5ca" compoundref="d5/d35/a00266" startline="580" endline="587">icXmlAttrValue</references>
+        <references refid="d9/d39/a00257_1a57c0984fcae05f9fa17b70d1db38900c" compoundref="d5/d35/a00266" startline="669" endline="685">icXmlFindAttr</references>
+        <references refid="d7/dfd/a00969_1a5cf5b72ab66ca68a6c8ddfd861741bb8" compoundref="da/dec/a00080" startline="136" endline="136">CIccTag::IsMBBType</references>
+        <references refid="d7/dfd/a00969_1a0dbc39e419057e941c11cacb8c9e3fb0" compoundref="da/dec/a00080" startline="235">CIccTag::m_nReserved</references>
+        <references refid="de/d3c/a01809_1ab389ac02038775bf0a198ae68847d8a1">CIccTagXml::ParseXml</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <references refid="dc/d06/a01153_1a39b66ef83f6311ae1c32b5c155d22296" compoundref="d4/d3e/a00116" startline="3428" endline="3432">CIccMBB::SetColorSpaces</references>
+        <references refid="d7/d59/a01013_1a38da8d17a2fb7678d0bed280c6fa45dc" compoundref="d9/dd0/a00191" startline="3081" endline="3085">CIccTagNamedColor2::SetColorSpaces</references>
+        <references refid="d5/d05/a00385_1a823d6f29347e6f86de07de8bfad1ba89" compoundref="dc/de6/a00167" startline="261" endline="282">CIccArrayNamedColor::SetColorSpaces</references>
+        <references refid="d4/dd7/a00793_1a5fb0774621ef2028b8e33376633417fa" compoundref="d7/d46/a00002" startline="2062">icHeader::spectralPCS</references>
+        <references refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" compoundref="d7/d46/a00002" startline="2063">icHeader::spectralRange</references>
+        <referencedby refid="d6/d27/a01781_1af4605fcf803152d71090e6c668d8997a" compoundref="dd/dd7/a00248" startline="801" endline="826">ParseXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IccXML/IccLibXML/IccProfileXml.h" line="74" column="1" bodyfile="IccXML/IccLibXML/IccProfileXml.h" bodystart="76" bodyend="95"/>
+    <listofallmembers>
+      <member refid="d6/d27/a01781_1a04a6aac264c9792168a1cbe8063385f1" prot="public" virt="non-virtual"><scope>CIccProfileXml</scope><name>CIccProfileXml</name></member>
+      <member refid="d6/d27/a01781_1a0c05e3079a70a95a6804068dd2aa022a" prot="public" virt="non-virtual"><scope>CIccProfileXml</scope><name>CIccProfileXml</name></member>
+      <member refid="d6/d27/a01781_1a8c7c27c81df3f68ac277b536c1ab82fd" prot="public" virt="virtual"><scope>CIccProfileXml</scope><name>GetClassName</name></member>
+      <member refid="d6/d27/a01781_1a03d4294b5fe3a57880b609a5320eb4e6" prot="public" virt="non-virtual"><scope>CIccProfileXml</scope><name>LoadXml</name></member>
+      <member refid="d6/d27/a01781_1aa763c6ae8b39682eed4c36999aa3d69b" prot="public" virt="virtual"><scope>CIccProfileXml</scope><name>NewCopy</name></member>
+      <member refid="d6/d27/a01781_1a37bed7bd0eeacc55c471f48efcf62c3d" prot="public" virt="virtual"><scope>CIccProfileXml</scope><name>NewProfile</name></member>
+      <member refid="d6/d27/a01781_1ac2e86ed8d2e31113e5ef612ee29ed712" prot="protected" virt="non-virtual"><scope>CIccProfileXml</scope><name>ParseBasic</name></member>
+      <member refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" prot="protected" virt="non-virtual"><scope>CIccProfileXml</scope><name>ParseTag</name></member>
+      <member refid="d6/d27/a01781_1af4605fcf803152d71090e6c668d8997a" prot="public" virt="non-virtual"><scope>CIccProfileXml</scope><name>ParseXml</name></member>
+      <member refid="d6/d27/a01781_1ae2c077f1bd73ef3f4f1ff91d872957e4" prot="public" virt="non-virtual"><scope>CIccProfileXml</scope><name>ToXml</name></member>
+      <member refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" prot="public" virt="non-virtual"><scope>CIccProfileXml</scope><name>ToXmlWithBlanks</name></member>
+      <member refid="d6/d27/a01781_1abe0839724354f7a98955f66a903f783c" prot="public" virt="virtual"><scope>CIccProfileXml</scope><name>~CIccProfileXml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

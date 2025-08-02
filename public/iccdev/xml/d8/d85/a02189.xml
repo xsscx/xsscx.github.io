@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/d85/a02189" kind="class" language="C++" prot="public">
+    <compoundname>MyDnDFile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">wxFileDropTarget</basecompoundref>
+    <includes refid="db/d7b/a00296" local="no">wxProfileDump.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d85/a02189_1a65a1e0ecdf017b7bc48236b86ca939d9" prot="private" static="no" mutable="no">
+        <type><ref refid="dd/d02/a02185" kindref="compound">MyFrame</ref> *</type>
+        <definition>MyFrame* MyDnDFile::m_owner</definition>
+        <argsstring></argsstring>
+        <name>m_owner</name>
+        <qualifiedname>MyDnDFile::m_owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="131" column="11" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="d8/d85/a02189_1ab9fd525edd657e5ab4f9961e99f50f33" compoundref="db/d7b/a00296" startline="118" endline="118">MyDnDFile</referencedby>
+        <referencedby refid="d8/d85/a02189_1a67d3e0825e17672efa60a50c34de77b8" compoundref="db/d7b/a00296" startline="120" endline="129">OnDropFiles</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d85/a02189_1ab9fd525edd657e5ab4f9961e99f50f33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MyDnDFile::MyDnDFile</definition>
+        <argsstring>(MyFrame *owner)</argsstring>
+        <name>MyDnDFile</name>
+        <qualifiedname>MyDnDFile::MyDnDFile</qualifiedname>
+        <param>
+          <type><ref refid="dd/d02/a02185" kindref="compound">MyFrame</ref> *</type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="118" column="3" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="118" bodyend="118"/>
+        <references refid="d8/d85/a02189_1a65a1e0ecdf017b7bc48236b86ca939d9" compoundref="db/d7b/a00296" startline="131">m_owner</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d85/a02189_1a67d3e0825e17672efa60a50c34de77b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool MyDnDFile::OnDropFiles</definition>
+        <argsstring>(wxCoord x, wxCoord y, const wxArrayString &amp;filenames)</argsstring>
+        <name>OnDropFiles</name>
+        <qualifiedname>MyDnDFile::OnDropFiles</qualifiedname>
+        <param>
+          <type>wxCoord</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>wxCoord</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const wxArrayString &amp;</type>
+          <declname>filenames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="120" column="16" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="120" bodyend="129"/>
+        <references refid="d8/d85/a02189_1a65a1e0ecdf017b7bc48236b86ca939d9" compoundref="db/d7b/a00296" startline="131">m_owner</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MyDnDFile</label>
+        <link refid="d8/d85/a02189"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_owner</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MyFrame</label>
+        <link refid="dd/d02/a02185"/>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="115" column="1" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="116" bodyend="132"/>
+    <listofallmembers>
+      <member refid="d8/d85/a02189_1a65a1e0ecdf017b7bc48236b86ca939d9" prot="private" virt="non-virtual"><scope>MyDnDFile</scope><name>m_owner</name></member>
+      <member refid="d8/d85/a02189_1ab9fd525edd657e5ab4f9961e99f50f33" prot="public" virt="non-virtual"><scope>MyDnDFile</scope><name>MyDnDFile</name></member>
+      <member refid="d8/d85/a02189_1a67d3e0825e17672efa60a50c34de77b8" prot="public" virt="virtual"><scope>MyDnDFile</scope><name>OnDropFiles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

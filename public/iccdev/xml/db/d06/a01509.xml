@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d06/a01509" kind="class" language="C++" prot="public">
+    <compoundname>CIccOpDefCube</compoundname>
+    <basecompoundref refid="d3/d07/a01301" prot="public" virt="non-virtual">IIccOpDef</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d07/a01301_1a40f44f4fd2c0176047a7ed4a41bc5a8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int IIccOpDef::ArgsPushed</definition>
+        <argsstring>(CIccMpeCalculator *pCalc, SIccCalcOp &amp;op)</argsstring>
+        <name>ArgsPushed</name>
+        <qualifiedname>IIccOpDef::ArgsPushed</qualifiedname>
+        <param>
+          <type><ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref> *</type>
+          <declname>pCalc</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="297" column="15" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="297" bodyend="297"/>
+        <references refid="d1/d1a/a01285_1ad9f4e4455faa5f2579ee193a4b5f42ab" compoundref="d9/d77/a00095" startline="2354" endline="2480">SIccCalcOp::ArgsPushed</references>
+      </memberdef>
+      <memberdef kind="function" id="d3/d07/a01301_1a00f790c2cb6b7205ea01179fbbc38468" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int IIccOpDef::ArgsUsed</definition>
+        <argsstring>(CIccMpeCalculator *pCalc, SIccCalcOp &amp;op)</argsstring>
+        <name>ArgsUsed</name>
+        <qualifiedname>IIccOpDef::ArgsUsed</qualifiedname>
+        <param>
+          <type><ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref> *</type>
+          <declname>pCalc</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="298" column="15" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="298" bodyend="298"/>
+        <references refid="d1/d1a/a01285_1a2552fea250b0f04b586affc3a3d45e00" compoundref="d9/d77/a00095" startline="2222" endline="2341">SIccCalcOp::ArgsUsed</references>
+      </memberdef>
+      <memberdef kind="function" id="d3/d07/a01301_1a12d4ef222e6cc75fa207b50f46e7fcd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void IIccOpDef::Describe</definition>
+        <argsstring>(SIccCalcOp &amp;op, std::string &amp;desc, int nVerboseness)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>IIccOpDef::Describe</qualifiedname>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> &amp;</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="300" column="16" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="300" bodyend="300"/>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d06/a01509_1a6b898ec787af8d509250ba453a3c7a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccOpDefCube::Exec</definition>
+        <argsstring>(SIccCalcOp *op, SIccOpState &amp;os)</argsstring>
+        <name>Exec</name>
+        <qualifiedname>CIccOpDefCube::Exec</qualifiedname>
+        <reimplements refid="d3/d07/a01301_1ac2ad79a6b7ca267a33afc380eacc81c5">Exec</reimplements>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d8c/a01297" kindref="compound">SIccOpState</ref> &amp;</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="1110" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="1110" bodyend="1123"/>
+        <references refid="dc/d8c/a01297_1ab3754fddf22c18661914dc452cc1cfbd" compoundref="d5/de0/a00050" startline="275">SIccOpState::pStack</references>
+      </memberdef>
+      <memberdef kind="function" id="d3/d07/a01301_1a65d1a85955ee75e75946cd61d055e464" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool IIccOpDef::IsValid</definition>
+        <argsstring>(CIccMpeCalculator *pCalc, SIccCalcOp &amp;op)</argsstring>
+        <name>IsValid</name>
+        <qualifiedname>IIccOpDef::IsValid</qualifiedname>
+        <reimplementedby refid="dc/d2a/a01333_1a419fbbfd09e4ba54a613cd4f7d89aa44">IsValid</reimplementedby>
+        <param>
+          <type><ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref> *</type>
+          <declname>pCalc</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> &amp;</type>
+          <declname>op</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="302" column="16" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="302" bodyend="302"/>
+        <references refid="d1/d1a/a01285_1af39ccc3ae699b73bd2327d0422758ca6" compoundref="d9/d77/a00095" startline="2191" endline="2210">SIccCalcOp::IsValidOp</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccOpDefCube</label>
+        <link refid="db/d06/a01509"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccOpDef</label>
+        <link refid="d3/d07/a01301"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccOpDefCube</label>
+        <link refid="db/d06/a01509"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccOpDef</label>
+        <link refid="d3/d07/a01301"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeCalc.cpp" line="1107" column="1" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="1108" bodyend="1124"/>
+    <listofallmembers>
+      <member refid="d3/d07/a01301_1a40f44f4fd2c0176047a7ed4a41bc5a8f" prot="public" virt="virtual"><scope>CIccOpDefCube</scope><name>ArgsPushed</name></member>
+      <member refid="d3/d07/a01301_1a00f790c2cb6b7205ea01179fbbc38468" prot="public" virt="virtual"><scope>CIccOpDefCube</scope><name>ArgsUsed</name></member>
+      <member refid="d3/d07/a01301_1a12d4ef222e6cc75fa207b50f46e7fcd1" prot="public" virt="virtual"><scope>CIccOpDefCube</scope><name>Describe</name></member>
+      <member refid="db/d06/a01509_1a6b898ec787af8d509250ba453a3c7a0b" prot="public" virt="virtual"><scope>CIccOpDefCube</scope><name>Exec</name></member>
+      <member refid="d3/d07/a01301_1a8649618fccfd8102ac4b10e3955b232a" prot="public" virt="non-virtual"><scope>CIccOpDefCube</scope><name>IIccOpDef</name></member>
+      <member refid="d3/d07/a01301_1a65d1a85955ee75e75946cd61d055e464" prot="public" virt="virtual"><scope>CIccOpDefCube</scope><name>IsValid</name></member>
+      <member refid="d3/d07/a01301_1a467150dbe180d8a4fa412bc67291e4cf" prot="public" virt="virtual"><scope>CIccOpDefCube</scope><name>~IIccOpDef</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

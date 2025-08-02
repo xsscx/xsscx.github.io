@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d9/dd6/a00272" kind="file" language="C++">
+    <compoundname>IccIoXml.cpp</compoundname>
+    <includes refid="d2/dc8/a00242" local="yes">IccIoXml.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccIO.h</label>
+        <link refid="df/d6a/a00119"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="1">
+        <label>IccXML/IccLibXML/IccIoXml.cpp</label>
+        <link refid="d9/dd6/a00272"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IccIoXml.h</label>
+        <link refid="d2/dc8/a00242"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="7">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="d9/dd6/a00272_1ad40151c07bf57e29279a835df35d6a52" prot="public" static="yes" mutable="no">
+        <type><ref refid="d6/d53/a01789" kindref="compound">CIccStandardFileIO</ref></type>
+        <definition>CIccStandardFileIO g_IccStandardFileIO</definition>
+        <argsstring></argsstring>
+        <name>g_IccStandardFileIO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccIoXml.cpp" line="97" column="27" bodyfile="IccXML/IccLibXML/IccIoXml.cpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dd6/a00272_1a0369274f635be1baf5a98c5067ff3746" prot="public" static="yes" mutable="no">
+        <type><ref refid="d7/d10/a01785" kindref="compound">IIccOpenFileIO</ref> *</type>
+        <definition>IIccOpenFileIO* g_pIccFileIO</definition>
+        <argsstring></argsstring>
+        <name>g_pIccFileIO</name>
+        <initializer>= &amp;<ref refid="d9/dd6/a00272_1ad40151c07bf57e29279a835df35d6a52" kindref="member">g_IccStandardFileIO</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccIoXml.cpp" line="98" column="23" bodyfile="IccXML/IccLibXML/IccIoXml.cpp" bodystart="98" bodyend="-1"/>
+        <referencedby refid="d9/dd6/a00272_1a1787be4d01fe1c357f48a2e8531622a6" compoundref="d9/dd6/a00272" startline="100" endline="107">IccOpenFileIO</referencedby>
+        <referencedby refid="d9/dd6/a00272_1abbe686d5bbdb9f1f65cefdac5e4a8685" compoundref="d9/dd6/a00272" startline="109" endline="112">IccSetOpenFileIO</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d9/dd6/a00272_1a1787be4d01fe1c357f48a2e8531622a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+        <definition>CIccIO * IccOpenFileIO</definition>
+        <argsstring>(const icChar *szFilename, const char *szAttr)</argsstring>
+        <name>IccOpenFileIO</name>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szFilename</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>szAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccIoXml.cpp" line="100" column="8" bodyfile="IccXML/IccLibXML/IccIoXml.cpp" bodystart="100" bodyend="107"/>
+        <references refid="d9/dd6/a00272_1a0369274f635be1baf5a98c5067ff3746" compoundref="d9/dd6/a00272" startline="98">g_pIccFileIO</references>
+        <references refid="d7/d10/a01785_1a8b20061e8e57da5c8193dbb1d9ddbfe7">IIccOpenFileIO::OpenFile</references>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a27a49e117d637e0073ff82ff83e0ed17" compoundref="d0/d27/a00239" startline="180" endline="251">icXmlParseTextString</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+        <referencedby refid="d7/db1/a01837_1a90eeefd13346d44fe87970c91ca28287" compoundref="d0/d27/a00239" startline="381" endline="565">CIccTagXmlTextDescription::ParseXml</referencedby>
+        <referencedby refid="d9/d63/a01877_1aef548e5ab696b113bf1158b5bbf36f0b" compoundref="d0/d27/a00239" startline="1463" endline="1578">CIccTagXmlFloatNum&lt; T, A, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="df/db2/a01981_1a1f911f834c825441d4694595710bcf55" compoundref="d0/d27/a00239" startline="5099" endline="5162">CIccTagXmlEmbeddedHeightImage::ParseXml</referencedby>
+        <referencedby refid="d3/def/a01985_1a40585eab56b698d0579d922b924997e9" compoundref="d0/d27/a00239" startline="5195" endline="5255">CIccTagXmlEmbeddedNormalImage::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd6/a00272_1abbe686d5bbdb9f1f65cefdac5e4a8685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IccSetOpenFileIO</definition>
+        <argsstring>(IIccOpenFileIO *pOpenIO)</argsstring>
+        <name>IccSetOpenFileIO</name>
+        <param>
+          <type><ref refid="d7/d10/a01785" kindref="compound">IIccOpenFileIO</ref> *</type>
+          <declname>pOpenIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccIoXml.cpp" line="109" column="6" bodyfile="IccXML/IccLibXML/IccIoXml.cpp" bodystart="109" bodyend="112"/>
+        <references refid="d9/dd6/a00272_1a0369274f635be1baf5a98c5067ff3746" compoundref="d9/dd6/a00272" startline="98">g_pIccFileIO</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="d9/dd6/a00272" kindref="compound">IccIoXml.cpp</ref></para>
+<para>Contains: Implementation of the <ref refid="d7/d10/a01785" kindref="compound">IIccOpenFileIO</ref> interface.</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/dc8/a00242" kindref="compound">IccIoXml.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">refIccMAX<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="d6/d53/a01789_1a5a02dfad10fe8e2bd066a0c61462de38" refkind="member"><highlight class="normal"><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref>*<sp/><ref refid="d6/d53/a01789_1a5a02dfad10fe8e2bd066a0c61462de38" kindref="member">CIccStandardFileIO::OpenFile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szFilename,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*szAttr)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><ref refid="de/d01/a00897" kindref="compound">CIccFileIO</ref><sp/>*file<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d01/a00897" kindref="compound">CIccFileIO</ref>();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file-&gt;<ref refid="de/d01/a00897_1ac387c7f17813239d3d046517e9e093cb" kindref="member">Open</ref>(szFilename,<sp/>szAttr))<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>file;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>file;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="d9/dd6/a00272_1ad40151c07bf57e29279a835df35d6a52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d6/d53/a01789" kindref="compound">CIccStandardFileIO</ref><sp/><ref refid="d9/dd6/a00272_1ad40151c07bf57e29279a835df35d6a52" kindref="member">g_IccStandardFileIO</ref>;</highlight></codeline>
+<codeline lineno="98" refid="d9/dd6/a00272_1a0369274f635be1baf5a98c5067ff3746" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d7/d10/a01785" kindref="compound">IIccOpenFileIO</ref><sp/>*<ref refid="d9/dd6/a00272_1a0369274f635be1baf5a98c5067ff3746" kindref="member">g_pIccFileIO</ref><sp/>=<sp/>&amp;<ref refid="d9/dd6/a00272_1ad40151c07bf57e29279a835df35d6a52" kindref="member">g_IccStandardFileIO</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="d9/dd6/a00272_1a1787be4d01fe1c357f48a2e8531622a6" refkind="member"><highlight class="normal"><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref>*<sp/><ref refid="d9/dd6/a00272_1a1787be4d01fe1c357f48a2e8531622a6" kindref="member">IccOpenFileIO</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szFilename,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*szAttr)</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="d9/dd6/a00272_1a0369274f635be1baf5a98c5067ff3746" kindref="member">g_pIccFileIO</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d9/dd6/a00272_1a0369274f635be1baf5a98c5067ff3746" kindref="member">g_pIccFileIO</ref>-&gt;<ref refid="d7/d10/a01785_1a8b20061e8e57da5c8193dbb1d9ddbfe7" kindref="member">OpenFile</ref>(szFilename,<sp/>szAttr);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="d9/dd6/a00272_1abbe686d5bbdb9f1f65cefdac5e4a8685" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dd6/a00272_1abbe686d5bbdb9f1f65cefdac5e4a8685" kindref="member">IccSetOpenFileIO</ref>(<ref refid="d7/d10/a01785" kindref="compound">IIccOpenFileIO</ref><sp/>*pOpenIO)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><ref refid="d9/dd6/a00272_1a0369274f635be1baf5a98c5067ff3746" kindref="member">g_pIccFileIO</ref><sp/>=<sp/>pOpenIO;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="comment">//<sp/>Class<sp/>CIccIO</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}<sp/></highlight><highlight class="comment">//namespace<sp/>refIccMAX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="IccXML/IccLibXML/IccIoXml.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/da1/a02290" kind="page">
+    <compoundname>md_IccXML_2CmdLine_2IccFromXml_2Readme</compoundname>
+    <title>IccFromXml</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="d7/da1/a02290_1autotoc_md2"/> </para>
+<sect1 id="d7/da1/a02290_1autotoc_md3">
+<title>Overview</title>
+<para><computeroutput>IccFromXml</computeroutput> is a command-line tool that converts ICC profile XML representations into binary ICC profiles. It supports validation against RELAX NG schemas and preserves profile metadata including profile IDs. This tool is essential for ICC profile developers working with XML interchange formats.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d7/da1/a02290_1autotoc_md5">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Converts <computeroutput>.xml</computeroutput> to binary ICC profile files</para>
+</listitem><listitem><para>Validates XML using RELAX NG schema (optional)</para>
+</listitem><listitem><para>Supports <computeroutput>-noid</computeroutput> to skip profile ID writing</para>
+</listitem><listitem><para>Reports validation warnings and errors</para>
+</listitem><listitem><para>Auto-locates <computeroutput>SampleIccRELAX.rng</computeroutput> schema if not provided</para>
+</listitem><listitem><para>Compatible with ICC.1 and ICC.2 profile structures</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d7/da1/a02290_1autotoc_md7">
+<title>Usage</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">IccFromXml<sp/>input.xml<sp/>output.icc<sp/>{-noid<sp/>-v[=schema.rng]}</highlight></codeline>
+</programlisting></para>
+<sect2 id="d7/da1/a02290_1autotoc_md8">
+<title>Parameters</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>input.xml</computeroutput>: The ICC profile XML file</para>
+</listitem><listitem><para><computeroutput>output.icc</computeroutput>: The output ICC binary profile</para>
+</listitem><listitem><para><computeroutput>-noid</computeroutput>: Prevents writing a profile ID (optional)</para>
+</listitem><listitem><para><computeroutput>-v[=schema.rng]</computeroutput>: Enables validation using optional RELAX NG schema</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="d7/da1/a02290_1autotoc_md10">
+<title>Behavior</title>
+<para><itemizedlist>
+<listitem><para>If <computeroutput>-v</computeroutput> is used without a schema file, the tool looks for <computeroutput>SampleIccRELAX.rng</computeroutput> in the current directory.</para>
+</listitem><listitem><para>If validation fails but parsing succeeds, the profile is still saved and marked as invalid.</para>
+</listitem><listitem><para>Profile ID is handled based on content unless <computeroutput>-noid</computeroutput> is used:<itemizedlist>
+<listitem><para><computeroutput>icNeverWriteID</computeroutput>, <computeroutput>icAlwaysWriteID</computeroutput>, or <computeroutput>icVersionBasedID</computeroutput> depending on header state</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d7/da1/a02290_1autotoc_md12">
+<title>Output</title>
+<para><itemizedlist>
+<listitem><para>Console status messages including:<itemizedlist>
+<listitem><para>Parsing success or failure</para>
+</listitem><listitem><para>Validation report (if applicable)</para>
+</listitem><listitem><para>Save status</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d7/da1/a02290_1autotoc_md14">
+<title>Example</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">IccFromXml<sp/>DisplayProfile.xml<sp/>DisplayProfile.icc<sp/>-v=SampleIccRELAX.rng</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d7/da1/a02290_1autotoc_md16">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Initial version by Max Derhak</para>
+</listitem><listitem><para>Validation enhancements and ID control by David Hoyt (2025) </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="IccXML/CmdLine/IccFromXml/Readme.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/ddb/a01717" kind="class" language="C++" prot="public">
+    <compoundname>CIccBasicStructFactory</compoundname>
+    <basecompoundref refid="d2/d0c/a01713" prot="public" virt="non-virtual">IIccStructFactory</basecompoundref>
+    <includes refid="d1/d44/a00098" local="no">IccStructFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/ddb/a01717_1a972568137ff372ba692c18444e6a4a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="da/dc3/a00453" kindref="compound">IIccStruct</ref> *</type>
+        <definition>IIccStruct * CIccBasicStructFactory::CreateStruct</definition>
+        <argsstring>(icStructSignature structSig, CIccTagStruct *pTagStruct=NULL)</argsstring>
+        <name>CreateStruct</name>
+        <qualifiedname>CIccBasicStructFactory::CreateStruct</qualifiedname>
+        <reimplements refid="d2/d0c/a01713_1a4cce11992b77e940453c521cd7717d72">CreateStruct</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+          <declname>structSig</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+          <declname>pTagStruct</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateStruct(structTypeSig) Create a struct object of type structTypeSig.</para>
+<para>Parameter(s): structTypeSig = signature of the ICC struct type for the struct to be created</para>
+<para>Returns a new CIccProcessStruct object of the given signature type. Unrecognized structTypeSig&apos;s will be created as a <ref refid="da/dbf/a00393" kindref="compound">CIccStructUnknown</ref> object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="177" column="22" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="83" bodyend="110"/>
+        <references refid="d7/d00/a00401_1a4c0e319257b80f2bb1a68a7bf7e2b59a" compoundref="d1/d88/a00128" startline="213" endline="217">CIccStructBRDF::CIccStructBRDF</references>
+        <references refid="de/d3d/a00409_1a029eb034ca1ae49972f79ee283afb624" compoundref="d1/d88/a00128" startline="344" endline="348">CIccStructColorantInfo::CIccStructColorantInfo</references>
+        <references refid="de/de8/a00405_1a902a7e7c1df40c6e6f29180ba1203560" compoundref="d1/d88/a00128" startline="314" endline="318">CIccStructColorEncodingParams::CIccStructColorEncodingParams</references>
+        <references refid="da/d9c/a00413_1a6c51181e2c238f931c07044e0b6fc41d" compoundref="d1/d88/a00128" startline="396" endline="400">CIccStructMeasurementInfo::CIccStructMeasurementInfo</references>
+        <references refid="d7/d93/a00397_1a0d4e9414702b1d06e981893da179f88e" compoundref="d1/d88/a00128" startline="436" endline="440">CIccStructNamedColor::CIccStructNamedColor</references>
+        <references refid="d8/de7/a00417_1a8c73d67a5a36c27790e01f79f27e06b5" compoundref="d1/d88/a00128" startline="589" endline="593">CIccStructProfileInfo::CIccStructProfileInfo</references>
+        <references refid="d2/de1/a00421_1a39aaaef03e967af4a6b6894d8e37fd7e" compoundref="d1/d88/a00128" startline="620" endline="624">CIccStructTintZero::CIccStructTintZero</references>
+        <references refid="da/dbf/a00393_1a938822061505c56e54c7b959369a21f6" compoundref="d1/d88/a00128" startline="94" endline="98">CIccStructUnknown::CIccStructUnknown</references>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614aa20f58b420a232d6f9f1fcc68c09b21a" compoundref="d7/d46/a00002" startline="599">icSigBRDFStruct</references>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614a77738c5f34d60bf5048fad7ee7d1a3dc" compoundref="d7/d46/a00002" startline="600">icSigColorantInfoStruct</references>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614aec4f285d26e277b240e699d8b8a4be15" compoundref="d7/d46/a00002" startline="601">icSigColorEncodingParamsSruct</references>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614a3dd868c5e8a8a70de33fdb1f61c09670" compoundref="d7/d46/a00002" startline="602">icSigMeasurementInfoStruct</references>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614a98ba4d79a5656f500b6cc251a663b570" compoundref="d7/d46/a00002" startline="603">icSigNamedColorStruct</references>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614ad77015acc5f5bdb929f98765e264234d" compoundref="d7/d46/a00002" startline="604">icSigProfileInfoStruct</references>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614a8e059335cc78c884db0b2eb7374ae3a5" compoundref="d7/d46/a00002" startline="605">icSigTintZeroStruct</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddb/a01717_1af783c0b2d68266201193048909389d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+        <definition>icStructSignature CIccBasicStructFactory::GetStructSig</definition>
+        <argsstring>(const icChar *structName)</argsstring>
+        <name>GetStructSig</name>
+        <qualifiedname>CIccBasicStructFactory::GetStructSig</qualifiedname>
+        <reimplements refid="d2/d0c/a01713_1ab73f17fe1f352db0465796b5b63e8955">GetStructSig</reimplements>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>structName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetStructSig(structName) Get signature of structure from display name.</para>
+<para>Parameter(s): structName = struct display name</para>
+<para>Returns signature of structure if it is recognized by the factory, 0 if the factory doesn&apos;t create structures with such a display name. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="202" column="29" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="151" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/ddb/a01717_1a3cdf53100afbd33592ae7f6b32632c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccBasicStructFactory::GetStructSigName</definition>
+        <argsstring>(std::string &amp;structName, icStructSignature structTypeSig, bool bFindUnknown=false)</argsstring>
+        <name>GetStructSigName</name>
+        <qualifiedname>CIccBasicStructFactory::GetStructSigName</qualifiedname>
+        <reimplements refid="d2/d0c/a01713_1abbf2f6b96c8d55e2e42075bfdb8bb7a6">GetStructSigName</reimplements>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>structName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+          <declname>structTypeSig</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bFindUnknown</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetStructSigName(structTypeSig) Get display name of structTypeSig.</para>
+<para>Parameter(s): structName = string to put struct name into, structTypeSig = signature of the ICC struct type to get a name for</para>
+<para>Returns true if struct type is recognized by the factory, false if the factory doesn&apos;t create structTypeSig structs. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructFactory.h" line="190" column="16" bodyfile="IccProfLib/IccStructFactory.cpp" bodystart="128" bodyend="149"/>
+        <references refid="d7/dce/a00143_1a1e7460cdfb87cf8171ae3c000cdc73b3" compoundref="d5/db1/a00140" startline="1056" endline="1085">icGetSigStr</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="dd/ddb/a01717" kindref="compound">CIccBasicStructFactory</ref></para>
+<para>Purpose: <ref refid="dd/ddb/a01717" kindref="compound">CIccBasicStructFactory</ref> provides creation of CIccProcessStruct&apos;s defined by the ICC profile specification. The <ref refid="db/d66/a01721" kindref="compound">CIccStructCreator</ref> always creates a CIccBasicElemFactory. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccBasicStructFactory</label>
+        <link refid="dd/ddb/a01717"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccStructFactory</label>
+        <link refid="d2/d0c/a01713"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccBasicStructFactory</label>
+        <link refid="dd/ddb/a01717"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccStructFactory</label>
+        <link refid="d2/d0c/a01713"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccStructFactory.h" line="164" column="1" bodyfile="IccProfLib/IccStructFactory.h" bodystart="165" bodyend="203"/>
+    <listofallmembers>
+      <member refid="dd/ddb/a01717_1a972568137ff372ba692c18444e6a4a99" prot="public" virt="virtual"><scope>CIccBasicStructFactory</scope><name>CreateStruct</name></member>
+      <member refid="dd/ddb/a01717_1af783c0b2d68266201193048909389d43" prot="public" virt="virtual"><scope>CIccBasicStructFactory</scope><name>GetStructSig</name></member>
+      <member refid="dd/ddb/a01717_1a3cdf53100afbd33592ae7f6b32632c25" prot="public" virt="virtual"><scope>CIccBasicStructFactory</scope><name>GetStructSigName</name></member>
+      <member refid="d2/d0c/a01713_1a269596084e429f6d9f6cff86afe86db3" prot="public" virt="virtual"><scope>CIccBasicStructFactory</scope><name>~IIccStructFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

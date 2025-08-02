@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>iccDEV</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The IccProfLib is an open source cross platform C++ library for reading, writing, manipulating, and applying ICC profiles. It is an attempt at a strict interpretation of the ICC profile specification. The structure of the library very closely follows the structure of the specification. A working knowledge of the ICC specification and color management workflows will aid in understanding the library and it&apos;s proper usage. For the latest ICC profile specification please visit <ulink url="http://www.color.org">http://www.color.org</ulink>. Several useful white papers and resources are also available on the website. <linebreak/>
+</para>
+<para>Here are some of the things that the IccProfLib supports:<itemizedlist>
+<listitem><para>ICC profile file I/O in CIccProfile class<itemizedlist>
+<listitem><para>Version 5.0 profiles (read &amp; write)</para>
+</listitem><listitem><para>Version 4.3 profiles (read &amp; write)</para>
+</listitem><listitem><para>Version 2.x profiles (read)</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>C++ classes for all specified tag types (based on <ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref>). Default behavior for unrecognized private tag types is implemented using a generic Tag class.</para>
+</listitem><listitem><para>Two basic Color Management Module (CMM) implementations<itemizedlist>
+<listitem><para>Basic pixel level transforms in CIccCmm class</para>
+</listitem><listitem><para>Additional named color profile support in CIccNamedColorCmm class</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>File I/O can be re-directed</para>
+</listitem><listitem><para>All operations performed using floating point. Pixel precision not limited to integers.</para>
+</listitem><listitem><para>Transforms are done one pixel at a time.</para>
+</listitem><listitem><para>Flexible number of profile transforms in a series (as long as the colorspaces match)</para>
+</listitem><listitem><para>Multidimensional lookup table interpolation<itemizedlist>
+<listitem><para>Three dimensional interpolation uses either linear or tetrahedral interpolation (selectable at time profile is attached to the CMM).</para>
+</listitem><listitem><para>Greater than three dimensional interpolation uses linear interpolation</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Matrix/TRC support</para>
+</listitem><listitem><para>Calculation of Profile ID using the MD5 fingerprinting method (see <ref refid="df/dc8/a00122" kindref="compound">IccMD5.h</ref>)</para>
+</listitem><listitem><para>Dynamic creation and seemless use of private <ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> derived objects that are implemented outside of IccProfLib (IE inside a private library or application that links with IccProfLib).</para>
+</listitem></itemizedlist>
+</para>
+<para><bold>USAGE COMMENTS</bold><orderedlist>
+<listitem><para>The IccProfLib implements very basic CMMs. These may not provide the optimum speed in all situations. Profile transforms are done one pixel at a time for each profile in a profile transformation chain. Various techniques can possibly be used to improve performance. An initial thought would be to create a CMM that uses the basic CIccCmm to generate a single link transform (concatenating the profiles). Such a transform could employ integer math if needed.</para>
+</listitem><listitem><para>The IccProfLib can be used to open, generate, manipulate (by adding, removing, or modifying tags), and/or save profiles without needing to use the pixel transformations provided by the CMM classes.</para>
+</listitem><listitem><para>Several applications have been written (in RefIccMAX) that make use of the IccProfLib. It is advisable to examine these applications for additional guidance in making the best use of the IccProfLib.</para>
+</listitem><listitem><para>Before compiling on non-Windows and non Mac OSX platforms it will be necessary to edit the configuration parameters in <ref refid="d5/d16/a00029" kindref="compound">IccProfLibConf.h</ref>.</para>
+</listitem></orderedlist>
+</para>
+<para><bold>VERSION HISTORY</bold><itemizedlist>
+<listitem><para>See changlog for updates</para>
+</listitem></itemizedlist>
+</para>
+<para><bold>TODO List</bold> TBD</para>
+<para><bold>The ICC Software License, Version 0.2</bold></para>
+<para>Copyright � 2003-2016 The International Color Consortium. All rights reserved.</para>
+<para>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</para>
+<para><orderedlist>
+<listitem><para>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</para>
+</listitem><listitem><para>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</para>
+</listitem><listitem><para>In the absence of prior written permission, the names &quot;ICC&quot; and &quot;The
+   International Color Consortium&quot; must not be used to imply that the ICC organization endorses or promotes products derived from this software.</para>
+</listitem></orderedlist>
+</para>
+<para>====================================================================<linebreak/>
+THIS SOFTWARE IS PROVIDED `<lsquo/>AS IS<rsquo/>&apos; AND ANY EXPRESSED OR IMPLIED<linebreak/>
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES<linebreak/>
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE<linebreak/>
+DISCLAIMED. IN NO EVENT SHALL THE INTERNATIONAL COLOR CONSORTIUM OR<linebreak/>
+ITS CONTRIBUTING MEMBERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,<linebreak/>
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT<linebreak/>
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF<linebreak/>
+USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND<linebreak/>
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,<linebreak/>
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT<linebreak/>
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF<linebreak/>
+</para>
+<sect1 id="index_1autotoc_md1">
+<title>SUCH DAMAGE.\n</title>
+<para>This software consists of voluntary contributions made by many individuals on behalf of the The International Color Consortium.</para>
+<para>Membership in the ICC is encouraged when this software is used for commercial purposes.</para>
+<para><bold>CONTACT</bold></para>
+<para>Please send your questions, comments, and or suggestions to forums on the DemoIccMAX project site. (<ulink url="https://github.com/InternationalColorConsortium/DemoIccMAX">https://github.com/InternationalColorConsortium/DemoIccMAX</ulink>).<linebreak/>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="IccProfLib/MainPage.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d6/d66/a00441" kind="class" language="C++" prot="public">
+    <compoundname>CIccBasicArrayFactory</compoundname>
+    <basecompoundref refid="d4/da8/a00437" prot="public" virt="non-virtual">IIccArrayFactory</basecompoundref>
+    <includes refid="da/d2a/a00086" local="no">IccArrayFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d66/a00441_1a880ba8190fdda3535e91eeeb8a072992" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d1/dbd/a00457" kindref="compound">IIccArray</ref> *</type>
+        <definition>IIccArray * CIccBasicArrayFactory::CreateArray</definition>
+        <argsstring>(icArraySignature arrayTypeSig, CIccTagArray *pTagArray=NULL)</argsstring>
+        <name>CreateArray</name>
+        <qualifiedname>CIccBasicArrayFactory::CreateArray</qualifiedname>
+        <reimplements refid="d4/da8/a00437_1a20d4a17925a19af353e3022f05f29ae9">CreateArray</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+          <declname>arrayTypeSig</declname>
+        </param>
+        <param>
+          <type><ref refid="db/de0/a00465" kindref="compound">CIccTagArray</ref> *</type>
+          <declname>pTagArray</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateArray(arrayTypeSig) Create an array object handler of type arrayTypeSig.</para>
+<para>Parameter(s): arrayTypeSig = signature of the ICC array type for the array handler to be created pTagArray = pointer to tag array to associate with the handerl</para>
+<para>Returns a new CIccArray handler of the given signature type. Unrecognized structTypeSig&apos;s will be created as a <ref refid="d4/d13/a00377" kindref="compound">CIccArrayUnknown</ref> object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="177" column="21" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="83" bodyend="95"/>
+        <references refid="de/d08/a00381_1aa72a5c936e3395eff18c78d3036a0242" compoundref="dc/de6/a00167" startline="153" endline="157">CIccArrayColorantInfo::CIccArrayColorantInfo</references>
+        <references refid="d5/d05/a00385_1a2fedbc0b9463ed05e07bb70597993f2c" compoundref="dc/de6/a00167" startline="216" endline="230">CIccArrayNamedColor::CIccArrayNamedColor</references>
+        <references refid="d4/d13/a00377_1a7eb71325209c8546c7a8247a9165a767" compoundref="dc/de6/a00167" startline="95" endline="99">CIccArrayUnknown::CIccArrayUnknown</references>
+        <references refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beba04f6b4eef59e51618946543a99cb1f21" compoundref="d7/d46/a00002" startline="619">icSigColorantInfoArray</references>
+        <references refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beba58bd0f3ca3c177aacc2b9fd1cbc0009b" compoundref="d7/d46/a00002" startline="618">icSigNamedColorArray</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d66/a00441_1ae6dd1491eff592037866c01222b9d6fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+        <definition>icArraySignature CIccBasicArrayFactory::GetArraySig</definition>
+        <argsstring>(const icChar *arrayName)</argsstring>
+        <name>GetArraySig</name>
+        <qualifiedname>CIccBasicArrayFactory::GetArraySig</qualifiedname>
+        <reimplements refid="d4/da8/a00437_1ac80fd5e89a37bc28080a94e78c1c9127">GetArraySig</reimplements>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>arrayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetArraySig(arrayName) Get signature associate with display name arrayName handler</para>
+<para>Parameter(s): arrayName = string to find signature for</para>
+<para>Returns true if arraySig is recognized by the factory, false if the factory doesn&apos;t create arraySig arrays. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="203" column="28" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="131" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d66/a00441_1a83211aa5703fa93e467e64bff884744c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccBasicArrayFactory::GetArraySigName</definition>
+        <argsstring>(std::string &amp;arrayName, icArraySignature arrayTypeSig, bool bFindUnknown=true)</argsstring>
+        <name>GetArraySigName</name>
+        <qualifiedname>CIccBasicArrayFactory::GetArraySigName</qualifiedname>
+        <reimplements refid="d4/da8/a00437_1ad18770c543de0b4355e3e92e41d5aa89">GetArraySigName</reimplements>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>arrayName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+          <declname>arrayTypeSig</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bFindUnknown</declname>
+          <defval><ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetArraySigName(arrayName, arrayTypeSig, bFindUnknown) Get display name of arrayTypeSig.</para>
+<para>Parameter(s): arrayName = string to put struct name into, arrayTypeSig = signature of the ICC struct type to get a name for bFindUnknown = fills arrayName if strutTypeSig is unknown</para>
+<para>Returns true if arraySig is recognized by the factory, false if the factory doesn&apos;t create arraySig arrays. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccArrayFactory.h" line="191" column="16" bodyfile="IccProfLib/IccArrayFactory.cpp" bodystart="108" bodyend="129"/>
+        <references refid="d7/dce/a00143_1a1e7460cdfb87cf8171ae3c000cdc73b3" compoundref="d5/db1/a00140" startline="1056" endline="1085">icGetSigStr</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d6/d66/a00441" kindref="compound">CIccBasicArrayFactory</ref></para>
+<para>Purpose: <ref refid="d6/d66/a00441" kindref="compound">CIccBasicArrayFactory</ref> provides creation of CIccArray handlers defined by the ICC profile specification. The <ref refid="dd/d47/a00445" kindref="compound">CIccArrayCreator</ref> always creates a CIccBasicElemFactory. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccBasicArrayFactory</label>
+        <link refid="d6/d66/a00441"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccArrayFactory</label>
+        <link refid="d4/da8/a00437"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccBasicArrayFactory</label>
+        <link refid="d6/d66/a00441"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccArrayFactory</label>
+        <link refid="d4/da8/a00437"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccArrayFactory.h" line="163" column="1" bodyfile="IccProfLib/IccArrayFactory.h" bodystart="164" bodyend="204"/>
+    <listofallmembers>
+      <member refid="d6/d66/a00441_1a880ba8190fdda3535e91eeeb8a072992" prot="public" virt="virtual"><scope>CIccBasicArrayFactory</scope><name>CreateArray</name></member>
+      <member refid="d6/d66/a00441_1ae6dd1491eff592037866c01222b9d6fc" prot="public" virt="virtual"><scope>CIccBasicArrayFactory</scope><name>GetArraySig</name></member>
+      <member refid="d6/d66/a00441_1a83211aa5703fa93e467e64bff884744c" prot="public" virt="virtual"><scope>CIccBasicArrayFactory</scope><name>GetArraySigName</name></member>
+      <member refid="d4/da8/a00437_1aba625f7430439bcecfb0c76e199bd46e" prot="public" virt="virtual"><scope>CIccBasicArrayFactory</scope><name>~IIccArrayFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

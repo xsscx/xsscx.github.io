@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d5/d21/a00549" kind="struct" language="C++" prot="public">
+    <compoundname>icIlluminantVector</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/d21/a00549_1ac368528dc2c89135059277303b6777fb" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a087042fc82a070c4afebf2e05e708f5b" kindref="member">icFloat32Number</ref></type>
+        <definition>icFloat32Number icIlluminantVector::data[icAny]</definition>
+        <argsstring>[icAny]</argsstring>
+        <name>data</name>
+        <qualifiedname>icIlluminantVector::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1489" column="19" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1489" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d21/a00549_1afe9bd91511ce7af737780a3773c42a50" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref></type>
+        <definition>icSpectralRange icIlluminantVector::range</definition>
+        <argsstring></argsstring>
+        <name>range</name>
+        <qualifiedname>icIlluminantVector::range</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1487" column="19" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d21/a00549_1ab14befe5eaf296f554013f2c5c3660e7" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number icIlluminantVector::reserved</definition>
+        <argsstring></argsstring>
+        <name>reserved</name>
+        <qualifiedname>icIlluminantVector::reserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1488" column="18" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1488" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Illuminant Vector </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>icIlluminantVector</label>
+        <link refid="d5/d21/a00549"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>range</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icSpectralRange</label>
+        <link refid="dd/d72/a00541"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1486" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1486" bodyend="1490"/>
+    <listofallmembers>
+      <member refid="d5/d21/a00549_1ac368528dc2c89135059277303b6777fb" prot="public" virt="non-virtual"><scope>icIlluminantVector</scope><name>data</name></member>
+      <member refid="d5/d21/a00549_1afe9bd91511ce7af737780a3773c42a50" prot="public" virt="non-virtual"><scope>icIlluminantVector</scope><name>range</name></member>
+      <member refid="d5/d21/a00549_1ab14befe5eaf296f554013f2c5c3660e7" prot="public" virt="non-virtual"><scope>icIlluminantVector</scope><name>reserved</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

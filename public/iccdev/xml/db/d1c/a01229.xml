@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d1c/a01229" kind="class" language="C++" prot="public">
+    <compoundname>CIccDictEntryPtr</compoundname>
+    <includes refid="df/d03/a00062" local="no">IccTagDict.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/d1c/a01229_1a9f6e5fe15905c447b0d02b1543d46999" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d53/a01225" kindref="compound">CIccDictEntry</ref> *</type>
+        <definition>CIccDictEntry* CIccDictEntryPtr::ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <qualifiedname>CIccDictEntryPtr::ptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagDict.h" line="141" column="17" bodyfile="IccProfLib/IccTagDict.h" bodystart="141" bodyend="-1"/>
+        <referencedby refid="d6/da1/a01233_1a392ec15a8ebdb6e9130ec3ec36e29685" compoundref="dd/dc1/a00212" startline="358" endline="372">CIccTagDict::CIccTagDict</referencedby>
+        <referencedby refid="d6/da1/a01233_1aedba95f60eef3342d247d57242d660f4" compoundref="dd/dc1/a00212" startline="1010" endline="1020">CIccTagDict::AreNamesNonzero</referencedby>
+        <referencedby refid="d6/da1/a01233_1a1dea54ef0b2dc24c8a551855a38cfffd" compoundref="dd/dc1/a00212" startline="982" endline="995">CIccTagDict::AreNamesUnique</referencedby>
+        <referencedby refid="d6/da1/a01233_1a780eeb7cc6c6af7cca6e7f72cf6f8755" compoundref="dd/dc1/a00212" startline="958" endline="967">CIccTagDict::Cleanup</referencedby>
+        <referencedby refid="d6/da1/a01233_1ae97605331e10fbdaa0920c63b696ef6a" compoundref="dd/dc1/a00212" startline="457" endline="473">CIccTagDict::Describe</referencedby>
+        <referencedby refid="d6/da1/a01233_1ae9a770966868de98518976a6a00e5986" compoundref="dd/dc1/a00212" startline="1036" endline="1046">CIccTagDict::Get</referencedby>
+        <referencedby refid="d6/da1/a01233_1a36184cf370a8c689a5ee6558668af778" compoundref="dd/dc1/a00212" startline="430" endline="444">CIccTagDict::MaxPosRecSize</referencedby>
+        <referencedby refid="d6/da1/a01233_1aff3e229d8d274cc8845b8b8ff389d114" compoundref="dd/dc1/a00212" startline="384" endline="401">CIccTagDict::operator=</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4" compoundref="d0/d27/a00239" startline="4280" endline="4360">CIccTagXmlDict::ParseXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad357b99940587af51d9346a961eb0e3a" compoundref="dd/dc1/a00212" startline="1312" endline="1326">CIccTagDict::Remove</referencedby>
+        <referencedby refid="d6/da1/a01233_1aa61f784416d9e7b43eb08711234c9e36" compoundref="dd/dc1/a00212" startline="1389" endline="1412">CIccTagDict::Set</referencedby>
+        <referencedby refid="d6/da1/a01233_1abfbc0ece6c95dc865c537f6df0c1c857" compoundref="dd/dc1/a00212" startline="1446" endline="1460">CIccTagDict::SetNameLocalized</referencedby>
+        <referencedby refid="d6/da1/a01233_1aac0b2aad2e01cd2a5c84724224cd7233" compoundref="dd/dc1/a00212" startline="1480" endline="1494">CIccTagDict::SetValueLocalized</referencedby>
+        <referencedby refid="d6/d9a/a01965_1a392a644105c454e2f0aa9b9b7b69a6d6" compoundref="d0/d27/a00239" startline="4219" endline="4277">CIccTagXmlDict::ToXml</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>CIccDictEntry</label>
+        <link refid="d8/d53/a01225"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_pNameLocalized</edgelabel>
+          <edgelabel>m_pValueLocalized</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccDictEntryPtr</label>
+        <link refid="db/d1c/a01229"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="3">
+        <label>CIccTagMultiLocalizedUnicode</label>
+        <link refid="d2/db8/a01057"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagDict.h" line="138" column="1" bodyfile="IccProfLib/IccTagDict.h" bodystart="139" bodyend="142"/>
+    <listofallmembers>
+      <member refid="db/d1c/a01229_1a9f6e5fe15905c447b0d02b1543d46999" prot="public" virt="non-virtual"><scope>CIccDictEntryPtr</scope><name>ptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

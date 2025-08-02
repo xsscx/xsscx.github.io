@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d0/d90/a01641" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccMatrixSolver</compoundname>
+    <derivedcompoundref refid="d9/dc5/a01705" prot="public" virt="non-virtual">CIccSimpleMatrixSolver</derivedcompoundref>
+    <includes refid="d3/d52/a00023" local="no">IccSolve.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d90/a01641_1a2a938dad3a9c23bdf12ac587584dec74" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool IIccMatrixSolver::Solve</definition>
+        <argsstring>(icFloatNumber *dXVector, const icFloatNumber *dMatrix, const icFloatNumber *dYVector, icUInt16Number nRows, icUInt16Number nCols)=0</argsstring>
+        <name>Solve</name>
+        <qualifiedname>IIccMatrixSolver::Solve</qualifiedname>
+        <reimplementedby refid="d9/dc5/a01705_1ab5312715639826bea72b17b2554ded06">Solve</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>dXVector</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>dMatrix</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>dYVector</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nRows</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nCols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Member Function: Solve</para>
+<para>Purpose: Solve for x in the matrix/vector equation y=Mx</para>
+<para>Parameters: -dMatrix is a matrix (M) with nRows x nCols entries -dYVector is a column vector (y) with nRows entries -dXVecotr is a column vector (x) with nCols entries</para>
+<para>Return: true if solution was found or false if solution not possible. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.h" line="103" column="16"/>
+        <referencedby refid="d7/d1c/a01397_1ada9311a3a01ab9c73f3f878c90ac95f6" compoundref="d9/d77/a00095" startline="553" endline="590">CIccOpDefSolve::Exec</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure: <ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref></para>
+<para>Purpose: Define an interface for allowing external implementation of matrix inversion </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccSimpleMatrixSolver</label>
+        <link refid="d9/dc5/a01705"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccMatrixSolver</label>
+        <link refid="d0/d90/a01641"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccSolve.h" line="85" column="1" bodyfile="IccProfLib/IccSolve.h" bodystart="86" bodyend="104"/>
+    <listofallmembers>
+      <member refid="d0/d90/a01641_1a2a938dad3a9c23bdf12ac587584dec74" prot="public" virt="pure-virtual"><scope>IIccMatrixSolver</scope><name>Solve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

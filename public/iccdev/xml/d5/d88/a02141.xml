@@ -1,0 +1,652 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d5/d88/a02141" kind="class" language="C++" prot="public">
+    <compoundname>CDevLinkWriter</compoundname>
+    <basecompoundref refid="da/d67/a02133" prot="public" virt="non-virtual">ILinkWriter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IXformIterator</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/d88/a02141_1abd5336a26dbb7abe6adc158541d9ad33" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CDevLinkWriter::m_bWriteV5</definition>
+        <argsstring></argsstring>
+        <name>m_bWriteV5</name>
+        <qualifiedname>CDevLinkWriter::m_bWriteV5</qualifiedname>
+        <initializer>= <ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="549" column="8" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="549" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" compoundref="d1/dc6/a00347" startline="457" endline="523">iterate</referencedby>
+        <referencedby refid="d5/d88/a02141_1a125f3ba2e95107efe41d3f2025e338eb" compoundref="d1/dc6/a00347" startline="273" endline="276">setOption</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1aedd6040ac8cdd897efbdb5574423df8b" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CDevLinkWriter::m_description</definition>
+        <argsstring></argsstring>
+        <name>m_description</name>
+        <qualifiedname>CDevLinkWriter::m_description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="552" column="15" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a41de6ac517f77c3b5d230351d71e96be" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CDevLinkWriter::m_filename</definition>
+        <argsstring></argsstring>
+        <name>m_filename</name>
+        <qualifiedname>CDevLinkWriter::m_filename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="548" column="15" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="548" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1a004c3173856bb6c4e8d9b9e112913702" compoundref="d1/dc6/a00347" startline="534" endline="545">finish</referencedby>
+        <referencedby refid="d5/d88/a02141_1acbe310204c94afa7283b05eb5bec7dbb" compoundref="d1/dc6/a00347" startline="266" endline="271">setFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1ad0e2f8f15e6cdb1087da5b62214178c4" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CDevLinkWriter::m_fMaxInput</definition>
+        <argsstring></argsstring>
+        <name>m_fMaxInput</name>
+        <qualifiedname>CDevLinkWriter::m_fMaxInput</qualifiedname>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="559" column="17" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="559" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1afdcfba387e2eac70435aca92d389bace" compoundref="d1/dc6/a00347" startline="295" endline="299">setInputRange</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a56fe5bef197acb4f60665611fe5cefe7" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CDevLinkWriter::m_fMinInput</definition>
+        <argsstring></argsstring>
+        <name>m_fMinInput</name>
+        <qualifiedname>CDevLinkWriter::m_fMinInput</qualifiedname>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="558" column="17" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="558" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1afdcfba387e2eac70435aca92d389bace" compoundref="d1/dc6/a00347" startline="295" endline="299">setInputRange</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a27c4dae76841786b6ce0c31049114a97" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CDevLinkWriter::m_grid</definition>
+        <argsstring></argsstring>
+        <name>m_grid</name>
+        <qualifiedname>CDevLinkWriter::m_grid</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="556" column="7" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="556" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a1f2b3fe929effeb42824d9aca623b69d" compoundref="d1/dc6/a00347" startline="288" endline="293">setLutSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a1f7c9a0b54add3e0901d12377550988e" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CDevLinkWriter::m_nCountdown</definition>
+        <argsstring></argsstring>
+        <name>m_nCountdown</name>
+        <qualifiedname>CDevLinkWriter::m_nCountdown</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="562" column="18" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="562" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a165b62c653eada2f28d388b6513eded9" compoundref="d1/dc6/a00347" startline="525" endline="532">setNextNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a4e83e57a94989330b87320d098ac766c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CDevLinkWriter::m_nOutSamples</definition>
+        <argsstring></argsstring>
+        <name>m_nOutSamples</name>
+        <qualifiedname>CDevLinkWriter::m_nOutSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="564" column="18" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="564" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a165b62c653eada2f28d388b6513eded9" compoundref="d1/dc6/a00347" startline="525" endline="532">setNextNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1ae23cb82a0c3f59d2ceaca875bd65a3fc" prot="protected" static="no" mutable="no">
+        <type>CIccCmm *</type>
+        <definition>CIccCmm* CDevLinkWriter::m_pCmm</definition>
+        <argsstring></argsstring>
+        <name>m_pCmm</name>
+        <qualifiedname>CDevLinkWriter::m_pCmm</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="554" column="11" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="554" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a7d0b6ded252b97b26dcba7166677f852" compoundref="d1/dc6/a00347" startline="283" endline="286">setCmm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1ab0c3f0231a17799c9735ed743f9b4bdd" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+        <definition>const CIccProfile* CDevLinkWriter::m_pFirstProfile</definition>
+        <argsstring></argsstring>
+        <name>m_pFirstProfile</name>
+        <qualifiedname>CDevLinkWriter::m_pFirstProfile</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="569" column="21" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="569" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" compoundref="d1/dc6/a00347" startline="457" endline="523">iterate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a23216a741bfd7a7a07ef0cd1cbba810a" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+        <definition>const CIccProfile* CDevLinkWriter::m_pLastProfile</definition>
+        <argsstring></argsstring>
+        <name>m_pLastProfile</name>
+        <qualifiedname>CDevLinkWriter::m_pLastProfile</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="570" column="21" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="570" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" compoundref="d1/dc6/a00347" startline="457" endline="523">iterate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a0a4ebac1fcaadb668a6e323ba39c1021" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CDevLinkWriter::m_pLutPtr</definition>
+        <argsstring></argsstring>
+        <name>m_pLutPtr</name>
+        <qualifiedname>CDevLinkWriter::m_pLutPtr</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="561" column="17" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="561" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a165b62c653eada2f28d388b6513eded9" compoundref="d1/dc6/a00347" startline="525" endline="532">setNextNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a76367c6183785b4c1b16f93230ef1b9b" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+        <definition>CIccProfile* CDevLinkWriter::m_pProfile</definition>
+        <argsstring></argsstring>
+        <name>m_pProfile</name>
+        <qualifiedname>CDevLinkWriter::m_pProfile</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="566" column="15" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="566" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1a40beac415849e5db0c87316de840c69e" compoundref="d1/dc6/a00347" startline="260" endline="264">~CDevLinkWriter</referencedby>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a004c3173856bb6c4e8d9b9e112913702" compoundref="d1/dc6/a00347" startline="534" endline="545">finish</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1a5260c6b63c17d8448169e1e003ddff55" prot="protected" static="no" mutable="no">
+        <type><ref refid="d3/dc4/a01089" kindref="compound">CIccTagProfileSeqDesc</ref> *</type>
+        <definition>CIccTagProfileSeqDesc* CDevLinkWriter::m_pTagSeq</definition>
+        <argsstring></argsstring>
+        <name>m_pTagSeq</name>
+        <qualifiedname>CDevLinkWriter::m_pTagSeq</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="572" column="25" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="572" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" compoundref="d1/dc6/a00347" startline="457" endline="523">iterate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d88/a02141_1af07dfdeb83ea6c8f6695c5c90455a04f" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CDevLinkWriter::m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <qualifiedname>CDevLinkWriter::m_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="550" column="15" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="550" bodyend="-1"/>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">begin</referencedby>
+        <referencedby refid="d5/d88/a02141_1a9254208f4d565957c563554ea11bc6ad" compoundref="d1/dc6/a00347" startline="278" endline="281">setTitle</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d88/a02141_1aef9442dd863a6dbef067597ca9027894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CDevLinkWriter::CDevLinkWriter</definition>
+        <argsstring>()</argsstring>
+        <name>CDevLinkWriter</name>
+        <qualifiedname>CDevLinkWriter::CDevLinkWriter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="259" column="3" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="259" bodyend="259"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1a40beac415849e5db0c87316de840c69e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CDevLinkWriter::~CDevLinkWriter</definition>
+        <argsstring>()</argsstring>
+        <name>~CDevLinkWriter</name>
+        <qualifiedname>CDevLinkWriter::~CDevLinkWriter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="260" column="11" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="260" bodyend="264"/>
+        <references refid="d5/d88/a02141_1a76367c6183785b4c1b16f93230ef1b9b" compoundref="d1/dc6/a00347" startline="566">m_pProfile</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CDevLinkWriter::begin</definition>
+        <argsstring>(icColorSpaceSignature srcSpace, icColorSpaceSignature dstSpace)</argsstring>
+        <name>begin</name>
+        <qualifiedname>CDevLinkWriter::begin</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a9f00675904807a232de4a21629aeaa2c">begin</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>srcSpace</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>dstSpace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="301" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="301" bodyend="455"/>
+        <references refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT::CIccCLUT</references>
+        <references refid="dd/dd5/a00861_1aee5574bca7eff032a9530c762674ff2a" compoundref="d6/d2d/a00047" startline="5368" endline="5375">CIccMpeCLUT::CIccMpeCLUT</references>
+        <references refid="d5/dac/a00841_1abbb7c2dbec3e482852ba53d2563070db" compoundref="d6/d2d/a00047" startline="2968" endline="2981">CIccMpeCurveSet::CIccMpeCurveSet</references>
+        <references refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</references>
+        <references refid="d6/dc4/a01125_1a983e2d437f3d3c2b1adc588f64940e44" compoundref="d4/d3e/a00116" startline="143" endline="150">CIccTagCurve::CIccTagCurve</references>
+        <references refid="d9/d25/a01157_1a2f7ef4bc5f9a9bf233dcebee0111862e" compoundref="d4/d3e/a00116" startline="3836" endline="3840">CIccTagLutAtoB::CIccTagLutAtoB</references>
+        <references refid="d2/db8/a01057_1a6772927e41579efdc90742c6cd6cdf7f" compoundref="d9/dd0/a00191" startline="7374" endline="7377">CIccTagMultiLocalizedUnicode::CIccTagMultiLocalizedUnicode</references>
+        <references refid="d5/d54/a01213_1accc12b22f49ab9e476708f80fa61f412" compoundref="dc/d87/a00032" startline="695" endline="710">CIccTagMultiProcessElement::CIccTagMultiProcessElement</references>
+        <references refid="d3/dc4/a01089_1aa7f7bebe988e83062098831bc49e2291" compoundref="d9/dd0/a00191" startline="9472" endline="9475">CIccTagProfileSeqDesc::CIccTagProfileSeqDesc</references>
+        <references refid="d5/d54/a01213_1a22396fa68e0b7a5b8d3c0aba49a32342" compoundref="dc/d87/a00032" startline="922" endline="933">CIccTagMultiProcessElement::Attach</references>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <references refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" compoundref="d7/d46/a00002" startline="2048">icHeader::colorSpace</references>
+        <references refid="d4/dd7/a00793_1a1f3bfb3d969d1976ee9913792496c6c5" compoundref="d7/d46/a00002" startline="2047">icHeader::deviceClass</references>
+        <references refid="d8/d02/a01149_1aa42861bdf83a889cb2bb7dc8940ba325" compoundref="da/d24/a00068" startline="347" endline="347">CIccCLUT::GetData</references>
+        <references refid="dc/d6e/a00833_1a3d5d9a34a381cef509b69f13ce64360c" compoundref="d2/de7/a00014" startline="309" endline="309">CIccSingleSampledCurve::GetSamples</references>
+        <references refid="d7/dce/a00143_1a719dc0d47f230294e78ac9c8cbc91a89" compoundref="d5/db1/a00140" startline="1303" endline="1365">icGetSpaceSamples</references>
+        <references refid="d7/dce/a00143_1aaf96c225d68d992235383deca65d96c9" compoundref="d5/db1/a00140" startline="142" endline="145">icIsNear</references>
+        <references refid="d7/dce/a00143_1a2685f9528dab905cc6b2b071625709e1" compoundref="d5/db1/a00140" startline="262" endline="293">icIsSpaceCLR</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a48a680ba3049e0c37a44da9f08e411c7" compoundref="d7/d46/a00002" startline="342">icSigAToB0Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab5cfe5011e31bc9d5b3d763c49661ebb" compoundref="d7/d46/a00002" startline="390">icSigColorantTableOutTag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a582fe6846ecfc5f4f92fb3376fdebd00" compoundref="d7/d46/a00002" startline="389">icSigColorantTableTag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a986d30d833726433b8fad6c8a6713bfc" compoundref="d7/d46/a00002" startline="392">icSigCopyrightTag</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0af50c13fdfab9fcc0a7b831ac86d1fe3b" compoundref="d7/d46/a00002" startline="955">icSigLinkClass</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a92a815c1697e8b8a4f91474a8f4a5b6b" compoundref="d7/d46/a00002" startline="452">icSigProfileDescriptionTag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a5faff0b79b660d8695fdad803ba4f4cb" compoundref="d7/d46/a00002" startline="453">icSigProfileSequenceDescTag</references>
+        <references refid="d8/d02/a01149_1afaacdd60037b3ebf7682d55a45009a31" compoundref="d4/d3e/a00116" startline="1806" endline="1814">CIccCLUT::Init</references>
+        <references refid="dc/d06/a01153_1afc8280be7ae2a52c626da5072f2042aa" compoundref="d4/d3e/a00116" startline="3410" endline="3415">CIccMBB::Init</references>
+        <references refid="dc/d2f/a00425_1a4085cef4f9c9c594c790d8e3cae1124a" compoundref="d5/db1/a00140" startline="2531" endline="2576">CIccInfo::IsValidSpace</references>
+        <references refid="d5/d88/a02141_1abd5336a26dbb7abe6adc158541d9ad33" compoundref="d1/dc6/a00347" startline="549">m_bWriteV5</references>
+        <references refid="d3/dc4/a01089_1afa0e7e0f2a5de20db50d0fb7f995bd4d" compoundref="da/dec/a00080" startline="1541">CIccTagProfileSeqDesc::m_Descriptions</references>
+        <references refid="d5/d88/a02141_1ad0e2f8f15e6cdb1087da5b62214178c4" compoundref="d1/dc6/a00347" startline="559">m_fMaxInput</references>
+        <references refid="d5/d88/a02141_1a56fe5bef197acb4f60665611fe5cefe7" compoundref="d1/dc6/a00347" startline="558">m_fMinInput</references>
+        <references refid="d5/d88/a02141_1a27c4dae76841786b6ce0c31049114a97" compoundref="d1/dc6/a00347" startline="556">m_grid</references>
+        <references refid="d5/d88/a02141_1a1f7c9a0b54add3e0901d12377550988e" compoundref="d1/dc6/a00347" startline="562">m_nCountdown</references>
+        <references refid="d5/d88/a02141_1a4e83e57a94989330b87320d098ac766c" compoundref="d1/dc6/a00347" startline="564">m_nOutSamples</references>
+        <references refid="d5/d88/a02141_1ae23cb82a0c3f59d2ceaca875bd65a3fc" compoundref="d1/dc6/a00347" startline="554">m_pCmm</references>
+        <references refid="d5/d88/a02141_1ab0c3f0231a17799c9735ed743f9b4bdd" compoundref="d1/dc6/a00347" startline="569">m_pFirstProfile</references>
+        <references refid="d5/d88/a02141_1a23216a741bfd7a7a07ef0cd1cbba810a" compoundref="d1/dc6/a00347" startline="570">m_pLastProfile</references>
+        <references refid="d5/d88/a02141_1a0a4ebac1fcaadb668a6e323ba39c1021" compoundref="d1/dc6/a00347" startline="561">m_pLutPtr</references>
+        <references refid="d5/d88/a02141_1a76367c6183785b4c1b16f93230ef1b9b" compoundref="d1/dc6/a00347" startline="566">m_pProfile</references>
+        <references refid="d5/d88/a02141_1a5260c6b63c17d8448169e1e003ddff55" compoundref="d1/dc6/a00347" startline="572">m_pTagSeq</references>
+        <references refid="d5/d88/a02141_1af07dfdeb83ea6c8f6695c5c90455a04f" compoundref="d1/dc6/a00347" startline="550">m_title</references>
+        <references refid="dc/d06/a01153_1aeae51e01af120d668c43f51ae55b53da" compoundref="d4/d3e/a00116" startline="3815" endline="3825">CIccMBB::NewCLUT</references>
+        <references refid="d7/dfd/a00969_1afc2491647e600a6f2ffefb36af6055d6" compoundref="da/dec/a00080" startline="121" endline="121">CIccTag::NewCopy</references>
+        <references refid="dc/d06/a01153_1a8009ad10a01ed3003cdef16a3463aab1" compoundref="d4/d3e/a00116" startline="3673" endline="3684">CIccMBB::NewCurvesA</references>
+        <references refid="dc/d06/a01153_1a19e2d170d9b0482fa4bb6038b0d0bdcb" compoundref="d4/d3e/a00116" startline="3718" endline="3729">CIccMBB::NewCurvesB</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">CIccCLUT::NumPoints</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <references refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" compoundref="d6/d2d/a00047" startline="5456" endline="5467">CIccMpeCLUT::SetCLUT</references>
+        <references refid="d5/dac/a00841_1aa48a840e618570c5dab5535288fe85a6" compoundref="d6/d2d/a00047" startline="3152" endline="3174">CIccMpeCurveSet::SetCurve</references>
+        <references refid="dc/d6e/a00833_1aaa3aedfdfc42efaabd8c67583b58fba3" compoundref="d6/d2d/a00047" startline="1476" endline="1501">CIccSingleSampledCurve::SetSize</references>
+        <references refid="d2/db8/a01057_1a189b03800714fe33e7882fe3186252fb" compoundref="d9/dd0/a00191" startline="7719" endline="7733">CIccTagMultiLocalizedUnicode::SetText</references>
+        <references refid="d4/dd7/a00793_1ab4a2c325ab3c203cc7a7d79be401425d" compoundref="d7/d46/a00002" startline="2046">icHeader::version</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1a004c3173856bb6c4e8d9b9e112913702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CDevLinkWriter::finish</definition>
+        <argsstring>()</argsstring>
+        <name>finish</name>
+        <qualifiedname>CDevLinkWriter::finish</qualifiedname>
+        <reimplements refid="da/d67/a02133_1abb39a43bb7ffad13c59ae3923bd44b74">finish</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="534" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="534" bodyend="545"/>
+        <references refid="d5/d88/a02141_1a41de6ac517f77c3b5d230351d71e96be" compoundref="d1/dc6/a00347" startline="548">m_filename</references>
+        <references refid="d5/d88/a02141_1a76367c6183785b4c1b16f93230ef1b9b" compoundref="d1/dc6/a00347" startline="566">m_pProfile</references>
+        <references refid="d0/dc2/a00104_1a6894945253a48b3b41ae30654beca9b6" compoundref="d0/dc2/a00104" startline="3691" endline="3707">SaveIccProfile</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CDevLinkWriter::iterate</definition>
+        <argsstring>(const CIccXform *pXform)</argsstring>
+        <name>iterate</name>
+        <qualifiedname>CDevLinkWriter::iterate</qualifiedname>
+        <param>
+          <type>const CIccXform *</type>
+          <declname>pXform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="457" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="457" bodyend="523"/>
+        <references refid="d4/dd7/a00793_1a117a1b7fcb21e91fef327acfa94ba6e2" compoundref="d7/d46/a00002" startline="2056">icHeader::attributes</references>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <references refid="dd/dee/a01081_1aa4678e864f3f11cf1cfb3ff583b79b95" compoundref="da/dec/a00080" startline="1468" endline="1468">CIccProfileDescText::GetTag</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="df/d59/a01001_1a1c0be52357c3d68a04657e39d25c414b" compoundref="da/dec/a00080" startline="554" endline="554">CIccTagSignature::GetValue</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a0ccb9a14cd9902612e550765e873d094" compoundref="d7/d46/a00002" startline="401">icSigDeviceMfgDescTag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a49b47bad58407ecfcaea432c73a9ee2a" compoundref="d7/d46/a00002" startline="402">icSigDeviceModelDescTag</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6138e5639e8125b850bbb5ac1ff683ce" compoundref="d7/d46/a00002" startline="549">icSigMultiLocalizedUnicodeType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead76a6a52f1dc2eb085749ae311c51136" compoundref="d7/d46/a00002" startline="559">icSigSignatureType</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ad984cb6805488dee7aebab1acf052c24" compoundref="d7/d46/a00002" startline="473">icSigTechnologyTag</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" compoundref="d7/d46/a00002" startline="566">icSigTextDescriptionType</references>
+        <references refid="d2/df3/a01085_1affae9212a7c184c302f80f09386188d5" compoundref="da/dec/a00080" startline="1500">CIccProfileDescStruct::m_attributes</references>
+        <references refid="d5/d88/a02141_1abd5336a26dbb7abe6adc158541d9ad33" compoundref="d1/dc6/a00347" startline="549">m_bWriteV5</references>
+        <references refid="d3/dc4/a01089_1afa0e7e0f2a5de20db50d0fb7f995bd4d" compoundref="da/dec/a00080" startline="1541">CIccTagProfileSeqDesc::m_Descriptions</references>
+        <references refid="d2/df3/a01085_1a4daa3327f9b8127b5affb40f62440ae4" compoundref="da/dec/a00080" startline="1498">CIccProfileDescStruct::m_deviceMfg</references>
+        <references refid="d2/df3/a01085_1a3c90a3b1e99c920e5ca48dbc8ce2cab7" compoundref="da/dec/a00080" startline="1502">CIccProfileDescStruct::m_deviceMfgDesc</references>
+        <references refid="d2/df3/a01085_1a5c93d165339af67e85a09fdbfad051c2" compoundref="da/dec/a00080" startline="1499">CIccProfileDescStruct::m_deviceModel</references>
+        <references refid="d2/df3/a01085_1ac85e36485dd846b824a87f31eb7da3f0" compoundref="da/dec/a00080" startline="1503">CIccProfileDescStruct::m_deviceModelDesc</references>
+        <references refid="d5/d88/a02141_1ab0c3f0231a17799c9735ed743f9b4bdd" compoundref="d1/dc6/a00347" startline="569">m_pFirstProfile</references>
+        <references refid="d5/d88/a02141_1a23216a741bfd7a7a07ef0cd1cbba810a" compoundref="d1/dc6/a00347" startline="570">m_pLastProfile</references>
+        <references refid="d5/d88/a02141_1a5260c6b63c17d8448169e1e003ddff55" compoundref="d1/dc6/a00347" startline="572">m_pTagSeq</references>
+        <references refid="d2/df3/a01085_1a99f7828bc265a46c705e56f2156bf3d9" compoundref="da/dec/a00080" startline="1501">CIccProfileDescStruct::m_technology</references>
+        <references refid="d4/dd7/a00793_1ae4dad2671f72ac7610d69886a7984db6" compoundref="d7/d46/a00002" startline="2054">icHeader::manufacturer</references>
+        <references refid="d4/dd7/a00793_1ae7be6a9022d993c5d932a6dba7fe6b05" compoundref="d7/d46/a00002" startline="2055">icHeader::model</references>
+        <references refid="d2/db8/a01057_1a8232043ba27165ef9746e560a9b1bfe9" compoundref="d9/dd0/a00191" startline="7407" endline="7416">CIccTagMultiLocalizedUnicode::operator=</references>
+        <references refid="d0/d28/a00997_1aebb8a3c6a51082357a60c306ae799dae" compoundref="d9/dd0/a00191" startline="1985" endline="2025">CIccTagTextDescription::operator=</references>
+        <references refid="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" compoundref="d9/dd0/a00191" startline="9263" endline="9279">CIccProfileDescText::SetType</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1a7d0b6ded252b97b26dcba7166677f852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CDevLinkWriter::setCmm</definition>
+        <argsstring>(CIccCmm *pCmm)</argsstring>
+        <name>setCmm</name>
+        <qualifiedname>CDevLinkWriter::setCmm</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a5c5eb0fb9133cc203275e77b34a17e18">setCmm</reimplements>
+        <param>
+          <type>CIccCmm *</type>
+          <declname>pCmm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="283" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="283" bodyend="286"/>
+        <references refid="d5/d88/a02141_1ae23cb82a0c3f59d2ceaca875bd65a3fc" compoundref="d1/dc6/a00347" startline="554">m_pCmm</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1acbe310204c94afa7283b05eb5bec7dbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CDevLinkWriter::setFile</definition>
+        <argsstring>(const char *szOutputFile)</argsstring>
+        <name>setFile</name>
+        <qualifiedname>CDevLinkWriter::setFile</qualifiedname>
+        <reimplements refid="da/d67/a02133_1ace533c051e60dce185bd3fa8a9286aae">setFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>szOutputFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="266" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="266" bodyend="271"/>
+        <references refid="d5/d88/a02141_1a41de6ac517f77c3b5d230351d71e96be" compoundref="d1/dc6/a00347" startline="548">m_filename</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1afdcfba387e2eac70435aca92d389bace" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CDevLinkWriter::setInputRange</definition>
+        <argsstring>(icFloatNumber fMinInput, icFloatNumber fMaxInput)</argsstring>
+        <name>setInputRange</name>
+        <qualifiedname>CDevLinkWriter::setInputRange</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a1a0ec1de1132136c692e47fef95ea4df">setInputRange</reimplements>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>fMinInput</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>fMaxInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="295" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="295" bodyend="299"/>
+        <references refid="d5/d88/a02141_1ad0e2f8f15e6cdb1087da5b62214178c4" compoundref="d1/dc6/a00347" startline="559">m_fMaxInput</references>
+        <references refid="d5/d88/a02141_1a56fe5bef197acb4f60665611fe5cefe7" compoundref="d1/dc6/a00347" startline="558">m_fMinInput</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1a1f2b3fe929effeb42824d9aca623b69d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CDevLinkWriter::setLutSize</definition>
+        <argsstring>(icUInt8Number nGridSize)</argsstring>
+        <name>setLutSize</name>
+        <qualifiedname>CDevLinkWriter::setLutSize</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a1e84b92da6f85a0e87aa285196482c5a">setLutSize</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nGridSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="288" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="288" bodyend="293"/>
+        <references refid="d5/d88/a02141_1a27c4dae76841786b6ce0c31049114a97" compoundref="d1/dc6/a00347" startline="556">m_grid</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1a165b62c653eada2f28d388b6513eded9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CDevLinkWriter::setNextNode</definition>
+        <argsstring>(icFloatNumber *pPixel)</argsstring>
+        <name>setNextNode</name>
+        <qualifiedname>CDevLinkWriter::setNextNode</qualifiedname>
+        <reimplements refid="da/d67/a02133_1aee554824cef19c23dc5db814aa8cba3f">setNextNode</reimplements>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="525" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="525" bodyend="532"/>
+        <references refid="d5/d88/a02141_1a1f7c9a0b54add3e0901d12377550988e" compoundref="d1/dc6/a00347" startline="562">m_nCountdown</references>
+        <references refid="d5/d88/a02141_1a4e83e57a94989330b87320d098ac766c" compoundref="d1/dc6/a00347" startline="564">m_nOutSamples</references>
+        <references refid="d5/d88/a02141_1a0a4ebac1fcaadb668a6e323ba39c1021" compoundref="d1/dc6/a00347" startline="561">m_pLutPtr</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1a125f3ba2e95107efe41d3f2025e338eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CDevLinkWriter::setOption</definition>
+        <argsstring>(int nOptionValue)</argsstring>
+        <name>setOption</name>
+        <qualifiedname>CDevLinkWriter::setOption</qualifiedname>
+        <reimplements refid="da/d67/a02133_1aee195159919752a100c3014b3cd484be">setOption</reimplements>
+        <param>
+          <type>int</type>
+          <declname>nOptionValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="273" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="273" bodyend="276"/>
+        <references refid="d5/d88/a02141_1abd5336a26dbb7abe6adc158541d9ad33" compoundref="d1/dc6/a00347" startline="549">m_bWriteV5</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/d88/a02141_1a9254208f4d565957c563554ea11bc6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CDevLinkWriter::setTitle</definition>
+        <argsstring>(const char *szTitle)</argsstring>
+        <name>setTitle</name>
+        <qualifiedname>CDevLinkWriter::setTitle</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a325a3d01dc27511586f735e07e1c6363">setTitle</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>szTitle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="278" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="278" bodyend="281"/>
+        <references refid="d5/d88/a02141_1af07dfdeb83ea6c8f6695c5c90455a04f" compoundref="d1/dc6/a00347" startline="550">m_title</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CDevLinkWriter</label>
+        <link refid="d5/d88/a02141"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ILinkWriter</label>
+        <link refid="da/d67/a02133"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CDevLinkWriter</label>
+        <link refid="d5/d88/a02141"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_pTagSeq</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="3">
+        <label>CIccTagProfileSeqDesc</label>
+        <link refid="d3/dc4/a01089"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ILinkWriter</label>
+        <link refid="da/d67/a02133"/>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="256" column="1" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="257" bodyend="573"/>
+    <listofallmembers>
+      <member refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>begin</name></member>
+      <member refid="d5/d88/a02141_1aef9442dd863a6dbef067597ca9027894" prot="public" virt="non-virtual"><scope>CDevLinkWriter</scope><name>CDevLinkWriter</name></member>
+      <member refid="d5/d88/a02141_1a004c3173856bb6c4e8d9b9e112913702" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>finish</name></member>
+      <member refid="da/d67/a02133_1a317774e1a02fccdbf3175f741ea3930f" prot="public" virt="non-virtual"><scope>CDevLinkWriter</scope><name>ILinkWriter</name></member>
+      <member refid="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>iterate</name></member>
+      <member refid="d5/d88/a02141_1abd5336a26dbb7abe6adc158541d9ad33" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_bWriteV5</name></member>
+      <member refid="d5/d88/a02141_1aedd6040ac8cdd897efbdb5574423df8b" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_description</name></member>
+      <member refid="d5/d88/a02141_1a41de6ac517f77c3b5d230351d71e96be" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_filename</name></member>
+      <member refid="d5/d88/a02141_1ad0e2f8f15e6cdb1087da5b62214178c4" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_fMaxInput</name></member>
+      <member refid="d5/d88/a02141_1a56fe5bef197acb4f60665611fe5cefe7" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_fMinInput</name></member>
+      <member refid="d5/d88/a02141_1a27c4dae76841786b6ce0c31049114a97" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_grid</name></member>
+      <member refid="d5/d88/a02141_1a1f7c9a0b54add3e0901d12377550988e" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_nCountdown</name></member>
+      <member refid="d5/d88/a02141_1a4e83e57a94989330b87320d098ac766c" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_nOutSamples</name></member>
+      <member refid="d5/d88/a02141_1ae23cb82a0c3f59d2ceaca875bd65a3fc" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_pCmm</name></member>
+      <member refid="d5/d88/a02141_1ab0c3f0231a17799c9735ed743f9b4bdd" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_pFirstProfile</name></member>
+      <member refid="d5/d88/a02141_1a23216a741bfd7a7a07ef0cd1cbba810a" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_pLastProfile</name></member>
+      <member refid="d5/d88/a02141_1a0a4ebac1fcaadb668a6e323ba39c1021" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_pLutPtr</name></member>
+      <member refid="d5/d88/a02141_1a76367c6183785b4c1b16f93230ef1b9b" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_pProfile</name></member>
+      <member refid="d5/d88/a02141_1a5260c6b63c17d8448169e1e003ddff55" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_pTagSeq</name></member>
+      <member refid="d5/d88/a02141_1af07dfdeb83ea6c8f6695c5c90455a04f" prot="protected" virt="non-virtual"><scope>CDevLinkWriter</scope><name>m_title</name></member>
+      <member refid="d5/d88/a02141_1a7d0b6ded252b97b26dcba7166677f852" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>setCmm</name></member>
+      <member refid="d5/d88/a02141_1acbe310204c94afa7283b05eb5bec7dbb" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>setFile</name></member>
+      <member refid="d5/d88/a02141_1afdcfba387e2eac70435aca92d389bace" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>setInputRange</name></member>
+      <member refid="d5/d88/a02141_1a1f2b3fe929effeb42824d9aca623b69d" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>setLutSize</name></member>
+      <member refid="d5/d88/a02141_1a165b62c653eada2f28d388b6513eded9" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>setNextNode</name></member>
+      <member refid="d5/d88/a02141_1a125f3ba2e95107efe41d3f2025e338eb" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>setOption</name></member>
+      <member refid="d5/d88/a02141_1a9254208f4d565957c563554ea11bc6ad" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>setTitle</name></member>
+      <member refid="d5/d88/a02141_1a40beac415849e5db0c87316de840c69e" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>~CDevLinkWriter</name></member>
+      <member refid="da/d67/a02133_1a05552ceaf3b6e6860a4b27159480d3ab" prot="public" virt="virtual"><scope>CDevLinkWriter</scope><name>~ILinkWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

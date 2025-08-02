@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d7b/a00865" kind="class" language="C++" prot="public">
+    <compoundname>CIccApplyMpeCLUT</compoundname>
+    <basecompoundref refid="d4/d10/a01197" prot="public" virt="non-virtual">CIccApplyMpe</basecompoundref>
+    <includes refid="d2/de7/a00014" local="no">IccMpeBasic.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="dd/d7b/a00865_1a9bd4d0034444a0596288df55286588fe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CIccMpeCLUT</definition>
+        <argsstring></argsstring>
+        <name>CIccMpeCLUT</name>
+        <qualifiedname>CIccApplyMpeCLUT::CIccMpeCLUT</qualifiedname>
+        <param>
+          <type><ref refid="dd/dd5/a00861" kindref="compound">CIccMpeCLUT</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="696" column="16" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="696" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dd/d7b/a00865_1a62dc6eac6af7783140af65b5fb7ceee9" prot="protected" static="no" mutable="no">
+        <type><ref refid="d9/d65/a01145" kindref="compound">CIccApplyCLUT</ref> *</type>
+        <definition>CIccApplyCLUT* CIccApplyMpeCLUT::m_pApply</definition>
+        <argsstring></argsstring>
+        <name>m_pApply</name>
+        <qualifiedname>CIccApplyMpeCLUT::m_pApply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="708" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="708" bodyend="-1"/>
+        <referencedby refid="dd/d7b/a00865_1a3eadfbe31260bcb059840eec75e22081" compoundref="d6/d2d/a00047" startline="5762" endline="5765">CIccApplyMpeCLUT</referencedby>
+        <referencedby refid="dd/d7b/a00865_1a72535e6276c66b1f88351cd04d3d9de9" compoundref="d6/d2d/a00047" startline="5776" endline="5780">~CIccApplyMpeCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d10/a01197_1a9d1bcbeadff3d92ecb0ab4d9a5fe91f6" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d04/a01209" kindref="compound">CIccApplyTagMpe</ref> *</type>
+        <definition>CIccApplyTagMpe* CIccApplyMpe::m_pApplyTag</definition>
+        <argsstring></argsstring>
+        <name>m_pApplyTag</name>
+        <qualifiedname>CIccApplyMpe::m_pApplyTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="216" column="19" bodyfile="IccProfLib/IccTagMPE.h" bodystart="216" bodyend="-1"/>
+        <referencedby refid="d4/d10/a01197_1a7df3e118c3960632a097231875a9e03f" compoundref="dc/d87/a00032" startline="99" endline="103">CIccApplyMpe::CIccApplyMpe</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" prot="protected" static="no" mutable="no">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement* CIccApplyMpe::m_pElem</definition>
+        <argsstring></argsstring>
+        <name>m_pElem</name>
+        <qualifiedname>CIccApplyMpe::m_pElem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="218" column="27" bodyfile="IccProfLib/IccTagMPE.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="d4/d10/a01197_1a7df3e118c3960632a097231875a9e03f" compoundref="dc/d87/a00032" startline="99" endline="103">CIccApplyMpe::CIccApplyMpe</referencedby>
+        <referencedby refid="d4/d10/a01197_1a6589503e4554b1bea667021239a75ab1" compoundref="d7/d25/a00182" startline="213" endline="213">CIccApplyMpe::Apply</referencedby>
+        <referencedby refid="d4/d10/a01197_1a4080797013d21f537ee53cee3ac7c909" compoundref="d7/d25/a00182" startline="211" endline="211">CIccApplyMpe::GetElem</referencedby>
+        <referencedby refid="d9/d45/a01665_1adfffc76b7392ccbd09525d193e0ee5df" compoundref="d3/de5/a00209" startline="259" endline="259">CIccApplyMpeSpectralCLUT::GetType</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d7b/a00865_1a72535e6276c66b1f88351cd04d3d9de9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccApplyMpeCLUT::~CIccApplyMpeCLUT</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccApplyMpeCLUT</name>
+        <qualifiedname>CIccApplyMpeCLUT::~CIccApplyMpeCLUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/d7b/a00865_1a72535e6276c66b1f88351cd04d3d9de9" kindref="member">CIccApplyMpeCLUT::~CIccApplyMpeCLUT</ref></para>
+<para>Purpose: Destructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="698" column="11" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5776" bodyend="5780"/>
+        <references refid="dd/d7b/a00865_1a62dc6eac6af7783140af65b5fb7ceee9" compoundref="d2/de7/a00014" startline="708">m_pApply</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/a01197_1a6589503e4554b1bea667021239a75ab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccApplyMpe::Apply</definition>
+        <argsstring>(icFloatNumber *pDestPixel, const icFloatNumber *pSrcPixel)</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccApplyMpe::Apply</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pDestPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pSrcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="213" column="8" bodyfile="IccProfLib/IccTagMPE.h" bodystart="213" bodyend="213"/>
+        <references refid="dd/d43/a01193_1a2cad8bcdf828e1abf3623d85dcacdab6">CIccMultiProcessElement::Apply</references>
+        <references refid="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" compoundref="d7/d25/a00182" startline="218">CIccApplyMpe::m_pElem</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+        <referencedby refid="de/d90/a01313_1ac7ddf1728b0becef1ae370e4bd4a7d4c" compoundref="d5/de0/a00050" startline="432" endline="432">CIccSubCalcApply::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d7b/a00865_1a0cf28d23eca0843c2eb6ad3e65a85344" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccApplyMpeCLUT::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccApplyMpeCLUT::GetClassName</qualifiedname>
+        <reimplements refid="d4/d10/a01197_1a73c75ee635c95d83f1c51c72bae96a31">GetClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="701" column="24" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="701" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/a01197_1a4080797013d21f537ee53cee3ac7c909" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement * CIccApplyMpe::GetElem</definition>
+        <argsstring>() const</argsstring>
+        <name>GetElem</name>
+        <qualifiedname>CIccApplyMpe::GetElem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="211" column="27" bodyfile="IccProfLib/IccTagMPE.h" bodystart="211" bodyend="211"/>
+        <references refid="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" compoundref="d7/d25/a00182" startline="218">CIccApplyMpe::m_pElem</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+        <referencedby refid="de/d90/a01313_1a1857e159fd4f90872cd211ec6981d3a0" compoundref="d5/de0/a00050" startline="429" endline="429">CIccSubCalcApply::NumInputChannels</referencedby>
+        <referencedby refid="de/d90/a01313_1ae4ec84ae3195cba2bc618338e18dffa0" compoundref="d5/de0/a00050" startline="430" endline="430">CIccSubCalcApply::NumOutputChannels</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d7b/a00865_1a66cb3832096eaa24058b83ea3462a89f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+        <definition>virtual icElemTypeSignature CIccApplyMpeCLUT::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccApplyMpeCLUT::GetType</qualifiedname>
+        <reimplements refid="d4/d10/a01197_1a031bd80036513804d18f971a490168b3">GetType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="700" column="31" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="700" bodyend="700"/>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da525c6722c328164b30a28a6b93bac555" compoundref="d7/d46/a00002" startline="645">icSigCLutElemType</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d7b/a00865_1a12bdcd506eacf5404bbb4b512fdb4419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccApplyMpeCLUT::Init</definition>
+        <argsstring>(icUInt32Number nNodes)</argsstring>
+        <name>Init</name>
+        <qualifiedname>CIccApplyMpeCLUT::Init</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nNodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="703" column="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dd/d7b/a00865_1a3eadfbe31260bcb059840eec75e22081" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccApplyMpeCLUT::CIccApplyMpeCLUT</definition>
+        <argsstring>(CIccMultiProcessElement *pElem, CIccApplyCLUT *pApply)</argsstring>
+        <name>CIccApplyMpeCLUT</name>
+        <qualifiedname>CIccApplyMpeCLUT::CIccApplyMpeCLUT</qualifiedname>
+        <param>
+          <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+          <declname>pElem</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/d65/a01145" kindref="compound">CIccApplyCLUT</ref> *</type>
+          <declname>pApply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/d7b/a00865_1a3eadfbe31260bcb059840eec75e22081" kindref="member">CIccApplyMpeCLUT::CIccApplyMpeCLUT</ref></para>
+<para>Purpose: Constructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="706" column="3" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5762" bodyend="5765"/>
+        <references refid="d4/d10/a01197_1a7df3e118c3960632a097231875a9e03f" compoundref="dc/d87/a00032" startline="99" endline="103">CIccApplyMpe::CIccApplyMpe</references>
+        <references refid="dd/d7b/a00865_1a62dc6eac6af7783140af65b5fb7ceee9" compoundref="d2/de7/a00014" startline="708">m_pApply</references>
+        <referencedby refid="dd/dd5/a00861_1ae6dbc5e23dfb983719445609c76a3548" compoundref="d6/d2d/a00047" startline="5737" endline="5752">CIccMpeCLUT::GetNewApply</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="dd/d7b/a00865" kindref="compound">CIccApplyMpeCLUT</ref></para>
+<para>Purpose: The Calculator process element apply data </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccApplyMpe</label>
+        <link refid="d4/d10/a01197"/>
+      </node>
+      <node id="1">
+        <label>CIccApplyMpeCLUT</label>
+        <link refid="dd/d7b/a00865"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>CIccApplyCLUT</label>
+        <link refid="d9/d65/a01145"/>
+      </node>
+      <node id="2">
+        <label>CIccApplyMpe</label>
+        <link refid="d4/d10/a01197"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_pApplyTag</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>m_pElem</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccApplyMpeCLUT</label>
+        <link refid="dd/d7b/a00865"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>m_pApply</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccApplyTagMpe</label>
+        <link refid="de/d04/a01209"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_pTag</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>m_applyBuf</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccDblPixelBuffer</label>
+        <link refid="de/d61/a01205"/>
+      </node>
+      <node id="10">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+      <node id="5">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="4">
+        <label>CIccTagMultiProcessElement</label>
+        <link refid="d5/d54/a01213"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_pAppliedPCC</edgelabel>
+          <edgelabel>m_pProfilePCC</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_pCmmEnvVarLookup</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IIccCmmEnvVarLookup</label>
+        <link refid="dd/d07/a00433"/>
+      </node>
+      <node id="7">
+        <label>IIccProfileConnectionConditions</label>
+        <link refid="db/d18/a00885"/>
+      </node>
+      <node id="6">
+        <label>icPositionNumber</label>
+        <link refid="d8/d6e/a00537"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeBasic.h" line="694" column="1" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="695" bodyend="709"/>
+    <listofallmembers>
+      <member refid="d4/d10/a01197_1a6589503e4554b1bea667021239a75ab1" prot="public" virt="non-virtual"><scope>CIccApplyMpeCLUT</scope><name>Apply</name></member>
+      <member refid="d4/d10/a01197_1a7df3e118c3960632a097231875a9e03f" prot="public" virt="non-virtual"><scope>CIccApplyMpeCLUT</scope><name>CIccApplyMpe</name></member>
+      <member refid="dd/d7b/a00865_1a3eadfbe31260bcb059840eec75e22081" prot="protected" virt="non-virtual"><scope>CIccApplyMpeCLUT</scope><name>CIccApplyMpeCLUT</name></member>
+      <member refid="dd/d7b/a00865_1a0cf28d23eca0843c2eb6ad3e65a85344" prot="public" virt="virtual"><scope>CIccApplyMpeCLUT</scope><name>GetClassName</name></member>
+      <member refid="d4/d10/a01197_1a4080797013d21f537ee53cee3ac7c909" prot="public" virt="non-virtual"><scope>CIccApplyMpeCLUT</scope><name>GetElem</name></member>
+      <member refid="dd/d7b/a00865_1a66cb3832096eaa24058b83ea3462a89f" prot="public" virt="virtual"><scope>CIccApplyMpeCLUT</scope><name>GetType</name></member>
+      <member refid="dd/d7b/a00865_1a12bdcd506eacf5404bbb4b512fdb4419" prot="public" virt="non-virtual"><scope>CIccApplyMpeCLUT</scope><name>Init</name></member>
+      <member refid="dd/d7b/a00865_1a62dc6eac6af7783140af65b5fb7ceee9" prot="protected" virt="non-virtual"><scope>CIccApplyMpeCLUT</scope><name>m_pApply</name></member>
+      <member refid="d4/d10/a01197_1a9d1bcbeadff3d92ecb0ab4d9a5fe91f6" prot="protected" virt="non-virtual"><scope>CIccApplyMpeCLUT</scope><name>m_pApplyTag</name></member>
+      <member refid="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" prot="protected" virt="non-virtual"><scope>CIccApplyMpeCLUT</scope><name>m_pElem</name></member>
+      <member refid="d4/d10/a01197_1afe0de9d31be8e5ada7355c8c6969794b" prot="public" virt="virtual"><scope>CIccApplyMpeCLUT</scope><name>~CIccApplyMpe</name></member>
+      <member refid="dd/d7b/a00865_1a72535e6276c66b1f88351cd04d3d9de9" prot="public" virt="virtual"><scope>CIccApplyMpeCLUT</scope><name>~CIccApplyMpeCLUT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

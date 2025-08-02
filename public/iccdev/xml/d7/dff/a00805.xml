@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/dff/a00805" kind="class" language="C++" prot="public">
+    <compoundname>CIccBaseXformFactory</compoundname>
+    <basecompoundref refid="d7/d0a/a00801" prot="public" virt="non-virtual">IIccXformFactory</basecompoundref>
+    <includes refid="df/d98/a00107" local="no">IccXformFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dff/a00805_1a70ec2a25402640f065f7f735285b16b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>CIccXform *</type>
+        <definition>CIccXform * CIccBaseXformFactory::CreateXform</definition>
+        <argsstring>(icXformType xformType, CIccTag *pTag=NULL, CIccCreateXformHintManager *pHintManager=NULL)</argsstring>
+        <name>CreateXform</name>
+        <qualifiedname>CIccBaseXformFactory::CreateXform</qualifiedname>
+        <reimplements refid="d7/d0a/a00801_1a2b95b3c0df7fd1c94c93fe8ea6bc6d80">CreateXform</reimplements>
+        <param>
+          <type><ref refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180f" kindref="member">icXformType</ref></type>
+          <declname>xformType</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+          <declname>pTag</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>CIccCreateXformHintManager *</type>
+          <declname>pHintManager</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateXform(xformTypeSig) Create a xform of type xformTypeSig.</para>
+<para>Parameter(s): xformTypeSig = signature of the ICC xform type for the xform to be created pTag = tag information for created xform pHintManager = contains additional information used to create xform</para>
+<para>Returns a new CIccXform object of the given xform type. Unrecognized xformTypeSig&apos;s will be created as a CIccXformUnknown object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="150" column="21" bodyfile="IccProfLib/IccXformFactory.cpp" bodystart="78" bodyend="116"/>
+        <references refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180fa8f98fe94a91c4c002341c77b47ffed35" compoundref="d6/d5b/a00026" startline="150">icXformType3DLut</references>
+        <references refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180fa9ad326943cff407bb96bdc9a53920996" compoundref="d6/d5b/a00026" startline="151">icXformType4DLut</references>
+        <references refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180fa06be3d5a167735863cb627f627c27988" compoundref="d6/d5b/a00026" startline="149">icXformTypeMatrixTRC</references>
+        <references refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180fa4ce2fe52f1dcd97ba1d6b9ad0628e6df" compoundref="d6/d5b/a00026" startline="155">icXformTypeMonochrome</references>
+        <references refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180fa024b427c7f71019c294beef3822a587d" compoundref="d6/d5b/a00026" startline="154">icXformTypeMpe</references>
+        <references refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180fab62b1740975a1ebc27bdf3b6c87003eb" compoundref="d6/d5b/a00026" startline="153">icXformTypeNamedColor</references>
+        <references refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180fa2e963058ad1caacf212b0527242ec9e1" compoundref="d6/d5b/a00026" startline="152">icXformTypeNDLut</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d7/dff/a00805" kindref="compound">CIccBaseXformFactory</ref></para>
+<para>Purpose: CIccSpecXformFactory provides creation of Base CIccXform&apos;s. The <ref refid="dd/d7e/a00809" kindref="compound">CIccXformCreator</ref> always creates a CIccSpecXformFactory. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccBaseXformFactory</label>
+        <link refid="d7/dff/a00805"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccXformFactory</label>
+        <link refid="d7/d0a/a00801"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccBaseXformFactory</label>
+        <link refid="d7/dff/a00805"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccXformFactory</label>
+        <link refid="d7/d0a/a00801"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccXformFactory.h" line="135" column="1" bodyfile="IccProfLib/IccXformFactory.h" bodystart="136" bodyend="152"/>
+    <listofallmembers>
+      <member refid="d7/dff/a00805_1a70ec2a25402640f065f7f735285b16b7" prot="public" virt="virtual"><scope>CIccBaseXformFactory</scope><name>CreateXform</name></member>
+      <member refid="d7/d0a/a00801_1af6abbbe912db6c641f28e27574ea1349" prot="public" virt="virtual"><scope>CIccBaseXformFactory</scope><name>~IIccXformFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

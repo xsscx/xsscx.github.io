@@ -1,0 +1,882 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d4e/a00329" kind="file" language="C++">
+    <compoundname>IccJsonUtil.h</compoundname>
+    <includes local="no">list</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">nlohmann/json.hpp</includes>
+    <includes refid="d4/d81/a00110" local="yes">../../../IccProfLib/IccDefs.h</includes>
+    <includedby refid="dc/d50/a00332" local="yes">Tools/CmdLine/IccCommon/IccCmmConfig.h</includedby>
+    <includedby refid="de/d55/a00323" local="yes">Tools/CmdLine/IccCommon/IccJsonUtil.cpp</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>../../../IccProfLib/IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="1">
+        <label>Tools/CmdLine/IccCommon/IccJsonUtil.h</label>
+        <link refid="dd/d4e/a00329"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+      <node id="5">
+        <label>nlohmann/json.hpp</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>Tools/CmdLine/IccApplyNamedCmm/iccApplyNamedCmm.cpp</label>
+        <link refid="d3/d93/a00341"/>
+      </node>
+      <node id="4">
+        <label>Tools/CmdLine/IccApplyProfiles/iccApplyProfiles.cpp</label>
+        <link refid="d6/de1/a00356"/>
+      </node>
+      <node id="5">
+        <label>Tools/CmdLine/IccCommon/IccCmmConfig.cpp</label>
+        <link refid="d8/d23/a00326"/>
+      </node>
+      <node id="2">
+        <label>Tools/CmdLine/IccCommon/IccCmmConfig.h</label>
+        <link refid="dc/d50/a00332"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Tools/CmdLine/IccCommon/IccJsonUtil.cpp</label>
+        <link refid="de/d55/a00323"/>
+      </node>
+      <node id="1">
+        <label>Tools/CmdLine/IccCommon/IccJsonUtil.h</label>
+        <link refid="dd/d4e/a00329"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" prot="public" static="no">
+        <type>nlohmann::json</type>
+        <definition>using json =  nlohmann::json</definition>
+        <argsstring></argsstring>
+        <name>json</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="81" column="1" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="dd/d4e/a00329_1a92484c589dda7d604e92b4f5fe73549c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string arrayToJson</definition>
+        <argsstring>(T *a, int nCount)</argsstring>
+        <name>arrayToJson</name>
+        <param>
+          <type>T *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="87" column="13" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="79" bodyend="95" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="87" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a97423525adfd6890ba86ca8d5ad53299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string fixJsonString</definition>
+        <argsstring>(const char *v)</argsstring>
+        <name>fixJsonString</name>
+        <param>
+          <type>const char *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="111" column="13" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="133" bodyend="144" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="111" declcolumn="13"/>
+        <referencedby refid="dd/d4e/a00329_1ad0b5bdb7f95051c0e5236d455177b945" compoundref="de/d55/a00323" startline="171" endline="180">valueToJson</referencedby>
+        <referencedby refid="dd/d4e/a00329_1a039c947e1628b80bf46015650397d664" compoundref="de/d55/a00323" startline="158" endline="167">valueToJson</referencedby>
+        <referencedby refid="dd/d4e/a00329_1ad2527818da85a4bb239f5f5afdc4efbc" compoundref="de/d55/a00323" startline="148" endline="154">valueToJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a102a8f52f949685f78edbdede31931c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool jsonToArray</definition>
+        <argsstring>(const json &amp;v, std::vector&lt; std::string &gt; &amp;vals)</argsstring>
+        <name>jsonToArray</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::string &gt; &amp;</type>
+          <declname>vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="133" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="292" bodyend="312" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="133" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a033c08ed43b1a69fa6a0b7b546810a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool jsonToArray</definition>
+        <argsstring>(const json &amp;v, std::vector&lt; T &gt; &amp;vals)</argsstring>
+        <name>jsonToArray</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; T &gt; &amp;</type>
+          <declname>vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="131" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="333" bodyend="353" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="131" declcolumn="6"/>
+        <referencedby refid="d6/d3b/a02121_1a4b06d5de03639308b6c9e0394829e111" compoundref="d8/d23/a00326" startline="1796" endline="1816">CIccCfgDataEntry::fromJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a1c75825526d396c4a3d02e2be8d5b2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool jsonToArray</definition>
+        <argsstring>(const json &amp;v, T *vals, int n)</argsstring>
+        <name>jsonToArray</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>vals</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="128" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="263" bodyend="278" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="128" declcolumn="6"/>
+        <referencedby refid="d6/d3b/a02121_1a4b06d5de03639308b6c9e0394829e111" compoundref="d8/d23/a00326" startline="1796" endline="1816">CIccCfgDataEntry::fromJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a825829a545b125b794248ed18a2c3012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool jsonToColorSpace</definition>
+        <argsstring>(const json &amp;j, icColorSpaceSignature &amp;sig)</argsstring>
+        <name>jsonToColorSpace</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref> &amp;</type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="136" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="379" bodyend="391" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="136" declcolumn="6"/>
+        <references refid="d7/dce/a00143_1a3a009765ea132eda6aadf6bedbf10e2d" compoundref="d5/db1/a00140" startline="1258" endline="1300">icGetSigVal</references>
+        <references refid="dd/d4e/a00329_1a9e557563ac390d47119184276e65ae9f" compoundref="de/d55/a00323" startline="200" endline="208">jsonToValue</references>
+        <referencedby refid="da/d71/a02101_1a24ef831394cf5804f368aacca344afbe" compoundref="d8/d23/a00326" startline="256" endline="279">CIccCfgDataApply::fromJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" compoundref="d8/d23/a00326" startline="1364" endline="1399">CIccCfgColorData::fromJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1af234f015837440b33d2b84ee2eb3f4d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool jsonToCStr</definition>
+        <argsstring>(const json &amp;j, char *str, int nSize)</argsstring>
+        <name>jsonToCStr</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="135" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="367" bodyend="377" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="135" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a5d0fcb48d25a5fba1df1a512deec6810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool jsonToList</definition>
+        <argsstring>(const json &amp;v, std::list&lt; std::string &gt; &amp;vals)</argsstring>
+        <name>jsonToList</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>std::list&lt; std::string &gt; &amp;</type>
+          <declname>vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="134" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="314" bodyend="330" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="134" declcolumn="6"/>
+        <referencedby refid="d6/d3b/a02121_1a4b06d5de03639308b6c9e0394829e111" compoundref="d8/d23/a00326" startline="1796" endline="1816">CIccCfgDataEntry::fromJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1afdd3feef27de48318c21d7eb6e15c1a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool jsonToString</definition>
+        <argsstring>(const json &amp;j, std::string &amp;value)</argsstring>
+        <name>jsonToString</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="125" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="220" bodyend="228" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="125" declcolumn="6"/>
+        <referencedby refid="dd/d4e/a00329_1a4af940dd988c61971f0d7961d2c83f6b" compoundref="de/d55/a00323" startline="257" endline="260">jsonToValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a95967c363b879bb9b758af80d4af973a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool jsonToValue</definition>
+        <argsstring>(const json &amp;j, bool &amp;nValue)</argsstring>
+        <name>jsonToValue</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>nValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="120" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="231" bodyend="253" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="120" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a4af940dd988c61971f0d7961d2c83f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool jsonToValue</definition>
+        <argsstring>(const json &amp;j, std::string &amp;nValue)</argsstring>
+        <name>jsonToValue</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>nValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="123" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="257" bodyend="260" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="123" declcolumn="6"/>
+        <references refid="dd/d4e/a00329_1afdd3feef27de48318c21d7eb6e15c1a3" compoundref="de/d55/a00323" startline="220" endline="228">jsonToString</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a9e557563ac390d47119184276e65ae9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool jsonToValue</definition>
+        <argsstring>(const json &amp;j, T &amp;nValue)</argsstring>
+        <name>jsonToValue</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>nValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="117" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="200" bodyend="208" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="117" declcolumn="6"/>
+        <referencedby refid="da/d71/a02101_1a24ef831394cf5804f368aacca344afbe" compoundref="d8/d23/a00326" startline="256" endline="279">CIccCfgDataApply::fromJson</referencedby>
+        <referencedby refid="db/d7a/a02105_1a629310e36c8c04c088813c362f902dec" compoundref="d8/d23/a00326" startline="397" endline="417">CIccCfgImageApply::fromJson</referencedby>
+        <referencedby refid="d7/d16/a02109_1aa315e429821eaca208d659a1c856a92a" compoundref="d8/d23/a00326" startline="492" endline="519">CIccCfgCreateLink::fromJson</referencedby>
+        <referencedby refid="d8/dc6/a02113_1af88e2e435af4fba20677d5b276b3c41a" compoundref="d8/d23/a00326" startline="621" endline="663">CIccCfgProfile::fromJson</referencedby>
+        <referencedby refid="d6/d3b/a02121_1a4b06d5de03639308b6c9e0394829e111" compoundref="d8/d23/a00326" startline="1796" endline="1816">CIccCfgDataEntry::fromJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" compoundref="d8/d23/a00326" startline="1364" endline="1399">CIccCfgColorData::fromJson</referencedby>
+        <referencedby refid="dd/d4e/a00329_1a825829a545b125b794248ed18a2c3012" compoundref="de/d55/a00323" startline="379" endline="391">jsonToColorSpace</referencedby>
+        <referencedby refid="d8/d23/a00326_1ae03050a33235e602abf0705735d62814" compoundref="d8/d23/a00326" startline="193" endline="210">jsonToValue</referencedby>
+        <referencedby refid="d8/d23/a00326_1a3855c314556756a595732078063b0610" compoundref="d8/d23/a00326" startline="603" endline="619">jsonToValue</referencedby>
+        <referencedby refid="d8/d23/a00326_1a262207a15c888252253d33fd4ba7411b" compoundref="d8/d23/a00326" startline="124" endline="133">jsonToValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a7d58d3f67db10b76ea4dfbc6b9ca90f9" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template bool</type>
+        <definition>template bool jsonToValue&lt; bool &gt;</definition>
+        <argsstring>(const json &amp;, bool &amp;)</argsstring>
+        <name>jsonToValue&lt; bool &gt;</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="148" column="17" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="148" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a203ef4c2eb9260024afe9cf92bda1d8e" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template bool</type>
+        <definition>template bool jsonToValue&lt; int &gt;</definition>
+        <argsstring>(const json &amp;, int &amp;)</argsstring>
+        <name>jsonToValue&lt; int &gt;</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+        </param>
+        <param>
+          <type>int &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="147" column="17" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="147" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a1fbac0ff8eea4431e09ffd0491296489" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template bool</type>
+        <definition>template bool jsonToValue&lt; std::string &gt;</definition>
+        <argsstring>(const json &amp;, std::string &amp;)</argsstring>
+        <name>jsonToValue&lt; std::string &gt;</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="149" column="17" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="149" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a1a7e979d2174bbe4adf411c6807d202b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool loadJsonFrom</definition>
+        <argsstring>(json &amp;j, const char *szFname)</argsstring>
+        <name>loadJsonFrom</name>
+        <param>
+          <type><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>szFname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="142" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="420" bodyend="448" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="142" declcolumn="6"/>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a9533077714414745c078b20e5ffe414e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool saveJsonAs</definition>
+        <argsstring>(const json &amp;j, const char *szFname, int indent=1)</argsstring>
+        <name>saveJsonAs</name>
+        <param>
+          <type>const <ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>szFname</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indent</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="141" column="6" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="393" bodyend="418" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="141" declcolumn="6"/>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1ad0b5bdb7f95051c0e5236d455177b945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string valueToJson</definition>
+        <argsstring>(const char *name, char *v)</argsstring>
+        <name>valueToJson</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="97" column="13" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="171" bodyend="180" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="97" declcolumn="13"/>
+        <references refid="dd/d4e/a00329_1a97423525adfd6890ba86ca8d5ad53299" compoundref="de/d55/a00323" startline="133" endline="144">fixJsonString</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a039c947e1628b80bf46015650397d664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string valueToJson</definition>
+        <argsstring>(const char *name, const char *v)</argsstring>
+        <name>valueToJson</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="94" column="13" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="158" bodyend="167" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="94" declcolumn="13"/>
+        <references refid="dd/d4e/a00329_1a97423525adfd6890ba86ca8d5ad53299" compoundref="de/d55/a00323" startline="133" endline="144">fixJsonString</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a5fb9fd80b70025aefdf24cb42a4955e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string valueToJson</definition>
+        <argsstring>(const char *name, const char *v, bool &amp;bPreviousLine)</argsstring>
+        <name>valueToJson</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>bPreviousLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="99" column="13" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="183" bodyend="197" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="99" declcolumn="13"/>
+        <references refid="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" compoundref="de/d55/a00323" startline="110" endline="118">valueToJson</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1ad2527818da85a4bb239f5f5afdc4efbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string valueToJson</definition>
+        <argsstring>(const char *name, const std::string &amp;v)</argsstring>
+        <name>valueToJson</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="108" column="13" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="148" bodyend="154" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="108" declcolumn="13"/>
+        <references refid="dd/d4e/a00329_1a97423525adfd6890ba86ca8d5ad53299" compoundref="de/d55/a00323" startline="133" endline="144">fixJsonString</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a6f9aef0302d0cb4326c88571a92b8e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string valueToJson</definition>
+        <argsstring>(const char *name, double v)</argsstring>
+        <name>valueToJson</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="105" column="13" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="105" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a1c88339e44dd20963225954dcd56eb9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string valueToJson</definition>
+        <argsstring>(const char *name, float v)</argsstring>
+        <name>valueToJson</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="102" column="13" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="102" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string valueToJson</definition>
+        <argsstring>(const char *name, T v)</argsstring>
+        <name>valueToJson</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="90" column="13" bodyfile="Tools/CmdLine/IccCommon/IccJsonUtil.cpp" bodystart="110" bodyend="118" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="90" declcolumn="13"/>
+        <referencedby refid="dd/d4e/a00329_1a5fb9fd80b70025aefdf24cb42a4955e6" compoundref="de/d55/a00323" startline="183" endline="197">valueToJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d4e/a00329_1aa8926119a721b27456e1d25b75c84d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string valueToJsonUuid</definition>
+        <argsstring>(const char *name, const char *v, bool bBinary=false)</argsstring>
+        <name>valueToJsonUuid</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bBinary</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h" line="110" column="13" declfile="Tools/CmdLine/IccCommon/IccJsonUtil.h" declline="110" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/>File:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>IccJsonUtil.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>Contains:<sp/><sp/><sp/>Utility<sp/>function<sp/>with<sp/>working<sp/>with<sp/>nlohmann/json<sp/>objects</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>Version:<sp/><sp/><sp/><sp/>V1</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright:<sp/><sp/>(c)<sp/>see<sp/>below</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2024<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>-Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>1-11-2024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>-Added<sp/>Explicit<sp/>Template<sp/>Instantiations<sp/>D<sp/>Hoyt<sp/>18-MAR-2025</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ICCJSONUTIL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ICCJSONUTIL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;list&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nlohmann/json.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../../../IccProfLib/IccDefs.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref><sp/>=<sp/>nlohmann::json;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>JSON<sp/>Conversion<sp/>Helpers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a92484c589dda7d604e92b4f5fe73549c" kindref="member">arrayToJson</ref>(T*<sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nCount);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" kindref="member">valueToJson</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/>T<sp/>v);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Specialized<sp/>`valueToJson`<sp/>Templates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" kindref="member">valueToJson</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>v);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" kindref="member">valueToJson</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>v);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" kindref="member">valueToJson</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>v,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/>bPreviousLine);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="102" refid="dd/d4e/a00329_1a1c88339e44dd20963225954dcd56eb9e" refkind="member"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" kindref="member">valueToJson</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="105" refid="dd/d4e/a00329_1a6f9aef0302d0cb4326c88571a92b8e76" refkind="member"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" kindref="member">valueToJson</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a3e7932b223d3c03d2779e36febbcc670" kindref="member">valueToJson</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>v);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="dd/d4e/a00329_1aa8926119a721b27456e1d25b75c84d9e" refkind="member"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1aa8926119a721b27456e1d25b75c84d9e" kindref="member">valueToJsonUuid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>v,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bBinary<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">std::string<sp/><ref refid="dd/d4e/a00329_1a97423525adfd6890ba86ca8d5ad53299" kindref="member">fixJsonString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>v);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">//<sp/>JSON<sp/>Parsing<sp/>Helpers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//<sp/>========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a9e557563ac390d47119184276e65ae9f" kindref="member">jsonToValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>j,<sp/>T&amp;<sp/>nValue);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a9e557563ac390d47119184276e65ae9f" kindref="member">jsonToValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>j,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/>nValue);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;&gt;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a9e557563ac390d47119184276e65ae9f" kindref="member">jsonToValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>j,<sp/>std::string&amp;<sp/>nValue);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1afdd3feef27de48318c21d7eb6e15c1a3" kindref="member">jsonToString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>j,<sp/>std::string&amp;<sp/>value);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a1c75825526d396c4a3d02e2be8d5b2bf" kindref="member">jsonToArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>v,<sp/>T*<sp/>vals,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a1c75825526d396c4a3d02e2be8d5b2bf" kindref="member">jsonToArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>v,<sp/>std::vector&lt;T&gt;&amp;<sp/>vals);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a1c75825526d396c4a3d02e2be8d5b2bf" kindref="member">jsonToArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>v,<sp/>std::vector&lt;std::string&gt;&amp;<sp/>vals);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a5d0fcb48d25a5fba1df1a512deec6810" kindref="member">jsonToList</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>v,<sp/>std::list&lt;std::string&gt;&amp;<sp/>vals);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1af234f015837440b33d2b84ee2eb3f4d9" kindref="member">jsonToCStr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>j,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSize);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a825829a545b125b794248ed18a2c3012" kindref="member">jsonToColorSpace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>j,<sp/><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref>&amp;<sp/>sig);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">//<sp/>========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//<sp/>JSON<sp/>File<sp/>I/O</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="comment">//<sp/>========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a9533077714414745c078b20e5ffe414e" kindref="member">saveJsonAs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>j,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>szFname,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>indent<sp/>=<sp/>1);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a1a7e979d2174bbe4adf411c6807d202b" kindref="member">loadJsonFrom</ref>(<ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;<sp/>j,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>szFname);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">//<sp/>========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Prevent<sp/>Duplicate<sp/>Explicit<sp/>Instantiation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">//<sp/>========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="dd/d4e/a00329_1a203ef4c2eb9260024afe9cf92bda1d8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a203ef4c2eb9260024afe9cf92bda1d8e" kindref="member">jsonToValue&lt;int&gt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;);</highlight></codeline>
+<codeline lineno="148" refid="dd/d4e/a00329_1a7d58d3f67db10b76ea4dfbc6b9ca90f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a7d58d3f67db10b76ea4dfbc6b9ca90f9" kindref="member">jsonToValue&lt;bool&gt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;);</highlight></codeline>
+<codeline lineno="149" refid="dd/d4e/a00329_1a1fbac0ff8eea4431e09ffd0491296489" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1a1fbac0ff8eea4431e09ffd0491296489" kindref="member">jsonToValue&lt;std::string&gt;</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref>&amp;,<sp/>std::string&amp;);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>ICCJSONUTIL_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccCommon/IccJsonUtil.h"/>
+  </compounddef>
+</doxygen>

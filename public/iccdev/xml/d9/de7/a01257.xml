@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d9/de7/a01257" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccTagFactory</compoundname>
+    <derivedcompoundref refid="de/d34/a01261" prot="public" virt="non-virtual">CIccSpecTagFactory</derivedcompoundref>
+    <derivedcompoundref refid="d5/d36/a01773" prot="public" virt="non-virtual">CIccTagXmlFactory</derivedcompoundref>
+    <includes refid="d8/d41/a00038" local="no">IccTagFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/de7/a01257_1a240c0224624325f4a71b05981d492e35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccTagFactory::~IIccTagFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccTagFactory</name>
+        <qualifiedname>IIccTagFactory::~IIccTagFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="104" column="11" bodyfile="IccProfLib/IccTagFactory.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de7/a01257_1a1b29989361c92be45e0c41f31e0539f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+        <definition>virtual CIccTag * IIccTagFactory::CreateTag</definition>
+        <argsstring>(icTagTypeSignature tagTypeSig)=0</argsstring>
+        <name>CreateTag</name>
+        <qualifiedname>IIccTagFactory::CreateTag</qualifiedname>
+        <reimplementedby refid="de/d34/a01261_1af70956368aa090393af4acc39888f90d">CreateTag</reimplementedby>
+        <reimplementedby refid="d5/d36/a01773_1a6110728c27cf21da2a07269f985fb353">CreateTag</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+          <declname>tagTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateTag(tagTypeSig) Create a tag of type tagTypeSig.</para>
+<para>Parameter(s): tagTypeSig = signature of the ICC tag type for the tag to be created</para>
+<para>Returns a new <ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> object of the given signature type. If the tag factory doesn&apos;t support creation of tags of type tagTypeSig then it should return NULL. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="117" column="19"/>
+        <referencedby refid="da/dd8/a01265_1aecf691cfac27778f352c60f5099b9293" compoundref="de/de1/a00065" startline="550" endline="561">CIccTagCreator::DoCreateTag</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d9/de7/a01257_1a8f02e7b394e7b9b053a38a50bb8cf9e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref></type>
+        <definition>virtual icTagSignature IIccTagFactory::GetTagNameSig</definition>
+        <argsstring>(const icChar *szTagName)=0</argsstring>
+        <name>GetTagNameSig</name>
+        <qualifiedname>IIccTagFactory::GetTagNameSig</qualifiedname>
+        <reimplementedby refid="de/d34/a01261_1a5fc55baeb411a1205ef34c1355868d3c">GetTagNameSig</reimplementedby>
+        <reimplementedby refid="d5/d36/a01773_1a7e09684f453d8de7eaefa0908a930720">GetTagNameSig</reimplementedby>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szTagName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetTagNameSig(szTagName) Get signature from tag display name.</para>
+<para>Parameter(s): szTagName = name of tag</para>
+<para>Returns tag signature of tag if tag name is recognized by the factory, icSigUnknownTag if the tag name is not recognized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="141" column="26"/>
+        <referencedby refid="da/dd8/a01265_1a1b75a28f3e8fcf94fff20be585e088dd" compoundref="de/de1/a00065" startline="577" endline="589">CIccTagCreator::DoGetTagNameSig</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d9/de7/a01257_1aa7ee87663f2d8dcbb6e8107973d8f8fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * IIccTagFactory::GetTagSigName</definition>
+        <argsstring>(icTagSignature tagSig)=0</argsstring>
+        <name>GetTagSigName</name>
+        <qualifiedname>IIccTagFactory::GetTagSigName</qualifiedname>
+        <reimplementedby refid="de/d34/a01261_1aa0b1453f1f9b42ce35185ec786700a38">GetTagSigName</reimplementedby>
+        <reimplementedby refid="d5/d36/a01773_1a82e448bb077bd51cc377c82d2cadbeef">GetTagSigName</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref></type>
+          <declname>tagSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetTagSigName(tagSig) Get display name of tagSig.</para>
+<para>Parameter(s): tagSig = signature of the ICC tag to get a name for</para>
+<para>Returns pointer to string containing name of tag if tag is recognized by the factory, NULL if the factory doesn&apos;t create tagSig tags. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="129" column="24"/>
+        <referencedby refid="da/dd8/a01265_1a93a71ef5d2fb8e4771c0e4dd9f7f9226" compoundref="de/de1/a00065" startline="563" endline="575">CIccTagCreator::DoGetTagSigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d9/de7/a01257_1ab6ee4e456b1725d9bbe8932ac8208fb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+        <definition>virtual icTagTypeSignature IIccTagFactory::GetTagTypeNameSig</definition>
+        <argsstring>(const icChar *szTypeName)=0</argsstring>
+        <name>GetTagTypeNameSig</name>
+        <qualifiedname>IIccTagFactory::GetTagTypeNameSig</qualifiedname>
+        <reimplementedby refid="de/d34/a01261_1a8f456fd3f9154b5ea30a0ec958b0fe8c">GetTagTypeNameSig</reimplementedby>
+        <reimplementedby refid="d5/d36/a01773_1a272408653a297aa71851b38dc049bba8">GetTagTypeNameSig</reimplementedby>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szTypeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetTagTypeNameSig(szTypeName) Get signature based on display name of tag type.</para>
+<para>Parameter(s): szTypeName = name of the ICC tag type to get a signature for</para>
+<para>Returns tag type signature of tag type name if type name is recognized by the factory, icSigUnknownType if the type name is not recognized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="165" column="30"/>
+        <referencedby refid="da/dd8/a01265_1a2c63e50c60b71504032285510b317f2b" compoundref="de/de1/a00065" startline="606" endline="618">CIccTagCreator::DoGetTagTypeNameSig</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d9/de7/a01257_1a88091538a206198a107508c885e49e9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * IIccTagFactory::GetTagTypeSigName</definition>
+        <argsstring>(icTagTypeSignature tagTypeSig)=0</argsstring>
+        <name>GetTagTypeSigName</name>
+        <qualifiedname>IIccTagFactory::GetTagTypeSigName</qualifiedname>
+        <reimplementedby refid="de/d34/a01261_1a116d068adb461630d1ea644cd940d344">GetTagTypeSigName</reimplementedby>
+        <reimplementedby refid="d5/d36/a01773_1a0b5d1a4a25e283edb801a14ec786390c">GetTagTypeSigName</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+          <declname>tagTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetTagTypeSigName(tagTypeSig) Get display name of tagTypeSig.</para>
+<para>Parameter(s): tagTypeSig = signature of the ICC tag type to get a name for</para>
+<para>Returns pointer to string containing name of tag type if tag is recognized by the factory, NULL if the factory doesn&apos;t create tagTypeSig tags. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="153" column="24"/>
+        <referencedby refid="da/dd8/a01265_1aa7f3f28125e3295116c2393ed55b3ba8" compoundref="de/de1/a00065" startline="592" endline="604">CIccTagCreator::DoGetTagTypeSigName</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d9/de7/a01257" kindref="compound">IIccTagFactory</ref></para>
+<para>Purpose: <ref refid="d9/de7/a01257" kindref="compound">IIccTagFactory</ref> is a factory pattern interface for <ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> creation. This class is pure virtual. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccSpecTagFactory</label>
+        <link refid="de/d34/a01261"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccTagXmlFactory</label>
+        <link refid="d5/d36/a01773"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccTagFactory</label>
+        <link refid="d9/de7/a01257"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccTagFactory.h" line="101" column="1" bodyfile="IccProfLib/IccTagFactory.h" bodystart="102" bodyend="167"/>
+    <listofallmembers>
+      <member refid="d9/de7/a01257_1a1b29989361c92be45e0c41f31e0539f6" prot="public" virt="pure-virtual"><scope>IIccTagFactory</scope><name>CreateTag</name></member>
+      <member refid="d9/de7/a01257_1a8f02e7b394e7b9b053a38a50bb8cf9e6" prot="public" virt="pure-virtual"><scope>IIccTagFactory</scope><name>GetTagNameSig</name></member>
+      <member refid="d9/de7/a01257_1aa7ee87663f2d8dcbb6e8107973d8f8fe" prot="public" virt="pure-virtual"><scope>IIccTagFactory</scope><name>GetTagSigName</name></member>
+      <member refid="d9/de7/a01257_1ab6ee4e456b1725d9bbe8932ac8208fb2" prot="public" virt="pure-virtual"><scope>IIccTagFactory</scope><name>GetTagTypeNameSig</name></member>
+      <member refid="d9/de7/a01257_1a88091538a206198a107508c885e49e9d" prot="public" virt="pure-virtual"><scope>IIccTagFactory</scope><name>GetTagTypeSigName</name></member>
+      <member refid="d9/de7/a01257_1a240c0224624325f4a71b05981d492e35" prot="public" virt="virtual"><scope>IIccTagFactory</scope><name>~IIccTagFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

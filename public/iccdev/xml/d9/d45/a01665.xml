@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d9/d45/a01665" kind="class" language="C++" prot="public">
+    <compoundname>CIccApplyMpeSpectralCLUT</compoundname>
+    <basecompoundref refid="d4/d10/a01197" prot="public" virt="non-virtual">CIccApplyMpe</basecompoundref>
+    <includes refid="d3/de5/a00209" local="no">IccMpeSpectral.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="d9/d45/a01665_1adc56de249cf39945b05e9be34f20ddee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CIccMpeSpectralCLUT</definition>
+        <argsstring></argsstring>
+        <name>CIccMpeSpectralCLUT</name>
+        <qualifiedname>CIccApplyMpeSpectralCLUT::CIccMpeSpectralCLUT</qualifiedname>
+        <param>
+          <type><ref refid="d4/d41/a01661" kindref="compound">CIccMpeSpectralCLUT</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeSpectral.h" line="255" column="16" bodyfile="IccProfLib/IccMpeSpectral.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d9/d45/a01665_1acbc0fe2cf7b1de4188b2211021b22212" prot="protected" static="no" mutable="no">
+        <type><ref refid="d9/d65/a01145" kindref="compound">CIccApplyCLUT</ref> *</type>
+        <definition>CIccApplyCLUT* CIccApplyMpeSpectralCLUT::m_pApply</definition>
+        <argsstring></argsstring>
+        <name>m_pApply</name>
+        <qualifiedname>CIccApplyMpeSpectralCLUT::m_pApply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeSpectral.h" line="265" column="17" bodyfile="IccProfLib/IccMpeSpectral.h" bodystart="265" bodyend="-1"/>
+        <referencedby refid="d9/d45/a01665_1a7db7ed1ad88f2eef67f6f9c9f3bdd5b6" compoundref="d5/de9/a00176" startline="1388" endline="1391">CIccApplyMpeSpectralCLUT</referencedby>
+        <referencedby refid="d9/d45/a01665_1a3a4e50a9f84046bf75589a854a3ceaf8" compoundref="d5/de9/a00176" startline="1402" endline="1406">~CIccApplyMpeSpectralCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d10/a01197_1a9d1bcbeadff3d92ecb0ab4d9a5fe91f6" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d04/a01209" kindref="compound">CIccApplyTagMpe</ref> *</type>
+        <definition>CIccApplyTagMpe* CIccApplyMpe::m_pApplyTag</definition>
+        <argsstring></argsstring>
+        <name>m_pApplyTag</name>
+        <qualifiedname>CIccApplyMpe::m_pApplyTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="216" column="19" bodyfile="IccProfLib/IccTagMPE.h" bodystart="216" bodyend="-1"/>
+        <referencedby refid="d4/d10/a01197_1a7df3e118c3960632a097231875a9e03f" compoundref="dc/d87/a00032" startline="99" endline="103">CIccApplyMpe::CIccApplyMpe</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" prot="protected" static="no" mutable="no">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement* CIccApplyMpe::m_pElem</definition>
+        <argsstring></argsstring>
+        <name>m_pElem</name>
+        <qualifiedname>CIccApplyMpe::m_pElem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="218" column="27" bodyfile="IccProfLib/IccTagMPE.h" bodystart="218" bodyend="-1"/>
+        <referencedby refid="d4/d10/a01197_1a7df3e118c3960632a097231875a9e03f" compoundref="dc/d87/a00032" startline="99" endline="103">CIccApplyMpe::CIccApplyMpe</referencedby>
+        <referencedby refid="d4/d10/a01197_1a6589503e4554b1bea667021239a75ab1" compoundref="d7/d25/a00182" startline="213" endline="213">CIccApplyMpe::Apply</referencedby>
+        <referencedby refid="d4/d10/a01197_1a4080797013d21f537ee53cee3ac7c909" compoundref="d7/d25/a00182" startline="211" endline="211">CIccApplyMpe::GetElem</referencedby>
+        <referencedby refid="d9/d45/a01665_1adfffc76b7392ccbd09525d193e0ee5df" compoundref="d3/de5/a00209" startline="259" endline="259">GetType</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d45/a01665_1a3a4e50a9f84046bf75589a854a3ceaf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccApplyMpeSpectralCLUT::~CIccApplyMpeSpectralCLUT</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccApplyMpeSpectralCLUT</name>
+        <qualifiedname>CIccApplyMpeSpectralCLUT::~CIccApplyMpeSpectralCLUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d9/d45/a01665_1a3a4e50a9f84046bf75589a854a3ceaf8" kindref="member">CIccApplyMpeSpectralCLUT::~CIccApplyMpeSpectralCLUT</ref></para>
+<para>Purpose: Destructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeSpectral.h" line="257" column="11" bodyfile="IccProfLib/IccMpeSpectral.cpp" bodystart="1402" bodyend="1406"/>
+        <references refid="d9/d45/a01665_1acbc0fe2cf7b1de4188b2211021b22212" compoundref="d3/de5/a00209" startline="265">m_pApply</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/a01197_1a6589503e4554b1bea667021239a75ab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccApplyMpe::Apply</definition>
+        <argsstring>(icFloatNumber *pDestPixel, const icFloatNumber *pSrcPixel)</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccApplyMpe::Apply</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pDestPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pSrcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="213" column="8" bodyfile="IccProfLib/IccTagMPE.h" bodystart="213" bodyend="213"/>
+        <references refid="dd/d43/a01193_1a2cad8bcdf828e1abf3623d85dcacdab6">CIccMultiProcessElement::Apply</references>
+        <references refid="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" compoundref="d7/d25/a00182" startline="218">CIccApplyMpe::m_pElem</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+        <referencedby refid="de/d90/a01313_1ac7ddf1728b0becef1ae370e4bd4a7d4c" compoundref="d5/de0/a00050" startline="432" endline="432">CIccSubCalcApply::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d9/d45/a01665_1a9ad233b320b9c2ddf4c90ddc34d16de4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccApplyMpeSpectralCLUT::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccApplyMpeSpectralCLUT::GetClassName</qualifiedname>
+        <reimplements refid="d4/d10/a01197_1a73c75ee635c95d83f1c51c72bae96a31">GetClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeSpectral.h" line="260" column="24" bodyfile="IccProfLib/IccMpeSpectral.h" bodystart="260" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d10/a01197_1a4080797013d21f537ee53cee3ac7c909" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement * CIccApplyMpe::GetElem</definition>
+        <argsstring>() const</argsstring>
+        <name>GetElem</name>
+        <qualifiedname>CIccApplyMpe::GetElem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="211" column="27" bodyfile="IccProfLib/IccTagMPE.h" bodystart="211" bodyend="211"/>
+        <references refid="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" compoundref="d7/d25/a00182" startline="218">CIccApplyMpe::m_pElem</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+        <referencedby refid="de/d90/a01313_1a1857e159fd4f90872cd211ec6981d3a0" compoundref="d5/de0/a00050" startline="429" endline="429">CIccSubCalcApply::NumInputChannels</referencedby>
+        <referencedby refid="de/d90/a01313_1ae4ec84ae3195cba2bc618338e18dffa0" compoundref="d5/de0/a00050" startline="430" endline="430">CIccSubCalcApply::NumOutputChannels</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d9/d45/a01665_1adfffc76b7392ccbd09525d193e0ee5df" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+        <definition>virtual icElemTypeSignature CIccApplyMpeSpectralCLUT::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccApplyMpeSpectralCLUT::GetType</qualifiedname>
+        <reimplements refid="d4/d10/a01197_1a031bd80036513804d18f971a490168b3">GetType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeSpectral.h" line="259" column="31" bodyfile="IccProfLib/IccMpeSpectral.h" bodystart="259" bodyend="259"/>
+        <references refid="dd/d43/a01193_1abc48ee629f3d2102bfdd5c03891b37e1">CIccMultiProcessElement::GetType</references>
+        <references refid="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" compoundref="d7/d25/a00182" startline="218">CIccApplyMpe::m_pElem</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d9/d45/a01665_1a7db7ed1ad88f2eef67f6f9c9f3bdd5b6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccApplyMpeSpectralCLUT::CIccApplyMpeSpectralCLUT</definition>
+        <argsstring>(CIccMultiProcessElement *pElem, CIccApplyCLUT *pApply)</argsstring>
+        <name>CIccApplyMpeSpectralCLUT</name>
+        <qualifiedname>CIccApplyMpeSpectralCLUT::CIccApplyMpeSpectralCLUT</qualifiedname>
+        <param>
+          <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+          <declname>pElem</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/d65/a01145" kindref="compound">CIccApplyCLUT</ref> *</type>
+          <declname>pApply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d9/d45/a01665_1a7db7ed1ad88f2eef67f6f9c9f3bdd5b6" kindref="member">CIccApplyMpeSpectralCLUT::CIccApplyMpeSpectralCLUT</ref></para>
+<para>Purpose: Constructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeSpectral.h" line="263" column="3" bodyfile="IccProfLib/IccMpeSpectral.cpp" bodystart="1388" bodyend="1391"/>
+        <references refid="d4/d10/a01197_1a7df3e118c3960632a097231875a9e03f" compoundref="dc/d87/a00032" startline="99" endline="103">CIccApplyMpe::CIccApplyMpe</references>
+        <references refid="d9/d45/a01665_1acbc0fe2cf7b1de4188b2211021b22212" compoundref="d3/de5/a00209" startline="265">m_pApply</references>
+        <referencedby refid="d4/d41/a01661_1afe075ef9aa97e1b1687a87062c83a040" compoundref="d5/de9/a00176" startline="1251" endline="1266">CIccMpeSpectralCLUT::GetNewApply</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d9/d45/a01665" kindref="compound">CIccApplyMpeSpectralCLUT</ref></para>
+<para>Purpose : The SpectralCLUT element apply data </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccApplyMpe</label>
+        <link refid="d4/d10/a01197"/>
+      </node>
+      <node id="1">
+        <label>CIccApplyMpeSpectralCLUT</label>
+        <link refid="d9/d45/a01665"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>CIccApplyCLUT</label>
+        <link refid="d9/d65/a01145"/>
+      </node>
+      <node id="2">
+        <label>CIccApplyMpe</label>
+        <link refid="d4/d10/a01197"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_pApplyTag</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>m_pElem</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccApplyMpeSpectralCLUT</label>
+        <link refid="d9/d45/a01665"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>m_pApply</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccApplyTagMpe</label>
+        <link refid="de/d04/a01209"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_pTag</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>m_applyBuf</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccDblPixelBuffer</label>
+        <link refid="de/d61/a01205"/>
+      </node>
+      <node id="10">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+      <node id="5">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="4">
+        <label>CIccTagMultiProcessElement</label>
+        <link refid="d5/d54/a01213"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_pAppliedPCC</edgelabel>
+          <edgelabel>m_pProfilePCC</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_pCmmEnvVarLookup</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IIccCmmEnvVarLookup</label>
+        <link refid="dd/d07/a00433"/>
+      </node>
+      <node id="7">
+        <label>IIccProfileConnectionConditions</label>
+        <link refid="db/d18/a00885"/>
+      </node>
+      <node id="6">
+        <label>icPositionNumber</label>
+        <link refid="d8/d6e/a00537"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeSpectral.h" line="253" column="1" bodyfile="IccProfLib/IccMpeSpectral.h" bodystart="254" bodyend="266"/>
+    <listofallmembers>
+      <member refid="d4/d10/a01197_1a6589503e4554b1bea667021239a75ab1" prot="public" virt="non-virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>Apply</name></member>
+      <member refid="d4/d10/a01197_1a7df3e118c3960632a097231875a9e03f" prot="public" virt="non-virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>CIccApplyMpe</name></member>
+      <member refid="d9/d45/a01665_1a7db7ed1ad88f2eef67f6f9c9f3bdd5b6" prot="protected" virt="non-virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>CIccApplyMpeSpectralCLUT</name></member>
+      <member refid="d9/d45/a01665_1a9ad233b320b9c2ddf4c90ddc34d16de4" prot="public" virt="virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>GetClassName</name></member>
+      <member refid="d4/d10/a01197_1a4080797013d21f537ee53cee3ac7c909" prot="public" virt="non-virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>GetElem</name></member>
+      <member refid="d9/d45/a01665_1adfffc76b7392ccbd09525d193e0ee5df" prot="public" virt="virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>GetType</name></member>
+      <member refid="d9/d45/a01665_1acbc0fe2cf7b1de4188b2211021b22212" prot="protected" virt="non-virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>m_pApply</name></member>
+      <member refid="d4/d10/a01197_1a9d1bcbeadff3d92ecb0ab4d9a5fe91f6" prot="protected" virt="non-virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>m_pApplyTag</name></member>
+      <member refid="d4/d10/a01197_1a3224aa3f2162aeb7d05482b3c61e66a4" prot="protected" virt="non-virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>m_pElem</name></member>
+      <member refid="d4/d10/a01197_1afe0de9d31be8e5ada7355c8c6969794b" prot="public" virt="virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>~CIccApplyMpe</name></member>
+      <member refid="d9/d45/a01665_1a3a4e50a9f84046bf75589a854a3ceaf8" prot="public" virt="virtual"><scope>CIccApplyMpeSpectralCLUT</scope><name>~CIccApplyMpeSpectralCLUT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

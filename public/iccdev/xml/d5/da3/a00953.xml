@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d5/da3/a00953" kind="class" language="C++" prot="public">
+    <compoundname>CIccMatrixMath</compoundname>
+    <includes refid="dc/dfe/a00125" local="no">IccMatrixMath.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccMatrixMath::m_nCols</definition>
+        <argsstring></argsstring>
+        <name>m_nCols</name>
+        <qualifiedname>CIccMatrixMath::m_nCols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="125" column="26" bodyfile="IccProfLib/IccMatrixMath.h" bodystart="125" bodyend="-1"/>
+        <referencedby refid="d5/da3/a00953_1a670280c8954c2db68eef371fa27cbc79" compoundref="db/dab/a00089" startline="121" endline="128">CIccMatrixMath</referencedby>
+        <referencedby refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" compoundref="db/dab/a00089" startline="94" endline="110">CIccMatrixMath</referencedby>
+        <referencedby refid="d5/da3/a00953_1a7fea4ceca151caac89410cdf75e8be40" compoundref="db/dab/a00089" startline="177" endline="190">dumpMtx</referencedby>
+        <referencedby refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" compoundref="dc/dfe/a00125" startline="111" endline="111">entry</referencedby>
+        <referencedby refid="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" compoundref="dc/dfe/a00125" startline="112" endline="112">entry</referencedby>
+        <referencedby refid="d5/da3/a00953_1a1990ca044341cf1f230224ed2801d300" compoundref="dc/dfe/a00125" startline="101" endline="101">GetCols</referencedby>
+        <referencedby refid="d5/da3/a00953_1ae31182cfd2516c8579697469098eb670" compoundref="db/dab/a00089" startline="276" endline="284">Invert</referencedby>
+        <referencedby refid="d5/da3/a00953_1a2807b59f0fc381bfb75defd89679806f" compoundref="db/dab/a00089" startline="320" endline="341">isIdentityMtx</referencedby>
+        <referencedby refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" compoundref="db/dab/a00089" startline="202" endline="228">Mult</referencedby>
+        <referencedby refid="d5/da3/a00953_1a0711f353df382e731588736d339fcb26" compoundref="db/dab/a00089" startline="297" endline="308">RowSum</referencedby>
+        <referencedby refid="d5/da3/a00953_1ada7ffe05cbe73c5a80ba0814b3f1cab0" compoundref="db/dab/a00089" startline="257" endline="266">Scale</referencedby>
+        <referencedby refid="d5/da3/a00953_1add1c27a4503de16e7e8810b04eb27edd" compoundref="db/dab/a00089" startline="353" endline="398">SetRange</referencedby>
+        <referencedby refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" compoundref="db/dab/a00089" startline="154" endline="166">VectorMult</referencedby>
+        <referencedby refid="d5/da3/a00953_1a17e3fdff1d4d143488ae71ea79e41354" compoundref="db/dab/a00089" startline="238" endline="247">VectorScale</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccMatrixMath::m_nRows</definition>
+        <argsstring></argsstring>
+        <name>m_nRows</name>
+        <qualifiedname>CIccMatrixMath::m_nRows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="125" column="18" bodyfile="IccProfLib/IccMatrixMath.h" bodystart="125" bodyend="-1"/>
+        <referencedby refid="d5/da3/a00953_1a670280c8954c2db68eef371fa27cbc79" compoundref="db/dab/a00089" startline="121" endline="128">CIccMatrixMath</referencedby>
+        <referencedby refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" compoundref="db/dab/a00089" startline="94" endline="110">CIccMatrixMath</referencedby>
+        <referencedby refid="d5/da3/a00953_1a7fea4ceca151caac89410cdf75e8be40" compoundref="db/dab/a00089" startline="177" endline="190">dumpMtx</referencedby>
+        <referencedby refid="d5/da3/a00953_1a350cc5346b4e2ac73361727760e62b4c" compoundref="dc/dfe/a00125" startline="102" endline="102">GetRows</referencedby>
+        <referencedby refid="d5/da3/a00953_1ae31182cfd2516c8579697469098eb670" compoundref="db/dab/a00089" startline="276" endline="284">Invert</referencedby>
+        <referencedby refid="d5/da3/a00953_1a2807b59f0fc381bfb75defd89679806f" compoundref="db/dab/a00089" startline="320" endline="341">isIdentityMtx</referencedby>
+        <referencedby refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" compoundref="db/dab/a00089" startline="202" endline="228">Mult</referencedby>
+        <referencedby refid="d5/da3/a00953_1ada7ffe05cbe73c5a80ba0814b3f1cab0" compoundref="db/dab/a00089" startline="257" endline="266">Scale</referencedby>
+        <referencedby refid="d5/da3/a00953_1add1c27a4503de16e7e8810b04eb27edd" compoundref="db/dab/a00089" startline="353" endline="398">SetRange</referencedby>
+        <referencedby refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" compoundref="db/dab/a00089" startline="154" endline="166">VectorMult</referencedby>
+        <referencedby refid="d5/da3/a00953_1a17e3fdff1d4d143488ae71ea79e41354" compoundref="db/dab/a00089" startline="238" endline="247">VectorScale</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d5/da3/a00953_1a221c3700665754ea277c9ec163b322aa" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CIccMatrixMath::m_vals</definition>
+        <argsstring></argsstring>
+        <name>m_vals</name>
+        <qualifiedname>CIccMatrixMath::m_vals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="126" column="17" bodyfile="IccProfLib/IccMatrixMath.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="d5/da3/a00953_1a670280c8954c2db68eef371fa27cbc79" compoundref="db/dab/a00089" startline="121" endline="128">CIccMatrixMath</referencedby>
+        <referencedby refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" compoundref="db/dab/a00089" startline="94" endline="110">CIccMatrixMath</referencedby>
+        <referencedby refid="d5/da3/a00953_1a8d0d55919f94f3ad4ab681287d896ce6" compoundref="db/dab/a00089" startline="139" endline="143">~CIccMatrixMath</referencedby>
+        <referencedby refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" compoundref="dc/dfe/a00125" startline="111" endline="111">entry</referencedby>
+        <referencedby refid="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" compoundref="dc/dfe/a00125" startline="112" endline="112">entry</referencedby>
+        <referencedby refid="d5/da3/a00953_1ae31182cfd2516c8579697469098eb670" compoundref="db/dab/a00089" startline="276" endline="284">Invert</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/da3/a00953_1a670280c8954c2db68eef371fa27cbc79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccMatrixMath::CIccMatrixMath</definition>
+        <argsstring>(const CIccMatrixMath &amp;mat)</argsstring>
+        <name>CIccMatrixMath</name>
+        <qualifiedname>CIccMatrixMath::CIccMatrixMath</qualifiedname>
+        <param>
+          <type>const <ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref> &amp;</type>
+          <declname>mat</declname>
+          <defname>matrix</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" kindref="member">CIccMatrixMath::CIccMatrixMath</ref></para>
+<para>Purpose: Copy Constructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="97" column="3" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="121" bodyend="128"/>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+        <references refid="d5/da3/a00953_1a221c3700665754ea277c9ec163b322aa" compoundref="dc/dfe/a00125" startline="126">m_vals</references>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccMatrixMath::CIccMatrixMath</definition>
+        <argsstring>(icUInt16Number nRows, icUInt16Number nCols, bool bInitIdentity=false)</argsstring>
+        <name>CIccMatrixMath</name>
+        <qualifiedname>CIccMatrixMath::CIccMatrixMath</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nRows</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nCols</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bInitIdentity</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" kindref="member">CIccMatrixMath::CIccMatrixMath</ref></para>
+<para>Purpose: Constructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="96" column="3" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="94" bodyend="110"/>
+        <references refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" compoundref="dc/dfe/a00125" startline="111" endline="111">entry</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+        <references refid="d5/da3/a00953_1a221c3700665754ea277c9ec163b322aa" compoundref="dc/dfe/a00125" startline="126">m_vals</references>
+        <referencedby refid="d1/d03/a01653_1aa53d573cedfbcea2d2ac8287b01ec032" compoundref="d5/de9/a00176" startline="595" endline="639">CIccMpeEmissionMatrix::Begin</referencedby>
+        <referencedby refid="d3/d21/a01657_1ad1511fd222849d2cfa8e097df20b2442" compoundref="d5/de9/a00176" startline="677" endline="722">CIccMpeInvEmissionMatrix::Begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="df/d5a/a01681_1a2a15f4b7818494a70c2934cf882a3b53" compoundref="d5/de9/a00176" startline="2044" endline="2072">CIccMpeEmissionObserver::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+        <referencedby refid="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" compoundref="de/db1/a00197" startline="231" endline="285">IIccProfileConnectionConditions::getEmissiveObserver</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a02a2d8cee6baabd93d5712fdd4f8b361" compoundref="d9/dd0/a00191" startline="11320" endline="11336">CIccTagSpectralViewingConditions::getObserverMatrix</referencedby>
+        <referencedby refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" compoundref="db/dab/a00089" startline="202" endline="228">Mult</referencedby>
+        <referencedby refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" compoundref="db/dab/a00089" startline="409" endline="421">rangeMap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a8d0d55919f94f3ad4ab681287d896ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccMatrixMath::~CIccMatrixMath</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccMatrixMath</name>
+        <qualifiedname>CIccMatrixMath::~CIccMatrixMath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1a8d0d55919f94f3ad4ab681287d896ce6" kindref="member">CIccMatrixMath::~CIccMatrixMath</ref></para>
+<para>Purpose: Destructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="98" column="11" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="139" bodyend="143"/>
+        <references refid="d5/da3/a00953_1a221c3700665754ea277c9ec163b322aa" compoundref="dc/dfe/a00125" startline="126">m_vals</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a7fea4ceca151caac89410cdf75e8be40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccMatrixMath::dumpMtx</definition>
+        <argsstring>(std::string &amp;str) const</argsstring>
+        <name>dumpMtx</name>
+        <qualifiedname>CIccMatrixMath::dumpMtx</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: CIccMatrixMath::dump</para>
+<para>Purpose: dumps the context of the step </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="116" column="16" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="177" bodyend="190"/>
+        <references refid="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" compoundref="dc/dfe/a00125" startline="112" endline="112">entry</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CIccMatrixMath::entry</definition>
+        <argsstring>(icUInt16Number nRow, icUInt16Number nCol=0)</argsstring>
+        <name>entry</name>
+        <qualifiedname>CIccMatrixMath::entry</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nRow</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nCol</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="111" column="17" bodyfile="IccProfLib/IccMatrixMath.h" bodystart="111" bodyend="111"/>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a221c3700665754ea277c9ec163b322aa" compoundref="dc/dfe/a00125" startline="126">m_vals</references>
+        <referencedby refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" compoundref="db/dab/a00089" startline="94" endline="110">CIccMatrixMath</referencedby>
+        <referencedby refid="d1/d03/a01653_1aa53d573cedfbcea2d2ac8287b01ec032" compoundref="d5/de9/a00176" startline="595" endline="639">CIccMpeEmissionMatrix::Begin</referencedby>
+        <referencedby refid="d3/d21/a01657_1ad1511fd222849d2cfa8e097df20b2442" compoundref="d5/de9/a00176" startline="677" endline="722">CIccMpeInvEmissionMatrix::Begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="df/d5a/a01681_1a2a15f4b7818494a70c2934cf882a3b53" compoundref="d5/de9/a00176" startline="2044" endline="2072">CIccMpeEmissionObserver::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+        <referencedby refid="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" compoundref="de/db1/a00197" startline="231" endline="285">IIccProfileConnectionConditions::getEmissiveObserver</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a02a2d8cee6baabd93d5712fdd4f8b361" compoundref="d9/dd0/a00191" startline="11320" endline="11336">CIccTagSpectralViewingConditions::getObserverMatrix</referencedby>
+        <referencedby refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" compoundref="db/dab/a00089" startline="202" endline="228">Mult</referencedby>
+        <referencedby refid="d5/da3/a00953_1ada7ffe05cbe73c5a80ba0814b3f1cab0" compoundref="db/dab/a00089" startline="257" endline="266">Scale</referencedby>
+        <referencedby refid="d5/da3/a00953_1add1c27a4503de16e7e8810b04eb27edd" compoundref="db/dab/a00089" startline="353" endline="398">SetRange</referencedby>
+        <referencedby refid="d5/da3/a00953_1a17e3fdff1d4d143488ae71ea79e41354" compoundref="db/dab/a00089" startline="238" endline="247">VectorScale</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>const icFloatNumber * CIccMatrixMath::entry</definition>
+        <argsstring>(icUInt16Number nRow, icUInt16Number nCol=0) const</argsstring>
+        <name>entry</name>
+        <qualifiedname>CIccMatrixMath::entry</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nRow</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nCol</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="112" column="23" bodyfile="IccProfLib/IccMatrixMath.h" bodystart="112" bodyend="112"/>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a221c3700665754ea277c9ec163b322aa" compoundref="dc/dfe/a00125" startline="126">m_vals</references>
+        <referencedby refid="d5/da3/a00953_1a7fea4ceca151caac89410cdf75e8be40" compoundref="db/dab/a00089" startline="177" endline="190">dumpMtx</referencedby>
+        <referencedby refid="d5/da3/a00953_1a2807b59f0fc381bfb75defd89679806f" compoundref="db/dab/a00089" startline="320" endline="341">isIdentityMtx</referencedby>
+        <referencedby refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" compoundref="db/dab/a00089" startline="202" endline="228">Mult</referencedby>
+        <referencedby refid="d5/da3/a00953_1a0711f353df382e731588736d339fcb26" compoundref="db/dab/a00089" startline="297" endline="308">RowSum</referencedby>
+        <referencedby refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" compoundref="db/dab/a00089" startline="154" endline="166">VectorMult</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a1990ca044341cf1f230224ed2801d300" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>virtual icUInt16Number CIccMatrixMath::GetCols</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCols</name>
+        <qualifiedname>CIccMatrixMath::GetCols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="101" column="26" bodyfile="IccProfLib/IccMatrixMath.h" bodystart="101" bodyend="101"/>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a350cc5346b4e2ac73361727760e62b4c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>virtual icUInt16Number CIccMatrixMath::GetRows</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRows</name>
+        <qualifiedname>CIccMatrixMath::GetRows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="102" column="26" bodyfile="IccProfLib/IccMatrixMath.h" bodystart="102" bodyend="102"/>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1ae31182cfd2516c8579697469098eb670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccMatrixMath::Invert</definition>
+        <argsstring>()</argsstring>
+        <name>Invert</name>
+        <qualifiedname>CIccMatrixMath::Invert</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1ae31182cfd2516c8579697469098eb670" kindref="member">CIccMatrixMath::Invert</ref></para>
+<para>Purpose: Inverts the matrix </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="118" column="8" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="276" bodyend="284"/>
+        <references refid="d7/dce/a00143_1aa1bb8385706c3c656575f0d6a4ae4d76" compoundref="d5/db1/a00140" startline="391" endline="436">icMatrixInvert3x3</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+        <references refid="d5/da3/a00953_1a221c3700665754ea277c9ec163b322aa" compoundref="dc/dfe/a00125" startline="126">m_vals</references>
+        <referencedby refid="d3/d21/a01657_1ad1511fd222849d2cfa8e097df20b2442" compoundref="d5/de9/a00176" startline="677" endline="722">CIccMpeInvEmissionMatrix::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a2807b59f0fc381bfb75defd89679806f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccMatrixMath::isIdentityMtx</definition>
+        <argsstring>() const</argsstring>
+        <name>isIdentityMtx</name>
+        <qualifiedname>CIccMatrixMath::isIdentityMtx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1a2807b59f0fc381bfb75defd89679806f" kindref="member">CIccMatrixMath::isIdentityMtx</ref></para>
+<para>Purpose: Determines if applying this step will result in negligible change in data </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="114" column="16" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="320" bodyend="341"/>
+        <references refid="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" compoundref="dc/dfe/a00125" startline="112" endline="112">entry</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref> *</type>
+        <definition>CIccMatrixMath * CIccMatrixMath::Mult</definition>
+        <argsstring>(const CIccMatrixMath *matrix) const</argsstring>
+        <name>Mult</name>
+        <qualifiedname>CIccMatrixMath::Mult</qualifiedname>
+        <param>
+          <type>const <ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref> *</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" kindref="member">CIccMatrixMath::Mult</ref></para>
+<para>Purpose: Creates a new <ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref> that is the result of concatentating another matrix with this matrix. (IE result = matrix * this). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="104" column="18" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="202" bodyend="228"/>
+        <references refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" compoundref="db/dab/a00089" startline="94" endline="110">CIccMatrixMath</references>
+        <references refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" compoundref="dc/dfe/a00125" startline="111" endline="111">entry</references>
+        <references refid="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" compoundref="dc/dfe/a00125" startline="112" endline="112">entry</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+        <referencedby refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" compoundref="de/db1/a00197" startline="287" endline="311">IIccProfileConnectionConditions::getReflectanceObserver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a0711f353df382e731588736d339fcb26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccMatrixMath::RowSum</definition>
+        <argsstring>(icUInt16Number nRow) const</argsstring>
+        <name>RowSum</name>
+        <qualifiedname>CIccMatrixMath::RowSum</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nRow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1a0711f353df382e731588736d339fcb26" kindref="member">CIccMatrixMath::RowSum</ref></para>
+<para>Purpose: Creates a new <ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref> step that is the result of multiplying the matrix of this object to the scale of another object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="106" column="17" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="297" bodyend="308"/>
+        <references refid="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" compoundref="dc/dfe/a00125" startline="112" endline="112">entry</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <referencedby refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" compoundref="de/db1/a00197" startline="287" endline="311">IIccProfileConnectionConditions::getReflectanceObserver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1ada7ffe05cbe73c5a80ba0814b3f1cab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccMatrixMath::Scale</definition>
+        <argsstring>(icFloatNumber v)</argsstring>
+        <name>Scale</name>
+        <qualifiedname>CIccMatrixMath::Scale</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1ada7ffe05cbe73c5a80ba0814b3f1cab0" kindref="member">CIccMatrixMath::Scale</ref></para>
+<para>Purpose: Multiplies all values in matrix by a single scale factor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="109" column="8" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="257" bodyend="266"/>
+        <references refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" compoundref="dc/dfe/a00125" startline="111" endline="111">entry</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+        <referencedby refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" compoundref="de/db1/a00197" startline="287" endline="311">IIccProfileConnectionConditions::getReflectanceObserver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1add1c27a4503de16e7e8810b04eb27edd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccMatrixMath::SetRange</definition>
+        <argsstring>(const icSpectralRange &amp;from, const icSpectralRange &amp;to)</argsstring>
+        <name>SetRange</name>
+        <qualifiedname>CIccMatrixMath::SetRange</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref> &amp;</type>
+          <declname>from</declname>
+          <defname>srcRange</defname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref> &amp;</type>
+          <declname>to</declname>
+          <defname>dstRange</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1add1c27a4503de16e7e8810b04eb27edd" kindref="member">CIccMatrixMath::SetRange</ref></para>
+<para>Purpose: Fills a matrix math object that can be used to convert spectral vectors from one spectral range to another using linear interpolation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="120" column="8" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="353" bodyend="398"/>
+        <references refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" compoundref="d7/d46/a00002" startline="1468">icSpectralRange::end</references>
+        <references refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" compoundref="dc/dfe/a00125" startline="111" endline="111">entry</references>
+        <references refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" compoundref="d5/db1/a00140" startline="629" endline="671">icF16toF</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+        <references refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" compoundref="d7/d46/a00002" startline="1467">icSpectralRange::start</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <referencedby refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" compoundref="db/dab/a00089" startline="409" endline="421">rangeMap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccMatrixMath::VectorMult</definition>
+        <argsstring>(icFloatNumber *pDst, const icFloatNumber *pSrc) const</argsstring>
+        <name>VectorMult</name>
+        <qualifiedname>CIccMatrixMath::VectorMult</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pSrc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" kindref="member">CIccMatrixMath::VectorMult</ref></para>
+<para>Purpose: Multiplies pSrc vector passed by a matrix resulting in a pDst vector </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="100" column="16" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="154" bodyend="166"/>
+        <references refid="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" compoundref="dc/dfe/a00125" startline="112" endline="112">entry</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+        <referencedby refid="d1/d03/a01653_1a27adf9a7e5761f127bfd2c43c8d77d79" compoundref="d5/de9/a00176" startline="651" endline="664">CIccMpeEmissionMatrix::Apply</referencedby>
+        <referencedby refid="d3/d21/a01657_1a5f8261f34c5c2b6ffab0d4e57bb0f862" compoundref="d5/de9/a00176" startline="734" endline="748">CIccMpeInvEmissionMatrix::Apply</referencedby>
+        <referencedby refid="d2/d44/a01677_1a4bdbb7085659d9219e2f652b06c4d6ac" compoundref="d5/de9/a00176" startline="1948" endline="1972">CIccMpeSpectralObserver::Apply</referencedby>
+        <referencedby refid="d8/dbf/a01109_1ab70e50510cb2440171a3ba005587adff" compoundref="d9/dd0/a00191" startline="11301" endline="11318">CIccTagSpectralViewingConditions::applyRangeToObserver</referencedby>
+        <referencedby refid="d1/d03/a01653_1aa53d573cedfbcea2d2ac8287b01ec032" compoundref="d5/de9/a00176" startline="595" endline="639">CIccMpeEmissionMatrix::Begin</referencedby>
+        <referencedby refid="d3/d21/a01657_1ad1511fd222849d2cfa8e097df20b2442" compoundref="d5/de9/a00176" startline="677" endline="722">CIccMpeInvEmissionMatrix::Begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="df/d5a/a01681_1a2a15f4b7818494a70c2934cf882a3b53" compoundref="d5/de9/a00176" startline="2044" endline="2072">CIccMpeEmissionObserver::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+        <referencedby refid="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" compoundref="de/db1/a00197" startline="231" endline="285">IIccProfileConnectionConditions::getEmissiveObserver</referencedby>
+        <referencedby refid="db/d18/a00885_1a26aeaba43632aa5d06de6623fd900d4b" compoundref="de/db1/a00197" startline="162" endline="196">IIccProfileConnectionConditions::getObserverIlluminantScaleFactor</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a02a2d8cee6baabd93d5712fdd4f8b361" compoundref="d9/dd0/a00191" startline="11320" endline="11336">CIccTagSpectralViewingConditions::getObserverMatrix</referencedby>
+        <referencedby refid="db/d18/a00885_1a81fb6e4ffae390d84145d802702b6d6c" compoundref="de/db1/a00197" startline="198" endline="229">IIccProfileConnectionConditions::getObserverWhiteScaleFactor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/da3/a00953_1a17e3fdff1d4d143488ae71ea79e41354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccMatrixMath::VectorScale</definition>
+        <argsstring>(const icFloatNumber *vec)</argsstring>
+        <name>VectorScale</name>
+        <qualifiedname>CIccMatrixMath::VectorScale</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1a17e3fdff1d4d143488ae71ea79e41354" kindref="member">CIccMatrixMath::VectorScale</ref></para>
+<para>Purpose: Multiplies each row by values of vector passed in </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="108" column="8" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="238" bodyend="247"/>
+        <references refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" compoundref="dc/dfe/a00125" startline="111" endline="111">entry</references>
+        <references refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" compoundref="dc/dfe/a00125" startline="125">m_nCols</references>
+        <references refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" compoundref="dc/dfe/a00125" startline="125">m_nRows</references>
+        <referencedby refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" compoundref="de/db1/a00197" startline="287" endline="311">IIccProfileConnectionConditions::getReflectanceObserver</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref> *</type>
+        <definition>CIccMatrixMath * CIccMatrixMath::rangeMap</definition>
+        <argsstring>(const icSpectralRange &amp;from, const icSpectralRange &amp;to)</argsstring>
+        <name>rangeMap</name>
+        <qualifiedname>CIccMatrixMath::rangeMap</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref> &amp;</type>
+          <declname>from</declname>
+          <defname>srcRange</defname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref> &amp;</type>
+          <declname>to</declname>
+          <defname>dstRange</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" kindref="member">CIccMatrixMath::rangeMap</ref></para>
+<para>Purpose: This helper function generates a matrix math object that can be used to convert spectral vectors from one spectral range to another using linear interpolation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMatrixMath.h" line="122" column="25" bodyfile="IccProfLib/IccMatrixMath.cpp" bodystart="409" bodyend="421"/>
+        <references refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" compoundref="db/dab/a00089" startline="94" endline="110">CIccMatrixMath</references>
+        <references refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" compoundref="d7/d46/a00002" startline="1468">icSpectralRange::end</references>
+        <references refid="d5/da3/a00953_1add1c27a4503de16e7e8810b04eb27edd" compoundref="db/dab/a00089" startline="353" endline="398">SetRange</references>
+        <references refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" compoundref="d7/d46/a00002" startline="1467">icSpectralRange::start</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <referencedby refid="d8/dbf/a01109_1ab70e50510cb2440171a3ba005587adff" compoundref="d9/dd0/a00191" startline="11301" endline="11318">CIccTagSpectralViewingConditions::applyRangeToObserver</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+        <referencedby refid="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" compoundref="de/db1/a00197" startline="231" endline="285">IIccProfileConnectionConditions::getEmissiveObserver</referencedby>
+        <referencedby refid="db/d18/a00885_1a26aeaba43632aa5d06de6623fd900d4b" compoundref="de/db1/a00197" startline="162" endline="196">IIccProfileConnectionConditions::getObserverIlluminantScaleFactor</referencedby>
+        <referencedby refid="db/d18/a00885_1a81fb6e4ffae390d84145d802702b6d6c" compoundref="de/db1/a00197" startline="198" endline="229">IIccProfileConnectionConditions::getObserverWhiteScaleFactor</referencedby>
+        <referencedby refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" compoundref="de/db1/a00197" startline="287" endline="311">IIccProfileConnectionConditions::getReflectanceObserver</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Type: Class</para>
+<para>Purpose: Object for performing matrix/vector math </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccMatrixMath.h" line="93" column="1" bodyfile="IccProfLib/IccMatrixMath.h" bodystart="94" bodyend="127"/>
+    <listofallmembers>
+      <member refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>CIccMatrixMath</name></member>
+      <member refid="d5/da3/a00953_1a670280c8954c2db68eef371fa27cbc79" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>CIccMatrixMath</name></member>
+      <member refid="d5/da3/a00953_1a7fea4ceca151caac89410cdf75e8be40" prot="public" virt="virtual"><scope>CIccMatrixMath</scope><name>dumpMtx</name></member>
+      <member refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>entry</name></member>
+      <member refid="d5/da3/a00953_1ace85df9d9a5ed70b4bba5c3e3b09c8b6" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>entry</name></member>
+      <member refid="d5/da3/a00953_1a1990ca044341cf1f230224ed2801d300" prot="public" virt="virtual"><scope>CIccMatrixMath</scope><name>GetCols</name></member>
+      <member refid="d5/da3/a00953_1a350cc5346b4e2ac73361727760e62b4c" prot="public" virt="virtual"><scope>CIccMatrixMath</scope><name>GetRows</name></member>
+      <member refid="d5/da3/a00953_1ae31182cfd2516c8579697469098eb670" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>Invert</name></member>
+      <member refid="d5/da3/a00953_1a2807b59f0fc381bfb75defd89679806f" prot="public" virt="virtual"><scope>CIccMatrixMath</scope><name>isIdentityMtx</name></member>
+      <member refid="d5/da3/a00953_1a2bc8b9ad43494994a4e476643193ad26" prot="protected" virt="non-virtual"><scope>CIccMatrixMath</scope><name>m_nCols</name></member>
+      <member refid="d5/da3/a00953_1a3224ba59fed5dc4a1e9342229cb76c8f" prot="protected" virt="non-virtual"><scope>CIccMatrixMath</scope><name>m_nRows</name></member>
+      <member refid="d5/da3/a00953_1a221c3700665754ea277c9ec163b322aa" prot="protected" virt="non-virtual"><scope>CIccMatrixMath</scope><name>m_vals</name></member>
+      <member refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>Mult</name></member>
+      <member refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>rangeMap</name></member>
+      <member refid="d5/da3/a00953_1a0711f353df382e731588736d339fcb26" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>RowSum</name></member>
+      <member refid="d5/da3/a00953_1ada7ffe05cbe73c5a80ba0814b3f1cab0" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>Scale</name></member>
+      <member refid="d5/da3/a00953_1add1c27a4503de16e7e8810b04eb27edd" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>SetRange</name></member>
+      <member refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" prot="public" virt="virtual"><scope>CIccMatrixMath</scope><name>VectorMult</name></member>
+      <member refid="d5/da3/a00953_1a17e3fdff1d4d143488ae71ea79e41354" prot="public" virt="non-virtual"><scope>CIccMatrixMath</scope><name>VectorScale</name></member>
+      <member refid="d5/da3/a00953_1a8d0d55919f94f3ad4ab681287d896ce6" prot="public" virt="virtual"><scope>CIccMatrixMath</scope><name>~CIccMatrixMath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

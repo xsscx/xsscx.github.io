@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/dba/a00681" kind="struct" language="C++" prot="public">
+    <compoundname>icLut8Type</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/dba/a00681_1a9be8b878f00000aad2d9308397665752" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icLut8Type::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icLut8Type::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1850" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dba/a00681_1aee0bfe3ab72d03325aba2c3a4e72ae7b" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/d21/a00573" kindref="compound">icLut8</ref></type>
+        <definition>icLut8 icLut8Type::lut</definition>
+        <argsstring></argsstring>
+        <name>lut</name>
+        <qualifiedname>icLut8Type::lut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1851" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1851" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>lut8Type, input &amp; output tables are always 256 bytes in length </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icLut8</label>
+        <link refid="d6/d21/a00573"/>
+      </node>
+      <node id="1">
+        <label>icLut8Type</label>
+        <link refid="d8/dba/a00681"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>lut</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1849" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1849" bodyend="1852"/>
+    <listofallmembers>
+      <member refid="d8/dba/a00681_1a9be8b878f00000aad2d9308397665752" prot="public" virt="non-virtual"><scope>icLut8Type</scope><name>base</name></member>
+      <member refid="d8/dba/a00681_1aee0bfe3ab72d03325aba2c3a4e72ae7b" prot="public" virt="non-virtual"><scope>icLut8Type</scope><name>lut</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

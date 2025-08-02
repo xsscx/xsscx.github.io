@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d0/dd4/a02298" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccPngDump_2Readme</compoundname>
+    <title>📸 iccPngDump</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="d0/dd4/a02298_1autotoc_md150"/> <bold>iccPngDump</bold> is a cross platform command line tool for extracting and analyzing ICC color profiles embedded in PNG images. It reads metadata from PNG files and, if present, extracts and optionally saves the ICC profile.</para>
+<para><hruler/>
+</para>
+<sect1 id="d0/dd4/a02298_1autotoc_md152">
+<title>🔧 Features</title>
+<para><itemizedlist>
+<listitem><para><bold>PNG Metadata</bold><itemizedlist>
+<listitem><para>Image dimensions (width x height)</para>
+</listitem><listitem><para>Bit depth</para>
+</listitem><listitem><para>Color type (e.g., RGB, Grayscale, Palette, RGBA)</para>
+</listitem><listitem><para>Interlace type (e.g., None, Adam7)</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para>✅ <bold>ICC Extraction:</bold><itemizedlist>
+<listitem><para>Parses and displays detailed PNG metadata</para>
+</listitem><listitem><para>Extracts embedded ICC profiles from PNG images</para>
+</listitem><listitem><para>Outputs ICC profile information including color space, PCS, and version</para>
+</listitem><listitem><para>Optionally saves ICC profile data to a separate file</para>
+</listitem></itemizedlist>
+</para>
+<para>✅ <bold>ICC Injection:</bold><itemizedlist>
+<listitem><para>Profile size</para>
+</listitem><listitem><para>Color Space</para>
+</listitem><listitem><para>Colorimetric PCS</para>
+</listitem><listitem><para>Profile version</para>
+</listitem></itemizedlist>
+</para>
+<para>🧪 <bold>Fuzzing Support:</bold><itemizedlist>
+<listitem><para>Ideal for image fuzzers and ICC validation pipelines</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d0/dd4/a02298_1autotoc_md154">
+<title>🚀 Usage</title>
+<sect2 id="d0/dd4/a02298_1autotoc_md155">
+<title>📤 Extract ICC Profile</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">iccPngDump<sp/>input.png<sp/>output.icc</highlight></codeline>
+</programlisting></para>
+<para>Saves the embedded ICC profile (if any) into <computeroutput>output.icc</computeroutput>.</para>
+<para><hruler/>
+</para>
+</sect2>
+<sect2 id="d0/dd4/a02298_1autotoc_md157">
+<title>📥 Inject ICC Profile</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">iccPngDump<sp/>input.png<sp/>--write-icc<sp/>profile.icc<sp/>--output<sp/>output.png</highlight></codeline>
+</programlisting></para>
+<para>Injects <computeroutput>profile.icc</computeroutput> into the PNG and creates <computeroutput>output.png</computeroutput>.</para>
+<para><hruler/>
+ </para>
+</sect2>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccPngDump/Readme.md"/>
+  </compounddef>
+</doxygen>

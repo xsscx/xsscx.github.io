@@ -1,0 +1,1049 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/de1/a00065" kind="file" language="C++">
+    <compoundname>IccTagFactory.cpp</compoundname>
+    <includes refid="d2/df5/a00137" local="yes">IccTag.h</includes>
+    <includes refid="d8/d41/a00038" local="yes">IccTagFactory.h</includes>
+    <includes refid="d7/dce/a00143" local="yes">IccUtil.h</includes>
+    <includes refid="d4/d51/a00017" local="yes">IccProfile.h</includes>
+    <includes local="no">map</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IccIO.h</label>
+        <link refid="df/d6a/a00119"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>IccPcc.h</label>
+        <link refid="d4/d3a/a00101"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IccProfile.h</label>
+        <link refid="d4/d51/a00017"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IccTag.h</label>
+        <link refid="d2/df5/a00137"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>IccTagBasic.h</label>
+        <link refid="da/dec/a00080"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IccTagComposite.h</label>
+        <link refid="d1/da8/a00230"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>IccTagDict.h</label>
+        <link refid="df/d03/a00062"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>IccTagEmbedIcc.h</label>
+        <link refid="dc/d9a/a00218"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccTagFactory.cpp</label>
+        <link refid="de/de1/a00065"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IccTagFactory.h</label>
+        <link refid="d8/d41/a00038"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>IccTagLut.h</label>
+        <link refid="da/d24/a00068"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>IccTagMPE.h</label>
+        <link refid="d7/d25/a00182"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>IccTagProfSeqId.h</label>
+        <link refid="d5/df1/a00206"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>IccUtil.h</label>
+        <link refid="d7/dce/a00143"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="24">
+        <label>limits</label>
+      </node>
+      <node id="11">
+        <label>list</label>
+      </node>
+      <node id="25">
+        <label>map</label>
+      </node>
+      <node id="16">
+        <label>memory</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>stdio.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="de/de1/a00065_1a2feef247bba8bb7cd766dd67400b5fbd" prot="public" static="no">
+        <type>std::map&lt; std::string, <ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref> &gt;</type>
+        <definition>typedef std::map&lt;std::string, icTagSignature&gt; icTagNameToSigMap</definition>
+        <argsstring></argsstring>
+        <name>icTagNameToSigMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="85" column="18" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="de/de1/a00065_1a1ef3464c089c2c8f9ee56d3a168a8d87" prot="public" static="no">
+        <type>std::map&lt; <ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref>, std::string &gt;</type>
+        <definition>typedef std::map&lt;icTagSignature, std::string&gt; icTagSigToNameMap</definition>
+        <argsstring></argsstring>
+        <name>icTagSigToNameMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="82" column="18" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="de/de1/a00065_1a20792efaa0402e5c2a46f80b28daae71" prot="public" static="no">
+        <type>std::map&lt; std::string, <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref> &gt;</type>
+        <definition>typedef std::map&lt;std::string, icTagTypeSignature&gt; icTagTypeNameToSigMap</definition>
+        <argsstring></argsstring>
+        <name>icTagTypeNameToSigMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="222" column="18" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="de/de1/a00065_1ad5c014a68274ae512e7ab503cee32549" prot="public" static="no">
+        <type>std::map&lt; <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref>, std::string &gt;</type>
+        <definition>typedef std::map&lt;icTagTypeSignature, std::string&gt; icTagTypeSigToNameMap</definition>
+        <argsstring></argsstring>
+        <name>icTagTypeSigToNameMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="219" column="18" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="219" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="de/de1/a00065_1a51dd477ab3f4b3c02b89378f6c9a61f5" prot="public" static="yes" mutable="no">
+        <type><ref refid="de/de1/a00065_1a20792efaa0402e5c2a46f80b28daae71" kindref="member">icTagTypeNameToSigMap</ref></type>
+        <definition>icTagTypeNameToSigMap g_AltTagTypeNameToSigMap</definition>
+        <argsstring></argsstring>
+        <name>g_AltTagTypeNameToSigMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="224" column="30" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="224" bodyend="-1"/>
+        <referencedby refid="de/d34/a01261_1a8f456fd3f9154b5ea30a0ec958b0fe8c" compoundref="de/de1/a00065" startline="505" endline="525">CIccSpecTagFactory::GetTagTypeNameSig</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/de1/a00065_1abdbad066d2f28b5af1126e86fcd3f80b" prot="public" static="no" mutable="no">
+        <type>struct </type>
+        <definition>struct  g_icAltTagTypeNameTable[]</definition>
+        <argsstring>[]</argsstring>
+        <name>g_icAltTagTypeNameTable</name>
+        <initializer>= {
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea530de0674970862d1cb29d7a3d8f342c" kindref="member">icSigFloat16ArrayType</ref>             , &quot;float16NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae17f065e92dd0ee43aeef1f18c6e0db0" kindref="member">icSigFloat32ArrayType</ref>             , &quot;float32NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9d1705d00ee5bd14f2ac2b0109eb901d" kindref="member">icSigFloat64ArrayType</ref>             , &quot;float64NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6e14fa1c5ecc1f51851d0eba0154a4fe" kindref="member">icSigS15Fixed16ArrayType</ref>          , &quot;s15Fixed16NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeac934416d1d3e95c99c75b2bf8f018f2e" kindref="member">icSigU16Fixed16ArrayType</ref>          , &quot;u16Fixed16NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2368c79224b0f401f4dc19ee5353e4a9" kindref="member">icSigUInt16ArrayType</ref>              , &quot;uInt16NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe8c40bc78370d5212050e2dd129d317" kindref="member">icSigUInt32ArrayType</ref>              , &quot;uInt32NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa3c8d9a1c8b9a7fa396a79e493e96084" kindref="member">icSigUInt64ArrayType</ref>              , &quot;uInt64NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1308dbd189e810ca0f0f804e74c8a49c" kindref="member">icSigUInt8ArrayType</ref>               , &quot;uInt8NumberType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea21dfb852fbf1b3dfa35ca6804d3d0499" kindref="member">icSigUtf8TextType</ref>                 , &quot;utf8TextType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea42d8a785706c2dc6140684c1ff40d074" kindref="member">icSigTagStructType</ref>                , &quot;tagStructureType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea98122bd6abb44702c61a5c53006da" kindref="member">icSigXYZArrayType</ref>                 , &quot;XYZType&quot; },
+  { <ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead8a14846cc8db3c25bf7091c2985ef76" kindref="member">icSigZipUtf8TextType</ref>              , &quot;zipUtf8TextType&quot; },
+  { (<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref>)0,&quot;&quot; },
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="305" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" prot="public" static="no" mutable="no">
+        <type>struct </type>
+        <definition>struct  g_icTagNameTable[]</definition>
+        <argsstring>[]</argsstring>
+        <name>g_icTagNameTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" prot="public" static="no" mutable="no">
+        <type>struct </type>
+        <definition>struct  g_icTagTypeNameTable[]</definition>
+        <argsstring>[]</argsstring>
+        <name>g_icTagTypeNameTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="284" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/de1/a00065_1a664f429bd4cf8c3ce609dfcd8ca45375" prot="public" static="yes" mutable="no">
+        <type><ref refid="de/de1/a00065_1a2feef247bba8bb7cd766dd67400b5fbd" kindref="member">icTagNameToSigMap</ref></type>
+        <definition>icTagNameToSigMap g_TagNameToSigMap</definition>
+        <argsstring></argsstring>
+        <name>g_TagNameToSigMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="86" column="26" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="86" bodyend="-1"/>
+        <referencedby refid="de/d34/a01261_1a5fc55baeb411a1205ef34c1355868d3c" compoundref="de/de1/a00065" startline="479" endline="490">CIccSpecTagFactory::GetTagNameSig</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" prot="public" static="yes" mutable="no">
+        <type><ref refid="de/de1/a00065_1a1ef3464c089c2c8f9ee56d3a168a8d87" kindref="member">icTagSigToNameMap</ref></type>
+        <definition>icTagSigToNameMap g_TagSigToNameMap</definition>
+        <argsstring></argsstring>
+        <name>g_TagSigToNameMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="83" column="26" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="83" bodyend="-1"/>
+        <referencedby refid="de/d34/a01261_1a5fc55baeb411a1205ef34c1355868d3c" compoundref="de/de1/a00065" startline="479" endline="490">CIccSpecTagFactory::GetTagNameSig</referencedby>
+        <referencedby refid="de/d34/a01261_1aa0b1453f1f9b42ce35185ec786700a38" compoundref="de/de1/a00065" startline="466" endline="477">CIccSpecTagFactory::GetTagSigName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/de1/a00065_1afda960a501ed764b4df2981eb76ad77a" prot="public" static="yes" mutable="no">
+        <type><ref refid="de/de1/a00065_1a20792efaa0402e5c2a46f80b28daae71" kindref="member">icTagTypeNameToSigMap</ref></type>
+        <definition>icTagTypeNameToSigMap g_TagTypeNameToSigMap</definition>
+        <argsstring></argsstring>
+        <name>g_TagTypeNameToSigMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="223" column="30" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="223" bodyend="-1"/>
+        <referencedby refid="de/d34/a01261_1a8f456fd3f9154b5ea30a0ec958b0fe8c" compoundref="de/de1/a00065" startline="505" endline="525">CIccSpecTagFactory::GetTagTypeNameSig</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/de1/a00065_1ac9d094be967f7c563929713100322ef6" prot="public" static="yes" mutable="no">
+        <type><ref refid="de/de1/a00065_1ad5c014a68274ae512e7ab503cee32549" kindref="member">icTagTypeSigToNameMap</ref></type>
+        <definition>icTagTypeSigToNameMap g_TagTypeSigToNameMap</definition>
+        <argsstring></argsstring>
+        <name>g_TagTypeSigToNameMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.cpp" line="220" column="30" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="220" bodyend="-1"/>
+        <referencedby refid="de/d34/a01261_1a116d068adb461630d1ea644cd940d344" compoundref="de/de1/a00065" startline="492" endline="503">CIccSpecTagFactory::GetTagTypeSigName</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="de/de1/a00065" kindref="compound">IccTagFactory.cpp</ref></para>
+<para>Contains: Implementation of the <ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> class and creation factories</para>
+<para>Version: V1</para>
+<para>Copyright: � see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Oct<sp/>30,<sp/>2005</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Added<sp/>CICCTag<sp/>Creation<sp/>using<sp/>factory<sp/>support</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/df5/a00137" kindref="compound">IccTag.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d8/d41/a00038" kindref="compound">IccTagFactory.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/dce/a00143" kindref="compound">IccUtil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/d51/a00017" kindref="compound">IccProfile.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">refIccMAX<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="de/de1/a00065_1a1ef3464c089c2c8f9ee56d3a168a8d87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;icTagSignature,<sp/>std::string&gt;<sp/><ref refid="de/de1/a00065_1a1ef3464c089c2c8f9ee56d3a168a8d87" kindref="member">icTagSigToNameMap</ref>;</highlight></codeline>
+<codeline lineno="83" refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="de/de1/a00065_1a1ef3464c089c2c8f9ee56d3a168a8d87" kindref="member">icTagSigToNameMap</ref><sp/><ref refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" kindref="member">g_TagSigToNameMap</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="de/de1/a00065_1a2feef247bba8bb7cd766dd67400b5fbd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>icTagSignature&gt;<sp/><ref refid="de/de1/a00065_1a2feef247bba8bb7cd766dd67400b5fbd" kindref="member">icTagNameToSigMap</ref>;</highlight></codeline>
+<codeline lineno="86" refid="de/de1/a00065_1a664f429bd4cf8c3ce609dfcd8ca45375" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="de/de1/a00065_1a2feef247bba8bb7cd766dd67400b5fbd" kindref="member">icTagNameToSigMap</ref><sp/><ref refid="de/de1/a00065_1a664f429bd4cf8c3ce609dfcd8ca45375" kindref="member">g_TagNameToSigMap</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref><sp/>sig;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szName;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}<sp/><ref refid="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" kindref="member">g_icTagNameTable</ref>[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a48a680ba3049e0c37a44da9f08e411c7" kindref="member">icSigAToB0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;AToB0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab04125e571eb02f134e54fb3b0bcdb45" kindref="member">icSigAToB1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;AToB1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a58f2209b5887e2dd73b279b5b2c6f4b2" kindref="member">icSigAToB2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;AToB2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a19b39e0d70b49c0c8864ec3b5ee2f1ba" kindref="member">icSigAToB3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;AToB3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a4101fbfb53a9e422f925a0eb9b9754dc" kindref="member">icSigAToM0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;AToM0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5af4720cf718f11479079abbd8e2cf4cd8" kindref="member">icSigBlueColorantTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;blueColorantTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a8b6202952425dbdc400d2626e650c903" kindref="member">icSigBlueTRCTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;blueTRCTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ae6f4fd41479c1274ea14e0bb432f0253" kindref="member">icSigBrdfColorimetricParameter0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfColorimetricParameter0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5af4af5bcf72d59f49965aa40c48908244" kindref="member">icSigBrdfColorimetricParameter1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfColorimetricParameter1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a238f3512751f428723e6c394c9ec213d" kindref="member">icSigBrdfColorimetricParameter2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfColorimetricParameter2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a09cd92af38d6cbff7b89298d89f51eeb" kindref="member">icSigBrdfColorimetricParameter3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfColorimetricParameter3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a341a5307f022df0104358887c08c4115" kindref="member">icSigBrdfSpectralParameter0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfSpectralParameter0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a3d4231c55723c0b2d71820be0c94c969" kindref="member">icSigBrdfSpectralParameter1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfSpectralParameter1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aba46420f0c81cc3eed7391553e199fc3" kindref="member">icSigBrdfSpectralParameter2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfSpectralParameter2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a51106d23cf183863053812bdec119380" kindref="member">icSigBrdfSpectralParameter3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfSpectralParameter3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5af8c5abf6686452d76ab9c0327ad5067c" kindref="member">icSigBRDFMToB0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfMToB0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a078ce8e7fc1f2e78a5bcd4506216f2b7" kindref="member">icSigBRDFMToB1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfMToB1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ae782b20bae75483824a1a5d2f2dd9722" kindref="member">icSigBRDFMToB2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfMToB2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a07ee2aaf6842476471432af3cc786404" kindref="member">icSigBRDFMToB3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfMToB3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5abf1026085f40d42c8202fd1b3a8ad9b4" kindref="member">icSigBRDFMToS0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfMToS0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5abda57fa68ef3f179ca1728b2030da340" kindref="member">icSigBRDFMToS1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfMToS1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aedc74200d224e34779e11dd7046e3263" kindref="member">icSigBRDFMToS2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfMToS2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aa5b272ef03d506460dbb1c5c6a6cc599" kindref="member">icSigBRDFMToS3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;brdfMToS3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a6a8323df91e18a157d90c1f0f27c6a22" kindref="member">icSigBRDFAToB0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BRDFAToB0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a5de47dbe748df56961f281925bea6b20" kindref="member">icSigBRDFAToB1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BRDFAToB1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a5e0267eb98fcad5b67be9ea93d542d1f" kindref="member">icSigBRDFAToB2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BRDFAToB2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aac5e9b2585c41bb682c9bdc23c946ce6" kindref="member">icSigBRDFAToB3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BRDFAToB3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a182f63dba24e9033151133f9678f7b75" kindref="member">icSigBRDFDToB0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BRDFDToB0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ae4cabd9561daefe0cac8c575903a00fd" kindref="member">icSigBRDFDToB1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BRDFDToB1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aeeac523bcf909c95333b3d5369557861" kindref="member">icSigBRDFDToB2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BRDFDToB2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aff379495d95e9fcc6a855de99fe63987" kindref="member">icSigBRDFDToB3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BRDFDToB3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a8cedfd19ee2a19d51d0a3f3d6f04ab62" kindref="member">icSigSurfaceMapTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;surfaceMapTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a78413df8b7d634ae4e0ec02f006e5bd0" kindref="member">icSigBToA0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BToA0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a53147bf01d2c36339096d2f22b9c2869" kindref="member">icSigBToA1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BToA1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a0ba36c77684b04845f69da317ef3feb8" kindref="member">icSigBToA2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BToA2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab6a3ba830b4ac279851cb5674c83ce06" kindref="member">icSigBToA3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BToA3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a0247611a0b2a3faa49a0df2dfc8420cc" kindref="member">icSigBToD0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BToD0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a8a66e2d1402c9f9796a902cd2f0ac0eb" kindref="member">icSigBToD1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BToD1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a3f7f2ce3a477f833687bf32e9e67973d" kindref="member">icSigBToD2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BToD2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a740cafe42e07749bbe3b36d881325801" kindref="member">icSigBToD3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;BToD3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5abff56e79c675648d75fcb2688aa10f66" kindref="member">icSigCalibrationDateTimeTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;calibrationDateTimeTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a979ec9ed3544130dd8678ef66f963499" kindref="member">icSigCharTargetTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;charTargetTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5abde88f0bba82f8589d8bb06ab2b32f68" kindref="member">icSigChromaticityTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;chromaticityTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a448c7f386c244dd8d1403e2198a1455d" kindref="member">icSigCicpTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;cicpTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a986d30d833726433b8fad6c8a6713bfc" kindref="member">icSigCopyrightTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;copyrightTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a39a161246fd952585d0e73ea72a9b31a" kindref="member">icSigCrdInfoTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;crdInfoTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a6cf2af39b8c429343315d19192ac56fe" kindref="member">icSigDataTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;dataTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ac118eb5bf2babec6e77c9a41bc750614" kindref="member">icSigDateTimeTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;dateTimeTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a0ccb9a14cd9902612e550765e873d094" kindref="member">icSigDeviceMfgDescTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;deviceMfgDescTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a49b47bad58407ecfcaea432c73a9ee2a" kindref="member">icSigDeviceModelDescTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;deviceModelDescTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a46d0ca2eee2967d1f9d73184a911d1d0" kindref="member">icSigMetaDataTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;metaDataTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a703f1866ed4cc98f623090b38917bc8e" kindref="member">icSigDToB0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;DToB0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ae185d0e91c27dc49b2a4a328de2fbb92" kindref="member">icSigDToB1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;DToB1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5acdc5d9cd5c1c36ed3af09fd2e40fe550" kindref="member">icSigDToB2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;DToB2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a585329dfc33381a67de302149941bd38" kindref="member">icSigDToB3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;DToB3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ad57d49a829f89f04159908e21ffe9d01" kindref="member">icSigGamutTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;gamutTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a2d325d9752d2d4554c2786d0093ba263" kindref="member">icSigGamutBoundaryDescription0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;gamutBoundaryDescription0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a2b1fe3485648e9a0150a6441cbd0a897" kindref="member">icSigGamutBoundaryDescription1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;gamutBoundaryDescription1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a28f3a7369557b1599e729eb192a2b9c8" kindref="member">icSigGamutBoundaryDescription2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;gamutBoundaryDescription2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a0f5ddce60f10b39a38b9d36707e398f9" kindref="member">icSigGamutBoundaryDescription3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;gamutBoundaryDescription3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a046bf81412ed16e2ce5f0735bb7e7315" kindref="member">icSigGrayTRCTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;grayTRCTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5acba23ad6da4cf6492147b2e8f0ec0347" kindref="member">icSigGreenColorantTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;greenColorantTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a3525a308b3af69ebe5c8888dcb80ef12" kindref="member">icSigGreenTRCTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;greenTRCTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a91088345233e12514ec483327a00dbe8" kindref="member">icSigHToS0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;HToS0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a85d24fc4ed8a193b8718b540ecfd003d" kindref="member">icSigHToS1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;HToS1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a46872db563207dce392030175e993f7d" kindref="member">icSigHToS2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;HTSB2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a23a1145e55d8486dcad5566bad1ee9bf" kindref="member">icSigHToS3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;HToS3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ad0db5c2f96192e55b9f539a7acf4f953" kindref="member">icSigLuminanceTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;luminanceTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a3636b70d0ff4b8e7943d33b20f294b9e" kindref="member">icSigMeasurementTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;measurementTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a95557bc30e43c322ce83742fd0e398b6" kindref="member">icSigMediaBlackPointTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;mediaBlackPointTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aa000d29d0c1e0b2ed0fa49651a5efd26" kindref="member">icSigMediaWhitePointTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;mediaWhitePointTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ad5d6c8e49e16de86bede2c2e239b38d7" kindref="member">icSigMToA0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToA0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a486e40891ee768a1331bf94d608d8400" kindref="member">icSigMToB0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToB0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a8ee39bf8d934b766ca5884899d3357a0" kindref="member">icSigMToB1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToB1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5afd14f97e87bd34ada5b11d93e4a54b01" kindref="member">icSigMToB2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToB2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a50703cf46b465a10ad158fbb65ac8f8e" kindref="member">icSigMToB3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToB3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a7a93318f3fc1c8582f6b11da800a899a" kindref="member">icSigMToS0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToS0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5adb1d5ba824d4d843572fe8206edad0ca" kindref="member">icSigMToS1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToS1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a80fd6e9a9bd600c3ca6a9a29c654b29a" kindref="member">icSigMToS2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToS2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a33c2ed77d7d42de199cb874ec5ad4abf" kindref="member">icSigMToS3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;MToS3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ac9a9457a436bbfaa9212552f337d2beb" kindref="member">icSigNamedColor2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;namedColor2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ac5ae9a8a0d00acc2b7ec4f2da4ccc3f8" kindref="member">icSigPreview0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;preview0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a41d5b7aedf67a82ca949d34543dd68bc" kindref="member">icSigPreview1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;preview1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5af28679b885e4968a6ae3e0d8db52776d" kindref="member">icSigPreview2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;preview2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5adeb54f7a4a5444b2507ffafe8b0364d4" kindref="member">icSigPrintConditionTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;printConditionTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a92a815c1697e8b8a4f91474a8f4a5b6b" kindref="member">icSigProfileDescriptionTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;profileDescriptionTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a5faff0b79b660d8695fdad803ba4f4cb" kindref="member">icSigProfileSequenceDescTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;profileSequenceDescTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a57ee4c24e729cdc647dc2f71a1a86ab5" kindref="member">icSigProfileSequceIdTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;profileSequenceIdentifierTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a41ebec8b938ff4f30751468699bf9ba6" kindref="member">icSigPs2CRD0Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ps2CRD0Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a8a7aadf0e9f5b6982ec64e59c8c7f0cb" kindref="member">icSigPs2CRD1Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ps2CRD1Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a92ac98462e302b7069225c429545a5c0" kindref="member">icSigPs2CRD2Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ps2CRD2Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab41ac71ade74c3643f228b49d95f42f2" kindref="member">icSigPs2CRD3Tag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ps2CRD3Tag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a39b41e9cff449e9f0740f5a58e174524" kindref="member">icSigPs2CSATag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ps2CSATag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a428d7d69fa8ace52092a46be12fd3c59" kindref="member">icSigPs2RenderingIntentTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ps2RenderingIntentTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a943b070fdf23c8230efd13076e0f6eb0" kindref="member">icSigRedColorantTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;redColorantTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a7fea74def2b68bdcd33cec08da4fa667" kindref="member">icSigRedTRCTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;redTRCTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a47f3695d5be907f03c9714abc0234c33" kindref="member">icSigScreeningDescTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;screeningDescTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a5062e24d9ff1f3b76ff9908a807b6550" kindref="member">icSigScreeningTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;screeningTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ad984cb6805488dee7aebab1acf052c24" kindref="member">icSigTechnologyTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;technologyTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ac64927422db69eb8161ab57cc3058176" kindref="member">icSigUcrBgTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ucrBgTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aa77b583d84276f48f0497b6ec675096a" kindref="member">icSigViewingCondDescTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;viewingCondDescTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a18d1513e6e9b0d42a63f61ae2c3a976d" kindref="member">icSigViewingConditionsTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;viewingConditionsTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a04ad166213f82cc83838f0afcc606346" kindref="member">icSigSpectralViewingConditionsTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;spectralViewingConditionsTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a1f2be875011dcee0d247540d8321df17" kindref="member">icSigColorantInfoTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorantInfoTag&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a9360509f1c874b1fd5fab0d739153c1e" kindref="member">icSigColorantInfoOutTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorantInfoOutTag&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a15f691fd3f4a177e8ab54c9710ff3563" kindref="member">icSigColorantOrderTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorantOrderTag&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab6decb51e4062b6be0a785bc0f6ec0e2" kindref="member">icSigColorantOrderOutTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorantOrderOutTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a582fe6846ecfc5f4f92fb3376fdebd00" kindref="member">icSigColorantTableTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorantTableTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a9f84937e2e599205f929e7ced9f51016" kindref="member">icSigChromaticAdaptationTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;chromaticAdaptationTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab5cfe5011e31bc9d5b3d763c49661ebb" kindref="member">icSigColorantTableOutTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorantTableOutTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a9baeada25d6426d7a716e1010d5c6ab4" kindref="member">icSigOutputResponseTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;outputResponseTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a0a808cd37d38a44efd0bb7dd2db6aa1a" kindref="member">icSigPerceptualRenderingIntentGamutTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;perceptualRenderingIntentGamutTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a4846776bd770bee460e40b0a54958072" kindref="member">icSigSaturationRenderingIntentGamutTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;saturationRenderingIntentGamutTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a4af8e71a453cf40508df922094d90c18" kindref="member">icSigCxFTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;CxfTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a4259e1b992c558204602d82369f23ec6" kindref="member">icSigSpectralDataInfoTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;spectralDataInfoTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a70e1949609529f9bc14fc2a8914b1f40" kindref="member">icSigSpectralWhitePointTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;spectralWhitePointTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a662ca2cfa42f6413cbb3340c1e2906de" kindref="member">icSigCustomToStandardPccTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;customToStandardPccTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ad00966f5d7a65b7d2da7d09000f339d7" kindref="member">icSigStandardToCustomPccTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;standardToCustomPccTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab60fd192f09adeb45ac657279bf53ff6" kindref="member">icSigColorEncodingParamsTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorEncodingParamsTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a337e009b8d090fa92e60b9f34a59c371" kindref="member">icSigColorSpaceNameTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorSpaceNameTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aca49a7a664b57187af8a75a09647d057" kindref="member">icSigReferenceNameTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;referenceNameTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ae92349e1ad0bb9aab7d390df0a8c82cc" kindref="member">icSigMaterialTypeArrayTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;materialTypeArrayTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a32d9a526626e93fa27620c528e48daf4" kindref="member">icSigMaterialDefaultValuesTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;materialDefaultValuesTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a023181c380c1d5ab9e3aebc7ed159db4" kindref="member">icSigEmbeddedV5ProfileTag</ref>,<sp/></highlight><highlight class="stringliteral">&quot;embeddedV5ProfileTag&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/>{(<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref>)0,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="217" refid="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="de/de1/a00065_1ad5c014a68274ae512e7ab503cee32549" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;icTagTypeSignature,<sp/>std::string&gt;<sp/><ref refid="de/de1/a00065_1ad5c014a68274ae512e7ab503cee32549" kindref="member">icTagTypeSigToNameMap</ref>;</highlight></codeline>
+<codeline lineno="220" refid="de/de1/a00065_1ac9d094be967f7c563929713100322ef6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="de/de1/a00065_1ad5c014a68274ae512e7ab503cee32549" kindref="member">icTagTypeSigToNameMap</ref><sp/><ref refid="de/de1/a00065_1ac9d094be967f7c563929713100322ef6" kindref="member">g_TagTypeSigToNameMap</ref>;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="de/de1/a00065_1a20792efaa0402e5c2a46f80b28daae71" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>icTagTypeSignature&gt;<sp/><ref refid="de/de1/a00065_1a20792efaa0402e5c2a46f80b28daae71" kindref="member">icTagTypeNameToSigMap</ref>;</highlight></codeline>
+<codeline lineno="223" refid="de/de1/a00065_1afda960a501ed764b4df2981eb76ad77a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="de/de1/a00065_1a20792efaa0402e5c2a46f80b28daae71" kindref="member">icTagTypeNameToSigMap</ref><sp/><ref refid="de/de1/a00065_1afda960a501ed764b4df2981eb76ad77a" kindref="member">g_TagTypeNameToSigMap</ref>;</highlight></codeline>
+<codeline lineno="224" refid="de/de1/a00065_1a51dd477ab3f4b3c02b89378f6c9a61f5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="de/de1/a00065_1a20792efaa0402e5c2a46f80b28daae71" kindref="member">icTagTypeNameToSigMap</ref><sp/><ref refid="de/de1/a00065_1a51dd477ab3f4b3c02b89378f6c9a61f5" kindref="member">g_AltTagTypeNameToSigMap</ref>;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/>sig;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szName;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}<sp/><ref refid="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" kindref="member">g_icTagTypeNameTable</ref>[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead6cb0f64a684c4482d2c7fe4ab2f654b" kindref="member">icSigChromaticityType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;chromaticityType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea09b7b42aaf503f2e659e6e5c33114fca" kindref="member">icSigCicpType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;cicpType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9721fd1ff1c66d9baa020c9cf2fc9629" kindref="member">icSigColorantOrderType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorantOrderType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea7a120d822064e96dabdd4ca57bdacf63" kindref="member">icSigColorantTableType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;colorantTableType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaeedab4b40ce112d029b8f4278c40ec4d" kindref="member">icSigCrdInfoType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;crdInfoType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea96cf6489d8d5dc86691eee5d443cf337" kindref="member">icSigCurveType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;curveType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea04e63b1627159eae67b6712d838c807f" kindref="member">icSigSegmentedCurveType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;segmentedCurveType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1ee7a2996a3f46b79cc3138b8334d090" kindref="member">icSigDataType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;dataType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9c76fbe1fae6494b7d387f3e88ced78a" kindref="member">icSigDateTimeType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;dateTimeType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeac4f4d09b3c0f9ae8c6e02e14a25c80e9" kindref="member">icSigDeviceSettingsType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;deviceSettingsType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe54cb2e577fb2a5f5d79f6419afc799" kindref="member">icSigDictType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;dictType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea47d290cad7d493be1401f57b7c1110ca" kindref="member">icSigEmbeddedHeightImageType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;embeddedHeightImageType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea8cdb48a3c147199b533626017a48df78" kindref="member">icSigEmbeddedNormalImageType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;embeddedNormalImageType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaffc5da7a7d4a166c0fbc1626d0068f52" kindref="member">icSigGamutBoundaryDescType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;gamutBoundaryDescType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9e29ef9b47ee8a2083b1fe5b27597349" kindref="member">icSigLut16Type</ref>,<sp/></highlight><highlight class="stringliteral">&quot;lut16Type&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea60c06e4b0b32ec314accd6607464cf7b" kindref="member">icSigLut8Type</ref>,<sp/></highlight><highlight class="stringliteral">&quot;lut8Type&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaf6c346a4129d5338fe280bb905753416" kindref="member">icSigLutAtoBType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;lutAtoBType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea66f3d51d8644296e35c92fa5ccc71927" kindref="member">icSigLutBtoAType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;lutBtoAType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea41ac2aa0166f3edef60a2c2d42c168bc" kindref="member">icSigMeasurementType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;measurementType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6138e5639e8125b850bbb5ac1ff683ce" kindref="member">icSigMultiLocalizedUnicodeType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;multiLocalizedUnicodeType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea81b933efd50884a057a280227c481" kindref="member">icSigMultiProcessElementType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;multiProcessElementType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeabd3b6889c64ac3ffb16f1c48be950dc8" kindref="member">icSigNamedColor2Type</ref>,<sp/></highlight><highlight class="stringliteral">&quot;namedColor2Type&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea5f55d7347cee83f4b7570f2c0092a3c4" kindref="member">icSigParametricCurveType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;parametricCurveType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6832a9ea52567d51b1c4dc6bcaedee67" kindref="member">icSigResponseCurveSet16Type</ref>,<sp/></highlight><highlight class="stringliteral">&quot;responseCurveSet16Type&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2657c4e05a260313e4f5503676898f8c" kindref="member">icSigProfileSequenceDescType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;profileSequenceDescType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6e14fa1c5ecc1f51851d0eba0154a4fe" kindref="member">icSigS15Fixed16ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;s15Fixed16ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa233e511fc3be8dfe63d9c951764f465" kindref="member">icSigScreeningType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;screeningType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead76a6a52f1dc2eb085749ae311c51136" kindref="member">icSigSignatureType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;signatureType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea0e326d9cc29037c8ffab1e2e946694f4" kindref="member">icSigSpectralDataInfoType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;spectralDataInfoType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaaacb8b955fce4e2e8ae7db86c7392eb9" kindref="member">icSigSpectralViewingConditionsType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;spectralViewingConditionsType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa731ac0970275919e73734adc498b74a" kindref="member">icSigTextType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;textType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" kindref="member">icSigTextDescriptionType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;textDescriptionType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeac934416d1d3e95c99c75b2bf8f018f2e" kindref="member">icSigU16Fixed16ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;u16Fixed16ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae858b02aceeb2afc38945d9f04c90e4e" kindref="member">icSigUcrBgType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ucrBgType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea4559b66c16f172281d08d130b6b36155" kindref="member">icSigSparseMatrixArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;sparseMatrixArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2368c79224b0f401f4dc19ee5353e4a9" kindref="member">icSigUInt16ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;uInt16ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe8c40bc78370d5212050e2dd129d317" kindref="member">icSigUInt32ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;uInt32ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa3c8d9a1c8b9a7fa396a79e493e96084" kindref="member">icSigUInt64ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;uInt64ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1308dbd189e810ca0f0f804e74c8a49c" kindref="member">icSigUInt8ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;uInt8ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea530de0674970862d1cb29d7a3d8f342c" kindref="member">icSigFloat16ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;float16ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae17f065e92dd0ee43aeef1f18c6e0db0" kindref="member">icSigFloat32ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;float32ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9d1705d00ee5bd14f2ac2b0109eb901d" kindref="member">icSigFloat64ArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;float64ArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea21dfb852fbf1b3dfa35ca6804d3d0499" kindref="member">icSigUtf8TextType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;utf8Type&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead8a14846cc8db3c25bf7091c2985ef76" kindref="member">icSigZipUtf8TextType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;utf8ZipType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeab9133265087c30a8260234f8e3aa2d28" kindref="member">icSigZipXmlType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;zipXmlType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3cc22932f0c574b6c66c9bc32da8023e" kindref="member">icSigZipXMLType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ZIPXmlType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea719a290f152c4b35b25d97cb8e339382" kindref="member">icSigUtf16TextType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;utf16Type&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2a4636dabf07722022104d8d112e2417" kindref="member">icSigTagArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;tagArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea42d8a785706c2dc6140684c1ff40d074" kindref="member">icSigTagStructType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;tagStructType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea7fd650bd1f0aa4f0bfff5142912109fe" kindref="member">icSigViewingConditionsType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;viewingConditionsType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea98122bd6abb44702c61a5c53006da" kindref="member">icSigXYZArrayType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;XYZArrayType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea256a4f90b8a63297739eae01e3dfc818" kindref="member">icSigProfileSequceIdType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;profileSequenceIdentifierType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/>{<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea29a2db9c5a66843e8673523ac95e0f52" kindref="member">icSigEmbeddedProfileType</ref>,<sp/></highlight><highlight class="stringliteral">&quot;embeddedProfileType&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/>{(<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref>)0,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="284" refid="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="comment">//Tag<sp/>type<sp/>names<sp/>used<sp/>in<sp/>previous<sp/>versions<sp/>of<sp/>these<sp/>libraries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/>sig;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szName;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">}<sp/><ref refid="de/de1/a00065_1abdbad066d2f28b5af1126e86fcd3f80b" kindref="member">g_icAltTagTypeNameTable</ref>[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea530de0674970862d1cb29d7a3d8f342c" kindref="member">icSigFloat16ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;float16NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae17f065e92dd0ee43aeef1f18c6e0db0" kindref="member">icSigFloat32ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;float32NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9d1705d00ee5bd14f2ac2b0109eb901d" kindref="member">icSigFloat64ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;float64NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6e14fa1c5ecc1f51851d0eba0154a4fe" kindref="member">icSigS15Fixed16ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;s15Fixed16NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeac934416d1d3e95c99c75b2bf8f018f2e" kindref="member">icSigU16Fixed16ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;u16Fixed16NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2368c79224b0f401f4dc19ee5353e4a9" kindref="member">icSigUInt16ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;uInt16NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe8c40bc78370d5212050e2dd129d317" kindref="member">icSigUInt32ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;uInt32NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa3c8d9a1c8b9a7fa396a79e493e96084" kindref="member">icSigUInt64ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;uInt64NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1308dbd189e810ca0f0f804e74c8a49c" kindref="member">icSigUInt8ArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;uInt8NumberType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea21dfb852fbf1b3dfa35ca6804d3d0499" kindref="member">icSigUtf8TextType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;utf8TextType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea42d8a785706c2dc6140684c1ff40d074" kindref="member">icSigTagStructType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;tagStructureType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea98122bd6abb44702c61a5c53006da" kindref="member">icSigXYZArrayType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;XYZType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/>{<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead8a14846cc8db3c25bf7091c2985ef76" kindref="member">icSigZipUtf8TextType</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/></highlight><highlight class="stringliteral">&quot;zipUtf8TextType&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/>{<sp/>(<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref>)0,</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="305" refid="de/de1/a00065_1abdbad066d2f28b5af1126e86fcd3f80b" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="de/d34/a01261_1af70956368aa090393af4acc39888f90d" refkind="member"><highlight class="normal"><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref>*<sp/><ref refid="de/d34/a01261_1af70956368aa090393af4acc39888f90d" kindref="member">CIccSpecTagFactory::CreateTag</ref>(<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/>tagSig)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(tagSig)<sp/>{</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead76a6a52f1dc2eb085749ae311c51136" kindref="member">icSigSignatureType</ref>:</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="df/d59/a01001" kindref="compound">CIccTagSignature</ref>;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa731ac0970275919e73734adc498b74a" kindref="member">icSigTextType</ref>:</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d5/d6c/a00977" kindref="compound">CIccTagText</ref>;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea98122bd6abb44702c61a5c53006da" kindref="member">icSigXYZArrayType</ref>:</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d3/ded/a01017" kindref="compound">CIccTagXYZ</ref>;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea09b7b42aaf503f2e659e6e5c33114fca" kindref="member">icSigCicpType</ref>:</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/d23/a01025" kindref="compound">CIccTagCicp</ref>;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1308dbd189e810ca0f0f804e74c8a49c" kindref="member">icSigUInt8ArrayType</ref>:</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1a09900715149b46e73ac336b53a673355" kindref="member">CIccTagUInt8</ref>;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2368c79224b0f401f4dc19ee5353e4a9" kindref="member">icSigUInt16ArrayType</ref>:</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1ad0bfecdb1766b2aa184c14af18b6f671" kindref="member">CIccTagUInt16</ref>;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe8c40bc78370d5212050e2dd129d317" kindref="member">icSigUInt32ArrayType</ref>:</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1a54fb6e68255649ac02bbf9fe67c2aa7b" kindref="member">CIccTagUInt32</ref>;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa3c8d9a1c8b9a7fa396a79e493e96084" kindref="member">icSigUInt64ArrayType</ref>:</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1abaec77561cb12de905b29bd1bccc8ac6" kindref="member">CIccTagUInt64</ref>;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6e14fa1c5ecc1f51851d0eba0154a4fe" kindref="member">icSigS15Fixed16ArrayType</ref>:</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1af052ee2519827610ceaaacff450d7ef2" kindref="member">CIccTagS15Fixed16</ref>;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeac934416d1d3e95c99c75b2bf8f018f2e" kindref="member">icSigU16Fixed16ArrayType</ref>:</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1a05665afd56a92ed3127adbaf67dfbd17" kindref="member">CIccTagU16Fixed16</ref>;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea530de0674970862d1cb29d7a3d8f342c" kindref="member">icSigFloat16ArrayType</ref>:</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1a0bd6811f50da0b2c5fb55912f09a36d0" kindref="member">CIccTagFloat16</ref>;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae17f065e92dd0ee43aeef1f18c6e0db0" kindref="member">icSigFloat32ArrayType</ref>:</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1abbb27c94a805abb52e15e482b3e0af86" kindref="member">CIccTagFloat32</ref>;</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9d1705d00ee5bd14f2ac2b0109eb901d" kindref="member">icSigFloat64ArrayType</ref>:</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dec/a00080_1a9ddab0f9eff9622f3df2e07811a89b70" kindref="member">CIccTagFloat64</ref>;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaffc5da7a7d4a166c0fbc1626d0068f52" kindref="member">icSigGamutBoundaryDescType</ref>:</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dc/d98/a01177" kindref="compound">CIccTagGamutBoundaryDesc</ref>;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea96cf6489d8d5dc86691eee5d443cf337" kindref="member">icSigCurveType</ref>:</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d6/dc4/a01125" kindref="compound">CIccTagCurve</ref>;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea04e63b1627159eae67b6712d838c807f" kindref="member">icSigSegmentedCurveType</ref>:</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/d28/a01133" kindref="compound">CIccTagSegmentedCurve</ref>;</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea41ac2aa0166f3edef60a2c2d42c168bc" kindref="member">icSigMeasurementType</ref>:</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d0/d22/a01049" kindref="compound">CIccTagMeasurement</ref>;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6138e5639e8125b850bbb5ac1ff683ce" kindref="member">icSigMultiLocalizedUnicodeType</ref>:</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref>;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea81b933efd50884a057a280227c481" kindref="member">icSigMultiProcessElementType</ref>:</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref>();</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea5f55d7347cee83f4b7570f2c0092a3c4" kindref="member">icSigParametricCurveType</ref>:</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/d17/a01129" kindref="compound">CIccTagParametricCurve</ref>;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaf6c346a4129d5338fe280bb905753416" kindref="member">icSigLutAtoBType</ref>:</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/d25/a01157" kindref="compound">CIccTagLutAtoB</ref>;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea66f3d51d8644296e35c92fa5ccc71927" kindref="member">icSigLutBtoAType</ref>:</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dc/d81/a01161" kindref="compound">CIccTagLutBtoA</ref>;</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9e29ef9b47ee8a2083b1fe5b27597349" kindref="member">icSigLut16Type</ref>:</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d7/daf/a01169" kindref="compound">CIccTagLut16</ref>;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea60c06e4b0b32ec314accd6607464cf7b" kindref="member">icSigLut8Type</ref>:</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d92/a01165" kindref="compound">CIccTagLut8</ref>;</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" kindref="member">icSigTextDescriptionType</ref>:</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d0/d28/a00997" kindref="compound">CIccTagTextDescription</ref>;</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeabd3b6889c64ac3ffb16f1c48be950dc8" kindref="member">icSigNamedColor2Type</ref>:</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d7/d59/a01013" kindref="compound">CIccTagNamedColor2</ref>;</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead6cb0f64a684c4482d2c7fe4ab2f654b" kindref="member">icSigChromaticityType</ref>:</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d5/dfb/a01021" kindref="compound">CIccTagChromaticity</ref>;</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1ee7a2996a3f46b79cc3138b8334d090" kindref="member">icSigDataType</ref>:</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d9e/a01061" kindref="compound">CIccTagData</ref>;</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9c76fbe1fae6494b7d387f3e88ced78a" kindref="member">icSigDateTimeType</ref>:</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d0/dc9/a01065" kindref="compound">CIccTagDateTime</ref>;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ICC_UNSUPPORTED_TAG_DICT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe54cb2e577fb2a5f5d79f6419afc799" kindref="member">icSigDictType</ref>:</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d6/da1/a01233" kindref="compound">CIccTagDict</ref>;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9721fd1ff1c66d9baa020c9cf2fc9629" kindref="member">icSigColorantOrderType</ref>:</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/d18/a01069" kindref="compound">CIccTagColorantOrder</ref>;</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea7a120d822064e96dabdd4ca57bdacf63" kindref="member">icSigColorantTableType</ref>:</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/d7c/a01073" kindref="compound">CIccTagColorantTable</ref>;</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea4559b66c16f172281d08d130b6b36155" kindref="member">icSigSparseMatrixArrayType</ref>:</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d2/d57/a01033" kindref="compound">CIccTagSparseMatrixArray</ref>;</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea7fd650bd1f0aa4f0bfff5142912109fe" kindref="member">icSigViewingConditionsType</ref>:</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d0/dd3/a01077" kindref="compound">CIccTagViewingConditions</ref>;</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a4259e1b992c558204602d82369f23ec6" kindref="member">icSigSpectralDataInfoTag</ref>:</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d1d/a01105" kindref="compound">CIccTagSpectralDataInfo</ref>;</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a04ad166213f82cc83838f0afcc606346" kindref="member">icSigSpectralViewingConditionsTag</ref>:</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref>;</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"></highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2657c4e05a260313e4f5503676898f8c" kindref="member">icSigProfileSequenceDescType</ref>:</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d3/dc4/a01089" kindref="compound">CIccTagProfileSeqDesc</ref>;</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"></highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6832a9ea52567d51b1c4dc6bcaedee67" kindref="member">icSigResponseCurveSet16Type</ref>:</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d99/a01101" kindref="compound">CIccTagResponseCurveSet16</ref>;</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea256a4f90b8a63297739eae01e3dfc818" kindref="member">icSigProfileSequceIdType</ref>:</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d3f/a01221" kindref="compound">CIccTagProfileSequenceId</ref>;</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea21dfb852fbf1b3dfa35ca6804d3d0499" kindref="member">icSigUtf8TextType</ref>:</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d24/a00981" kindref="compound">CIccTagUtf8Text</ref>;</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"></highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead8a14846cc8db3c25bf7091c2985ef76" kindref="member">icSigZipUtf8TextType</ref>:</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/deb/a00985" kindref="compound">CIccTagZipUtf8Text</ref>;</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeab9133265087c30a8260234f8e3aa2d28" kindref="member">icSigZipXmlType</ref>:</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3cc22932f0c574b6c66c9bc32da8023e" kindref="member">icSigZipXMLType</ref>:</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/d95/a00989" kindref="compound">CIccTagZipXml</ref>;</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"></highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea719a290f152c4b35b25d97cb8e339382" kindref="member">icSigUtf16TextType</ref>:</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/d0a/a00993" kindref="compound">CIccTagUtf16Text</ref>;</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2a4636dabf07722022104d8d112e2417" kindref="member">icSigTagArrayType</ref>:</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/de0/a00465" kindref="compound">CIccTagArray</ref>;</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea42d8a785706c2dc6140684c1ff40d074" kindref="member">icSigTagStructType</ref>:</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref>;</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"></highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea29a2db9c5a66843e8673523ac95e0f52" kindref="member">icSigEmbeddedProfileType</ref>:</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dc/dab/a01237" kindref="compound">CIccTagEmbeddedProfile</ref>;</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea47d290cad7d493be1401f57b7c1110ca" kindref="member">icSigEmbeddedHeightImageType</ref>:</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d8/ded/a01113" kindref="compound">CIccTagEmbeddedHeightImage</ref>;</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea8cdb48a3c147199b533626017a48df78" kindref="member">icSigEmbeddedNormalImageType</ref>:</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d6/d8b/a01117" kindref="compound">CIccTagEmbeddedNormalImage</ref>;</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa233e511fc3be8dfe63d9c951764f465" kindref="member">icSigScreeningType</ref>:</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae858b02aceeb2afc38945d9f04c90e4e" kindref="member">icSigUcrBgType</ref>:</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaeedab4b40ce112d029b8f4278c40ec4d" kindref="member">icSigCrdInfoType</ref>:</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"></highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d3/da5/a00973" kindref="compound">CIccTagUnknown</ref>;</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="464"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight></codeline>
+<codeline lineno="466" refid="de/d34/a01261_1aa0b1453f1f9b42ce35185ec786700a38" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref>*<sp/><ref refid="de/d34/a01261_1aa0b1453f1f9b42ce35185ec786700a38" kindref="member">CIccSpecTagFactory::GetTagSigName</ref>(<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref><sp/>tagSig)</highlight></codeline>
+<codeline lineno="467"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" kindref="member">g_TagSigToNameMap</ref>.empty())<sp/>{</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/><ref refid="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" kindref="member">g_icTagNameTable</ref>[i].sig;<sp/>i++)</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" kindref="member">g_TagSigToNameMap</ref>[<ref refid="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" kindref="member">g_icTagNameTable</ref>[i].sig]<sp/>=<sp/>std::string(<ref refid="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" kindref="member">g_icTagNameTable</ref>[i].szName);</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/>icTagSigToNameMap::iterator<sp/>sig<sp/>=<sp/><ref refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" kindref="member">g_TagSigToNameMap</ref>.find(tagSig);</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sig<sp/>!=<sp/><ref refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" kindref="member">g_TagSigToNameMap</ref>.end())</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sig-&gt;second.c_str();</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"></highlight></codeline>
+<codeline lineno="476"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="477"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight></codeline>
+<codeline lineno="479" refid="de/d34/a01261_1a5fc55baeb411a1205ef34c1355868d3c" refkind="member"><highlight class="normal"><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref><sp/><ref refid="de/d34/a01261_1a5fc55baeb411a1205ef34c1355868d3c" kindref="member">CIccSpecTagFactory::GetTagNameSig</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szName)</highlight></codeline>
+<codeline lineno="480"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" kindref="member">g_TagSigToNameMap</ref>.empty())<sp/>{</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/><ref refid="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" kindref="member">g_icTagNameTable</ref>[i].sig;<sp/>i++)</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/de1/a00065_1a664f429bd4cf8c3ce609dfcd8ca45375" kindref="member">g_TagNameToSigMap</ref>[<ref refid="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" kindref="member">g_icTagNameTable</ref>[i].szName]<sp/>=<sp/><ref refid="de/de1/a00065_1af402d7b68765b54bdd078c3544d58a98" kindref="member">g_icTagNameTable</ref>[i].sig;</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"><sp/><sp/>icTagNameToSigMap::iterator<sp/>sig<sp/>=<sp/><ref refid="de/de1/a00065_1a664f429bd4cf8c3ce609dfcd8ca45375" kindref="member">g_TagNameToSigMap</ref>.find(szName);</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sig<sp/>!=<sp/><ref refid="de/de1/a00065_1a664f429bd4cf8c3ce609dfcd8ca45375" kindref="member">g_TagNameToSigMap</ref>.end())</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sig-&gt;second;</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight></codeline>
+<codeline lineno="489"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a8d3f7cc2943b5a6814c516773b037d12" kindref="member">icSigUnknownTag</ref>;</highlight></codeline>
+<codeline lineno="490"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"></highlight></codeline>
+<codeline lineno="492" refid="de/d34/a01261_1a116d068adb461630d1ea644cd940d344" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref>*<sp/><ref refid="de/d34/a01261_1a116d068adb461630d1ea644cd940d344" kindref="member">CIccSpecTagFactory::GetTagTypeSigName</ref>(<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/>typeSig)</highlight></codeline>
+<codeline lineno="493"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/de1/a00065_1ac9d094be967f7c563929713100322ef6" kindref="member">g_TagTypeSigToNameMap</ref>.empty())<sp/>{</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/><ref refid="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" kindref="member">g_icTagTypeNameTable</ref>[i].sig;<sp/>i++)</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/de1/a00065_1ac9d094be967f7c563929713100322ef6" kindref="member">g_TagTypeSigToNameMap</ref>[<ref refid="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" kindref="member">g_icTagTypeNameTable</ref>[i].sig]<sp/>=<sp/>std::string(<ref refid="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" kindref="member">g_icTagTypeNameTable</ref>[i].szName);</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/>icTagTypeSigToNameMap::iterator<sp/>sig<sp/>=<sp/><ref refid="de/de1/a00065_1ac9d094be967f7c563929713100322ef6" kindref="member">g_TagTypeSigToNameMap</ref>.find(typeSig);</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sig<sp/>!=<sp/><ref refid="de/de1/a00065_1ac9d094be967f7c563929713100322ef6" kindref="member">g_TagTypeSigToNameMap</ref>.end())</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sig-&gt;second.c_str();</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"></highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="503"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"></highlight></codeline>
+<codeline lineno="505" refid="de/d34/a01261_1a8f456fd3f9154b5ea30a0ec958b0fe8c" refkind="member"><highlight class="normal"><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/><ref refid="de/d34/a01261_1a8f456fd3f9154b5ea30a0ec958b0fe8c" kindref="member">CIccSpecTagFactory::GetTagTypeNameSig</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szName)</highlight></codeline>
+<codeline lineno="506"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/de1/a00065_1afda960a501ed764b4df2981eb76ad77a" kindref="member">g_TagTypeNameToSigMap</ref>.empty())<sp/>{</highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/><ref refid="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" kindref="member">g_icTagTypeNameTable</ref>[i].sig;<sp/>i++)</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/de1/a00065_1afda960a501ed764b4df2981eb76ad77a" kindref="member">g_TagTypeNameToSigMap</ref>[<ref refid="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" kindref="member">g_icTagTypeNameTable</ref>[i].szName]<sp/>=<sp/><ref refid="de/de1/a00065_1a63b8045b6e750afc79c97159d61ca09b" kindref="member">g_icTagTypeNameTable</ref>[i].sig;</highlight></codeline>
+<codeline lineno="510"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"><sp/><sp/>icTagTypeNameToSigMap::iterator<sp/>sig<sp/>=<sp/><ref refid="de/de1/a00065_1afda960a501ed764b4df2981eb76ad77a" kindref="member">g_TagTypeNameToSigMap</ref>.find(szName);</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sig<sp/>!=<sp/><ref refid="de/de1/a00065_1afda960a501ed764b4df2981eb76ad77a" kindref="member">g_TagTypeNameToSigMap</ref>.end())</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sig-&gt;second;</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"></highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Allow<sp/>conversion<sp/>from<sp/>alternate<sp/>names<sp/>(backwards<sp/>compatibility<sp/>with<sp/>earlier<sp/>versions)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="516"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/de1/a00065_1a51dd477ab3f4b3c02b89378f6c9a61f5" kindref="member">g_AltTagTypeNameToSigMap</ref>.empty())<sp/>{</highlight></codeline>
+<codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/><ref refid="de/de1/a00065_1abdbad066d2f28b5af1126e86fcd3f80b" kindref="member">g_icAltTagTypeNameTable</ref>[i].sig;<sp/>i++)</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/de1/a00065_1a51dd477ab3f4b3c02b89378f6c9a61f5" kindref="member">g_AltTagTypeNameToSigMap</ref>[<ref refid="de/de1/a00065_1abdbad066d2f28b5af1126e86fcd3f80b" kindref="member">g_icAltTagTypeNameTable</ref>[i].szName]<sp/>=<sp/><ref refid="de/de1/a00065_1abdbad066d2f28b5af1126e86fcd3f80b" kindref="member">g_icAltTagTypeNameTable</ref>[i].sig;</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/>sig<sp/>=<sp/><ref refid="de/de1/a00065_1a51dd477ab3f4b3c02b89378f6c9a61f5" kindref="member">g_AltTagTypeNameToSigMap</ref>.find(szName);</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sig<sp/>!=<sp/><ref refid="de/de1/a00065_1a51dd477ab3f4b3c02b89378f6c9a61f5" kindref="member">g_AltTagTypeNameToSigMap</ref>.end())</highlight></codeline>
+<codeline lineno="522"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sig-&gt;second;</highlight></codeline>
+<codeline lineno="523"><highlight class="normal"></highlight></codeline>
+<codeline lineno="524"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a0b3709c84d4d18ff166cf355dc6c576f" kindref="member">icSigUnknownType</ref>;</highlight></codeline>
+<codeline lineno="525"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"></highlight></codeline>
+<codeline lineno="527"><highlight class="normal">std::unique_ptr&lt;CIccTagCreator&gt;<sp/><ref refid="da/dd8/a01265_1a484247f3619898fd14dd881bc65a4e00" kindref="member">CIccTagCreator::theTagCreator</ref>;</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight></codeline>
+<codeline lineno="529" refid="da/dd8/a01265_1a6eb8607969fccf2926dc60a2ad71fe2d" refkind="member"><highlight class="normal"><ref refid="da/dd8/a01265_1a6eb8607969fccf2926dc60a2ad71fe2d" kindref="member">CIccTagCreator::~CIccTagCreator</ref>()</highlight></codeline>
+<codeline lineno="530"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/><ref refid="d9/de7/a01257" kindref="compound">IIccTagFactory</ref><sp/>*pFactory<sp/>=<sp/>DoPopFactory(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"></highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(pFactory)<sp/>{</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>pFactory;</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"><sp/><sp/><sp/><sp/>pFactory<sp/>=<sp/>DoPopFactory(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="537"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="538"><highlight class="normal"></highlight></codeline>
+<codeline lineno="539" refid="da/dd8/a01265_1a87d511327db473a3e0aac5420556aa86" refkind="member"><highlight class="normal"><ref refid="da/dd8/a01265" kindref="compound">CIccTagCreator</ref>*<sp/><ref refid="da/dd8/a01265_1a87d511327db473a3e0aac5420556aa86" kindref="member">CIccTagCreator::GetInstance</ref>()</highlight></codeline>
+<codeline lineno="540"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="541"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!theTagCreator.get())<sp/>{</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"><sp/><sp/><sp/><sp/>theTagCreator<sp/>=<sp/><ref refid="d8/d41/a00038_1a8c547cd977dadc1ce34042e3a5662559" kindref="member">CIccTagCreatorPtr</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="da/dd8/a01265" kindref="compound">CIccTagCreator</ref>);</highlight></codeline>
+<codeline lineno="543"><highlight class="normal"></highlight></codeline>
+<codeline lineno="544"><highlight class="normal"><sp/><sp/><sp/><sp/>theTagCreator-&gt;DoPushFactory(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d34/a01261" kindref="compound">CIccSpecTagFactory</ref>);</highlight></codeline>
+<codeline lineno="545"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="546"><highlight class="normal"></highlight></codeline>
+<codeline lineno="547"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>theTagCreator.get();</highlight></codeline>
+<codeline lineno="548"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"></highlight></codeline>
+<codeline lineno="550" refid="da/dd8/a01265_1aecf691cfac27778f352c60f5099b9293" refkind="member"><highlight class="normal"><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref>*<sp/><ref refid="da/dd8/a01265_1aecf691cfac27778f352c60f5099b9293" kindref="member">CIccTagCreator::DoCreateTag</ref>(<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/>tagTypeSig)</highlight></codeline>
+<codeline lineno="551"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="552"><highlight class="normal"><sp/><sp/>CIccTagFactoryList::iterator<sp/>i;</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"><sp/><sp/><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref><sp/>*rv<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight></codeline>
+<codeline lineno="555"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=factoryStack.begin();<sp/>i!=factoryStack.end();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="556"><highlight class="normal"><sp/><sp/><sp/><sp/>rv<sp/>=<sp/>(*i)-&gt;CreateTag(tagTypeSig);</highlight></codeline>
+<codeline lineno="557"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rv)</highlight></codeline>
+<codeline lineno="558"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="561"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="562"><highlight class="normal"></highlight></codeline>
+<codeline lineno="563" refid="da/dd8/a01265_1a93a71ef5d2fb8e4771c0e4dd9f7f9226" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref>*<sp/><ref refid="da/dd8/a01265_1a93a71ef5d2fb8e4771c0e4dd9f7f9226" kindref="member">CIccTagCreator::DoGetTagSigName</ref>(<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref><sp/>tagSig)</highlight></codeline>
+<codeline lineno="564"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="565"><highlight class="normal"><sp/><sp/>CIccTagFactoryList::iterator<sp/>i;</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref>*<sp/>rv;</highlight></codeline>
+<codeline lineno="567"><highlight class="normal"></highlight></codeline>
+<codeline lineno="568"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=factoryStack.begin();<sp/>i!=factoryStack.end();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="569"><highlight class="normal"><sp/><sp/><sp/><sp/>rv<sp/>=<sp/>(*i)-&gt;GetTagSigName(tagSig);</highlight></codeline>
+<codeline lineno="570"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rv)</highlight></codeline>
+<codeline lineno="571"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="572"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="573"><highlight class="normal"></highlight></codeline>
+<codeline lineno="574"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="575"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="576"><highlight class="normal"></highlight></codeline>
+<codeline lineno="577" refid="da/dd8/a01265_1a1b75a28f3e8fcf94fff20be585e088dd" refkind="member"><highlight class="normal"><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref><sp/><ref refid="da/dd8/a01265_1a1b75a28f3e8fcf94fff20be585e088dd" kindref="member">CIccTagCreator::DoGetTagNameSig</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref><sp/>*szName)</highlight></codeline>
+<codeline lineno="578"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="579"><highlight class="normal"><sp/><sp/>CIccTagFactoryList::iterator<sp/>i;</highlight></codeline>
+<codeline lineno="580"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref><sp/>rv;</highlight></codeline>
+<codeline lineno="581"><highlight class="normal"></highlight></codeline>
+<codeline lineno="582"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>factoryStack.begin();<sp/>i<sp/>!=<sp/>factoryStack.end();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="583"><highlight class="normal"><sp/><sp/><sp/><sp/>rv<sp/>=<sp/>(*i)-&gt;GetTagNameSig(szName);</highlight></codeline>
+<codeline lineno="584"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rv!=<ref refid="d7/d46/a00002_1a8d3f7cc2943b5a6814c516773b037d12" kindref="member">icSigUnknownTag</ref>)</highlight></codeline>
+<codeline lineno="585"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="586"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="587"><highlight class="normal"></highlight></codeline>
+<codeline lineno="588"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a8d3f7cc2943b5a6814c516773b037d12" kindref="member">icSigUnknownTag</ref>;</highlight></codeline>
+<codeline lineno="589"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="590"><highlight class="normal"></highlight></codeline>
+<codeline lineno="591"><highlight class="normal"></highlight></codeline>
+<codeline lineno="592" refid="da/dd8/a01265_1aa7f3f28125e3295116c2393ed55b3ba8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref>*<sp/><ref refid="da/dd8/a01265_1aa7f3f28125e3295116c2393ed55b3ba8" kindref="member">CIccTagCreator::DoGetTagTypeSigName</ref>(<ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/>tagTypeSig)</highlight></codeline>
+<codeline lineno="593"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="594"><highlight class="normal"><sp/><sp/>CIccTagFactoryList::iterator<sp/>i;</highlight></codeline>
+<codeline lineno="595"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref>*<sp/>rv;</highlight></codeline>
+<codeline lineno="596"><highlight class="normal"></highlight></codeline>
+<codeline lineno="597"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=factoryStack.begin();<sp/>i!=factoryStack.end();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="598"><highlight class="normal"><sp/><sp/><sp/><sp/>rv<sp/>=<sp/>(*i)-&gt;GetTagTypeSigName(tagTypeSig);</highlight></codeline>
+<codeline lineno="599"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rv)</highlight></codeline>
+<codeline lineno="600"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="601"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="602"><highlight class="normal"></highlight></codeline>
+<codeline lineno="603"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="604"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="605"><highlight class="normal"></highlight></codeline>
+<codeline lineno="606" refid="da/dd8/a01265_1a2c63e50c60b71504032285510b317f2b" refkind="member"><highlight class="normal"><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/><ref refid="da/dd8/a01265_1a2c63e50c60b71504032285510b317f2b" kindref="member">CIccTagCreator::DoGetTagTypeNameSig</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref>*<sp/>szName)</highlight></codeline>
+<codeline lineno="607"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="608"><highlight class="normal"><sp/><sp/>CIccTagFactoryList::iterator<sp/>i;</highlight></codeline>
+<codeline lineno="609"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref><sp/>rv;</highlight></codeline>
+<codeline lineno="610"><highlight class="normal"></highlight></codeline>
+<codeline lineno="611"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>factoryStack.begin();<sp/>i<sp/>!=<sp/>factoryStack.end();<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/>rv<sp/>=<sp/>(*i)-&gt;GetTagTypeNameSig(szName);</highlight></codeline>
+<codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(rv!=<ref refid="d7/d46/a00002_1a0b3709c84d4d18ff166cf355dc6c576f" kindref="member">icSigUnknownType</ref>)</highlight></codeline>
+<codeline lineno="614"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="615"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="616"><highlight class="normal"></highlight></codeline>
+<codeline lineno="617"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a0b3709c84d4d18ff166cf355dc6c576f" kindref="member">icSigUnknownType</ref>;</highlight></codeline>
+<codeline lineno="618"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="619"><highlight class="normal"></highlight></codeline>
+<codeline lineno="620" refid="da/dd8/a01265_1a222019a8c2cfcc505a31d56ce6f4896e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="da/dd8/a01265_1a222019a8c2cfcc505a31d56ce6f4896e" kindref="member">CIccTagCreator::DoPushFactory</ref>(<ref refid="d9/de7/a01257" kindref="compound">IIccTagFactory</ref><sp/>*pFactory)</highlight></codeline>
+<codeline lineno="621"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="622"><highlight class="normal"><sp/><sp/>factoryStack.push_front(pFactory);</highlight></codeline>
+<codeline lineno="623"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="624"><highlight class="normal"></highlight></codeline>
+<codeline lineno="625" refid="da/dd8/a01265_1a5b631ac0f7c685d4a3f5bd8187d7915e" refkind="member"><highlight class="normal"><ref refid="d9/de7/a01257" kindref="compound">IIccTagFactory</ref>*<sp/><ref refid="da/dd8/a01265_1a5b631ac0f7c685d4a3f5bd8187d7915e" kindref="member">CIccTagCreator::DoPopFactory</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bAll<sp/></highlight><highlight class="comment">/*=false*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="626"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="627"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>int<sp/>nNum<sp/>=<sp/>(bAll<sp/>?<sp/>0<sp/>:<sp/>1);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="628"><highlight class="normal"></highlight></codeline>
+<codeline lineno="629"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(factoryStack.size()&gt;0)<sp/>{</highlight></codeline>
+<codeline lineno="630"><highlight class="normal"><sp/><sp/><sp/><sp/>CIccTagFactoryList::iterator<sp/>i=factoryStack.begin();</highlight></codeline>
+<codeline lineno="631"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/de7/a01257" kindref="compound">IIccTagFactory</ref>*<sp/>rv<sp/>=<sp/>(*i);</highlight></codeline>
+<codeline lineno="632"><highlight class="normal"><sp/><sp/><sp/><sp/>factoryStack.pop_front();</highlight></codeline>
+<codeline lineno="633"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="635"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="636"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="637"><highlight class="normal"></highlight></codeline>
+<codeline lineno="638"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USEREFICCMAXNAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="639"><highlight class="normal">}<sp/></highlight><highlight class="comment">//namespace<sp/>refIccMAX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="640"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccTagFactory.cpp"/>
+  </compounddef>
+</doxygen>

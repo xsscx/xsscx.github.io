@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d18/a00885" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccProfileConnectionConditions</compoundname>
+    <derivedcompoundref refid="de/dc8/a00889" prot="public" virt="non-virtual">CIccCombinedConnectionConditions</derivedcompoundref>
+    <includes refid="d4/d3a/a00101" local="no">IccPcc.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d18/a00885_1ab1f74e72add49f28340dd8aff20918a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccProfileConnectionConditions::~IIccProfileConnectionConditions</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccProfileConnectionConditions</name>
+        <qualifiedname>IIccProfileConnectionConditions::~IIccProfileConnectionConditions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="96" column="11" bodyfile="IccProfLib/IccPcc.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a6a535454f7d93b11bc5f6a83e9142331" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+        <definition>virtual CIccTagMultiProcessElement * IIccProfileConnectionConditions::getCustomToStandardPcc</definition>
+        <argsstring>()=0</argsstring>
+        <name>getCustomToStandardPcc</name>
+        <qualifiedname>IIccProfileConnectionConditions::getCustomToStandardPcc</qualifiedname>
+        <reimplementedby refid="de/dc8/a00889_1ae8b41cced50e6210c6fe996917ff3591">getCustomToStandardPcc</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="99" column="38"/>
+        <referencedby refid="de/dc8/a00889_1ae8b41cced50e6210c6fe996917ff3591" compoundref="de/db1/a00197" startline="367" endline="372">CIccCombinedConnectionConditions::getCustomToStandardPcc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * IIccProfileConnectionConditions::getEmissiveObserver</definition>
+        <argsstring>(const icSpectralRange &amp;range, const icFloatNumber *pWhite, icFloatNumber *obsMatrix=NULL)</argsstring>
+        <name>getEmissiveObserver</name>
+        <qualifiedname>IIccProfileConnectionConditions::getEmissiveObserver</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pWhite</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>obsMatrix</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="110" column="17" bodyfile="IccProfLib/IccPcc.cpp" bodystart="231" bodyend="285"/>
+        <references refid="d5/da3/a00953_1a294761a54c5f3a3e855d03c777fa3de7" compoundref="db/dab/a00089" startline="94" endline="110">CIccMatrixMath::CIccMatrixMath</references>
+        <references refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" compoundref="dc/dfe/a00125" startline="111" endline="111">CIccMatrixMath::entry</references>
+        <references refid="d8/dbf/a01109_1a2319ced95e40cb2493820227f54a302d" compoundref="d9/dd0/a00191" startline="11569" endline="11582">CIccTagSpectralViewingConditions::getObserver</references>
+        <references refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6">getPccViewingConditions</references>
+        <references refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" compoundref="db/dab/a00089" startline="409" endline="421">CIccMatrixMath::rangeMap</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <references refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" compoundref="db/dab/a00089" startline="154" endline="166">CIccMatrixMath::VectorMult</references>
+        <referencedby refid="d1/d03/a01653_1aa53d573cedfbcea2d2ac8287b01ec032" compoundref="d5/de9/a00176" startline="595" endline="639">CIccMpeEmissionMatrix::Begin</referencedby>
+        <referencedby refid="d3/d21/a01657_1ad1511fd222849d2cfa8e097df20b2442" compoundref="d5/de9/a00176" startline="677" endline="722">CIccMpeInvEmissionMatrix::Begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="df/d5a/a01681_1a2a15f4b7818494a70c2934cf882a3b53" compoundref="d5/de9/a00176" startline="2044" endline="2072">CIccMpeEmissionObserver::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a6b7d53898284b4c85611c2443e14d70c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IIccProfileConnectionConditions::getLumIlluminantXYZ</definition>
+        <argsstring>(icFloatNumber *pXYZ)=0</argsstring>
+        <name>getLumIlluminantXYZ</name>
+        <qualifiedname>IIccProfileConnectionConditions::getLumIlluminantXYZ</qualifiedname>
+        <reimplementedby refid="de/dc8/a00889_1a440ccadbec2f770e4d73703c1ecfed15">getLumIlluminantXYZ</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pXYZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="118" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a7268d05a042b582c68477e4aa956041a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool IIccProfileConnectionConditions::getMediaWhiteXYZ</definition>
+        <argsstring>(icFloatNumber *pXYZ)=0</argsstring>
+        <name>getMediaWhiteXYZ</name>
+        <qualifiedname>IIccProfileConnectionConditions::getMediaWhiteXYZ</qualifiedname>
+        <reimplementedby refid="de/dc8/a00889_1aed68310972685449d41908c3aad8c65f">getMediaWhiteXYZ</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pXYZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="119" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a9c5c38685ec6a82b97608f5571e303f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IIccProfileConnectionConditions::getNormIlluminantXYZ</definition>
+        <argsstring>(icFloatNumber *pXYZ)=0</argsstring>
+        <name>getNormIlluminantXYZ</name>
+        <qualifiedname>IIccProfileConnectionConditions::getNormIlluminantXYZ</qualifiedname>
+        <reimplementedby refid="de/dc8/a00889_1aea2874717f84c6d6392022609c7b1dd0">getNormIlluminantXYZ</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pXYZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="117" column="16"/>
+        <referencedby refid="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" compoundref="de/db1/a00197" startline="79" endline="110">isEquivalentPcc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a26aeaba43632aa5d06de6623fd900d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber IIccProfileConnectionConditions::getObserverIlluminantScaleFactor</definition>
+        <argsstring>()</argsstring>
+        <name>getObserverIlluminantScaleFactor</name>
+        <qualifiedname>IIccProfileConnectionConditions::getObserverIlluminantScaleFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="106" column="17" bodyfile="IccProfLib/IccPcc.cpp" bodystart="162" bodyend="196"/>
+        <references refid="d8/dbf/a01109_1aa4fe6556022cceea44adf34848528245" compoundref="d9/dd0/a00191" startline="11405" endline="11418">CIccTagSpectralViewingConditions::getIlluminant</references>
+        <references refid="d8/dbf/a01109_1a2319ced95e40cb2493820227f54a302d" compoundref="d9/dd0/a00191" startline="11569" endline="11582">CIccTagSpectralViewingConditions::getObserver</references>
+        <references refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6">getPccViewingConditions</references>
+        <references refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" compoundref="db/dab/a00089" startline="409" endline="421">CIccMatrixMath::rangeMap</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <references refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" compoundref="db/dab/a00089" startline="154" endline="166">CIccMatrixMath::VectorMult</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a81fb6e4ffae390d84145d802702b6d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber IIccProfileConnectionConditions::getObserverWhiteScaleFactor</definition>
+        <argsstring>(const icFloatNumber *pWhite, const icSpectralRange &amp;whiteRange)</argsstring>
+        <name>getObserverWhiteScaleFactor</name>
+        <qualifiedname>IIccProfileConnectionConditions::getObserverWhiteScaleFactor</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pWhite</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref> &amp;</type>
+          <declname>whiteRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="107" column="17" bodyfile="IccProfLib/IccPcc.cpp" bodystart="198" bodyend="229"/>
+        <references refid="d8/dbf/a01109_1a2319ced95e40cb2493820227f54a302d" compoundref="d9/dd0/a00191" startline="11569" endline="11582">CIccTagSpectralViewingConditions::getObserver</references>
+        <references refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6">getPccViewingConditions</references>
+        <references refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" compoundref="db/dab/a00089" startline="409" endline="421">CIccMatrixMath::rangeMap</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <references refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" compoundref="db/dab/a00089" startline="154" endline="166">CIccMatrixMath::VectorMult</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1afef290dfe66fbd9182f21bbbf638fdf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber IIccProfileConnectionConditions::getPccCCT</definition>
+        <argsstring>()</argsstring>
+        <name>getPccCCT</name>
+        <qualifiedname>IIccProfileConnectionConditions::getPccCCT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="114" column="17" bodyfile="IccProfLib/IccPcc.cpp" bodystart="121" bodyend="128"/>
+        <references refid="d8/dbf/a01109_1a339a66cb30a03163f17861f8c704df51" compoundref="da/dec/a00080" startline="1713" endline="1713">CIccTagSpectralViewingConditions::getIlluminantCCT</references>
+        <references refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6">getPccViewingConditions</references>
+        <referencedby refid="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" compoundref="de/db1/a00197" startline="79" endline="110">isEquivalentPcc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17" kindref="member">icIlluminant</ref></type>
+        <definition>icIlluminant IIccProfileConnectionConditions::getPccIlluminant</definition>
+        <argsstring>()</argsstring>
+        <name>getPccIlluminant</name>
+        <qualifiedname>IIccProfileConnectionConditions::getPccIlluminant</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="113" column="16" bodyfile="IccProfLib/IccPcc.cpp" bodystart="112" bodyend="119"/>
+        <references refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6">getPccViewingConditions</references>
+        <references refid="d8/dbf/a01109_1a8877a21252b3f70c761e049765cfb10e" compoundref="da/dec/a00080" startline="1712" endline="1712">CIccTagSpectralViewingConditions::getStdIllumiant</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ac5371c55bd4c3d83624ba6cf705207fd" compoundref="d7/d46/a00002" startline="1192">icIlluminantD50</references>
+        <referencedby refid="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" compoundref="de/db1/a00197" startline="79" endline="110">isEquivalentPcc</referencedby>
+        <referencedby refid="db/d18/a00885_1a91dc6e895f5fcc5cd924bcdedd5ea0b5" compoundref="de/db1/a00197" startline="139" endline="145">isStandardPcc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859b" kindref="member">icStandardObserver</ref></type>
+        <definition>icStandardObserver IIccProfileConnectionConditions::getPccObserver</definition>
+        <argsstring>()</argsstring>
+        <name>getPccObserver</name>
+        <qualifiedname>IIccProfileConnectionConditions::getPccObserver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="115" column="22" bodyfile="IccProfLib/IccPcc.cpp" bodystart="130" bodyend="137"/>
+        <references refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6">getPccViewingConditions</references>
+        <references refid="d8/dbf/a01109_1ae4239cdd0e743e05eb5ba45432c98756" compoundref="da/dec/a00080" startline="1714" endline="1714">CIccTagSpectralViewingConditions::getStdObserver</references>
+        <references refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859ba75bc24faaa2326e527a38382dc626ab8" compoundref="d7/d46/a00002" startline="1177">icStdObs1931TwoDegrees</references>
+        <referencedby refid="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" compoundref="de/db1/a00197" startline="79" endline="110">isEquivalentPcc</referencedby>
+        <referencedby refid="db/d18/a00885_1a91dc6e895f5fcc5cd924bcdedd5ea0b5" compoundref="de/db1/a00197" startline="139" endline="145">isStandardPcc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref> *</type>
+        <definition>virtual const CIccTagSpectralViewingConditions * IIccProfileConnectionConditions::getPccViewingConditions</definition>
+        <argsstring>()=0</argsstring>
+        <name>getPccViewingConditions</name>
+        <qualifiedname>IIccProfileConnectionConditions::getPccViewingConditions</qualifiedname>
+        <reimplementedby refid="de/dc8/a00889_1ae134c05e68cd8f8106c765a55e7446f8">getPccViewingConditions</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="98" column="50"/>
+        <referencedby refid="de/dc8/a00889_1a1e34aec1449da50c0ac66c5ef8d1cdd9" compoundref="de/db1/a00197" startline="313" endline="350">CIccCombinedConnectionConditions::CIccCombinedConnectionConditions</referencedby>
+        <referencedby refid="d1/d03/a01653_1aa53d573cedfbcea2d2ac8287b01ec032" compoundref="d5/de9/a00176" startline="595" endline="639">CIccMpeEmissionMatrix::Begin</referencedby>
+        <referencedby refid="d3/d21/a01657_1ad1511fd222849d2cfa8e097df20b2442" compoundref="d5/de9/a00176" startline="677" endline="722">CIccMpeInvEmissionMatrix::Begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="df/d5a/a01681_1a2a15f4b7818494a70c2934cf882a3b53" compoundref="d5/de9/a00176" startline="2044" endline="2072">CIccMpeEmissionObserver::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+        <referencedby refid="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" compoundref="de/db1/a00197" startline="231" endline="285">getEmissiveObserver</referencedby>
+        <referencedby refid="db/d18/a00885_1a26aeaba43632aa5d06de6623fd900d4b" compoundref="de/db1/a00197" startline="162" endline="196">getObserverIlluminantScaleFactor</referencedby>
+        <referencedby refid="db/d18/a00885_1a81fb6e4ffae390d84145d802702b6d6c" compoundref="de/db1/a00197" startline="198" endline="229">getObserverWhiteScaleFactor</referencedby>
+        <referencedby refid="db/d18/a00885_1afef290dfe66fbd9182f21bbbf638fdf9" compoundref="de/db1/a00197" startline="121" endline="128">getPccCCT</referencedby>
+        <referencedby refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" compoundref="de/db1/a00197" startline="112" endline="119">getPccIlluminant</referencedby>
+        <referencedby refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" compoundref="de/db1/a00197" startline="130" endline="137">getPccObserver</referencedby>
+        <referencedby refid="de/dc8/a00889_1ae134c05e68cd8f8106c765a55e7446f8" compoundref="de/db1/a00197" startline="358" endline="365">CIccCombinedConnectionConditions::getPccViewingConditions</referencedby>
+        <referencedby refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" compoundref="de/db1/a00197" startline="287" endline="311">getReflectanceObserver</referencedby>
+        <referencedby refid="db/d18/a00885_1af68de8addb66a26899ca13f2a20c288e" compoundref="de/db1/a00197" startline="147" endline="160">hasIlluminantSPD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref> *</type>
+        <definition>CIccMatrixMath * IIccProfileConnectionConditions::getReflectanceObserver</definition>
+        <argsstring>(const icSpectralRange &amp;rangeRef)</argsstring>
+        <name>getReflectanceObserver</name>
+        <qualifiedname>IIccProfileConnectionConditions::getReflectanceObserver</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref> &amp;</type>
+          <declname>rangeRef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="111" column="18" bodyfile="IccProfLib/IccPcc.cpp" bodystart="287" bodyend="311"/>
+        <references refid="d8/dbf/a01109_1aa4fe6556022cceea44adf34848528245" compoundref="d9/dd0/a00191" startline="11405" endline="11418">CIccTagSpectralViewingConditions::getIlluminant</references>
+        <references refid="d8/dbf/a01109_1a02a2d8cee6baabd93d5712fdd4f8b361" compoundref="d9/dd0/a00191" startline="11320" endline="11336">CIccTagSpectralViewingConditions::getObserverMatrix</references>
+        <references refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6">getPccViewingConditions</references>
+        <references refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" compoundref="db/dab/a00089" startline="202" endline="228">CIccMatrixMath::Mult</references>
+        <references refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" compoundref="db/dab/a00089" startline="409" endline="421">CIccMatrixMath::rangeMap</references>
+        <references refid="d5/da3/a00953_1a0711f353df382e731588736d339fcb26" compoundref="db/dab/a00089" startline="297" endline="308">CIccMatrixMath::RowSum</references>
+        <references refid="d5/da3/a00953_1ada7ffe05cbe73c5a80ba0814b3f1cab0" compoundref="db/dab/a00089" startline="257" endline="266">CIccMatrixMath::Scale</references>
+        <references refid="d5/da3/a00953_1a17e3fdff1d4d143488ae71ea79e41354" compoundref="db/dab/a00089" startline="238" endline="247">CIccMatrixMath::VectorScale</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a16094632a566d2945892046797fac4d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+        <definition>virtual CIccTagMultiProcessElement * IIccProfileConnectionConditions::getStandardToCustomPcc</definition>
+        <argsstring>()=0</argsstring>
+        <name>getStandardToCustomPcc</name>
+        <qualifiedname>IIccProfileConnectionConditions::getStandardToCustomPcc</qualifiedname>
+        <reimplementedby refid="de/dc8/a00889_1a65595fbacdffb232b40d70efa5869ea6">getStandardToCustomPcc</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="100" column="38"/>
+        <referencedby refid="de/dc8/a00889_1a65595fbacdffb232b40d70efa5869ea6" compoundref="de/db1/a00197" startline="374" endline="379">CIccCombinedConnectionConditions::getStandardToCustomPcc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1af68de8addb66a26899ca13f2a20c288e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IIccProfileConnectionConditions::hasIlluminantSPD</definition>
+        <argsstring>()</argsstring>
+        <name>hasIlluminantSPD</name>
+        <qualifiedname>IIccProfileConnectionConditions::hasIlluminantSPD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="104" column="8" bodyfile="IccProfLib/IccPcc.cpp" bodystart="147" bodyend="160"/>
+        <references refid="d8/dbf/a01109_1aa4fe6556022cceea44adf34848528245" compoundref="d9/dd0/a00191" startline="11405" endline="11418">CIccTagSpectralViewingConditions::getIlluminant</references>
+        <references refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6">getPccViewingConditions</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <referencedby refid="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" compoundref="de/db1/a00197" startline="79" endline="110">isEquivalentPcc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IIccProfileConnectionConditions::isEquivalentPcc</definition>
+        <argsstring>(IIccProfileConnectionConditions &amp;IPCC)</argsstring>
+        <name>isEquivalentPcc</name>
+        <qualifiedname>IIccProfileConnectionConditions::isEquivalentPcc</qualifiedname>
+        <param>
+          <type><ref refid="db/d18/a00885" kindref="compound">IIccProfileConnectionConditions</ref> &amp;</type>
+          <declname>IPCC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="102" column="8" bodyfile="IccProfLib/IccPcc.cpp" bodystart="79" bodyend="110"/>
+        <references refid="db/d18/a00885_1a9c5c38685ec6a82b97608f5571e303f2">getNormIlluminantXYZ</references>
+        <references refid="db/d18/a00885_1afef290dfe66fbd9182f21bbbf638fdf9" compoundref="de/db1/a00197" startline="121" endline="128">getPccCCT</references>
+        <references refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" compoundref="de/db1/a00197" startline="112" endline="119">getPccIlluminant</references>
+        <references refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" compoundref="de/db1/a00197" startline="130" endline="137">getPccObserver</references>
+        <references refid="db/d18/a00885_1af68de8addb66a26899ca13f2a20c288e" compoundref="de/db1/a00197" startline="147" endline="160">hasIlluminantSPD</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17aa2ae921dec6ee8f3fede2f53bd7f3d60" compoundref="d7/d46/a00002" startline="1202">icIlluminantBlackBody</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a4f741f748f7d67a4c26eaf716f4acfeb" compoundref="d7/d46/a00002" startline="1203">icIlluminantDaylight</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ab1c241e8a8bf7f4843c929227113ac84" compoundref="d7/d46/a00002" startline="1191">icIlluminantUnknown</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d18/a00885_1a91dc6e895f5fcc5cd924bcdedd5ea0b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IIccProfileConnectionConditions::isStandardPcc</definition>
+        <argsstring>()</argsstring>
+        <name>isStandardPcc</name>
+        <qualifiedname>IIccProfileConnectionConditions::isStandardPcc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccPcc.h" line="103" column="8" bodyfile="IccProfLib/IccPcc.cpp" bodystart="139" bodyend="145"/>
+        <references refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" compoundref="de/db1/a00197" startline="112" endline="119">getPccIlluminant</references>
+        <references refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" compoundref="de/db1/a00197" startline="130" endline="137">getPccObserver</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ac5371c55bd4c3d83624ba6cf705207fd" compoundref="d7/d46/a00002" startline="1192">icIlluminantD50</references>
+        <references refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859ba75bc24faaa2326e527a38382dc626ab8" compoundref="d7/d46/a00002" startline="1177">icStdObs1931TwoDegrees</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Type: Class</para>
+<para>Purpose: Interface for accessing Connection Conditions </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccCombinedConnectionConditions</label>
+        <link refid="de/dc8/a00889"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccProfileConnectionConditions</label>
+        <link refid="db/d18/a00885"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccPcc.h" line="93" column="1" bodyfile="IccProfLib/IccPcc.h" bodystart="94" bodyend="120"/>
+    <listofallmembers>
+      <member refid="db/d18/a00885_1a6a535454f7d93b11bc5f6a83e9142331" prot="public" virt="pure-virtual"><scope>IIccProfileConnectionConditions</scope><name>getCustomToStandardPcc</name></member>
+      <member refid="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>getEmissiveObserver</name></member>
+      <member refid="db/d18/a00885_1a6b7d53898284b4c85611c2443e14d70c" prot="public" virt="pure-virtual"><scope>IIccProfileConnectionConditions</scope><name>getLumIlluminantXYZ</name></member>
+      <member refid="db/d18/a00885_1a7268d05a042b582c68477e4aa956041a" prot="public" virt="pure-virtual"><scope>IIccProfileConnectionConditions</scope><name>getMediaWhiteXYZ</name></member>
+      <member refid="db/d18/a00885_1a9c5c38685ec6a82b97608f5571e303f2" prot="public" virt="pure-virtual"><scope>IIccProfileConnectionConditions</scope><name>getNormIlluminantXYZ</name></member>
+      <member refid="db/d18/a00885_1a26aeaba43632aa5d06de6623fd900d4b" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>getObserverIlluminantScaleFactor</name></member>
+      <member refid="db/d18/a00885_1a81fb6e4ffae390d84145d802702b6d6c" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>getObserverWhiteScaleFactor</name></member>
+      <member refid="db/d18/a00885_1afef290dfe66fbd9182f21bbbf638fdf9" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>getPccCCT</name></member>
+      <member refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>getPccIlluminant</name></member>
+      <member refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>getPccObserver</name></member>
+      <member refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" prot="public" virt="pure-virtual"><scope>IIccProfileConnectionConditions</scope><name>getPccViewingConditions</name></member>
+      <member refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>getReflectanceObserver</name></member>
+      <member refid="db/d18/a00885_1a16094632a566d2945892046797fac4d9" prot="public" virt="pure-virtual"><scope>IIccProfileConnectionConditions</scope><name>getStandardToCustomPcc</name></member>
+      <member refid="db/d18/a00885_1af68de8addb66a26899ca13f2a20c288e" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>hasIlluminantSPD</name></member>
+      <member refid="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>isEquivalentPcc</name></member>
+      <member refid="db/d18/a00885_1a91dc6e895f5fcc5cd924bcdedd5ea0b5" prot="public" virt="non-virtual"><scope>IIccProfileConnectionConditions</scope><name>isStandardPcc</name></member>
+      <member refid="db/d18/a00885_1ab1f74e72add49f28340dd8aff20918a2" prot="public" virt="virtual"><scope>IIccProfileConnectionConditions</scope><name>~IIccProfileConnectionConditions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

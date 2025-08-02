@@ -1,0 +1,25 @@
+var a01225 =
+[
+    [ "CIccDictEntry", "d8/d53/a01225.html#a1a71d1439f80e11743c3572a636124b1", null ],
+    [ "CIccDictEntry", "d8/d53/a01225.html#a5d44a1046e09386a5f39d876d1af6f66", null ],
+    [ "~CIccDictEntry", "d8/d53/a01225.html#a3d8ad702b932bf555fd6aecfbff8aa1f", null ],
+    [ "Describe", "d8/d53/a01225.html#a88d7107091080e5989b396dec2dad1b2", null ],
+    [ "GetName", "d8/d53/a01225.html#a489e028e4a733968d7d2070e35babfc8", null ],
+    [ "GetNameLocalized", "d8/d53/a01225.html#a37412e941af64e01b167585f13e6a5ed", null ],
+    [ "GetValue", "d8/d53/a01225.html#ac86fb76c6f4640e31aea5ecf07fb8fb6", null ],
+    [ "GetValueLocalized", "d8/d53/a01225.html#a26987367916a14b3ddff6d3d6bd8cd01", null ],
+    [ "IsValueSet", "d8/d53/a01225.html#a7a54c1f218ec1d5536efe064fd3a3079", null ],
+    [ "operator=", "d8/d53/a01225.html#a6509512d63f85c63c15a6c5d827f092a", null ],
+    [ "PosRecSize", "d8/d53/a01225.html#afca473da03e657763ae4fe93ffa25137", null ],
+    [ "SetNameLocalized", "d8/d53/a01225.html#a1a7b44f4eef8b9aec08f0e8ffc5bad79", null ],
+    [ "SetValue", "d8/d53/a01225.html#a590d22405afe4324191a9f2fd18bc68a", null ],
+    [ "SetValueLocalized", "d8/d53/a01225.html#a1a4b0d8731c5ad9bd5ca37ccad63c628", null ],
+    [ "UnsetValue", "d8/d53/a01225.html#a122a789b9c210fc46bbd4b51fedbf85d", null ],
+    [ "ValueBegin", "d8/d53/a01225.html#aa81ab09126babb3391de556d8b03b472", null ],
+    [ "ValueEnd", "d8/d53/a01225.html#a2dfefbe294c8c30b8b7e831b512cdbf9", null ],
+    [ "m_bValueSet", "d8/d53/a01225.html#ac69df93c447d8c1ce740ea0e41d3985f", null ],
+    [ "m_pNameLocalized", "d8/d53/a01225.html#ac79d0f8430c2e88669d4b036c405d287", null ],
+    [ "m_pValueLocalized", "d8/d53/a01225.html#ac705a6ebfcc583009d4d93c3e7de42f4", null ],
+    [ "m_sName", "d8/d53/a01225.html#a6f9a51c8d47a842448d421b11cce4bf3", null ],
+    [ "m_sValue", "d8/d53/a01225.html#a0ef5d49399767b66b739ba9346a79c5b", null ]
+];

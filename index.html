@@ -1,51 +1,59 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="description" content="International in scope and free for public use, XSS.Cx is a database and publisher of SCAP metrics.">
-		<meta name="keywords" content="XSS, XXE, SQLi, HTTPi, LFI, RFI, Parser Testing, xss.cx">
-		<meta charset="UTF-8">
-		<meta property="twitter:account_id" content="222115810" />
-		<title>Exploit Search, Anti-Phishing, Tombstones | XSS.Cx</title>
+<head>
+    <meta name="description" content="International in scope and free for public use, XSS.Cx is a database and publisher of SCAP metrics.">
+    <meta name="keywords" content="XSS, XXE, SQLi, HTTPi, LFI, RFI, Parser Testing, Security Research Device Metrics, 4G + 5G, xss.cx">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="twitter:account_id" content="222115810" />
+    <title>Exploit Search, Reverse Engineering Data</title>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- Enhanced Google Analytics tracking code -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-11310364-18', 'auto');
-  ga('send', 'pageview');
+        // Initialize Google Analytics
+        ga('create', 'UA-11310364-18', 'auto');
 
+        // Enhanced link attribution
+        ga('require', 'linkid', 'linkid.js');
+
+        // Send pageview
+        ga('send', 'pageview');
+
+        // Event tracking
+        document.addEventListener('DOMContentLoaded', function() {
+            var element = document.getElementById('someElementId');
+            if (element) {
+                element.addEventListener('click', function() {
+                    ga('send', 'event', 'Category', 'Action', 'Label', 'Value');
+                });
+            }
+        });
+    </script>
+
+    <script>
+        var trackOutboundLink = function(url) {
+            ga('send', 'event', 'indextositemap', 'click', url, {
+                'transport': 'beacon',
+                'hitCallback': function(){document.location = url;}
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Exploit Search, Reverse Engineering Data</h1>
+    <h2>International in scope and free for public use</h2>
+    <h5>XSS.Cx is a Crawler and Injection Reporting Tool</h5>
+
+ <script async src="https://cse.google.com/cse.js?cx=008801388445696029762:5wl5jq9fxnc">
 </script>
-<script>
-var trackOutboundLink = function(url) {
-   ga('send', 'event', 'outbound', 'click', url, {
-     'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
-}
-</script>
+<div class="gcse-search"></div>
 
-	</head>
-	<body>
-		<h1>Exploit Search, Anti-Phishing, Tombstones | XSS.Cx</h1>
-		<h2>International in scope and free for public use</h2>
-
-	<script>
-  (function() {
-    var cx = '008801388445696029762:5wl5jq9fxnc';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-  </script>
-<gcse:search></gcse:search>
-
-<a href="https://xss.cx/sitemap.html" onclick="trackOutboundLink('https://xss.cx/sitemap.html'); return false;">SiteMap</a>
-
-	</body>
+    <a href="//xss.cx/sitemap.html" onclick="trackOutboundLink('//xss.cx/sitemap.html'); return false;">SiteMap</a>
+</body>
 </html>

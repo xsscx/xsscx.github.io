@@ -1,0 +1,28 @@
+var a01237 =
+[
+    [ "CIccTagEmbeddedProfile", "dc/dab/a01237.html#a11236a42e37b735aba99d07e42cd0340", null ],
+    [ "CIccTagEmbeddedProfile", "dc/dab/a01237.html#a45ffaeac3c1af3c20fbf533a5ac88d52", null ],
+    [ "~CIccTagEmbeddedProfile", "dc/dab/a01237.html#ab7479b323c610dad0c42ade3ba3f615f", null ],
+    [ "Create", "dc/dab/a01237.html#a2a2efdbfae5e8820c0dc4cdd1af691a8", null ],
+    [ "Describe", "dc/dab/a01237.html#aaaf88d380e45cb07399067b26a60f05c", null ],
+    [ "DetachIO", "dc/dab/a01237.html#a3b8c88576df48859517cda49e412c9f3", null ],
+    [ "GetClassName", "dc/dab/a01237.html#ac4f80a3de373046d6f49aa7df15b4824", null ],
+    [ "GetExtension", "dc/dab/a01237.html#aa4cc7f1dd04e9b537738d1dfa96a9790", null ],
+    [ "GetProfile", "dc/dab/a01237.html#a86e25257f27bd6e6acfd00a255bf7007", null ],
+    [ "GetTagArrayType", "dc/dab/a01237.html#acc454c2f425b8619187fc75f682d7aa4", null ],
+    [ "GetTagStructType", "dc/dab/a01237.html#ad53030e068551d6ac9f69124b4a6c9bb", null ],
+    [ "GetType", "dc/dab/a01237.html#a1eeb8cb7d60c5b8c2a7946291d488ed5", null ],
+    [ "IsArrayType", "dc/dab/a01237.html#a80251cce2257d65fff1f45c0d805480f", null ],
+    [ "IsMBBType", "dc/dab/a01237.html#a5cf5b72ab66ca68a6c8ddfd861741bb8", null ],
+    [ "IsNumArrayType", "dc/dab/a01237.html#aa2a3dd91bfad9cf1297300d70936121a", null ],
+    [ "IsSupported", "dc/dab/a01237.html#a6924e8cf27369ecfe2edfd8f366eb63a", null ],
+    [ "NewCopy", "dc/dab/a01237.html#a40e9405eef7260b6bda5f0bd85cdd066", null ],
+    [ "operator=", "dc/dab/a01237.html#a213c3ac69e1c77667eae00310873215a", null ],
+    [ "Read", "dc/dab/a01237.html#ab357984fdf4521ced0fb7727243ebb98", null ],
+    [ "Read", "dc/dab/a01237.html#afd8cd85808168cd64779b3d94273c344", null ],
+    [ "ReadAll", "dc/dab/a01237.html#a440dc243e63c6c37d100e8ec70f21c08", null ],
+    [ "Validate", "dc/dab/a01237.html#a39483430810402bbf631128d04e60690", null ],
+    [ "Write", "dc/dab/a01237.html#a1d18120e63e422bb3cad2b0aef1a968a", null ],
+    [ "m_nReserved", "dc/dab/a01237.html#a0dbc39e419057e941c11cacb8c9e3fb0", null ],
+    [ "m_pProfile", "dc/dab/a01237.html#adedceffde908e103058d09ddcc9aed67", null ]
+];

@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/dcd/a00965" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccExtensionTag</compoundname>
+    <derivedcompoundref refid="de/d3c/a01809" prot="public" virt="non-virtual">CIccTagXml</derivedcompoundref>
+    <includes refid="da/dec/a00080" local="no">IccTagBasic.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/dcd/a00965_1afc77445123182ddaec413f6353c719be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const char *</type>
+        <definition>virtual const char * IIccExtensionTag::GetExtClassName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetExtClassName</name>
+        <qualifiedname>IIccExtensionTag::GetExtClassName</qualifiedname>
+        <reimplementedby refid="de/d3c/a01809_1a67786e088d1e0f900a3aa28bb3499d2b">GetExtClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="92" column="22"/>
+        <referencedby refid="d0/d27/a00239_1ab2ad4f9d9730453002176b26c0899dab" compoundref="d0/d27/a00239" startline="3232" endline="3299">icCurvesFromXml</referencedby>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+        <referencedby refid="db/d49/a01969_1adc66f52cad265a25289afdf71b69dcc7" compoundref="d0/d27/a00239" startline="4496" endline="4666">CIccTagXmlStruct::ParseTag</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+        <referencedby refid="d3/d59/a01973_1abccc6c4d4ab6b62ac620371e1e5ab361" compoundref="d0/d27/a00239" startline="4791" endline="4907">CIccTagXmlArray::ParseXml</referencedby>
+        <referencedby refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d" compoundref="dd/dd7/a00260" startline="1534" endline="1566">CIccMpeXmlTintArray::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d3/dcd/a00965_1ac7bb0a319f913857a32f13d31df189c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const char *</type>
+        <definition>virtual const char * IIccExtensionTag::GetExtDerivedClassName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetExtDerivedClassName</name>
+        <qualifiedname>IIccExtensionTag::GetExtDerivedClassName</qualifiedname>
+        <reimplementedby refid="de/d3c/a01809_1ac5c03ff6c0ef73be014eb9da37ec6113">GetExtDerivedClassName</reimplementedby>
+        <reimplementedby refid="d6/d18/a01925_1aeecd033ae4a3786d9e6db4ff6a9e0c60">GetExtDerivedClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="93" column="22"/>
+        <referencedby refid="d0/d27/a00239_1ab2ad4f9d9730453002176b26c0899dab" compoundref="d0/d27/a00239" startline="3232" endline="3299">icCurvesFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a0487825d4241d4ed1b2ad5825ba72cd9" compoundref="d0/d27/a00239" startline="3042" endline="3059">icCurvesToXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CIccCurveXml</label>
+        <link refid="d6/d18/a01925"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccTagXml</label>
+        <link refid="de/d3c/a01809"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CIccTagXmlArray</label>
+        <link refid="d3/d59/a01973"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CIccTagXmlChromaticity</label>
+        <link refid="db/d6b/a01853"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccTagXmlCicp</label>
+        <link refid="de/d51/a01857"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CIccTagXmlColorantOrder</label>
+        <link refid="d9/d0c/a01897"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>CIccTagXmlColorantTable</label>
+        <link refid="d5/d99/a01901"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccTagXmlCurve</label>
+        <link refid="dc/dc8/a01929"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>CIccTagXmlDateTime</label>
+        <link refid="dd/d80/a01893"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>CIccTagXmlDict</label>
+        <link refid="d6/d9a/a01965"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>CIccTagXmlEmbeddedHeightImage</label>
+        <link refid="df/db2/a01981"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>CIccTagXmlEmbeddedNormalImage</label>
+        <link refid="d3/def/a01985"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>CIccTagXmlEmbeddedProfile</label>
+        <link refid="dc/d67/a01989"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>CIccTagXmlFixedNum&lt; T, Tsig &gt;</label>
+        <link refid="d5/da8/a01865"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>CIccTagXmlFloatNum&lt; T, A, Tsig &gt;</label>
+        <link refid="d9/d63/a01877"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>CIccTagXmlGamutBoundaryDesc</label>
+        <link refid="d5/d92/a01977"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>CIccTagXmlLut16</label>
+        <link refid="d9/d97/a01953"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>CIccTagXmlLut8</label>
+        <link refid="dd/d2e/a01949"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>CIccTagXmlLutAtoB</label>
+        <link refid="da/d76/a01941"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>CIccTagXmlLutBtoA</label>
+        <link refid="d5/d39/a01945"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>CIccTagXmlMeasurement</label>
+        <link refid="de/d9f/a01881"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>CIccTagXmlMultiLocalizedUnicode</label>
+        <link refid="d7/d9c/a01885"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>CIccTagXmlMultiProcessElement</label>
+        <link refid="d2/d6f/a01957"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>CIccTagXmlNamedColor2</label>
+        <link refid="da/d8c/a01845"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>CIccTagXmlNum&lt; T, A, Tsig &gt;</label>
+        <link refid="d8/d3a/a01869"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccTagXmlParametricCurve</label>
+        <link refid="dc/da7/a01933"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>CIccTagXmlProfileSeqDesc</label>
+        <link refid="d2/d54/a01917"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>CIccTagXmlProfileSequenceId</label>
+        <link refid="d2/d23/a01961"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>CIccTagXmlResponseCurveSet16</label>
+        <link refid="da/d6c/a01921"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CIccTagXmlSegmentedCurve</label>
+        <link refid="d9/d17/a01937"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>CIccTagXmlSignature</label>
+        <link refid="d2/d5b/a01841"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>CIccTagXmlSparseMatrixArray</label>
+        <link refid="d6/d56/a01861"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>CIccTagXmlSpectralDataInfo</label>
+        <link refid="d9/d90/a01909"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>CIccTagXmlSpectralViewingConditions</label>
+        <link refid="d4/d07/a01913"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>CIccTagXmlStruct</label>
+        <link refid="db/d49/a01969"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>CIccTagXmlTagData</label>
+        <link refid="d9/d9b/a01889"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>CIccTagXmlText</label>
+        <link refid="d4/d29/a01817"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>CIccTagXmlTextDescription</label>
+        <link refid="d7/db1/a01837"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>CIccTagXmlUnknown</label>
+        <link refid="d1/d20/a01813"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>CIccTagXmlUtf16Text</label>
+        <link refid="db/dd5/a01833"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>CIccTagXmlUtf8Text</label>
+        <link refid="de/d3d/a01821"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>CIccTagXmlViewingConditions</label>
+        <link refid="d9/d65/a01905"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>CIccTagXmlXYZ</label>
+        <link refid="db/dd4/a01849"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>CIccTagXmlZipUtf8Text</label>
+        <link refid="df/dee/a01825"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>CIccTagXmlZipXml</label>
+        <link refid="d6/dbd/a01829"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccExtensionTag</label>
+        <link refid="d3/dcd/a00965"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccTagBasic.h" line="89" column="1" bodyfile="IccProfLib/IccTagBasic.h" bodystart="90" bodyend="94"/>
+    <listofallmembers>
+      <member refid="d3/dcd/a00965_1afc77445123182ddaec413f6353c719be" prot="public" virt="pure-virtual"><scope>IIccExtensionTag</scope><name>GetExtClassName</name></member>
+      <member refid="d3/dcd/a00965_1ac7bb0a319f913857a32f13d31df189c8" prot="public" virt="pure-virtual"><scope>IIccExtensionTag</scope><name>GetExtDerivedClassName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

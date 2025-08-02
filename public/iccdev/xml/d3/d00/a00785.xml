@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d00/a00785" kind="struct" language="C++" prot="public">
+    <compoundname>icTagList</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d00/a00785_1af28000977c4b332d2434e189f29b1706" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number icTagList::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>icTagList::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2031" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2031" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d00/a00785_1abc72c3d41abd7b6ea44120fdbddd4388" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/d86/a00781" kindref="compound">icTag</ref></type>
+        <definition>icTag icTagList::tags[icAny]</definition>
+        <argsstring>[icAny]</argsstring>
+        <name>tags</name>
+        <qualifiedname>icTagList::tags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2032" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2032" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Structure that may be used independently for a list of tags </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>icTag</label>
+        <link refid="d6/d86/a00781"/>
+      </node>
+      <node id="1">
+        <label>icTagList</label>
+        <link refid="d3/d00/a00785"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tags</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="2030" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2030" bodyend="2033"/>
+    <listofallmembers>
+      <member refid="d3/d00/a00785_1af28000977c4b332d2434e189f29b1706" prot="public" virt="non-virtual"><scope>icTagList</scope><name>count</name></member>
+      <member refid="d3/d00/a00785_1abc72c3d41abd7b6ea44120fdbddd4388" prot="public" virt="non-virtual"><scope>icTagList</scope><name>tags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

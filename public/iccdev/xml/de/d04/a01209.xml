@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/d04/a01209" kind="class" language="C++" prot="public">
+    <compoundname>CIccApplyTagMpe</compoundname>
+    <includes refid="d7/d25/a00182" local="no">IccTagMPE.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/d04/a01209_1a133a5e56b4cfee425b8e1eb64679b25c" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d61/a01205" kindref="compound">CIccDblPixelBuffer</ref></type>
+        <definition>CIccDblPixelBuffer CIccApplyTagMpe::m_applyBuf</definition>
+        <argsstring></argsstring>
+        <name>m_applyBuf</name>
+        <qualifiedname>CIccApplyTagMpe::m_applyBuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="343" column="22" bodyfile="IccProfLib/IccTagMPE.h" bodystart="343" bodyend="-1"/>
+        <referencedby refid="de/d04/a01209_1a04d0ac778a48baaa20405603b60f0f8f" compoundref="d7/d25/a00182" startline="330" endline="330">GetBuf</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d04/a01209_1ac5a140bac8825a94433a407b72a5a60c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d25/a00182_1ac38a6a9fbbf1b74164b4a50218df888b" kindref="member">CIccApplyMpeList</ref> *</type>
+        <definition>CIccApplyMpeList* CIccApplyTagMpe::m_list</definition>
+        <argsstring></argsstring>
+        <name>m_list</name>
+        <qualifiedname>CIccApplyTagMpe::m_list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="340" column="20" bodyfile="IccProfLib/IccTagMPE.h" bodystart="340" bodyend="-1"/>
+        <referencedby refid="de/d04/a01209_1a18c5271cc8a79bc8fe296490363094cc" compoundref="dc/d87/a00032" startline="622" endline="626">CIccApplyTagMpe</referencedby>
+        <referencedby refid="de/d04/a01209_1a2d8d81260d3c8c4c748e71a0e08c49d1" compoundref="dc/d87/a00032" startline="639" endline="650">~CIccApplyTagMpe</referencedby>
+        <referencedby refid="de/d04/a01209_1a5e064cd8063068d514afdc4bce6b72ca" compoundref="dc/d87/a00032" startline="663" endline="682">AppendElem</referencedby>
+        <referencedby refid="de/d04/a01209_1aece71eefad4e89aa73b4160c83c7d13e" compoundref="d7/d25/a00182" startline="333" endline="333">begin</referencedby>
+        <referencedby refid="de/d04/a01209_1a8a47688260d8f3470dd7d5c46b76f1f4" compoundref="d7/d25/a00182" startline="334" endline="334">end</referencedby>
+        <referencedby refid="de/d04/a01209_1ac39cb4ef87ea3a20504aada894388a62" compoundref="d7/d25/a00182" startline="331" endline="331">GetList</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d04/a01209_1a460c9dd14783b6a12601e48c13e0ba74" prot="protected" static="no" mutable="no">
+        <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+        <definition>CIccTagMultiProcessElement* CIccApplyTagMpe::m_pTag</definition>
+        <argsstring></argsstring>
+        <name>m_pTag</name>
+        <qualifiedname>CIccApplyTagMpe::m_pTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="337" column="30" bodyfile="IccProfLib/IccTagMPE.h" bodystart="337" bodyend="-1"/>
+        <referencedby refid="de/d04/a01209_1a18c5271cc8a79bc8fe296490363094cc" compoundref="dc/d87/a00032" startline="622" endline="626">CIccApplyTagMpe</referencedby>
+        <referencedby refid="de/d04/a01209_1ac1a8bd88b5fbf06800ef0c7da961f918" compoundref="d7/d25/a00182" startline="326" endline="326">GetTag</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d04/a01209_1a18c5271cc8a79bc8fe296490363094cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccApplyTagMpe::CIccApplyTagMpe</definition>
+        <argsstring>(CIccTagMultiProcessElement *pTag)</argsstring>
+        <name>CIccApplyTagMpe</name>
+        <qualifiedname>CIccApplyTagMpe::CIccApplyTagMpe</qualifiedname>
+        <param>
+          <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pTag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d04/a01209_1a18c5271cc8a79bc8fe296490363094cc" kindref="member">CIccApplyTagMpe::CIccApplyTagMpe</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="323" column="3" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="622" bodyend="626"/>
+        <references refid="de/d04/a01209_1ac5a140bac8825a94433a407b72a5a60c" compoundref="d7/d25/a00182" startline="340">m_list</references>
+        <references refid="de/d04/a01209_1a460c9dd14783b6a12601e48c13e0ba74" compoundref="d7/d25/a00182" startline="337">m_pTag</references>
+        <referencedby refid="d5/d54/a01213_1a8c7ac5feb94d30f1aae4ee1100e47cf5" compoundref="dc/d87/a00032" startline="1387" endline="1413">CIccTagMultiProcessElement::GetNewApply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d04/a01209_1a2d8d81260d3c8c4c748e71a0e08c49d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccApplyTagMpe::~CIccApplyTagMpe</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccApplyTagMpe</name>
+        <qualifiedname>CIccApplyTagMpe::~CIccApplyTagMpe</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d04/a01209_1a2d8d81260d3c8c4c748e71a0e08c49d1" kindref="member">CIccApplyTagMpe::~CIccApplyTagMpe</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="324" column="11" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="639" bodyend="650"/>
+        <references refid="de/d04/a01209_1ac5a140bac8825a94433a407b72a5a60c" compoundref="d7/d25/a00182" startline="340">m_list</references>
+        <references refid="d3/dd3/a01185_1a5ce7dd55861ff90ac012157d027f3cfd" compoundref="d7/d25/a00182" startline="126">CIccApplyMpePtr::ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d04/a01209_1a5e064cd8063068d514afdc4bce6b72ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccApplyTagMpe::AppendElem</definition>
+        <argsstring>(CIccMultiProcessElement *pElem)</argsstring>
+        <name>AppendElem</name>
+        <qualifiedname>CIccApplyTagMpe::AppendElem</qualifiedname>
+        <param>
+          <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+          <declname>pElem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d04/a01209_1a18c5271cc8a79bc8fe296490363094cc" kindref="member">CIccApplyTagMpe::CIccApplyTagMpe</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="328" column="16" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="663" bodyend="682"/>
+        <references refid="dd/d43/a01193_1ad56f9ad740d2b24fbd3790d5fa6edba9" compoundref="dc/d87/a00032" startline="146" endline="149">CIccMultiProcessElement::GetNewApply</references>
+        <references refid="de/d04/a01209_1ac5a140bac8825a94433a407b72a5a60c" compoundref="d7/d25/a00182" startline="340">m_list</references>
+        <references refid="d3/dd3/a01185_1a5ce7dd55861ff90ac012157d027f3cfd" compoundref="d7/d25/a00182" startline="126">CIccApplyMpePtr::ptr</references>
+        <referencedby refid="d5/d54/a01213_1a8c7ac5feb94d30f1aae4ee1100e47cf5" compoundref="dc/d87/a00032" startline="1387" endline="1413">CIccTagMultiProcessElement::GetNewApply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d04/a01209_1aece71eefad4e89aa73b4160c83c7d13e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d25/a00182_1ab3ff513eb85f16b113627005fd5a8ba8" kindref="member">CIccApplyMpeIter</ref></type>
+        <definition>CIccApplyMpeIter CIccApplyTagMpe::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <qualifiedname>CIccApplyTagMpe::begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="333" column="20" bodyfile="IccProfLib/IccTagMPE.h" bodystart="333" bodyend="333"/>
+        <references refid="de/d04/a01209_1ac5a140bac8825a94433a407b72a5a60c" compoundref="d7/d25/a00182" startline="340">m_list</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d04/a01209_1a8a47688260d8f3470dd7d5c46b76f1f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d25/a00182_1ab3ff513eb85f16b113627005fd5a8ba8" kindref="member">CIccApplyMpeIter</ref></type>
+        <definition>CIccApplyMpeIter CIccApplyTagMpe::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>CIccApplyTagMpe::end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="334" column="20" bodyfile="IccProfLib/IccTagMPE.h" bodystart="334" bodyend="334"/>
+        <references refid="de/d04/a01209_1ac5a140bac8825a94433a407b72a5a60c" compoundref="d7/d25/a00182" startline="340">m_list</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d04/a01209_1a04d0ac778a48baaa20405603b60f0f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="de/d61/a01205" kindref="compound">CIccDblPixelBuffer</ref> *</type>
+        <definition>CIccDblPixelBuffer * CIccApplyTagMpe::GetBuf</definition>
+        <argsstring>()</argsstring>
+        <name>GetBuf</name>
+        <qualifiedname>CIccApplyTagMpe::GetBuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="330" column="22" bodyfile="IccProfLib/IccTagMPE.h" bodystart="330" bodyend="330"/>
+        <references refid="de/d04/a01209_1a133a5e56b4cfee425b8e1eb64679b25c" compoundref="d7/d25/a00182" startline="343">m_applyBuf</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+        <referencedby refid="d5/d54/a01213_1a8c7ac5feb94d30f1aae4ee1100e47cf5" compoundref="dc/d87/a00032" startline="1387" endline="1413">CIccTagMultiProcessElement::GetNewApply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d04/a01209_1ac39cb4ef87ea3a20504aada894388a62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d25/a00182_1ac38a6a9fbbf1b74164b4a50218df888b" kindref="member">CIccApplyMpeList</ref> *</type>
+        <definition>CIccApplyMpeList * CIccApplyTagMpe::GetList</definition>
+        <argsstring>()</argsstring>
+        <name>GetList</name>
+        <qualifiedname>CIccApplyTagMpe::GetList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="331" column="20" bodyfile="IccProfLib/IccTagMPE.h" bodystart="331" bodyend="331"/>
+        <references refid="de/d04/a01209_1ac5a140bac8825a94433a407b72a5a60c" compoundref="d7/d25/a00182" startline="340">m_list</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+        <referencedby refid="df/d91/a00335_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="df/d91/a00335" startline="86" endline="231">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d04/a01209_1ac1a8bd88b5fbf06800ef0c7da961f918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+        <definition>CIccTagMultiProcessElement * CIccApplyTagMpe::GetTag</definition>
+        <argsstring>()</argsstring>
+        <name>GetTag</name>
+        <qualifiedname>CIccApplyTagMpe::GetTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="326" column="30" bodyfile="IccProfLib/IccTagMPE.h" bodystart="326" bodyend="326"/>
+        <references refid="de/d04/a01209_1a460c9dd14783b6a12601e48c13e0ba74" compoundref="d7/d25/a00182" startline="337">m_pTag</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref></para>
+<para>Purpose: Apply storage for MPE general purpose processing tags </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccApplyTagMpe</label>
+        <link refid="de/d04/a01209"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_pTag</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_applyBuf</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CIccDblPixelBuffer</label>
+        <link refid="de/d61/a01205"/>
+      </node>
+      <node id="3">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="2">
+        <label>CIccTagMultiProcessElement</label>
+        <link refid="d5/d54/a01213"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_pAppliedPCC</edgelabel>
+          <edgelabel>m_pProfilePCC</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_pCmmEnvVarLookup</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IIccCmmEnvVarLookup</label>
+        <link refid="dd/d07/a00433"/>
+      </node>
+      <node id="5">
+        <label>IIccProfileConnectionConditions</label>
+        <link refid="db/d18/a00885"/>
+      </node>
+      <node id="4">
+        <label>icPositionNumber</label>
+        <link refid="d8/d6e/a00537"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagMPE.h" line="320" column="1" bodyfile="IccProfLib/IccTagMPE.h" bodystart="321" bodyend="344"/>
+    <listofallmembers>
+      <member refid="de/d04/a01209_1a5e064cd8063068d514afdc4bce6b72ca" prot="public" virt="virtual"><scope>CIccApplyTagMpe</scope><name>AppendElem</name></member>
+      <member refid="de/d04/a01209_1aece71eefad4e89aa73b4160c83c7d13e" prot="public" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>begin</name></member>
+      <member refid="de/d04/a01209_1a18c5271cc8a79bc8fe296490363094cc" prot="public" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>CIccApplyTagMpe</name></member>
+      <member refid="de/d04/a01209_1a8a47688260d8f3470dd7d5c46b76f1f4" prot="public" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>end</name></member>
+      <member refid="de/d04/a01209_1a04d0ac778a48baaa20405603b60f0f8f" prot="public" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>GetBuf</name></member>
+      <member refid="de/d04/a01209_1ac39cb4ef87ea3a20504aada894388a62" prot="public" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>GetList</name></member>
+      <member refid="de/d04/a01209_1ac1a8bd88b5fbf06800ef0c7da961f918" prot="public" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>GetTag</name></member>
+      <member refid="de/d04/a01209_1a133a5e56b4cfee425b8e1eb64679b25c" prot="protected" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>m_applyBuf</name></member>
+      <member refid="de/d04/a01209_1ac5a140bac8825a94433a407b72a5a60c" prot="protected" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>m_list</name></member>
+      <member refid="de/d04/a01209_1a460c9dd14783b6a12601e48c13e0ba74" prot="protected" virt="non-virtual"><scope>CIccApplyTagMpe</scope><name>m_pTag</name></member>
+      <member refid="de/d04/a01209_1a2d8d81260d3c8c4c748e71a0e08c49d1" prot="public" virt="virtual"><scope>CIccApplyTagMpe</scope><name>~CIccApplyTagMpe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

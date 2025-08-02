@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d0/df1/a00685" kind="struct" language="C++" prot="public">
+    <compoundname>icLutAtoBType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/df1/a00685_1ae71bfb910161003d69d9b568445088f5" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icLutAtoBType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icLutAtoBType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1856" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/df1/a00685_1a6f82c31e92e1cd963fad31344d0fdd15" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/dc8/a00581" kindref="compound">icLutAtoB</ref></type>
+        <definition>icLutAtoB icLutAtoBType::lut</definition>
+        <argsstring></argsstring>
+        <name>lut</name>
+        <qualifiedname>icLutAtoBType::lut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1857" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1857" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>lutAtoBType new format </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icLutAtoB</label>
+        <link refid="d8/dc8/a00581"/>
+      </node>
+      <node id="1">
+        <label>icLutAtoBType</label>
+        <link refid="d0/df1/a00685"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>lut</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1855" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1855" bodyend="1858"/>
+    <listofallmembers>
+      <member refid="d0/df1/a00685_1ae71bfb910161003d69d9b568445088f5" prot="public" virt="non-virtual"><scope>icLutAtoBType</scope><name>base</name></member>
+      <member refid="d0/df1/a00685_1a6f82c31e92e1cd963fad31344d0fdd15" prot="public" virt="non-virtual"><scope>icLutAtoBType</scope><name>lut</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d2a/a02325" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>iccDumpProfile</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`iccDumpProfile`<sp/>is<sp/>a<sp/>command-line<sp/>tool<sp/>for<sp/>inspecting<sp/>and<sp/>validating<sp/>ICC<sp/>profile<sp/>files.<sp/>It<sp/>provides<sp/>detailed<sp/>output<sp/>of<sp/>the<sp/>profile<sp/>header,<sp/>tag<sp/>table,<sp/>and<sp/>individual<sp/>tag<sp/>contents,<sp/>with<sp/>options<sp/>for<sp/>verbose<sp/>output<sp/>and<sp/>structural<sp/>validation<sp/>against<sp/>ICC<sp/>specifications.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>tool<sp/>is<sp/>particularly<sp/>useful<sp/>for<sp/>developers,<sp/>color<sp/>scientists,<sp/>and<sp/>QA<sp/>engineers<sp/>who<sp/>need<sp/>to<sp/>ensure<sp/>ICC<sp/>profiles<sp/>conform<sp/>to<sp/>standards<sp/>and<sp/>contain<sp/>expected<sp/>metadata.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Displays<sp/>comprehensive<sp/>ICC<sp/>header<sp/>and<sp/>tag<sp/>table<sp/>information</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Validates<sp/>tag<sp/>layout,<sp/>structure,<sp/>and<sp/>alignment<sp/>(compliance<sp/>with<sp/>ICC.1/ICC.2)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Detects<sp/>overlapping<sp/>or<sp/>redundant<sp/>tag<sp/>entries</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Offers<sp/>detailed<sp/>output<sp/>for<sp/>each<sp/>tag,<sp/>including<sp/>localized<sp/>descriptions</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>verbose<sp/>tag<sp/>content<sp/>dumps</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Flags<sp/>non-compliance<sp/>issues<sp/>and<sp/>prints<sp/>warnings<sp/>or<sp/>critical<sp/>errors</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Output<sp/>Details</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Profile<sp/>Header</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Profile<sp/>ID,<sp/>creation<sp/>date,<sp/>version,<sp/>and<sp/>profile<sp/>class</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Color<sp/>spaces,<sp/>rendering<sp/>intent,<sp/>platform,<sp/>and<sp/>device<sp/>info</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>PCS<sp/>and<sp/>spectral<sp/>data<sp/>ranges</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Tag<sp/>Table</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Tag<sp/>type,<sp/>offset,<sp/>size,<sp/>and<sp/>padding</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Warning<sp/>for<sp/>duplicate<sp/>and<sp/>misaligned<sp/>tag<sp/>entries</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Validation<sp/>Report<sp/>(if<sp/>`-v`<sp/>is<sp/>used)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Status<sp/>levels:<sp/>OK,<sp/>Warning,<sp/>NonCompliant,<sp/>CriticalError</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Reports<sp/>on<sp/>misaligned<sp/>tags,<sp/>overlapping<sp/>data,<sp/>non-4-byte<sp/>padded<sp/>files</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Build<sp/>Instructions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Clean<sp/>previous<sp/>build<sp/>artifacts</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Configure<sp/>build<sp/>with<sp/>debugging<sp/>and<sp/>AddressSanitizer</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Compile<sp/>the<sp/>tool</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage<sp/>Examples</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Dump<sp/>header<sp/>and<sp/>tag<sp/>info<sp/>of<sp/>a<sp/>profile</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">Tools/IccDumpProfile/iccDumpProfile<sp/>profile.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Dump<sp/>all<sp/>tags<sp/>with<sp/>max<sp/>verbosity</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">Tools/IccDumpProfile/iccDumpProfile<sp/>-v<sp/>100<sp/>profile.icc<sp/>ALL</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Validate<sp/>and<sp/>dump<sp/>a<sp/>specific<sp/>tag</highlight></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">Tools/IccDumpProfile/iccDumpProfile<sp/>-v<sp/>50<sp/>profile.icc<sp/>desc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Validation<sp/>Options</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`-v`<sp/>enables<sp/>validation<sp/>mode</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Optional<sp/>verbosity<sp/>level<sp/>(1–100);<sp/>default<sp/>is<sp/>100</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Tag<sp/>name<sp/>can<sp/>be<sp/>`ALL`<sp/>or<sp/>a<sp/>specific<sp/>tag<sp/>(e.g.,<sp/>`desc`,<sp/>`wtpt`)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>(2003)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Validation<sp/>improvements<sp/>by<sp/>Peter<sp/>Wyatt<sp/>(2021)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Additional<sp/>diagnostics<sp/>added<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccDumpProfile/Readme.md"/>
+  </compounddef>
+</doxygen>

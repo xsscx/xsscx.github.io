@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/d61/a01205" kind="class" language="C++" prot="public">
+    <compoundname>CIccDblPixelBuffer</compoundname>
+    <includes refid="d7/d25/a00182" local="no">IccTagMPE.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/d61/a01205_1a153316a0618bcd34ccf055352ab4a1f0" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccDblPixelBuffer::m_nLastNumChannels</definition>
+        <argsstring></argsstring>
+        <name>m_nLastNumChannels</name>
+        <qualifiedname>CIccDblPixelBuffer::m_nLastNumChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="307" column="18" bodyfile="IccProfLib/IccTagMPE.h" bodystart="307" bodyend="-1"/>
+        <referencedby refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" compoundref="dc/d87/a00032" startline="482" endline="488">CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1a51cc0bf16fc05cea4b2ed77fb69d5fcb" compoundref="dc/d87/a00032" startline="501" endline="518">CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1adff943257e4e63e50883129891013667" compoundref="dc/d87/a00032" startline="579" endline="591">Clean</referencedby>
+        <referencedby refid="de/d61/a01205_1a31c91d59cce3bd1adedc4382035b4ac6" compoundref="d7/d25/a00182" startline="302" endline="302">GetAvailChannels</referencedby>
+        <referencedby refid="de/d61/a01205_1a50c6739d0aae8d7fc872d79fad70b681" compoundref="d7/d25/a00182" startline="286" endline="286">Reset</referencedby>
+        <referencedby refid="de/d61/a01205_1a552f0f5a51dad2eeda56fce3036df0f2" compoundref="d7/d25/a00182" startline="288" endline="292">UpdateChannels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccDblPixelBuffer::m_nMaxChannels</definition>
+        <argsstring></argsstring>
+        <name>m_nMaxChannels</name>
+        <qualifiedname>CIccDblPixelBuffer::m_nMaxChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="306" column="18" bodyfile="IccProfLib/IccTagMPE.h" bodystart="306" bodyend="-1"/>
+        <referencedby refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" compoundref="dc/d87/a00032" startline="482" endline="488">CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1a51cc0bf16fc05cea4b2ed77fb69d5fcb" compoundref="dc/d87/a00032" startline="501" endline="518">CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1ad4e2704eb4858580a6ba31a4f3353828" compoundref="dc/d87/a00032" startline="603" endline="609">Begin</referencedby>
+        <referencedby refid="de/d61/a01205_1adff943257e4e63e50883129891013667" compoundref="dc/d87/a00032" startline="579" endline="591">Clean</referencedby>
+        <referencedby refid="de/d61/a01205_1af22248eeea60703db5fabd99af4b87e7" compoundref="d7/d25/a00182" startline="296" endline="296">GetMaxChannels</referencedby>
+        <referencedby refid="de/d61/a01205_1a31ee3d5fb3de82cfb75e2769b766f486" compoundref="dc/d87/a00032" startline="531" endline="551">operator=</referencedby>
+        <referencedby refid="de/d61/a01205_1a552f0f5a51dad2eeda56fce3036df0f2" compoundref="d7/d25/a00182" startline="288" endline="292">UpdateChannels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CIccDblPixelBuffer::m_pixelBuf1</definition>
+        <argsstring></argsstring>
+        <name>m_pixelBuf1</name>
+        <qualifiedname>CIccDblPixelBuffer::m_pixelBuf1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="308" column="17" bodyfile="IccProfLib/IccTagMPE.h" bodystart="308" bodyend="-1"/>
+        <referencedby refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" compoundref="dc/d87/a00032" startline="482" endline="488">CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1a51cc0bf16fc05cea4b2ed77fb69d5fcb" compoundref="dc/d87/a00032" startline="501" endline="518">CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1ad4e2704eb4858580a6ba31a4f3353828" compoundref="dc/d87/a00032" startline="603" endline="609">Begin</referencedby>
+        <referencedby refid="de/d61/a01205_1adff943257e4e63e50883129891013667" compoundref="dc/d87/a00032" startline="579" endline="591">Clean</referencedby>
+        <referencedby refid="de/d61/a01205_1a55c88f4b830ae7bbe5a0de4bc47e44a4" compoundref="d7/d25/a00182" startline="297" endline="297">GetSrcBuf</referencedby>
+        <referencedby refid="de/d61/a01205_1a31ee3d5fb3de82cfb75e2769b766f486" compoundref="dc/d87/a00032" startline="531" endline="551">operator=</referencedby>
+        <referencedby refid="de/d61/a01205_1a53b8f8017d81b8472b39116ad107590e" compoundref="d7/d25/a00182" startline="300" endline="300">Switch</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CIccDblPixelBuffer::m_pixelBuf2</definition>
+        <argsstring></argsstring>
+        <name>m_pixelBuf2</name>
+        <qualifiedname>CIccDblPixelBuffer::m_pixelBuf2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="309" column="17" bodyfile="IccProfLib/IccTagMPE.h" bodystart="309" bodyend="-1"/>
+        <referencedby refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" compoundref="dc/d87/a00032" startline="482" endline="488">CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1a51cc0bf16fc05cea4b2ed77fb69d5fcb" compoundref="dc/d87/a00032" startline="501" endline="518">CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1ad4e2704eb4858580a6ba31a4f3353828" compoundref="dc/d87/a00032" startline="603" endline="609">Begin</referencedby>
+        <referencedby refid="de/d61/a01205_1adff943257e4e63e50883129891013667" compoundref="dc/d87/a00032" startline="579" endline="591">Clean</referencedby>
+        <referencedby refid="de/d61/a01205_1afc50b4edf3e564a04feeb79ae63bf68f" compoundref="d7/d25/a00182" startline="298" endline="298">GetDstBuf</referencedby>
+        <referencedby refid="de/d61/a01205_1a31ee3d5fb3de82cfb75e2769b766f486" compoundref="dc/d87/a00032" startline="531" endline="551">operator=</referencedby>
+        <referencedby refid="de/d61/a01205_1a53b8f8017d81b8472b39116ad107590e" compoundref="d7/d25/a00182" startline="300" endline="300">Switch</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccDblPixelBuffer::CIccDblPixelBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>CIccDblPixelBuffer</name>
+        <qualifiedname>CIccDblPixelBuffer::CIccDblPixelBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" kindref="member">CIccDblPixelBuffer::CIccDblPixelBuffer</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="280" column="3" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="482" bodyend="488"/>
+        <references refid="de/d61/a01205_1a153316a0618bcd34ccf055352ab4a1f0" compoundref="d7/d25/a00182" startline="307">m_nLastNumChannels</references>
+        <references refid="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" compoundref="d7/d25/a00182" startline="306">m_nMaxChannels</references>
+        <references refid="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" compoundref="d7/d25/a00182" startline="308">m_pixelBuf1</references>
+        <references refid="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" compoundref="d7/d25/a00182" startline="309">m_pixelBuf2</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1a51cc0bf16fc05cea4b2ed77fb69d5fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccDblPixelBuffer::CIccDblPixelBuffer</definition>
+        <argsstring>(const CIccDblPixelBuffer &amp;buf)</argsstring>
+        <name>CIccDblPixelBuffer</name>
+        <qualifiedname>CIccDblPixelBuffer::CIccDblPixelBuffer</qualifiedname>
+        <param>
+          <type>const <ref refid="de/d61/a01205" kindref="compound">CIccDblPixelBuffer</ref> &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" kindref="member">CIccDblPixelBuffer::CIccDblPixelBuffer</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="281" column="3" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="501" bodyend="518"/>
+        <references refid="de/d61/a01205_1a153316a0618bcd34ccf055352ab4a1f0" compoundref="d7/d25/a00182" startline="307">m_nLastNumChannels</references>
+        <references refid="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" compoundref="d7/d25/a00182" startline="306">m_nMaxChannels</references>
+        <references refid="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" compoundref="d7/d25/a00182" startline="308">m_pixelBuf1</references>
+        <references refid="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" compoundref="d7/d25/a00182" startline="309">m_pixelBuf2</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1aea12f8cd727c2b7b18085b14c8f26493" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccDblPixelBuffer::~CIccDblPixelBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccDblPixelBuffer</name>
+        <qualifiedname>CIccDblPixelBuffer::~CIccDblPixelBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d61/a01205_1aea12f8cd727c2b7b18085b14c8f26493" kindref="member">CIccDblPixelBuffer::~CIccDblPixelBuffer</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="283" column="11" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="563" bodyend="566"/>
+        <references refid="de/d61/a01205_1adff943257e4e63e50883129891013667" compoundref="dc/d87/a00032" startline="579" endline="591">Clean</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1ad4e2704eb4858580a6ba31a4f3353828" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccDblPixelBuffer::Begin</definition>
+        <argsstring>()</argsstring>
+        <name>Begin</name>
+        <qualifiedname>CIccDblPixelBuffer::Begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" kindref="member">CIccDblPixelBuffer::CIccDblPixelBuffer</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="294" column="8" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="603" bodyend="609"/>
+        <references refid="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" compoundref="d7/d25/a00182" startline="306">m_nMaxChannels</references>
+        <references refid="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" compoundref="d7/d25/a00182" startline="308">m_pixelBuf1</references>
+        <references refid="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" compoundref="d7/d25/a00182" startline="309">m_pixelBuf2</references>
+        <referencedby refid="d5/d54/a01213_1a8c7ac5feb94d30f1aae4ee1100e47cf5" compoundref="dc/d87/a00032" startline="1387" endline="1413">CIccTagMultiProcessElement::GetNewApply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1adff943257e4e63e50883129891013667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccDblPixelBuffer::Clean</definition>
+        <argsstring>()</argsstring>
+        <name>Clean</name>
+        <qualifiedname>CIccDblPixelBuffer::Clean</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" kindref="member">CIccDblPixelBuffer::CIccDblPixelBuffer</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="285" column="8" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="579" bodyend="591"/>
+        <references refid="de/d61/a01205_1a153316a0618bcd34ccf055352ab4a1f0" compoundref="d7/d25/a00182" startline="307">m_nLastNumChannels</references>
+        <references refid="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" compoundref="d7/d25/a00182" startline="306">m_nMaxChannels</references>
+        <references refid="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" compoundref="d7/d25/a00182" startline="308">m_pixelBuf1</references>
+        <references refid="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" compoundref="d7/d25/a00182" startline="309">m_pixelBuf2</references>
+        <referencedby refid="de/d61/a01205_1aea12f8cd727c2b7b18085b14c8f26493" compoundref="dc/d87/a00032" startline="563" endline="566">~CIccDblPixelBuffer</referencedby>
+        <referencedby refid="de/d61/a01205_1a31ee3d5fb3de82cfb75e2769b766f486" compoundref="dc/d87/a00032" startline="531" endline="551">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1a31c91d59cce3bd1adedc4382035b4ac6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccDblPixelBuffer::GetAvailChannels</definition>
+        <argsstring>()</argsstring>
+        <name>GetAvailChannels</name>
+        <qualifiedname>CIccDblPixelBuffer::GetAvailChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="302" column="18" bodyfile="IccProfLib/IccTagMPE.h" bodystart="302" bodyend="302"/>
+        <references refid="de/d61/a01205_1a153316a0618bcd34ccf055352ab4a1f0" compoundref="d7/d25/a00182" startline="307">m_nLastNumChannels</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1afc50b4edf3e564a04feeb79ae63bf68f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CIccDblPixelBuffer::GetDstBuf</definition>
+        <argsstring>()</argsstring>
+        <name>GetDstBuf</name>
+        <qualifiedname>CIccDblPixelBuffer::GetDstBuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="298" column="17" bodyfile="IccProfLib/IccTagMPE.h" bodystart="298" bodyend="298"/>
+        <references refid="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" compoundref="d7/d25/a00182" startline="309">m_pixelBuf2</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1af22248eeea60703db5fabd99af4b87e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccDblPixelBuffer::GetMaxChannels</definition>
+        <argsstring>()</argsstring>
+        <name>GetMaxChannels</name>
+        <qualifiedname>CIccDblPixelBuffer::GetMaxChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="296" column="18" bodyfile="IccProfLib/IccTagMPE.h" bodystart="296" bodyend="296"/>
+        <references refid="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" compoundref="d7/d25/a00182" startline="306">m_nMaxChannels</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1a55c88f4b830ae7bbe5a0de4bc47e44a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CIccDblPixelBuffer::GetSrcBuf</definition>
+        <argsstring>()</argsstring>
+        <name>GetSrcBuf</name>
+        <qualifiedname>CIccDblPixelBuffer::GetSrcBuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="297" column="17" bodyfile="IccProfLib/IccTagMPE.h" bodystart="297" bodyend="297"/>
+        <references refid="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" compoundref="d7/d25/a00182" startline="308">m_pixelBuf1</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1a31ee3d5fb3de82cfb75e2769b766f486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d61/a01205" kindref="compound">CIccDblPixelBuffer</ref> &amp;</type>
+        <definition>CIccDblPixelBuffer &amp; CIccDblPixelBuffer::operator=</definition>
+        <argsstring>(const CIccDblPixelBuffer &amp;buf)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccDblPixelBuffer::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="de/d61/a01205" kindref="compound">CIccDblPixelBuffer</ref> &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" kindref="member">CIccDblPixelBuffer::CIccDblPixelBuffer</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="282" column="22" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="531" bodyend="551"/>
+        <references refid="de/d61/a01205_1adff943257e4e63e50883129891013667" compoundref="dc/d87/a00032" startline="579" endline="591">Clean</references>
+        <references refid="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" compoundref="d7/d25/a00182" startline="306">m_nMaxChannels</references>
+        <references refid="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" compoundref="d7/d25/a00182" startline="308">m_pixelBuf1</references>
+        <references refid="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" compoundref="d7/d25/a00182" startline="309">m_pixelBuf2</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1a50c6739d0aae8d7fc872d79fad70b681" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccDblPixelBuffer::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>CIccDblPixelBuffer::Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="286" column="8" bodyfile="IccProfLib/IccTagMPE.h" bodystart="286" bodyend="286"/>
+        <references refid="de/d61/a01205_1a153316a0618bcd34ccf055352ab4a1f0" compoundref="d7/d25/a00182" startline="307">m_nLastNumChannels</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1a53b8f8017d81b8472b39116ad107590e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccDblPixelBuffer::Switch</definition>
+        <argsstring>()</argsstring>
+        <name>Switch</name>
+        <qualifiedname>CIccDblPixelBuffer::Switch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="300" column="8" bodyfile="IccProfLib/IccTagMPE.h" bodystart="300" bodyend="300"/>
+        <references refid="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" compoundref="d7/d25/a00182" startline="308">m_pixelBuf1</references>
+        <references refid="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" compoundref="d7/d25/a00182" startline="309">m_pixelBuf2</references>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d61/a01205_1a552f0f5a51dad2eeda56fce3036df0f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccDblPixelBuffer::UpdateChannels</definition>
+        <argsstring>(icUInt16Number nNumChannels)</argsstring>
+        <name>UpdateChannels</name>
+        <qualifiedname>CIccDblPixelBuffer::UpdateChannels</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nNumChannels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="288" column="8" bodyfile="IccProfLib/IccTagMPE.h" bodystart="288" bodyend="292"/>
+        <references refid="de/d61/a01205_1a153316a0618bcd34ccf055352ab4a1f0" compoundref="d7/d25/a00182" startline="307">m_nLastNumChannels</references>
+        <references refid="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" compoundref="d7/d25/a00182" startline="306">m_nMaxChannels</references>
+        <referencedby refid="d5/d54/a01213_1a8c7ac5feb94d30f1aae4ee1100e47cf5" compoundref="dc/d87/a00032" startline="1387" endline="1413">CIccTagMultiProcessElement::GetNewApply</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="de/d61/a01205" kindref="compound">CIccDblPixelBuffer</ref></para>
+<para>Purpose: The general purpose pixel storage buffer for pixel apply </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccTagMPE.h" line="277" column="1" bodyfile="IccProfLib/IccTagMPE.h" bodystart="278" bodyend="310"/>
+    <listofallmembers>
+      <member refid="de/d61/a01205_1ad4e2704eb4858580a6ba31a4f3353828" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>Begin</name></member>
+      <member refid="de/d61/a01205_1af4255d43e5278a7c5e68d4beb3834226" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>CIccDblPixelBuffer</name></member>
+      <member refid="de/d61/a01205_1a51cc0bf16fc05cea4b2ed77fb69d5fcb" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>CIccDblPixelBuffer</name></member>
+      <member refid="de/d61/a01205_1adff943257e4e63e50883129891013667" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>Clean</name></member>
+      <member refid="de/d61/a01205_1a31c91d59cce3bd1adedc4382035b4ac6" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>GetAvailChannels</name></member>
+      <member refid="de/d61/a01205_1afc50b4edf3e564a04feeb79ae63bf68f" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>GetDstBuf</name></member>
+      <member refid="de/d61/a01205_1af22248eeea60703db5fabd99af4b87e7" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>GetMaxChannels</name></member>
+      <member refid="de/d61/a01205_1a55c88f4b830ae7bbe5a0de4bc47e44a4" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>GetSrcBuf</name></member>
+      <member refid="de/d61/a01205_1a153316a0618bcd34ccf055352ab4a1f0" prot="protected" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>m_nLastNumChannels</name></member>
+      <member refid="de/d61/a01205_1a630d9c182c9fb913ff39bf0d5eaa7164" prot="protected" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>m_nMaxChannels</name></member>
+      <member refid="de/d61/a01205_1ac5fe7d0f7a8bbcd55ad289bc1aed292d" prot="protected" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>m_pixelBuf1</name></member>
+      <member refid="de/d61/a01205_1a95c55ec212b71dfc146660282bb87da6" prot="protected" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>m_pixelBuf2</name></member>
+      <member refid="de/d61/a01205_1a31ee3d5fb3de82cfb75e2769b766f486" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>operator=</name></member>
+      <member refid="de/d61/a01205_1a50c6739d0aae8d7fc872d79fad70b681" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>Reset</name></member>
+      <member refid="de/d61/a01205_1a53b8f8017d81b8472b39116ad107590e" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>Switch</name></member>
+      <member refid="de/d61/a01205_1a552f0f5a51dad2eeda56fce3036df0f2" prot="public" virt="non-virtual"><scope>CIccDblPixelBuffer</scope><name>UpdateChannels</name></member>
+      <member refid="de/d61/a01205_1aea12f8cd727c2b7b18085b14c8f26493" prot="public" virt="virtual"><scope>CIccDblPixelBuffer</scope><name>~CIccDblPixelBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

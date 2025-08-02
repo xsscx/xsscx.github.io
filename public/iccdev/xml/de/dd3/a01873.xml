@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/dd3/a01873" kind="class" language="C++" prot="public">
+    <compoundname>CIccXmlArrayType</compoundname>
+    <includes refid="d9/d39/a00257" local="no">IccUtilXml.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+      <param>
+        <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+        <declname>Tsig</declname>
+        <defname>Tsig</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/dd3/a01873_1afa8956d010623f3bf2ab96fc71ae4b35" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccXmlArrayType&lt; T, Tsig &gt;::m_nSize</definition>
+        <argsstring></argsstring>
+        <name>m_nSize</name>
+        <qualifiedname>CIccXmlArrayType::m_nSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="169" column="18" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="169" bodyend="-1"/>
+        <referencedby refid="de/dd3/a01873_1a415933abd8198590cae414c78b3f037d" compoundref="d5/d35/a00266" startline="740" endline="744">CIccXmlArrayType&lt; T, Tsig &gt;::CIccXmlArrayType</referencedby>
+        <referencedby refid="de/dd3/a01873_1aef8f9bc723c01e852ddda14bd09a59ba" compoundref="d9/d39/a00257" startline="166" endline="166">CIccXmlArrayType&lt; T, Tsig &gt;::GetSize</referencedby>
+        <referencedby refid="de/dd3/a01873_1a07d799736e57c092e6b375e4b197c75c" compoundref="d5/d35/a00266" startline="755" endline="780">CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a08565a80ff28d6a32a14a2dd33e7325c" compoundref="d5/d35/a00266" startline="783" endline="795">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a23e7980af4e5c740a54d8c23ec68acbb" compoundref="d5/d35/a00266" startline="807" endline="817">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArrayNum</referencedby>
+        <referencedby refid="de/dd3/a01873_1a151862e8f9e6e5d7e3164fe2fe68ca97" compoundref="d5/d35/a00266" startline="1102" endline="1115">CIccXmlArrayType&lt; T, Tsig &gt;::SetSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" prot="protected" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* CIccXmlArrayType&lt; T, Tsig &gt;::m_pBuf</definition>
+        <argsstring></argsstring>
+        <name>m_pBuf</name>
+        <qualifiedname>CIccXmlArrayType::m_pBuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="170" column="5" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="170" bodyend="-1"/>
+        <referencedby refid="de/dd3/a01873_1a415933abd8198590cae414c78b3f037d" compoundref="d5/d35/a00266" startline="740" endline="744">CIccXmlArrayType&lt; T, Tsig &gt;::CIccXmlArrayType</referencedby>
+        <referencedby refid="de/dd3/a01873_1a0c9701c7c861d3e3e3c495f72353f7b5" compoundref="d5/d35/a00266" startline="747" endline="752">CIccXmlArrayType&lt; T, Tsig &gt;::~CIccXmlArrayType</referencedby>
+        <referencedby refid="de/dd3/a01873_1a8cac7e2a3712ec473c3b2cd8310fb405" compoundref="d9/d39/a00257" startline="165" endline="165">CIccXmlArrayType&lt; T, Tsig &gt;::GetBuf</referencedby>
+        <referencedby refid="de/dd3/a01873_1a07d799736e57c092e6b375e4b197c75c" compoundref="d5/d35/a00266" startline="755" endline="780">CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a08565a80ff28d6a32a14a2dd33e7325c" compoundref="d5/d35/a00266" startline="783" endline="795">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a23e7980af4e5c740a54d8c23ec68acbb" compoundref="d5/d35/a00266" startline="807" endline="817">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArrayNum</referencedby>
+        <referencedby refid="de/dd3/a01873_1a151862e8f9e6e5d7e3164fe2fe68ca97" compoundref="d5/d35/a00266" startline="1102" endline="1115">CIccXmlArrayType&lt; T, Tsig &gt;::SetSize</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/dd3/a01873_1a415933abd8198590cae414c78b3f037d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccXmlArrayType&lt; T, Tsig &gt;::CIccXmlArrayType</definition>
+        <argsstring>()</argsstring>
+        <name>CIccXmlArrayType</name>
+        <qualifiedname>CIccXmlArrayType::CIccXmlArrayType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="147" column="3" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="740" bodyend="744"/>
+        <references refid="de/dd3/a01873_1afa8956d010623f3bf2ab96fc71ae4b35" compoundref="d9/d39/a00257" startline="169">CIccXmlArrayType&lt; T, Tsig &gt;::m_nSize</references>
+        <references refid="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" compoundref="d9/d39/a00257" startline="170">CIccXmlArrayType&lt; T, Tsig &gt;::m_pBuf</references>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a0c9701c7c861d3e3e3c495f72353f7b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccXmlArrayType&lt; T, Tsig &gt;::~CIccXmlArrayType</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccXmlArrayType</name>
+        <qualifiedname>CIccXmlArrayType::~CIccXmlArrayType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="148" column="3" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="747" bodyend="752"/>
+        <references refid="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" compoundref="d9/d39/a00257" startline="170">CIccXmlArrayType&lt; T, Tsig &gt;::m_pBuf</references>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a8cac7e2a3712ec473c3b2cd8310fb405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T * CIccXmlArrayType&lt; T, Tsig &gt;::GetBuf</definition>
+        <argsstring>()</argsstring>
+        <name>GetBuf</name>
+        <qualifiedname>CIccXmlArrayType::GetBuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="165" column="5" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="165" bodyend="165"/>
+        <references refid="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" compoundref="d9/d39/a00257" startline="170">CIccXmlArrayType&lt; T, Tsig &gt;::m_pBuf</references>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a27a49e117d637e0073ff82ff83e0ed17" compoundref="d0/d27/a00239" startline="180" endline="251">icXmlParseTextString</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dc6/a01793_1acb3c0c9f73139cd186a0d7fd43c3669e" compoundref="dd/dd7/a00260" startline="193" endline="255">CIccFormulaCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+        <referencedby refid="d1/dc5/a02013_1a67d52136c7b6a56968bfab8d22dfecb6" compoundref="dd/dd7/a00260" startline="1681" endline="1726">CIccXmlToneMapFunc::ParseXml</referencedby>
+        <referencedby refid="df/dee/a01825_1ab4d07b5329f5b3ce766c74386483f4aa" compoundref="d0/d27/a00239" startline="275" endline="298">CIccTagXmlZipUtf8Text::ParseXml</referencedby>
+        <referencedby refid="d6/dbd/a01829_1aa486edc3eb28f3c08aaa29ccdf056f65" compoundref="d0/d27/a00239" startline="300" endline="323">CIccTagXmlZipXml::ParseXml</referencedby>
+        <referencedby refid="da/d8c/a01845_1afc82bcf77ee741c29ea0679efa73cbdd" compoundref="d0/d27/a00239" startline="721" endline="877">CIccTagXmlNamedColor2::ParseXml</referencedby>
+        <referencedby refid="d6/d56/a01861_1ad1bd79a785003f26fbaa470222c12ea7" compoundref="d0/d27/a00239" startline="1070" endline="1204">CIccTagXmlSparseMatrixArray::ParseXml</referencedby>
+        <referencedby refid="d5/da8/a01865_1a7f4971e529abcc48dd78c99d0eea5852" compoundref="d0/d27/a00239" startline="1270" endline="1295">CIccTagXmlFixedNum&lt; T, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="d4/d07/a01913_1a0117e79492f9a25f32df61b4beba6ebb" compoundref="d0/d27/a00239" startline="2044" endline="2177">CIccTagXmlSpectralViewingConditions::ParseXml</referencedby>
+        <referencedby refid="dc/da7/a01933_1a3ac52dc4008e07a54f88b930fa0365c8" compoundref="d0/d27/a00239" startline="2996" endline="3039">CIccTagXmlParametricCurve::ParseXml</referencedby>
+        <referencedby refid="d5/d92/a01977_1a6e3095ab0d0da8f239228841c9f60233" compoundref="d0/d27/a00239" startline="4948" endline="5062">CIccTagXmlGamutBoundaryDesc::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1aef8f9bc723c01e852ddda14bd09a59ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccXmlArrayType&lt; T, Tsig &gt;::GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <qualifiedname>CIccXmlArrayType::GetSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="166" column="18" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="166" bodyend="166"/>
+        <references refid="de/dd3/a01873_1afa8956d010623f3bf2ab96fc71ae4b35" compoundref="d9/d39/a00257" startline="169">CIccXmlArrayType&lt; T, Tsig &gt;::m_nSize</references>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a27a49e117d637e0073ff82ff83e0ed17" compoundref="d0/d27/a00239" startline="180" endline="251">icXmlParseTextString</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dc6/a01793_1acb3c0c9f73139cd186a0d7fd43c3669e" compoundref="dd/dd7/a00260" startline="193" endline="255">CIccFormulaCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+        <referencedby refid="d1/dc5/a02013_1a67d52136c7b6a56968bfab8d22dfecb6" compoundref="dd/dd7/a00260" startline="1681" endline="1726">CIccXmlToneMapFunc::ParseXml</referencedby>
+        <referencedby refid="df/dee/a01825_1ab4d07b5329f5b3ce766c74386483f4aa" compoundref="d0/d27/a00239" startline="275" endline="298">CIccTagXmlZipUtf8Text::ParseXml</referencedby>
+        <referencedby refid="d6/dbd/a01829_1aa486edc3eb28f3c08aaa29ccdf056f65" compoundref="d0/d27/a00239" startline="300" endline="323">CIccTagXmlZipXml::ParseXml</referencedby>
+        <referencedby refid="da/d8c/a01845_1afc82bcf77ee741c29ea0679efa73cbdd" compoundref="d0/d27/a00239" startline="721" endline="877">CIccTagXmlNamedColor2::ParseXml</referencedby>
+        <referencedby refid="d6/d56/a01861_1ad1bd79a785003f26fbaa470222c12ea7" compoundref="d0/d27/a00239" startline="1070" endline="1204">CIccTagXmlSparseMatrixArray::ParseXml</referencedby>
+        <referencedby refid="d5/da8/a01865_1a7f4971e529abcc48dd78c99d0eea5852" compoundref="d0/d27/a00239" startline="1270" endline="1295">CIccTagXmlFixedNum&lt; T, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="d4/d07/a01913_1a0117e79492f9a25f32df61b4beba6ebb" compoundref="d0/d27/a00239" startline="2044" endline="2177">CIccTagXmlSpectralViewingConditions::ParseXml</referencedby>
+        <referencedby refid="dc/da7/a01933_1a3ac52dc4008e07a54f88b930fa0365c8" compoundref="d0/d27/a00239" startline="2996" endline="3039">CIccTagXmlParametricCurve::ParseXml</referencedby>
+        <referencedby refid="d5/d92/a01977_1a6e3095ab0d0da8f239228841c9f60233" compoundref="d0/d27/a00239" startline="4948" endline="5062">CIccTagXmlGamutBoundaryDesc::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a07d799736e57c092e6b375e4b197c75c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</definition>
+        <argsstring>(xmlNode *pNode)</argsstring>
+        <name>ParseArray</name>
+        <qualifiedname>CIccXmlArrayType::ParseArray</qualifiedname>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="158" column="8" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="755" bodyend="780"/>
+        <references refid="d9/d39/a00257_1a4020a24172a2a573879d8cb257522a72" compoundref="d5/d35/a00266" startline="703" endline="713">icXmlNodeCount</references>
+        <references refid="de/dd3/a01873_1afa8956d010623f3bf2ab96fc71ae4b35" compoundref="d9/d39/a00257" startline="169">CIccXmlArrayType&lt; T, Tsig &gt;::m_nSize</references>
+        <references refid="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" compoundref="d9/d39/a00257" startline="170">CIccXmlArrayType&lt; T, Tsig &gt;::m_pBuf</references>
+        <references refid="de/dd3/a01873_1abc41cc59bb211a642158d024731afb76" compoundref="d5/d35/a00266" startline="961" endline="986">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextCount</references>
+        <references refid="de/dd3/a01873_1a151862e8f9e6e5d7e3164fe2fe68ca97" compoundref="d5/d35/a00266" startline="1102" endline="1115">CIccXmlArrayType&lt; T, Tsig &gt;::SetSize</references>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dc6/a01793_1acb3c0c9f73139cd186a0d7fd43c3669e" compoundref="dd/dd7/a00260" startline="193" endline="255">CIccFormulaCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+        <referencedby refid="d1/dc5/a02013_1a67d52136c7b6a56968bfab8d22dfecb6" compoundref="dd/dd7/a00260" startline="1681" endline="1726">CIccXmlToneMapFunc::ParseXml</referencedby>
+        <referencedby refid="da/d8c/a01845_1afc82bcf77ee741c29ea0679efa73cbdd" compoundref="d0/d27/a00239" startline="721" endline="877">CIccTagXmlNamedColor2::ParseXml</referencedby>
+        <referencedby refid="d5/da8/a01865_1a7f4971e529abcc48dd78c99d0eea5852" compoundref="d0/d27/a00239" startline="1270" endline="1295">CIccTagXmlFixedNum&lt; T, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="dc/da7/a01933_1a3ac52dc4008e07a54f88b930fa0365c8" compoundref="d0/d27/a00239" startline="2996" endline="3039">CIccTagXmlParametricCurve::ParseXml</referencedby>
+        <referencedby refid="d5/d92/a01977_1a6e3095ab0d0da8f239228841c9f60233" compoundref="d0/d27/a00239" startline="4948" endline="5062">CIccTagXmlGamutBoundaryDesc::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a08565a80ff28d6a32a14a2dd33e7325c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArray</definition>
+        <argsstring>(const char *szText)</argsstring>
+        <name>ParseTextArray</name>
+        <qualifiedname>CIccXmlArrayType::ParseTextArray</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="159" column="8" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="783" bodyend="795"/>
+        <references refid="de/dd3/a01873_1afa8956d010623f3bf2ab96fc71ae4b35" compoundref="d9/d39/a00257" startline="169">CIccXmlArrayType&lt; T, Tsig &gt;::m_nSize</references>
+        <references refid="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" compoundref="d9/d39/a00257" startline="170">CIccXmlArrayType&lt; T, Tsig &gt;::m_pBuf</references>
+        <references refid="de/dd3/a01873_1a61e2c5ba24052fe6ef06555158cdefd6" compoundref="d5/d35/a00266" startline="989" endline="1031">CIccXmlArrayType&lt; T, Tsig &gt;::ParseText</references>
+        <references refid="de/dd3/a01873_1abc41cc59bb211a642158d024731afb76" compoundref="d5/d35/a00266" startline="961" endline="986">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextCount</references>
+        <references refid="de/dd3/a01873_1a151862e8f9e6e5d7e3164fe2fe68ca97" compoundref="d5/d35/a00266" startline="1102" endline="1115">CIccXmlArrayType&lt; T, Tsig &gt;::SetSize</references>
+        <referencedby refid="d4/d07/a01913_1a0117e79492f9a25f32df61b4beba6ebb" compoundref="d0/d27/a00239" startline="2044" endline="2177">CIccTagXmlSpectralViewingConditions::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a4ebe564dc038871b08e49771443df652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArray</definition>
+        <argsstring>(xmlNode *pNode)</argsstring>
+        <name>ParseTextArray</name>
+        <qualifiedname>CIccXmlArrayType::ParseTextArray</qualifiedname>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="160" column="8" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="798" bodyend="804"/>
+        <referencedby refid="d6/d56/a01861_1ad1bd79a785003f26fbaa470222c12ea7" compoundref="d0/d27/a00239" startline="1070" endline="1204">CIccTagXmlSparseMatrixArray::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a23e7980af4e5c740a54d8c23ec68acbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArrayNum</definition>
+        <argsstring>(const char *szText, icUInt32Number num, std::string &amp;parseStr)</argsstring>
+        <name>ParseTextArrayNum</name>
+        <qualifiedname>CIccXmlArrayType::ParseTextArrayNum</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szText</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="161" column="8" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="807" bodyend="817"/>
+        <references refid="de/dd3/a01873_1afa8956d010623f3bf2ab96fc71ae4b35" compoundref="d9/d39/a00257" startline="169">CIccXmlArrayType&lt; T, Tsig &gt;::m_nSize</references>
+        <references refid="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" compoundref="d9/d39/a00257" startline="170">CIccXmlArrayType&lt; T, Tsig &gt;::m_pBuf</references>
+        <references refid="de/dd3/a01873_1a61e2c5ba24052fe6ef06555158cdefd6" compoundref="d5/d35/a00266" startline="989" endline="1031">CIccXmlArrayType&lt; T, Tsig &gt;::ParseText</references>
+        <references refid="de/dd3/a01873_1ab303f6345307dc7ee0f5e2f2aac3b2d4" compoundref="d5/d35/a00266" startline="922" endline="958">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextCountNum</references>
+        <references refid="de/dd3/a01873_1a151862e8f9e6e5d7e3164fe2fe68ca97" compoundref="d5/d35/a00266" startline="1102" endline="1115">CIccXmlArrayType&lt; T, Tsig &gt;::SetSize</references>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a151862e8f9e6e5d7e3164fe2fe68ca97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccXmlArrayType&lt; T, Tsig &gt;::SetSize</definition>
+        <argsstring>(icUInt32Number nSize)</argsstring>
+        <name>SetSize</name>
+        <qualifiedname>CIccXmlArrayType::SetSize</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="163" column="8" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="1102" bodyend="1115"/>
+        <references refid="de/dd3/a01873_1afa8956d010623f3bf2ab96fc71ae4b35" compoundref="d9/d39/a00257" startline="169">CIccXmlArrayType&lt; T, Tsig &gt;::m_nSize</references>
+        <references refid="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" compoundref="d9/d39/a00257" startline="170">CIccXmlArrayType&lt; T, Tsig &gt;::m_pBuf</references>
+        <referencedby refid="d0/d27/a00239_1a27a49e117d637e0073ff82ff83e0ed17" compoundref="d0/d27/a00239" startline="180" endline="251">icXmlParseTextString</referencedby>
+        <referencedby refid="de/dd3/a01873_1a07d799736e57c092e6b375e4b197c75c" compoundref="d5/d35/a00266" startline="755" endline="780">CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a08565a80ff28d6a32a14a2dd33e7325c" compoundref="d5/d35/a00266" startline="783" endline="795">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a23e7980af4e5c740a54d8c23ec68acbb" compoundref="d5/d35/a00266" startline="807" endline="817">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArrayNum</referencedby>
+        <referencedby refid="df/dee/a01825_1ab4d07b5329f5b3ce766c74386483f4aa" compoundref="d0/d27/a00239" startline="275" endline="298">CIccTagXmlZipUtf8Text::ParseXml</referencedby>
+        <referencedby refid="d6/dbd/a01829_1aa486edc3eb28f3c08aaa29ccdf056f65" compoundref="d0/d27/a00239" startline="300" endline="323">CIccTagXmlZipXml::ParseXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/dd3/a01873_1a96583e68ac3216ec93072a15f30e8029" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccXmlArrayType&lt; T, Tsig &gt;::DumpArray</definition>
+        <argsstring>(std::string &amp;xml, std::string blanks, T *buf, icUInt32Number nBufSize, icConvertType nType, icUInt8Number nColumns)</argsstring>
+        <name>DumpArray</name>
+        <qualifiedname>CIccXmlArrayType::DumpArray</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>blanks</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nBufSize</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8" kindref="member">icConvertType</ref></type>
+          <declname>nType</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nColumns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="150" column="15" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="820" bodyend="908"/>
+        <references refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a9a36cdf34e3882ee2e65e4030db1b7fb" compoundref="d7/d03/a00254" startline="69">icConvert16Bit</references>
+        <references refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a79a2afe52938a9d3b002c06a773b8eb8" compoundref="d7/d03/a00254" startline="68">icConvert8Bit</references>
+        <references refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a7b72d0077e286e2fd4a2113c00cd8663" compoundref="d7/d03/a00254" startline="70">icConvertFloat</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae17f065e92dd0ee43aeef1f18c6e0db0" compoundref="d7/d46/a00002" startline="541">icSigFloat32ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9d1705d00ee5bd14f2ac2b0109eb901d" compoundref="d7/d46/a00002" startline="542">icSigFloat64ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2368c79224b0f401f4dc19ee5353e4a9" compoundref="d7/d46/a00002" startline="569">icSigUInt16ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe8c40bc78370d5212050e2dd129d317" compoundref="d7/d46/a00002" startline="570">icSigUInt32ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa3c8d9a1c8b9a7fa396a79e493e96084" compoundref="d7/d46/a00002" startline="571">icSigUInt64ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1308dbd189e810ca0f0f804e74c8a49c" compoundref="d7/d46/a00002" startline="572">icSigUInt8ArrayType</references>
+        <referencedby refid="d4/dc6/a01793_1a1ead55b5ddccf6630233f38794724636" compoundref="dd/dd7/a00260" startline="161" endline="190">CIccFormulaCurveSegmentXml::ToXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a80f565238b55483b220cc3bfb5528250" compoundref="dd/dd7/a00260" startline="267" endline="283">CIccSampledCurveSegmentXml::ToXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1adbd6a9a3bd7005e7eb1f4014387c9c08" compoundref="dd/dd7/a00260" startline="611" endline="633">CIccSinglSampledeCurveXml::ToXml</referencedby>
+        <referencedby refid="d1/dc5/a02013_1ad507a27e2fd2f879f9afbe1c26071798" compoundref="dd/dd7/a00260" startline="1656" endline="1679">CIccXmlToneMapFunc::ToXml</referencedby>
+        <referencedby refid="d6/d56/a01861_1a103631f02382398c41ef89b5990b5334" compoundref="d0/d27/a00239" startline="1030" endline="1067">CIccTagXmlSparseMatrixArray::ToXml</referencedby>
+        <referencedby refid="d5/d92/a01977_1ab7ee445eeb9ba005b659b9d6a2c6a7d9" compoundref="d0/d27/a00239" startline="4909" endline="4945">CIccTagXmlGamutBoundaryDesc::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a19dd38ba836c24ec006bcde0b5f9d368" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</definition>
+        <argsstring>(T *buf, icUInt32Number nBufSize, xmlNode *pNode)</argsstring>
+        <name>ParseArray</name>
+        <qualifiedname>CIccXmlArrayType::ParseArray</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nBufSize</declname>
+        </param>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="152" column="15" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="1034" bodyend="1098"/>
+        <references refid="d9/d39/a00257_1a4020a24172a2a573879d8cb257522a72" compoundref="d5/d35/a00266" startline="703" endline="713">icXmlNodeCount</references>
+        <references refid="de/dd3/a01873_1a61e2c5ba24052fe6ef06555158cdefd6" compoundref="d5/d35/a00266" startline="989" endline="1031">CIccXmlArrayType&lt; T, Tsig &gt;::ParseText</references>
+        <references refid="de/dd3/a01873_1abc41cc59bb211a642158d024731afb76" compoundref="d5/d35/a00266" startline="961" endline="986">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextCount</references>
+        <referencedby refid="d8/d45/a02021_1a1548b3217cbe964eab8e5bfff32af85b" compoundref="dd/dd7/a00260" startline="1236" endline="1278">CIccMpeXmlMatrix::ParseXml</referencedby>
+        <referencedby refid="d0/d67/a02065_1aec428d59121847f8cee29f5d5530d0bd" compoundref="dd/dd7/a00260" startline="1343" endline="1405">CIccMpeXmlEmissionMatrix::ParseXml</referencedby>
+        <referencedby refid="d3/d48/a02069_1a8e2cfe4334c50774e232bd5671b6b683" compoundref="dd/dd7/a00260" startline="1470" endline="1532">CIccMpeXmlInvEmissionMatrix::ParseXml</referencedby>
+        <referencedby refid="de/df8/a02073_1aa5d45fb5b70d1e4895c876400c2ea344" compoundref="dd/dd7/a00260" startline="3221" endline="3291">CIccMpeXmlEmissionCLUT::ParseXml</referencedby>
+        <referencedby refid="db/dac/a02077_1a96cc9696018abfed330d18170568536b" compoundref="dd/dd7/a00260" startline="3334" endline="3404">CIccMpeXmlReflectanceCLUT::ParseXml</referencedby>
+        <referencedby refid="d2/d50/a02081_1a7a0dcf4d4c49e598d0710545f601cbfd" compoundref="dd/dd7/a00260" startline="3406" endline="3451">CIccMpeXmlEmissionObserver::ParseXml</referencedby>
+        <referencedby refid="d2/dde/a02085_1aea6bb4f288917a8087c52ad06ddb486a" compoundref="dd/dd7/a00260" startline="3488" endline="3533">CIccMpeXmlReflectanceObserver::ParseXml</referencedby>
+        <referencedby refid="d9/d0c/a01897_1abb3915ff834b197b005e3314225bcdde" compoundref="d0/d27/a00239" startline="1789" endline="1806">CIccTagXmlColorantOrder::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1a61e2c5ba24052fe6ef06555158cdefd6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccXmlArrayType&lt; T, Tsig &gt;::ParseText</definition>
+        <argsstring>(T *buf, icUInt32Number nBufSize, const char *szText)</argsstring>
+        <name>ParseText</name>
+        <qualifiedname>CIccXmlArrayType::ParseText</qualifiedname>
+        <param>
+          <type>T *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nBufSize</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>szText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="155" column="25" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="989" bodyend="1031"/>
+        <references refid="d5/d35/a00266_1a8fbbab9d547dd00d638bb85a1d6df35d" compoundref="d5/d35/a00266" startline="912" endline="917">icIsNumChar</references>
+        <referencedby refid="de/dd3/a01873_1a19dd38ba836c24ec006bcde0b5f9d368" compoundref="d5/d35/a00266" startline="1034" endline="1098">CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a08565a80ff28d6a32a14a2dd33e7325c" compoundref="d5/d35/a00266" startline="783" endline="795">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a23e7980af4e5c740a54d8c23ec68acbb" compoundref="d5/d35/a00266" startline="807" endline="817">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArrayNum</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1abc41cc59bb211a642158d024731afb76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextCount</definition>
+        <argsstring>(const char *szText)</argsstring>
+        <name>ParseTextCount</name>
+        <qualifiedname>CIccXmlArrayType::ParseTextCount</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="154" column="25" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="961" bodyend="986"/>
+        <references refid="d5/d35/a00266_1a8fbbab9d547dd00d638bb85a1d6df35d" compoundref="d5/d35/a00266" startline="912" endline="917">icIsNumChar</references>
+        <referencedby refid="de/dd3/a01873_1a19dd38ba836c24ec006bcde0b5f9d368" compoundref="d5/d35/a00266" startline="1034" endline="1098">CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a07d799736e57c092e6b375e4b197c75c" compoundref="d5/d35/a00266" startline="755" endline="780">CIccXmlArrayType&lt; T, Tsig &gt;::ParseArray</referencedby>
+        <referencedby refid="de/dd3/a01873_1a08565a80ff28d6a32a14a2dd33e7325c" compoundref="d5/d35/a00266" startline="783" endline="795">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArray</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd3/a01873_1ab303f6345307dc7ee0f5e2f2aac3b2d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextCountNum</definition>
+        <argsstring>(const char *szText, icUInt32Number num, std::string &amp;parseStr)</argsstring>
+        <name>ParseTextCountNum</name>
+        <qualifiedname>CIccXmlArrayType::ParseTextCountNum</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szText</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccUtilXml.h" line="156" column="25" bodyfile="IccXML/IccLibXML/IccUtilXml.cpp" bodystart="922" bodyend="958"/>
+        <references refid="d5/d35/a00266_1a8fbbab9d547dd00d638bb85a1d6df35d" compoundref="d5/d35/a00266" startline="912" endline="917">icIsNumChar</references>
+        <referencedby refid="de/dd3/a01873_1a23e7980af4e5c740a54d8c23ec68acbb" compoundref="d5/d35/a00266" startline="807" endline="817">CIccXmlArrayType&lt; T, Tsig &gt;::ParseTextArrayNum</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IccXML/IccLibXML/IccUtilXml.h" line="144" column="1" bodyfile="IccXML/IccLibXML/IccUtilXml.h" bodystart="145" bodyend="171"/>
+    <listofallmembers>
+      <member refid="de/dd3/a01873_1a415933abd8198590cae414c78b3f037d" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>CIccXmlArrayType</name></member>
+      <member refid="de/dd3/a01873_1a96583e68ac3216ec93072a15f30e8029" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>DumpArray</name></member>
+      <member refid="de/dd3/a01873_1a8cac7e2a3712ec473c3b2cd8310fb405" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>GetBuf</name></member>
+      <member refid="de/dd3/a01873_1aef8f9bc723c01e852ddda14bd09a59ba" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>GetSize</name></member>
+      <member refid="de/dd3/a01873_1afa8956d010623f3bf2ab96fc71ae4b35" prot="protected" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>m_nSize</name></member>
+      <member refid="de/dd3/a01873_1af35cbdc357a932d07dfdcf8f02b128d0" prot="protected" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>m_pBuf</name></member>
+      <member refid="de/dd3/a01873_1a19dd38ba836c24ec006bcde0b5f9d368" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>ParseArray</name></member>
+      <member refid="de/dd3/a01873_1a07d799736e57c092e6b375e4b197c75c" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>ParseArray</name></member>
+      <member refid="de/dd3/a01873_1a61e2c5ba24052fe6ef06555158cdefd6" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>ParseText</name></member>
+      <member refid="de/dd3/a01873_1a08565a80ff28d6a32a14a2dd33e7325c" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>ParseTextArray</name></member>
+      <member refid="de/dd3/a01873_1a4ebe564dc038871b08e49771443df652" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>ParseTextArray</name></member>
+      <member refid="de/dd3/a01873_1a23e7980af4e5c740a54d8c23ec68acbb" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>ParseTextArrayNum</name></member>
+      <member refid="de/dd3/a01873_1abc41cc59bb211a642158d024731afb76" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>ParseTextCount</name></member>
+      <member refid="de/dd3/a01873_1ab303f6345307dc7ee0f5e2f2aac3b2d4" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>ParseTextCountNum</name></member>
+      <member refid="de/dd3/a01873_1a151862e8f9e6e5d7e3164fe2fe68ca97" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>SetSize</name></member>
+      <member refid="de/dd3/a01873_1a0c9701c7c861d3e3e3c495f72353f7b5" prot="public" virt="non-virtual"><scope>CIccXmlArrayType</scope><name>~CIccXmlArrayType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

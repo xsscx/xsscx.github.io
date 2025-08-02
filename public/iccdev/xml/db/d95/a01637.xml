@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d95/a01637" kind="class" language="C++" prot="public">
+    <compoundname>CIccCalcOpMgr</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="db/d95/a01637_1a233ff2b4ea8632c5e4ec58c84f376241" prot="private" static="yes" mutable="no">
+        <type><ref refid="db/d95/a01637" kindref="compound">CIccCalcOpMgr</ref> *</type>
+        <definition>CIccCalcOpMgr * CIccCalcOpMgr::m_inst</definition>
+        <argsstring></argsstring>
+        <name>m_inst</name>
+        <qualifiedname>CIccCalcOpMgr::m_inst</qualifiedname>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="1958" column="24" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="1958" bodyend="-1"/>
+        <referencedby refid="db/d95/a01637_1a417df147cdb9c6477ab44c3e174e7786" compoundref="d9/d77/a00095" startline="2055" endline="2060">GetInstance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="db/d95/a01637_1adbed016f47b73a9d56735c9cdf680746" prot="protected" static="no" mutable="no">
+        <type><ref refid="dc/d2a/a01333" kindref="compound">CIccOpDefInvalid</ref></type>
+        <definition>CIccOpDefInvalid CIccCalcOpMgr::m_invalid</definition>
+        <argsstring></argsstring>
+        <name>m_invalid</name>
+        <qualifiedname>CIccCalcOpMgr::m_invalid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="1965" column="20" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="1965" bodyend="-1"/>
+        <referencedby refid="db/d95/a01637_1a3d67a4568acf65b88fbad239708c52b1" compoundref="d9/d77/a00095" startline="2170" endline="2178">getOpDef</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d95/a01637_1abbdb2a63b733aea9682eafb41975da1c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d9/d77/a00095_1a299fe1b8ed755003cefa42f0cdcc934f" kindref="member">icCalcOpMap</ref></type>
+        <definition>icCalcOpMap CIccCalcOpMgr::m_map</definition>
+        <argsstring></argsstring>
+        <name>m_map</name>
+        <qualifiedname>CIccCalcOpMgr::m_map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="1964" column="15" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="1964" bodyend="-1"/>
+        <referencedby refid="db/d95/a01637_1a49e43334db1054aba57a6c12934322a9" compoundref="d9/d77/a00095" startline="1969" endline="2053">CIccCalcOpMgr</referencedby>
+        <referencedby refid="db/d95/a01637_1a3d67a4568acf65b88fbad239708c52b1" compoundref="d9/d77/a00095" startline="2170" endline="2178">getOpDef</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/d95/a01637_1a49e43334db1054aba57a6c12934322a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCalcOpMgr::CIccCalcOpMgr</definition>
+        <argsstring>()</argsstring>
+        <name>CIccCalcOpMgr</name>
+        <qualifiedname>CIccCalcOpMgr::CIccCalcOpMgr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="1957" column="3" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="1969" bodyend="2053"/>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a8a7ad0f0354dfdf6907253443ae9f99f" compoundref="d5/de0/a00050" startline="172">icSigAbsoluteValOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a82f1d2df5717ca25d10f07332f47024c" compoundref="d5/de0/a00050" startline="156">icSigAddOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a54ce705cd295f850594e2a364ba0889e" compoundref="d5/de0/a00050" startline="151">icSigAndOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab0e2aa7cfee452f02c31dcc0f66bdb1f" compoundref="d5/de0/a00050" startline="135">icSigApplyCalcOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a2c8135133124a8f578b29f0c09f3ac73" compoundref="d5/de0/a00050" startline="131">icSigApplyCLutOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a71c6523824599f5f07dd9b54b9bc1fb2" compoundref="d5/de0/a00050" startline="129">icSigApplyCurvesOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a8a2bca5bdd3d2c51eb440a4a9bb75287" compoundref="d5/de0/a00050" startline="136">icSigApplyElemOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a156f20c79106e6f7584a2c80f2fbaf16" compoundref="d5/de0/a00050" startline="134">icSigApplyFromJabOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5abcd774f52080f3e825ce8d06df544f59" compoundref="d5/de0/a00050" startline="130">icSigApplyMatrixOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aaaa4c2c42f8cbeac06816c1852fa3899" compoundref="d5/de0/a00050" startline="132">icSigApplyTintOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a9c6f3db5c320e7f5ac5bddea954e0234" compoundref="d5/de0/a00050" startline="133">icSigApplyToJabOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a82c75b2681992cbcfa8894e7afa49a89" compoundref="d5/de0/a00050" startline="184">icSigArcCosineOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7358ecd68c4f205fdc3dd715690c06a6" compoundref="d5/de0/a00050" startline="183">icSigArcSineOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5abf354d34d498e0f9ec52b5991e9b7b34" compoundref="d5/de0/a00050" startline="186">icSigArcTan2Op</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a12aa7f6a537e71da60112fca506378eb" compoundref="d5/de0/a00050" startline="185">icSigArcTangentOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a80f21b7220baf8f73be10134181785c2" compoundref="d5/de0/a00050" startline="187">icSigCartesianToPolarOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5af585ca36d7b29c8a00ca900742967f0d" compoundref="d5/de0/a00050" startline="174">icSigCeilingOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a9275a27f32721657a64098334fca0adc" compoundref="d5/de0/a00050" startline="139">icSigCopyOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a459fc062657d7eb78b52926a20e354e9" compoundref="d5/de0/a00050" startline="181">icSigCosineOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a07ef39558efdffd6d5e337cf17a1d7ca" compoundref="d5/de0/a00050" startline="169">icSigCubeOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a9491775114a0a21cd33fae8d27bc766b" compoundref="d5/de0/a00050" startline="170">icSigCubeRootOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a799fa857823055001ccb0c044c069a2d" compoundref="d5/de0/a00050" startline="112">icSigDataOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aa063b30cd95463b6b2de352af13252e6" compoundref="d5/de0/a00050" startline="159">icSigDivideOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a09d57bb1e4ba7d276472de3f7a7d6fcc" compoundref="d5/de0/a00050" startline="126">icSigEnvVarOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a750e346a6fe85d8f4ef6e2c8cf5fbf11" compoundref="d5/de0/a00050" startline="192">icSigEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad2da20267ec858cc915401cf5928b110" compoundref="d5/de0/a00050" startline="177">icSigExpOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7296ac1a68ce9c73fa1a2a4b2735aa8a" compoundref="d5/de0/a00050" startline="143">icSigFlipOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a134875e0110424b2e4ac994b77dda4c6" compoundref="d5/de0/a00050" startline="173">icSigFloorOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a6bcaa4641f6aaa6710856078d4248d35" compoundref="d5/de0/a00050" startline="162">icSigGammaOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac00b060e975ebc74448fdb8ed818bb24" compoundref="d5/de0/a00050" startline="195">icSigGreaterThanEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a6398186a57eaaa00a66862b80e29b207" compoundref="d5/de0/a00050" startline="196">icSigGreaterThanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac860e1f45e03b8008a7facfd9953542c" compoundref="d5/de0/a00050" startline="119">icSigInputChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a918daa3caf99e1e8d3e90f3b2becdacc" compoundref="d5/de0/a00050" startline="191">icSigLessThanEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a511c50e9b3e6ca216623bee50735021c" compoundref="d5/de0/a00050" startline="190">icSigLessThanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a98ba57e36bf6b183bc4948441444941f" compoundref="d5/de0/a00050" startline="178">icSigLogrithmOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aefd32ddbb757de57087ea975e4154336" compoundref="d5/de0/a00050" startline="150">icSigMaximumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a29984557fc13e771676e20e2562b6f84" compoundref="d5/de0/a00050" startline="149">icSigMinimumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a66c5ee33099f7e2f2be97a17aa3484c9" compoundref="d5/de0/a00050" startline="160">icSigModulusOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aeccc3a2ecfd2dee0740b2c8eba1f12c6" compoundref="d5/de0/a00050" startline="158">icSigMultiplyOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a49b2e57f044db4efc98ce4068b6fee41" compoundref="d5/de0/a00050" startline="179">icSigNaturalLogOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7646131fad5cc5c7b404a96a669899e9" compoundref="d5/de0/a00050" startline="194">icSigNearOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a4f9703f14ddf025727fd22589fda767c" compoundref="d5/de0/a00050" startline="115">icSigNegInfinityOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a6a523132bb7ee7ee410256cd830152f1" compoundref="d5/de0/a00050" startline="155">icSigNegOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a6ed57135de78b58b11892a1bae94d324" compoundref="d5/de0/a00050" startline="116">icSigNotaNumberOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad9150b69ae1992c608699bb21d8cc3aa" compoundref="d5/de0/a00050" startline="193">icSigNotEqualOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a617666ca5bf46bab3866a77db3ce2deb" compoundref="d5/de0/a00050" startline="197">icSigNotOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a1843d7e03ca98e6b14d66e649ae5579e" compoundref="d5/de0/a00050" startline="152">icSigOrOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a8bc17bc8722e0d7149b7a7f00e2963bb" compoundref="d5/de0/a00050" startline="120">icSigOutputChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a040466d285f67c6f1979b69e63d2c0d6" compoundref="d5/de0/a00050" startline="113">icSigPiOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3bf349a74673da5fe873cf586e67e00e" compoundref="d5/de0/a00050" startline="188">icSigPolarToCartesianOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a94cfb3eaff29c45c0d931a80ba314ae4" compoundref="d5/de0/a00050" startline="144">icSigPopOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ae2007fdb81e0a2f54676f83f773ac69a" compoundref="d5/de0/a00050" startline="114">icSigPosInfinityOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5abedcb82c3a3a4df60784ce7ea87357d1" compoundref="d5/de0/a00050" startline="142">icSigPositionDupOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7b926fd8e2de445adfd6a404f4aae2b9" compoundref="d5/de0/a00050" startline="161">icSigPowOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3a918e6a0fd73207f3da459740555de1" compoundref="d5/de0/a00050" startline="148">icSigProductOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a832aca3f7c43edfd18b975be9388f7df" compoundref="d5/de0/a00050" startline="189">icSigRealNumberOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab04ecf29d907d499e8c2845f33667f9c" compoundref="d5/de0/a00050" startline="140">icSigRotateLeftOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a66bb9ecde360dc55dc618e54555bfec1" compoundref="d5/de0/a00050" startline="141">icSigRotateRightOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a89499005134f558175ce7cf33a7b6ee8" compoundref="d5/de0/a00050" startline="176">icSigRoundOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a1c732d44a6bff92631ea958696a7cdba" compoundref="d5/de0/a00050" startline="163">icSigScalarAddOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a995f5baa90c739ecb92ac7c915e96e10" compoundref="d5/de0/a00050" startline="166">icSigScalarDivideOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5abd520c976147ab83f9957b19b773cb05" compoundref="d5/de0/a00050" startline="165">icSigScalarMultiplyOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7de076799d586bb1a8584a2ef7a35ca0" compoundref="d5/de0/a00050" startline="164">icSigScalarSubtractOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3878b94b3fe3c15ae150b3627c9d539a" compoundref="d5/de0/a00050" startline="171">icSigSignOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a2fe6e9538982585343404acc32def6a2" compoundref="d5/de0/a00050" startline="180">icSigSineOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac1fc159d052c268f10beb5ac5f049acb" compoundref="d5/de0/a00050" startline="206">icSigSolveOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a55966e72b6b27a54ae79284087f6557b" compoundref="d5/de0/a00050" startline="167">icSigSquareOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a12ee69d5e45a93bd32a1c81134ae3988" compoundref="d5/de0/a00050" startline="168">icSigSquareRootOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a92ed917ca5468c6a251666f80712aa5e" compoundref="d5/de0/a00050" startline="157">icSigSubtractOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3380dc725bf17ac85ca27777fccc359c" compoundref="d5/de0/a00050" startline="147">icSigSumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aa804348dda0af75df5f9cafa24b668ae" compoundref="d5/de0/a00050" startline="182">icSigTangentOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aecfc2fa7d43fa74a309781683b2332fb" compoundref="d5/de0/a00050" startline="121">icSigTempGetChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a3f45b717f863a83251ed2c6d52c155e6" compoundref="d5/de0/a00050" startline="122">icSigTempPutChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ae83056829ca9655b9c9fded62bb4de58" compoundref="d5/de0/a00050" startline="123">icSigTempSaveChanOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac7c9c8858202611484afa2c6f3136c15" compoundref="d5/de0/a00050" startline="198">icSigToLabOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac0230afc2325c3865fd979c6a4bc8a2c" compoundref="d5/de0/a00050" startline="199">icSigToXYZOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad3888eb0b04167b13deb7d86f16e4314" compoundref="d5/de0/a00050" startline="207">icSigTransposeOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5aab810625133c2ef182f9a4ff18d80f9c" compoundref="d5/de0/a00050" startline="175">icSigTruncateOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5adcd746a41f24ab8a51686950a829d9e5" compoundref="d5/de0/a00050" startline="202">icSigVectorAndOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7bb41102bf797b6490ff928f99ae9c0b" compoundref="d5/de0/a00050" startline="201">icSigVectorMaximumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ad21d56c80f5b8f7fae4071ac4a0f00a3" compoundref="d5/de0/a00050" startline="200">icSigVectorMinimumOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ac075fe96d244ca9f82d0b88540e22fb2" compoundref="d5/de0/a00050" startline="203">icSigVectorOrOp</references>
+        <references refid="db/d95/a01637_1abbdb2a63b733aea9682eafb41975da1c" compoundref="d9/d77/a00095" startline="1964">m_map</references>
+        <referencedby refid="db/d95/a01637_1a417df147cdb9c6477ab44c3e174e7786" compoundref="d9/d77/a00095" startline="2055" endline="2060">GetInstance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d95/a01637_1a417df147cdb9c6477ab44c3e174e7786" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/d95/a01637" kindref="compound">CIccCalcOpMgr</ref> *</type>
+        <definition>CIccCalcOpMgr * CIccCalcOpMgr::GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <qualifiedname>CIccCalcOpMgr::GetInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="1960" column="24" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2055" bodyend="2060"/>
+        <references refid="db/d95/a01637_1a49e43334db1054aba57a6c12934322a9" compoundref="d9/d77/a00095" startline="1969" endline="2053">CIccCalcOpMgr</references>
+        <references refid="db/d95/a01637_1a233ff2b4ea8632c5e4ec58c84f376241" compoundref="d9/d77/a00095" startline="1958">m_inst</references>
+        <referencedby refid="db/d95/a01637_1a3d67a4568acf65b88fbad239708c52b1" compoundref="d9/d77/a00095" startline="2170" endline="2178">getOpDef</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d95/a01637_1a3d67a4568acf65b88fbad239708c52b1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d07/a01301" kindref="compound">IIccOpDef</ref> *</type>
+        <definition>IIccOpDef * CIccCalcOpMgr::getOpDef</definition>
+        <argsstring>(icSigCalcOp opSig)</argsstring>
+        <name>getOpDef</name>
+        <qualifiedname>CIccCalcOpMgr::getOpDef</qualifiedname>
+        <param>
+          <type><ref refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5" kindref="member">icSigCalcOp</ref></type>
+          <declname>opSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="1961" column="20" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2170" bodyend="2178"/>
+        <references refid="db/d95/a01637_1a417df147cdb9c6477ab44c3e174e7786" compoundref="d9/d77/a00095" startline="2055" endline="2060">GetInstance</references>
+        <references refid="db/d95/a01637_1adbed016f47b73a9d56735c9cdf680746" compoundref="d9/d77/a00095" startline="1965">m_invalid</references>
+        <references refid="db/d95/a01637_1abbdb2a63b733aea9682eafb41975da1c" compoundref="d9/d77/a00095" startline="1964">m_map</references>
+        <referencedby refid="db/d4b/a01309_1adc771ef7293167b3dbcc8308fda379b4" compoundref="d9/d77/a00095" startline="3437" endline="3449">CIccCalculatorFunc::SetOpDefs</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccCalcOpMgr</label>
+        <link refid="db/d95/a01637"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>m_inst</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_invalid</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccOpDefInvalid</label>
+        <link refid="dc/d2a/a01333"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IIccOpDef</label>
+        <link refid="d3/d07/a01301"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeCalc.cpp" line="1955" column="1" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="1956" bodyend="1966"/>
+    <listofallmembers>
+      <member refid="db/d95/a01637_1a49e43334db1054aba57a6c12934322a9" prot="private" virt="non-virtual"><scope>CIccCalcOpMgr</scope><name>CIccCalcOpMgr</name></member>
+      <member refid="db/d95/a01637_1a417df147cdb9c6477ab44c3e174e7786" prot="public" virt="non-virtual"><scope>CIccCalcOpMgr</scope><name>GetInstance</name></member>
+      <member refid="db/d95/a01637_1a3d67a4568acf65b88fbad239708c52b1" prot="public" virt="non-virtual"><scope>CIccCalcOpMgr</scope><name>getOpDef</name></member>
+      <member refid="db/d95/a01637_1a233ff2b4ea8632c5e4ec58c84f376241" prot="private" virt="non-virtual"><scope>CIccCalcOpMgr</scope><name>m_inst</name></member>
+      <member refid="db/d95/a01637_1adbed016f47b73a9d56735c9cdf680746" prot="protected" virt="non-virtual"><scope>CIccCalcOpMgr</scope><name>m_invalid</name></member>
+      <member refid="db/d95/a01637_1abbdb2a63b733aea9682eafb41975da1c" prot="protected" virt="non-virtual"><scope>CIccCalcOpMgr</scope><name>m_map</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

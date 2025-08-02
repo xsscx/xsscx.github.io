@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/d52/a02319" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>iccApplyProfiles</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`iccApplyProfiles`<sp/>is<sp/>a<sp/>command-line<sp/>tool<sp/>that<sp/>applies<sp/>a<sp/>sequence<sp/>of<sp/>ICC<sp/>profiles<sp/>to<sp/>a<sp/>TIFF<sp/>image.<sp/>It<sp/>supports<sp/>TIFF<sp/>read/write<sp/>with<sp/>compression,<sp/>planar<sp/>or<sp/>interleaved<sp/>data,<sp/>optional<sp/>ICC<sp/>embedding,<sp/>and<sp/>various<sp/>interpolation/rendering<sp/>intent<sp/>modes.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>particularly<sp/>well-suited<sp/>for<sp/>automated<sp/>pipelines<sp/>where<sp/>precise<sp/>color<sp/>transformations<sp/>must<sp/>be<sp/>applied<sp/>across<sp/>TIFF<sp/>files<sp/>using<sp/>complex<sp/>ICC<sp/>profiles,<sp/>including<sp/>those<sp/>with<sp/>profile<sp/>connection<sp/>conditions.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Applies<sp/>multiple<sp/>ICC<sp/>profiles<sp/>to<sp/>a<sp/>TIFF<sp/>image</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>input/output<sp/>bit<sp/>depths:<sp/>8-bit,<sp/>16-bit,<sp/>float<sp/>(32-bit)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Maintains<sp/>embedded<sp/>profile<sp/>or<sp/>overrides<sp/>with<sp/>custom<sp/>profile</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Handles<sp/>profile<sp/>connection<sp/>conditions<sp/>(PCC)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Includes<sp/>support<sp/>for<sp/>BPC<sp/>(black<sp/>point<sp/>compensation)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Offers<sp/>both<sp/>linear<sp/>and<sp/>tetrahedral<sp/>interpolation</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Full<sp/>CLI<sp/>and<sp/>JSON<sp/>configuration<sp/>support</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>Luminance<sp/>PCS<sp/>adjustments<sp/>and<sp/>environmental<sp/>variable<sp/>overrides</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Command-Line<sp/>Mode</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyProfiles<sp/>input.tif<sp/>output.tif<sp/>encoding<sp/>compression<sp/>planar<sp/>embed_icc<sp/>interpolation<sp/>{{-ENV:sig<sp/>value}<sp/>profile.icc<sp/>intent<sp/>{-PCC<sp/>pcc.icc}}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Config<sp/>File<sp/>Mode</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyProfiles<sp/>-cfg<sp/>config.json</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Arguments<sp/>(CLI<sp/>Mode)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`encoding`:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0`<sp/>=<sp/>Same<sp/>as<sp/>source</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`1`<sp/>=<sp/>8-bit</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`2`<sp/>=<sp/>16-bit</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`4`<sp/>=<sp/>Float<sp/>(32-bit)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`compression`:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0`<sp/>=<sp/>None</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`1`<sp/>=<sp/>LZW</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`planar`:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0`<sp/>=<sp/>Interleaved</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`1`<sp/>=<sp/>Separated</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`embed_icc`:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0`<sp/>=<sp/>Do<sp/>not<sp/>embed</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`1`<sp/>=<sp/>Embed<sp/>last<sp/>ICC<sp/>profile</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`interpolation`:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0`<sp/>=<sp/>Linear</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`1`<sp/>=<sp/>Tetrahedral</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`intent`:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Standard<sp/>(0–3),<sp/>Preview<sp/>(20–23),<sp/>Gamut<sp/>(30+),<sp/>No<sp/>D2Bx<sp/>(10+),<sp/>BPC<sp/>(40+)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+100`<sp/>adds<sp/>luminance-based<sp/>PCS<sp/>adjustment</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+1000`<sp/>enables<sp/>ICCv5<sp/>sub-profile<sp/>selection</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>JSON<sp/>Config<sp/>Support</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>tool<sp/>also<sp/>accepts<sp/>a<sp/>JSON<sp/>configuration<sp/>file<sp/>that<sp/>must<sp/>define:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`&quot;imageFiles&quot;`<sp/>(for<sp/>input/output<sp/>settings)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`&quot;profileSequence&quot;`<sp/>(for<sp/>color<sp/>transformations)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Build<sp/>Instructions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyProfiles<sp/>input.tif<sp/>output.tif<sp/>2<sp/>1<sp/>0<sp/>1<sp/>1<sp/>source.icc<sp/>1<sp/>printer.icc<sp/>0</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Original<sp/>version<sp/>by<sp/>Max<sp/>Derhak<sp/>(2003)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Enhanced<sp/>for<sp/>iccMAX<sp/>and<sp/>JSON<sp/>configs<sp/>in<sp/>2014–2016</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>CLI+JSON<sp/>dual<sp/>mode<sp/>&amp;<sp/>extended<sp/>BPC<sp/>/<sp/>luminance<sp/>logic<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccApplyProfiles/Readme.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/dae/a02294" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccApplyToLink_2Readme</compoundname>
+    <title>iccApplyToLink</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="dd/dae/a02294_1autotoc_md69"/> </para>
+<sect1 id="dd/dae/a02294_1autotoc_md70">
+<title>Overview</title>
+<para><computeroutput>iccApplyToLink</computeroutput> is a versatile command-line tool that builds either an ICC DeviceLink profile or a <computeroutput>.cube</computeroutput> LUT file by applying a sequence of ICC profiles. It supports fine-grained control over rendering intents, LUT size, interpolation, and Profile Connection Conditions (PCC).</para>
+<para>This tool is especially useful for creating link profiles for production workflows or transforming color spaces for VFX, printing, or display calibration.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dae/a02294_1autotoc_md72">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Supports output as ICC v4/v5 DeviceLink or <computeroutput>.cube</computeroutput> 3D LUT format</para>
+</listitem><listitem><para>Accepts a sequence of profiles and rendering intents</para>
+</listitem><listitem><para>Handles Profile Connection Conditions (<computeroutput>-PCC</computeroutput>)</para>
+</listitem><listitem><para>Applies CMM Environment variables (<computeroutput>-ENV:sig value</computeroutput>)</para>
+</listitem><listitem><para>Supports LUT precision and custom input ranges</para>
+</listitem><listitem><para>Choice of interpolation methods (linear/tetrahedral)</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dae/a02294_1autotoc_md74">
+<title>Usage</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyToLink<sp/>output_file<sp/>link_type<sp/>lut_size<sp/>option<sp/>title<sp/>min_input<sp/>max_input<sp/>use_src_xform<sp/>interp<sp/>profile_seq...</highlight></codeline>
+</programlisting></para>
+<sect2 id="dd/dae/a02294_1autotoc_md75">
+<title>Example</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyToLink<sp/>myLink.icc<sp/>0<sp/>33<sp/>1<sp/>&quot;My<sp/>DisplayLink&quot;<sp/>0.0<sp/>1.0<sp/>1<sp/>1<sp/>sRGB.icc<sp/>1<sp/>printer.icc<sp/>1</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="dd/dae/a02294_1autotoc_md77">
+<title>Parameters</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>output_file</computeroutput>: Path to save the ICC or <computeroutput>.cube</computeroutput> output</para>
+</listitem><listitem><para><computeroutput>link_type</computeroutput>:<itemizedlist>
+<listitem><para><computeroutput>0</computeroutput> = ICC DeviceLink</para>
+</listitem><listitem><para><computeroutput>1</computeroutput> = <computeroutput>.cube</computeroutput> LUT</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><computeroutput>lut_size</computeroutput>: Grid size per dimension (e.g., 33)</para>
+</listitem><listitem><para><computeroutput>option</computeroutput>:<itemizedlist>
+<listitem><para>For ICC: <computeroutput>0</computeroutput> = v4, <computeroutput>1</computeroutput> = v5</para>
+</listitem><listitem><para>For cube: precision (e.g., <computeroutput>4</computeroutput>)</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><computeroutput>title</computeroutput>: Title embedded in output</para>
+</listitem><listitem><para><computeroutput>min_input</computeroutput> / <computeroutput>max_input</computeroutput>: Input value range, e.g., <computeroutput>0.0</computeroutput> to <computeroutput>1.0</computeroutput></para>
+</listitem><listitem><para><computeroutput>use_src_xform</computeroutput>: <computeroutput>1</computeroutput> = use source xform from first profile, else destination</para>
+</listitem><listitem><para><computeroutput>interp</computeroutput>: <computeroutput>0</computeroutput> = linear, <computeroutput>1</computeroutput> = tetrahedral</para>
+</listitem><listitem><para><computeroutput>profile_seq</computeroutput>: Sequence of profile files and intents, optionally with:<itemizedlist>
+<listitem><para><computeroutput>-ENV:TAG value</computeroutput> to set environment sigs</para>
+</listitem><listitem><para><computeroutput>-PCC path.icc</computeroutput> to provide connection conditions</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dae/a02294_1autotoc_md79">
+<title>Rendering Intents</title>
+<para>Supports all ICC intents plus combinations:</para>
+<para><table rows="8" cols="2"><row>
+<entry thead="yes"><para>Code   </para>
+</entry><entry thead="yes"><para>Intent    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>0–3   </para>
+</entry><entry thead="no"><para>Perceptual / Relative / Saturation / Absolute    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>10+   </para>
+</entry><entry thead="no"><para>Skip D2Bx/B2Dx    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>20+   </para>
+</entry><entry thead="no"><para>Preview Intents    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>40+   </para>
+</entry><entry thead="no"><para>BPC-enabled    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>50+   </para>
+</entry><entry thead="no"><para>BDRF variations    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>100+   </para>
+</entry><entry thead="no"><para>Luminance adjusted    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>1000+   </para>
+</entry><entry thead="no"><para>V5 sub-profile override   </para>
+</entry></row>
+</table>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dae/a02294_1autotoc_md81">
+<title>Build Instructions</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dae/a02294_1autotoc_md83">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Initial implementation by Max Derhak (Mar 2023)</para>
+</listitem><listitem><para>Multi-output support and argument extensions by David Hoyt (2025) </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccApplyToLink/Readme.md"/>
+  </compounddef>
+</doxygen>

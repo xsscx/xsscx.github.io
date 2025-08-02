@@ -1,0 +1,28 @@
+var a00817 =
+[
+    [ "CIccFormulaCurveSegment", "dc/d5e/a00817.html#ae2a40777f449a0a8db3324e4e821f017", null ],
+    [ "CIccFormulaCurveSegment", "dc/d5e/a00817.html#aa4a8137db0bc34abdedcf6e314db2135", null ],
+    [ "~CIccFormulaCurveSegment", "dc/d5e/a00817.html#a7d4eaa8bbe3f1c0560154d9f2a5d558c", null ],
+    [ "Apply", "dc/d5e/a00817.html#afe3c0169a0ce82862cb7ea51bb31e263", null ],
+    [ "Begin", "dc/d5e/a00817.html#a42cb8480eac0c4ee8591b567831440f1", null ],
+    [ "Create", "dc/d5e/a00817.html#ac797e1107b3180a904006511d695a485", null ],
+    [ "Describe", "dc/d5e/a00817.html#a681894d34ce90fcf1507ed084204b63e", null ],
+    [ "EndPoint", "dc/d5e/a00817.html#a3c0f15b03cf644c15a14ac7cdb633026", null ],
+    [ "GetClassName", "dc/d5e/a00817.html#a4116af42632814dab498278485227312", null ],
+    [ "GetType", "dc/d5e/a00817.html#a845b2ec38a5d8613a4d376076da9ce14", null ],
+    [ "NewCopy", "dc/d5e/a00817.html#afce5f6aca5e8102df75bc8a276b716c1", null ],
+    [ "operator=", "dc/d5e/a00817.html#a672a5d99c2e5c546741579f6b7a0c108", null ],
+    [ "Read", "dc/d5e/a00817.html#a2939176007d3b977785e283d62d5f32d", null ],
+    [ "SetFunction", "dc/d5e/a00817.html#a17ebbc3bc5707fb81edfe9a51061dbf5", null ],
+    [ "StartPoint", "dc/d5e/a00817.html#a4c6123fe1f737bc92c43f43779bdd502", null ],
+    [ "Validate", "dc/d5e/a00817.html#a70af98a8199072b3ece4a4923e6477fb", null ],
+    [ "Write", "dc/d5e/a00817.html#a4e73b171396f72d91843e2bec92dcafa", null ],
+    [ "m_endPoint", "dc/d5e/a00817.html#a62e2386a93d6ec907b92736ce3ee065d", null ],
+    [ "m_nFunctionType", "dc/d5e/a00817.html#a2d6d09c3e08f7684e8e655ef4c3a1796", null ],
+    [ "m_nParameters", "dc/d5e/a00817.html#a16f24d7d0a12ea12c45e33f4c5e32711", null ],
+    [ "m_nReserved", "dc/d5e/a00817.html#af9319a3f998e8093c6d9149ed7557634", null ],
+    [ "m_nReserved2", "dc/d5e/a00817.html#a3a83595cebe5340ce0d4cd80eb916cb4", null ],
+    [ "m_nShortcutType", "dc/d5e/a00817.html#abd5104a03195d809cbafebff3af2a272", null ],
+    [ "m_params", "dc/d5e/a00817.html#ad26694bc3b4b52cf0620f12ec102e0d4", null ],
+    [ "m_startPoint", "dc/d5e/a00817.html#a5ba63ed74456050f60ef1b58cd3e8064", null ]
+];

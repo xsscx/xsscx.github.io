@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="da/d15/a00188" kind="file" language="C++">
+    <compoundname>IccSolve.cpp</compoundname>
+    <includes refid="d3/d52/a00023" local="yes">IccSolve.h</includes>
+    <includes refid="d7/dce/a00143" local="yes">IccUtil.h</includes>
+    <includes local="no">cstring</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccSolve.cpp</label>
+        <link refid="da/d15/a00188"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IccSolve.h</label>
+        <link refid="d3/d52/a00023"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IccUtil.h</label>
+        <link refid="d7/dce/a00143"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="11">
+        <label>cstring</label>
+      </node>
+      <node id="10">
+        <label>limits</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+      <node id="9">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d1/da7/a01709" prot="public">CIccSimpleMatrixInverter</innerclass>
+    <innerclass refid="d9/dc5/a01705" prot="public">CIccSimpleMatrixSolver</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="da/d15/a00188_1afdd1c401beaad2387c9a98e231c4403c" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref> <ref refid="d7/d53/a01645" kindref="compound">IIccMatrixInverter</ref> *</type>
+        <definition>ICCPROFLIB_API IIccMatrixInverter* g_pIccMatrixInverter</definition>
+        <argsstring></argsstring>
+        <name>g_pIccMatrixInverter</name>
+        <initializer>= &amp;<ref refid="da/d15/a00188_1a42f64c39ddacbcdbfd9ca26389bc9de4" kindref="member">g_SimpleInverter</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Global Variable: g_pIccMatrixInverter</para>
+<para>Purpose: Keep tracks of pointer to matrix inverter object. <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="259" column="35" bodyfile="IccProfLib/IccSolve.cpp" bodystart="259" bodyend="-1"/>
+        <referencedby refid="d3/d52/a00023_1a6e8eb3c7dae63880c2cfc7ff2907af9f" compoundref="da/d15/a00188" startline="287" endline="290">IccGetDefaultMatrixInverter</referencedby>
+        <referencedby refid="d3/d52/a00023_1a0c0e8a69e116c12f59fa2ccac8428424" compoundref="da/d15/a00188" startline="272" endline="275">IccSetMatrixInverter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="da/d15/a00188_1a6c76babe507f07e310ad388662e9fc06" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref> <ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref> *</type>
+        <definition>ICCPROFLIB_API IIccMatrixSolver* g_pIccMatrixSolver</definition>
+        <argsstring></argsstring>
+        <name>g_pIccMatrixSolver</name>
+        <initializer>= &amp;<ref refid="da/d15/a00188_1ac08b9175eae4945ebb1cbed41d6808e5" kindref="member">g_SimpleSolver</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Global Variable: g_pIccMatrixSolver</para>
+<para>Purpose: Keep tracks of pointer to matrix solver object. This object should be instantiated before making calls to <ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref>. If this variable is not set then the SOLV operator will return a zero vector with with the status of false. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="186" column="33" bodyfile="IccProfLib/IccSolve.cpp" bodystart="186" bodyend="-1"/>
+        <referencedby refid="d7/d1c/a01397_1ada9311a3a01ab9c73f3f878c90ac95f6" compoundref="d9/d77/a00095" startline="553" endline="590">CIccOpDefSolve::Exec</referencedby>
+        <referencedby refid="d3/d52/a00023_1a014972f6e4e080f63e7f9c9dab888a20" compoundref="da/d15/a00188" startline="216" endline="219">IccGetDefaultMatrixSolver</referencedby>
+        <referencedby refid="d3/d52/a00023_1a2d7a99dcb7c610deab25e7814f48f1d9" compoundref="da/d15/a00188" startline="201" endline="204">IccSetMatrixSolver</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="da/d15/a00188_1a42f64c39ddacbcdbfd9ca26389bc9de4" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/da7/a01709" kindref="compound">CIccSimpleMatrixInverter</ref></type>
+        <definition>CIccSimpleMatrixInverter g_SimpleInverter</definition>
+        <argsstring></argsstring>
+        <name>g_SimpleInverter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="256" column="26" bodyfile="IccProfLib/IccSolve.cpp" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d15/a00188_1ac08b9175eae4945ebb1cbed41d6808e5" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/dc5/a01705" kindref="compound">CIccSimpleMatrixSolver</ref></type>
+        <definition>CIccSimpleMatrixSolver g_SimpleSolver</definition>
+        <argsstring></argsstring>
+        <name>g_SimpleSolver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="183" column="24" bodyfile="IccProfLib/IccSolve.cpp" bodystart="183" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="da/d15/a00188_1a1dca2c004f47a7dadd0f0ce61da12c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d53/a01645" kindref="compound">IIccMatrixInverter</ref> *</type>
+        <definition>IIccMatrixInverter * IccGetDefaultMatrixInverter</definition>
+        <argsstring>()</argsstring>
+        <name>IccGetDefaultMatrixInverter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="da/d15/a00188_1a1dca2c004f47a7dadd0f0ce61da12c9a" kindref="member">IccGetDefaultMatrixInverter()</ref></para>
+<para>Purpose: Global function that can be used by a supporting application to determine the default matrix inverter object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="287" column="20" bodyfile="IccProfLib/IccSolve.cpp" bodystart="287" bodyend="290"/>
+        <references refid="d3/d52/a00023_1afdd1c401beaad2387c9a98e231c4403c" compoundref="da/d15/a00188" startline="259">g_pIccMatrixInverter</references>
+        <referencedby refid="d8/d45/a02021_1a1548b3217cbe964eab8e5bfff32af85b" compoundref="dd/dd7/a00260" startline="1236" endline="1278">CIccMpeXmlMatrix::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d15/a00188_1ac04a03ce5ec2a4e9eebd50cb3a96df88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref> *</type>
+        <definition>IIccMatrixSolver * IccGetDefaultMatrixSolver</definition>
+        <argsstring>()</argsstring>
+        <name>IccGetDefaultMatrixSolver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="da/d15/a00188_1ac04a03ce5ec2a4e9eebd50cb3a96df88" kindref="member">IccGetDefaultMatrixSolver()</ref></para>
+<para>Purpose: Global function that can be used by a supporting application to determine the default matrix solver object. <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="216" column="18" bodyfile="IccProfLib/IccSolve.cpp" bodystart="216" bodyend="219"/>
+        <references refid="d3/d52/a00023_1a6c76babe507f07e310ad388662e9fc06" compoundref="da/d15/a00188" startline="186">g_pIccMatrixSolver</references>
+      </memberdef>
+      <memberdef kind="function" id="da/d15/a00188_1a98c0742875607d0e973cf5d437fc65f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>void ICCPROFLIB_API IccSetMatrixInverter</definition>
+        <argsstring>(IIccMatrixInverter *pIccMatrixInverter)</argsstring>
+        <name>IccSetMatrixInverter</name>
+        <param>
+          <type><ref refid="d7/d53/a01645" kindref="compound">IIccMatrixInverter</ref> *</type>
+          <declname>pIccMatrixInverter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="da/d15/a00188_1a98c0742875607d0e973cf5d437fc65f7" kindref="member">IccSetMatrixInverter(IIccMatrixInverter *pInverter)</ref></para>
+<para>Purpose: Global function that can be used by a supporting application to establish an implementation of a matrix inverter object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="272" column="21" bodyfile="IccProfLib/IccSolve.cpp" bodystart="272" bodyend="275"/>
+        <references refid="d3/d52/a00023_1afdd1c401beaad2387c9a98e231c4403c" compoundref="da/d15/a00188" startline="259">g_pIccMatrixInverter</references>
+      </memberdef>
+      <memberdef kind="function" id="da/d15/a00188_1aca9299384b31763f89e25050f6e4250d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>void ICCPROFLIB_API IccSetMatrixSolver</definition>
+        <argsstring>(IIccMatrixSolver *pIccMatrixSolver)</argsstring>
+        <name>IccSetMatrixSolver</name>
+        <param>
+          <type><ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref> *</type>
+          <declname>pIccMatrixSolver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="da/d15/a00188_1aca9299384b31763f89e25050f6e4250d" kindref="member">IccSetMatrixSolver(IIccMatrixSolver *pSolver)</ref></para>
+<para>Purpose: Global function that can be used by a supporting application to establish an implementation of a matrix solver object. <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="201" column="21" bodyfile="IccProfLib/IccSolve.cpp" bodystart="201" bodyend="204"/>
+        <references refid="d3/d52/a00023_1a6c76babe507f07e310ad388662e9fc06" compoundref="da/d15/a00188" startline="186">g_pIccMatrixSolver</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="da/d15/a00188" kindref="compound">IccSolve.cpp</ref></para>
+<para>Contains: Implementation of Matrix Solver</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.1</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2006<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>4-12-2016</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d3/d52/a00023" kindref="compound">IccSolve.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/dce/a00143" kindref="compound">IccUtil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ICC_USE_EIGEN_SOLVER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;Eigen/Core&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;Eigen/SVD&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>_Matrix_Type_,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>_Vector_Type_&gt;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">_Vector_Type_<sp/>solve(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>_Matrix_Type_<sp/>&amp;a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>_Vector_Type_<sp/>y,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>epsilon<sp/>=<sp/>std::numeric_limits&lt;icFloatNumber&gt;::epsilon())</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>Eigen::JacobiSVD&lt;<sp/>_Matrix_Type_<sp/>&gt;<sp/>svd(a<sp/>,Eigen::ComputeThinU<sp/>|<sp/>Eigen::ComputeThinV);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>tolerance<sp/>=<sp/>epsilon<sp/>*<sp/>std::max(a.cols(),<sp/>a.rows())<sp/>*svd.singularValues().array().abs()(0);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>svd.matrixV()<sp/>*<sp/><sp/>(svd.singularValues().array().abs()<sp/>&gt;<sp/>tolerance).select(svd.singularValues().array().inverse(),<sp/>0).matrix().asDiagonal()<sp/>*<sp/>svd.matrixU().adjoint()<sp/>*<sp/>y;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;icFloatNumber,<sp/>Eigen::Dynamic,<sp/>Eigen::Dynamic,<sp/>Eigen::RowMajor&gt;<sp/>MatrixXn;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>Eigen::Matrix&lt;icFloatNumber,<sp/>Eigen::Dynamic,<sp/>1&gt;<sp/>VectorXn;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CIccEigenMatrixSolver<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>CIccEigenMatrixSolver()<sp/>{}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/d90/a01641_1a2a938dad3a9c23bdf12ac587584dec74" kindref="member">Solve</ref>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*dXVector,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*dMatrix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*dYVector,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRows,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nCols)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nRows==3<sp/>&amp;&amp;<sp/>nCols==3)<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>mtx[9];</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(mtx,<sp/>dMatrix,<sp/>9*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bInvertible<sp/>=<sp/><ref refid="d7/dce/a00143_1aa1bb8385706c3c656575f0d6a4ae4d76" kindref="member">icMatrixInvert3x3</ref>(mtx);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bInvertible)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1a8c159204657c23c92bb4920c59537554" kindref="member">icVectorApplyMatrix3x3</ref>(dXVector,<sp/>mtx,<sp/>dYVector);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memset(dXVector,<sp/>0,<sp/>nCols*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bInvertible;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>VectorXn<sp/>x;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>VectorXn<sp/>y<sp/>=<sp/>Eigen::Map&lt;VectorXn&gt;((<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>*)dYVector,<sp/>nRows);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>MatrixXn<sp/>A<sp/>=<sp/>Eigen::Map&lt;MatrixXn&gt;((<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>*)dMatrix,<sp/>nRows,<sp/>nCols);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>x=solve(A,y);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>Eigen::Map&lt;VectorXn&gt;(dXVector,<sp/>nCols)<sp/>=<sp/>x;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">CIccEigenMatrixSolver<sp/>g_EigenSolver;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="comment">//Define<sp/>the<sp/>global<sp/>g_pIccMatrixSolver<sp/>variable<sp/>pointer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref><sp/>*<ref refid="da/d15/a00188_1a6c76babe507f07e310ad388662e9fc06" kindref="member">g_pIccMatrixSolver</ref><sp/>=<sp/>&amp;g_EigenSolver;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="d9/dc5/a01705" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/dc5/a01705" kindref="compound">CIccSimpleMatrixSolver</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="147" refid="d9/dc5/a01705_1ab5cd3c2589931c0f12b46c6ba54ee394" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d9/dc5/a01705_1ab5cd3c2589931c0f12b46c6ba54ee394" kindref="member">CIccSimpleMatrixSolver</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="d9/dc5/a01705_1ab5312715639826bea72b17b2554ded06" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d9/dc5/a01705_1ab5312715639826bea72b17b2554ded06" kindref="member">Solve</ref>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*dXVector,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*dMatrix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*dYVector,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRows,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nCols)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nRows==3<sp/>&amp;&amp;<sp/>nCols==3)<sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>mtx[9];</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(mtx,<sp/>dMatrix,<sp/>9*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bInvertible<sp/>=<sp/><ref refid="d7/dce/a00143_1aa1bb8385706c3c656575f0d6a4ae4d76" kindref="member">icMatrixInvert3x3</ref>(mtx);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bInvertible)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1a8c159204657c23c92bb4920c59537554" kindref="member">icVectorApplyMatrix3x3</ref>(dXVector,<sp/>mtx,<sp/>dYVector);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memset(dXVector,<sp/>0,<sp/>nCols*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bInvertible;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="da/d15/a00188_1ac08b9175eae4945ebb1cbed41d6808e5" refkind="member"><highlight class="normal"><ref refid="d9/dc5/a01705" kindref="compound">CIccSimpleMatrixSolver</ref><sp/><ref refid="da/d15/a00188_1ac08b9175eae4945ebb1cbed41d6808e5" kindref="member">g_SimpleSolver</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="comment">//Define<sp/>the<sp/>global<sp/>g_pIccMatrixSolver<sp/>variable<sp/>pointer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="d3/d52/a00023_1a6c76babe507f07e310ad388662e9fc06" refkind="member"><highlight class="normal"><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref><sp/>*<ref refid="da/d15/a00188_1a6c76babe507f07e310ad388662e9fc06" kindref="member">g_pIccMatrixSolver</ref><sp/>=<sp/>&amp;<ref refid="da/d15/a00188_1ac08b9175eae4945ebb1cbed41d6808e5" kindref="member">g_SimpleSolver</ref>;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="d3/d52/a00023_1a2d7a99dcb7c610deab25e7814f48f1d9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="da/d15/a00188_1aca9299384b31763f89e25050f6e4250d" kindref="member">IccSetMatrixSolver</ref>(<ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref><sp/>*pIccMatrixSolver)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><ref refid="da/d15/a00188_1a6c76babe507f07e310ad388662e9fc06" kindref="member">g_pIccMatrixSolver</ref><sp/>=<sp/>pIccMatrixSolver;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="d3/d52/a00023_1a014972f6e4e080f63e7f9c9dab888a20" refkind="member"><highlight class="normal"><ref refid="d0/d90/a01641" kindref="compound">IIccMatrixSolver</ref><sp/>*<ref refid="da/d15/a00188_1ac04a03ce5ec2a4e9eebd50cb3a96df88" kindref="member">IccGetDefaultMatrixSolver</ref>()</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="da/d15/a00188_1a6c76babe507f07e310ad388662e9fc06" kindref="member">g_pIccMatrixSolver</ref>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">//TODO<sp/>implement<sp/>IIccMatrixInverter<sp/>in<sp/>terms<sp/>of<sp/>Eigen<sp/>library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="d1/da7/a01709" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/da7/a01709" kindref="compound">CIccSimpleMatrixInverter</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/d53/a01645" kindref="compound">IIccMatrixInverter</ref></highlight></codeline>
+<codeline lineno="224"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="226" refid="d1/da7/a01709_1a6d8923299a0acb3796e519a0822c3d17" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d1/da7/a01709_1a6d8923299a0acb3796e519a0822c3d17" kindref="member">CIccSimpleMatrixInverter</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="d1/da7/a01709_1ae8ec7b4950a1b7c37f6b5579af1b697a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d1/da7/a01709_1ae8ec7b4950a1b7c37f6b5579af1b697a" kindref="member">Invert</ref>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*dMatrix,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRows,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nCols)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nRows<sp/>==<sp/>3<sp/>&amp;&amp;<sp/>nCols<sp/>==<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bInvertible<sp/>=<sp/><ref refid="d7/dce/a00143_1aa1bb8385706c3c656575f0d6a4ae4d76" kindref="member">icMatrixInvert3x3</ref>(dMatrix);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bInvertible;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="da/d15/a00188_1a42f64c39ddacbcdbfd9ca26389bc9de4" refkind="member"><highlight class="normal"><ref refid="d1/da7/a01709" kindref="compound">CIccSimpleMatrixInverter</ref><sp/><ref refid="da/d15/a00188_1a42f64c39ddacbcdbfd9ca26389bc9de4" kindref="member">g_SimpleInverter</ref>;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="comment">//Define<sp/>the<sp/>global<sp/>g_pIccMatrixSolver<sp/>variable<sp/>pointer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="d3/d52/a00023_1afdd1c401beaad2387c9a98e231c4403c" refkind="member"><highlight class="normal"><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d7/d53/a01645" kindref="compound">IIccMatrixInverter</ref><sp/>*<ref refid="da/d15/a00188_1afdd1c401beaad2387c9a98e231c4403c" kindref="member">g_pIccMatrixInverter</ref><sp/>=<sp/>&amp;<ref refid="da/d15/a00188_1a42f64c39ddacbcdbfd9ca26389bc9de4" kindref="member">g_SimpleInverter</ref>;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="d3/d52/a00023_1a0c0e8a69e116c12f59fa2ccac8428424" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="da/d15/a00188_1a98c0742875607d0e973cf5d437fc65f7" kindref="member">IccSetMatrixInverter</ref>(<ref refid="d7/d53/a01645" kindref="compound">IIccMatrixInverter</ref><sp/>*pIccMatrixInverter)</highlight></codeline>
+<codeline lineno="273"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><ref refid="da/d15/a00188_1afdd1c401beaad2387c9a98e231c4403c" kindref="member">g_pIccMatrixInverter</ref><sp/>=<sp/>pIccMatrixInverter;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287" refid="d3/d52/a00023_1a6e8eb3c7dae63880c2cfc7ff2907af9f" refkind="member"><highlight class="normal"><ref refid="d7/d53/a01645" kindref="compound">IIccMatrixInverter</ref><sp/>*<ref refid="da/d15/a00188_1a1dca2c004f47a7dadd0f0ce61da12c9a" kindref="member">IccGetDefaultMatrixInverter</ref>()</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="da/d15/a00188_1afdd1c401beaad2387c9a98e231c4403c" kindref="member">g_pIccMatrixInverter</ref>;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccSolve.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/d1c/a01093" kind="class" language="C++" prot="public">
+    <compoundname>CIccResponseCurveStruct</compoundname>
+    <includes refid="da/dec/a00080" local="no">IccTagBasic.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="de/d1c/a01093_1a24b1be2136b50a87abb4662528e886c3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>friend class ICCPROFLIB_API CIccTagResponseCurveSet16</definition>
+        <argsstring></argsstring>
+        <name>CIccTagResponseCurveSet16</name>
+        <qualifiedname>CIccResponseCurveStruct::CIccTagResponseCurveSet16</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1563" column="31" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1563" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" prot="protected" static="no" mutable="no">
+        <type><ref refid="d8/dc7/a00517" kindref="compound">icXYZNumber</ref> *</type>
+        <definition>icXYZNumber* CIccResponseCurveStruct::m_maxColorantXYZ</definition>
+        <argsstring></argsstring>
+        <name>m_maxColorantXYZ</name>
+        <qualifiedname>CIccResponseCurveStruct::m_maxColorantXYZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1587" column="15" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1587" bodyend="-1"/>
+        <referencedby refid="de/d1c/a01093_1a5ced2625c22492ebb0345ccc8e581c05" compoundref="d9/dd0/a00191" startline="9827" endline="9838">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" compoundref="d9/dd0/a00191" startline="9809" endline="9815">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a0ec45f33976087a3fc7e4956c7d03ebf" compoundref="d9/dd0/a00191" startline="9790" endline="9795">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a697224d8227229b2599b020c9b51fea9" compoundref="d9/dd0/a00191" startline="9883" endline="9890">~CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a3c039fd4397421b213985e41da5582d9" compoundref="d9/dd0/a00191" startline="10033" endline="10063">Describe</referencedby>
+        <referencedby refid="de/d1c/a01093_1af82534216bfb33915324e785168bcf41" compoundref="da/dec/a00080" startline="1579" endline="1579">GetXYZ</referencedby>
+        <referencedby refid="de/d1c/a01093_1ab162bc67935c614b0768a67f26785a05" compoundref="d9/dd0/a00191" startline="9851" endline="9872">operator=</referencedby>
+        <referencedby refid="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" compoundref="d9/dd0/a00191" startline="9907" endline="9958">Read</referencedby>
+        <referencedby refid="de/d1c/a01093_1acb79496fc8f159096ca6894c49ffc2c9" compoundref="d9/dd0/a00191" startline="10080" endline="10117">Validate</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" compoundref="d9/dd0/a00191" startline="9974" endline="10020">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d1c/a01093_1aed3308853a6772a73cfd7512e34d7abc" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78" kindref="member">icMeasurementUnitSig</ref></type>
+        <definition>icMeasurementUnitSig CIccResponseCurveStruct::m_measurementUnitSig</definition>
+        <argsstring></argsstring>
+        <name>m_measurementUnitSig</name>
+        <qualifiedname>CIccResponseCurveStruct::m_measurementUnitSig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1586" column="24" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1586" bodyend="-1"/>
+        <referencedby refid="de/d1c/a01093_1a5ced2625c22492ebb0345ccc8e581c05" compoundref="d9/dd0/a00191" startline="9827" endline="9838">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" compoundref="d9/dd0/a00191" startline="9809" endline="9815">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a14218873625632bb9d5d2a7d1422d4a6" compoundref="da/dec/a00080" startline="1576" endline="1576">GetMeasurementType</referencedby>
+        <referencedby refid="de/d1c/a01093_1ab162bc67935c614b0768a67f26785a05" compoundref="d9/dd0/a00191" startline="9851" endline="9872">operator=</referencedby>
+        <referencedby refid="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" compoundref="d9/dd0/a00191" startline="9907" endline="9958">Read</referencedby>
+        <referencedby refid="de/d1c/a01093_1acb79496fc8f159096ca6894c49ffc2c9" compoundref="d9/dd0/a00191" startline="10080" endline="10117">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccResponseCurveStruct::m_nChannels</definition>
+        <argsstring></argsstring>
+        <name>m_nChannels</name>
+        <qualifiedname>CIccResponseCurveStruct::m_nChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1585" column="18" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1585" bodyend="-1"/>
+        <referencedby refid="de/d1c/a01093_1a5ced2625c22492ebb0345ccc8e581c05" compoundref="d9/dd0/a00191" startline="9827" endline="9838">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" compoundref="d9/dd0/a00191" startline="9809" endline="9815">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a0ec45f33976087a3fc7e4956c7d03ebf" compoundref="d9/dd0/a00191" startline="9790" endline="9795">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a3c039fd4397421b213985e41da5582d9" compoundref="d9/dd0/a00191" startline="10033" endline="10063">Describe</referencedby>
+        <referencedby refid="de/d1c/a01093_1ae49e756975ef40f6335a1862f4e689bc" compoundref="da/dec/a00080" startline="1577" endline="1577">GetNumChannels</referencedby>
+        <referencedby refid="de/d1c/a01093_1ab162bc67935c614b0768a67f26785a05" compoundref="d9/dd0/a00191" startline="9851" endline="9872">operator=</referencedby>
+        <referencedby refid="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" compoundref="d9/dd0/a00191" startline="9907" endline="9958">Read</referencedby>
+        <referencedby refid="de/d1c/a01093_1acb79496fc8f159096ca6894c49ffc2c9" compoundref="d9/dd0/a00191" startline="10080" endline="10117">Validate</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" compoundref="d9/dd0/a00191" startline="9974" endline="10020">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" prot="protected" static="no" mutable="no">
+        <type><ref refid="da/dec/a00080_1a13727bdb7c5f46cc4c23c7ecf04902ef" kindref="member">CIccResponse16List</ref> *</type>
+        <definition>CIccResponse16List* CIccResponseCurveStruct::m_Response16ListArray</definition>
+        <argsstring></argsstring>
+        <name>m_Response16ListArray</name>
+        <qualifiedname>CIccResponseCurveStruct::m_Response16ListArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1588" column="22" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1588" bodyend="-1"/>
+        <referencedby refid="de/d1c/a01093_1a5ced2625c22492ebb0345ccc8e581c05" compoundref="d9/dd0/a00191" startline="9827" endline="9838">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" compoundref="d9/dd0/a00191" startline="9809" endline="9815">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a0ec45f33976087a3fc7e4956c7d03ebf" compoundref="d9/dd0/a00191" startline="9790" endline="9795">CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a697224d8227229b2599b020c9b51fea9" compoundref="d9/dd0/a00191" startline="9883" endline="9890">~CIccResponseCurveStruct</referencedby>
+        <referencedby refid="de/d1c/a01093_1a3c039fd4397421b213985e41da5582d9" compoundref="d9/dd0/a00191" startline="10033" endline="10063">Describe</referencedby>
+        <referencedby refid="de/d1c/a01093_1a46df36e8173cd120753669bd1992c2ba" compoundref="da/dec/a00080" startline="1580" endline="1580">GetResponseList</referencedby>
+        <referencedby refid="de/d1c/a01093_1ab162bc67935c614b0768a67f26785a05" compoundref="d9/dd0/a00191" startline="9851" endline="9872">operator=</referencedby>
+        <referencedby refid="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" compoundref="d9/dd0/a00191" startline="9907" endline="9958">Read</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" compoundref="d9/dd0/a00191" startline="9974" endline="10020">Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d1c/a01093_1a5ced2625c22492ebb0345ccc8e581c05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccResponseCurveStruct::CIccResponseCurveStruct</definition>
+        <argsstring>(const CIccResponseCurveStruct &amp;IRCS)</argsstring>
+        <name>CIccResponseCurveStruct</name>
+        <qualifiedname>CIccResponseCurveStruct::CIccResponseCurveStruct</qualifiedname>
+        <param>
+          <type>const <ref refid="de/d1c/a01093" kindref="compound">CIccResponseCurveStruct</ref> &amp;</type>
+          <declname>IRCS</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" kindref="member">CIccResponseCurveStruct::CIccResponseCurveStruct</ref></para>
+<para>Purpose: Copy Constructor</para>
+<para>Args: IRCS = The <ref refid="d3/da5/a00973" kindref="compound">CIccTagUnknown</ref> object to be copied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1568" column="3" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9827" bodyend="9838"/>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1aed3308853a6772a73cfd7512e34d7abc" compoundref="da/dec/a00080" startline="1586">m_measurementUnitSig</references>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccResponseCurveStruct::CIccResponseCurveStruct</definition>
+        <argsstring>(icMeasurementUnitSig sig, icUInt16Number nChannels=0)</argsstring>
+        <name>CIccResponseCurveStruct</name>
+        <qualifiedname>CIccResponseCurveStruct::CIccResponseCurveStruct</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78" kindref="member">icMeasurementUnitSig</ref></type>
+          <declname>sig</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nChannels</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" kindref="member">CIccResponseCurveStruct::CIccResponseCurveStruct</ref></para>
+<para>Purpose: Constructor</para>
+<para>Args: sig = measurement unit signature indicating the type of measurement data, nChannels = number of channels </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1565" column="3" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9809" bodyend="9815"/>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1aed3308853a6772a73cfd7512e34d7abc" compoundref="da/dec/a00080" startline="1586">m_measurementUnitSig</references>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+        <referencedby refid="de/d99/a01101_1aec2bae23ce6ac16e3a7eb6942ea56137" compoundref="d9/dd0/a00191" startline="10410" endline="10427">CIccTagResponseCurveSet16::NewResponseCurves</referencedby>
+        <referencedby refid="da/d6c/a01921_1a28ee8a1b0496d7c25a3f4ad7d2f95331" compoundref="d0/d27/a00239" startline="2424" endline="2494">CIccTagXmlResponseCurveSet16::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1a0ec45f33976087a3fc7e4956c7d03ebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccResponseCurveStruct::CIccResponseCurveStruct</definition>
+        <argsstring>(icUInt16Number nChannels=0)</argsstring>
+        <name>CIccResponseCurveStruct</name>
+        <qualifiedname>CIccResponseCurveStruct::CIccResponseCurveStruct</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nChannels</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" kindref="member">CIccResponseCurveStruct::CIccResponseCurveStruct</ref></para>
+<para>Purpose: Constructor</para>
+<para>Args: nChannels = number of channels </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1566" column="3" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9790" bodyend="9795"/>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+        <referencedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2" compoundref="d9/dd0/a00191" startline="10217" endline="10275">CIccTagResponseCurveSet16::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1a697224d8227229b2599b020c9b51fea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccResponseCurveStruct::~CIccResponseCurveStruct</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccResponseCurveStruct</name>
+        <qualifiedname>CIccResponseCurveStruct::~CIccResponseCurveStruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1a697224d8227229b2599b020c9b51fea9" kindref="member">CIccResponseCurveStruct::~CIccResponseCurveStruct</ref></para>
+<para>Purpose: Destructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1570" column="11" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9883" bodyend="9890"/>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1a3c039fd4397421b213985e41da5582d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccResponseCurveStruct::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccResponseCurveStruct::Describe</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1a3c039fd4397421b213985e41da5582d9" kindref="member">CIccResponseCurveStruct::Describe</ref></para>
+<para>Purpose: Dump data associated with the tag to a string</para>
+<para>Args: sDescription - string to concatenate tag dump to </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1574" column="8" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="10033" bodyend="10063"/>
+        <references refid="db/d44/a00533_1a7e80d3e501c149262e93c696609d23c6" compoundref="d7/d46/a00002" startline="1454">icResponse16Number::deviceCode</references>
+        <references refid="de/d1c/a01093_1a14218873625632bb9d5d2a7d1422d4a6" compoundref="da/dec/a00080" startline="1576" endline="1576">GetMeasurementType</references>
+        <references refid="dc/d2f/a00425_1a6a30f40247f6ad22584608fbd00ff89a" compoundref="d5/db1/a00140" startline="2247" endline="2290">CIccInfo::GetMeasurementUnit</references>
+        <references refid="d7/dce/a00143_1a52fc751ce015924f9655f8288813a02c" compoundref="d5/db1/a00140" startline="559" endline="564">icFtoD</references>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+        <references refid="db/d44/a00533_1a80d52a40abb50f8226588744a177b4dd" compoundref="d7/d46/a00002" startline="1456">icResponse16Number::measurementValue</references>
+        <references refid="d8/dc7/a00517_1a8a82647ad953c198665aee9e3b659ea7" compoundref="d7/d46/a00002" startline="1429">icXYZNumber::X</references>
+        <references refid="d8/dc7/a00517_1a3e75b8d208a5e4c55eac077643bc7689" compoundref="d7/d46/a00002" startline="1430">icXYZNumber::Y</references>
+        <references refid="d8/dc7/a00517_1a8753b09e8d550ace7d30a0af5d0e7ab3" compoundref="d7/d46/a00002" startline="1431">icXYZNumber::Z</references>
+        <referencedby refid="de/d99/a01101_1acc083445890f09a651b8ec4260ad8a75" compoundref="d9/dd0/a00191" startline="10356" endline="10376">CIccTagResponseCurveSet16::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1a14218873625632bb9d5d2a7d1422d4a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78" kindref="member">icMeasurementUnitSig</ref></type>
+        <definition>icMeasurementUnitSig CIccResponseCurveStruct::GetMeasurementType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMeasurementType</name>
+        <qualifiedname>CIccResponseCurveStruct::GetMeasurementType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1576" column="24" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1576" bodyend="1576"/>
+        <references refid="de/d1c/a01093_1aed3308853a6772a73cfd7512e34d7abc" compoundref="da/dec/a00080" startline="1586">m_measurementUnitSig</references>
+        <referencedby refid="de/d1c/a01093_1a3c039fd4397421b213985e41da5582d9" compoundref="d9/dd0/a00191" startline="10033" endline="10063">Describe</referencedby>
+        <referencedby refid="de/d99/a01101_1ab9f0f14a0b93313636008a8c123fdbe7" compoundref="d9/dd0/a00191" startline="10440" endline="10453">CIccTagResponseCurveSet16::GetResponseCurves</referencedby>
+        <referencedby refid="da/d6c/a01921_1a96a45c1c394648ad89e8c34ad56ccd67" compoundref="d0/d27/a00239" startline="2382" endline="2421">CIccTagXmlResponseCurveSet16::ToXml</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" compoundref="d9/dd0/a00191" startline="9974" endline="10020">Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1ae49e756975ef40f6335a1862f4e689bc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccResponseCurveStruct::GetNumChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumChannels</name>
+        <qualifiedname>CIccResponseCurveStruct::GetNumChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1577" column="18" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1577" bodyend="1577"/>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <referencedby refid="da/d6c/a01921_1a96a45c1c394648ad89e8c34ad56ccd67" compoundref="d0/d27/a00239" startline="2382" endline="2421">CIccTagXmlResponseCurveSet16::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1a46df36e8173cd120753669bd1992c2ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dec/a00080_1a13727bdb7c5f46cc4c23c7ecf04902ef" kindref="member">CIccResponse16List</ref> *</type>
+        <definition>CIccResponse16List * CIccResponseCurveStruct::GetResponseList</definition>
+        <argsstring>(icUInt16Number nChannel)</argsstring>
+        <name>GetResponseList</name>
+        <qualifiedname>CIccResponseCurveStruct::GetResponseList</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nChannel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1580" column="22" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1580" bodyend="1580"/>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+        <referencedby refid="da/d6c/a01921_1a28ee8a1b0496d7c25a3f4ad7d2f95331" compoundref="d0/d27/a00239" startline="2424" endline="2494">CIccTagXmlResponseCurveSet16::ParseXml</referencedby>
+        <referencedby refid="da/d6c/a01921_1a96a45c1c394648ad89e8c34ad56ccd67" compoundref="d0/d27/a00239" startline="2382" endline="2421">CIccTagXmlResponseCurveSet16::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1afab606ee75abde427fadd876f55be6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="de/d1c/a01093" kindref="compound">CIccResponseCurveStruct</ref> *</type>
+        <definition>CIccResponseCurveStruct * CIccResponseCurveStruct::GetThis</definition>
+        <argsstring>()</argsstring>
+        <name>GetThis</name>
+        <qualifiedname>CIccResponseCurveStruct::GetThis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1581" column="27" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1581" bodyend="1581"/>
+        <referencedby refid="de/d99/a01101_1a5aea7d7a29ae6f761be2e6dc32a4d4fb" compoundref="d9/dd0/a00191" startline="10464" endline="10476">CIccTagResponseCurveSet16::GetFirstCurves</referencedby>
+        <referencedby refid="de/d99/a01101_1a64b3cdb0f6f869c71c4f8823af57bc4e" compoundref="d9/dd0/a00191" startline="10488" endline="10499">CIccTagResponseCurveSet16::GetNextCurves</referencedby>
+        <referencedby refid="de/d99/a01101_1ab9f0f14a0b93313636008a8c123fdbe7" compoundref="d9/dd0/a00191" startline="10440" endline="10453">CIccTagResponseCurveSet16::GetResponseCurves</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1af82534216bfb33915324e785168bcf41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/dc7/a00517" kindref="compound">icXYZNumber</ref> *</type>
+        <definition>icXYZNumber * CIccResponseCurveStruct::GetXYZ</definition>
+        <argsstring>(icUInt32Number index)</argsstring>
+        <name>GetXYZ</name>
+        <qualifiedname>CIccResponseCurveStruct::GetXYZ</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1579" column="15" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1579" bodyend="1579"/>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <referencedby refid="da/d6c/a01921_1a28ee8a1b0496d7c25a3f4ad7d2f95331" compoundref="d0/d27/a00239" startline="2424" endline="2494">CIccTagXmlResponseCurveSet16::ParseXml</referencedby>
+        <referencedby refid="da/d6c/a01921_1a96a45c1c394648ad89e8c34ad56ccd67" compoundref="d0/d27/a00239" startline="2382" endline="2421">CIccTagXmlResponseCurveSet16::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1ab162bc67935c614b0768a67f26785a05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d1c/a01093" kindref="compound">CIccResponseCurveStruct</ref> &amp;</type>
+        <definition>CIccResponseCurveStruct &amp; CIccResponseCurveStruct::operator=</definition>
+        <argsstring>(const CIccResponseCurveStruct &amp;RespCurveStruct)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccResponseCurveStruct::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="de/d1c/a01093" kindref="compound">CIccResponseCurveStruct</ref> &amp;</type>
+          <declname>RespCurveStruct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1ab162bc67935c614b0768a67f26785a05" kindref="member">CIccResponseCurveStruct::operator=</ref></para>
+<para>Purpose: Copy Operator</para>
+<para>Args: RespCurveStruct = The <ref refid="de/d1c/a01093" kindref="compound">CIccResponseCurveStruct</ref> object to be copied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1569" column="27" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9851" bodyend="9872"/>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1aed3308853a6772a73cfd7512e34d7abc" compoundref="da/dec/a00080" startline="1586">m_measurementUnitSig</references>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+        <referencedby refid="de/d99/a01101_1aec2bae23ce6ac16e3a7eb6942ea56137" compoundref="d9/dd0/a00191" startline="10410" endline="10427">CIccTagResponseCurveSet16::NewResponseCurves</referencedby>
+        <referencedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2" compoundref="d9/dd0/a00191" startline="10217" endline="10275">CIccTagResponseCurveSet16::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccResponseCurveStruct::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccResponseCurveStruct::Read</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" kindref="member">CIccResponseCurveStruct::Read</ref></para>
+<para>Purpose: Read in the tag contents into a data block</para>
+<para>Args: size - # of bytes in tag, pIO - IO object to read tag from</para>
+<para>Return: true = successful, false = failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1572" column="8" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9907" bodyend="9958"/>
+        <references refid="db/d44/a00533_1a7e80d3e501c149262e93c696609d23c6" compoundref="d7/d46/a00002" startline="1454">icResponse16Number::deviceCode</references>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1aed3308853a6772a73cfd7512e34d7abc" compoundref="da/dec/a00080" startline="1586">m_measurementUnitSig</references>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+        <references refid="db/d44/a00533_1a80d52a40abb50f8226588744a177b4dd" compoundref="d7/d46/a00002" startline="1456">icResponse16Number::measurementValue</references>
+        <references refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">CIccIO::Read16</references>
+        <references refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">CIccIO::Read32</references>
+        <references refid="db/d44/a00533_1ae2252761c8b3a171992a3ed7054fc7d4" compoundref="d7/d46/a00002" startline="1455">icResponse16Number::reserved</references>
+        <referencedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2" compoundref="d9/dd0/a00191" startline="10217" endline="10275">CIccTagResponseCurveSet16::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1acb79496fc8f159096ca6894c49ffc2c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccResponseCurveStruct::Validate</definition>
+        <argsstring>(std::string &amp;sReport)</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccResponseCurveStruct::Validate</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1acb79496fc8f159096ca6894c49ffc2c9" kindref="member">CIccResponseCurveStruct::Validate</ref></para>
+<para>Purpose: Check tag data validity.</para>
+<para>Args: sig = signature of tag being validated, sReport = String to add report information to</para>
+<para>Return: icValidateStatusOK if valid, or other error status. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1582" column="20" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="10080" bodyend="10117"/>
+        <references refid="dc/d2f/a00425_1a9207beabfef2f9bf347b7b835e768004" compoundref="d5/db1/a00140" startline="2337" endline="2363">CIccInfo::CheckData</references>
+        <references refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">CIccInfo::GetSigName</references>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1afc544e4cf29049a9dade4afa39fe5583" compoundref="d5/db1/a00140" startline="91">icMsgValidateNonCompliant</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a8cfe99677b174541f071898ac1ae227f" compoundref="d7/d46/a00002" startline="1283">icSigDN</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78ae7f4fe5da63530727a71394766d77ad1" compoundref="d7/d46/a00002" startline="1285">icSigDNN</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a3914cfba84254bdb2dd6dfc0cf46dcff" compoundref="d7/d46/a00002" startline="1286">icSigDNNP</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78ad2ba89e0bbbe0e28f25f12bbceb22829" compoundref="d7/d46/a00002" startline="1284">icSigDNP</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a7a34807a4459a7fcedbfdacdc0fb4f78" compoundref="d7/d46/a00002" startline="1278">icSigStatusA</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a29cdd67a1f54a822c763942a4d9971a2" compoundref="d7/d46/a00002" startline="1279">icSigStatusE</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a28246c0327d46c333395de46ee37edab" compoundref="d7/d46/a00002" startline="1280">icSigStatusI</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78afb573c4a707be32fd465bae2e063aaab" compoundref="d7/d46/a00002" startline="1282">icSigStatusM</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78aa110dfae73978c9afab842b1d74320df" compoundref="d7/d46/a00002" startline="1281">icSigStatusT</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964afb5bd0ed92cee1ec73bc11b9f50a7e19" compoundref="d4/d81/a00110" startline="121">icValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1aed3308853a6772a73cfd7512e34d7abc" compoundref="da/dec/a00080" startline="1586">m_measurementUnitSig</references>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <referencedby refid="de/d99/a01101_1a025f795911a18435967649ccac38f3a2" compoundref="d9/dd0/a00191" startline="10530" endline="10565">CIccTagResponseCurveSet16::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccResponseCurveStruct::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccResponseCurveStruct::Write</qualifiedname>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" kindref="member">CIccResponseCurveStruct::Write</ref></para>
+<para>Purpose: Write the tag to a file</para>
+<para>Args: pIO - The IO object to write tag to.</para>
+<para>Return: true = succesful, false = failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1573" column="8" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9974" bodyend="10020"/>
+        <references refid="db/d44/a00533_1a7e80d3e501c149262e93c696609d23c6" compoundref="d7/d46/a00002" startline="1454">icResponse16Number::deviceCode</references>
+        <references refid="de/d1c/a01093_1a14218873625632bb9d5d2a7d1422d4a6" compoundref="da/dec/a00080" startline="1576" endline="1576">GetMeasurementType</references>
+        <references refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" compoundref="da/dec/a00080" startline="1587">m_maxColorantXYZ</references>
+        <references refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" compoundref="da/dec/a00080" startline="1585">m_nChannels</references>
+        <references refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" compoundref="da/dec/a00080" startline="1588">m_Response16ListArray</references>
+        <references refid="db/d44/a00533_1a80d52a40abb50f8226588744a177b4dd" compoundref="d7/d46/a00002" startline="1456">icResponse16Number::measurementValue</references>
+        <references refid="db/d44/a00533_1ae2252761c8b3a171992a3ed7054fc7d4" compoundref="d7/d46/a00002" startline="1455">icResponse16Number::reserved</references>
+        <references refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" compoundref="d9/d2e/a00056" startline="122" endline="141">CIccIO::Write16</references>
+        <references refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" compoundref="d9/d2e/a00056" startline="152" endline="171">CIccIO::Write32</references>
+        <referencedby refid="de/d99/a01101_1ae5098d34ecc43ea5166662d3650f9e06" compoundref="d9/dd0/a00191" startline="10291" endline="10343">CIccTagResponseCurveSet16::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Data Class: <ref refid="de/d1c/a01093" kindref="compound">CIccResponseCurveStruct</ref></para>
+<para>Purpose: The base class for response curve structure </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccResponseCurveStruct</label>
+        <link refid="de/d1c/a01093"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_maxColorantXYZ</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icXYZNumber</label>
+        <link refid="d8/dc7/a00517"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagBasic.h" line="1561" column="1" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1562" bodyend="1589"/>
+    <listofallmembers>
+      <member refid="de/d1c/a01093_1a1151a8b9f87514276684385552eaa2da" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>CIccResponseCurveStruct</name></member>
+      <member refid="de/d1c/a01093_1a0ec45f33976087a3fc7e4956c7d03ebf" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>CIccResponseCurveStruct</name></member>
+      <member refid="de/d1c/a01093_1a5ced2625c22492ebb0345ccc8e581c05" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>CIccResponseCurveStruct</name></member>
+      <member refid="de/d1c/a01093_1a24b1be2136b50a87abb4662528e886c3" prot="private" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>CIccTagResponseCurveSet16</name></member>
+      <member refid="de/d1c/a01093_1a3c039fd4397421b213985e41da5582d9" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>Describe</name></member>
+      <member refid="de/d1c/a01093_1a14218873625632bb9d5d2a7d1422d4a6" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>GetMeasurementType</name></member>
+      <member refid="de/d1c/a01093_1ae49e756975ef40f6335a1862f4e689bc" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>GetNumChannels</name></member>
+      <member refid="de/d1c/a01093_1a46df36e8173cd120753669bd1992c2ba" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>GetResponseList</name></member>
+      <member refid="de/d1c/a01093_1afab606ee75abde427fadd876f55be6ad" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>GetThis</name></member>
+      <member refid="de/d1c/a01093_1af82534216bfb33915324e785168bcf41" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>GetXYZ</name></member>
+      <member refid="de/d1c/a01093_1a5e62b0d1221783e34b44aca214874cdb" prot="protected" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>m_maxColorantXYZ</name></member>
+      <member refid="de/d1c/a01093_1aed3308853a6772a73cfd7512e34d7abc" prot="protected" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>m_measurementUnitSig</name></member>
+      <member refid="de/d1c/a01093_1a4d44d66e59a6c01c3fffc39b2bc9147a" prot="protected" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>m_nChannels</name></member>
+      <member refid="de/d1c/a01093_1ab8d3fe04f86356d086f9e5a881113fff" prot="protected" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>m_Response16ListArray</name></member>
+      <member refid="de/d1c/a01093_1ab162bc67935c614b0768a67f26785a05" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>operator=</name></member>
+      <member refid="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>Read</name></member>
+      <member refid="de/d1c/a01093_1acb79496fc8f159096ca6894c49ffc2c9" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>Validate</name></member>
+      <member refid="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" prot="public" virt="non-virtual"><scope>CIccResponseCurveStruct</scope><name>Write</name></member>
+      <member refid="de/d1c/a01093_1a697224d8227229b2599b020c9b51fea9" prot="public" virt="virtual"><scope>CIccResponseCurveStruct</scope><name>~CIccResponseCurveStruct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,840 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d40/a00236" kind="file" language="C++">
+    <compoundname>IccMpeXml.h</compoundname>
+    <includes refid="d2/de7/a00014" local="yes">IccMpeBasic.h</includes>
+    <includes refid="d6/d7d/a00161" local="yes">IccMpeACS.h</includes>
+    <includes refid="d5/de0/a00050" local="yes">IccMpeCalc.h</includes>
+    <includes refid="d3/de5/a00209" local="yes">IccMpeSpectral.h</includes>
+    <includes local="no">libxml/parser.h</includes>
+    <includes local="no">libxml/tree.h</includes>
+    <includes local="no">map</includes>
+    <includedby refid="dd/dd7/a00260" local="yes">IccXML/IccLibXML/IccMpeXml.cpp</includedby>
+    <includedby refid="d6/d22/a00245" local="yes">IccXML/IccLibXML/IccMpeXmlFactory.cpp</includedby>
+    <includedby refid="d0/d27/a00239" local="yes">IccXML/IccLibXML/IccTagXml.cpp</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>IccIO.h</label>
+        <link refid="df/d6a/a00119"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>IccMpeACS.h</label>
+        <link refid="d6/d7d/a00161"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IccMpeBasic.h</label>
+        <link refid="d2/de7/a00014"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>IccMpeCalc.h</label>
+        <link refid="d5/de0/a00050"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>IccMpeSpectral.h</label>
+        <link refid="d3/de5/a00209"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IccPcc.h</label>
+        <link refid="d4/d3a/a00101"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>IccProfile.h</label>
+        <link refid="d4/d51/a00017"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>IccSolve.h</label>
+        <link refid="d3/d52/a00023"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IccTag.h</label>
+        <link refid="d2/df5/a00137"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>IccTagBasic.h</label>
+        <link refid="da/dec/a00080"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>IccTagComposite.h</label>
+        <link refid="d1/da8/a00230"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>IccTagDict.h</label>
+        <link refid="df/d03/a00062"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>IccTagEmbedIcc.h</label>
+        <link refid="dc/d9a/a00218"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IccTagFactory.h</label>
+        <link refid="d8/d41/a00038"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IccTagLut.h</label>
+        <link refid="da/d24/a00068"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccTagMPE.h</label>
+        <link refid="d7/d25/a00182"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>IccTagProfSeqId.h</label>
+        <link refid="d5/df1/a00206"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="1">
+        <label>IccXML/IccLibXML/IccMpeXml.h</label>
+        <link refid="d7/d40/a00236"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>libxml/parser.h</label>
+      </node>
+      <node id="30">
+        <label>libxml/tree.h</label>
+      </node>
+      <node id="13">
+        <label>list</label>
+      </node>
+      <node id="31">
+        <label>map</label>
+      </node>
+      <node id="19">
+        <label>memory</label>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+      <node id="11">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="27">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>IccXML/IccLibXML/IccMpeXml.cpp</label>
+        <link refid="dd/dd7/a00260"/>
+      </node>
+      <node id="1">
+        <label>IccXML/IccLibXML/IccMpeXml.h</label>
+        <link refid="d7/d40/a00236"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccXML/IccLibXML/IccMpeXmlFactory.cpp</label>
+        <link refid="d6/d22/a00245"/>
+      </node>
+      <node id="4">
+        <label>IccXML/IccLibXML/IccTagXml.cpp</label>
+        <link refid="d0/d27/a00239"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d8/d5a/a02049" prot="public">CIccMpePtr</innerclass>
+    <innerclass refid="d0/dc1/a01993" prot="public">CIccMpeXml</innerclass>
+    <innerclass refid="d6/d94/a02033" prot="public">CIccMpeXmlBAcs</innerclass>
+    <innerclass refid="d8/de6/a02061" prot="public">CIccMpeXmlCalculator</innerclass>
+    <innerclass refid="da/d3e/a02025" prot="public">CIccMpeXmlCLUT</innerclass>
+    <innerclass refid="d3/d39/a02005" prot="public">CIccMpeXmlCurveSet</innerclass>
+    <innerclass refid="dd/dfc/a02037" prot="public">CIccMpeXmlEAcs</innerclass>
+    <innerclass refid="de/df8/a02073" prot="public">CIccMpeXmlEmissionCLUT</innerclass>
+    <innerclass refid="d0/d67/a02065" prot="public">CIccMpeXmlEmissionMatrix</innerclass>
+    <innerclass refid="d2/d50/a02081" prot="public">CIccMpeXmlEmissionObserver</innerclass>
+    <innerclass refid="d6/d19/a02029" prot="public">CIccMpeXmlExtCLUT</innerclass>
+    <innerclass refid="d3/d48/a02069" prot="public">CIccMpeXmlInvEmissionMatrix</innerclass>
+    <innerclass refid="d3/dea/a02041" prot="public">CIccMpeXmlJabToXYZ</innerclass>
+    <innerclass refid="d8/d45/a02021" prot="public">CIccMpeXmlMatrix</innerclass>
+    <innerclass refid="db/dac/a02077" prot="public">CIccMpeXmlReflectanceCLUT</innerclass>
+    <innerclass refid="d2/dde/a02085" prot="public">CIccMpeXmlReflectanceObserver</innerclass>
+    <innerclass refid="d8/d98/a02009" prot="public">CIccMpeXmlTintArray</innerclass>
+    <innerclass refid="d0/dfd/a02017" prot="public">CIccMpeXmlToneMap</innerclass>
+    <innerclass refid="d0/d2b/a01997" prot="public">CIccMpeXmlUnknown</innerclass>
+    <innerclass refid="d7/d13/a02045" prot="public">CIccMpeXmlXYZToJab</innerclass>
+    <innerclass refid="d8/d24/a02001" prot="public">CIccSegmentedCurveXml</innerclass>
+    <innerclass refid="d2/dea/a02057" prot="public">CIccTempDeclVar</innerclass>
+    <innerclass refid="d0/d55/a02053" prot="public">CIccTempVar</innerclass>
+    <innerclass refid="d1/dc5/a02013" prot="public">CIccXmlToneMapFunc</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d7/d40/a00236_1ac3f57cde7eaff3d84e3bb7dfa6483cdf" prot="public" static="no">
+        <type>std::map&lt; std::string, <ref refid="d7/d40/a00236_1ac19a426da54464a439ac8ca65dd44e94" kindref="member">IndexSizePair</ref> &gt;</type>
+        <definition>typedef std::map&lt;std::string, IndexSizePair&gt; ChanVarMap</definition>
+        <argsstring></argsstring>
+        <name>ChanVarMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="283" column="18" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/d40/a00236_1ac19a426da54464a439ac8ca65dd44e94" prot="public" static="no">
+        <type>std::pair&lt; int, int &gt;</type>
+        <definition>typedef std::pair&lt;int, int&gt; IndexSizePair</definition>
+        <argsstring></argsstring>
+        <name>IndexSizePair</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="282" column="19" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/d40/a00236_1a769bcf800eb551d4b2aac6e7590b39b9" prot="public" static="no">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>typedef std::map&lt;std::string, std::string&gt; MacroMap</definition>
+        <argsstring></argsstring>
+        <name>MacroMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="299" column="18" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/d40/a00236_1a0476dbf6fba7fa0bb68fc59987f6550c" prot="public" static="no">
+        <type>std::list&lt; <ref refid="d8/d5a/a02049" kindref="compound">CIccMpePtr</ref> &gt;</type>
+        <definition>typedef std::list&lt;CIccMpePtr&gt; MpePtrList</definition>
+        <argsstring></argsstring>
+        <name>MpePtrList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="268" column="19" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/d40/a00236_1aff4f5f8e405b340d5d9848aa5ebff4f1" prot="public" static="no">
+        <type>std::map&lt; std::string, <ref refid="d8/d5a/a02049" kindref="compound">CIccMpePtr</ref> &gt;</type>
+        <definition>typedef std::map&lt;std::string, CIccMpePtr&gt; MpePtrMap</definition>
+        <argsstring></argsstring>
+        <name>MpePtrMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="267" column="18" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/d40/a00236_1ab6f988da904ae917707a7300ed91bb60" prot="public" static="no">
+        <type>std::map&lt; std::string, <ref refid="d2/dea/a02057" kindref="compound">CIccTempDeclVar</ref> &gt;</type>
+        <definition>typedef std::map&lt;std::string, CIccTempDeclVar&gt; TempDeclVarMap</definition>
+        <argsstring></argsstring>
+        <name>TempDeclVarMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="297" column="18" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/d40/a00236_1a747fc133c3d46f1a0ec38c08ec4d15fc" prot="public" static="no">
+        <type>std::list&lt; <ref refid="d0/d55/a02053" kindref="compound">CIccTempVar</ref> &gt;</type>
+        <definition>typedef std::list&lt;CIccTempVar&gt; TempVarList</definition>
+        <argsstring></argsstring>
+        <name>TempVarList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="281" column="19" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d7/d40/a00236_1acd8c40557fee1ab74e52685809e21082" prot="public" static="no">
+        <type>std::map&lt; std::string, <ref refid="d0/d55/a02053" kindref="compound">CIccTempVar</ref> &gt;</type>
+        <definition>typedef std::map&lt;std::string, CIccTempVar&gt; TempVarMap</definition>
+        <argsstring></argsstring>
+        <name>TempVarMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="280" column="18" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="d7/d40/a00236" kindref="compound">IccMpeXml.h</ref></para>
+<para>Contains: Header for implementation of <ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref> class and creation factories</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_ICCMPEXML_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_ICCMPEXML_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/de7/a00014" kindref="compound">IccMpeBasic.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d6/d7d/a00161" kindref="compound">IccMpeACS.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/de0/a00050" kindref="compound">IccMpeCalc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d3/de5/a00209" kindref="compound">IccMpeSpectral.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/parser.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/tree.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="d0/dc1/a01993" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="79" refid="d0/dc1/a01993_1a272a8b925cc2c9732e3c8af0bd4e415b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993_1a272a8b925cc2c9732e3c8af0bd4e415b" kindref="member">~CIccMpeXml</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="d0/dc1/a01993_1aa4c60bf9aed85f83e0fd39c8171b2f16" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993_1aa4c60bf9aed85f83e0fd39c8171b2f16" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="82" refid="d0/dc1/a01993_1a0f0a4efab7609af9589966f5f2dce20b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993_1a0f0a4efab7609af9589966f5f2dce20b" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="d0/dc1/a01993_1af05f90c831e553e88257f725a0cef8fb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d0/dc1/a01993_1af05f90c831e553e88257f725a0cef8fb" kindref="member">GetExtClassName</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXml&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="d0/d2b/a01997" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d2b/a01997" kindref="compound">CIccMpeXmlUnknown</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="de/df7/a01201" kindref="compound">CIccMpeUnknown</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="90" refid="d0/d2b/a01997_1aba151ef23fcdc080b506f0b28946e66d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d0/d2b/a01997_1aba151ef23fcdc080b506f0b28946e66d" kindref="member">~CIccMpeXmlUnknown</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="d0/d2b/a01997_1a612df3680f12675bbad495406d5b7b60" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d0/d2b/a01997_1a612df3680f12675bbad495406d5b7b60" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccTagXmlUnknown&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="d0/d2b/a01997_1af2a434cbb79cd0a6083176e5968f65c5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d0/d2b/a01997_1af2a434cbb79cd0a6083176e5968f65c5" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/d2b/a01997_1afc27f607d1f137b32dad65b538714536" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/d2b/a01997_1afd0de293c04c43de441a2152e800cf66" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="d8/d24/a02001" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d24/a02001" kindref="compound">CIccSegmentedCurveXml</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/dea/a00829" kindref="compound">CIccSegmentedCurve</ref></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d24/a02001_1ab1fc0f80a377b5eb7875e6ac1682af3f" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks</highlight><highlight class="comment">/*<sp/>=<sp/>&quot;&quot;*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d24/a02001_1a2bc340753a906c5ac56b9c546359f436" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="d3/d39/a02005" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d39/a02005" kindref="compound">CIccMpeXmlCurveSet</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d5/dac/a00841" kindref="compound">CIccMpeCurveSet</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="112" refid="d3/d39/a02005_1a17da474ef205fd3bb3f0b76788b05ebc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d39/a02005_1a17da474ef205fd3bb3f0b76788b05ebc" kindref="member">~CIccMpeXmlCurveSet</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="d3/d39/a02005_1a08fb8c88937b9113f5334bc408b1a6a9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d3/d39/a02005_1a08fb8c88937b9113f5334bc408b1a6a9" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlCurveSet&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="d3/d39/a02005_1ae7bf78f831181e6805ba53db10d9b362" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d3/d39/a02005_1ae7bf78f831181e6805ba53db10d9b362" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d3/d39/a02005_1a858989c2f13b9b4047f8b4675efb49fd" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d3/d39/a02005_1ab416b1d359f1a1d001a83ceeb3f579d1" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//virtual<sp/>CIccCurveSetCurve*<sp/>CreateCurve(icCurveElemSignature<sp/>sig);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="d8/d98/a02009" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d98/a02009" kindref="compound">CIccMpeXmlTintArray</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/dcf/a00845" kindref="compound">CIccMpeTintArray</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="128" refid="d8/d98/a02009_1af3fcffacbc3e3b7b8a8bb9164f181b25" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d8/d98/a02009_1af3fcffacbc3e3b7b8a8bb9164f181b25" kindref="member">~CIccMpeXmlTintArray</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="d8/d98/a02009_1a9f3b0ae1ef8cd523a2e76707de74489c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d8/d98/a02009_1a9f3b0ae1ef8cd523a2e76707de74489c" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlTintArray&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="d8/d98/a02009_1a4468c2515a3ebbbea8ac96baa8ba6625" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d8/d98/a02009_1a4468c2515a3ebbbea8ac96baa8ba6625" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="d1/dc5/a02013" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/dc5/a02013" kindref="compound">CIccXmlToneMapFunc</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="de/d37/a00849" kindref="compound">CIccToneMapFunc</ref></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="141" refid="d1/dc5/a02013_1a9e33a87df6b5c09a1770d111e9e41df9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d1/dc5/a02013_1a9e33a87df6b5c09a1770d111e9e41df9" kindref="member">~CIccXmlToneMapFunc</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="de/d37/a00849" kindref="compound">CIccToneMapFunc</ref>*<sp/><ref refid="d1/dc5/a02013_1a07ede53ed5ea8f9e89bebc91ae8e9c3c" kindref="member">NewCopy</ref>();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="d1/dc5/a02013_1a1831ec35fcac1bf837e686205423de86" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="d1/dc5/a02013_1a1831ec35fcac1bf837e686205423de86" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccXmlToneMapFunc&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d1/dc5/a02013_1ad507a27e2fd2f879f9afbe1c26071798" kindref="member">ToXml</ref>(std::string&amp;<sp/>xml,<sp/>std::string<sp/>blanks<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d1/dc5/a02013_1a67d52136c7b6a56968bfab8d22dfecb6" kindref="member">ParseXml</ref>(xmlNode*<sp/>pNode,<sp/>std::string&amp;<sp/>parseStr);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="d0/dfd/a02017" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/dfd/a02017" kindref="compound">CIccMpeXmlToneMap</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="db/deb/a00853" kindref="compound">CIccMpeToneMap</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="154" refid="d0/dfd/a02017_1a0be1a7cf4fa92c12e613b2b6cf0f416b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d0/dfd/a02017_1a0be1a7cf4fa92c12e613b2b6cf0f416b" kindref="member">~CIccMpeXmlToneMap</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="d0/dfd/a02017_1a6a2f4fe18ddb7a52f1f7606ab722789b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="d0/dfd/a02017_1a6a2f4fe18ddb7a52f1f7606ab722789b" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlToneMap&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="d0/dfd/a02017_1adf813eff4decfe0bed09079ae73c2924" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="de/d37/a00849" kindref="compound">CIccToneMapFunc</ref>*<sp/><ref refid="d0/dfd/a02017_1adf813eff4decfe0bed09079ae73c2924" kindref="member">NewToneMapFunc</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d1/dc5/a02013" kindref="compound">CIccXmlToneMapFunc</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="d0/dfd/a02017_1a0c490124ab5dfe5a1dcfad58a7930fa0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref>*<sp/><ref refid="d0/dfd/a02017_1a0c490124ab5dfe5a1dcfad58a7930fa0" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/dfd/a02017_1a9efba74ea5302530c03ab16fc7737247" kindref="member">ToXml</ref>(std::string&amp;<sp/>xml,<sp/>std::string<sp/>blanks<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/dfd/a02017_1a37d0e2cd5456b14801f72b2181ccb94a" kindref="member">ParseXml</ref>(xmlNode*<sp/>pNode,<sp/>std::string&amp;<sp/>parseStr);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="d8/d45/a02021" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d45/a02021" kindref="compound">CIccMpeXmlMatrix</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d82/a00857" kindref="compound">CIccMpeMatrix</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="169" refid="d8/d45/a02021_1a6ceca19d8c46ab8b7725c5c5cf618e05" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d8/d45/a02021_1a6ceca19d8c46ab8b7725c5c5cf618e05" kindref="member">~CIccMpeXmlMatrix</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="d8/d45/a02021_1aac7ec04bda3f86e70631b6b857c32362" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d8/d45/a02021_1aac7ec04bda3f86e70631b6b857c32362" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlMatrix&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="d8/d45/a02021_1a5b549649c37530f252f1c2a4b0193140" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d8/d45/a02021_1a5b549649c37530f252f1c2a4b0193140" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d45/a02021_1ae853ea83404517db05911c48a9ba5034" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d45/a02021_1a1548b3217cbe964eab8e5bfff32af85b" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="da/d3e/a02025" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d3e/a02025" kindref="compound">CIccMpeXmlCLUT</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dd/dd5/a00861" kindref="compound">CIccMpeCLUT</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="180"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="182" refid="da/d3e/a02025_1a185c7b9bb13a9e594fc79f3c34b78ceb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="da/d3e/a02025_1a185c7b9bb13a9e594fc79f3c34b78ceb" kindref="member">~CIccMpeXmlCLUT</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="da/d3e/a02025_1aa7bf206ca3cc7b96179b7aa9a805a3e4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="da/d3e/a02025_1aa7bf206ca3cc7b96179b7aa9a805a3e4" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlCLUT&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="da/d3e/a02025_1a80e75726bc76099e3b364a151928e0d4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="da/d3e/a02025_1a80e75726bc76099e3b364a151928e0d4" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="da/d3e/a02025_1a6be0a6ac589d3e7ef65dea4771847ea3" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="da/d3e/a02025_1a12bdfaf73489d4043eaef10a429cff0a" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="d6/d19/a02029" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d19/a02029" kindref="compound">CIccMpeXmlExtCLUT</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d3/db2/a00869" kindref="compound">CIccMpeExtCLUT</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="195" refid="d6/d19/a02029_1acce1a1ecdf0eb61643f539a3c646b481" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d6/d19/a02029_1acce1a1ecdf0eb61643f539a3c646b481" kindref="member">~CIccMpeXmlExtCLUT</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="d6/d19/a02029_1af87cff9b33531a164a925df257a4c8d4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d6/d19/a02029_1af87cff9b33531a164a925df257a4c8d4" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlExtCLUT&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="d6/d19/a02029_1ac1fb81b0b4dc9358525d7b1c6de0acec" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d6/d19/a02029_1ac1fb81b0b4dc9358525d7b1c6de0acec" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d19/a02029_1a43c55f1b5cee810f8182340c359c61ee" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d19/a02029_1ad58a9eae57a40bbebbc8cfefe6f1e24f" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="d6/d94/a02033" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d94/a02033" kindref="compound">CIccMpeXmlBAcs</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/d1d/a01277" kindref="compound">CIccMpeBAcs</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="206"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="208" refid="d6/d94/a02033_1a8cc56763eb9e9f0164d03a3dcf420ab1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d6/d94/a02033_1a8cc56763eb9e9f0164d03a3dcf420ab1" kindref="member">~CIccMpeXmlBAcs</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="d6/d94/a02033_1a560a032e7fc7d04ae902aae1f07f1901" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d6/d94/a02033_1a560a032e7fc7d04ae902aae1f07f1901" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlBAcs&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="d6/d94/a02033_1aeca742cd630a010561871998a8e87f7a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d6/d94/a02033_1aeca742cd630a010561871998a8e87f7a" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d94/a02033_1ab99bd7712342c0d63b6cb2d545f13c9a" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d6/d94/a02033_1a0accb98f250503e091797235b89e06c1" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="dd/dfc/a02037" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/dfc/a02037" kindref="compound">CIccMpeXmlEAcs</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d5/d6f/a01281" kindref="compound">CIccMpeEAcs</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="219"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="221" refid="dd/dfc/a02037_1a36a7d8d4d39a00747b538ea3343a3e35" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="dd/dfc/a02037_1a36a7d8d4d39a00747b538ea3343a3e35" kindref="member">~CIccMpeXmlEAcs</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="dd/dfc/a02037_1abac6bedc3bc4eb4b6b891d2432044647" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="dd/dfc/a02037_1abac6bedc3bc4eb4b6b891d2432044647" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlEAcs&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="dd/dfc/a02037_1a6197bb605a8bc3fcab7dd0bb9f7a5517" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="dd/dfc/a02037_1a6197bb605a8bc3fcab7dd0bb9f7a5517" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/dfc/a02037_1afeb82ef0fbc9b414a1d7131e0f08f037" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/dfc/a02037_1a42deed0c1855bd1cbfa3c9a8ebc160e6" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="d3/dea/a02041" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/dea/a02041" kindref="compound">CIccMpeXmlJabToXYZ</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/d41/a00881" kindref="compound">CIccMpeJabToXYZ</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="232"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="234" refid="d3/dea/a02041_1a68f35fe32175aa1b23d0e385b9df1284" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/dea/a02041_1a68f35fe32175aa1b23d0e385b9df1284" kindref="member">~CIccMpeXmlJabToXYZ</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="d3/dea/a02041_1a2ecb1cd3aba23b8f7588058163aa8947" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d3/dea/a02041_1a2ecb1cd3aba23b8f7588058163aa8947" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlJabToXYZ&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="d3/dea/a02041_1a15c6f992a46223011fa3e889568b8649" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d3/dea/a02041_1a15c6f992a46223011fa3e889568b8649" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d3/dea/a02041_1a34cf7cacb789aa994bea835172cb4967" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d3/dea/a02041_1a80da7cd38a9645ba1a22a5b81e92af16" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="d7/d13/a02045" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/d13/a02045" kindref="compound">CIccMpeXmlXYZToJab</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/de7/a00877" kindref="compound">CIccMpeXYZToJab</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="245"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="247" refid="d7/d13/a02045_1a1902d261f435a21355dfa0d5ea331875" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d7/d13/a02045_1a1902d261f435a21355dfa0d5ea331875" kindref="member">~CIccMpeXmlXYZToJab</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="d7/d13/a02045_1af86920965f31298eaa11268e5340488f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d7/d13/a02045_1af86920965f31298eaa11268e5340488f" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlXYZToJab&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="d7/d13/a02045_1aa81873ee50f31977ea66a05840fe1761" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d7/d13/a02045_1aa81873ee50f31977ea66a05840fe1761" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d7/d13/a02045_1a54bb536e886c4f512c76956c51e2307f" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d7/d13/a02045_1a93de44beabef1e61b64a1bed175b28e2" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="d8/d5a/a02049" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d5a/a02049" kindref="compound">CIccMpePtr</ref></highlight></codeline>
+<codeline lineno="258"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="260" refid="d8/d5a/a02049_1a554619cf57b9433e244ad3595e5d4268" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d8/d5a/a02049_1a554619cf57b9433e244ad3595e5d4268" kindref="member">CIccMpePtr</ref>(<ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref><sp/>*pMpe<sp/>=<sp/>NULL,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nIndex<sp/>=<sp/>-1)<sp/>{<sp/><ref refid="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" kindref="member">m_ptr</ref><sp/>=<sp/>pMpe;<sp/><ref refid="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" kindref="member">m_nIndex</ref><sp/>=<sp/>nIndex;<sp/>}</highlight></codeline>
+<codeline lineno="261" refid="d8/d5a/a02049_1af9ef34a27ccccb967a1814a0de6cd8bb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d8/d5a/a02049_1af9ef34a27ccccb967a1814a0de6cd8bb" kindref="member">CIccMpePtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d5a/a02049" kindref="compound">CIccMpePtr</ref><sp/>&amp;mptr)<sp/>{<sp/><ref refid="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" kindref="member">m_ptr</ref><sp/>=<sp/>mptr.<ref refid="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" kindref="member">m_ptr</ref>;<sp/><ref refid="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" kindref="member">m_nIndex</ref><sp/>=<sp/>mptr.<ref refid="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" kindref="member">m_nIndex</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="263" refid="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref><sp/>*<ref refid="d8/d5a/a02049_1a295c9c14ebef467a4143700300c27061" kindref="member">m_ptr</ref>;</highlight></codeline>
+<codeline lineno="264" refid="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d8/d5a/a02049_1a982c45745f4e35ae21feb205e256c878" kindref="member">m_nIndex</ref>;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="d7/d40/a00236_1aff4f5f8e405b340d5d9848aa5ebff4f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>CIccMpePtr&gt;<sp/><ref refid="d7/d40/a00236_1aff4f5f8e405b340d5d9848aa5ebff4f1" kindref="member">MpePtrMap</ref>;</highlight></codeline>
+<codeline lineno="268" refid="d7/d40/a00236_1a0476dbf6fba7fa0bb68fc59987f6550c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::list&lt;CIccMpePtr&gt;<sp/><ref refid="d7/d40/a00236_1a0476dbf6fba7fa0bb68fc59987f6550c" kindref="member">MpePtrList</ref>;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="d0/d55/a02053" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d55/a02053" kindref="compound">CIccTempVar</ref></highlight></codeline>
+<codeline lineno="271"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="273" refid="d0/d55/a02053_1a2b5a7b5f12d0d2cc22fa9e50a113ae62" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d0/d55/a02053_1a2b5a7b5f12d0d2cc22fa9e50a113ae62" kindref="member">CIccTempVar</ref>(std::string<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pos<sp/>=<sp/>-1,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>size<sp/>=<sp/>1)<sp/>{<sp/><ref refid="d0/d55/a02053_1ab40d1d3055432edda20a49879e4392e1" kindref="member">m_name</ref><sp/>=<sp/>name;<sp/><ref refid="d0/d55/a02053_1adb68440fd7fb62c5f4f5ea6ce3d6e838" kindref="member">m_pos</ref><sp/>=<sp/>pos;<sp/><ref refid="d0/d55/a02053_1aaac6fa1c98b69d72a509b226057caa7c" kindref="member">m_size</ref><sp/>=<sp/>size;}</highlight></codeline>
+<codeline lineno="274" refid="d0/d55/a02053_1a37bff2ad99a97d39294da4cece50299f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d0/d55/a02053_1a37bff2ad99a97d39294da4cece50299f" kindref="member">CIccTempVar</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/d55/a02053" kindref="compound">CIccTempVar</ref><sp/>&amp;temp)<sp/>{<sp/><ref refid="d0/d55/a02053_1ab40d1d3055432edda20a49879e4392e1" kindref="member">m_name</ref><sp/>=<sp/>temp.<ref refid="d0/d55/a02053_1ab40d1d3055432edda20a49879e4392e1" kindref="member">m_name</ref>;<sp/><ref refid="d0/d55/a02053_1adb68440fd7fb62c5f4f5ea6ce3d6e838" kindref="member">m_pos</ref><sp/>=<sp/>temp.<ref refid="d0/d55/a02053_1adb68440fd7fb62c5f4f5ea6ce3d6e838" kindref="member">m_pos</ref>;<sp/><ref refid="d0/d55/a02053_1aaac6fa1c98b69d72a509b226057caa7c" kindref="member">m_size</ref><sp/>=<sp/>temp.<ref refid="d0/d55/a02053_1aaac6fa1c98b69d72a509b226057caa7c" kindref="member">m_size</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="275" refid="d0/d55/a02053_1ab40d1d3055432edda20a49879e4392e1" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="d0/d55/a02053_1ab40d1d3055432edda20a49879e4392e1" kindref="member">m_name</ref>;</highlight></codeline>
+<codeline lineno="276" refid="d0/d55/a02053_1adb68440fd7fb62c5f4f5ea6ce3d6e838" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d0/d55/a02053_1adb68440fd7fb62c5f4f5ea6ce3d6e838" kindref="member">m_pos</ref>;</highlight></codeline>
+<codeline lineno="277" refid="d0/d55/a02053_1aaac6fa1c98b69d72a509b226057caa7c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d0/d55/a02053_1aaac6fa1c98b69d72a509b226057caa7c" kindref="member">m_size</ref>;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="d7/d40/a00236_1acd8c40557fee1ab74e52685809e21082" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>CIccTempVar&gt;<sp/><ref refid="d7/d40/a00236_1acd8c40557fee1ab74e52685809e21082" kindref="member">TempVarMap</ref>;</highlight></codeline>
+<codeline lineno="281" refid="d7/d40/a00236_1a747fc133c3d46f1a0ec38c08ec4d15fc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::list&lt;CIccTempVar&gt;<sp/><ref refid="d7/d40/a00236_1a747fc133c3d46f1a0ec38c08ec4d15fc" kindref="member">TempVarList</ref>;</highlight></codeline>
+<codeline lineno="282" refid="d7/d40/a00236_1ac19a426da54464a439ac8ca65dd44e94" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::pair&lt;int,<sp/>int&gt;<sp/><ref refid="d7/d40/a00236_1ac19a426da54464a439ac8ca65dd44e94" kindref="member">IndexSizePair</ref>;</highlight></codeline>
+<codeline lineno="283" refid="d7/d40/a00236_1ac3f57cde7eaff3d84e3bb7dfa6483cdf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>IndexSizePair&gt;<sp/><ref refid="d7/d40/a00236_1ac3f57cde7eaff3d84e3bb7dfa6483cdf" kindref="member">ChanVarMap</ref>;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="d2/dea/a02057" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/dea/a02057" kindref="compound">CIccTempDeclVar</ref></highlight></codeline>
+<codeline lineno="286"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="288" refid="d2/dea/a02057_1a702a3c0c1648623dfaaf13b9902b6b12" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d2/dea/a02057_1a702a3c0c1648623dfaaf13b9902b6b12" kindref="member">CIccTempDeclVar</ref>(std::string<sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pos<sp/>=<sp/>-1,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>size<sp/>=<sp/>1)<sp/>{<sp/><ref refid="d2/dea/a02057_1a01ec6ae4bfcdd3653abd1d066e6a0aed" kindref="member">m_name</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;<sp/><ref refid="d2/dea/a02057_1a6671617bf700ee862183b3cfa9138b6a" kindref="member">m_pos</ref><sp/>=<sp/>pos;<sp/><ref refid="d2/dea/a02057_1a6a0c778a4795ff40f998ae44d6dd3fcb" kindref="member">m_size</ref><sp/>=<sp/>size;<sp/>}</highlight></codeline>
+<codeline lineno="289" refid="d2/dea/a02057_1a783eaabd96d8b2c28ae3a146ac6cd4a2" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d2/dea/a02057_1a783eaabd96d8b2c28ae3a146ac6cd4a2" kindref="member">CIccTempDeclVar</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d2/dea/a02057" kindref="compound">CIccTempDeclVar</ref><sp/>&amp;temp)<sp/>{<sp/><ref refid="d2/dea/a02057_1a01ec6ae4bfcdd3653abd1d066e6a0aed" kindref="member">m_name</ref><sp/>=<sp/>temp.<ref refid="d2/dea/a02057_1a01ec6ae4bfcdd3653abd1d066e6a0aed" kindref="member">m_name</ref>;<sp/><ref refid="d2/dea/a02057_1a6671617bf700ee862183b3cfa9138b6a" kindref="member">m_pos</ref><sp/>=<sp/>temp.<ref refid="d2/dea/a02057_1a6671617bf700ee862183b3cfa9138b6a" kindref="member">m_pos</ref>;<sp/><ref refid="d2/dea/a02057_1a6a0c778a4795ff40f998ae44d6dd3fcb" kindref="member">m_size</ref><sp/>=<sp/>temp.<ref refid="d2/dea/a02057_1a6a0c778a4795ff40f998ae44d6dd3fcb" kindref="member">m_size</ref>;<sp/><ref refid="d2/dea/a02057_1abb17f82d6c02a69240d0737ba69cb20a" kindref="member">m_members</ref><sp/>=<sp/>temp.<ref refid="d2/dea/a02057_1abb17f82d6c02a69240d0737ba69cb20a" kindref="member">m_members</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="290" refid="d2/dea/a02057_1a01ec6ae4bfcdd3653abd1d066e6a0aed" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="d2/dea/a02057_1a01ec6ae4bfcdd3653abd1d066e6a0aed" kindref="member">m_name</ref>;</highlight></codeline>
+<codeline lineno="291" refid="d2/dea/a02057_1a6671617bf700ee862183b3cfa9138b6a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d2/dea/a02057_1a6671617bf700ee862183b3cfa9138b6a" kindref="member">m_pos</ref>;</highlight></codeline>
+<codeline lineno="292" refid="d2/dea/a02057_1a6a0c778a4795ff40f998ae44d6dd3fcb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d2/dea/a02057_1a6a0c778a4795ff40f998ae44d6dd3fcb" kindref="member">m_size</ref>;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294" refid="d2/dea/a02057_1abb17f82d6c02a69240d0737ba69cb20a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1a747fc133c3d46f1a0ec38c08ec4d15fc" kindref="member">TempVarList</ref><sp/><ref refid="d2/dea/a02057_1abb17f82d6c02a69240d0737ba69cb20a" kindref="member">m_members</ref>;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="d7/d40/a00236_1ab6f988da904ae917707a7300ed91bb60" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>CIccTempDeclVar&gt;<sp/><ref refid="d7/d40/a00236_1ab6f988da904ae917707a7300ed91bb60" kindref="member">TempDeclVarMap</ref>;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="d7/d40/a00236_1a769bcf800eb551d4b2aac6e7590b39b9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::map&lt;std::string,<sp/>std::string&gt;<sp/><ref refid="d7/d40/a00236_1a769bcf800eb551d4b2aac6e7590b39b9" kindref="member">MacroMap</ref>;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="d8/de6/a02061" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/de6/a02061" kindref="compound">CIccMpeXmlCalculator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/db8/a01317" kindref="compound">CIccMpeCalculator</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="302"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="304" refid="d8/de6/a02061_1ab8407adb75bdc8902af617bc268dbdbd" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d8/de6/a02061_1ab8407adb75bdc8902af617bc268dbdbd" kindref="member">CIccMpeXmlCalculator</ref>()<sp/>{<sp/><ref refid="d8/de6/a02061_1a1272d6a2483c1c3c523b1e0fd7f25f8b" kindref="member">m_sImport</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="305" refid="d8/de6/a02061_1a86eea3455cc23e8443f5367b0e92c56b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1a86eea3455cc23e8443f5367b0e92c56b" kindref="member">~CIccMpeXmlCalculator</ref>()<sp/>{<sp/><sp/><ref refid="d8/de6/a02061_1ac5831e989eada2f5e01cbe8ed18cce33" kindref="member">clean</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="d8/de6/a02061_1a8405059043ce7e46bef08c821d241744" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d8/de6/a02061_1a8405059043ce7e46bef08c821d241744" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlCalculator&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="d8/de6/a02061_1ad52a4e91a64285d80c4701599cf33743" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d8/de6/a02061_1ad52a4e91a64285d80c4701599cf33743" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1ac2201e8656c54d4760a8b1f07e79ff51" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1aa49fb555bcc2fe5e5377f7d608368b94" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" kindref="member">ParseImport</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>importPath,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1ac5831e989eada2f5e01cbe8ed18cce33" kindref="member">clean</ref>();</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1ab7ca97b84c91ede58a8a016e1b23919e" kindref="member">validNameChar</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bFirst);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1abff944a170e203634872e394a7efd032" kindref="member">validName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*saName);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1a88dab230dfb5391a2a51d9953a284f8e" kindref="member">ValidMacroCalls</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*szMacroText,<sp/>std::string<sp/>macroStack,<sp/>std::string<sp/>&amp;parseStr)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1a942261124512e9915340867a0ac3b316" kindref="member">ValidateMacroCalls</ref>(std::string<sp/>&amp;parseStr)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" kindref="member">Flatten</ref>(std::string<sp/>&amp;flatStr,<sp/>std::string<sp/>macroName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*szFunc,<sp/>std::string<sp/>&amp;parseStr,<sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>nLocalsOffset=0);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1a6a778e1dcd669430198c37377d137046" kindref="member">UpdateLocals</ref>(std::string<sp/>&amp;func,<sp/>std::string<sp/>szFunc,<sp/>std::string<sp/>&amp;parseStr,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nLocalsOffset);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1a0d7b500e440746fc9a1e8f421b6912a2" kindref="member">ParseChanMap</ref>(<ref refid="d7/d40/a00236_1ac3f57cde7eaff3d84e3bb7dfa6483cdf" kindref="member">ChanVarMap</ref>&amp;<sp/>chanMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*szNames,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nChannels);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326" refid="d8/de6/a02061_1ad69e6ebe6e6b912e9d62560b36805828" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1ac3f57cde7eaff3d84e3bb7dfa6483cdf" kindref="member">ChanVarMap</ref><sp/><ref refid="d8/de6/a02061_1ad69e6ebe6e6b912e9d62560b36805828" kindref="member">m_inputMap</ref>;</highlight></codeline>
+<codeline lineno="327" refid="d8/de6/a02061_1a480f3f20a9a7b432d8d3b0f6f60a5102" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1ac3f57cde7eaff3d84e3bb7dfa6483cdf" kindref="member">ChanVarMap</ref><sp/><ref refid="d8/de6/a02061_1a480f3f20a9a7b432d8d3b0f6f60a5102" kindref="member">m_outputMap</ref>;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="d8/de6/a02061_1a1272d6a2483c1c3c523b1e0fd7f25f8b" refkind="member"><highlight class="normal"><sp/><sp/>std::string<sp/><ref refid="d8/de6/a02061_1a1272d6a2483c1c3c523b1e0fd7f25f8b" kindref="member">m_sImport</ref>;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="d8/de6/a02061_1a4447c81e886f4bc08ff221b39c34219a" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1ab6f988da904ae917707a7300ed91bb60" kindref="member">TempDeclVarMap</ref><sp/><ref refid="d8/de6/a02061_1a4447c81e886f4bc08ff221b39c34219a" kindref="member">m_declVarMap</ref>;</highlight></codeline>
+<codeline lineno="332" refid="d8/de6/a02061_1a98272489289a6a0a1fd4c19696082bf0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1a98272489289a6a0a1fd4c19696082bf0" kindref="member">m_nNextVar</ref>;</highlight></codeline>
+<codeline lineno="333" refid="d8/de6/a02061_1a955ede927e2b6cd791e018c4951cbb46" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1acd8c40557fee1ab74e52685809e21082" kindref="member">TempVarMap</ref><sp/><ref refid="d8/de6/a02061_1a955ede927e2b6cd791e018c4951cbb46" kindref="member">m_varMap</ref>;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="d8/de6/a02061_1a8ad89324174bd3918a51b095c4992755" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1aff4f5f8e405b340d5d9848aa5ebff4f1" kindref="member">MpePtrMap</ref><sp/><ref refid="d8/de6/a02061_1a8ad89324174bd3918a51b095c4992755" kindref="member">m_mpeMap</ref>;</highlight></codeline>
+<codeline lineno="336" refid="d8/de6/a02061_1ad123451ec2cfb5918ea399bad60f5dfc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d8/de6/a02061_1ad123451ec2cfb5918ea399bad60f5dfc" kindref="member">m_nNextMpe</ref>;</highlight></codeline>
+<codeline lineno="337" refid="d8/de6/a02061_1aece240513570b076e29a8241ba789ab3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1a0476dbf6fba7fa0bb68fc59987f6550c" kindref="member">MpePtrList</ref><sp/><ref refid="d8/de6/a02061_1aece240513570b076e29a8241ba789ab3" kindref="member">m_mpeList</ref>;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="d8/de6/a02061_1a8bcdcf6312cccc98fc0ed92b60a79ecf" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1a769bcf800eb551d4b2aac6e7590b39b9" kindref="member">MacroMap</ref><sp/><ref refid="d8/de6/a02061_1a8bcdcf6312cccc98fc0ed92b60a79ecf" kindref="member">m_macroMap</ref>;</highlight></codeline>
+<codeline lineno="340" refid="d8/de6/a02061_1a6c41b9a1ef573749f4cede471ca41b44" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d40/a00236_1ab6f988da904ae917707a7300ed91bb60" kindref="member">TempDeclVarMap</ref><sp/><ref refid="d8/de6/a02061_1a6c41b9a1ef573749f4cede471ca41b44" kindref="member">m_macroLocalMap</ref>;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="d0/d67/a02065" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d67/a02065" kindref="compound">CIccMpeXmlEmissionMatrix</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/d03/a01653" kindref="compound">CIccMpeEmissionMatrix</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="344"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="346" refid="d0/d67/a02065_1aaf80b403490a97d9a47829334c6ea0e9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d0/d67/a02065_1aaf80b403490a97d9a47829334c6ea0e9" kindref="member">~CIccMpeXmlEmissionMatrix</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="d0/d67/a02065_1a34a6389c403f575572695ce49e71e4e5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d0/d67/a02065_1a34a6389c403f575572695ce49e71e4e5" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlEmissionMatrix&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="d0/d67/a02065_1aa14912386252b79d539ff151c04a3a85" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d0/d67/a02065_1aa14912386252b79d539ff151c04a3a85" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/d67/a02065_1afed419ced3da8e3dfe34d76c75fae099" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d0/d67/a02065_1aec428d59121847f8cee29f5d5530d0bd" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="d3/d48/a02069" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d48/a02069" kindref="compound">CIccMpeXmlInvEmissionMatrix</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d3/d21/a01657" kindref="compound">CIccMpeInvEmissionMatrix</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="357"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="359" refid="d3/d48/a02069_1a79416e8aac2c70519fb7e037fe94ac20" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d48/a02069_1a79416e8aac2c70519fb7e037fe94ac20" kindref="member">~CIccMpeXmlInvEmissionMatrix</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361" refid="d3/d48/a02069_1a4aad1c4e6ca602eb67cc743f8a6763ca" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d3/d48/a02069_1a4aad1c4e6ca602eb67cc743f8a6763ca" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlInvEmissionMatrix&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="d3/d48/a02069_1a393a4b8169c2b7b4bd577ecaf2cf1a4d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d3/d48/a02069_1a393a4b8169c2b7b4bd577ecaf2cf1a4d" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d3/d48/a02069_1aa72eae526f9c0b51758548a11be08aa0" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d3/d48/a02069_1a8e2cfe4334c50774e232bd5671b6b683" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="de/df8/a02073" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/df8/a02073" kindref="compound">CIccMpeXmlEmissionCLUT</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="dc/dec/a01669" kindref="compound">CIccMpeEmissionCLUT</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="370"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="372" refid="de/df8/a02073_1a9852a56bdac24c0d0ffa39131d2ea507" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="de/df8/a02073_1a9852a56bdac24c0d0ffa39131d2ea507" kindref="member">~CIccMpeXmlEmissionCLUT</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="de/df8/a02073_1ab3c02cf59f7dd95baa4f8fa708efc60e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="de/df8/a02073_1ab3c02cf59f7dd95baa4f8fa708efc60e" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlEmissionCLUT&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="de/df8/a02073_1a3ae09b1065ee907a574d7f5d424e0d49" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="de/df8/a02073_1a3ae09b1065ee907a574d7f5d424e0d49" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/df8/a02073_1a90bc60d68216a101341bba3e58c048d6" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/df8/a02073_1aa5d45fb5b70d1e4895c876400c2ea344" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382" refid="db/dac/a02077" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/dac/a02077" kindref="compound">CIccMpeXmlReflectanceCLUT</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d9/df5/a01673" kindref="compound">CIccMpeReflectanceCLUT</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="383"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="385" refid="db/dac/a02077_1a088b1339029434fd4ffd396d07301b56" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="db/dac/a02077_1a088b1339029434fd4ffd396d07301b56" kindref="member">~CIccMpeXmlReflectanceCLUT</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387" refid="db/dac/a02077_1a8fc2cf534e1ed365a75cc16bff055789" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="db/dac/a02077_1a8fc2cf534e1ed365a75cc16bff055789" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlReflectanceCLUT&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389" refid="db/dac/a02077_1aa5a7c0e4cc33da5f7589c69131d79751" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="db/dac/a02077_1aa5a7c0e4cc33da5f7589c69131d79751" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/dac/a02077_1a65a4dd5664e7e4b7e72db2cb6613c2d3" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/dac/a02077_1a96cc9696018abfed330d18170568536b" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="393"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395" refid="d2/d50/a02081" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d50/a02081" kindref="compound">CIccMpeXmlEmissionObserver</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/d5a/a01681" kindref="compound">CIccMpeEmissionObserver</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="396"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="398" refid="d2/d50/a02081_1a53aec3cf591e4714773756f4fa6c9d7e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d2/d50/a02081_1a53aec3cf591e4714773756f4fa6c9d7e" kindref="member">~CIccMpeXmlEmissionObserver</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400" refid="d2/d50/a02081_1abd98da45fd5c9572f73e3d239852c5ca" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d2/d50/a02081_1abd98da45fd5c9572f73e3d239852c5ca" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlEmissionObserver&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="402" refid="d2/d50/a02081_1a22893460a8246057a33dcddeb28c54ea" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d2/d50/a02081_1a22893460a8246057a33dcddeb28c54ea" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d2/d50/a02081_1a97421b83857bdcd9162531eca05446fe" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d2/d50/a02081_1a7a0dcf4d4c49e598d0710545f601cbfd" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="406"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408" refid="d2/dde/a02085" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/dde/a02085" kindref="compound">CIccMpeXmlReflectanceObserver</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="de/d96/a01685" kindref="compound">CIccMpeReflectanceObserver</ref>,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/dc1/a01993" kindref="compound">CIccMpeXml</ref></highlight></codeline>
+<codeline lineno="409"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="411" refid="d2/dde/a02085_1ae40d822cf5bb86c77c9e628cdb769a25" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d2/dde/a02085_1ae40d822cf5bb86c77c9e628cdb769a25" kindref="member">~CIccMpeXmlReflectanceObserver</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413" refid="d2/dde/a02085_1a97f4b05d3341950b6efe9e4623194643" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d2/dde/a02085_1a97f4b05d3341950b6efe9e4623194643" kindref="member">GetClassName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;CIccMpeXmlReflectanceObserver&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415" refid="d2/dde/a02085_1a85955590f4d7cc280857694d8796b9fd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref><sp/>*<ref refid="d2/dde/a02085_1a85955590f4d7cc280857694d8796b9fd" kindref="member">GetExtension</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d2/dde/a02085_1ac006b2c376c05c9bafa2edba85663841" kindref="member">ToXml</ref>(std::string<sp/>&amp;xml,<sp/>std::string<sp/>blanks=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d2/dde/a02085_1aea6bb4f288917a8087c52ad06ddb486a" kindref="member">ParseXml</ref>(xmlNode<sp/>*pNode,<sp/>std::string<sp/>&amp;parseStr);</highlight></codeline>
+<codeline lineno="419"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"></highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//_ICCMPEXML_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="IccXML/IccLibXML/IccMpeXml.h"/>
+  </compounddef>
+</doxygen>

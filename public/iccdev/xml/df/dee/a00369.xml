@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="df/dee/a00369" kind="class" language="C++" prot="public">
+    <compoundname>CIccApplyBPCHint</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CIccCreateAdjustPCSXformHint</basecompoundref>
+    <includes refid="d4/dee/a00008" local="no">IccApplyBPC.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/dee/a00369_1aa5d1f451d6a58eeb98f198127898a1d8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * CIccApplyBPCHint::GetAdjustPCSType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAdjustPCSType</name>
+        <qualifiedname>CIccApplyBPCHint::GetAdjustPCSType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="91" column="20" bodyfile="IccProfLib/IccApplyBPC.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dee/a00369_1ae99361a15d5da8636e20bd8b97a746cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>IIccAdjustPCSXform *</type>
+        <definition>IIccAdjustPCSXform * CIccApplyBPCHint::GetNewAdjustPCSXform</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNewAdjustPCSXform</name>
+        <qualifiedname>CIccApplyBPCHint::GetNewAdjustPCSXform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="df/dee/a00369_1ae99361a15d5da8636e20bd8b97a746cb" kindref="member">CIccApplyBPCHint::GetNewAdjustPCSXform</ref></para>
+<para>Purpose: Returns a new <ref refid="dc/de3/a00373" kindref="compound">CIccApplyBPC</ref> object. Returned object should be deleted by the caller. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="92" column="28" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Type: Class</para>
+<para>Purpose: Interface and hint for creating a BPC xform object </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccApplyBPC.h" line="88" column="1" bodyfile="IccProfLib/IccApplyBPC.h" bodystart="89" bodyend="93"/>
+    <listofallmembers>
+      <member refid="df/dee/a00369_1aa5d1f451d6a58eeb98f198127898a1d8" prot="public" virt="virtual"><scope>CIccApplyBPCHint</scope><name>GetAdjustPCSType</name></member>
+      <member refid="df/dee/a00369_1ae99361a15d5da8636e20bd8b97a746cb" prot="public" virt="virtual"><scope>CIccApplyBPCHint</scope><name>GetNewAdjustPCSXform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

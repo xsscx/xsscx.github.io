@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['c_0',['c',['../d7/d46/a00002.html#a32a0207106f947aece0468b912c5468d',1,'icParametricCurveFull']]],
+  ['channels_1',['channels',['../d7/d46/a00002.html#a9cc5ebea9f9d97a6091f6927cdcebf26',1,'icScreening']]],
+  ['ciccmatrixmath_2',['CIccMatrixMath',['../d4/d3a/a00101.html#ad031622d310355f4a72ba5daae6ba951',1,'IccPcc.h']]],
+  ['ciccprofile_3',['ciccprofile',['../da/dec/a00080.html#a8063b420b9048bd7b217c4aa451461c0',1,'CIccProfile:&#160;IccTagBasic.h'],['../d4/d3a/a00101.html#a14e10b61df6e9ec7c90c5d3bc38c78d9',1,'CIccProfile:&#160;IccPcc.h']]],
+  ['cicctagmultiprocesselement_4',['CIccTagMultiProcessElement',['../d4/d3a/a00101.html#a3374008c98faf384ac8d7af11dbe12df',1,'IccPcc.h']]],
+  ['cicctagspectralviewingconditions_5',['CIccTagSpectralViewingConditions',['../d4/d3a/a00101.html#a7b02c9b5ecae115091486fae346dd870',1,'IccPcc.h']]],
+  ['clrencnames_6',['clrEncNames',['../d8/d23/a00326.html#abd44ca4d62f8bdb0cb5c582c93c197ce',1,'IccCmmConfig.cpp']]],
+  ['clrencvalues_7',['clrEncValues',['../d8/d23/a00326.html#adf0ef850f145e6e942e5bbf0391b4155',1,'IccCmmConfig.cpp']]],
+  ['clutpoints_8',['clutpoints',['../d7/d46/a00002.html#a55157ec489e5848406b0eedab8dd2d13',1,'icLut8::clutPoints'],['../d7/d46/a00002.html#af7b5e9022e59ec8eca33683901a46d7b',1,'icLut16::clutPoints']]],
+  ['cmf_9',['cmf',['../d9/dd0/a00191.html#afbf85e3f01d879a745cdb40322a1d828',1,'icObserverDef']]],
+  ['cmm_10',['cmm',['../d0/d61/a00302.html#adc7be10b17162dfa0fdbd1dee80c6c4d',1,'CMMStorageRec']]],
+  ['cmmallocator_11',['cmmAllocator',['../d0/d61/a00302.html#a11df0a33c6386e2f11e9e3eea625bb5c',1,'RefIccMAXCmm.cpp']]],
+  ['cmmid_12',['cmmId',['../d7/d46/a00002.html#a509d7bafd6f423be87909a7fcd68519a',1,'icHeader']]],
+  ['colorspace_13',['colorSpace',['../d7/d46/a00002.html#a14e131b497989c1876e397c5ff0c5ad6',1,'icHeader']]],
+  ['compression_5ftypes_14',['compression_types',['../d4/def/a00359.html#af1d7af19c793d114f69368411d2d2e9c',1,'iccTiffDump.cpp']]],
+  ['context_15',['context',['../d0/d61/a00302.html#a5a058d335dd6db0e472422014ecf6aba',1,'RefIccMAXCmm.cpp']]],
+  ['count_16',['count',['../d7/d46/a00002.html#abc13d65aac14371ba4d673211f4914b9',1,'icMultiLocalizedUnicodeType::count'],['../d7/d46/a00002.html#a1abb8dbbd3decd9fb949d13bb6c4bfb3',1,'icCurve::count'],['../d7/d46/a00002.html#a13f2cf266ab90bdc0443e02dfe0c696c',1,'icNamedColor2::count'],['../d7/d46/a00002.html#a967f219783bac2bf1fca0d75e342ecb1',1,'icProfileSequenceDesc::count'],['../d7/d46/a00002.html#a18928c858ecd4f4b2f2cc9a3d0e86518',1,'icTextDescription::count'],['../d7/d46/a00002.html#aa214870b1992ef57922edef943463427',1,'icUcrBgCurve::count'],['../d7/d46/a00002.html#aa55c4d39bd1fccc0d91c68c5a4fd1c32',1,'icCrdInfo::count'],['../d7/d46/a00002.html#a1c6074dff7b5fd373c57ab86b192efba',1,'icColorantOrder::count'],['../d7/d46/a00002.html#ae90c7966b81a8cce7e98a871803a1828',1,'icColorantTable::count'],['../df/dc8/a00122.html#a57bfa2c0108b976870e1b2faed3bad86',1,'MD5_CTX::count'],['../d7/d46/a00002.html#af28000977c4b332d2434e189f29b1706',1,'icTagList::count']]],
+  ['countrycode_17',['countryCode',['../d7/d46/a00002.html#a3a768872eecac92354d3f5b022d7ffd5',1,'icMultiLocalizedUnicodeEntry']]],
+  ['creator_18',['creator',['../d7/d46/a00002.html#a99ffec205ff7dad8edf68444bc24e9b3',1,'icHeader']]],
+  ['curve_19',['curve',['../d7/d46/a00002.html#aadb25971c72eaccb221d0e455cfa129b',1,'icParametricCurveFullType::curve'],['../d7/d46/a00002.html#a4c1e364fd35461e3a546e0561f3edead',1,'icParametricCurveType::curve'],['../d7/d46/a00002.html#a7cc2810ac2f249d5ea93647268241d5f',1,'icCurveType::curve'],['../d7/d46/a00002.html#aac6a41b00a4dc458a82c1ad2ca3c06b9',1,'icUcrBgCurve::curve']]]
+];

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d09/a02334" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>📸<sp/>iccPngDump</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**iccPngDump**<sp/>is<sp/>a<sp/>cross<sp/>platform<sp/>command<sp/>line<sp/>tool<sp/>for<sp/>extracting<sp/>and<sp/>analyzing<sp/>ICC<sp/>color<sp/>profiles<sp/>embedded<sp/>in<sp/>PNG<sp/>images.<sp/>It<sp/>reads<sp/>metadata<sp/>from<sp/>PNG<sp/>files<sp/>and,<sp/>if<sp/>present,<sp/>extracts<sp/>and<sp/>optionally<sp/>saves<sp/>the<sp/>ICC<sp/>profile.<sp/></highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🔧<sp/>Features</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**PNG<sp/>Metadata**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Image<sp/>dimensions<sp/>(width<sp/>x<sp/>height)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Bit<sp/>depth</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Color<sp/>type<sp/>(e.g.,<sp/>RGB,<sp/>Grayscale,<sp/>Palette,<sp/>RGBA)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Interlace<sp/>type<sp/>(e.g.,<sp/>None,<sp/>Adam7)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">✅<sp/>**ICC<sp/>Extraction:**</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Parses<sp/>and<sp/>displays<sp/>detailed<sp/>PNG<sp/>metadata</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Extracts<sp/>embedded<sp/>ICC<sp/>profiles<sp/>from<sp/>PNG<sp/>images</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Outputs<sp/>ICC<sp/>profile<sp/>information<sp/>including<sp/>color<sp/>space,<sp/>PCS,<sp/>and<sp/>version</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Optionally<sp/>saves<sp/>ICC<sp/>profile<sp/>data<sp/>to<sp/>a<sp/>separate<sp/>file</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">✅<sp/>**ICC<sp/>Injection:**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Profile<sp/>size</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Color<sp/>Space</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Colorimetric<sp/>PCS</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Profile<sp/>version</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>🧪<sp/>**Fuzzing<sp/>Support:**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Ideal<sp/>for<sp/>image<sp/>fuzzers<sp/>and<sp/>ICC<sp/>validation<sp/>pipelines</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🚀<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>📤<sp/>Extract<sp/>ICC<sp/>Profile</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">iccPngDump<sp/>input.png<sp/>output.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Saves<sp/>the<sp/>embedded<sp/>ICC<sp/>profile<sp/>(if<sp/>any)<sp/>into<sp/>`output.icc`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>📥<sp/>Inject<sp/>ICC<sp/>Profile</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">iccPngDump<sp/>input.png<sp/>--write-icc<sp/>profile.icc<sp/>--output<sp/>output.png</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Injects<sp/>`profile.icc`<sp/>into<sp/>the<sp/>PNG<sp/>and<sp/>creates<sp/>`output.png`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccPngDump/Readme.md"/>
+  </compounddef>
+</doxygen>

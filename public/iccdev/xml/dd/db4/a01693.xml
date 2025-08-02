@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/db4/a01693" kind="class" language="C++" prot="public">
+    <compoundname>CIccBasicMpeFactory</compoundname>
+    <basecompoundref refid="da/d20/a01689" prot="public" virt="non-virtual">IIccMpeFactory</basecompoundref>
+    <includes refid="dc/d57/a00194" local="no">IccMpeFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/db4/a01693_1a29e6937976096014a176ac676d2b8db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement * CIccBasicMpeFactory::CreateElement</definition>
+        <argsstring>(icElemTypeSignature elementSig)</argsstring>
+        <name>CreateElement</name>
+        <qualifiedname>CIccBasicMpeFactory::CreateElement</qualifiedname>
+        <reimplements refid="da/d20/a01689_1a9e3ee9e5b0978a03846c770681f42c6a">CreateElement</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elementSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateElement(elemTypeSig) Create a element of type elemTypeSig.</para>
+<para>Parameter(s): elemTypeSig = signature of the ICC element type for the element to be created</para>
+<para>Returns a new CIccProcessElement object of the given signature type. Unrecognized elemTypeSig&apos;s will be created as a CIccProcessElementUnknown object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="166" column="35" bodyfile="IccProfLib/IccMpeFactory.cpp" bodystart="85" bodyend="142"/>
+        <references refid="d2/d1d/a01277_1a39b4fbd850b88639f3104c722bc9595a" compoundref="d1/d09/a00077" startline="332" endline="338">CIccMpeBAcs::CIccMpeBAcs</references>
+        <references refid="df/db8/a01317_1a94a4a358e9256cff903a5f530c6661e4" compoundref="d9/d77/a00095" startline="4201" endline="4213">CIccMpeCalculator::CIccMpeCalculator</references>
+        <references refid="dd/dd5/a00861_1aee5574bca7eff032a9530c762674ff2a" compoundref="d6/d2d/a00047" startline="5368" endline="5375">CIccMpeCLUT::CIccMpeCLUT</references>
+        <references refid="d5/dac/a00841_1abbb7c2dbec3e482852ba53d2563070db" compoundref="d6/d2d/a00047" startline="2968" endline="2981">CIccMpeCurveSet::CIccMpeCurveSet</references>
+        <references refid="d5/d6f/a01281_1adb6d59f4cc47a6e394ccdc6a9c73f0a2" compoundref="d1/d09/a00077" startline="418" endline="424">CIccMpeEAcs::CIccMpeEAcs</references>
+        <references refid="dc/dec/a01669_1a6c3089765875a57aa26772e58cd65e33" compoundref="d3/de5/a00209" startline="280" endline="280">CIccMpeEmissionCLUT::CIccMpeEmissionCLUT</references>
+        <references refid="d1/d03/a01653_1a1d48e80dfc13ba202d4135433cf20701" compoundref="d3/de5/a00209" startline="150" endline="150">CIccMpeEmissionMatrix::CIccMpeEmissionMatrix</references>
+        <references refid="df/d5a/a01681_1aaac0ef956fa4db4b17366e35b1cb47d0" compoundref="d3/de5/a00209" startline="381" endline="381">CIccMpeEmissionObserver::CIccMpeEmissionObserver</references>
+        <references refid="d3/db2/a00869_1a280da152b4a8a903be272757ec0755c8" compoundref="d6/d2d/a00047" startline="5793" endline="5803">CIccMpeExtCLUT::CIccMpeExtCLUT</references>
+        <references refid="d3/d21/a01657_1a574738ddc3fcf58cbbcc582bbe094c4e" compoundref="d3/de5/a00209" startline="177" endline="177">CIccMpeInvEmissionMatrix::CIccMpeInvEmissionMatrix</references>
+        <references refid="df/d41/a00881_1ad464466f38d88a3dbdbfa055fa91830d" compoundref="d6/d2d/a00047" startline="6286" endline="6288">CIccMpeJabToXYZ::CIccMpeJabToXYZ</references>
+        <references refid="d0/d82/a00857_1a9756e5b834a816d718bc0963d1063fdc" compoundref="d6/d2d/a00047" startline="4829" endline="4836">CIccMpeMatrix::CIccMpeMatrix</references>
+        <references refid="d9/df5/a01673_1a6ad2c05aa223d57bbf7e9efaf699f567" compoundref="d3/de5/a00209" startline="306" endline="306">CIccMpeReflectanceCLUT::CIccMpeReflectanceCLUT</references>
+        <references refid="de/d96/a01685_1afc1b16ca4d7dba39d840aea7848ecc68" compoundref="d3/de5/a00209" startline="407" endline="407">CIccMpeReflectanceObserver::CIccMpeReflectanceObserver</references>
+        <references refid="d7/dcf/a00845_1a6af9bf069e7b2fc7f27c209ca52acd35" compoundref="d6/d2d/a00047" startline="3501" endline="3507">CIccMpeTintArray::CIccMpeTintArray</references>
+        <references refid="db/deb/a00853_1a53487f9c7597ff35ded7e7805205eec3" compoundref="d6/d2d/a00047" startline="4132" endline="4142">CIccMpeToneMap::CIccMpeToneMap</references>
+        <references refid="de/df7/a01201_1a9fc9c76726325a64c03d95fc61a83925" compoundref="dc/d87/a00032" startline="162" endline="170">CIccMpeUnknown::CIccMpeUnknown</references>
+        <references refid="d1/de7/a00877_1a343852dfa4dc6ca675b68b148153e7e9" compoundref="d6/d2d/a00047" startline="6340" endline="6342">CIccMpeXYZToJab::CIccMpeXYZToJab</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da15787eae3fc948e6596613f3dc0fece0" compoundref="d7/d46/a00002" startline="646">icSigBAcsElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4dac155ef2f2ed9b29c7b77bfba0b4d284a" compoundref="d7/d46/a00002" startline="649">icSigCalculatorElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da525c6722c328164b30a28a6b93bac555" compoundref="d7/d46/a00002" startline="645">icSigCLutElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da4b1b08661df62c97b297732003d151b7" compoundref="d7/d46/a00002" startline="643">icSigCurveSetElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daac3a6911b57fc82d82a4e4269d137b96" compoundref="d7/d46/a00002" startline="647">icSigEAcsElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da1acb64bcd4a2d3684202901f7d083783" compoundref="d7/d46/a00002" startline="662">icSigEmissionCLUTElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da0b816b4330815ebb26199c75c04659de" compoundref="d7/d46/a00002" startline="660">icSigEmissionMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daa0cbe6ff4dce28d8f7616e222655777c" compoundref="d7/d46/a00002" startline="664">icSigEmissionObserverElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da80d64e812348e71cb51dabce689af95f" compoundref="d7/d46/a00002" startline="650">icSigExtCLutElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daa42a79edfc2575f28f99164e4ff2896e" compoundref="d7/d46/a00002" startline="661">icSigInvEmissionMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da966ed281a33416c3e9538c0431a0654b" compoundref="d7/d46/a00002" startline="652">icSigJabToXYZElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da9f1d5e498c47af2a0e0be3fa029970fe" compoundref="d7/d46/a00002" startline="644">icSigMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da253dc498efb69180b248d0346768d4f8" compoundref="d7/d46/a00002" startline="663">icSigReflectanceCLUTElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da7ac1d5f56222852e3ffb4290582a7098" compoundref="d7/d46/a00002" startline="665">icSigReflectanceObserverElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da8e07016fec11f23ad244b87c49e47a62" compoundref="d7/d46/a00002" startline="654">icSigTintArrayElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da64e8170ba88c00d11399469b3e5146f4" compoundref="d7/d46/a00002" startline="657">icSigToneMapElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da8eabe39cdaa93980c8d1a8874425b697" compoundref="d7/d46/a00002" startline="651">icSigXYZToJabElemType</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/db4/a01693_1ad6c11403c8b1c837cb931003f6f3778d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccBasicMpeFactory::GetElementSigName</definition>
+        <argsstring>(std::string &amp;elemName, icElemTypeSignature elemTypeSig)</argsstring>
+        <name>GetElementSigName</name>
+        <qualifiedname>CIccBasicMpeFactory::GetElementSigName</qualifiedname>
+        <reimplements refid="da/d20/a01689_1aab3a1365474e7deb94027d2253ef24ab">GetElementSigName</reimplements>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>elemName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elemTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetElementSigName(elemTypeSig) Get display name of elemTypeSig.</para>
+<para>Parameter(s): elemName = string to put element name into, elemTypeSig = signature of the ICC element type to get a name for</para>
+<para>Returns true if element type is recognized by the factory, false if the factory doesn&apos;t create elemTypeSig elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="179" column="16" bodyfile="IccProfLib/IccMpeFactory.cpp" bodystart="144" bodyend="223"/>
+        <references refid="d7/dce/a00143_1ad11487710d1ea9eef4be68d659041800" compoundref="d5/db1/a00140" startline="1028" endline="1054">icGetSig</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da15787eae3fc948e6596613f3dc0fece0" compoundref="d7/d46/a00002" startline="646">icSigBAcsElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4dac155ef2f2ed9b29c7b77bfba0b4d284a" compoundref="d7/d46/a00002" startline="649">icSigCalculatorElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da525c6722c328164b30a28a6b93bac555" compoundref="d7/d46/a00002" startline="645">icSigCLutElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da4b1b08661df62c97b297732003d151b7" compoundref="d7/d46/a00002" startline="643">icSigCurveSetElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daac3a6911b57fc82d82a4e4269d137b96" compoundref="d7/d46/a00002" startline="647">icSigEAcsElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da1acb64bcd4a2d3684202901f7d083783" compoundref="d7/d46/a00002" startline="662">icSigEmissionCLUTElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da0b816b4330815ebb26199c75c04659de" compoundref="d7/d46/a00002" startline="660">icSigEmissionMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daa0cbe6ff4dce28d8f7616e222655777c" compoundref="d7/d46/a00002" startline="664">icSigEmissionObserverElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da80d64e812348e71cb51dabce689af95f" compoundref="d7/d46/a00002" startline="650">icSigExtCLutElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4daa42a79edfc2575f28f99164e4ff2896e" compoundref="d7/d46/a00002" startline="661">icSigInvEmissionMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da966ed281a33416c3e9538c0431a0654b" compoundref="d7/d46/a00002" startline="652">icSigJabToXYZElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da9f1d5e498c47af2a0e0be3fa029970fe" compoundref="d7/d46/a00002" startline="644">icSigMatrixElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da253dc498efb69180b248d0346768d4f8" compoundref="d7/d46/a00002" startline="663">icSigReflectanceCLUTElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da7ac1d5f56222852e3ffb4290582a7098" compoundref="d7/d46/a00002" startline="665">icSigReflectanceObserverElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da8e07016fec11f23ad244b87c49e47a62" compoundref="d7/d46/a00002" startline="654">icSigTintArrayElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da64e8170ba88c00d11399469b3e5146f4" compoundref="d7/d46/a00002" startline="657">icSigToneMapElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da8eabe39cdaa93980c8d1a8874425b697" compoundref="d7/d46/a00002" startline="651">icSigXYZToJabElemType</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="dd/db4/a01693" kindref="compound">CIccBasicMpeFactory</ref></para>
+<para>Purpose: <ref refid="dd/db4/a01693" kindref="compound">CIccBasicMpeFactory</ref> provides creation of CIccProcessElement&apos;s defined by the ICC profile specification. The <ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref> always creates a CIccBasicElemFactory. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccBasicMpeFactory</label>
+        <link refid="dd/db4/a01693"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccMpeFactory</label>
+        <link refid="da/d20/a01689"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccBasicMpeFactory</label>
+        <link refid="dd/db4/a01693"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccMpeFactory</label>
+        <link refid="da/d20/a01689"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeFactory.h" line="153" column="1" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="154" bodyend="180"/>
+    <listofallmembers>
+      <member refid="dd/db4/a01693_1a29e6937976096014a176ac676d2b8db8" prot="public" virt="virtual"><scope>CIccBasicMpeFactory</scope><name>CreateElement</name></member>
+      <member refid="dd/db4/a01693_1ad6c11403c8b1c837cb931003f6f3778d" prot="public" virt="virtual"><scope>CIccBasicMpeFactory</scope><name>GetElementSigName</name></member>
+      <member refid="da/d20/a01689_1a07b0583f06dd69f09793e1be4dc490c0" prot="public" virt="virtual"><scope>CIccBasicMpeFactory</scope><name>~IIccMpeFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

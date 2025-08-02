@@ -1,0 +1,703 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d00/a00113" kind="file" language="C++">
+    <compoundname>IccConvertUTF.h</compoundname>
+    <includes refid="d5/d16/a00029" local="yes">IccProfLibConf.h</includes>
+    <includedby refid="d5/ddf/a00224" local="yes">IccProfLib/IccConvertUTF.cpp</includedby>
+    <includedby refid="d9/dd0/a00191" local="yes">IccProfLib/IccTagBasic.cpp</includedby>
+    <includedby refid="d5/d35/a00266" local="yes">IccXML/IccLibXML/IccUtilXml.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>IccProfLib/IccConvertUTF.h</label>
+        <link refid="d3/d00/a00113"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>IccProfLib/IccConvertUTF.cpp</label>
+        <link refid="d5/ddf/a00224"/>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccConvertUTF.h</label>
+        <link refid="d3/d00/a00113"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccProfLib/IccTagBasic.cpp</label>
+        <link refid="d9/dd0/a00191"/>
+      </node>
+      <node id="4">
+        <label>IccXML/IccLibXML/IccUtilXml.cpp</label>
+        <link refid="d5/d35/a00266"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d3/d00/a00113_1adc71280d09832f0fb6c6b83fbf043140" prot="public" static="no">
+        <name>UNI_MAX_BMP</name>
+        <initializer>(<ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>)0x0000FFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="113" column="9" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d3/d00/a00113_1a98a2f50a1ca513613316ffd384dd1bfb" prot="public" static="no">
+        <name>UNI_MAX_LEGAL_UTF32</name>
+        <initializer>(<ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>)0x0010FFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="116" column="9" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d3/d00/a00113_1a69d0ea77d1231214ba0893e846d7fcaf" prot="public" static="no">
+        <name>UNI_MAX_UTF16</name>
+        <initializer>(<ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>)0x0010FFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="114" column="9" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d3/d00/a00113_1a26c4390ae1463df1e6075ea585ed79a3" prot="public" static="no">
+        <name>UNI_MAX_UTF32</name>
+        <initializer>(<ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>)0x7FFFFFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="115" column="9" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d3/d00/a00113_1a44b240b95a93f71535c03f5e26d7dbe1" prot="public" static="no">
+        <name>UNI_REPLACEMENT_CHAR</name>
+        <initializer>(<ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>)0x0000FFFD</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="112" column="9" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>icUtfConversionFlags</name>
+        <enumvalue id="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" prot="public">
+          <name>strictConversion</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbbac7c2c3c32c7fbed195185e68879e550c" prot="public">
+          <name>lenientConversion</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="125" column="1" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="enum" id="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>icUtfConversionResult</name>
+        <enumvalue id="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" prot="public">
+          <name>conversionOK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8aab3cce3e3d047a29ab541a1284763223" prot="public">
+          <name>sourceExhausted</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" prot="public">
+          <name>targetExhausted</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" prot="public">
+          <name>sourceIllegal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="118" column="1" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="118" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d3/d00/a00113_1adaac7155d04f98cee33773208b61f3f8" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char Boolean</definition>
+        <argsstring></argsstring>
+        <name>Boolean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="109" column="22" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" prot="public" static="no">
+        <type>unsigned short</type>
+        <definition>typedef unsigned short UTF16</definition>
+        <argsstring></argsstring>
+        <name>UTF16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="107" column="24" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" prot="public" static="no">
+        <type><ref refid="d5/d16/a00029_1af4f9a4c07d8766a12ef62c381593d22e" kindref="member">ICCUINT32</ref></type>
+        <definition>typedef ICCUINT32 UTF32</definition>
+        <argsstring></argsstring>
+        <name>UTF32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="106" column="18" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char UTF8</definition>
+        <argsstring></argsstring>
+        <name>UTF8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="108" column="22" bodyfile="IccProfLib/IccConvertUTF.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d3/d00/a00113_1aeb08c40435dd9e4bc81cc2d68d7afe1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref> <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>icUtfConversionResult ICCPROFLIB_API icConvertUTF16toUTF32</definition>
+        <argsstring>(const UTF16 **sourceStart, const UTF16 *sourceEnd, UTF32 **targetStart, UTF32 *targetEnd, icUtfConversionFlags flags)</argsstring>
+        <name>icConvertUTF16toUTF32</name>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref> **</type>
+          <declname>sourceStart</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref> *</type>
+          <declname>sourceEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref> **</type>
+          <declname>targetStart</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref> *</type>
+          <declname>targetEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="151" column="38" bodyfile="IccProfLib/IccConvertUTF.cpp" bodystart="147" bodyend="200" declfile="IccProfLib/IccConvertUTF.h" declline="151" declcolumn="38"/>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" compoundref="d3/d00/a00113" startline="119">conversionOK</references>
+        <references refid="d5/ddf/a00224_1a8e6fc083a9b22a0116b35c73a50b8c18" compoundref="d5/ddf/a00224" startline="49">halfBase</references>
+        <references refid="d5/ddf/a00224_1a9023510776bb97137517b59d39edbc3a" compoundref="d5/ddf/a00224" startline="47">halfShift</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8aab3cce3e3d047a29ab541a1284763223" compoundref="d3/d00/a00113" startline="120">sourceExhausted</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" compoundref="d3/d00/a00113" startline="122">sourceIllegal</references>
+        <references refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" compoundref="d3/d00/a00113" startline="126">strictConversion</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" compoundref="d3/d00/a00113" startline="121">targetExhausted</references>
+      </memberdef>
+      <memberdef kind="function" id="d3/d00/a00113_1ac8042a5341476a29de35dcb828d11737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref> <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>icUtfConversionResult ICCPROFLIB_API icConvertUTF16toUTF8</definition>
+        <argsstring>(const UTF16 **sourceStart, const UTF16 *sourceEnd, UTF8 **targetStart, UTF8 *targetEnd, icUtfConversionFlags flags)</argsstring>
+        <name>icConvertUTF16toUTF8</name>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref> **</type>
+          <declname>sourceStart</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref> *</type>
+          <declname>sourceEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> **</type>
+          <declname>targetStart</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> *</type>
+          <declname>targetEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="139" column="38" bodyfile="IccProfLib/IccConvertUTF.cpp" bodystart="299" bodyend="365" declfile="IccProfLib/IccConvertUTF.h" declline="139" declcolumn="38"/>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" compoundref="d3/d00/a00113" startline="119">conversionOK</references>
+        <references refid="d5/ddf/a00224_1a84be1e52702338d8e7aaeb1c2da2b375" compoundref="d5/ddf/a00224" startline="285" endline="285">firstByteMark</references>
+        <references refid="d5/ddf/a00224_1a8e6fc083a9b22a0116b35c73a50b8c18" compoundref="d5/ddf/a00224" startline="49">halfBase</references>
+        <references refid="d5/ddf/a00224_1a9023510776bb97137517b59d39edbc3a" compoundref="d5/ddf/a00224" startline="47">halfShift</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8aab3cce3e3d047a29ab541a1284763223" compoundref="d3/d00/a00113" startline="120">sourceExhausted</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" compoundref="d3/d00/a00113" startline="122">sourceIllegal</references>
+        <references refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" compoundref="d3/d00/a00113" startline="126">strictConversion</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" compoundref="d3/d00/a00113" startline="121">targetExhausted</references>
+        <referencedby refid="d9/d39/a00257_1a9f320f9caf10d93233cccf39049a5992" compoundref="d5/d35/a00266" startline="341" endline="363">icUtf16ToUtf8</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d3/d00/a00113_1a0a12c298e7420f1f4838f849fe84517e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref> <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>icUtfConversionResult ICCPROFLIB_API icConvertUTF32toUTF16</definition>
+        <argsstring>(const UTF32 **sourceStart, const UTF32 *sourceEnd, UTF16 **targetStart, UTF16 *targetEnd, icUtfConversionFlags flags)</argsstring>
+        <name>icConvertUTF32toUTF16</name>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref> **</type>
+          <declname>sourceStart</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref> *</type>
+          <declname>sourceEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref> **</type>
+          <declname>targetStart</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref> *</type>
+          <declname>targetEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="155" column="38" bodyfile="IccProfLib/IccConvertUTF.cpp" bodystart="61" bodyend="106" declfile="IccProfLib/IccConvertUTF.h" declline="155" declcolumn="38"/>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" compoundref="d3/d00/a00113" startline="119">conversionOK</references>
+        <references refid="d5/ddf/a00224_1a8e6fc083a9b22a0116b35c73a50b8c18" compoundref="d5/ddf/a00224" startline="49">halfBase</references>
+        <references refid="d5/ddf/a00224_1a3eb375b25f02aaecedb92086ff2a7af3" compoundref="d5/ddf/a00224" startline="50">halfMask</references>
+        <references refid="d5/ddf/a00224_1a9023510776bb97137517b59d39edbc3a" compoundref="d5/ddf/a00224" startline="47">halfShift</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" compoundref="d3/d00/a00113" startline="122">sourceIllegal</references>
+        <references refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" compoundref="d3/d00/a00113" startline="126">strictConversion</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" compoundref="d3/d00/a00113" startline="121">targetExhausted</references>
+        <referencedby refid="dc/d99/a01053_1a365aeff5cd79f87ebbae5ec71789ce95" compoundref="d9/dd0/a00191" startline="7333" endline="7363">CIccLocalizedUnicode::SetText</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d3/d00/a00113_1aba6cb0ccb4262580830ba0ee185489a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref> <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>icUtfConversionResult ICCPROFLIB_API icConvertUTF32toUTF8</definition>
+        <argsstring>(const UTF32 **sourceStart, const UTF32 *sourceEnd, UTF8 **targetStart, UTF8 *targetEnd, icUtfConversionFlags flags)</argsstring>
+        <name>icConvertUTF32toUTF8</name>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref> **</type>
+          <declname>sourceStart</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref> *</type>
+          <declname>sourceEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> **</type>
+          <declname>targetStart</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> *</type>
+          <declname>targetEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="147" column="38" bodyfile="IccProfLib/IccConvertUTF.cpp" bodystart="622" bodyend="671" declfile="IccProfLib/IccConvertUTF.h" declline="147" declcolumn="38"/>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" compoundref="d3/d00/a00113" startline="119">conversionOK</references>
+        <references refid="d5/ddf/a00224_1a84be1e52702338d8e7aaeb1c2da2b375" compoundref="d5/ddf/a00224" startline="285" endline="285">firstByteMark</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" compoundref="d3/d00/a00113" startline="122">sourceIllegal</references>
+        <references refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" compoundref="d3/d00/a00113" startline="126">strictConversion</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" compoundref="d3/d00/a00113" startline="121">targetExhausted</references>
+      </memberdef>
+      <memberdef kind="function" id="d3/d00/a00113_1a1ce7285764f13667e49e5bf10377b8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref> <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>icUtfConversionResult ICCPROFLIB_API icConvertUTF8toUTF16</definition>
+        <argsstring>(const UTF8 **sourceStart, const UTF8 *sourceEnd, UTF16 **targetStart, UTF16 *targetEnd, icUtfConversionFlags flags)</argsstring>
+        <name>icConvertUTF8toUTF16</name>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> **</type>
+          <declname>sourceStart</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> *</type>
+          <declname>sourceEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref> **</type>
+          <declname>targetStart</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref> *</type>
+          <declname>targetEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="135" column="38" bodyfile="IccProfLib/IccConvertUTF.cpp" bodystart="489" bodyend="558" declfile="IccProfLib/IccConvertUTF.h" declline="135" declcolumn="38"/>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" compoundref="d3/d00/a00113" startline="119">conversionOK</references>
+        <references refid="d5/ddf/a00224_1a8e6fc083a9b22a0116b35c73a50b8c18" compoundref="d5/ddf/a00224" startline="49">halfBase</references>
+        <references refid="d5/ddf/a00224_1a3eb375b25f02aaecedb92086ff2a7af3" compoundref="d5/ddf/a00224" startline="50">halfMask</references>
+        <references refid="d5/ddf/a00224_1a9023510776bb97137517b59d39edbc3a" compoundref="d5/ddf/a00224" startline="47">halfShift</references>
+        <references refid="d5/ddf/a00224_1a3a0d41e6f13988419ab99d6a14719a8c" compoundref="d5/ddf/a00224" startline="446" endline="470">isLegalUTF8</references>
+        <references refid="d5/ddf/a00224_1af2f91e07d9adfd50e53dbbb38ba3245f" compoundref="d5/ddf/a00224" startline="275" endline="276">offsetsFromUTF8</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8aab3cce3e3d047a29ab541a1284763223" compoundref="d3/d00/a00113" startline="120">sourceExhausted</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" compoundref="d3/d00/a00113" startline="122">sourceIllegal</references>
+        <references refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" compoundref="d3/d00/a00113" startline="126">strictConversion</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" compoundref="d3/d00/a00113" startline="121">targetExhausted</references>
+        <references refid="d5/ddf/a00224_1a2827254e79699e0e1a4ef1f510e2262a" compoundref="d5/ddf/a00224" startline="259" endline="268">trailingBytesForUTF8</references>
+        <referencedby refid="db/ddd/a02089_1a5209999d2313fd5b19d6832fb90ee9d5" compoundref="d5/d35/a00266" startline="96" endline="118">CIccUTF16String::CIccUTF16String</referencedby>
+        <referencedby refid="db/ddd/a02089_1a6974e5dc49b8069799812361ae3d764d" compoundref="d5/d35/a00266" startline="223" endline="256">CIccUTF16String::FromUtf8</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d3/d00/a00113_1a3019c94f47fdbae93211314adb1beebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref> <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>icUtfConversionResult ICCPROFLIB_API icConvertUTF8toUTF32</definition>
+        <argsstring>(const UTF8 **sourceStart, const UTF8 *sourceEnd, UTF32 **targetStart, UTF32 *targetEnd, icUtfConversionFlags flags)</argsstring>
+        <name>icConvertUTF8toUTF32</name>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> **</type>
+          <declname>sourceStart</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> *</type>
+          <declname>sourceEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref> **</type>
+          <declname>targetStart</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref> *</type>
+          <declname>targetEnd</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref></type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="143" column="38" bodyfile="IccProfLib/IccConvertUTF.cpp" bodystart="723" bodyend="781" declfile="IccProfLib/IccConvertUTF.h" declline="143" declcolumn="38"/>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" compoundref="d3/d00/a00113" startline="119">conversionOK</references>
+        <references refid="d5/ddf/a00224_1a3a0d41e6f13988419ab99d6a14719a8c" compoundref="d5/ddf/a00224" startline="446" endline="470">isLegalUTF8</references>
+        <references refid="d5/ddf/a00224_1af2f91e07d9adfd50e53dbbb38ba3245f" compoundref="d5/ddf/a00224" startline="275" endline="276">offsetsFromUTF8</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8aab3cce3e3d047a29ab541a1284763223" compoundref="d3/d00/a00113" startline="120">sourceExhausted</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" compoundref="d3/d00/a00113" startline="122">sourceIllegal</references>
+        <references refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" compoundref="d3/d00/a00113" startline="126">strictConversion</references>
+        <references refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" compoundref="d3/d00/a00113" startline="121">targetExhausted</references>
+        <references refid="d5/ddf/a00224_1a2827254e79699e0e1a4ef1f510e2262a" compoundref="d5/ddf/a00224" startline="259" endline="268">trailingBytesForUTF8</references>
+      </memberdef>
+      <memberdef kind="function" id="d3/d00/a00113_1a1a2dad2f752ad41ae129928da0d80f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d00/a00113_1adaac7155d04f98cee33773208b61f3f8" kindref="member">Boolean</ref> <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>Boolean ICCPROFLIB_API icIsLegalUTF8Sequence</definition>
+        <argsstring>(const UTF8 *source, const UTF8 *sourceEnd)</argsstring>
+        <name>icIsLegalUTF8Sequence</name>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> *</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref> *</type>
+          <declname>sourceEnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccConvertUTF.h" line="159" column="24" bodyfile="IccProfLib/IccConvertUTF.cpp" bodystart="478" bodyend="485" declfile="IccProfLib/IccConvertUTF.h" declline="159" declcolumn="24"/>
+        <references refid="d5/ddf/a00224_1a3a0d41e6f13988419ab99d6a14719a8c" compoundref="d5/ddf/a00224" startline="446" endline="470">isLegalUTF8</references>
+        <references refid="d5/ddf/a00224_1a2827254e79699e0e1a4ef1f510e2262a" compoundref="d5/ddf/a00224" startline="259" endline="268">trailingBytesForUTF8</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">*<sp/>Copyright<sp/>2001-2004<sp/>Unicode,<sp/>Inc.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*<sp/>Disclaimer</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*<sp/>This<sp/>source<sp/>code<sp/>is<sp/>provided<sp/>as<sp/>is<sp/>by<sp/>Unicode,<sp/>Inc.<sp/>No<sp/>claims<sp/>are</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/>made<sp/>as<sp/>to<sp/>fitness<sp/>for<sp/>any<sp/>particular<sp/>purpose.<sp/>No<sp/>warranties<sp/>of<sp/>any</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*<sp/>kind<sp/>are<sp/>expressed<sp/>or<sp/>implied.<sp/>The<sp/>recipient<sp/>agrees<sp/>to<sp/>determine</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*<sp/>applicability<sp/>of<sp/>information<sp/>provided.<sp/>If<sp/>this<sp/>file<sp/>has<sp/>been</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*<sp/>purchased<sp/>on<sp/>magnetic<sp/>or<sp/>optical<sp/>media<sp/>from<sp/>Unicode,<sp/>Inc.,<sp/>the</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*<sp/>sole<sp/>remedy<sp/>for<sp/>any<sp/>claim<sp/>will<sp/>be<sp/>exchange<sp/>of<sp/>defective<sp/>media</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>within<sp/>90<sp/>days<sp/>of<sp/>receipt.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*<sp/>Limitations<sp/>on<sp/>Rights<sp/>to<sp/>Redistribute<sp/>This<sp/>Code</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment">*<sp/>Unicode,<sp/>Inc.<sp/>hereby<sp/>grants<sp/>the<sp/>right<sp/>to<sp/>freely<sp/>use<sp/>the<sp/>information</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*<sp/>supplied<sp/>in<sp/>this<sp/>file<sp/>in<sp/>the<sp/>creation<sp/>of<sp/>products<sp/>supporting<sp/>the</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*<sp/>Unicode<sp/>Standard,<sp/>and<sp/>to<sp/>make<sp/>copies<sp/>of<sp/>this<sp/>file<sp/>in<sp/>any<sp/>form</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*<sp/>for<sp/>internal<sp/>or<sp/>external<sp/>distribution<sp/>as<sp/>long<sp/>as<sp/>this<sp/>notice</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*<sp/>remains<sp/>attached.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>---------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"></highlight></codeline>
+<codeline lineno="25"><highlight class="comment">Conversions<sp/>between<sp/>UTF32,<sp/>UTF-16,<sp/>and<sp/>UTF-8.<sp/><sp/>Header<sp/>file.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"></highlight></codeline>
+<codeline lineno="27"><highlight class="comment">Several<sp/>functions<sp/>are<sp/>included<sp/>here,<sp/>forming<sp/>a<sp/>complete<sp/>set<sp/>of</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">conversions<sp/>between<sp/>the<sp/>three<sp/>formats.<sp/><sp/>UTF-7<sp/>is<sp/>not<sp/>included</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">here,<sp/>but<sp/>is<sp/>handled<sp/>in<sp/>a<sp/>separate<sp/>source<sp/>file.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"></highlight></codeline>
+<codeline lineno="31"><highlight class="comment">Each<sp/>of<sp/>these<sp/>routines<sp/>takes<sp/>pointers<sp/>to<sp/>input<sp/>buffers<sp/>and<sp/>output</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">buffers.<sp/><sp/>The<sp/>input<sp/>buffers<sp/>are<sp/>const.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"></highlight></codeline>
+<codeline lineno="34"><highlight class="comment">Each<sp/>routine<sp/>converts<sp/>the<sp/>text<sp/>between<sp/>*sourceStart<sp/>and<sp/>sourceEnd,</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">putting<sp/>the<sp/>result<sp/>into<sp/>the<sp/>buffer<sp/>between<sp/>*targetStart<sp/>and</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">targetEnd.<sp/>Note:<sp/>the<sp/>end<sp/>pointers<sp/>are<sp/>*after*<sp/>the<sp/>last<sp/>item:<sp/>e.g.<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*(sourceEnd<sp/>-<sp/>1)<sp/>is<sp/>the<sp/>last<sp/>item.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"></highlight></codeline>
+<codeline lineno="39"><highlight class="comment">The<sp/>return<sp/>result<sp/>indicates<sp/>whether<sp/>the<sp/>conversion<sp/>was<sp/>successful,</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">and<sp/>if<sp/>not,<sp/>whether<sp/>the<sp/>problem<sp/>was<sp/>in<sp/>the<sp/>source<sp/>or<sp/>target<sp/>buffers.</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">(Only<sp/>the<sp/>first<sp/>encountered<sp/>problem<sp/>is<sp/>indicated.)</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"></highlight></codeline>
+<codeline lineno="43"><highlight class="comment">After<sp/>the<sp/>conversion,<sp/>*sourceStart<sp/>and<sp/>*targetStart<sp/>are<sp/>both</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">updated<sp/>to<sp/>point<sp/>to<sp/>the<sp/>end<sp/>of<sp/>last<sp/>text<sp/>successfully<sp/>converted<sp/>in</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">the<sp/>respective<sp/>buffers.</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"></highlight></codeline>
+<codeline lineno="47"><highlight class="comment">Input<sp/>parameters:</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">sourceStart<sp/>-<sp/>pointer<sp/>to<sp/>a<sp/>pointer<sp/>to<sp/>the<sp/>source<sp/>buffer.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">The<sp/>contents<sp/>of<sp/>this<sp/>are<sp/>modified<sp/>on<sp/>return<sp/>so<sp/>that</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">it<sp/>points<sp/>at<sp/>the<sp/>next<sp/>thing<sp/>to<sp/>be<sp/>converted.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">targetStart<sp/>-<sp/>similarly,<sp/>pointer<sp/>to<sp/>pointer<sp/>to<sp/>the<sp/>target<sp/>buffer.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">sourceEnd,<sp/>targetEnd<sp/>-<sp/>respectively<sp/>pointers<sp/>to<sp/>the<sp/>ends<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">two<sp/>buffers,<sp/>for<sp/>overflow<sp/>checking<sp/>only.</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment">These<sp/>conversion<sp/>functions<sp/>take<sp/>an<sp/>icUtfConversionFlags<sp/>argument.<sp/>When<sp/>this</highlight></codeline>
+<codeline lineno="56"><highlight class="comment">flag<sp/>is<sp/>set<sp/>to<sp/>strict,<sp/>both<sp/>irregular<sp/>sequences<sp/>and<sp/>isolated<sp/>surrogates</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">will<sp/>cause<sp/>an<sp/>error.<sp/><sp/>When<sp/>the<sp/>flag<sp/>is<sp/>set<sp/>to<sp/>lenient,<sp/>both<sp/>irregular</highlight></codeline>
+<codeline lineno="58"><highlight class="comment">sequences<sp/>and<sp/>isolated<sp/>surrogates<sp/>are<sp/>converted.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"></highlight></codeline>
+<codeline lineno="60"><highlight class="comment">Whether<sp/>the<sp/>flag<sp/>is<sp/>strict<sp/>or<sp/>lenient,<sp/>all<sp/>illegal<sp/>sequences<sp/>will<sp/>cause</highlight></codeline>
+<codeline lineno="61"><highlight class="comment">an<sp/>error<sp/>return.<sp/>This<sp/>includes<sp/>sequences<sp/>such<sp/>as:<sp/>&lt;F4<sp/>90<sp/>80<sp/>80&gt;,<sp/>&lt;C0<sp/>80&gt;,</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">or<sp/>&lt;A0&gt;<sp/>in<sp/>UTF-8,<sp/>and<sp/>values<sp/>above<sp/>0x10FFFF<sp/>in<sp/>UTF-32.<sp/>Conformant<sp/>code</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">must<sp/>check<sp/>for<sp/>illegal<sp/>sequences.</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">When<sp/>the<sp/>flag<sp/>is<sp/>set<sp/>to<sp/>lenient,<sp/>characters<sp/>over<sp/>0x10FFFF<sp/>are<sp/>converted</highlight></codeline>
+<codeline lineno="66"><highlight class="comment">to<sp/>the<sp/>replacement<sp/>character;<sp/>otherwise<sp/>(when<sp/>the<sp/>flag<sp/>is<sp/>set<sp/>to<sp/>strict)</highlight></codeline>
+<codeline lineno="67"><highlight class="comment">they<sp/>constitute<sp/>an<sp/>error.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"></highlight></codeline>
+<codeline lineno="69"><highlight class="comment">Output<sp/>parameters:</highlight></codeline>
+<codeline lineno="70"><highlight class="comment">The<sp/>value<sp/>&quot;sourceIllegal&quot;<sp/>is<sp/>returned<sp/>from<sp/>some<sp/>routines<sp/>if<sp/>the<sp/>input</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">sequence<sp/>is<sp/>malformed.<sp/><sp/>When<sp/>&quot;sourceIllegal&quot;<sp/>is<sp/>returned,<sp/>the<sp/>source</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">value<sp/>will<sp/>point<sp/>to<sp/>the<sp/>illegal<sp/>value<sp/>that<sp/>caused<sp/>the<sp/>problem.<sp/>E.g.,</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">in<sp/>UTF-8<sp/>when<sp/>a<sp/>sequence<sp/>is<sp/>malformed,<sp/>it<sp/>points<sp/>to<sp/>the<sp/>start<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="74"><highlight class="comment">malformed<sp/>sequence.<sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="comment"></highlight></codeline>
+<codeline lineno="76"><highlight class="comment">Author:<sp/>Mark<sp/>E.<sp/>Davis,<sp/>1994.</highlight></codeline>
+<codeline lineno="77"><highlight class="comment">Rev<sp/>History:<sp/>Rick<sp/>McGowan,<sp/>fixes<sp/>&amp;<sp/>updates<sp/>May<sp/>2001.</highlight></codeline>
+<codeline lineno="78"><highlight class="comment">Fixes<sp/>&amp;<sp/>updates,<sp/>Sept<sp/>2001.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"></highlight></codeline>
+<codeline lineno="80"><highlight class="comment">------------------------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>---------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="83"><highlight class="comment">July<sp/>2009<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="comment">-<sp/>Modified<sp/>names<sp/>to<sp/>avoid<sp/>possible<sp/>conflicts<sp/>-<sp/>Max<sp/>Derhak</highlight></codeline>
+<codeline lineno="85"><highlight class="comment">-<sp/>Added<sp/>IccProfLibConf.h<sp/>include<sp/>to<sp/>use<sp/>ICCPROFLIB_API<sp/>with<sp/>functions</highlight></codeline>
+<codeline lineno="86"><highlight class="comment">-<sp/>Changed<sp/>typedef<sp/>of<sp/>UTF32<sp/>to<sp/>use<sp/>ICCUINT32</highlight></codeline>
+<codeline lineno="87"><highlight class="comment">------------------------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>---------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="90"><highlight class="comment">November<sp/>2011</highlight></codeline>
+<codeline lineno="91"><highlight class="comment">-<sp/>Added<sp/>copies<sp/>of<sp/>functions<sp/>that<sp/>place<sp/>results<sp/>in<sp/>referenced<sp/>std::vector</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/>thus<sp/>releasing<sp/>caller<sp/>from<sp/>responsibility<sp/>of<sp/>allocating<sp/>buffer<sp/>with</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/>the<sp/>correct<sp/>size<sp/>-<sp/>Max<sp/>Derhak</highlight></codeline>
+<codeline lineno="94"><highlight class="comment">------------------------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/d16/a00029" kindref="compound">IccProfLibConf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>---------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="99"><highlight class="comment">The<sp/>following<sp/>4<sp/>definitions<sp/>are<sp/>compiler-specific.</highlight></codeline>
+<codeline lineno="100"><highlight class="comment">The<sp/>C<sp/>standard<sp/>does<sp/>not<sp/>guarantee<sp/>that<sp/>wchar_t<sp/>has<sp/>at<sp/>least</highlight></codeline>
+<codeline lineno="101"><highlight class="comment">16<sp/>bits,<sp/>so<sp/>wchar_t<sp/>is<sp/>no<sp/>less<sp/>portable<sp/>than<sp/>unsigned<sp/>short!</highlight></codeline>
+<codeline lineno="102"><highlight class="comment">All<sp/>should<sp/>be<sp/>unsigned<sp/>values<sp/>to<sp/>avoid<sp/>sign<sp/>extension<sp/>during</highlight></codeline>
+<codeline lineno="103"><highlight class="comment">bit<sp/>mask<sp/>&amp;<sp/>shift<sp/>operations.</highlight></codeline>
+<codeline lineno="104"><highlight class="comment">------------------------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="d5/d16/a00029_1af4f9a4c07d8766a12ef62c381593d22e" kindref="member">ICCUINT32</ref><sp/><sp/><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>;<sp/><sp/></highlight><highlight class="comment">/*<sp/>at<sp/>least<sp/>32<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>at<sp/>least<sp/>16<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>typically<sp/>8<sp/>bits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="d3/d00/a00113_1adaac7155d04f98cee33773208b61f3f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="d3/d00/a00113_1adaac7155d04f98cee33773208b61f3f8" kindref="member">Boolean</ref>;<sp/></highlight><highlight class="comment">/*<sp/>0<sp/>or<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Some<sp/>fundamental<sp/>constants<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="d3/d00/a00113_1a44b240b95a93f71535c03f5e26d7dbe1" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNI_REPLACEMENT_CHAR<sp/>(UTF32)0x0000FFFD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="d3/d00/a00113_1adc71280d09832f0fb6c6b83fbf043140" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNI_MAX_BMP<sp/>(UTF32)0x0000FFFF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="d3/d00/a00113_1a69d0ea77d1231214ba0893e846d7fcaf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNI_MAX_UTF16<sp/>(UTF32)0x0010FFFF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="d3/d00/a00113_1a26c4390ae1463df1e6075ea585ed79a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNI_MAX_UTF32<sp/>(UTF32)0x7FFFFFFF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="d3/d00/a00113_1a98a2f50a1ca513613316ffd384dd1bfb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNI_MAX_LEGAL_UTF32<sp/>(UTF32)0x0010FFFF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="119" refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a52ace604d4b4bfdbb02699abcdfc5856" kindref="member">conversionOK</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>conversion<sp/>successful<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8aab3cce3e3d047a29ab541a1284763223" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8aab3cce3e3d047a29ab541a1284763223" kindref="member">sourceExhausted</ref>,<sp/><sp/></highlight><highlight class="comment">/*<sp/>partial<sp/>character<sp/>in<sp/>source,<sp/>but<sp/>hit<sp/>end<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a22d7628029ab488395e9802cc21d3d1b" kindref="member">targetExhausted</ref>,<sp/><sp/></highlight><highlight class="comment">/*<sp/>insuff.<sp/>room<sp/>in<sp/>target<sp/>for<sp/>conversion<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" kindref="member">sourceIllegal</ref><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>source<sp/>sequence<sp/>is<sp/>illegal/malformed<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8a42f7df28717a1aaf7cbb89c8d907b631" refkind="member"><highlight class="normal">}<sp/><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="126" refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbba204e76a6d941d3c151696d05abeacd40" kindref="member">strictConversion</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbbac7c2c3c32c7fbed195185e68879e550c" kindref="member">lenientConversion</ref></highlight></codeline>
+<codeline lineno="128" refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbbac7c2c3c32c7fbed195185e68879e550c" refkind="member"><highlight class="normal">}<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>is<sp/>for<sp/>C++<sp/>and<sp/>does<sp/>no<sp/>harm<sp/>in<sp/>C<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1a1ce7285764f13667e49e5bf10377b8b8" kindref="member">icConvertUTF8toUTF16</ref><sp/>(</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>**<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>**<sp/>targetStart,<sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>*<sp/>targetEnd,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1ac8042a5341476a29de35dcb828d11737" kindref="member">icConvertUTF16toUTF8</ref><sp/>(</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>**<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>**<sp/>targetStart,<sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>*<sp/>targetEnd,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1a3019c94f47fdbae93211314adb1beebd" kindref="member">icConvertUTF8toUTF32</ref><sp/>(</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>**<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>**<sp/>targetStart,<sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>*<sp/>targetEnd,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1aba6cb0ccb4262580830ba0ee185489a0" kindref="member">icConvertUTF32toUTF8</ref><sp/>(</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>**<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>**<sp/>targetStart,<sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>*<sp/>targetEnd,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1aeb08c40435dd9e4bc81cc2d68d7afe1e" kindref="member">icConvertUTF16toUTF32</ref><sp/>(</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>**<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>**<sp/>targetStart,<sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>*<sp/>targetEnd,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1a0a12c298e7420f1f4838f849fe84517e" kindref="member">icConvertUTF32toUTF16</ref><sp/>(</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>**<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>**<sp/>targetStart,<sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>*<sp/>targetEnd,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><ref refid="d3/d00/a00113_1adaac7155d04f98cee33773208b61f3f8" kindref="member">Boolean</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1a1a2dad2f752ad41ae129928da0d80f5f" kindref="member">icIsLegalUTF8Sequence</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref><sp/>*source,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref><sp/>*sourceEnd);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;UTF8&gt;<sp/>icUtf8Vector;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;UTF16&gt;<sp/>icUtf16Vector;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;UTF32&gt;<sp/>icUtf32Vector;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1a1ce7285764f13667e49e5bf10377b8b8" kindref="member">icConvertUTF8toUTF16</ref><sp/>(</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>*<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/>icUtf16Vector<sp/>&amp;target,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1ac8042a5341476a29de35dcb828d11737" kindref="member">icConvertUTF16toUTF8</ref><sp/>(</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>*<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>icUtf8Vector<sp/>&amp;target,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1a3019c94f47fdbae93211314adb1beebd" kindref="member">icConvertUTF8toUTF32</ref><sp/>(</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>*<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1aafe543c40e242c865f970b57a29122ab" kindref="member">UTF8</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>icUtf32Vector<sp/>&amp;target,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1aba6cb0ccb4262580830ba0ee185489a0" kindref="member">icConvertUTF32toUTF8</ref><sp/>(</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>*<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>icUtf8Vector<sp/>&amp;target,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1aeb08c40435dd9e4bc81cc2d68d7afe1e" kindref="member">icConvertUTF16toUTF32</ref><sp/>(</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>*<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a50b71724cb39637be87babb9ddbd5822" kindref="member">UTF16</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>icUtf32Vector<sp/>&amp;target,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><ref refid="d3/d00/a00113_1a857080450603c118c1f820f96e2c61d8" kindref="member">icUtfConversionResult</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/d00/a00113_1a0a12c298e7420f1f4838f849fe84517e" kindref="member">icConvertUTF32toUTF16</ref><sp/>(</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>*<sp/>sourceStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d00/a00113_1a712315a25692d905402a2f4db0ed622d" kindref="member">UTF32</ref>*<sp/>sourceEnd,<sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/>icUtf16Vector<sp/>&amp;target,<sp/><ref refid="d3/d00/a00113_1afdfb6f5dac09ba1b8e138ad4f3a0abbb" kindref="member">icUtfConversionFlags</ref><sp/>flags);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>---------------------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccConvertUTF.h"/>
+  </compounddef>
+</doxygen>

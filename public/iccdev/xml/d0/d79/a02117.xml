@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d0/d79/a02117" kind="class" language="C++" prot="public">
+    <compoundname>CIccCfgProfileSequence</compoundname>
+    <includes refid="dc/d50/a00332" local="no">IccCmmConfig.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d79/a02117_1a4381b69cc0b5f0f9e9739ef41a97745e" prot="public" static="no" mutable="no">
+        <type><ref refid="dc/d50/a00332_1a489ce0c6ac2eb90bd88fd729f4d2d78f" kindref="member">CIccCfgProfileArray</ref></type>
+        <definition>CIccCfgProfileArray CIccCfgProfileSequence::m_profiles</definition>
+        <argsstring></argsstring>
+        <name>m_profiles</name>
+        <qualifiedname>CIccCfgProfileSequence::m_profiles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="142" column="21" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="142" bodyend="-1"/>
+        <referencedby refid="d0/d79/a02117_1a57c1fdc042874feac7f3106eaf905780" compoundref="d8/d23/a00326" startline="715" endline="793">fromArgs</referencedby>
+        <referencedby refid="d0/d79/a02117_1a58b05fa37369a89adf812c45dfac004a" compoundref="d8/d23/a00326" startline="795" endline="816">fromJson</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+        <referencedby refid="d0/d79/a02117_1a02c734f01d622505755cbf7cffd8824c" compoundref="d8/d23/a00326" startline="710" endline="713">reset</referencedby>
+        <referencedby refid="d0/d79/a02117_1ad9a4a297edb1220bb25bb5f9af5c4d07" compoundref="d8/d23/a00326" startline="818" endline="828">toJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1adb55e5301ce7976543f09c36889edcfa" compoundref="d8/d23/a00326" startline="1401" endline="1496">CIccCfgColorData::toLegacy</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d79/a02117_1a825e9c83e459ec130c4aab6721ef51f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCfgProfileSequence::CIccCfgProfileSequence</definition>
+        <argsstring>()</argsstring>
+        <name>CIccCfgProfileSequence</name>
+        <qualifiedname>CIccCfgProfileSequence::CIccCfgProfileSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="134" column="1" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="706" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d79/a02117_1ad637d460f3e87e0c0cac11370b47ebe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccCfgProfileSequence::~CIccCfgProfileSequence</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccCfgProfileSequence</name>
+        <qualifiedname>CIccCfgProfileSequence::~CIccCfgProfileSequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="135" column="9" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d79/a02117_1a57c1fdc042874feac7f3106eaf905780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CIccCfgProfileSequence::fromArgs</definition>
+        <argsstring>(const char **args, int nArg, bool bReset=false)</argsstring>
+        <name>fromArgs</name>
+        <qualifiedname>CIccCfgProfileSequence::fromArgs</qualifiedname>
+        <param>
+          <type>const char **</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nArg</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bReset</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="138" column="5" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="715" bodyend="793"/>
+        <references refid="d8/dc6/a02113_1a9b99dc8953e5d41f5afb59826916df67" compoundref="d8/d23/a00326" startline="546" endline="549">CIccCfgProfile::CIccCfgProfile</references>
+        <references refid="d7/dce/a00143_1a3a009765ea132eda6aadf6bedbf10e2d" compoundref="d5/db1/a00140" startline="1258" endline="1300">icGetSigVal</references>
+        <references refid="d6/d5b/a00026_1a39ef4ca48f4dbb239b4e3ac0e9e8e913aa14dd4addcb31947cb22d669495225e8" compoundref="d6/d5b/a00026" startline="115">icInterpTetrahedral</references>
+        <references refid="d6/d5b/a00026_1a1ba790142ac961bedde2898273414a7bad77391d20e90bb2496733d3700589614" compoundref="d6/d5b/a00026" startline="126">icXformLutColor</references>
+        <references refid="d8/dc6/a02113_1af469abd69c80585d472360aa1bfd9357" compoundref="dc/d50/a00332" startline="121">CIccCfgProfile::m_adjustPcsLuminance</references>
+        <references refid="d8/dc6/a02113_1adf8289e5b2a7c8c9618ac98958204343" compoundref="dc/d50/a00332" startline="117">CIccCfgProfile::m_iccEnvVars</references>
+        <references refid="d8/dc6/a02113_1a7b4b29dfcfd259dd40eba88c1d547148" compoundref="dc/d50/a00332" startline="114">CIccCfgProfile::m_iccFile</references>
+        <references refid="d8/dc6/a02113_1a3bf1af277547b7d2a0e8008767c674ea" compoundref="dc/d50/a00332" startline="115">CIccCfgProfile::m_intent</references>
+        <references refid="d8/dc6/a02113_1a2e4654771c968eb87520edea8824ebe2" compoundref="dc/d50/a00332" startline="125">CIccCfgProfile::m_interpolation</references>
+        <references refid="d8/dc6/a02113_1abb21518a641c6abfc122c565f1792e40" compoundref="dc/d50/a00332" startline="118">CIccCfgProfile::m_pccFile</references>
+        <references refid="d0/d79/a02117_1a4381b69cc0b5f0f9e9739ef41a97745e" compoundref="dc/d50/a00332" startline="142">m_profiles</references>
+        <references refid="d8/dc6/a02113_1ac19bae9915e3f69eb3510988a1c6c483" compoundref="dc/d50/a00332" startline="116">CIccCfgProfile::m_transform</references>
+        <references refid="d8/dc6/a02113_1a6db60e1daccda0ac9101ac1c69374988" compoundref="dc/d50/a00332" startline="122">CIccCfgProfile::m_useBPC</references>
+        <references refid="d8/dc6/a02113_1abccae699e2de7a13c8632e54eb2f9265" compoundref="dc/d50/a00332" startline="120">CIccCfgProfile::m_useD2BxB2Dx</references>
+        <references refid="d8/dc6/a02113_1a3bb4890d7b00695cb65b80901260cae5" compoundref="dc/d50/a00332" startline="123">CIccCfgProfile::m_useHToS</references>
+        <references refid="d8/dc6/a02113_1a5f75f7279a82ffd744957ae08a33b8ae" compoundref="dc/d50/a00332" startline="124">CIccCfgProfile::m_useV5SubProfile</references>
+        <references refid="d0/d79/a02117_1a02c734f01d622505755cbf7cffd8824c" compoundref="d8/d23/a00326" startline="710" endline="713">reset</references>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/d79/a02117_1a58b05fa37369a89adf812c45dfac004a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCfgProfileSequence::fromJson</definition>
+        <argsstring>(json obj, bool bReset=false)</argsstring>
+        <name>fromJson</name>
+        <qualifiedname>CIccCfgProfileSequence::fromJson</qualifiedname>
+        <param>
+          <type><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bReset</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="139" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="795" bodyend="816"/>
+        <references refid="d8/dc6/a02113_1af88e2e435af4fba20677d5b276b3c41a" compoundref="d8/d23/a00326" startline="621" endline="663">CIccCfgProfile::fromJson</references>
+        <references refid="d0/d79/a02117_1a4381b69cc0b5f0f9e9739ef41a97745e" compoundref="dc/d50/a00332" startline="142">m_profiles</references>
+        <references refid="d0/d79/a02117_1a02c734f01d622505755cbf7cffd8824c" compoundref="d8/d23/a00326" startline="710" endline="713">reset</references>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/d79/a02117_1a02c734f01d622505755cbf7cffd8824c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCfgProfileSequence::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>CIccCfgProfileSequence::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="137" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="710" bodyend="713"/>
+        <references refid="d0/d79/a02117_1a4381b69cc0b5f0f9e9739ef41a97745e" compoundref="dc/d50/a00332" startline="142">m_profiles</references>
+        <referencedby refid="d0/d79/a02117_1a57c1fdc042874feac7f3106eaf905780" compoundref="d8/d23/a00326" startline="715" endline="793">fromArgs</referencedby>
+        <referencedby refid="d0/d79/a02117_1a58b05fa37369a89adf812c45dfac004a" compoundref="d8/d23/a00326" startline="795" endline="816">fromJson</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/d79/a02117_1ad9a4a297edb1220bb25bb5f9af5c4d07" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCfgProfileSequence::toJson</definition>
+        <argsstring>(json &amp;obj) const</argsstring>
+        <name>toJson</name>
+        <qualifiedname>CIccCfgProfileSequence::toJson</qualifiedname>
+        <param>
+          <type><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="140" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="818" bodyend="828"/>
+        <references refid="d0/d79/a02117_1a4381b69cc0b5f0f9e9739ef41a97745e" compoundref="dc/d50/a00332" startline="142">m_profiles</references>
+        <references refid="d8/dc6/a02113_1a581c804095c381294fc7723eaaed6140" compoundref="d8/d23/a00326" startline="678" endline="704">CIccCfgProfile::toJson</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="131" column="1" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="132" bodyend="143"/>
+    <listofallmembers>
+      <member refid="d0/d79/a02117_1a825e9c83e459ec130c4aab6721ef51f8" prot="public" virt="non-virtual"><scope>CIccCfgProfileSequence</scope><name>CIccCfgProfileSequence</name></member>
+      <member refid="d0/d79/a02117_1a57c1fdc042874feac7f3106eaf905780" prot="public" virt="non-virtual"><scope>CIccCfgProfileSequence</scope><name>fromArgs</name></member>
+      <member refid="d0/d79/a02117_1a58b05fa37369a89adf812c45dfac004a" prot="public" virt="non-virtual"><scope>CIccCfgProfileSequence</scope><name>fromJson</name></member>
+      <member refid="d0/d79/a02117_1a4381b69cc0b5f0f9e9739ef41a97745e" prot="public" virt="non-virtual"><scope>CIccCfgProfileSequence</scope><name>m_profiles</name></member>
+      <member refid="d0/d79/a02117_1a02c734f01d622505755cbf7cffd8824c" prot="public" virt="non-virtual"><scope>CIccCfgProfileSequence</scope><name>reset</name></member>
+      <member refid="d0/d79/a02117_1ad9a4a297edb1220bb25bb5f9af5c4d07" prot="public" virt="non-virtual"><scope>CIccCfgProfileSequence</scope><name>toJson</name></member>
+      <member refid="d0/d79/a02117_1ad637d460f3e87e0c0cac11370b47ebe5" prot="public" virt="virtual"><scope>CIccCfgProfileSequence</scope><name>~CIccCfgProfileSequence</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

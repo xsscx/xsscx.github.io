@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/db3/a02301" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccTiffDump_2Readme</compoundname>
+    <title>🖨️ iccTiffDump</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="db/db3/a02301_1autotoc_md196"/> <bold>iccTiffDump</bold> is a command-line tool for extracting ICC profile metadata and technical characteristics from TIFF images. It helps color scientists and developers audit TIFF structure, verify embedded color profiles, and analyze imaging parameters.</para>
+<para><hruler/>
+</para>
+<sect1 id="db/db3/a02301_1autotoc_md198">
+<title>🔧 Features</title>
+<para><itemizedlist>
+<listitem><para>✅ <bold>TIFF Metadata Reporting</bold><itemizedlist>
+<listitem><para>Image dimensions, DPI, compression type, photometric model</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>✅ <bold>ICC Profile Analysis</bold><itemizedlist>
+<listitem><para>Extracts embedded ICC profile with PCS, signature, description</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>✅ <bold>Sample Precision Reporting</bold><itemizedlist>
+<listitem><para>Bits per component, sample format, samples per pixel</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>✅ <bold>Tag Visibility</bold><itemizedlist>
+<listitem><para>Shows image layout, color space tags, resolution units</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>✅ <bold>Multilingual Support</bold><itemizedlist>
+<listitem><para>Recognizes multi-language ICC descriptions and localized tags</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="db/db3/a02301_1autotoc_md200">
+<title>🚀 Usage</title>
+<sect2 id="db/db3/a02301_1autotoc_md201">
+<title>📤 Extract Profile and Metadata</title>
+<para><programlisting filename=".bash"><codeline><highlight class="normal">iccTiffDump<sp/>input.tiff</highlight></codeline>
+</programlisting></para>
+<para>Prints TIFF structure summary and ICC profile block if present.</para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="db/db3/a02301_1autotoc_md203">
+<title>📘 Output Highlights</title>
+<para><itemizedlist>
+<listitem><para><bold>Image Size</bold> — Width × Height, DPI resolution</para>
+</listitem><listitem><para><bold>Color Model</bold> — Photometric (RGB, CMYK, grayscale, etc.)</para>
+</listitem><listitem><para><bold>Compression</bold> — e.g., LZW, PackBits, JPEG</para>
+</listitem><listitem><para><bold>ICC Block</bold> — Version, size, PCS, rendering intent, description</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="db/db3/a02301_1autotoc_md205">
+<title>🧪 Advanced Use</title>
+<para><itemizedlist>
+<listitem><para>Suitable for fuzzing TIFF encoders with profile injection</para>
+</listitem><listitem><para>Validates deterministic TIFF profile roundtrips</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="db/db3/a02301_1autotoc_md207">
+<title>📚 Related Tools</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>iccEval</computeroutput>, <computeroutput>iccFromXml</computeroutput>, <computeroutput>iccApplyProfiles</computeroutput></para>
+</listitem><listitem><para>Compatible with PNG and JPEG ICC tools from same suite</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="db/db3/a02301_1autotoc_md209">
+<title>🔒 Notes</title>
+<para><itemizedlist>
+<listitem><para>Supports baseline and BigTIFF variants</para>
+</listitem><listitem><para>Reports errors for malformed tag blocks</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+ </para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccTiffDump/Readme.md"/>
+  </compounddef>
+</doxygen>

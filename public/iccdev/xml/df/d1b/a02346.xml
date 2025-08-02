@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="df/d1b/a02346" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>🔄<sp/>iccV5DspObsToV4Dsp</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**iccV5DspObsToV4Dsp**<sp/>converts<sp/>ICC<sp/>v5<sp/>Display<sp/>Observer<sp/>profiles<sp/>into<sp/>ICC<sp/>v4<sp/>Display<sp/>profiles.</highlight></codeline>
+<codeline><highlight class="normal">This<sp/>enables<sp/>broader<sp/>compatibility<sp/>with<sp/>systems<sp/>and<sp/>applications<sp/>that<sp/>only<sp/>support<sp/>ICC<sp/>v4.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🔧<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**ICC<sp/>v5<sp/>→<sp/>v4<sp/>Conversion**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Converts<sp/>observer-specific<sp/>tags<sp/>to<sp/>legacy<sp/>v4-compatible<sp/>structures</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**Display<sp/>Profile<sp/>Simplification**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Translates<sp/>spectral<sp/>viewing<sp/>conditions<sp/>into<sp/>ICC<sp/>v4<sp/>colorimetric<sp/>approximations</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**CLI<sp/>Integration**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Usable<sp/>in<sp/>batch<sp/>pipelines<sp/>and<sp/>profile<sp/>pre-processing</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**Metadata<sp/>Preservation**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Retains<sp/>device<sp/>class,<sp/>rendering<sp/>intent,<sp/>and<sp/>profile<sp/>description</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🚀<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">iccV5DspObsToV4Dsp<sp/>input.icc<sp/>--output<sp/>output.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Converts<sp/>the<sp/>`input.icc`<sp/>(v5<sp/>observer-based)<sp/>profile<sp/>into<sp/>a<sp/>legacy<sp/>v4<sp/>format<sp/>written<sp/>to<sp/>`output.icc`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>📘<sp/>Use<sp/>Cases</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Ensures<sp/>ICC<sp/>v5<sp/>profiles<sp/>can<sp/>be<sp/>interpreted<sp/>by<sp/>legacy<sp/>apps</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Enables<sp/>testing<sp/>fallback<sp/>behavior<sp/>in<sp/>color<sp/>pipelines</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>roundtrip<sp/>simulations<sp/>for<sp/>v4-only<sp/>workflows</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🔒<sp/>Notes</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Only<sp/>applicable<sp/>to<sp/>Display<sp/>class<sp/>profiles<sp/>with<sp/>observer<sp/>extensions</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Conversion<sp/>may<sp/>lose<sp/>fidelity<sp/>of<sp/>original<sp/>observer<sp/>data</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">©<sp/>ICC<sp/>Consortium<sp/>—<sp/>MIT<sp/>License</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccV5DspObsToV4Dsp/Readme.md"/>
+  </compounddef>
+</doxygen>

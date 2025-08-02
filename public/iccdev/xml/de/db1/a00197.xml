@@ -1,0 +1,649 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/db1/a00197" kind="file" language="C++">
+    <compoundname>IccPcc.cpp</compoundname>
+    <includes refid="d4/d3a/a00101" local="yes">IccPcc.h</includes>
+    <includes refid="d4/d51/a00017" local="yes">IccProfile.h</includes>
+    <includes refid="d2/df5/a00137" local="yes">IccTag.h</includes>
+    <includes refid="d6/d5b/a00026" local="yes">IccCmm.h</includes>
+    <incdepgraph>
+      <node id="23">
+        <label>IccCmm.h</label>
+        <link refid="d6/d5b/a00026"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>IccIO.h</label>
+        <link refid="df/d6a/a00119"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>IccMatrixMath.h</label>
+        <link refid="dc/dfe/a00125"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccPcc.cpp</label>
+        <link refid="de/db1/a00197"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IccPcc.h</label>
+        <link refid="d4/d3a/a00101"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IccProfile.h</label>
+        <link refid="d4/d51/a00017"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>IccTag.h</label>
+        <link refid="d2/df5/a00137"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>IccTagBasic.h</label>
+        <link refid="da/dec/a00080"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IccTagComposite.h</label>
+        <link refid="d1/da8/a00230"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>IccTagDict.h</label>
+        <link refid="df/d03/a00062"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>IccTagEmbedIcc.h</label>
+        <link refid="dc/d9a/a00218"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>IccTagFactory.h</label>
+        <link refid="d8/d41/a00038"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IccTagLut.h</label>
+        <link refid="da/d24/a00068"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>IccTagMPE.h</label>
+        <link refid="d7/d25/a00182"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>IccTagProfSeqId.h</label>
+        <link refid="d5/df1/a00206"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>IccUtil.h</label>
+        <link refid="d7/dce/a00143"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="28">
+        <label>cstdlib</label>
+      </node>
+      <node id="27">
+        <label>cstring</label>
+      </node>
+      <node id="25">
+        <label>limits</label>
+      </node>
+      <node id="9">
+        <label>list</label>
+      </node>
+      <node id="18">
+        <label>memory</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+      <node id="13">
+        <label>stdio.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="de/db1/a00197" kindref="compound">IccPcc.cpp</ref></para>
+<para>Contains: Implementation of the <ref refid="db/d18/a00885" kindref="compound">IIccProfileConnectionConditions</ref> interface class.</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>5-15-2003</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#pragma<sp/>warning(<sp/>disable:<sp/>4786)<sp/></highlight><highlight class="comment">//disable<sp/>warning<sp/>in<sp/>&lt;list.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/d3a/a00101" kindref="compound">IccPcc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/d51/a00017" kindref="compound">IccProfile.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/df5/a00137" kindref="compound">IccTag.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d6/d5b/a00026" kindref="compound">IccCmm.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d18/a00885_1a9ca9746d8f42338293e7570275af03d7" kindref="member">IIccProfileConnectionConditions::isEquivalentPcc</ref>(<ref refid="db/d18/a00885" kindref="compound">IIccProfileConnectionConditions</ref><sp/>&amp;IPCC)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17" kindref="member">icIlluminant</ref><sp/>illum<sp/>=<sp/><ref refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" kindref="member">getPccIlluminant</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859b" kindref="member">icStandardObserver</ref><sp/>obs<sp/>=<sp/><ref refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" kindref="member">getPccObserver</ref>();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(illum!=IPCC.<ref refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" kindref="member">getPccIlluminant</ref>()<sp/>||<sp/>obs!=<sp/>IPCC.<ref refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" kindref="member">getPccObserver</ref>())</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((illum==<ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a4f741f748f7d67a4c26eaf716f4acfeb" kindref="member">icIlluminantDaylight</ref><sp/>||<sp/>illum==<ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17aa2ae921dec6ee8f3fede2f53bd7f3d60" kindref="member">icIlluminantBlackBody</ref>)<sp/>&amp;&amp;<sp/><ref refid="db/d18/a00885_1afef290dfe66fbd9182f21bbbf638fdf9" kindref="member">getPccCCT</ref>()!=IPCC.<ref refid="db/d18/a00885_1afef290dfe66fbd9182f21bbbf638fdf9" kindref="member">getPccCCT</ref>())</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(illum==<ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ab1c241e8a8bf7f4843c929227113ac84" kindref="member">icIlluminantUnknown</ref>)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(obs==<ref refid="d7/d46/a00002_1a2d017e608a3baa5837827ccefb14771c" kindref="member">icStdObsCustom</ref>)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="db/d18/a00885_1af68de8addb66a26899ca13f2a20c288e" kindref="member">hasIlluminantSPD</ref>()<sp/>&amp;&amp;<sp/>!IPCC.<ref refid="db/d18/a00885_1af68de8addb66a26899ca13f2a20c288e" kindref="member">hasIlluminantSPD</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>XYZ1[3],<sp/>XYZ2[3];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/d18/a00885_1a9c5c38685ec6a82b97608f5571e303f2" kindref="member">getNormIlluminantXYZ</ref>(&amp;XYZ1[0]);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>IPCC.<ref refid="db/d18/a00885_1a9c5c38685ec6a82b97608f5571e303f2" kindref="member">getNormIlluminantXYZ</ref>(&amp;XYZ2[0]);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(XYZ1[0]!=XYZ2[0]<sp/>||</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XYZ1[1]!=XYZ2[1]<sp/>||</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XYZ1[2]!=XYZ2[2])</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" refkind="member"><highlight class="normal"><ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17" kindref="member">icIlluminant</ref><sp/><ref refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" kindref="member">IIccProfileConnectionConditions::getPccIlluminant</ref>()</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pCond<sp/>=<sp/><ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pCond)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ac5371c55bd4c3d83624ba6cf705207fd" kindref="member">icIlluminantD50</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pCond-&gt;<ref refid="d8/dbf/a01109_1a8877a21252b3f70c761e049765cfb10e" kindref="member">getStdIllumiant</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="db/d18/a00885_1afef290dfe66fbd9182f21bbbf638fdf9" refkind="member"><highlight class="normal"><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="db/d18/a00885_1afef290dfe66fbd9182f21bbbf638fdf9" kindref="member">IIccProfileConnectionConditions::getPccCCT</ref>()</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pCond<sp/>=<sp/><ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pCond)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0f;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pCond-&gt;<ref refid="d8/dbf/a01109_1a339a66cb30a03163f17861f8c704df51" kindref="member">getIlluminantCCT</ref>();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" refkind="member"><highlight class="normal"><ref refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859b" kindref="member">icStandardObserver</ref><sp/><ref refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" kindref="member">IIccProfileConnectionConditions::getPccObserver</ref>()</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pCond<sp/>=<sp/><ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pCond)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859ba75bc24faaa2326e527a38382dc626ab8" kindref="member">icStdObs1931TwoDegrees</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pCond-&gt;<ref refid="d8/dbf/a01109_1ae4239cdd0e743e05eb5ba45432c98756" kindref="member">getStdObserver</ref>();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="db/d18/a00885_1a91dc6e895f5fcc5cd924bcdedd5ea0b5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d18/a00885_1a91dc6e895f5fcc5cd924bcdedd5ea0b5" kindref="member">IIccProfileConnectionConditions::isStandardPcc</ref>()</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="db/d18/a00885_1a627a50ed026d5b225e0cc7e5b9c8da8f" kindref="member">getPccIlluminant</ref>()==<ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ac5371c55bd4c3d83624ba6cf705207fd" kindref="member">icIlluminantD50</ref><sp/>&amp;&amp;<sp/><ref refid="db/d18/a00885_1ad0359bc6e9a6089d09aa364413930990" kindref="member">getPccObserver</ref>()==<ref refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859ba75bc24faaa2326e527a38382dc626ab8" kindref="member">icStdObs1931TwoDegrees</ref>)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="db/d18/a00885_1af68de8addb66a26899ca13f2a20c288e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d18/a00885_1af68de8addb66a26899ca13f2a20c288e" kindref="member">IIccProfileConnectionConditions::hasIlluminantSPD</ref>()</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pCond<sp/>=<sp/><ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pCond)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>illumRange;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*illum<sp/>=<sp/>pCond-&gt;<ref refid="d8/dbf/a01109_1aa4fe6556022cceea44adf34848528245" kindref="member">getIlluminant</ref>(illumRange);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!illumRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref><sp/>||<sp/>!illum)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="db/d18/a00885_1a26aeaba43632aa5d06de6623fd900d4b" refkind="member"><highlight class="normal"><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="db/d18/a00885_1a26aeaba43632aa5d06de6623fd900d4b" kindref="member">IIccProfileConnectionConditions::getObserverIlluminantScaleFactor</ref>()</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pView<sp/>=<sp/><ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pView)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1.0;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>illumRange;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*illum<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1aa4fe6556022cceea44adf34848528245" kindref="member">getIlluminant</ref>(illumRange);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>obsRange;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*obs<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a2319ced95e40cb2493820227f54a302d" kindref="member">getObserver</ref>(obsRange);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>n<sp/>=<sp/>illumRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref><sp/>*mapRange=<ref refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" kindref="member">CIccMatrixMath::rangeMap</ref>(obsRange,<sp/>illumRange);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>rv=0;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mapRange)<sp/>{</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*Ycmf<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>[illumRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>];</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>mapRange-&gt;<ref refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" kindref="member">VectorMult</ref>(Ycmf,<sp/>&amp;obs[obsRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>]);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>mapRange;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i&lt;n;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>rv<sp/>+=<sp/>Ycmf[i]*illum[i];</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>[]<sp/>Ycmf;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*Ycmf<sp/>=<sp/>&amp;obs[obsRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>];</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i&lt;n;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>rv<sp/>+=<sp/>Ycmf[i]*illum[i];</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="db/d18/a00885_1a81fb6e4ffae390d84145d802702b6d6c" refkind="member"><highlight class="normal"><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="db/d18/a00885_1a81fb6e4ffae390d84145d802702b6d6c" kindref="member">IIccProfileConnectionConditions::getObserverWhiteScaleFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*pWhite,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>&amp;whiteRange)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pView<sp/>=<sp/><ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pView)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1.0;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>obsRange;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*obs<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a2319ced95e40cb2493820227f54a302d" kindref="member">getObserver</ref>(obsRange);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>n<sp/>=<sp/>whiteRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref><sp/>*mapRange=<ref refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" kindref="member">CIccMatrixMath::rangeMap</ref>(obsRange,<sp/>whiteRange);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>rv=0;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mapRange)<sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*Ycmf<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>[whiteRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>];</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>mapRange-&gt;<ref refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" kindref="member">VectorMult</ref>(Ycmf,<sp/>&amp;obs[obsRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>]);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>mapRange;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i&lt;n;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>rv<sp/>+=<sp/>Ycmf[i]*pWhite[i];</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>[]<sp/>Ycmf;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*Ycmf<sp/>=<sp/>&amp;obs[obsRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>];</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i&lt;n;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>rv<sp/>+=<sp/>Ycmf[i]*pWhite[i];</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rv;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" refkind="member"><highlight class="normal"><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*<ref refid="db/d18/a00885_1a3b47bc2eb9b37350fa6a95b1bdd28944" kindref="member">IIccProfileConnectionConditions::getEmissiveObserver</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>&amp;range,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*pWhite,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*obs)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pView<sp/>=<sp/><ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!pView<sp/>||<sp/>!pWhite)</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>n<sp/>=<sp/>range.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>,<sp/>size<sp/>=<sp/>3*n;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*fptr;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*tptr;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>observerRange;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*observer<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a2319ced95e40cb2493820227f54a302d" kindref="member">getObserver</ref>(observerRange);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!obs)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/>obs<sp/>=<sp/>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>*)malloc(size*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(obs)<sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref><sp/>*mapRange=<ref refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" kindref="member">CIccMatrixMath::rangeMap</ref>(observerRange,<sp/>range);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Copy<sp/>observer<sp/>while<sp/>adjusting<sp/>to<sp/>range</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mapRange)<sp/>{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fptr<sp/>=<sp/>&amp;observer[0];</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tptr<sp/>=<sp/>obs;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>3;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mapRange-&gt;<ref refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" kindref="member">VectorMult</ref>(tptr,<sp/>fptr);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fptr<sp/>+=<sp/>observerRange.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tptr<sp/>+=<sp/>range.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>mapRange;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(obs,<sp/>observer,<sp/>size*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Calculate<sp/>scale<sp/>constant<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>k=0.0f;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>fptr<sp/>=<sp/>&amp;obs[range.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>];<sp/></highlight><highlight class="comment">//Using<sp/>second<sp/>color<sp/>matching<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i&lt;(int)range.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>k<sp/>+=<sp/>fptr[i]*pWhite[i];</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Scale<sp/>observer<sp/>so<sp/>application<sp/>of<sp/>observer<sp/>against<sp/>white<sp/>results<sp/>in<sp/>1.0.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;<sp/>i&lt;size;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>obs[i]<sp/>=<sp/>obs[i]<sp/>/<sp/>k;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref><sp/>observerMtx(3,range.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(observerMtx.<ref refid="d5/da3/a00953_1a021ceb19c3f630a874193e879b1a67cf" kindref="member">entry</ref>(0),<sp/>obs,<sp/>size*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>xyz[3];</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>observerMtx.<ref refid="d5/da3/a00953_1ad8dbc46a659046cb77fae512afb8081b" kindref="member">VectorMult</ref>(xyz,<sp/>pWhite);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>obs;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287" refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" refkind="member"><highlight class="normal"><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref><sp/>*<ref refid="db/d18/a00885_1a84d4a4ae4e32e9a526d4c6ff9e6ce613" kindref="member">IIccProfileConnectionConditions::getReflectanceObserver</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>&amp;rangeRef)</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><ref refid="d5/da3/a00953" kindref="compound">CIccMatrixMath</ref><sp/>*pAdjust=NULL,<sp/>*pMtx;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pView<sp/>=<sp/><ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>illumRange;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*illum<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1aa4fe6556022cceea44adf34848528245" kindref="member">getIlluminant</ref>(illumRange);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/>pMtx<sp/>=<sp/><ref refid="d5/da3/a00953_1a6b704b309ab6c3881393eb65c741e71e" kindref="member">CIccMatrixMath::rangeMap</ref>(rangeRef,<sp/>illumRange);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pMtx)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>pAdjust<sp/>=<sp/>pMtx;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/>pMtx<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a02a2d8cee6baabd93d5712fdd4f8b361" kindref="member">getObserverMatrix</ref>(illumRange);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pAdjust)<sp/>{</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>pMtx<sp/>=<sp/>pAdjust-&gt;<ref refid="d5/da3/a00953_1a54160dd1f90de3a0fa17e281b1f512dc" kindref="member">Mult</ref>(pMtx);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>pAdjust;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/>pAdjust<sp/>=<sp/>pMtx;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/>pAdjust-&gt;<ref refid="d5/da3/a00953_1a17e3fdff1d4d143488ae71ea79e41354" kindref="member">VectorScale</ref>(illum);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/>pAdjust-&gt;<ref refid="d5/da3/a00953_1ada7ffe05cbe73c5a80ba0814b3f1cab0" kindref="member">Scale</ref>(1.0f<sp/>/<sp/>pAdjust-&gt;<ref refid="d5/da3/a00953_1a0711f353df382e731588736d339fcb26" kindref="member">RowSum</ref>(1));</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pAdjust;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="de/dc8/a00889_1a1e34aec1449da50c0ac66c5ef8d1cdd9" refkind="member"><highlight class="normal"><ref refid="de/dc8/a00889_1a1e34aec1449da50c0ac66c5ef8d1cdd9" kindref="member">CIccCombinedConnectionConditions::CIccCombinedConnectionConditions</ref>(<ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*pProfile,<sp/></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/d18/a00885" kindref="compound">IIccProfileConnectionConditions</ref><sp/>*pAppliedPCC,<sp/></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bReflectance</highlight><highlight class="comment">/*=false*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pAppliedPCC)<sp/>{</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*pView<sp/>=<sp/>pAppliedPCC-&gt;<ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bReflectance)<sp/>{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref><sp/>=<sp/>pAppliedPCC;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1aca5412c3b6071ecf8c36c8a02bc852da" kindref="member">m_illuminantXYZ</ref>[0]<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1ae66932e46d116e7c5f3e26cb8ea99640" kindref="member">X</ref><sp/>/<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1a91536390a8df347f89972fa23560d7cc" kindref="member">Y</ref>;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1aca5412c3b6071ecf8c36c8a02bc852da" kindref="member">m_illuminantXYZ</ref>[1]<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1a91536390a8df347f89972fa23560d7cc" kindref="member">Y</ref><sp/>/<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1a91536390a8df347f89972fa23560d7cc" kindref="member">Y</ref>;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1aca5412c3b6071ecf8c36c8a02bc852da" kindref="member">m_illuminantXYZ</ref>[2]<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1a632b9e5a29d766deed2992c7e1da45d9" kindref="member">Z</ref><sp/>/<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1a91536390a8df347f89972fa23560d7cc" kindref="member">Y</ref>;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a9f90c7d579ac79b152ef402045cb1412" kindref="member">m_illuminantXYZLum</ref>[0]<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1ae66932e46d116e7c5f3e26cb8ea99640" kindref="member">X</ref>;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a9f90c7d579ac79b152ef402045cb1412" kindref="member">m_illuminantXYZLum</ref>[1]<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1a91536390a8df347f89972fa23560d7cc" kindref="member">Y</ref>;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a9f90c7d579ac79b152ef402045cb1412" kindref="member">m_illuminantXYZLum</ref>[2]<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" kindref="member">m_illuminantXYZ</ref>.<ref refid="d7/db7/a00525_1a632b9e5a29d766deed2992c7e1da45d9" kindref="member">Z</ref>;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a64f8ddf19ec00d3f9d512a9d0bce8087" kindref="member">m_bValidMediaXYZ</ref><sp/>=<sp/>pProfile-&gt;calcMediaWhiteXYZ(<ref refid="de/dc8/a00889_1aa52139f6d3dfc4b5f7edf61aaa0c0940" kindref="member">m_mediaXYZ</ref>,<sp/>pAppliedPCC);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref><sp/>=<sp/>pAppliedPCC;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref><sp/>=<sp/>(<ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*)<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a4012e30790dc36681721f18a49863a8f" kindref="member">NewCopy</ref>();</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref><sp/>illumRange;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*illum<sp/>=<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1aa4fe6556022cceea44adf34848528245" kindref="member">getIlluminant</ref>(illumRange);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref>-&gt;<ref refid="d8/dbf/a01109_1ad64dbc49c731c308160ca42757661809" kindref="member">setIlluminant</ref>(pView-&gt;<ref refid="d8/dbf/a01109_1a8877a21252b3f70c761e049765cfb10e" kindref="member">getStdIllumiant</ref>(),<sp/>illumRange,<sp/>illum,<sp/>pView-&gt;<ref refid="d8/dbf/a01109_1a339a66cb30a03163f17861f8c704df51" kindref="member">getIlluminantCCT</ref>());</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pProfile-&gt;calcNormIlluminantXYZ(<ref refid="de/dc8/a00889_1aca5412c3b6071ecf8c36c8a02bc852da" kindref="member">m_illuminantXYZ</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pProfile-&gt;calcLumIlluminantXYZ(<ref refid="de/dc8/a00889_1a9f90c7d579ac79b152ef402045cb1412" kindref="member">m_illuminantXYZLum</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a64f8ddf19ec00d3f9d512a9d0bce8087" kindref="member">m_bValidMediaXYZ</ref><sp/>=<sp/>pProfile-&gt;calcMediaWhiteXYZ(<ref refid="de/dc8/a00889_1aa52139f6d3dfc4b5f7edf61aaa0c0940" kindref="member">m_mediaXYZ</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/dc8/a00889_1a64f8ddf19ec00d3f9d512a9d0bce8087" kindref="member">m_bValidMediaXYZ</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="350"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352" refid="de/dc8/a00889_1a4ca5fffcbe93ff916a118578febb059d" refkind="member"><highlight class="normal"><ref refid="de/dc8/a00889_1a4ca5fffcbe93ff916a118578febb059d" kindref="member">CIccCombinedConnectionConditions::~CIccCombinedConnectionConditions</ref>()</highlight></codeline>
+<codeline lineno="353"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref>)</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref>;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="de/dc8/a00889_1ae134c05e68cd8f8106c765a55e7446f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/dbf/a01109" kindref="compound">CIccTagSpectralViewingConditions</ref><sp/>*<ref refid="de/dc8/a00889_1ae134c05e68cd8f8106c765a55e7446f8" kindref="member">CIccCombinedConnectionConditions::getPccViewingConditions</ref>()</highlight></codeline>
+<codeline lineno="359"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref>)</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref>;</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref>)</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref>-&gt;<ref refid="db/d18/a00885_1a41d44184a1e66e1f7bd46e60fc69fda6" kindref="member">getPccViewingConditions</ref>();</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367" refid="de/dc8/a00889_1ae8b41cced50e6210c6fe996917ff3591" refkind="member"><highlight class="normal"><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref><sp/>*<ref refid="de/dc8/a00889_1ae8b41cced50e6210c6fe996917ff3591" kindref="member">CIccCombinedConnectionConditions::getCustomToStandardPcc</ref>()</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref>)</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref>-&gt;<ref refid="db/d18/a00885_1a6a535454f7d93b11bc5f6a83e9142331" kindref="member">getCustomToStandardPcc</ref>();</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="de/dc8/a00889_1a65595fbacdffb232b40d70efa5869ea6" refkind="member"><highlight class="normal"><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref><sp/>*<ref refid="de/dc8/a00889_1a65595fbacdffb232b40d70efa5869ea6" kindref="member">CIccCombinedConnectionConditions::getStandardToCustomPcc</ref>()</highlight></codeline>
+<codeline lineno="375"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref>)</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref>-&gt;<ref refid="db/d18/a00885_1a16094632a566d2945892046797fac4d9" kindref="member">getStandardToCustomPcc</ref>();</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="379"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381" refid="de/dc8/a00889_1aea2874717f84c6d6392022609c7b1dd0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1aea2874717f84c6d6392022609c7b1dd0" kindref="member">CIccCombinedConnectionConditions::getNormIlluminantXYZ</ref>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*pXYZ)</highlight></codeline>
+<codeline lineno="382"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/>memcpy(pXYZ,<sp/><ref refid="de/dc8/a00889_1aca5412c3b6071ecf8c36c8a02bc852da" kindref="member">m_illuminantXYZ</ref>,<sp/>3*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="384"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386" refid="de/dc8/a00889_1a440ccadbec2f770e4d73703c1ecfed15" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1a440ccadbec2f770e4d73703c1ecfed15" kindref="member">CIccCombinedConnectionConditions::getLumIlluminantXYZ</ref>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*pXYZLum)</highlight></codeline>
+<codeline lineno="387"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/>memcpy(pXYZLum,<sp/><ref refid="de/dc8/a00889_1a9f90c7d579ac79b152ef402045cb1412" kindref="member">m_illuminantXYZLum</ref>,<sp/>3<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="389"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391" refid="de/dc8/a00889_1aed68310972685449d41908c3aad8c65f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1aed68310972685449d41908c3aad8c65f" kindref="member">CIccCombinedConnectionConditions::getMediaWhiteXYZ</ref>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*pXYZ)</highlight></codeline>
+<codeline lineno="392"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="de/dc8/a00889_1aa3f09f18236c376c2b00f79a3b49ff88" kindref="member">m_pPCC</ref><sp/>||<sp/><ref refid="de/dc8/a00889_1a86a1c107247db71ae136f01067a7b774" kindref="member">m_pViewingConditions</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(pXYZ,<sp/><ref refid="de/dc8/a00889_1aa52139f6d3dfc4b5f7edf61aaa0c0940" kindref="member">m_mediaXYZ</ref>,<sp/>3*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>));</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="de/dc8/a00889_1a64f8ddf19ec00d3f9d512a9d0bce8087" kindref="member">m_bValidMediaXYZ</ref>;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="398"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccPcc.cpp"/>
+  </compounddef>
+</doxygen>

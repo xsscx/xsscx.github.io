@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d6/d18/a01925" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>CIccCurveXml</compoundname>
+    <basecompoundref refid="de/d3c/a01809" prot="public" virt="non-virtual">CIccTagXml</basecompoundref>
+    <derivedcompoundref refid="dc/dc8/a01929" prot="public" virt="non-virtual">CIccTagXmlCurve</derivedcompoundref>
+    <derivedcompoundref refid="dc/da7/a01933" prot="public" virt="non-virtual">CIccTagXmlParametricCurve</derivedcompoundref>
+    <derivedcompoundref refid="d9/d17/a01937" prot="public" virt="non-virtual">CIccTagXmlSegmentedCurve</derivedcompoundref>
+    <includes refid="d6/de1/a00233" local="no">IccTagXml.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d18/a01925_1a06ec379ff91837b8b479d591d0b46c75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccCurveXml::~CIccCurveXml</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccCurveXml</name>
+        <qualifiedname>CIccCurveXml::~CIccCurveXml</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccTagXml.h" line="490" column="12" bodyfile="IccXML/IccLibXML/IccTagXml.h" bodystart="490" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d3c/a01809_1a67786e088d1e0f900a3aa28bb3499d2b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * CIccTagXml::GetExtClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetExtClassName</name>
+        <qualifiedname>CIccTagXml::GetExtClassName</qualifiedname>
+        <reimplements refid="d3/dcd/a00965_1afc77445123182ddaec413f6353c719be">GetExtClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccTagXml.h" line="79" column="22" bodyfile="IccXML/IccLibXML/IccTagXml.h" bodystart="79" bodyend="79"/>
+        <referencedby refid="d0/d27/a00239_1a5e18ab5a318311f6b8e807ae44b7ed45" compoundref="d0/d27/a00239" startline="2181" endline="2255">icProfDescToXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a0f0f9f2d4fbf03932c3a2512b8d63410" compoundref="d0/d27/a00239" startline="2257" endline="2338">icXmlParseProfDesc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d18/a01925_1aeecd033ae4a3786d9e6db4ff6a9e0c60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * CIccCurveXml::GetExtDerivedClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetExtDerivedClassName</name>
+        <qualifiedname>CIccCurveXml::GetExtDerivedClassName</qualifiedname>
+        <reimplements refid="de/d3c/a01809_1ac5c03ff6c0ef73be014eb9da37ec6113">GetExtDerivedClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccTagXml.h" line="492" column="23" bodyfile="IccXML/IccLibXML/IccTagXml.h" bodystart="492" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d18/a01925_1a077bbe4f80ab0ea8f83328361c5dc6cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccCurveXml::ParseXml</definition>
+        <argsstring>(xmlNode *pNode, icConvertType nType, std::string &amp;parseStr)=0</argsstring>
+        <name>ParseXml</name>
+        <qualifiedname>CIccCurveXml::ParseXml</qualifiedname>
+        <reimplementedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b">ParseXml</reimplementedby>
+        <reimplementedby refid="dc/da7/a01933_1ae4339eda4a0931961f278852fbad162c">ParseXml</reimplementedby>
+        <reimplementedby refid="d9/d17/a01937_1a88313380d8ce5b23fdf80d9fb76e5364">ParseXml</reimplementedby>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8" kindref="member">icConvertType</ref></type>
+          <declname>nType</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccTagXml.h" line="495" column="17"/>
+        <referencedby refid="d0/d27/a00239_1ab2ad4f9d9730453002176b26c0899dab" compoundref="d0/d27/a00239" startline="3232" endline="3299">icCurvesFromXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d3c/a01809_1ab389ac02038775bf0a198ae68847d8a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTagXml::ParseXml</definition>
+        <argsstring>(xmlNode *pNode, std::string &amp;parseStr)=0</argsstring>
+        <name>ParseXml</name>
+        <qualifiedname>CIccTagXml::ParseXml</qualifiedname>
+        <reimplementedby refid="d1/d20/a01813_1aee9f44f9fd888c70919cb498f913b54f">ParseXml</reimplementedby>
+        <reimplementedby refid="d4/d29/a01817_1a757fe0bdb33b7cbb0e9852c4437e01c3">ParseXml</reimplementedby>
+        <reimplementedby refid="de/d3d/a01821_1a592d4099cc73504f3e7ea7c36678ca20">ParseXml</reimplementedby>
+        <reimplementedby refid="df/dee/a01825_1ab4d07b5329f5b3ce766c74386483f4aa">ParseXml</reimplementedby>
+        <reimplementedby refid="d6/dbd/a01829_1aa486edc3eb28f3c08aaa29ccdf056f65">ParseXml</reimplementedby>
+        <reimplementedby refid="db/dd5/a01833_1a99102f508957658b71a65d2b3701dc35">ParseXml</reimplementedby>
+        <reimplementedby refid="d7/db1/a01837_1a90eeefd13346d44fe87970c91ca28287">ParseXml</reimplementedby>
+        <reimplementedby refid="d2/d5b/a01841_1a9b1f2dbf0af9bb05e4c92e5c6615ba56">ParseXml</reimplementedby>
+        <reimplementedby refid="da/d8c/a01845_1afc82bcf77ee741c29ea0679efa73cbdd">ParseXml</reimplementedby>
+        <reimplementedby refid="db/dd4/a01849_1ad1128c315377cd9d17f38fb32f6a221d">ParseXml</reimplementedby>
+        <reimplementedby refid="db/d6b/a01853_1a49d8593f3fb56d4d0d418ede2184fa79">ParseXml</reimplementedby>
+        <reimplementedby refid="de/d51/a01857_1a01fdca7df355b1fd4f8d322d5e15ba47">ParseXml</reimplementedby>
+        <reimplementedby refid="d6/d56/a01861_1ad1bd79a785003f26fbaa470222c12ea7">ParseXml</reimplementedby>
+        <reimplementedby refid="d5/da8/a01865_1a7f4971e529abcc48dd78c99d0eea5852">ParseXml</reimplementedby>
+        <reimplementedby refid="d8/d3a/a01869_1a62090daf2e66d15845d7f561e59df6b8">ParseXml</reimplementedby>
+        <reimplementedby refid="d9/d63/a01877_1aef548e5ab696b113bf1158b5bbf36f0b">ParseXml</reimplementedby>
+        <reimplementedby refid="de/d9f/a01881_1a157b1263fdf8de283af4d229d2e4bd94">ParseXml</reimplementedby>
+        <reimplementedby refid="d7/d9c/a01885_1adcb1238d1761fc5a61a03df9bcdfa18e">ParseXml</reimplementedby>
+        <reimplementedby refid="d9/d9b/a01889_1add635b1bc955516c006c481659c53aed">ParseXml</reimplementedby>
+        <reimplementedby refid="dd/d80/a01893_1ad5de92490a23f29b1f636918923cf281">ParseXml</reimplementedby>
+        <reimplementedby refid="d9/d0c/a01897_1abb3915ff834b197b005e3314225bcdde">ParseXml</reimplementedby>
+        <reimplementedby refid="d5/d99/a01901_1a1433cb8568d5b783eee6628c539a9097">ParseXml</reimplementedby>
+        <reimplementedby refid="d9/d65/a01905_1a506a0dfd74a95a70e8ac7eb805aff014">ParseXml</reimplementedby>
+        <reimplementedby refid="d9/d90/a01909_1a8de3d30fbcc00445ce544ae23fc47607">ParseXml</reimplementedby>
+        <reimplementedby refid="d4/d07/a01913_1a0117e79492f9a25f32df61b4beba6ebb">ParseXml</reimplementedby>
+        <reimplementedby refid="d2/d54/a01917_1a0b8bea51eaf695cd51933826c97e342f">ParseXml</reimplementedby>
+        <reimplementedby refid="da/d6c/a01921_1a28ee8a1b0496d7c25a3f4ad7d2f95331">ParseXml</reimplementedby>
+        <reimplementedby refid="dc/dc8/a01929_1aeda568a6539a8fe0a52dd7ad758b58f4">ParseXml</reimplementedby>
+        <reimplementedby refid="dc/da7/a01933_1a3ac52dc4008e07a54f88b930fa0365c8">ParseXml</reimplementedby>
+        <reimplementedby refid="d9/d17/a01937_1a00dfc958c87aaf5c7840028fbba29959">ParseXml</reimplementedby>
+        <reimplementedby refid="da/d76/a01941_1a17d7ee9bbdbfd67551e3ad4096d82f12">ParseXml</reimplementedby>
+        <reimplementedby refid="d5/d39/a01945_1a8f179c174b57d340a2d29780b3cb7d14">ParseXml</reimplementedby>
+        <reimplementedby refid="dd/d2e/a01949_1ac547bf18f93a7b1000a09bb307a2cf69">ParseXml</reimplementedby>
+        <reimplementedby refid="d9/d97/a01953_1a8326f04ecde36cd269be1bb293a9d6a9">ParseXml</reimplementedby>
+        <reimplementedby refid="d2/d6f/a01957_1a9fc2116a88d2d5ea8009ad4bc5154942">ParseXml</reimplementedby>
+        <reimplementedby refid="d2/d23/a01961_1afbaaee340011d5bd09960d699d352e14">ParseXml</reimplementedby>
+        <reimplementedby refid="d6/d9a/a01965_1a88c29060c9f89f8b6033dcb3a535d4d4">ParseXml</reimplementedby>
+        <reimplementedby refid="db/d49/a01969_1a4bf99f4ff03849bb6c1a13c7967aeb6c">ParseXml</reimplementedby>
+        <reimplementedby refid="d3/d59/a01973_1abccc6c4d4ab6b62ac620371e1e5ab361">ParseXml</reimplementedby>
+        <reimplementedby refid="d5/d92/a01977_1a6e3095ab0d0da8f239228841c9f60233">ParseXml</reimplementedby>
+        <reimplementedby refid="df/db2/a01981_1a1f911f834c825441d4694595710bcf55">ParseXml</reimplementedby>
+        <reimplementedby refid="d3/def/a01985_1a40585eab56b698d0579d922b924997e9">ParseXml</reimplementedby>
+        <reimplementedby refid="dc/d67/a01989_1ae48ad89db3a44ccf101482acece44bdc">ParseXml</reimplementedby>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccTagXml.h" line="83" column="16"/>
+        <referencedby refid="d0/d27/a00239_1ab2ad4f9d9730453002176b26c0899dab" compoundref="d0/d27/a00239" startline="3232" endline="3299">icCurvesFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a0f0f9f2d4fbf03932c3a2512b8d63410" compoundref="d0/d27/a00239" startline="2257" endline="2338">icXmlParseProfDesc</referencedby>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+        <referencedby refid="db/d49/a01969_1adc66f52cad265a25289afdf71b69dcc7" compoundref="d0/d27/a00239" startline="4496" endline="4666">CIccTagXmlStruct::ParseTag</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+        <referencedby refid="d3/d59/a01973_1abccc6c4d4ab6b62ac620371e1e5ab361" compoundref="d0/d27/a00239" startline="4791" endline="4907">CIccTagXmlArray::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d18/a01925_1a3195b83e31cbef371b697e375f0f2a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccCurveXml::ToXml</definition>
+        <argsstring>(std::string &amp;xml, icConvertType nType, std::string blanks)=0</argsstring>
+        <name>ToXml</name>
+        <qualifiedname>CIccCurveXml::ToXml</qualifiedname>
+        <reimplementedby refid="dc/dc8/a01929_1a746b5bc777c1ef5ce1643db6d69d1db4">ToXml</reimplementedby>
+        <reimplementedby refid="dc/da7/a01933_1a6b6729ffca76b311fe0e88c42a957f22">ToXml</reimplementedby>
+        <reimplementedby refid="d9/d17/a01937_1ac436f406544d0c080ac25b2107a0da1c">ToXml</reimplementedby>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8" kindref="member">icConvertType</ref></type>
+          <declname>nType</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>blanks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccTagXml.h" line="494" column="17"/>
+        <referencedby refid="d0/d27/a00239_1a0487825d4241d4ed1b2ad5825ba72cd9" compoundref="d0/d27/a00239" startline="3042" endline="3059">icCurvesToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d3c/a01809_1a759cbaed8a0553bb035b9ff749052309" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTagXml::ToXml</definition>
+        <argsstring>(std::string &amp;xml, std::string blanks=&quot;&quot;)=0</argsstring>
+        <name>ToXml</name>
+        <qualifiedname>CIccTagXml::ToXml</qualifiedname>
+        <reimplementedby refid="d1/d20/a01813_1a0dfde7e786adbb11ce523c5a7b25a806">ToXml</reimplementedby>
+        <reimplementedby refid="d4/d29/a01817_1a688b7b93a2ecb5570694731062d95dd9">ToXml</reimplementedby>
+        <reimplementedby refid="de/d3d/a01821_1aa5c1dcf8aa1e84ca3ad2c7e72c26e197">ToXml</reimplementedby>
+        <reimplementedby refid="df/dee/a01825_1a99b62f8f9b01a7cc73b7ae61e22afd7e">ToXml</reimplementedby>
+        <reimplementedby refid="d6/dbd/a01829_1aaa6a624e24c433cb8334c73d9e700ac6">ToXml</reimplementedby>
+        <reimplementedby refid="db/dd5/a01833_1addd353fa8cdf6589dea0c13d0f1d507e">ToXml</reimplementedby>
+        <reimplementedby refid="d7/db1/a01837_1a237b1ad09fe25ec7be340b0087a799ed">ToXml</reimplementedby>
+        <reimplementedby refid="d2/d5b/a01841_1a7c57572003c894b3bdbf12ef6dcd7c83">ToXml</reimplementedby>
+        <reimplementedby refid="da/d8c/a01845_1ac311b1efcaa76a914e7e1f8f077dd828">ToXml</reimplementedby>
+        <reimplementedby refid="db/dd4/a01849_1a66ea1e1bb45e3b2623c22b301424cd85">ToXml</reimplementedby>
+        <reimplementedby refid="db/d6b/a01853_1a4651f6e4b37317d021eb814da704ad1d">ToXml</reimplementedby>
+        <reimplementedby refid="de/d51/a01857_1a826e3dc8fb437c8986735a8e20d44f00">ToXml</reimplementedby>
+        <reimplementedby refid="d6/d56/a01861_1a103631f02382398c41ef89b5990b5334">ToXml</reimplementedby>
+        <reimplementedby refid="d5/da8/a01865_1a06d30463ba5b1e685c93922eaa3092fb">ToXml</reimplementedby>
+        <reimplementedby refid="d8/d3a/a01869_1aa5c5e55362b34e1456020ba4945fbfc9">ToXml</reimplementedby>
+        <reimplementedby refid="d9/d63/a01877_1a38f6a3581ecdf4a6c435416e4f460b7c">ToXml</reimplementedby>
+        <reimplementedby refid="de/d9f/a01881_1a943c0e19163087a7e59350c75b14491c">ToXml</reimplementedby>
+        <reimplementedby refid="d7/d9c/a01885_1a38e9548763954f73c29b8bc8ce0f5b5d">ToXml</reimplementedby>
+        <reimplementedby refid="d9/d9b/a01889_1a2f318f2c6da32de6933c397be1042eb4">ToXml</reimplementedby>
+        <reimplementedby refid="dd/d80/a01893_1a0cb011716b6eee5d7503f2402dcbced7">ToXml</reimplementedby>
+        <reimplementedby refid="d9/d0c/a01897_1a20943ac4c05b59f420bab3e44c9993b0">ToXml</reimplementedby>
+        <reimplementedby refid="d5/d99/a01901_1a9cb804649f0ae9f4d2dba8463840a532">ToXml</reimplementedby>
+        <reimplementedby refid="d9/d65/a01905_1aaa3491f669708fecb38fce323bd54882">ToXml</reimplementedby>
+        <reimplementedby refid="d9/d90/a01909_1a2aaf089230461749006fb254d588fb86">ToXml</reimplementedby>
+        <reimplementedby refid="d4/d07/a01913_1ac5db89bfc7ab38c5ce925ea17819aa8c">ToXml</reimplementedby>
+        <reimplementedby refid="d2/d54/a01917_1a61095812b67f06dc8269cd6db81e5cd0">ToXml</reimplementedby>
+        <reimplementedby refid="da/d6c/a01921_1a96a45c1c394648ad89e8c34ad56ccd67">ToXml</reimplementedby>
+        <reimplementedby refid="dc/dc8/a01929_1a3fbc9e622da8972f78c557c29c9619e8">ToXml</reimplementedby>
+        <reimplementedby refid="dc/da7/a01933_1ab0aa2a962ac70c2b83ec9903521d71f1">ToXml</reimplementedby>
+        <reimplementedby refid="d9/d17/a01937_1a83d7b02083d56a963254256e31d138b1">ToXml</reimplementedby>
+        <reimplementedby refid="da/d76/a01941_1abeba5c3094ea9906c74bbe6e6c2e3586">ToXml</reimplementedby>
+        <reimplementedby refid="d5/d39/a01945_1ac1dbe883aa002d1232802f2e3783a272">ToXml</reimplementedby>
+        <reimplementedby refid="dd/d2e/a01949_1af32a3f3856a894a6de6fb4e718b629c5">ToXml</reimplementedby>
+        <reimplementedby refid="d9/d97/a01953_1abcbb870aa768cf4734c0a4e345fe0566">ToXml</reimplementedby>
+        <reimplementedby refid="d2/d6f/a01957_1a961a44f22ec91143423cbd47ab977371">ToXml</reimplementedby>
+        <reimplementedby refid="d2/d23/a01961_1a41908f2a338b06b71d5291aaa8ac1532">ToXml</reimplementedby>
+        <reimplementedby refid="d6/d9a/a01965_1a392a644105c454e2f0aa9b9b7b69a6d6">ToXml</reimplementedby>
+        <reimplementedby refid="db/d49/a01969_1a8a1f6fe1c2db87a647aa00e2f98844e4">ToXml</reimplementedby>
+        <reimplementedby refid="d3/d59/a01973_1a90f7a44016b69c099ea5cb6b71772b0b">ToXml</reimplementedby>
+        <reimplementedby refid="d5/d92/a01977_1ab7ee445eeb9ba005b659b9d6a2c6a7d9">ToXml</reimplementedby>
+        <reimplementedby refid="df/db2/a01981_1af99181d25030a6c9267f8d695ed05b30">ToXml</reimplementedby>
+        <reimplementedby refid="d3/def/a01985_1a26df4c9fce06a9898921b9e456960aac">ToXml</reimplementedby>
+        <reimplementedby refid="dc/d67/a01989_1a12c3faa07b8bbed8d05127f2590c4ecf">ToXml</reimplementedby>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>blanks</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccTagXml.h" line="82" column="16"/>
+        <referencedby refid="d0/d27/a00239_1a5e18ab5a318311f6b8e807ae44b7ed45" compoundref="d0/d27/a00239" startline="2181" endline="2255">icProfDescToXml</referencedby>
+        <referencedby refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d" compoundref="dd/dd7/a00260" startline="1534" endline="1566">CIccMpeXmlTintArray::ToXml</referencedby>
+        <referencedby refid="db/d49/a01969_1a8a1f6fe1c2db87a647aa00e2f98844e4" compoundref="d0/d27/a00239" startline="4363" endline="4478">CIccTagXmlStruct::ToXml</referencedby>
+        <referencedby refid="d3/d59/a01973_1a90f7a44016b69c099ea5cb6b71772b0b" compoundref="d0/d27/a00239" startline="4734" endline="4788">CIccTagXmlArray::ToXml</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccCurveXml</label>
+        <link refid="d6/d18/a01925"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccTagXml</label>
+        <link refid="de/d3c/a01809"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccTagXmlCurve</label>
+        <link refid="dc/dc8/a01929"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccTagXmlParametricCurve</label>
+        <link refid="dc/da7/a01933"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CIccTagXmlSegmentedCurve</label>
+        <link refid="d9/d17/a01937"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IIccExtensionTag</label>
+        <link refid="d3/dcd/a00965"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccCurveXml</label>
+        <link refid="d6/d18/a01925"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccTagXml</label>
+        <link refid="de/d3c/a01809"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IIccExtensionTag</label>
+        <link refid="d3/dcd/a00965"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccXML/IccLibXML/IccTagXml.h" line="487" column="2" bodyfile="IccXML/IccLibXML/IccTagXml.h" bodystart="488" bodyend="496"/>
+    <listofallmembers>
+      <member refid="de/d3c/a01809_1a67786e088d1e0f900a3aa28bb3499d2b" prot="public" virt="virtual"><scope>CIccCurveXml</scope><name>GetExtClassName</name></member>
+      <member refid="d6/d18/a01925_1aeecd033ae4a3786d9e6db4ff6a9e0c60" prot="public" virt="virtual"><scope>CIccCurveXml</scope><name>GetExtDerivedClassName</name></member>
+      <member refid="d6/d18/a01925_1a077bbe4f80ab0ea8f83328361c5dc6cf" prot="public" virt="pure-virtual"><scope>CIccCurveXml</scope><name>ParseXml</name></member>
+      <member refid="de/d3c/a01809_1ab389ac02038775bf0a198ae68847d8a1" prot="public" virt="pure-virtual" ambiguityscope="CIccTagXml::"><scope>CIccCurveXml</scope><name>ParseXml</name></member>
+      <member refid="d6/d18/a01925_1a3195b83e31cbef371b697e375f0f2a78" prot="public" virt="pure-virtual"><scope>CIccCurveXml</scope><name>ToXml</name></member>
+      <member refid="de/d3c/a01809_1a759cbaed8a0553bb035b9ff749052309" prot="public" virt="pure-virtual" ambiguityscope="CIccTagXml::"><scope>CIccCurveXml</scope><name>ToXml</name></member>
+      <member refid="d6/d18/a01925_1a06ec379ff91837b8b479d591d0b46c75" prot="public" virt="virtual"><scope>CIccCurveXml</scope><name>~CIccCurveXml</name></member>
+      <member refid="de/d3c/a01809_1a5c02fda500d042b06f0e3ae7eb833383" prot="public" virt="virtual"><scope>CIccCurveXml</scope><name>~CIccTagXml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

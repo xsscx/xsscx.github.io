@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/d90/a01313" kind="class" language="C++" prot="public">
+    <compoundname>CIccSubCalcApply</compoundname>
+    <includes refid="d5/de0/a00050" local="no">IccMpeCalc.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/d90/a01313_1abcf9f4090c7b84dd23a972dd201055c2" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d10/a01197" kindref="compound">CIccApplyMpe</ref> *</type>
+        <definition>CIccApplyMpe* CIccSubCalcApply::m_pApply</definition>
+        <argsstring></argsstring>
+        <name>m_pApply</name>
+        <qualifiedname>CIccSubCalcApply::m_pApply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="435" column="16" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="435" bodyend="-1"/>
+        <referencedby refid="de/d90/a01313_1a07399d584bdaa093f807fac8c789e2b4" compoundref="d5/de0/a00050" startline="426" endline="426">CIccSubCalcApply</referencedby>
+        <referencedby refid="de/d90/a01313_1a3c6e762492e065ec4188168179552a63" compoundref="d5/de0/a00050" startline="427" endline="427">~CIccSubCalcApply</referencedby>
+        <referencedby refid="de/d90/a01313_1ac7ddf1728b0becef1ae370e4bd4a7d4c" compoundref="d5/de0/a00050" startline="432" endline="432">Apply</referencedby>
+        <referencedby refid="de/d90/a01313_1a1857e159fd4f90872cd211ec6981d3a0" compoundref="d5/de0/a00050" startline="429" endline="429">NumInputChannels</referencedby>
+        <referencedby refid="de/d90/a01313_1ae4ec84ae3195cba2bc618338e18dffa0" compoundref="d5/de0/a00050" startline="430" endline="430">NumOutputChannels</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d90/a01313_1a07399d584bdaa093f807fac8c789e2b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccSubCalcApply::CIccSubCalcApply</definition>
+        <argsstring>(CIccApplyMpe *pApplyMpe)</argsstring>
+        <name>CIccSubCalcApply</name>
+        <qualifiedname>CIccSubCalcApply::CIccSubCalcApply</qualifiedname>
+        <param>
+          <type><ref refid="d4/d10/a01197" kindref="compound">CIccApplyMpe</ref> *</type>
+          <declname>pApplyMpe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="426" column="3" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="426" bodyend="426"/>
+        <references refid="de/d90/a01313_1abcf9f4090c7b84dd23a972dd201055c2" compoundref="d5/de0/a00050" startline="435">m_pApply</references>
+        <referencedby refid="df/db8/a01317_1abf7210a4b55c60a7e30c07ce735562a7" compoundref="d9/d77/a00095" startline="4734" endline="4769">CIccMpeCalculator::GetNewApply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d90/a01313_1a3c6e762492e065ec4188168179552a63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccSubCalcApply::~CIccSubCalcApply</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccSubCalcApply</name>
+        <qualifiedname>CIccSubCalcApply::~CIccSubCalcApply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="427" column="3" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="427" bodyend="427"/>
+        <references refid="de/d90/a01313_1abcf9f4090c7b84dd23a972dd201055c2" compoundref="d5/de0/a00050" startline="435">m_pApply</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d90/a01313_1ac7ddf1728b0becef1ae370e4bd4a7d4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccSubCalcApply::Apply</definition>
+        <argsstring>(icFloatNumber *pDestPixel, const icFloatNumber *pSrcPixel)</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccSubCalcApply::Apply</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pDestPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pSrcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="432" column="8" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="432" bodyend="432"/>
+        <references refid="d4/d10/a01197_1a6589503e4554b1bea667021239a75ab1" compoundref="d7/d25/a00182" startline="213" endline="213">CIccApplyMpe::Apply</references>
+        <references refid="de/d90/a01313_1abcf9f4090c7b84dd23a972dd201055c2" compoundref="d5/de0/a00050" startline="435">m_pApply</references>
+        <referencedby refid="d1/d17/a01369_1ad54e10126c3c8581c109d8cada01bd3c" compoundref="d9/d77/a00095" startline="355" endline="384">CIccOpDefSubElement::Exec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d90/a01313_1a1857e159fd4f90872cd211ec6981d3a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccSubCalcApply::NumInputChannels</definition>
+        <argsstring>()</argsstring>
+        <name>NumInputChannels</name>
+        <qualifiedname>CIccSubCalcApply::NumInputChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="429" column="18" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="429" bodyend="429"/>
+        <references refid="d4/d10/a01197_1a4080797013d21f537ee53cee3ac7c909" compoundref="d7/d25/a00182" startline="211" endline="211">CIccApplyMpe::GetElem</references>
+        <references refid="de/d90/a01313_1abcf9f4090c7b84dd23a972dd201055c2" compoundref="d5/de0/a00050" startline="435">m_pApply</references>
+        <references refid="dd/d43/a01193_1a0e7393d937cb768d52265a7ebed2b3a9" compoundref="d7/d25/a00182" startline="159" endline="159">CIccMultiProcessElement::NumInputChannels</references>
+        <referencedby refid="d1/d17/a01369_1ad54e10126c3c8581c109d8cada01bd3c" compoundref="d9/d77/a00095" startline="355" endline="384">CIccOpDefSubElement::Exec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d90/a01313_1ae4ec84ae3195cba2bc618338e18dffa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccSubCalcApply::NumOutputChannels</definition>
+        <argsstring>()</argsstring>
+        <name>NumOutputChannels</name>
+        <qualifiedname>CIccSubCalcApply::NumOutputChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="430" column="18" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="430" bodyend="430"/>
+        <references refid="d4/d10/a01197_1a4080797013d21f537ee53cee3ac7c909" compoundref="d7/d25/a00182" startline="211" endline="211">CIccApplyMpe::GetElem</references>
+        <references refid="de/d90/a01313_1abcf9f4090c7b84dd23a972dd201055c2" compoundref="d5/de0/a00050" startline="435">m_pApply</references>
+        <references refid="dd/d43/a01193_1a431d2d96c834f4f9b0674dafe8609ae1" compoundref="d7/d25/a00182" startline="160" endline="160">CIccMultiProcessElement::NumOutputChannels</references>
+        <referencedby refid="d1/d17/a01369_1ad54e10126c3c8581c109d8cada01bd3c" compoundref="d9/d77/a00095" startline="355" endline="384">CIccOpDefSubElement::Exec</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>CIccApplyMpe</label>
+        <link refid="d4/d10/a01197"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_pApplyTag</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>m_pElem</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccApplyTagMpe</label>
+        <link refid="de/d04/a01209"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_pTag</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>m_applyBuf</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccDblPixelBuffer</label>
+        <link refid="de/d61/a01205"/>
+      </node>
+      <node id="10">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+      <node id="1">
+        <label>CIccSubCalcApply</label>
+        <link refid="de/d90/a01313"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_pApply</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="4">
+        <label>CIccTagMultiProcessElement</label>
+        <link refid="d5/d54/a01213"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_pAppliedPCC</edgelabel>
+          <edgelabel>m_pProfilePCC</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_pCmmEnvVarLookup</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IIccCmmEnvVarLookup</label>
+        <link refid="dd/d07/a00433"/>
+      </node>
+      <node id="7">
+        <label>IIccProfileConnectionConditions</label>
+        <link refid="db/d18/a00885"/>
+      </node>
+      <node id="6">
+        <label>icPositionNumber</label>
+        <link refid="d8/d6e/a00537"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeCalc.h" line="423" column="1" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="424" bodyend="436"/>
+    <listofallmembers>
+      <member refid="de/d90/a01313_1ac7ddf1728b0becef1ae370e4bd4a7d4c" prot="public" virt="non-virtual"><scope>CIccSubCalcApply</scope><name>Apply</name></member>
+      <member refid="de/d90/a01313_1a07399d584bdaa093f807fac8c789e2b4" prot="public" virt="non-virtual"><scope>CIccSubCalcApply</scope><name>CIccSubCalcApply</name></member>
+      <member refid="de/d90/a01313_1abcf9f4090c7b84dd23a972dd201055c2" prot="protected" virt="non-virtual"><scope>CIccSubCalcApply</scope><name>m_pApply</name></member>
+      <member refid="de/d90/a01313_1a1857e159fd4f90872cd211ec6981d3a0" prot="public" virt="non-virtual"><scope>CIccSubCalcApply</scope><name>NumInputChannels</name></member>
+      <member refid="de/d90/a01313_1ae4ec84ae3195cba2bc618338e18dffa0" prot="public" virt="non-virtual"><scope>CIccSubCalcApply</scope><name>NumOutputChannels</name></member>
+      <member refid="de/d90/a01313_1a3c6e762492e065ec4188168179552a63" prot="public" virt="non-virtual"><scope>CIccSubCalcApply</scope><name>~CIccSubCalcApply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

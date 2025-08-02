@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/d7d/a00789" kind="union" language="C++" prot="public">
+    <compoundname>icProfileID</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/d7d/a00789_1a900ab211d8552b744de2702f1e987a6b" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number icProfileID::ID16[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>ID16</name>
+        <qualifiedname>icProfileID::ID16</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2038" column="27" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2038" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/a00789_1adb83a0bc8feef5dd6239a30120ffe456" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number icProfileID::ID32[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>ID32</name>
+        <qualifiedname>icProfileID::ID32</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2039" column="27" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2039" bodyend="-1"/>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+        <referencedby refid="dc/dab/a01237_1a1d18120e63e422bb3cad2b0aef1a968a" compoundref="d9/d01/a00227" startline="267" endline="295">CIccTagEmbeddedProfile::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/a00789_1afe4fb21fec0213523799be407c8b054f" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number icProfileID::ID8[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>ID8</name>
+        <qualifiedname>icProfileID::ID8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2037" column="27" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2037" bodyend="-1"/>
+        <referencedby refid="d0/dc2/a00104_1aff7a9ca0b9e6a67e49a30d327ff14bf8" compoundref="d0/dc2/a00104" startline="3787" endline="3818">CalcProfileID</referencedby>
+        <referencedby refid="da/d19/a01217_1ab59397256cb7a383de6677e0c9077dad" compoundref="de/df3/a00185" startline="229" endline="249">CIccProfileIdDesc::Describe</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a8717c25616bb14a42d031a674e6455aa" compoundref="d5/db1/a00140" startline="2293" endline="2303">CIccInfo::GetProfileID</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a0561bff983312eedc0dec3c1e04ef282" compoundref="d5/db1/a00140" startline="2305" endline="2315">CIccInfo::IsProfileIDCalculated</referencedby>
+        <referencedby refid="d2/d04/a00281_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d2/d04/a00281" startline="14" endline="113">main</referencedby>
+        <referencedby refid="d6/d27/a01781_1ac2e86ed8d2e31113e5ef612ee29ed712" compoundref="dd/dd7/a00248" startline="333" endline="555">CIccProfileXml::ParseBasic</referencedby>
+        <referencedby refid="d2/d23/a01961_1a41908f2a338b06b71d5291aaa8ac1532" compoundref="d0/d27/a00239" startline="4134" endline="4173">CIccTagXmlProfileSequenceId::ToXml</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Profile ID </para>
+    </detaileddescription>
+    <location file="IccProfLib/icProfileHeader.h" line="2036" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2036" bodyend="2040"/>
+    <listofallmembers>
+      <member refid="d8/d7d/a00789_1a900ab211d8552b744de2702f1e987a6b" prot="public" virt="non-virtual"><scope>icProfileID</scope><name>ID16</name></member>
+      <member refid="d8/d7d/a00789_1adb83a0bc8feef5dd6239a30120ffe456" prot="public" virt="non-virtual"><scope>icProfileID</scope><name>ID32</name></member>
+      <member refid="d8/d7d/a00789_1afe4fb21fec0213523799be407c8b054f" prot="public" virt="non-virtual"><scope>icProfileID</scope><name>ID8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

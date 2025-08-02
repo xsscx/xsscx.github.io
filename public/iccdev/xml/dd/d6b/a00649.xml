@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d6b/a00649" kind="struct" language="C++" prot="public">
+    <compoundname>icColorantTable</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/d6b/a00649_1ae90c7966b81a8cce7e98a871803a1828" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number icColorantTable::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>icColorantTable::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1795" column="29" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1795" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d6b/a00649_1a5d896c77a09006c2c4aa90d85ecfc59d" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/dcf/a00645" kindref="compound">icColorantTableEntry</ref></type>
+        <definition>icColorantTableEntry icColorantTable::entry[icAny]</definition>
+        <argsstring>[icAny]</argsstring>
+        <name>entry</name>
+        <qualifiedname>icColorantTable::entry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1796" column="29" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1796" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>ColorantTable </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>icColorantTable</label>
+        <link refid="dd/d6b/a00649"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>entry</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icColorantTableEntry</label>
+        <link refid="d6/dcf/a00645"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1794" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1794" bodyend="1797"/>
+    <listofallmembers>
+      <member refid="dd/d6b/a00649_1ae90c7966b81a8cce7e98a871803a1828" prot="public" virt="non-virtual"><scope>icColorantTable</scope><name>count</name></member>
+      <member refid="dd/d6b/a00649_1a5d896c77a09006c2c4aa90d85ecfc59d" prot="public" virt="non-virtual"><scope>icColorantTable</scope><name>entry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

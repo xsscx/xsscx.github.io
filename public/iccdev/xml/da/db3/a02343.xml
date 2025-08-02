@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="da/db3/a02343" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>🖨️<sp/>iccTiffDump</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**iccTiffDump**<sp/>is<sp/>a<sp/>command-line<sp/>tool<sp/>for<sp/>extracting<sp/>ICC<sp/>profile<sp/>metadata<sp/>and<sp/>technical<sp/>characteristics<sp/>from<sp/>TIFF<sp/>images.</highlight></codeline>
+<codeline><highlight class="normal">It<sp/>helps<sp/>color<sp/>scientists<sp/>and<sp/>developers<sp/>audit<sp/>TIFF<sp/>structure,<sp/>verify<sp/>embedded<sp/>color<sp/>profiles,<sp/>and<sp/>analyze<sp/>imaging<sp/>parameters.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🔧<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**TIFF<sp/>Metadata<sp/>Reporting**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Image<sp/>dimensions,<sp/>DPI,<sp/>compression<sp/>type,<sp/>photometric<sp/>model</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**ICC<sp/>Profile<sp/>Analysis**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Extracts<sp/>embedded<sp/>ICC<sp/>profile<sp/>with<sp/>PCS,<sp/>signature,<sp/>description</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**Sample<sp/>Precision<sp/>Reporting**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Bits<sp/>per<sp/>component,<sp/>sample<sp/>format,<sp/>samples<sp/>per<sp/>pixel</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**Tag<sp/>Visibility**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Shows<sp/>image<sp/>layout,<sp/>color<sp/>space<sp/>tags,<sp/>resolution<sp/>units</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**Multilingual<sp/>Support**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Recognizes<sp/>multi-language<sp/>ICC<sp/>descriptions<sp/>and<sp/>localized<sp/>tags</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🚀<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>📤<sp/>Extract<sp/>Profile<sp/>and<sp/>Metadata</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">iccTiffDump<sp/>input.tiff</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Prints<sp/>TIFF<sp/>structure<sp/>summary<sp/>and<sp/>ICC<sp/>profile<sp/>block<sp/>if<sp/>present.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>📘<sp/>Output<sp/>Highlights</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>**Image<sp/>Size**<sp/>—<sp/>Width<sp/>×<sp/>Height,<sp/>DPI<sp/>resolution</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**Color<sp/>Model**<sp/>—<sp/>Photometric<sp/>(RGB,<sp/>CMYK,<sp/>grayscale,<sp/>etc.)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**Compression**<sp/>—<sp/>e.g.,<sp/>LZW,<sp/>PackBits,<sp/>JPEG</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**ICC<sp/>Block**<sp/>—<sp/>Version,<sp/>size,<sp/>PCS,<sp/>rendering<sp/>intent,<sp/>description</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🧪<sp/>Advanced<sp/>Use</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Suitable<sp/>for<sp/>fuzzing<sp/>TIFF<sp/>encoders<sp/>with<sp/>profile<sp/>injection</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Validates<sp/>deterministic<sp/>TIFF<sp/>profile<sp/>roundtrips</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>📚<sp/>Related<sp/>Tools</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`iccEval`,<sp/>`iccFromXml`,<sp/>`iccApplyProfiles`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Compatible<sp/>with<sp/>PNG<sp/>and<sp/>JPEG<sp/>ICC<sp/>tools<sp/>from<sp/>same<sp/>suite</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🔒<sp/>Notes</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>baseline<sp/>and<sp/>BigTIFF<sp/>variants</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Reports<sp/>errors<sp/>for<sp/>malformed<sp/>tag<sp/>blocks</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccTiffDump/Readme.md"/>
+  </compounddef>
+</doxygen>

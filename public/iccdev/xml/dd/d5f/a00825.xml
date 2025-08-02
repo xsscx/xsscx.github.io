@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d5f/a00825" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>CIccCurveSetCurve</compoundname>
+    <derivedcompoundref refid="d1/de6/a00837" prot="public" virt="non-virtual">CIccSampledCalculatorCurve</derivedcompoundref>
+    <derivedcompoundref refid="d1/dea/a00829" prot="public" virt="non-virtual">CIccSegmentedCurve</derivedcompoundref>
+    <derivedcompoundref refid="dc/d6e/a00833" prot="public" virt="non-virtual">CIccSingleSampledCurve</derivedcompoundref>
+    <includes refid="d2/de7/a00014" local="no">IccMpeBasic.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d5f/a00825_1abdd160ab15b04b679b9a0daf352f005b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccCurveSetCurve::~CIccCurveSetCurve</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccCurveSetCurve</name>
+        <qualifiedname>CIccCurveSetCurve::~CIccCurveSetCurve</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="217" column="11" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="217" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1a6e86a66fdf66a94c4c485923ad0bb336" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>virtual icFloatNumber CIccCurveSetCurve::Apply</definition>
+        <argsstring>(icFloatNumber v) const =0</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccCurveSetCurve::Apply</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1acb0c91fdb62ba6d0dd3c197387f14999">Apply</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1a292db095cb2fc13a85a442ce8dd1fa5b">Apply</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1aabf8d7acd260f3b644b1d0eb0b70a1f4">Apply</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="231" column="25"/>
+        <referencedby refid="d5/dac/a00841_1ac71a819e48bf17d62f64b202573a2cd0" compoundref="d6/d2d/a00047" startline="3440" endline="3446">CIccMpeCurveSet::Apply</referencedby>
+        <referencedby refid="db/deb/a00853_1a6258ff9a42f36ab16bb01c8b3bfb051f" compoundref="d6/d2d/a00047" startline="4719" endline="4725">CIccMpeToneMap::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1a8c47418576c002142ff11a7d0581a65d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccCurveSetCurve::Begin</definition>
+        <argsstring>(icElemInterp nInterp, CIccTagMultiProcessElement *pMPE)=0</argsstring>
+        <name>Begin</name>
+        <qualifiedname>CIccCurveSetCurve::Begin</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1a33ed9e29f2913e39a3fd9787f76680c0">Begin</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1a3cda0b55e47777604561e7a6bd7edb1f">Begin</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1a8b87f16c1bf32b40b147028cabe87780">Begin</reimplementedby>
+        <param>
+          <type><ref refid="d7/d25/a00182_1ac2d11f72d4c98d21c3b2ca1509a52ee8" kindref="member">icElemInterp</ref></type>
+          <declname>nInterp</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="230" column="16"/>
+        <referencedby refid="d5/dac/a00841_1a3cc2b66131f27f80a1247d7012bd0359" compoundref="d6/d2d/a00047" startline="3406" endline="3428">CIccMpeCurveSet::Begin</referencedby>
+        <referencedby refid="db/deb/a00853_1a02818167a037d49841c5f80ccc23ea44" compoundref="d6/d2d/a00047" startline="4686" endline="4706">CIccMpeToneMap::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1ab8e27594debe7cdefed3de3cee800d9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CIccCurveSetCurve::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness=100)=0</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccCurveSetCurve::Describe</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1a3e345f686d0738a291fe28cbfe69d127">Describe</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1a35b2163431a7da764df45eb6ebf5843f">Describe</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1a9605ee3754bf39799b428a0f8b3e71a5">Describe</reimplementedby>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+          <defval>100</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="225" column="16"/>
+        <referencedby refid="d5/dac/a00841_1a6d20cf17538eb4b88f380269d49b4c5f" compoundref="d6/d2d/a00047" startline="3187" endline="3205">CIccMpeCurveSet::Describe</referencedby>
+        <referencedby refid="db/deb/a00853_1ae960c0f90396fcdd228c28128f9f583e" compoundref="d6/d2d/a00047" startline="4371" endline="4393">CIccMpeToneMap::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1a52f1af60750229fe27a16e7c5e393de1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccCurveSetCurve::GetClassName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccCurveSetCurve::GetClassName</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1a70ae179f296b5b05018c0056689569fc">GetClassName</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1a1ae168f4d9dada010b1b6588ec2d6e86">GetClassName</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1a9c158c9e3ca3fb0a5566d60bb4da51e8">GetClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="223" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1abcb92b6265cfc65e110c293be393960d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821" kindref="member">icCurveElemSignature</ref></type>
+        <definition>virtual icCurveElemSignature CIccCurveSetCurve::GetType</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccCurveSetCurve::GetType</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1a05853fbbddd298123331859e16704eb9">GetType</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1a7045dc445a81d21860e72c7c5eb9f928">GetType</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1aa960c4377b75dfafbd0c4800e96d837a">GetType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="222" column="32"/>
+        <referencedby refid="dd/dd7/a00260_1a93b5b044171cd5f4bab2f05b51e63419" compoundref="dd/dd7/a00260" startline="1024" endline="1048">ToXmlCurve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1ae703a90b768698cd86090fb1345b09d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="dd/d5f/a00825" kindref="compound">CIccCurveSetCurve</ref> *</type>
+        <definition>virtual CIccCurveSetCurve * CIccCurveSetCurve::NewCopy</definition>
+        <argsstring>() const =0</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccCurveSetCurve::NewCopy</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1ad8de274085c19cff65b10e4113b53817">NewCopy</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1a7f0a0fdbda5719d27150c870b059eddd">NewCopy</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1a61b3a438442f5c17fbd017239df83602">NewCopy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="220" column="29"/>
+        <referencedby refid="d5/dac/a00841_1a840b6727e8dd11d81f746176c7916520" compoundref="d6/d2d/a00047" startline="2995" endline="3023">CIccMpeCurveSet::CIccMpeCurveSet</referencedby>
+        <referencedby refid="db/deb/a00853_1a715cc9fc823f56c5154684731ff3be2b" compoundref="d6/d2d/a00047" startline="4154" endline="4169">CIccMpeToneMap::CIccMpeToneMap</referencedby>
+        <referencedby refid="d5/dac/a00841_1a8a607a291342bdba8708ee6d760878f8" compoundref="d6/d2d/a00047" startline="3035" endline="3069">CIccMpeCurveSet::operator=</referencedby>
+        <referencedby refid="db/deb/a00853_1ad52ac5255a70e6af7280eb0f218d531c" compoundref="d6/d2d/a00047" startline="4181" endline="4208">CIccMpeToneMap::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1a996d74980740d4f3159ab10965e2f793" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccCurveSetCurve::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)=0</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccCurveSetCurve::Read</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0">Read</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d">Read</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1a1545329e314b4d676c42a3b6990d912d">Read</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="227" column="16"/>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1a7c51821c5dd071c6bf87c7a47a3523fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>virtual icValidateStatus CIccCurveSetCurve::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccTagMultiProcessElement *pMPE=NULL, const CIccProfile *pProfile=NULL) const =0</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccCurveSetCurve::Validate</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6">Validate</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c">Validate</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1a22e2cf9b1ea4ff166e1693d33a70db38">Validate</reimplementedby>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="232" column="28"/>
+        <referencedby refid="d5/dac/a00841_1ad1a688c856f5084e658edd04e557d9f7" compoundref="d6/d2d/a00047" startline="3458" endline="3489">CIccMpeCurveSet::Validate</referencedby>
+        <referencedby refid="db/deb/a00853_1ae79f8597b22451368bd65c9e79b74920" compoundref="d6/d2d/a00047" startline="4737" endline="4815">CIccMpeToneMap::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d5f/a00825_1abc1bb9e4df746a2e84ff41193aa59b74" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccCurveSetCurve::Write</definition>
+        <argsstring>(CIccIO *pIO)=0</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccCurveSetCurve::Write</qualifiedname>
+        <reimplementedby refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061">Write</reimplementedby>
+        <reimplementedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da">Write</reimplementedby>
+        <reimplementedby refid="d1/de6/a00837_1a447fb895b961dce8aca7a89f1e8ac63c">Write</reimplementedby>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="228" column="16"/>
+        <referencedby refid="d5/dac/a00841_1a7b15db55a9cf1e0bc6866e549f60abab" compoundref="d6/d2d/a00047" startline="3328" endline="3394">CIccMpeCurveSet::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d5f/a00825" kindref="compound">CIccCurveSetCurve</ref> *</type>
+        <definition>CIccCurveSetCurve * CIccCurveSetCurve::Create</definition>
+        <argsstring>(icCurveElemSignature sig)</argsstring>
+        <name>Create</name>
+        <qualifiedname>CIccCurveSetCurve::Create</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821" kindref="member">icCurveElemSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" kindref="member">CIccCurveSetCurve::Create</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="219" column="28" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2944" bodyend="2956"/>
+        <references refid="d1/de6/a00837_1a3118873be68554c684e3d90a7992898d" compoundref="d6/d2d/a00047" startline="1883" endline="1908">CIccSampledCalculatorCurve::CIccSampledCalculatorCurve</references>
+        <references refid="d1/dea/a00829_1af9d0cb7c5f0fd4f00d548631007b9d02" compoundref="d6/d2d/a00047" startline="2524" endline="2530">CIccSegmentedCurve::CIccSegmentedCurve</references>
+        <references refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821ac48b1ac8f84255804cbe32704b1c5af6" compoundref="d7/d46/a00002" startline="1059">icSigSampledCalculatorCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821a363bbdea01b1917a02c55c4b389050a7" compoundref="d7/d46/a00002" startline="1057">icSigSegmentedCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821adf1a2fe66e234712b8d6b183ee662453" compoundref="d7/d46/a00002" startline="1058">icSigSingleSampledCurve</references>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="dd/d5f/a00825" kindref="compound">CIccCurveSetCurve</ref></para>
+<para>Purpose: Base class for Curve Set Curves </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccCurveSetCurve</label>
+        <link refid="dd/d5f/a00825"/>
+      </node>
+      <node id="2">
+        <label>CIccSampledCalculatorCurve</label>
+        <link refid="d1/de6/a00837"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccSampledCalculatorCurveXml</label>
+        <link refid="d2/d42/a01801"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccSegmentedCurve</label>
+        <link refid="d1/dea/a00829"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccSegmentedCurveXml</label>
+        <link refid="d8/d24/a02001"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CIccSinglSampledeCurveXml</label>
+        <link refid="d7/d62/a01805"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CIccSingleSampledCurve</label>
+        <link refid="dc/d6e/a00833"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccMpeBasic.h" line="214" column="1" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="215" bodyend="235"/>
+    <listofallmembers>
+      <member refid="dd/d5f/a00825_1a6e86a66fdf66a94c4c485923ad0bb336" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>Apply</name></member>
+      <member refid="dd/d5f/a00825_1a8c47418576c002142ff11a7d0581a65d" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>Begin</name></member>
+      <member refid="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" prot="public" virt="non-virtual"><scope>CIccCurveSetCurve</scope><name>Create</name></member>
+      <member refid="dd/d5f/a00825_1ab8e27594debe7cdefed3de3cee800d9a" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>Describe</name></member>
+      <member refid="dd/d5f/a00825_1a52f1af60750229fe27a16e7c5e393de1" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>GetClassName</name></member>
+      <member refid="dd/d5f/a00825_1abcb92b6265cfc65e110c293be393960d" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>GetType</name></member>
+      <member refid="dd/d5f/a00825_1ae703a90b768698cd86090fb1345b09d5" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>NewCopy</name></member>
+      <member refid="dd/d5f/a00825_1a996d74980740d4f3159ab10965e2f793" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>Read</name></member>
+      <member refid="dd/d5f/a00825_1a7c51821c5dd071c6bf87c7a47a3523fc" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>Validate</name></member>
+      <member refid="dd/d5f/a00825_1abc1bb9e4df746a2e84ff41193aa59b74" prot="public" virt="pure-virtual"><scope>CIccCurveSetCurve</scope><name>Write</name></member>
+      <member refid="dd/d5f/a00825_1abdd160ab15b04b679b9a0daf352f005b" prot="public" virt="virtual"><scope>CIccCurveSetCurve</scope><name>~CIccCurveSetCurve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/de3/a00373" kind="class" language="C++" prot="public">
+    <compoundname>CIccApplyBPC</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IIccAdjustPCSXform</basecompoundref>
+    <includes refid="d4/dee/a00008" local="no">IccApplyBPC.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/de3/a00373_1aba0ac42eacdd0babc152d826facea17f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccApplyBPC::CalcFactors</definition>
+        <argsstring>(const CIccProfile *pProfile, const CIccXform *pXfm, icFloatNumber *Scale, icFloatNumber *Offset) const</argsstring>
+        <name>CalcFactors</name>
+        <qualifiedname>CIccApplyBPC::CalcFactors</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <param>
+          <type>const CIccXform *</type>
+          <declname>pXfm</declname>
+          <defname>pXform</defname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>Scale</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>Offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: CIccApplyBPC::CalculateFactors</para>
+<para>Purpose: This function does the suitable calculations to setup black point compensation.</para>
+<para>Args: pXform = pointer to the Xform object that calls this function</para>
+<para>Return: true = all calculations done false = an error occurred </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="109" column="14" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="213" bodyend="258"/>
+        <references refid="dc/de3/a00373_1a99c6a4c883642b21117eac2d0683f1b9" compoundref="d1/dc1/a00092" startline="269" endline="279">calcBlackPoint</references>
+        <references refid="d4/dd7/a00793_1a1f3bfb3d969d1976ee9913792496c6c5" compoundref="d7/d46/a00002" startline="2047">icHeader::deviceClass</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77ae6136c556a175effd2e35cb1db5ff944" compoundref="d7/d46/a00002" startline="1147">icAbsoluteColorimetric</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a200e4fc8dcec29c6d411cae0c9a0483c" compoundref="d7/d46/a00002" startline="956">icSigAbstractClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0af50c13fdfab9fcc0a7b831ac86d1fe3b" compoundref="d7/d46/a00002" startline="955">icSigLinkClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0ac1881705b3792813f8ef0745b7a12170" compoundref="d7/d46/a00002" startline="958">icSigNamedColorClass</references>
+        <references refid="d7/dce/a00143_1a4b4cfb7788c3a780f19f2f104677a5b8" compoundref="d5/db1/a00140" startline="941" endline="946">icXyzToPcs</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/de3/a00373_1a99c6a4c883642b21117eac2d0683f1b9" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccApplyBPC::calcBlackPoint</definition>
+        <argsstring>(const CIccProfile *pProfile, const CIccXform *pXform, icFloatNumber *XYZb) const</argsstring>
+        <name>calcBlackPoint</name>
+        <qualifiedname>CIccApplyBPC::calcBlackPoint</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <param>
+          <type>const CIccXform *</type>
+          <declname>pXform</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>XYZb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/de3/a00373_1a99c6a4c883642b21117eac2d0683f1b9" kindref="member">CIccApplyBPC::calcBlackPoint</ref></para>
+<para>Purpose: Calculates the black point of a profile </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="119" column="6" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="269" bodyend="279"/>
+        <references refid="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" compoundref="d1/dc1/a00092" startline="379" endline="531">calcDstBlackPoint</references>
+        <references refid="dc/de3/a00373_1a66c83e198a8f80b7507b99304f091cb8" compoundref="d1/dc1/a00092" startline="290" endline="368">calcSrcBlackPoint</references>
+        <referencedby refid="dc/de3/a00373_1aba0ac42eacdd0babc152d826facea17f" compoundref="d1/dc1/a00092" startline="213" endline="258">CalcFactors</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccApplyBPC::calcDstBlackPoint</definition>
+        <argsstring>(const CIccProfile *pProfile, const CIccXform *pXform, icFloatNumber *XYZb) const</argsstring>
+        <name>calcDstBlackPoint</name>
+        <qualifiedname>CIccApplyBPC::calcDstBlackPoint</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <param>
+          <type>const CIccXform *</type>
+          <declname>pXform</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>XYZb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" kindref="member">CIccApplyBPC::calcDstBlackPoint</ref></para>
+<para>Purpose: Calculates the black point of a destination profile </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="121" column="6" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="379" bodyend="531"/>
+        <references refid="dc/de3/a00373_1aee616f7ef1a37901f133204fd93f622e" compoundref="d1/dc1/a00092" startline="162" endline="195">calcQuadraticVertex</references>
+        <references refid="dc/de3/a00373_1a66c83e198a8f80b7507b99304f091cb8" compoundref="d1/dc1/a00092" startline="290" endline="368">calcSrcBlackPoint</references>
+        <references refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" compoundref="d7/d46/a00002" startline="2048">icHeader::colorSpace</references>
+        <references refid="dc/de3/a00373_1a84f077a6c2e8ba9c67cd0664c7153852" compoundref="d1/dc1/a00092" startline="580" endline="621">getBlackXfm</references>
+        <references refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" compoundref="d6/d5b/a00026" startline="92">icCmmStatOk</references>
+        <references refid="d7/dce/a00143_1aaf617b49cf0d56a218cd52c840228705" compoundref="d5/db1/a00140" startline="830" endline="844">icLabtoXYZ</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77a64d6354071e8f3d7b461202675e755cb" compoundref="d7/d46/a00002" startline="1144">icRelativeColorimetric</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a78413df8b7d634ae4e0ec02f006e5bd0" compoundref="d7/d46/a00002" startline="374">icSigBToA0Tag</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac5ad31bfd82d421d33be30f0a68b4661" compoundref="d7/d46/a00002" startline="855">icSigCmykData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af4c6afaa42216765b0431ec6ae0ba27c" compoundref="d7/d46/a00002" startline="852">icSigGrayData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad0e9fe12d5f79f3a3b8b15be31288a30" compoundref="d7/d46/a00002" startline="851">icSigRgbData</references>
+        <references refid="d7/dce/a00143_1a4ff45349385af6c19d5b3f68150a27b5" compoundref="d5/db1/a00140" startline="846" endline="864">icXYZtoLab</references>
+        <references refid="dc/de3/a00373_1ad80fbca34d4b78619142ac5e7a084ff7" compoundref="d1/dc1/a00092" startline="96" endline="112">lab2pcs</references>
+        <references refid="dc/de3/a00373_1a7a30fe32707679ca3612c51cf19698c3" compoundref="d1/dc1/a00092" startline="115" endline="131">pcs2lab</references>
+        <referencedby refid="dc/de3/a00373_1a99c6a4c883642b21117eac2d0683f1b9" compoundref="d1/dc1/a00092" startline="269" endline="279">calcBlackPoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/de3/a00373_1aee616f7ef1a37901f133204fd93f622e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccApplyBPC::calcQuadraticVertex</definition>
+        <argsstring>(icFloatNumber *x, icFloatNumber *y, int n) const</argsstring>
+        <name>calcQuadraticVertex</name>
+        <qualifiedname>CIccApplyBPC::calcQuadraticVertex</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="116" column="15" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="162" bodyend="195"/>
+        <references refid="dc/de3/a00373_1acce7ace7c9882b32d59761d9dc12c680" compoundref="d1/dc1/a00092" startline="134" endline="159">calcsum</references>
+        <referencedby refid="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" compoundref="d1/dc1/a00092" startline="379" endline="531">calcDstBlackPoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/de3/a00373_1a66c83e198a8f80b7507b99304f091cb8" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccApplyBPC::calcSrcBlackPoint</definition>
+        <argsstring>(const CIccProfile *pProfile, const CIccXform *pXform, icFloatNumber *XYZb) const</argsstring>
+        <name>calcSrcBlackPoint</name>
+        <qualifiedname>CIccApplyBPC::calcSrcBlackPoint</qualifiedname>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <param>
+          <type>const CIccXform *</type>
+          <declname>pXform</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>XYZb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/de3/a00373_1a66c83e198a8f80b7507b99304f091cb8" kindref="member">CIccApplyBPC::calcSrcBlackPoint</ref></para>
+<para>Purpose: Calculates the black point of a source profile </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="120" column="6" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="290" bodyend="368"/>
+        <references refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" compoundref="d7/d46/a00002" startline="2048">icHeader::colorSpace</references>
+        <references refid="d4/dd7/a00793_1a1f3bfb3d969d1976ee9913792496c6c5" compoundref="d7/d46/a00002" startline="2047">icHeader::deviceClass</references>
+        <references refid="d7/dce/a00143_1a719dc0d47f230294e78ac9c8cbc91a89" compoundref="d5/db1/a00140" startline="1303" endline="1365">icGetSpaceSamples</references>
+        <references refid="d7/dce/a00143_1aaf617b49cf0d56a218cd52c840228705" compoundref="d5/db1/a00140" startline="830" endline="844">icLabtoXYZ</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77a300c7e86384819a2318614c61c20a112" compoundref="d7/d46/a00002" startline="1143">icPerceptual</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a3db473a6296c0e148d96c5c8550d30ef" compoundref="d7/d46/a00002" startline="867">icSig10colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ae5952ccb50b566d3a517c484e3555632" compoundref="d7/d46/a00002" startline="868">icSig11colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ae3c5020999a99b24b3bd28b6aa71e57a" compoundref="d7/d46/a00002" startline="869">icSig12colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7182f8c00cee9454b7b5917805dce8a7" compoundref="d7/d46/a00002" startline="870">icSig13colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0438f07f3d3757977904f48c5d7d8efa" compoundref="d7/d46/a00002" startline="871">icSig14colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af8640335da4bca8d7eb7e238ceaf139a" compoundref="d7/d46/a00002" startline="872">icSig15colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0a6f546f80aaa84e97c667d8e64c3235" compoundref="d7/d46/a00002" startline="859">icSig2colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917afa0686ad8f20f604e7e52807087f04da" compoundref="d7/d46/a00002" startline="860">icSig3colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917addb4c9db388eda46c3ec7fdaa8824cf5" compoundref="d7/d46/a00002" startline="861">icSig4colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917afe9abf41fcde9ef6b5cb704bf1b01113" compoundref="d7/d46/a00002" startline="862">icSig5colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7d79686b4ed63ff02e44242287c38169" compoundref="d7/d46/a00002" startline="863">icSig6colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a582f7f5ffda83ca75b6196b2cbc76bff" compoundref="d7/d46/a00002" startline="864">icSig7colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0ebb5fc548c720f704c34d4a6307f3e2" compoundref="d7/d46/a00002" startline="865">icSig8colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a5c72d5788e1a60e7a9d6b7b56d46899c" compoundref="d7/d46/a00002" startline="866">icSig9colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af20259a5702129c41fd08e21c7e94a74" compoundref="d7/d46/a00002" startline="856">icSigCmyData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac5ad31bfd82d421d33be30f0a68b4661" compoundref="d7/d46/a00002" startline="855">icSigCmykData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af4c6afaa42216765b0431ec6ae0ba27c" compoundref="d7/d46/a00002" startline="852">icSigGrayData</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a3d7221c908ff87364cca86a1d275ce8e" compoundref="d7/d46/a00002" startline="954">icSigOutputClass</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad0e9fe12d5f79f3a3b8b15be31288a30" compoundref="d7/d46/a00002" startline="851">icSigRgbData</references>
+        <references refid="dc/de3/a00373_1ad80fbca34d4b78619142ac5e7a084ff7" compoundref="d1/dc1/a00092" startline="96" endline="112">lab2pcs</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <references refid="dc/de3/a00373_1a7a30fe32707679ca3612c51cf19698c3" compoundref="d1/dc1/a00092" startline="115" endline="131">pcs2lab</references>
+        <references refid="dc/de3/a00373_1a76813b4f746bd1da4406dcdd7aef72ed" compoundref="d1/dc1/a00092" startline="542" endline="569">pixelXfm</references>
+        <referencedby refid="dc/de3/a00373_1a99c6a4c883642b21117eac2d0683f1b9" compoundref="d1/dc1/a00092" startline="269" endline="279">calcBlackPoint</referencedby>
+        <referencedby refid="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" compoundref="d1/dc1/a00092" startline="379" endline="531">calcDstBlackPoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/de3/a00373_1acce7ace7c9882b32d59761d9dc12c680" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccApplyBPC::calcsum</definition>
+        <argsstring>(icFloatNumber *x, icFloatNumber *y, int n, int j, int k) const</argsstring>
+        <name>calcsum</name>
+        <qualifiedname>CIccApplyBPC::calcsum</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="115" column="15" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="134" bodyend="159"/>
+        <referencedby refid="dc/de3/a00373_1aee616f7ef1a37901f133204fd93f622e" compoundref="d1/dc1/a00092" startline="162" endline="195">calcQuadraticVertex</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/de3/a00373_1a84f077a6c2e8ba9c67cd0664c7153852" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>CIccCmm *</type>
+        <definition>CIccCmm * CIccApplyBPC::getBlackXfm</definition>
+        <argsstring>(icRenderingIntent nIntent, const CIccProfile *pProfile) const</argsstring>
+        <name>getBlackXfm</name>
+        <qualifiedname>CIccApplyBPC::getBlackXfm</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77" kindref="member">icRenderingIntent</ref></type>
+          <declname>nIntent</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: CIccApplyBPC::blackXfm</para>
+<para>Purpose: PCS -&gt; PCS round trip transform, always uses relative intent on the device -&gt; pcs transform </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="127" column="9" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="580" bodyend="621"/>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <references refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" compoundref="d6/d5b/a00026" startline="92">icCmmStatOk</references>
+        <references refid="d6/d5b/a00026_1a39ef4ca48f4dbb239b4e3ac0e9e8e913aa14dd4addcb31947cb22d669495225e8" compoundref="d6/d5b/a00026" startline="115">icInterpTetrahedral</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77a64d6354071e8f3d7b461202675e755cb" compoundref="d7/d46/a00002" startline="1144">icRelativeColorimetric</references>
+        <references refid="d6/d5b/a00026_1a1ba790142ac961bedde2898273414a7bad77391d20e90bb2496733d3700589614" compoundref="d6/d5b/a00026" startline="126">icXformLutColor</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <references refid="d4/dd7/a00793_1ab4a2c325ab3c203cc7a7d79be401425d" compoundref="d7/d46/a00002" startline="2046">icHeader::version</references>
+        <referencedby refid="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" compoundref="d1/dc1/a00092" startline="379" endline="531">calcDstBlackPoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/de3/a00373_1ad80fbca34d4b78619142ac5e7a084ff7" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccApplyBPC::lab2pcs</definition>
+        <argsstring>(icFloatNumber *pixel, const CIccProfile *pProfile) const</argsstring>
+        <name>lab2pcs</name>
+        <qualifiedname>CIccApplyBPC::lab2pcs</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="113" column="6" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="96" bodyend="112"/>
+        <references refid="d7/dce/a00143_1a5768271d491af79a433e52722ed0a189" compoundref="d5/db1/a00140" startline="927" endline="932">icLabToPcs</references>
+        <references refid="d7/dce/a00143_1aaf617b49cf0d56a218cd52c840228705" compoundref="d5/db1/a00140" startline="830" endline="844">icLabtoXYZ</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" compoundref="d7/d46/a00002" startline="847">icSigLabData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7030370eb0ee02671895978dc61858d8" compoundref="d7/d46/a00002" startline="846">icSigXYZData</references>
+        <references refid="d7/dce/a00143_1a4b4cfb7788c3a780f19f2f104677a5b8" compoundref="d5/db1/a00140" startline="941" endline="946">icXyzToPcs</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <referencedby refid="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" compoundref="d1/dc1/a00092" startline="379" endline="531">calcDstBlackPoint</referencedby>
+        <referencedby refid="dc/de3/a00373_1a66c83e198a8f80b7507b99304f091cb8" compoundref="d1/dc1/a00092" startline="290" endline="368">calcSrcBlackPoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/de3/a00373_1a7a30fe32707679ca3612c51cf19698c3" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccApplyBPC::pcs2lab</definition>
+        <argsstring>(icFloatNumber *pixel, const CIccProfile *pProfile) const</argsstring>
+        <name>pcs2lab</name>
+        <qualifiedname>CIccApplyBPC::pcs2lab</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="114" column="6" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="115" bodyend="131"/>
+        <references refid="d7/dce/a00143_1ac5de02865f572ea243f6da8c144c02fa" compoundref="d5/db1/a00140" startline="919" endline="924">icLabFromPcs</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" compoundref="d7/d46/a00002" startline="847">icSigLabData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7030370eb0ee02671895978dc61858d8" compoundref="d7/d46/a00002" startline="846">icSigXYZData</references>
+        <references refid="d7/dce/a00143_1a78841df2e0aea059520ce71944c4c3bb" compoundref="d5/db1/a00140" startline="934" endline="939">icXyzFromPcs</references>
+        <references refid="d7/dce/a00143_1a4ff45349385af6c19d5b3f68150a27b5" compoundref="d5/db1/a00140" startline="846" endline="864">icXYZtoLab</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <referencedby refid="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" compoundref="d1/dc1/a00092" startline="379" endline="531">calcDstBlackPoint</referencedby>
+        <referencedby refid="dc/de3/a00373_1a66c83e198a8f80b7507b99304f091cb8" compoundref="d1/dc1/a00092" startline="290" endline="368">calcSrcBlackPoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/de3/a00373_1a76813b4f746bd1da4406dcdd7aef72ed" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccApplyBPC::pixelXfm</definition>
+        <argsstring>(icFloatNumber *DstPixel, icFloatNumber *SrcPixel, icColorSpaceSignature SrcSpace, icRenderingIntent nIntent, const CIccProfile *pProfile) const</argsstring>
+        <name>pixelXfm</name>
+        <qualifiedname>CIccApplyBPC::pixelXfm</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>DstPixel</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>SrcPixel</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>SrcSpace</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77" kindref="member">icRenderingIntent</ref></type>
+          <declname>nIntent</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dc/de3/a00373_1a76813b4f746bd1da4406dcdd7aef72ed" kindref="member">CIccApplyBPC::pixelXfm</ref></para>
+<para>Purpose: Applies the specified transform to the source pixel </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccApplyBPC.h" line="123" column="6" bodyfile="IccProfLib/IccApplyBPC.cpp" bodystart="542" bodyend="569"/>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <references refid="d6/d5b/a00026_1aa6d3f671e7ece0df89814eabf3fae3f6ab27f5c900f71e3f5206d8ac47fada099" compoundref="d6/d5b/a00026" startline="92">icCmmStatOk</references>
+        <references refid="d6/d5b/a00026_1a39ef4ca48f4dbb239b4e3ac0e9e8e913aa14dd4addcb31947cb22d669495225e8" compoundref="d6/d5b/a00026" startline="115">icInterpTetrahedral</references>
+        <references refid="d6/d5b/a00026_1a1ba790142ac961bedde2898273414a7ba8219eb535838b8ca78eef40401ec9013" compoundref="d6/d5b/a00026" startline="135">icXformLutColorimetric</references>
+        <references refid="d4/dd7/a00793_1ab4a2c325ab3c203cc7a7d79be401425d" compoundref="d7/d46/a00002" startline="2046">icHeader::version</references>
+        <referencedby refid="dc/de3/a00373_1a66c83e198a8f80b7507b99304f091cb8" compoundref="d1/dc1/a00092" startline="290" endline="368">calcSrcBlackPoint</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Type: Class</para>
+<para>Purpose: This is the hint for applying black point compensation. Also does the calculations to setup actual application of BPC. </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccApplyBPC.h" line="104" column="1" bodyfile="IccProfLib/IccApplyBPC.h" bodystart="105" bodyend="128"/>
+    <listofallmembers>
+      <member refid="dc/de3/a00373_1a99c6a4c883642b21117eac2d0683f1b9" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>calcBlackPoint</name></member>
+      <member refid="dc/de3/a00373_1a6fd921c5b7b19fab503ec1c655ba1f16" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>calcDstBlackPoint</name></member>
+      <member refid="dc/de3/a00373_1aba0ac42eacdd0babc152d826facea17f" prot="public" virt="virtual"><scope>CIccApplyBPC</scope><name>CalcFactors</name></member>
+      <member refid="dc/de3/a00373_1aee616f7ef1a37901f133204fd93f622e" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>calcQuadraticVertex</name></member>
+      <member refid="dc/de3/a00373_1a66c83e198a8f80b7507b99304f091cb8" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>calcSrcBlackPoint</name></member>
+      <member refid="dc/de3/a00373_1acce7ace7c9882b32d59761d9dc12c680" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>calcsum</name></member>
+      <member refid="dc/de3/a00373_1a84f077a6c2e8ba9c67cd0664c7153852" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>getBlackXfm</name></member>
+      <member refid="dc/de3/a00373_1ad80fbca34d4b78619142ac5e7a084ff7" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>lab2pcs</name></member>
+      <member refid="dc/de3/a00373_1a7a30fe32707679ca3612c51cf19698c3" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>pcs2lab</name></member>
+      <member refid="dc/de3/a00373_1a76813b4f746bd1da4406dcdd7aef72ed" prot="private" virt="non-virtual"><scope>CIccApplyBPC</scope><name>pixelXfm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d3b/a02291" kind="page">
+    <compoundname>md_IccXML_2CmdLine_2IccToXml_2Readme</compoundname>
+    <title>IccToXml</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="dd/d3b/a02291_1autotoc_md17"/> </para>
+<sect1 id="dd/d3b/a02291_1autotoc_md18">
+<title>Overview</title>
+<para><computeroutput>IccToXml</computeroutput> is a command-line utility that converts binary ICC profiles to their XML representations. This is useful for inspection, validation, and editing of profile contents in a human-readable format, or for round-trip transformations in conjunction with <computeroutput>IccFromXml</computeroutput>.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/d3b/a02291_1autotoc_md20">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Converts <computeroutput>.icc</computeroutput> binary profiles into <computeroutput>.xml</computeroutput> representation</para>
+</listitem><listitem><para>Preserves all tag and header data using ICC XML schema</para>
+</listitem><listitem><para>Supports profiles using multi-process elements (MPEs)</para>
+</listitem><listitem><para>Based on ICC ProfLib and ICC LibXML libraries</para>
+</listitem><listitem><para>Outputs well-formed XML suitable for re-import or validation</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/d3b/a02291_1autotoc_md22">
+<title>Usage</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">IccToXml<sp/>source.icc<sp/>output.xml</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/d3b/a02291_1autotoc_md24">
+<title>Parameters</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>source.icc</computeroutput>: The input ICC profile (any valid ICC.1 or ICC.2 binary file)</para>
+</listitem><listitem><para><computeroutput>output.xml</computeroutput>: Destination XML file to save the profile representation</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/d3b/a02291_1autotoc_md26">
+<title>Output</title>
+<para><itemizedlist>
+<listitem><para>A full XML representation of the ICC profile including:<itemizedlist>
+<listitem><para>Header metadata</para>
+</listitem><listitem><para>Tag table with all defined tags</para>
+</listitem><listitem><para>Multi-process elements and nested structure</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Can be re-imported using <computeroutput>IccFromXml</computeroutput></para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/d3b/a02291_1autotoc_md28">
+<title>Example</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">IccToXml<sp/>DisplayProfile.icc<sp/>DisplayProfile.xml</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/d3b/a02291_1autotoc_md30">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Original version by Max Derhak</para>
+</listitem><listitem><para>XML serialization reliability improvements by David Hoyt (2025) </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="IccXML/CmdLine/IccToXml/Readme.md"/>
+  </compounddef>
+</doxygen>

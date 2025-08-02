@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="df/dc6/a00949" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccEncProfileConverter</compoundname>
+    <derivedcompoundref refid="da/d45/a00961" prot="public" virt="non-virtual">CIccDefaultEncProfileConverter</derivedcompoundref>
+    <includes refid="d3/dd5/a00215" local="no">IccEncoding.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/dc6/a00949_1a1be3368a383701494ddc83478462657c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccEncProfileConverter::~IIccEncProfileConverter</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccEncProfileConverter</name>
+        <qualifiedname>IIccEncProfileConverter::~IIccEncProfileConverter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="98" column="11" bodyfile="IccProfLib/IccEncoding.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dc6/a00949_1abf6dbc95367b300db648e5fb11bf227b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41" kindref="member">icStatusEncConvert</ref></type>
+        <definition>virtual icStatusEncConvert IIccEncProfileConverter::ConvertFromParams</definition>
+        <argsstring>(CIccProfilePtr &amp;newIcc, CIccTagStruct *pParams, icHeader *pHeader)=0</argsstring>
+        <name>ConvertFromParams</name>
+        <qualifiedname>IIccEncProfileConverter::ConvertFromParams</qualifiedname>
+        <reimplementedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1">ConvertFromParams</reimplementedby>
+        <param>
+          <type>CIccProfilePtr &amp;</type>
+          <declname>newIcc</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+          <declname>pParams</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/a00793" kindref="compound">icHeader</ref> *</type>
+          <declname>pHeader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="99" column="30"/>
+        <referencedby refid="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" compoundref="de/d76/a00134" startline="538" endline="604">icConvertEncodingProfile</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/dc6/a00949_1a1068c9894ebe0ce61288ae9af0baf091" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/dc6/a00949" kindref="compound">IIccEncProfileConverter</ref> *</type>
+        <definition>IIccEncProfileConverter * IIccEncProfileConverter::GetHandler</definition>
+        <argsstring>()</argsstring>
+        <name>GetHandler</name>
+        <qualifiedname>IIccEncProfileConverter::GetHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="101" column="34" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="519" bodyend="525"/>
+        <references refid="da/d45/a00961_1ae3018a17df6d2c2e8640cbf7d201ad97" compoundref="de/d76/a00134" startline="120" endline="120">CIccDefaultEncProfileConverter::CIccDefaultEncProfileConverter</references>
+        <references refid="de/d76/a00134_1a5e043c8906c269e2d4dcc58003012252" compoundref="de/d76/a00134" startline="517">g_pEncProfileConverter</references>
+        <referencedby refid="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" compoundref="de/d76/a00134" startline="538" endline="604">icConvertEncodingProfile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/dc6/a00949_1a07a6a126667287ae1047817a4ea23752" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IIccEncProfileConverter::SetEncProfileConverter</definition>
+        <argsstring>(IIccEncProfileConverter *pConverter)</argsstring>
+        <name>SetEncProfileConverter</name>
+        <qualifiedname>IIccEncProfileConverter::SetEncProfileConverter</qualifiedname>
+        <param>
+          <type><ref refid="df/dc6/a00949" kindref="compound">IIccEncProfileConverter</ref> *</type>
+          <declname>pConverter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="102" column="15" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="527" bodyend="535"/>
+        <references refid="de/d76/a00134_1a5e043c8906c269e2d4dcc58003012252" compoundref="de/d76/a00134" startline="517">g_pEncProfileConverter</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccDefaultEncProfileConverter</label>
+        <link refid="da/d45/a00961"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccEncProfileConverter</label>
+        <link refid="df/dc6/a00949"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccEncoding.h" line="95" column="1" bodyfile="IccProfLib/IccEncoding.h" bodystart="96" bodyend="103"/>
+    <listofallmembers>
+      <member refid="df/dc6/a00949_1abf6dbc95367b300db648e5fb11bf227b" prot="public" virt="pure-virtual"><scope>IIccEncProfileConverter</scope><name>ConvertFromParams</name></member>
+      <member refid="df/dc6/a00949_1a1068c9894ebe0ce61288ae9af0baf091" prot="public" virt="non-virtual"><scope>IIccEncProfileConverter</scope><name>GetHandler</name></member>
+      <member refid="df/dc6/a00949_1a07a6a126667287ae1047817a4ea23752" prot="public" virt="non-virtual"><scope>IIccEncProfileConverter</scope><name>SetEncProfileConverter</name></member>
+      <member refid="df/dc6/a00949_1a1be3368a383701494ddc83478462657c" prot="public" virt="virtual"><scope>IIccEncProfileConverter</scope><name>~IIccEncProfileConverter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

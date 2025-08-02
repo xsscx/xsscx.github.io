@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d83/a02328" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>iccFromCube</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`iccFromCube`<sp/>is<sp/>a<sp/>command-line<sp/>utility<sp/>that<sp/>converts<sp/>a<sp/>3D<sp/>LUT<sp/>file<sp/>in<sp/>`.cube`<sp/>format<sp/>(common<sp/>in<sp/>video<sp/>and<sp/>color<sp/>grading<sp/>applications)<sp/>into<sp/>an<sp/>ICC.2<sp/>DeviceLink<sp/>profile.<sp/>This<sp/>tool<sp/>enables<sp/>integration<sp/>of<sp/>creative<sp/>grading<sp/>LUTs<sp/>into<sp/>ICC<sp/>color<sp/>management<sp/>workflows.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Parses<sp/>3D<sp/>LUTs<sp/>from<sp/>`.cube`<sp/>files</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Creates<sp/>ICC.2<sp/>v5<sp/>DeviceLink<sp/>profiles</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Automatically<sp/>handles<sp/>custom<sp/>input<sp/>domains<sp/>using<sp/>linear<sp/>mapping<sp/>curves</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Embeds<sp/>LUT<sp/>data<sp/>as<sp/>a<sp/>multi-process<sp/>element<sp/>(MPE)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Preserves<sp/>title<sp/>and<sp/>comments<sp/>as<sp/>profile<sp/>metadata</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Supported<sp/>Format</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Only<sp/>**3D<sp/>LUTs**<sp/>are<sp/>supported</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Cube<sp/>file<sp/>must<sp/>contain<sp/>`LUT_3D_SIZE`<sp/>directive</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Optional<sp/>directives:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`DOMAIN_MIN`,<sp/>`DOMAIN_MAX`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`LUT_3D_INPUT_RANGE`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`TITLE`,<sp/>comments<sp/>(`#`)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">Tools/IccFromCube/iccFromCube<sp/>input.cube<sp/>output.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Output</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Profile<sp/>Class:<sp/>`DeviceLink`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Version:<sp/>`ICC.2<sp/>v5`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Color<sp/>Space:<sp/>`RGB`<sp/>(input<sp/>and<sp/>PCS)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Tags:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`AToB0`:<sp/>MPE<sp/>with<sp/>optional<sp/>input<sp/>curves<sp/>and<sp/>CLUT</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`desc`:<sp/>Title<sp/>from<sp/>cube</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`cprt`:<sp/>Comment<sp/>lines<sp/>from<sp/>cube</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Build<sp/>Instructions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccFromCube<sp/>creativeGrade.cube<sp/>creativeGrade.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>(Mar<sp/>2023)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>File<sp/>parsing<sp/>and<sp/>ICCv5<sp/>MPE<sp/>improvements<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccFromCube/Readme.md"/>
+  </compounddef>
+</doxygen>

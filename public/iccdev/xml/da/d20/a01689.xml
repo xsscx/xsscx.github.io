@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="da/d20/a01689" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccMpeFactory</compoundname>
+    <derivedcompoundref refid="dd/db4/a01693" prot="public" virt="non-virtual">CIccBasicMpeFactory</derivedcompoundref>
+    <derivedcompoundref refid="d3/dac/a01777" prot="public" virt="non-virtual">CIccMpeXmlFactory</derivedcompoundref>
+    <includes refid="dc/d57/a00194" local="no">IccMpeFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d20/a01689_1a07b0583f06dd69f09793e1be4dc490c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccMpeFactory::~IIccMpeFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccMpeFactory</name>
+        <qualifiedname>IIccMpeFactory::~IIccMpeFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="107" column="11" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d20/a01689_1a9e3ee9e5b0978a03846c770681f42c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>virtual CIccMultiProcessElement * IIccMpeFactory::CreateElement</definition>
+        <argsstring>(icElemTypeSignature elemTypeSig)=0</argsstring>
+        <name>CreateElement</name>
+        <qualifiedname>IIccMpeFactory::CreateElement</qualifiedname>
+        <reimplementedby refid="dd/db4/a01693_1a29e6937976096014a176ac676d2b8db8">CreateElement</reimplementedby>
+        <reimplementedby refid="d3/dac/a01777_1a9e7908b3de364dc9ddc9ce5c2013bb5d">CreateElement</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elemTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateElement(elemTypeSig) Create a element of type elemTypeSig.</para>
+<para>Parameter(s): elemTypeSig = signature of the ICC element type for the element to be created</para>
+<para>Returns a new CIccProcessElement object of the given signature type. If the element factory doesn&apos;t support creation of elements of type elemTypeSig then it should return NULL. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="121" column="35"/>
+        <referencedby refid="d6/d15/a01697_1a5518331b97ab9dbb0934e7f04a0ff1f4" compoundref="d9/db6/a00146" startline="248" endline="259">CIccMpeCreator::DoCreateElement</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d20/a01689_1aab3a1365474e7deb94027d2253ef24ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool IIccMpeFactory::GetElementSigName</definition>
+        <argsstring>(std::string &amp;elemName, icElemTypeSignature elemTypeSig)=0</argsstring>
+        <name>GetElementSigName</name>
+        <qualifiedname>IIccMpeFactory::GetElementSigName</qualifiedname>
+        <reimplementedby refid="dd/db4/a01693_1ad6c11403c8b1c837cb931003f6f3778d">GetElementSigName</reimplementedby>
+        <reimplementedby refid="d3/dac/a01777_1a64042bec78759254edfcd11dd8d2f987">GetElementSigName</reimplementedby>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>elemName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elemTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetElementSigName(elemTypeSig) Get display name of elemTypeSig.</para>
+<para>Parameter(s): elemName = string to put element name into, elemTypeSig = signature of the ICC element type to get a name for</para>
+<para>Returns true if element type is recognized by the factory, false if the factory doesn&apos;t create elemTypeSig elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="134" column="16"/>
+        <referencedby refid="d6/d15/a01697_1ae70b0c0cb6f60f21d651e4227a70e8c5" compoundref="d9/db6/a00146" startline="261" endline="271">CIccMpeCreator::DoGetElementSigName</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref></para>
+<para>Purpose: <ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> is a factory pattern interface for CIccProcessElement creation. This class is pure virtual. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccBasicMpeFactory</label>
+        <link refid="dd/db4/a01693"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccMpeXmlFactory</label>
+        <link refid="d3/dac/a01777"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccMpeFactory</label>
+        <link refid="da/d20/a01689"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccMpeFactory.h" line="104" column="1" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="105" bodyend="135"/>
+    <listofallmembers>
+      <member refid="da/d20/a01689_1a9e3ee9e5b0978a03846c770681f42c6a" prot="public" virt="pure-virtual"><scope>IIccMpeFactory</scope><name>CreateElement</name></member>
+      <member refid="da/d20/a01689_1aab3a1365474e7deb94027d2253ef24ab" prot="public" virt="pure-virtual"><scope>IIccMpeFactory</scope><name>GetElementSigName</name></member>
+      <member refid="da/d20/a01689_1a07b0583f06dd69f09793e1be4dc490c0" prot="public" virt="virtual"><scope>IIccMpeFactory</scope><name>~IIccMpeFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

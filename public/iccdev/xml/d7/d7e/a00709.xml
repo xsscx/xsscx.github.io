@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d7e/a00709" kind="struct" language="C++" prot="public">
+    <compoundname>icS15Fixed16ArrayType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/d7e/a00709_1a12a60fe66e405818a531dd0d2c221847" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icS15Fixed16ArrayType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icS15Fixed16ArrayType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1896" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d7e/a00709_1a41d77f92403180e2cf051f0cec2767d7" prot="public" static="no" mutable="no">
+        <type><ref refid="df/db6/a00509" kindref="compound">icS15Fixed16Array</ref></type>
+        <definition>icS15Fixed16Array icS15Fixed16ArrayType::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>icS15Fixed16ArrayType::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1897" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1897" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>s15Fixed16Type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icS15Fixed16Array</label>
+        <link refid="df/db6/a00509"/>
+      </node>
+      <node id="1">
+        <label>icS15Fixed16ArrayType</label>
+        <link refid="d7/d7e/a00709"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1895" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1895" bodyend="1898"/>
+    <listofallmembers>
+      <member refid="d7/d7e/a00709_1a12a60fe66e405818a531dd0d2c221847" prot="public" virt="non-virtual"><scope>icS15Fixed16ArrayType</scope><name>base</name></member>
+      <member refid="d7/d7e/a00709_1a41d77f92403180e2cf051f0cec2767d7" prot="public" virt="non-virtual"><scope>icS15Fixed16ArrayType</scope><name>data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d10/a01189" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccExtensionMpe</compoundname>
+    <derivedcompoundref refid="d0/dc1/a01993" prot="public" virt="non-virtual">CIccMpeXml</derivedcompoundref>
+    <includes refid="d7/d25/a00182" local="no">IccTagMPE.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d10/a01189_1a645d276bf232cfd12c5655d8dd7b817d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const char *</type>
+        <definition>virtual const char * IIccExtensionMpe::GetExtClassName</definition>
+        <argsstring>()=0</argsstring>
+        <name>GetExtClassName</name>
+        <qualifiedname>IIccExtensionMpe::GetExtClassName</qualifiedname>
+        <reimplementedby refid="d0/dc1/a01993_1af05f90c831e553e88257f725a0cef8fb">GetExtClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="135" column="22"/>
+        <referencedby refid="d2/d6f/a01957_1a09408c36528ddcd6177b41b0d08614ea" compoundref="d0/d27/a00239" startline="4036" endline="4086">CIccTagXmlMultiProcessElement::ParseElement</referencedby>
+        <referencedby refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" compoundref="dd/dd7/a00260" startline="2341" endline="2618">CIccMpeXmlCalculator::ParseImport</referencedby>
+        <referencedby refid="d8/de6/a02061_1ac2201e8656c54d4760a8b1f07e79ff51" compoundref="dd/dd7/a00260" startline="2265" endline="2314">CIccMpeXmlCalculator::ToXml</referencedby>
+        <referencedby refid="d2/d6f/a01957_1a961a44f22ec91143423cbd47ab977371" compoundref="d0/d27/a00239" startline="3940" endline="3973">CIccTagXmlMultiProcessElement::ToXml</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccMpeXml</label>
+        <link refid="d0/dc1/a01993"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccMpeXmlBAcs</label>
+        <link refid="d6/d94/a02033"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccMpeXmlCLUT</label>
+        <link refid="da/d3e/a02025"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccMpeXmlCalculator</label>
+        <link refid="d8/de6/a02061"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CIccMpeXmlCurveSet</label>
+        <link refid="d3/d39/a02005"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CIccMpeXmlEAcs</label>
+        <link refid="dd/dfc/a02037"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CIccMpeXmlEmissionCLUT</label>
+        <link refid="de/df8/a02073"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccMpeXmlEmissionMatrix</label>
+        <link refid="d0/d67/a02065"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CIccMpeXmlEmissionObserver</label>
+        <link refid="d2/d50/a02081"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>CIccMpeXmlExtCLUT</label>
+        <link refid="d6/d19/a02029"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>CIccMpeXmlInvEmissionMatrix</label>
+        <link refid="d3/d48/a02069"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>CIccMpeXmlJabToXYZ</label>
+        <link refid="d3/dea/a02041"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>CIccMpeXmlMatrix</label>
+        <link refid="d8/d45/a02021"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>CIccMpeXmlReflectanceCLUT</label>
+        <link refid="db/dac/a02077"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>CIccMpeXmlReflectanceObserver</label>
+        <link refid="d2/dde/a02085"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>CIccMpeXmlTintArray</label>
+        <link refid="d8/d98/a02009"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>CIccMpeXmlToneMap</label>
+        <link refid="d0/dfd/a02017"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>CIccMpeXmlUnknown</label>
+        <link refid="d0/d2b/a01997"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>CIccMpeXmlXYZToJab</label>
+        <link refid="d7/d13/a02045"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccExtensionMpe</label>
+        <link refid="d3/d10/a01189"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccTagMPE.h" line="132" column="1" bodyfile="IccProfLib/IccTagMPE.h" bodystart="133" bodyend="136"/>
+    <listofallmembers>
+      <member refid="d3/d10/a01189_1a645d276bf232cfd12c5655d8dd7b817d" prot="public" virt="pure-virtual"><scope>IIccExtensionMpe</scope><name>GetExtClassName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

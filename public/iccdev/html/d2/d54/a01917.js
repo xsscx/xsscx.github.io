@@ -1,0 +1,28 @@
+var a01917 =
+[
+    [ "~CIccTagXmlProfileSeqDesc", "d2/d54/a01917.html#ae1ccf7841d0c080ce1944c0ef249514f", null ],
+    [ "Create", "d2/d54/a01917.html#a2a2efdbfae5e8820c0dc4cdd1af691a8", null ],
+    [ "Describe", "d2/d54/a01917.html#a7d1d6d470a3864dd497badec54fc2a28", null ],
+    [ "DetachIO", "d2/d54/a01917.html#a3b8c88576df48859517cda49e412c9f3", null ],
+    [ "GetClassName", "d2/d54/a01917.html#a9cc3a5b7c2f1d7f1aa64ec4ca95b7ce4", null ],
+    [ "GetExtClassName", "d2/d54/a01917.html#a67786e088d1e0f900a3aa28bb3499d2b", null ],
+    [ "GetExtDerivedClassName", "d2/d54/a01917.html#ac5c03ff6c0ef73be014eb9da37ec6113", null ],
+    [ "GetExtension", "d2/d54/a01917.html#ad27fdd3bdd8ee6c94557e7a98cfa36c1", null ],
+    [ "GetTagArrayType", "d2/d54/a01917.html#acc454c2f425b8619187fc75f682d7aa4", null ],
+    [ "GetTagStructType", "d2/d54/a01917.html#ad53030e068551d6ac9f69124b4a6c9bb", null ],
+    [ "GetType", "d2/d54/a01917.html#ad6716dd6a9322d67b55641e191cfd6bd", null ],
+    [ "IsArrayType", "d2/d54/a01917.html#a80251cce2257d65fff1f45c0d805480f", null ],
+    [ "IsMBBType", "d2/d54/a01917.html#a5cf5b72ab66ca68a6c8ddfd861741bb8", null ],
+    [ "IsNumArrayType", "d2/d54/a01917.html#aa2a3dd91bfad9cf1297300d70936121a", null ],
+    [ "IsSupported", "d2/d54/a01917.html#a3415307280dc7b871cc1797704008991", null ],
+    [ "NewCopy", "d2/d54/a01917.html#a75e27f7883e595e29575dca402d84a4e", null ],
+    [ "ParseXml", "d2/d54/a01917.html#a0b8bea51eaf695cd51933826c97e342f", null ],
+    [ "Read", "d2/d54/a01917.html#ae5af70d0e084a18fe04f7cfcaab17f7a", null ],
+    [ "Read", "d2/d54/a01917.html#a9c4cabcc7ea3278e375131bb688a8293", null ],
+    [ "ReadAll", "d2/d54/a01917.html#affe66685d53e2ebf016a5a5126ed968d", null ],
+    [ "ToXml", "d2/d54/a01917.html#a61095812b67f06dc8269cd6db81e5cd0", null ],
+    [ "Validate", "d2/d54/a01917.html#a76fce6cca3932803be2f6c6974ee7ff0", null ],
+    [ "Write", "d2/d54/a01917.html#a7d64032c11a24811af599c55681579ed", null ],
+    [ "m_Descriptions", "d2/d54/a01917.html#afa0e7e0f2a5de20db50d0fb7f995bd4d", null ],
+    [ "m_nReserved", "d2/d54/a01917.html#a0dbc39e419057e941c11cacb8c9e3fb0", null ]
+];

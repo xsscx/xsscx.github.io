@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="df/dc8/a00122" kind="file" language="C++">
+    <compoundname>IccMD5.h</compoundname>
+    <includes refid="d5/d16/a00029" local="yes">IccProfLibConf.h</includes>
+    <includedby refid="d7/d9a/a00152" local="yes">IccProfLib/IccMD5.cpp</includedby>
+    <includedby refid="d0/dc2/a00104" local="yes">IccProfLib/IccProfile.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>IccProfLib/IccMD5.h</label>
+        <link refid="df/dc8/a00122"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>IccProfLib/IccMD5.cpp</label>
+        <link refid="d7/d9a/a00152"/>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccMD5.h</label>
+        <link refid="df/dc8/a00122"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccProfLib/IccProfile.cpp</label>
+        <link refid="d0/dc2/a00104"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d6/d16/a01269" prot="public">MD5_CTX</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="df/dc8/a00122_1a73204e40637f83518fb695362ea084a4" prot="public" static="no">
+        <type>unsigned char *</type>
+        <definition>typedef unsigned char* POINTER</definition>
+        <argsstring></argsstring>
+        <name>POINTER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>POINTER defines a generic pointer type </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="42" column="23" bodyfile="IccProfLib/IccMD5.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/dc8/a00122_1af5637b45065516a61d381f1891454eec" prot="public" static="no">
+        <type>unsigned short int</type>
+        <definition>typedef unsigned short int UINT2</definition>
+        <argsstring></argsstring>
+        <name>UINT2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UINT2 defines a two byte word </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="45" column="28" bodyfile="IccProfLib/IccMD5.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/dc8/a00122_1a25c0f40abb1ec4a70b852253e026a49e" prot="public" static="no">
+        <type><ref refid="d5/d16/a00029_1af4f9a4c07d8766a12ef62c381593d22e" kindref="member">ICCUINT32</ref></type>
+        <definition>typedef ICCUINT32 UINT4</definition>
+        <argsstring></argsstring>
+        <name>UINT4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UINT4 defines a four byte word </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="48" column="19" bodyfile="IccProfLib/IccMD5.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="df/dc8/a00122_1a6f4769d882e0d32b9bb4202dccd47015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>void ICCPROFLIB_API icMD5Final</definition>
+        <argsstring>(unsigned char *, MD5_CTX *)</argsstring>
+        <name>icMD5Final</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>digest</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/d16/a01269" kindref="compound">MD5_CTX</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MD5 finalization. Ends an MD5 message-digest operation, writing the the message digest and zeroizing the context. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="60" column="21" bodyfile="IccProfLib/IccMD5.cpp" bodystart="150" bodyend="174" declfile="IccProfLib/IccMD5.h" declline="60" declcolumn="21"/>
+        <references refid="d6/d16/a01269_1a57bfa2c0108b976870e1b2faed3bad86" compoundref="df/dc8/a00122" startline="54">MD5_CTX::count</references>
+        <references refid="d7/d9a/a00152_1a076da82855c975e9625df41dc733a7aa" compoundref="d7/d9a/a00152" startline="269" endline="279">Encode</references>
+        <references refid="d7/d9a/a00152_1a6d3d8e3fdecab13c36a2d4f25cbe5381" compoundref="d7/d9a/a00152" startline="114" endline="145">icMD5Update</references>
+        <references refid="d7/d9a/a00152_1aee6f420120b0fbc0fb096cb61655cec4" compoundref="d7/d9a/a00152" startline="56" endline="60">PADDING</references>
+        <references refid="d6/d16/a01269_1a5738e98929af4093919c3216fafe76c8" compoundref="df/dc8/a00122" startline="53">MD5_CTX::state</references>
+        <referencedby refid="d0/dc2/a00104_1aff7a9ca0b9e6a67e49a30d327ff14bf8" compoundref="d0/dc2/a00104" startline="3787" endline="3818">CalcProfileID</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/dc8/a00122_1afd889d449c8f4bd568a340d6ef378f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>void ICCPROFLIB_API icMD5Init</definition>
+        <argsstring>(MD5_CTX *)</argsstring>
+        <name>icMD5Init</name>
+        <param>
+          <type><ref refid="d6/d16/a01269" kindref="compound">MD5_CTX</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MD5 initialization. Begins an MD5 operation, writing a new context. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="58" column="21" bodyfile="IccProfLib/IccMD5.cpp" bodystart="99" bodyend="108" declfile="IccProfLib/IccMD5.h" declline="58" declcolumn="21"/>
+        <references refid="d6/d16/a01269_1a57bfa2c0108b976870e1b2faed3bad86" compoundref="df/dc8/a00122" startline="54">MD5_CTX::count</references>
+        <references refid="d6/d16/a01269_1a5738e98929af4093919c3216fafe76c8" compoundref="df/dc8/a00122" startline="53">MD5_CTX::state</references>
+        <referencedby refid="d0/dc2/a00104_1aff7a9ca0b9e6a67e49a30d327ff14bf8" compoundref="d0/dc2/a00104" startline="3787" endline="3818">CalcProfileID</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/dc8/a00122_1a1019840ac22fed2e659e31fd052eb57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>void ICCPROFLIB_API icMD5Update</definition>
+        <argsstring>(MD5_CTX *, unsigned char *, unsigned int)</argsstring>
+        <name>icMD5Update</name>
+        <param>
+          <type><ref refid="d6/d16/a01269" kindref="compound">MD5_CTX</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>inputLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>MD5 block update operation. Continues an MD5 message-digest operation, processing another message block, and updating the context. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="59" column="21" bodyfile="IccProfLib/IccMD5.cpp" bodystart="114" bodyend="145" declfile="IccProfLib/IccMD5.h" declline="59" declcolumn="21"/>
+        <references refid="d6/d16/a01269_1a2da73ecf544745f58211e998719f367f" compoundref="df/dc8/a00122" startline="55">MD5_CTX::buffer</references>
+        <references refid="d6/d16/a01269_1a57bfa2c0108b976870e1b2faed3bad86" compoundref="df/dc8/a00122" startline="54">MD5_CTX::count</references>
+        <references refid="d7/d9a/a00152_1a476ec1eecb4eee24b344ebce3304afd2" compoundref="d7/d9a/a00152" startline="178" endline="264">MD5Transform</references>
+        <references refid="d6/d16/a01269_1a5738e98929af4093919c3216fafe76c8" compoundref="df/dc8/a00122" startline="53">MD5_CTX::state</references>
+        <referencedby refid="d0/dc2/a00104_1aff7a9ca0b9e6a67e49a30d327ff14bf8" compoundref="d0/dc2/a00104" startline="3787" endline="3818">CalcProfileID</referencedby>
+        <referencedby refid="d7/d9a/a00152_1ab383f2ba95a1659496f2d624e3e5efc2" compoundref="d7/d9a/a00152" startline="150" endline="174">icMD5Final</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>IccMD5.H - header file for <ref refid="d7/d9a/a00152" kindref="compound">IccMD5.cpp</ref></para>
+<para>Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.</para>
+<para>License to copy and use this software is granted provided that it is identified as the &quot;RSA Data Security, Inc. MD5 Message-Digest
+Algorithm&quot; in all material mentioning or referencing this software or this function.</para>
+<para>License is also granted to make and use derivative works provided that such works are identified as &quot;derived from the RSA Data
+Security, Inc. MD5 Message-Digest Algorithm&quot; in all material mentioning or referencing the derived work.</para>
+<para>RSA Data Security, Inc. makes no representations concerning either the merchantability of this software or the suitability of this software for any particular purpose. It is provided &quot;as is&quot; without express or implied warranty of any kind.</para>
+<para>These notices must be retained in any copies of any part of this documentation and/or software. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>---------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">January<sp/>2011<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="comment">-<sp/>Modified<sp/>names<sp/>to<sp/>avoid<sp/>possible<sp/>conflicts<sp/>-<sp/>Max<sp/>Derhak</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">-<sp/>Added<sp/>IccProfLibConf.h<sp/>include<sp/>to<sp/>use<sp/>ICCPROFLIB_API<sp/>with<sp/>functions</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">-<sp/>Changed<sp/>typedef<sp/>of<sp/>UINT4<sp/>to<sp/>use<sp/>ICCUINT64</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"></highlight></codeline>
+<codeline lineno="34"><highlight class="comment">August<sp/>2012</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">-<sp/>Change<sp/>typedef<sp/>of<sp/>UINT4<sp/>to<sp/>use<sp/>ICCUINT32<sp/>(oops!)</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">------------------------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/d16/a00029" kindref="compound">IccProfLibConf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="df/dc8/a00122_1a73204e40637f83518fb695362ea084a4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="df/dc8/a00122_1a73204e40637f83518fb695362ea084a4" kindref="member">POINTER</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="df/dc8/a00122_1af5637b45065516a61d381f1891454eec" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="df/dc8/a00122_1af5637b45065516a61d381f1891454eec" kindref="member">UINT2</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="df/dc8/a00122_1a25c0f40abb1ec4a70b852253e026a49e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="d5/d16/a00029_1af4f9a4c07d8766a12ef62c381593d22e" kindref="member">ICCUINT32</ref><sp/><ref refid="df/dc8/a00122_1a25c0f40abb1ec4a70b852253e026a49e" kindref="member">UINT4</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="d6/d16/a01269" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53" refid="d6/d16/a01269_1a5738e98929af4093919c3216fafe76c8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="df/dc8/a00122_1a25c0f40abb1ec4a70b852253e026a49e" kindref="member">UINT4</ref><sp/>state[4];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>state<sp/>(ABCD)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="d6/d16/a01269_1a57bfa2c0108b976870e1b2faed3bad86" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="df/dc8/a00122_1a25c0f40abb1ec4a70b852253e026a49e" kindref="member">UINT4</ref><sp/>count[2];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>number<sp/>of<sp/>bits,<sp/>modulo<sp/>2^64<sp/>(lsb<sp/>first)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="d6/d16/a01269_1a2da73ecf544745f58211e998719f367f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buffer[64];<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>input<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<sp/><ref refid="d6/d16/a01269" kindref="compound">MD5_CTX</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="df/dc8/a00122_1afd889d449c8f4bd568a340d6ef378f5b" kindref="member">icMD5Init</ref><sp/><sp/>(<ref refid="d6/d16/a01269" kindref="compound">MD5_CTX</ref><sp/>*);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="df/dc8/a00122_1a1019840ac22fed2e659e31fd052eb57d" kindref="member">icMD5Update</ref><sp/><sp/>(<ref refid="d6/d16/a01269" kindref="compound">MD5_CTX</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="df/dc8/a00122_1a6f4769d882e0d32b9bb4202dccd47015" kindref="member">icMD5Final</ref><sp/><sp/>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>,<sp/><ref refid="d6/d16/a01269" kindref="compound">MD5_CTX</ref><sp/>*);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccMD5.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="da/d3e/a02025" kind="class" language="C++" prot="public">
+    <compoundname>CIccMpeXmlCLUT</compoundname>
+    <basecompoundref refid="dd/dd5/a00861" prot="public" virt="non-virtual">CIccMpeCLUT</basecompoundref>
+    <basecompoundref refid="d0/dc1/a01993" prot="public" virt="non-virtual">CIccMpeXml</basecompoundref>
+    <includes refid="d7/d40/a00236" local="no">IccMpeXml.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d3e/a02025_1a185c7b9bb13a9e594fc79f3c34b78ceb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccMpeXmlCLUT::~CIccMpeXmlCLUT</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccMpeXmlCLUT</name>
+        <qualifiedname>CIccMpeXmlCLUT::~CIccMpeXmlCLUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="182" column="11" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="182" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccMpeCLUT::Apply</definition>
+        <argsstring>(CIccApplyMpe *pApply, icFloatNumber *dstPixel, const icFloatNumber *srcPixel) const</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccMpeCLUT::Apply</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1a2cad8bcdf828e1abf3623d85dcacdab6">Apply</reimplements>
+        <param>
+          <type><ref refid="d4/d10/a01197" kindref="compound">CIccApplyMpe</ref> *</type>
+          <declname>pApply</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>dstPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" kindref="member">CIccMpeCLUT::Apply</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="674" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5665" bodyend="5696"/>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a0a26c320b7954cbac0827b1f383b7d6e" compoundref="d2/de7/a00014" startline="637">ic1dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a7158d2db3dde65aace4e755d70b78d1e" compoundref="d2/de7/a00014" startline="638">ic2dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392af9ad59a6d46ce88cbfcbd387af0ab499" compoundref="d2/de7/a00014" startline="640">ic3dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a0b8934a0400eeea221702a1759e3c533" compoundref="d2/de7/a00014" startline="639">ic3dInterpTetra</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a7c9ed722256fb9754c0198633fc4d46f" compoundref="d2/de7/a00014" startline="641">ic4dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392abe53e6c4b867a0db5ad740e1b1f3d7da" compoundref="d2/de7/a00014" startline="642">ic5dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a126b14c19f0b5db4020e662eb0b03cc4" compoundref="d2/de7/a00014" startline="643">ic6dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a4c536e94f530c78e4379754ac69dbfe5" compoundref="d2/de7/a00014" startline="644">icNdInterp</references>
+        <references refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" compoundref="d4/d3e/a00116" startline="2428" endline="2459">CIccCLUT::Interp1d</references>
+        <references refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">CIccCLUT::Interp2d</references>
+        <references refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">CIccCLUT::Interp3d</references>
+        <references refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">CIccCLUT::Interp3dTetra</references>
+        <references refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">CIccCLUT::Interp4d</references>
+        <references refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">CIccCLUT::Interp5d</references>
+        <references refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">CIccCLUT::Interp6d</references>
+        <references refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">CIccCLUT::InterpND</references>
+        <references refid="dd/dd5/a00861_1ae661b3c3a3c8cad16a6cdf82574d6914" compoundref="d2/de7/a00014" startline="683">CIccMpeCLUT::m_interpType</references>
+        <references refid="dd/d7b/a00865_1a62dc6eac6af7783140af65b5fb7ceee9" compoundref="d2/de7/a00014" startline="708">CIccApplyMpeCLUT::m_pApply</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1a2e607aed63f076ff4b520f56089944e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccMpeCLUT::Begin</definition>
+        <argsstring>(icElemInterp nInterp, CIccTagMultiProcessElement *pMPE)</argsstring>
+        <name>Begin</name>
+        <qualifiedname>CIccMpeCLUT::Begin</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1a85a5e19f880fb2703292ae2ea343edfc">Begin</reimplements>
+        <param>
+          <type><ref refid="d7/d25/a00182_1ac2d11f72d4c98d21c3b2ca1509a52ee8" kindref="member">icElemInterp</ref></type>
+          <declname>nInterp</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dd5/a00861_1a2e607aed63f076ff4b520f56089944e8" kindref="member">CIccMpeCLUT::Begin</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="672" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5619" bodyend="5653"/>
+        <references refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">CIccCLUT::Begin</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a0a26c320b7954cbac0827b1f383b7d6e" compoundref="d2/de7/a00014" startline="637">ic1dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a7158d2db3dde65aace4e755d70b78d1e" compoundref="d2/de7/a00014" startline="638">ic2dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392af9ad59a6d46ce88cbfcbd387af0ab499" compoundref="d2/de7/a00014" startline="640">ic3dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a0b8934a0400eeea221702a1759e3c533" compoundref="d2/de7/a00014" startline="639">ic3dInterpTetra</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a7c9ed722256fb9754c0198633fc4d46f" compoundref="d2/de7/a00014" startline="641">ic4dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392abe53e6c4b867a0db5ad740e1b1f3d7da" compoundref="d2/de7/a00014" startline="642">ic5dInterp</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a126b14c19f0b5db4020e662eb0b03cc4" compoundref="d2/de7/a00014" startline="643">ic6dInterp</references>
+        <references refid="d7/d25/a00182_1ac2d11f72d4c98d21c3b2ca1509a52ee8a68fc6f5cbcceeff16666b102dca5f3ab" compoundref="d7/d25/a00182" startline="95">icElemInterpTetra</references>
+        <references refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392a4c536e94f530c78e4379754ac69dbfe5" compoundref="d2/de7/a00014" startline="644">icNdInterp</references>
+        <references refid="dd/dd5/a00861_1ae661b3c3a3c8cad16a6cdf82574d6914" compoundref="d2/de7/a00014" startline="683">CIccMpeCLUT::m_interpType</references>
+        <references refid="dd/d43/a01193_1abeb5f5378b5c7427f5b5a8b5eb36b27c" compoundref="d7/d25/a00182" startline="191">CIccMultiProcessElement::m_nInputChannels</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1a0c2d7c8b69e35f5c99d9103687c43ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccMpeCLUT::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccMpeCLUT::Describe</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1ad2a3d6c1ff9aa05ecd9cdcf403a633c5">Describe</reimplements>
+        <reimplementedby refid="d3/db2/a00869_1a91d39dd0dfcf097f97aada8778585528">Describe</reimplementedby>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dd5/a00861_1a0c2d7c8b69e35f5c99d9103687c43ef7" kindref="member">CIccMpeCLUT::Describe</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="667" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5479" bodyend="5484"/>
+        <references refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">CIccCLUT::DumpLut</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d43/a01193_1a7c1ea49206872f4b3169f46e4710aec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a07314bd72af5608f568b4ec04a380da2" kindref="member">icAcsSignature</ref></type>
+        <definition>virtual icAcsSignature CIccMultiProcessElement::GetBAcsSig</definition>
+        <argsstring>()</argsstring>
+        <name>GetBAcsSig</name>
+        <qualifiedname>CIccMultiProcessElement::GetBAcsSig</qualifiedname>
+        <reimplementedby refid="d2/d1d/a01277_1a7945608d280c3a3c2659a0b5d00c210d">GetBAcsSig</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="178" column="26" bodyfile="IccProfLib/IccTagMPE.h" bodystart="178" bodyend="178"/>
+        <referencedby refid="de/d85/a01273_1aa82e93dfaa3c836e4d628b849018b745" compoundref="d1/d09/a00077" startline="127" endline="146">CIccMpeAcs::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d3e/a02025_1aa7bf206ca3cc7b96179b7aa9a805a3e4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * CIccMpeXmlCLUT::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccMpeXmlCLUT::GetClassName</qualifiedname>
+        <reimplements refid="dd/dd5/a00861_1a0ab63868de7dd3f1c4901a0612aaaa94">GetClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="184" column="22" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="184" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1a54bed78abd2647e71e870d06602cbefe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref> *</type>
+        <definition>CIccCLUT * CIccMpeCLUT::GetCLUT</definition>
+        <argsstring>()</argsstring>
+        <name>GetCLUT</name>
+        <qualifiedname>CIccMpeCLUT::GetCLUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="678" column="12" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="678" bodyend="678"/>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d43/a01193_1a56c2c5f2779043b825041c11001b8296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a07314bd72af5608f568b4ec04a380da2" kindref="member">icAcsSignature</ref></type>
+        <definition>virtual icAcsSignature CIccMultiProcessElement::GetEAcsSig</definition>
+        <argsstring>()</argsstring>
+        <name>GetEAcsSig</name>
+        <qualifiedname>CIccMultiProcessElement::GetEAcsSig</qualifiedname>
+        <reimplementedby refid="d5/d6f/a01281_1a279bab79e33212e971c48aaee33908a7">GetEAcsSig</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="179" column="26" bodyfile="IccProfLib/IccTagMPE.h" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dc1/a01993_1af05f90c831e553e88257f725a0cef8fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * CIccMpeXml::GetExtClassName</definition>
+        <argsstring>()</argsstring>
+        <name>GetExtClassName</name>
+        <qualifiedname>CIccMpeXml::GetExtClassName</qualifiedname>
+        <reimplements refid="d3/d10/a01189_1a645d276bf232cfd12c5655d8dd7b817d">GetExtClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="84" column="22" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3e/a02025_1a80e75726bc76099e3b364a151928e0d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d3/d10/a01189" kindref="compound">IIccExtensionMpe</ref> *</type>
+        <definition>virtual IIccExtensionMpe * CIccMpeXmlCLUT::GetExtension</definition>
+        <argsstring>()</argsstring>
+        <name>GetExtension</name>
+        <qualifiedname>CIccMpeXmlCLUT::GetExtension</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1a9d0364bcea8215694dc1576f629934de">GetExtension</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="186" column="28" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1ae6dbc5e23dfb983719445609c76a3548" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d10/a01197" kindref="compound">CIccApplyMpe</ref> *</type>
+        <definition>CIccApplyMpe * CIccMpeCLUT::GetNewApply</definition>
+        <argsstring>(CIccApplyTagMpe *pApplyTag)</argsstring>
+        <name>GetNewApply</name>
+        <qualifiedname>CIccMpeCLUT::GetNewApply</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1ad56f9ad740d2b24fbd3790d5fa6edba9">GetNewApply</reimplements>
+        <param>
+          <type><ref refid="de/d04/a01209" kindref="compound">CIccApplyTagMpe</ref> *</type>
+          <declname>pApplyTag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dd5/a00861_1a2e607aed63f076ff4b520f56089944e8" kindref="member">CIccMpeCLUT::Begin</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="673" column="24" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5737" bodyend="5752"/>
+        <references refid="dd/d7b/a00865_1a3eadfbe31260bcb059840eec75e22081" compoundref="d6/d2d/a00047" startline="5762" endline="5765">CIccApplyMpeCLUT::CIccApplyMpeCLUT</references>
+        <references refid="d8/d02/a01149_1af5d5680c45af970ec254e32f06b15c41" compoundref="d4/d3e/a00116" startline="2403" endline="2416">CIccCLUT::GetNewApply</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1abbd18a47a15df339bb6703e9ff566835" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+        <definition>virtual icElemTypeSignature CIccMpeCLUT::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccMpeCLUT::GetType</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1abc48ee629f3d2102bfdd5c03891b37e1">GetType</reimplements>
+        <reimplementedby refid="d3/db2/a00869_1ad0c8033e5d48885bcf670723ed48b8ff">GetType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="664" column="31" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="664" bodyend="664"/>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da525c6722c328164b30a28a6b93bac555" compoundref="d7/d46/a00002" startline="645">icSigCLutElemType</references>
+        <referencedby refid="dd/dd5/a00861_1a4a8c5f16731850aecf3645cbc911896f" compoundref="d6/d2d/a00047" startline="5708" endline="5724">CIccMpeCLUT::Validate</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d43/a01193_1aa5aef125e1030ca400a22dd2650b3907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccMultiProcessElement::IsAcs</definition>
+        <argsstring>()</argsstring>
+        <name>IsAcs</name>
+        <qualifiedname>CIccMultiProcessElement::IsAcs</qualifiedname>
+        <reimplementedby refid="de/d85/a01273_1a644306dbab2c9ef068167b241b956ac2">IsAcs</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="177" column="16" bodyfile="IccProfLib/IccTagMPE.h" bodystart="177" bodyend="177"/>
+        <referencedby refid="d5/d54/a01213_1a8e6ad3114229992a0c1df3d1d30e02ef" compoundref="dc/d87/a00032" startline="1440" endline="1513">CIccTagMultiProcessElement::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d43/a01193_1a9f3ac4462c0b4d7e3f2cf7fe6dc23d6d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccMultiProcessElement::IsLateBinding</definition>
+        <argsstring>() const</argsstring>
+        <name>IsLateBinding</name>
+        <qualifiedname>CIccMultiProcessElement::IsLateBinding</qualifiedname>
+        <reimplementedby refid="df/db8/a01317_1adbdf06ced064caff85df3b477201bf0b">IsLateBinding</reimplementedby>
+        <reimplementedby refid="dc/d87/a01649_1aa3074e72ccd60c0edc8384cad6c43b02">IsLateBinding</reimplementedby>
+        <reimplementedby refid="d4/d41/a01661_1a4614bd7b9095af20d7abb9dcb61e116b">IsLateBinding</reimplementedby>
+        <reimplementedby refid="d2/d44/a01677_1ad4a96d485ae0eeb1fcd7cc7e1b0b0a42">IsLateBinding</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="184" column="16" bodyfile="IccProfLib/IccTagMPE.h" bodystart="184" bodyend="184"/>
+        <referencedby refid="df/db8/a01317_1adbdf06ced064caff85df3b477201bf0b" compoundref="d9/d77/a00095" startline="4864" endline="4876">CIccMpeCalculator::IsLateBinding</referencedby>
+        <referencedby refid="d5/d54/a01213_1ac10baf3502ba851e6e589bb6eea3c615" compoundref="dc/d87/a00032" startline="1230" endline="1244">CIccTagMultiProcessElement::IsLateBinding</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d43/a01193_1a97df86006903861d22ccd6fdd9e5f0f6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccMultiProcessElement::IsLateBindingReflectance</definition>
+        <argsstring>() const</argsstring>
+        <name>IsLateBindingReflectance</name>
+        <qualifiedname>CIccMultiProcessElement::IsLateBindingReflectance</qualifiedname>
+        <reimplementedby refid="df/db8/a01317_1a269645a5b3567289391e5145ca14346e">IsLateBindingReflectance</reimplementedby>
+        <reimplementedby refid="d9/df5/a01673_1ae0cbcb62c04966145df3c8a5f2410e87">IsLateBindingReflectance</reimplementedby>
+        <reimplementedby refid="de/d96/a01685_1a81e0092bc7713b409e41771f7a186d1b">IsLateBindingReflectance</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="185" column="16" bodyfile="IccProfLib/IccTagMPE.h" bodystart="185" bodyend="185"/>
+        <referencedby refid="df/db8/a01317_1a269645a5b3567289391e5145ca14346e" compoundref="d9/d77/a00095" startline="4888" endline="4900">CIccMpeCalculator::IsLateBindingReflectance</referencedby>
+        <referencedby refid="d5/d54/a01213_1ad0595f286b26498f6a24af6c90639732" compoundref="dc/d87/a00032" startline="1256" endline="1270">CIccTagMultiProcessElement::IsLateBindingReflectance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d43/a01193_1ae22437a7037a314146199a7ba3601656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccMultiProcessElement::IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <qualifiedname>CIccMultiProcessElement::IsSupported</qualifiedname>
+        <reimplementedby refid="de/df7/a01201_1aec044d5f6e99ffb6131fc8abc2bf5fea">IsSupported</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="162" column="16" bodyfile="IccProfLib/IccTagMPE.h" bodystart="162" bodyend="162"/>
+        <referencedby refid="d5/d54/a01213_1a07928be5f1f567d11d715a9d4713f431" compoundref="dc/d87/a00032" startline="866" endline="878">CIccTagMultiProcessElement::IsSupported</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1a8b878571b7ab866ea2c24db0dfb68511" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>virtual CIccMultiProcessElement * CIccMpeCLUT::NewCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccMpeCLUT::NewCopy</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1a5ae6e493583e12b6ffe809d2deae8bde">NewCopy</reimplements>
+        <reimplementedby refid="d3/db2/a00869_1af3f2d7edfbca9dbfa4dbe0ca1f916add">NewCopy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="661" column="35" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="661" bodyend="661"/>
+        <references refid="dd/dd5/a00861_1acd8979e1efe510c753cf181acf90be25" compoundref="d6/d2d/a00047" startline="5387" endline="5398">CIccMpeCLUT::CIccMpeCLUT</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d43/a01193_1a0e7393d937cb768d52265a7ebed2b3a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>virtual icUInt16Number CIccMultiProcessElement::NumInputChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>NumInputChannels</name>
+        <qualifiedname>CIccMultiProcessElement::NumInputChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="159" column="26" bodyfile="IccProfLib/IccTagMPE.h" bodystart="159" bodyend="159"/>
+        <references refid="dd/d43/a01193_1abeb5f5378b5c7427f5b5a8b5eb36b27c" compoundref="d7/d25/a00182" startline="191">CIccMultiProcessElement::m_nInputChannels</references>
+        <referencedby refid="d1/d1a/a01285_1a2552fea250b0f04b586affc3a3d45e00" compoundref="d9/d77/a00095" startline="2222" endline="2341">SIccCalcOp::ArgsUsed</referencedby>
+        <referencedby refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" compoundref="d9/d77/a00095" startline="3462" endline="3487">CIccCalculatorFunc::Begin</referencedby>
+        <referencedby refid="d5/d54/a01213_1a23d86fdf33a8d9be5f507ac9d5a77525" compoundref="dc/d87/a00032" startline="1286" endline="1336">CIccTagMultiProcessElement::Begin</referencedby>
+        <referencedby refid="de/d90/a01313_1a1857e159fd4f90872cd211ec6981d3a0" compoundref="d5/de0/a00050" startline="429" endline="429">CIccSubCalcApply::NumInputChannels</referencedby>
+        <referencedby refid="d0/d2b/a01997_1afc27f607d1f137b32dad65b538714536" compoundref="dd/dd7/a00260" startline="83" endline="104">CIccMpeXmlUnknown::ToXml</referencedby>
+        <referencedby refid="d3/d39/a02005_1a858989c2f13b9b4047f8b4675efb49fd" compoundref="dd/dd7/a00260" startline="1050" endline="1085">CIccMpeXmlCurveSet::ToXml</referencedby>
+        <referencedby refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d" compoundref="dd/dd7/a00260" startline="1534" endline="1566">CIccMpeXmlTintArray::ToXml</referencedby>
+        <referencedby refid="d0/dfd/a02017_1a9efba74ea5302530c03ab16fc7737247" compoundref="dd/dd7/a00260" startline="1729" endline="1779">CIccMpeXmlToneMap::ToXml</referencedby>
+        <referencedby refid="d8/d45/a02021_1ae853ea83404517db05911c48a9ba5034" compoundref="dd/dd7/a00260" startline="1183" endline="1233">CIccMpeXmlMatrix::ToXml</referencedby>
+        <referencedby refid="da/d3e/a02025_1a6be0a6ac589d3e7ef65dea4771847ea3" compoundref="dd/dd7/a00260" startline="1873" endline="1885">ToXml</referencedby>
+        <referencedby refid="d6/d19/a02029_1a43c55f1b5cee810f8182340c359c61ee" compoundref="dd/dd7/a00260" startline="1907" endline="1925">CIccMpeXmlExtCLUT::ToXml</referencedby>
+        <referencedby refid="d6/d94/a02033_1ab99bd7712342c0d63b6cb2d545f13c9a" compoundref="dd/dd7/a00260" startline="1950" endline="1978">CIccMpeXmlBAcs::ToXml</referencedby>
+        <referencedby refid="dd/dfc/a02037_1afeb82ef0fbc9b414a1d7131e0f08f037" compoundref="dd/dd7/a00260" startline="2006" endline="2032">CIccMpeXmlEAcs::ToXml</referencedby>
+        <referencedby refid="d3/dea/a02041_1a34cf7cacb789aa994bea835172cb4967" compoundref="dd/dd7/a00260" startline="2162" endline="2181">CIccMpeXmlJabToXYZ::ToXml</referencedby>
+        <referencedby refid="d7/d13/a02045_1a54bb536e886c4f512c76956c51e2307f" compoundref="dd/dd7/a00260" startline="2213" endline="2232">CIccMpeXmlXYZToJab::ToXml</referencedby>
+        <referencedby refid="d8/de6/a02061_1ac2201e8656c54d4760a8b1f07e79ff51" compoundref="dd/dd7/a00260" startline="2265" endline="2314">CIccMpeXmlCalculator::ToXml</referencedby>
+        <referencedby refid="d0/d67/a02065_1afed419ced3da8e3dfe34d76c75fae099" compoundref="dd/dd7/a00260" startline="1280" endline="1340">CIccMpeXmlEmissionMatrix::ToXml</referencedby>
+        <referencedby refid="d3/d48/a02069_1aa72eae526f9c0b51758548a11be08aa0" compoundref="dd/dd7/a00260" startline="1407" endline="1467">CIccMpeXmlInvEmissionMatrix::ToXml</referencedby>
+        <referencedby refid="de/df8/a02073_1a90bc60d68216a101341bba3e58c048d6" compoundref="dd/dd7/a00260" startline="3180" endline="3219">CIccMpeXmlEmissionCLUT::ToXml</referencedby>
+        <referencedby refid="db/dac/a02077_1a65a4dd5664e7e4b7e72db2cb6613c2d3" compoundref="dd/dd7/a00260" startline="3293" endline="3332">CIccMpeXmlReflectanceCLUT::ToXml</referencedby>
+        <referencedby refid="d2/d50/a02081_1a97421b83857bdcd9162531eca05446fe" compoundref="dd/dd7/a00260" startline="3453" endline="3486">CIccMpeXmlEmissionObserver::ToXml</referencedby>
+        <referencedby refid="d2/dde/a02085_1ac006b2c376c05c9bafa2edba85663841" compoundref="dd/dd7/a00260" startline="3535" endline="3568">CIccMpeXmlReflectanceObserver::ToXml</referencedby>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">CIccCalculatorFunc::Validate</referencedby>
+        <referencedby refid="d5/d54/a01213_1ada9c86287fe2987e6efc099dcdbfc28d" compoundref="dc/d87/a00032" startline="1526" endline="1890">CIccTagMultiProcessElement::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d43/a01193_1a431d2d96c834f4f9b0674dafe8609ae1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>virtual icUInt16Number CIccMultiProcessElement::NumOutputChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>NumOutputChannels</name>
+        <qualifiedname>CIccMultiProcessElement::NumOutputChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="160" column="26" bodyfile="IccProfLib/IccTagMPE.h" bodystart="160" bodyend="160"/>
+        <references refid="dd/d43/a01193_1a167a265e4bbb61fc48c2c5b3618b59df" compoundref="d7/d25/a00182" startline="192">CIccMultiProcessElement::m_nOutputChannels</references>
+        <referencedby refid="db/d4b/a01309_1ac6bd4526a461f6704f374a2006dca5e4" compoundref="d9/d77/a00095" startline="3685" endline="3700">CIccCalculatorFunc::Apply</referencedby>
+        <referencedby refid="d1/d1a/a01285_1ad9f4e4455faa5f2579ee193a4b5f42ab" compoundref="d9/d77/a00095" startline="2354" endline="2480">SIccCalcOp::ArgsPushed</referencedby>
+        <referencedby refid="db/d4b/a01309_1a8ca7cd0fb45bf16554b5ace433854362" compoundref="d9/d77/a00095" startline="3462" endline="3487">CIccCalculatorFunc::Begin</referencedby>
+        <referencedby refid="d5/d54/a01213_1a23d86fdf33a8d9be5f507ac9d5a77525" compoundref="dc/d87/a00032" startline="1286" endline="1336">CIccTagMultiProcessElement::Begin</referencedby>
+        <referencedby refid="de/d90/a01313_1ae4ec84ae3195cba2bc618338e18dffa0" compoundref="d5/de0/a00050" startline="430" endline="430">CIccSubCalcApply::NumOutputChannels</referencedby>
+        <referencedby refid="d0/d2b/a01997_1afc27f607d1f137b32dad65b538714536" compoundref="dd/dd7/a00260" startline="83" endline="104">CIccMpeXmlUnknown::ToXml</referencedby>
+        <referencedby refid="d3/d39/a02005_1a858989c2f13b9b4047f8b4675efb49fd" compoundref="dd/dd7/a00260" startline="1050" endline="1085">CIccMpeXmlCurveSet::ToXml</referencedby>
+        <referencedby refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d" compoundref="dd/dd7/a00260" startline="1534" endline="1566">CIccMpeXmlTintArray::ToXml</referencedby>
+        <referencedby refid="d0/dfd/a02017_1a9efba74ea5302530c03ab16fc7737247" compoundref="dd/dd7/a00260" startline="1729" endline="1779">CIccMpeXmlToneMap::ToXml</referencedby>
+        <referencedby refid="d8/d45/a02021_1ae853ea83404517db05911c48a9ba5034" compoundref="dd/dd7/a00260" startline="1183" endline="1233">CIccMpeXmlMatrix::ToXml</referencedby>
+        <referencedby refid="da/d3e/a02025_1a6be0a6ac589d3e7ef65dea4771847ea3" compoundref="dd/dd7/a00260" startline="1873" endline="1885">ToXml</referencedby>
+        <referencedby refid="d6/d19/a02029_1a43c55f1b5cee810f8182340c359c61ee" compoundref="dd/dd7/a00260" startline="1907" endline="1925">CIccMpeXmlExtCLUT::ToXml</referencedby>
+        <referencedby refid="d6/d94/a02033_1ab99bd7712342c0d63b6cb2d545f13c9a" compoundref="dd/dd7/a00260" startline="1950" endline="1978">CIccMpeXmlBAcs::ToXml</referencedby>
+        <referencedby refid="dd/dfc/a02037_1afeb82ef0fbc9b414a1d7131e0f08f037" compoundref="dd/dd7/a00260" startline="2006" endline="2032">CIccMpeXmlEAcs::ToXml</referencedby>
+        <referencedby refid="d3/dea/a02041_1a34cf7cacb789aa994bea835172cb4967" compoundref="dd/dd7/a00260" startline="2162" endline="2181">CIccMpeXmlJabToXYZ::ToXml</referencedby>
+        <referencedby refid="d7/d13/a02045_1a54bb536e886c4f512c76956c51e2307f" compoundref="dd/dd7/a00260" startline="2213" endline="2232">CIccMpeXmlXYZToJab::ToXml</referencedby>
+        <referencedby refid="d8/de6/a02061_1ac2201e8656c54d4760a8b1f07e79ff51" compoundref="dd/dd7/a00260" startline="2265" endline="2314">CIccMpeXmlCalculator::ToXml</referencedby>
+        <referencedby refid="d0/d67/a02065_1afed419ced3da8e3dfe34d76c75fae099" compoundref="dd/dd7/a00260" startline="1280" endline="1340">CIccMpeXmlEmissionMatrix::ToXml</referencedby>
+        <referencedby refid="d3/d48/a02069_1aa72eae526f9c0b51758548a11be08aa0" compoundref="dd/dd7/a00260" startline="1407" endline="1467">CIccMpeXmlInvEmissionMatrix::ToXml</referencedby>
+        <referencedby refid="de/df8/a02073_1a90bc60d68216a101341bba3e58c048d6" compoundref="dd/dd7/a00260" startline="3180" endline="3219">CIccMpeXmlEmissionCLUT::ToXml</referencedby>
+        <referencedby refid="db/dac/a02077_1a65a4dd5664e7e4b7e72db2cb6613c2d3" compoundref="dd/dd7/a00260" startline="3293" endline="3332">CIccMpeXmlReflectanceCLUT::ToXml</referencedby>
+        <referencedby refid="d2/d50/a02081_1a97421b83857bdcd9162531eca05446fe" compoundref="dd/dd7/a00260" startline="3453" endline="3486">CIccMpeXmlEmissionObserver::ToXml</referencedby>
+        <referencedby refid="d2/dde/a02085_1ac006b2c376c05c9bafa2edba85663841" compoundref="dd/dd7/a00260" startline="3535" endline="3568">CIccMpeXmlReflectanceObserver::ToXml</referencedby>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">CIccCalculatorFunc::Validate</referencedby>
+        <referencedby refid="d5/d54/a01213_1ada9c86287fe2987e6efc099dcdbfc28d" compoundref="dc/d87/a00032" startline="1526" endline="1890">CIccTagMultiProcessElement::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d3e/a02025_1a12bdfaf73489d4043eaef10a429cff0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccMpeXmlCLUT::ParseXml</definition>
+        <argsstring>(xmlNode *pNode, std::string &amp;parseStr)</argsstring>
+        <name>ParseXml</name>
+        <qualifiedname>CIccMpeXmlCLUT::ParseXml</qualifiedname>
+        <reimplements refid="d0/dc1/a01993_1a0f0a4efab7609af9589966f5f2dce20b">ParseXml</reimplements>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="189" column="16" bodyfile="IccXML/IccLibXML/IccMpeXml.cpp" bodystart="1887" bodyend="1905"/>
+        <references refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</references>
+        <references refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a7b72d0077e286e2fd4a2113c00cd8663" compoundref="d7/d03/a00254" startline="70">icConvertFloat</references>
+        <references refid="d9/d39/a00257_1a459e22a536debe98c547657efa20b5ca" compoundref="d5/d35/a00266" startline="580" endline="587">icXmlAttrValue</references>
+        <references refid="dd/d43/a01193_1abeb5f5378b5c7427f5b5a8b5eb36b27c" compoundref="d7/d25/a00182" startline="191">CIccMultiProcessElement::m_nInputChannels</references>
+        <references refid="dd/d43/a01193_1a167a265e4bbb61fc48c2c5b3618b59df" compoundref="d7/d25/a00182" startline="192">CIccMultiProcessElement::m_nOutputChannels</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+        <references refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" compoundref="d6/d2d/a00047" startline="5456" endline="5467">CIccMpeCLUT::SetCLUT</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccMpeCLUT::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccMpeCLUT::Read</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1a8efa1237ede305a68372dfac8a3279e7">Read</reimplements>
+        <reimplementedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2">Read</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" kindref="member">CIccMpeCLUT::Read</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="669" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5496" bodyend="5558"/>
+        <references refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT::CIccCLUT</references>
+        <references refid="d8/d02/a01149_1aa42861bdf83a889cb2bb7dc8940ba325" compoundref="da/d24/a00068" startline="347" endline="347">CIccCLUT::GetData</references>
+        <references refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">CIccCLUT::Init</references>
+        <references refid="dd/d43/a01193_1abeb5f5378b5c7427f5b5a8b5eb36b27c" compoundref="d7/d25/a00182" startline="191">CIccMultiProcessElement::m_nInputChannels</references>
+        <references refid="dd/d43/a01193_1a167a265e4bbb61fc48c2c5b3618b59df" compoundref="d7/d25/a00182" startline="192">CIccMultiProcessElement::m_nOutputChannels</references>
+        <references refid="dd/d43/a01193_1af2c0f93513ec8c5a0c54328e3d3d705c" compoundref="d7/d25/a00182" startline="188">CIccMultiProcessElement::m_nReserved</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+        <references refid="d6/d2d/a00047_1a4fd75d92017920ed8e2a390deb3980d8" compoundref="d6/d2d/a00047" startline="5353" endline="5356">NoClip</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">CIccCLUT::NumPoints</references>
+        <references refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">CIccIO::Read16</references>
+        <references refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">CIccIO::Read32</references>
+        <references refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" compoundref="df/d6a/a00119" startline="104" endline="104">CIccIO::Read8</references>
+        <references refid="dc/d2c/a00893_1a1399dc6dcf7aefe36b78ad96fc117d17" compoundref="d9/d2e/a00056" startline="302" endline="319">CIccIO::ReadFloat32Float</references>
+        <references refid="d8/d02/a01149_1a15ef6c2b5eec45d969f5fba28f8ce31f" compoundref="da/d24/a00068" startline="379" endline="379">CIccCLUT::SetClipFunc</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccMpeCLUT::SetCLUT</definition>
+        <argsstring>(CIccCLUT *pCLUT)</argsstring>
+        <name>SetCLUT</name>
+        <qualifiedname>CIccMpeCLUT::SetCLUT</qualifiedname>
+        <param>
+          <type><ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref> *</type>
+          <declname>pCLUT</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" kindref="member">CIccMpeCLUT::SetCLUT</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="679" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5456" bodyend="5467"/>
+        <references refid="d8/d02/a01149_1a0e017fe91f97b04ee7ac8d7ebdf69ee5" compoundref="da/d24/a00068" startline="356" endline="356">CIccCLUT::GetInputDim</references>
+        <references refid="d8/d02/a01149_1a11c1f0a6f3f878840eaed3e00d1ce74e" compoundref="da/d24/a00068" startline="357" endline="357">CIccCLUT::GetOutputChannels</references>
+        <references refid="dd/d43/a01193_1abeb5f5378b5c7427f5b5a8b5eb36b27c" compoundref="d7/d25/a00182" startline="191">CIccMultiProcessElement::m_nInputChannels</references>
+        <references refid="dd/d43/a01193_1a167a265e4bbb61fc48c2c5b3618b59df" compoundref="d7/d25/a00182" startline="192">CIccMultiProcessElement::m_nOutputChannels</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+        <references refid="d6/d2d/a00047_1a4fd75d92017920ed8e2a390deb3980d8" compoundref="d6/d2d/a00047" startline="5353" endline="5356">NoClip</references>
+        <references refid="d8/d02/a01149_1a15ef6c2b5eec45d969f5fba28f8ce31f" compoundref="da/d24/a00068" startline="379" endline="379">CIccCLUT::SetClipFunc</references>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+        <referencedby refid="da/d3e/a02025_1a12bdfaf73489d4043eaef10a429cff0a" compoundref="dd/dd7/a00260" startline="1887" endline="1905">ParseXml</referencedby>
+        <referencedby refid="d6/d19/a02029_1ad58a9eae57a40bbebbc8cfefe6f1e24f" compoundref="dd/dd7/a00260" startline="1927" endline="1948">CIccMpeXmlExtCLUT::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d3e/a02025_1a6be0a6ac589d3e7ef65dea4771847ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccMpeXmlCLUT::ToXml</definition>
+        <argsstring>(std::string &amp;xml, std::string blanks=&quot;&quot;)</argsstring>
+        <name>ToXml</name>
+        <qualifiedname>CIccMpeXmlCLUT::ToXml</qualifiedname>
+        <reimplements refid="d0/dc1/a01993_1aa4c60bf9aed85f83e0fd39c8171b2f16">ToXml</reimplements>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>blanks</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="188" column="16" bodyfile="IccXML/IccLibXML/IccMpeXml.cpp" bodystart="1873" bodyend="1885"/>
+        <references refid="d9/d39/a00257_1a8e60807f7d16227a24f22ad32623bf98" compoundref="d5/d35/a00266" startline="537" endline="557">icCLUTToXml</references>
+        <references refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a7b72d0077e286e2fd4a2113c00cd8663" compoundref="d7/d03/a00254" startline="70">icConvertFloat</references>
+        <references refid="dd/d43/a01193_1af2c0f93513ec8c5a0c54328e3d3d705c" compoundref="d7/d25/a00182" startline="188">CIccMultiProcessElement::m_nReserved</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+        <references refid="dd/d43/a01193_1a0e7393d937cb768d52265a7ebed2b3a9" compoundref="d7/d25/a00182" startline="159" endline="159">CIccMultiProcessElement::NumInputChannels</references>
+        <references refid="dd/d43/a01193_1a431d2d96c834f4f9b0674dafe8609ae1" compoundref="d7/d25/a00182" startline="160" endline="160">CIccMultiProcessElement::NumOutputChannels</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1a4a8c5f16731850aecf3645cbc911896f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccMpeCLUT::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccTagMultiProcessElement *pMPE=NULL, const CIccProfile *pProfile=NULL) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccMpeCLUT::Validate</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1afa9aa73acfa0a036a2b5ac1fca5c579b">Validate</reimplements>
+        <reimplementedby refid="d3/db2/a00869_1a7a19493e13e646ec0f9c2fc7957a69f4">Validate</reimplementedby>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dd5/a00861_1a4a8c5f16731850aecf3645cbc911896f" kindref="member">CIccMpeCLUT::Validate</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="676" column="28" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5708" bodyend="5724"/>
+        <references refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">CIccInfo::GetSigPathName</references>
+        <references refid="dd/dd5/a00861_1abbd18a47a15df339bb6703e9ff566835" compoundref="d2/de7/a00014" startline="664" endline="664">CIccMpeCLUT::GetType</references>
+        <references refid="d7/dce/a00143_1a727228588cfea91008a4adc62acbe471" compoundref="d5/db1/a00140" startline="1191" endline="1199">icGetSigPath</references>
+        <references refid="d7/dce/a00143_1aa1bd59040ac26f5314f409e295cf9162" compoundref="d5/db1/a00140" startline="92">icMsgValidateCriticalError</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a371bf9a02d77f4dd8f339b4f4fff51c3" compoundref="d4/d81/a00110" startline="122">icValidateCriticalError</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+        <references refid="dd/d43/a01193_1afa9aa73acfa0a036a2b5ac1fca5c579b" compoundref="dc/d87/a00032" startline="454" endline="469">CIccMultiProcessElement::Validate</references>
+        <referencedby refid="d3/db2/a00869_1a7a19493e13e646ec0f9c2fc7957a69f4" compoundref="d6/d2d/a00047" startline="6090" endline="6106">CIccMpeExtCLUT::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccMpeCLUT::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccMpeCLUT::Write</qualifiedname>
+        <reimplements refid="dd/d43/a01193_1a6cdc794c8ee66da7d499b01c6f3e2936">Write</reimplements>
+        <reimplementedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf">Write</reimplementedby>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" kindref="member">CIccMpeCLUT::Write</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="670" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="5570" bodyend="5607"/>
+        <references refid="d8/d02/a01149_1aa42861bdf83a889cb2bb7dc8940ba325" compoundref="da/d24/a00068" startline="347" endline="347">CIccCLUT::GetData</references>
+        <references refid="dd/dd5/a00861_1abbd18a47a15df339bb6703e9ff566835" compoundref="d2/de7/a00014" startline="664" endline="664">CIccMpeCLUT::GetType</references>
+        <references refid="d8/d02/a01149_1a9a0c0cde105baab7884f1c8f7dd55cdf" compoundref="da/d24/a00068" startline="350" endline="350">CIccCLUT::GridPoint</references>
+        <references refid="dd/d43/a01193_1abeb5f5378b5c7427f5b5a8b5eb36b27c" compoundref="d7/d25/a00182" startline="191">CIccMultiProcessElement::m_nInputChannels</references>
+        <references refid="dd/d43/a01193_1a167a265e4bbb61fc48c2c5b3618b59df" compoundref="d7/d25/a00182" startline="192">CIccMultiProcessElement::m_nOutputChannels</references>
+        <references refid="dd/d43/a01193_1af2c0f93513ec8c5a0c54328e3d3d705c" compoundref="d7/d25/a00182" startline="188">CIccMultiProcessElement::m_nReserved</references>
+        <references refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" compoundref="d2/de7/a00014" startline="682">CIccMpeCLUT::m_pCLUT</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">CIccCLUT::NumPoints</references>
+        <references refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" compoundref="d9/d2e/a00056" startline="122" endline="141">CIccIO::Write16</references>
+        <references refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" compoundref="d9/d2e/a00056" startline="152" endline="171">CIccIO::Write32</references>
+        <references refid="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" compoundref="df/d6a/a00119" startline="105" endline="105">CIccIO::Write8</references>
+        <references refid="dc/d2c/a00893_1a9f55b95a792f5aa4353739c49f8952ee" compoundref="d9/d2e/a00056" startline="321" endline="339">CIccIO::WriteFloat32Float</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dd/dd5/a00861_1ae661b3c3a3c8cad16a6cdf82574d6914" prot="protected" static="no" mutable="no">
+        <type><ref refid="d2/de7/a00014_1ab70f3504881a2ff333ee33c26790b392" kindref="member">icCLUTElemType</ref></type>
+        <definition>icCLUTElemType CIccMpeCLUT::m_interpType</definition>
+        <argsstring></argsstring>
+        <name>m_interpType</name>
+        <qualifiedname>CIccMpeCLUT::m_interpType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="683" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="683" bodyend="-1"/>
+        <referencedby refid="dd/dd5/a00861_1aee5574bca7eff032a9530c762674ff2a" compoundref="d6/d2d/a00047" startline="5368" endline="5375">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1acd8979e1efe510c753cf181acf90be25" compoundref="d6/d2d/a00047" startline="5387" endline="5398">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a2e607aed63f076ff4b520f56089944e8" compoundref="d6/d2d/a00047" startline="5619" endline="5653">CIccMpeCLUT::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d43/a01193_1abeb5f5378b5c7427f5b5a8b5eb36b27c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccMultiProcessElement::m_nInputChannels</definition>
+        <argsstring></argsstring>
+        <name>m_nInputChannels</name>
+        <qualifiedname>CIccMultiProcessElement::m_nInputChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="191" column="18" bodyfile="IccProfLib/IccTagMPE.h" bodystart="191" bodyend="-1"/>
+        <referencedby refid="d2/d1d/a01277_1af7c2a3b2011c0fc1fbbd83e669986768" compoundref="d1/d09/a00077" startline="350" endline="367">CIccMpeBAcs::CIccMpeBAcs</referencedby>
+        <referencedby refid="d2/d1d/a01277_1a39b4fbd850b88639f3104c722bc9595a" compoundref="d1/d09/a00077" startline="332" endline="338">CIccMpeBAcs::CIccMpeBAcs</referencedby>
+        <referencedby refid="df/db8/a01317_1afef6001883de149ccd8293c77600b880" compoundref="d9/d77/a00095" startline="4225" endline="4266">CIccMpeCalculator::CIccMpeCalculator</referencedby>
+        <referencedby refid="df/db8/a01317_1a94a4a358e9256cff903a5f530c6661e4" compoundref="d9/d77/a00095" startline="4201" endline="4213">CIccMpeCalculator::CIccMpeCalculator</referencedby>
+        <referencedby refid="d9/d22/a00873_1a5b1ac63b668136cd904859a1e24b9be1" compoundref="d6/d2d/a00047" startline="6109" endline="6115">CIccMpeCAM::CIccMpeCAM</referencedby>
+        <referencedby refid="dd/dd5/a00861_1aee5574bca7eff032a9530c762674ff2a" compoundref="d6/d2d/a00047" startline="5368" endline="5375">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1acd8979e1efe510c753cf181acf90be25" compoundref="d6/d2d/a00047" startline="5387" endline="5398">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="d5/dac/a00841_1a840b6727e8dd11d81f746176c7916520" compoundref="d6/d2d/a00047" startline="2995" endline="3023">CIccMpeCurveSet::CIccMpeCurveSet</referencedby>
+        <referencedby refid="d5/dac/a00841_1abbb7c2dbec3e482852ba53d2563070db" compoundref="d6/d2d/a00047" startline="2968" endline="2981">CIccMpeCurveSet::CIccMpeCurveSet</referencedby>
+        <referencedby refid="d5/d6f/a01281_1a3a75efee7b85c1545d9fe88d2cbeacf1" compoundref="d1/d09/a00077" startline="436" endline="448">CIccMpeEAcs::CIccMpeEAcs</referencedby>
+        <referencedby refid="d5/d6f/a01281_1adb6d59f4cc47a6e394ccdc6a9c73f0a2" compoundref="d1/d09/a00077" startline="418" endline="424">CIccMpeEAcs::CIccMpeEAcs</referencedby>
+        <referencedby refid="d3/db2/a00869_1a280da152b4a8a903be272757ec0755c8" compoundref="d6/d2d/a00047" startline="5793" endline="5803">CIccMpeExtCLUT::CIccMpeExtCLUT</referencedby>
+        <referencedby refid="d0/d82/a00857_1a9756e5b834a816d718bc0963d1063fdc" compoundref="d6/d2d/a00047" startline="4829" endline="4836">CIccMpeMatrix::CIccMpeMatrix</referencedby>
+        <referencedby refid="d0/d82/a00857_1a253d871ae38a36fd24251a91604f4af6" compoundref="d6/d2d/a00047" startline="4849" endline="4874">CIccMpeMatrix::CIccMpeMatrix</referencedby>
+        <referencedby refid="d4/d41/a01661_1a17fa6905b32e47201cf5d70a9f7b5b12" compoundref="d5/de9/a00176" startline="795" endline="812">CIccMpeSpectralCLUT::CIccMpeSpectralCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1a1c0279ebcaf5a3bd806198bd0b00f914" compoundref="d5/de9/a00176" startline="824" endline="850">CIccMpeSpectralCLUT::CIccMpeSpectralCLUT</referencedby>
+        <referencedby refid="dc/d87/a01649_1a5d3b43ac6ce42dad2065522c65c15f21" compoundref="d5/de9/a00176" startline="101" endline="116">CIccMpeSpectralMatrix::CIccMpeSpectralMatrix</referencedby>
+        <referencedby refid="dc/d87/a01649_1aa78f442cb3a9d2aff3bdac43961cf18a" compoundref="d5/de9/a00176" startline="129" endline="165">CIccMpeSpectralMatrix::CIccMpeSpectralMatrix</referencedby>
+        <referencedby refid="d2/d44/a01677_1a3f44315a0c9c4dbf5a957915d4716a95" compoundref="d5/de9/a00176" startline="1658" endline="1669">CIccMpeSpectralObserver::CIccMpeSpectralObserver</referencedby>
+        <referencedby refid="d2/d44/a01677_1a72138789b18dfd5fc3e527fbd592f74d" compoundref="d5/de9/a00176" startline="1682" endline="1700">CIccMpeSpectralObserver::CIccMpeSpectralObserver</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a65468661591beaa13e7a49bde8988078" compoundref="d6/d2d/a00047" startline="3521" endline="3531">CIccMpeTintArray::CIccMpeTintArray</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a6af9bf069e7b2fc7f27c209ca52acd35" compoundref="d6/d2d/a00047" startline="3501" endline="3507">CIccMpeTintArray::CIccMpeTintArray</referencedby>
+        <referencedby refid="db/deb/a00853_1a715cc9fc823f56c5154684731ff3be2b" compoundref="d6/d2d/a00047" startline="4154" endline="4169">CIccMpeToneMap::CIccMpeToneMap</referencedby>
+        <referencedby refid="db/deb/a00853_1a53487f9c7597ff35ded7e7805205eec3" compoundref="d6/d2d/a00047" startline="4132" endline="4142">CIccMpeToneMap::CIccMpeToneMap</referencedby>
+        <referencedby refid="dd/d43/a01193_1a6de4446424a4992090822a7cb5260265" compoundref="d7/d25/a00182" startline="148" endline="148">CIccMultiProcessElement::CIccMultiProcessElement</referencedby>
+        <referencedby refid="de/d85/a01273_1a96eb3324ed330c47af00f1aa93f19f5a" compoundref="d1/d09/a00077" startline="271" endline="274">CIccMpeAcs::Apply</referencedby>
+        <referencedby refid="d5/dac/a00841_1ac71a819e48bf17d62f64b202573a2cd0" compoundref="d6/d2d/a00047" startline="3440" endline="3446">CIccMpeCurveSet::Apply</referencedby>
+        <referencedby refid="d0/d82/a00857_1ab6611077dd0b66e3b50c9f31bee79f9e" compoundref="d6/d2d/a00047" startline="5217" endline="5322">CIccMpeMatrix::Apply</referencedby>
+        <referencedby refid="de/d85/a01273_1a487e9e780db84ebf2670ece2c6bc7e21" compoundref="d1/d09/a00077" startline="253" endline="259">CIccMpeAcs::Begin</referencedby>
+        <referencedby refid="d5/dac/a00841_1a3cc2b66131f27f80a1247d7012bd0359" compoundref="d6/d2d/a00047" startline="3406" endline="3428">CIccMpeCurveSet::Begin</referencedby>
+        <referencedby refid="d0/d82/a00857_1a6e45463a693a93771269d03b6c5ccd53" compoundref="d6/d2d/a00047" startline="5180" endline="5205">CIccMpeMatrix::Begin</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a2e607aed63f076ff4b520f56089944e8" compoundref="d6/d2d/a00047" startline="5619" endline="5653">CIccMpeCLUT::Begin</referencedby>
+        <referencedby refid="d1/d03/a01653_1aa53d573cedfbcea2d2ac8287b01ec032" compoundref="d5/de9/a00176" startline="595" endline="639">CIccMpeEmissionMatrix::Begin</referencedby>
+        <referencedby refid="d3/d21/a01657_1ad1511fd222849d2cfa8e097df20b2442" compoundref="d5/de9/a00176" startline="677" endline="722">CIccMpeInvEmissionMatrix::Begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="df/d5a/a01681_1a2a15f4b7818494a70c2934cf882a3b53" compoundref="d5/de9/a00176" startline="2044" endline="2072">CIccMpeEmissionObserver::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+        <referencedby refid="d4/d41/a01661_1afdad40cbb945132cce5df3a75dc43ce3" compoundref="d5/de9/a00176" startline="862" endline="897">CIccMpeSpectralCLUT::copyData</referencedby>
+        <referencedby refid="dc/d87/a01649_1a751c03dc196929406a88199e0b20c7f9" compoundref="d5/de9/a00176" startline="177" endline="222">CIccMpeSpectralMatrix::copyData</referencedby>
+        <referencedby refid="d2/d44/a01677_1a3839b17412a677b2aea7e79515c43e2f" compoundref="d5/de9/a00176" startline="1712" endline="1733">CIccMpeSpectralObserver::copyData</referencedby>
+        <referencedby refid="d5/dac/a00841_1a6d20cf17538eb4b88f380269d49b4c5f" compoundref="d6/d2d/a00047" startline="3187" endline="3205">CIccMpeCurveSet::Describe</referencedby>
+        <referencedby refid="d0/d82/a00857_1af62565d63b0f5b95b30e47921b39c540" compoundref="d6/d2d/a00047" startline="4992" endline="5021">CIccMpeMatrix::Describe</referencedby>
+        <referencedby refid="df/db8/a01317_1a7afd3e680abb8c914f51da8746145738" compoundref="d9/d77/a00095" startline="4430" endline="4459">CIccMpeCalculator::Describe</referencedby>
+        <referencedby refid="dc/d87/a01649_1a1300d426763de2b77ac9094bb705373f" compoundref="d5/de9/a00176" startline="310" endline="356">CIccMpeSpectralMatrix::Describe</referencedby>
+        <referencedby refid="d2/d44/a01677_1ae33c6fde8d44b2f732a67296aa23152e" compoundref="d5/de9/a00176" startline="1799" endline="1821">CIccMpeSpectralObserver::Describe</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="dd/d43/a01193_1a0e7393d937cb768d52265a7ebed2b3a9" compoundref="d7/d25/a00182" startline="159" endline="159">CIccMultiProcessElement::NumInputChannels</referencedby>
+        <referencedby refid="d1/d03/a01653_1aded030b7c8ef69ac7c077fd8586e9b7d" compoundref="d3/de5/a00209" startline="164" endline="164">CIccMpeEmissionMatrix::numVectors</referencedby>
+        <referencedby refid="d2/d1d/a01277_1ac32974b0a8df1a31e8bcf2aa8c6299b7" compoundref="d1/d09/a00077" startline="379" endline="392">CIccMpeBAcs::operator=</referencedby>
+        <referencedby refid="df/db8/a01317_1ad8378d67b67eb04ef201e03a0ff7e757" compoundref="d9/d77/a00095" startline="4278" endline="4317">CIccMpeCalculator::operator=</referencedby>
+        <referencedby refid="dd/dd5/a00861_1af54facf1bb77e97126f3fcf41d30ed2f" compoundref="d6/d2d/a00047" startline="5410" endline="5428">CIccMpeCLUT::operator=</referencedby>
+        <referencedby refid="d5/dac/a00841_1a8a607a291342bdba8708ee6d760878f8" compoundref="d6/d2d/a00047" startline="3035" endline="3069">CIccMpeCurveSet::operator=</referencedby>
+        <referencedby refid="d5/d6f/a01281_1af1df5101a4a16bf51fb2e5d2af0044bd" compoundref="d1/d09/a00077" startline="460" endline="473">CIccMpeEAcs::operator=</referencedby>
+        <referencedby refid="d0/d82/a00857_1a6cd6338e6cbf1ce6268a2d382f5d1a40" compoundref="d6/d2d/a00047" startline="4886" endline="4919">CIccMpeMatrix::operator=</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a97ca457e4abf9d6a818b33a7e9d1b144" compoundref="d6/d2d/a00047" startline="3543" endline="3558">CIccMpeTintArray::operator=</referencedby>
+        <referencedby refid="db/deb/a00853_1ad52ac5255a70e6af7280eb0f218d531c" compoundref="d6/d2d/a00047" startline="4181" endline="4208">CIccMpeToneMap::operator=</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+        <referencedby refid="d0/dfd/a02017_1a37d0e2cd5456b14801f72b2181ccb94a" compoundref="dd/dd7/a00260" startline="1782" endline="1869">CIccMpeXmlToneMap::ParseXml</referencedby>
+        <referencedby refid="d8/d45/a02021_1a1548b3217cbe964eab8e5bfff32af85b" compoundref="dd/dd7/a00260" startline="1236" endline="1278">CIccMpeXmlMatrix::ParseXml</referencedby>
+        <referencedby refid="da/d3e/a02025_1a12bdfaf73489d4043eaef10a429cff0a" compoundref="dd/dd7/a00260" startline="1887" endline="1905">ParseXml</referencedby>
+        <referencedby refid="d6/d19/a02029_1ad58a9eae57a40bbebbc8cfefe6f1e24f" compoundref="dd/dd7/a00260" startline="1927" endline="1948">CIccMpeXmlExtCLUT::ParseXml</referencedby>
+        <referencedby refid="d6/d94/a02033_1a0accb98f250503e091797235b89e06c1" compoundref="dd/dd7/a00260" startline="1981" endline="2003">CIccMpeXmlBAcs::ParseXml</referencedby>
+        <referencedby refid="dd/dfc/a02037_1a42deed0c1855bd1cbfa3c9a8ebc160e6" compoundref="dd/dd7/a00260" startline="2035" endline="2057">CIccMpeXmlEAcs::ParseXml</referencedby>
+        <referencedby refid="d3/dea/a02041_1a80da7cd38a9645ba1a22a5b81e92af16" compoundref="dd/dd7/a00260" startline="2184" endline="2211">CIccMpeXmlJabToXYZ::ParseXml</referencedby>
+        <referencedby refid="d7/d13/a02045_1a93de44beabef1e61b64a1bed175b28e2" compoundref="dd/dd7/a00260" startline="2235" endline="2262">CIccMpeXmlXYZToJab::ParseXml</referencedby>
+        <referencedby refid="d8/de6/a02061_1aa49fb555bcc2fe5e5377f7d608368b94" compoundref="dd/dd7/a00260" startline="3080" endline="3177">CIccMpeXmlCalculator::ParseXml</referencedby>
+        <referencedby refid="de/df8/a02073_1aa5d45fb5b70d1e4895c876400c2ea344" compoundref="dd/dd7/a00260" startline="3221" endline="3291">CIccMpeXmlEmissionCLUT::ParseXml</referencedby>
+        <referencedby refid="db/dac/a02077_1a96cc9696018abfed330d18170568536b" compoundref="dd/dd7/a00260" startline="3334" endline="3404">CIccMpeXmlReflectanceCLUT::ParseXml</referencedby>
+        <referencedby refid="de/d85/a01273_1a955fdb5b73893fa9cb416f22a1c1fc90" compoundref="d1/d09/a00077" startline="158" endline="201">CIccMpeAcs::Read</referencedby>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+        <referencedby refid="d0/d82/a00857_1ab15bd5e24165fb2b5a9f89031b241319" compoundref="d6/d2d/a00047" startline="5033" endline="5116">CIccMpeMatrix::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" compoundref="d6/d2d/a00047" startline="5456" endline="5467">CIccMpeCLUT::SetCLUT</referencedby>
+        <referencedby refid="d5/dac/a00841_1aa48a840e618570c5dab5535288fe85a6" compoundref="d6/d2d/a00047" startline="3152" endline="3174">CIccMpeCurveSet::SetCurve</referencedby>
+        <referencedby refid="d4/d41/a01661_1ab246a25f23eb9d6204685bfcfaa82375" compoundref="d5/de9/a00176" startline="932" endline="959">CIccMpeSpectralCLUT::SetData</referencedby>
+        <referencedby refid="df/db8/a01317_1a4094eb452594bf0f4901ffb3de71ad6e" compoundref="d9/d77/a00095" startline="4344" endline="4364">CIccMpeCalculator::SetSize</referencedby>
+        <referencedby refid="d0/d82/a00857_1aa7b2a7454eb559f5b0c39e619f028db2" compoundref="d6/d2d/a00047" startline="4950" endline="4980">CIccMpeMatrix::SetSize</referencedby>
+        <referencedby refid="dc/d87/a01649_1aff8702f84594301a41edc12c905ce9c8" compoundref="d5/de9/a00176" startline="260" endline="298">CIccMpeSpectralMatrix::SetSize</referencedby>
+        <referencedby refid="d2/d44/a01677_1a96beba055b9f60faa86a30220bd22959" compoundref="d5/de9/a00176" startline="1765" endline="1787">CIccMpeSpectralObserver::SetSize</referencedby>
+        <referencedby refid="d5/dac/a00841_1a5a96ee289523de2553ad603286b0d4a6" compoundref="d6/d2d/a00047" startline="3096" endline="3140">CIccMpeCurveSet::SetSize</referencedby>
+        <referencedby refid="d5/dac/a00841_1ad1a688c856f5084e658edd04e557d9f7" compoundref="d6/d2d/a00047" startline="3458" endline="3489">CIccMpeCurveSet::Validate</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a553846a76ebe4dd5dad3dc7e1d74da68" compoundref="d6/d2d/a00047" startline="3802" endline="3871">CIccMpeTintArray::Validate</referencedby>
+        <referencedby refid="db/deb/a00853_1ae79f8597b22451368bd65c9e79b74920" compoundref="d6/d2d/a00047" startline="4737" endline="4815">CIccMpeToneMap::Validate</referencedby>
+        <referencedby refid="d9/d22/a00873_1aa9d936e533fa1763e2966c9768d58fea" compoundref="d6/d2d/a00047" startline="6263" endline="6284">CIccMpeCAM::Validate</referencedby>
+        <referencedby refid="d3/d21/a01657_1a80d89644684be6e9bb9f19e5044ec79b" compoundref="d5/de9/a00176" startline="760" endline="776">CIccMpeInvEmissionMatrix::Validate</referencedby>
+        <referencedby refid="de/d85/a01273_1a922718dde543a4adc575913f8b5e8cc9" compoundref="d1/d09/a00077" startline="213" endline="241">CIccMpeAcs::Write</referencedby>
+        <referencedby refid="d5/dac/a00841_1a7b15db55a9cf1e0bc6866e549f60abab" compoundref="d6/d2d/a00047" startline="3328" endline="3394">CIccMpeCurveSet::Write</referencedby>
+        <referencedby refid="d7/dcf/a00845_1ae44de3de19b91513bcc3b56812dc09eb" compoundref="d6/d2d/a00047" startline="3725" endline="3748">CIccMpeTintArray::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+        <referencedby refid="d0/d82/a00857_1a80348298f549ace16fa208e21a23cf42" compoundref="d6/d2d/a00047" startline="5128" endline="5168">CIccMpeMatrix::Write</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+        <referencedby refid="dc/d87/a01649_1af8262cb3a442bff7f5b447bd2648a19a" compoundref="d5/de9/a00176" startline="454" endline="505">CIccMpeSpectralMatrix::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d2/d44/a01677_1a2018b46d43b5ff7da4b1475349fee809" compoundref="d5/de9/a00176" startline="1906" endline="1946">CIccMpeSpectralObserver::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d43/a01193_1a167a265e4bbb61fc48c2c5b3618b59df" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccMultiProcessElement::m_nOutputChannels</definition>
+        <argsstring></argsstring>
+        <name>m_nOutputChannels</name>
+        <qualifiedname>CIccMultiProcessElement::m_nOutputChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="192" column="18" bodyfile="IccProfLib/IccTagMPE.h" bodystart="192" bodyend="-1"/>
+        <referencedby refid="d2/d1d/a01277_1af7c2a3b2011c0fc1fbbd83e669986768" compoundref="d1/d09/a00077" startline="350" endline="367">CIccMpeBAcs::CIccMpeBAcs</referencedby>
+        <referencedby refid="d2/d1d/a01277_1a39b4fbd850b88639f3104c722bc9595a" compoundref="d1/d09/a00077" startline="332" endline="338">CIccMpeBAcs::CIccMpeBAcs</referencedby>
+        <referencedby refid="df/db8/a01317_1afef6001883de149ccd8293c77600b880" compoundref="d9/d77/a00095" startline="4225" endline="4266">CIccMpeCalculator::CIccMpeCalculator</referencedby>
+        <referencedby refid="df/db8/a01317_1a94a4a358e9256cff903a5f530c6661e4" compoundref="d9/d77/a00095" startline="4201" endline="4213">CIccMpeCalculator::CIccMpeCalculator</referencedby>
+        <referencedby refid="d9/d22/a00873_1a5b1ac63b668136cd904859a1e24b9be1" compoundref="d6/d2d/a00047" startline="6109" endline="6115">CIccMpeCAM::CIccMpeCAM</referencedby>
+        <referencedby refid="dd/dd5/a00861_1aee5574bca7eff032a9530c762674ff2a" compoundref="d6/d2d/a00047" startline="5368" endline="5375">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1acd8979e1efe510c753cf181acf90be25" compoundref="d6/d2d/a00047" startline="5387" endline="5398">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="d5/dac/a00841_1a840b6727e8dd11d81f746176c7916520" compoundref="d6/d2d/a00047" startline="2995" endline="3023">CIccMpeCurveSet::CIccMpeCurveSet</referencedby>
+        <referencedby refid="d5/dac/a00841_1abbb7c2dbec3e482852ba53d2563070db" compoundref="d6/d2d/a00047" startline="2968" endline="2981">CIccMpeCurveSet::CIccMpeCurveSet</referencedby>
+        <referencedby refid="d5/d6f/a01281_1a3a75efee7b85c1545d9fe88d2cbeacf1" compoundref="d1/d09/a00077" startline="436" endline="448">CIccMpeEAcs::CIccMpeEAcs</referencedby>
+        <referencedby refid="d5/d6f/a01281_1adb6d59f4cc47a6e394ccdc6a9c73f0a2" compoundref="d1/d09/a00077" startline="418" endline="424">CIccMpeEAcs::CIccMpeEAcs</referencedby>
+        <referencedby refid="d3/db2/a00869_1a280da152b4a8a903be272757ec0755c8" compoundref="d6/d2d/a00047" startline="5793" endline="5803">CIccMpeExtCLUT::CIccMpeExtCLUT</referencedby>
+        <referencedby refid="d0/d82/a00857_1a9756e5b834a816d718bc0963d1063fdc" compoundref="d6/d2d/a00047" startline="4829" endline="4836">CIccMpeMatrix::CIccMpeMatrix</referencedby>
+        <referencedby refid="d0/d82/a00857_1a253d871ae38a36fd24251a91604f4af6" compoundref="d6/d2d/a00047" startline="4849" endline="4874">CIccMpeMatrix::CIccMpeMatrix</referencedby>
+        <referencedby refid="d4/d41/a01661_1a17fa6905b32e47201cf5d70a9f7b5b12" compoundref="d5/de9/a00176" startline="795" endline="812">CIccMpeSpectralCLUT::CIccMpeSpectralCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1a1c0279ebcaf5a3bd806198bd0b00f914" compoundref="d5/de9/a00176" startline="824" endline="850">CIccMpeSpectralCLUT::CIccMpeSpectralCLUT</referencedby>
+        <referencedby refid="dc/d87/a01649_1a5d3b43ac6ce42dad2065522c65c15f21" compoundref="d5/de9/a00176" startline="101" endline="116">CIccMpeSpectralMatrix::CIccMpeSpectralMatrix</referencedby>
+        <referencedby refid="dc/d87/a01649_1aa78f442cb3a9d2aff3bdac43961cf18a" compoundref="d5/de9/a00176" startline="129" endline="165">CIccMpeSpectralMatrix::CIccMpeSpectralMatrix</referencedby>
+        <referencedby refid="d2/d44/a01677_1a3f44315a0c9c4dbf5a957915d4716a95" compoundref="d5/de9/a00176" startline="1658" endline="1669">CIccMpeSpectralObserver::CIccMpeSpectralObserver</referencedby>
+        <referencedby refid="d2/d44/a01677_1a72138789b18dfd5fc3e527fbd592f74d" compoundref="d5/de9/a00176" startline="1682" endline="1700">CIccMpeSpectralObserver::CIccMpeSpectralObserver</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a65468661591beaa13e7a49bde8988078" compoundref="d6/d2d/a00047" startline="3521" endline="3531">CIccMpeTintArray::CIccMpeTintArray</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a6af9bf069e7b2fc7f27c209ca52acd35" compoundref="d6/d2d/a00047" startline="3501" endline="3507">CIccMpeTintArray::CIccMpeTintArray</referencedby>
+        <referencedby refid="db/deb/a00853_1a715cc9fc823f56c5154684731ff3be2b" compoundref="d6/d2d/a00047" startline="4154" endline="4169">CIccMpeToneMap::CIccMpeToneMap</referencedby>
+        <referencedby refid="db/deb/a00853_1a53487f9c7597ff35ded7e7805205eec3" compoundref="d6/d2d/a00047" startline="4132" endline="4142">CIccMpeToneMap::CIccMpeToneMap</referencedby>
+        <referencedby refid="dd/d43/a01193_1a6de4446424a4992090822a7cb5260265" compoundref="d7/d25/a00182" startline="148" endline="148">CIccMultiProcessElement::CIccMultiProcessElement</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a71f50fcb54e6ab7f9a806f72529b788e" compoundref="d6/d2d/a00047" startline="3783" endline="3790">CIccMpeTintArray::Apply</referencedby>
+        <referencedby refid="db/deb/a00853_1a6258ff9a42f36ab16bb01c8b3bfb051f" compoundref="d6/d2d/a00047" startline="4719" endline="4725">CIccMpeToneMap::Apply</referencedby>
+        <referencedby refid="d0/d82/a00857_1ab6611077dd0b66e3b50c9f31bee79f9e" compoundref="d6/d2d/a00047" startline="5217" endline="5322">CIccMpeMatrix::Apply</referencedby>
+        <referencedby refid="de/d85/a01273_1a487e9e780db84ebf2670ece2c6bc7e21" compoundref="d1/d09/a00077" startline="253" endline="259">CIccMpeAcs::Begin</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a9d5a042058dfd8ead530d1337d2149f0" compoundref="d6/d2d/a00047" startline="3760" endline="3771">CIccMpeTintArray::Begin</referencedby>
+        <referencedby refid="db/deb/a00853_1a02818167a037d49841c5f80ccc23ea44" compoundref="d6/d2d/a00047" startline="4686" endline="4706">CIccMpeToneMap::Begin</referencedby>
+        <referencedby refid="d0/d82/a00857_1a6e45463a693a93771269d03b6c5ccd53" compoundref="d6/d2d/a00047" startline="5180" endline="5205">CIccMpeMatrix::Begin</referencedby>
+        <referencedby refid="d1/d03/a01653_1aa53d573cedfbcea2d2ac8287b01ec032" compoundref="d5/de9/a00176" startline="595" endline="639">CIccMpeEmissionMatrix::Begin</referencedby>
+        <referencedby refid="d3/d21/a01657_1ad1511fd222849d2cfa8e097df20b2442" compoundref="d5/de9/a00176" startline="677" endline="722">CIccMpeInvEmissionMatrix::Begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="df/d5a/a01681_1a2a15f4b7818494a70c2934cf882a3b53" compoundref="d5/de9/a00176" startline="2044" endline="2072">CIccMpeEmissionObserver::Begin</referencedby>
+        <referencedby refid="de/d96/a01685_1a0977ae62db1106929eb3587a682f35e6" compoundref="d5/de9/a00176" startline="2085" endline="2139">CIccMpeReflectanceObserver::Begin</referencedby>
+        <referencedby refid="db/deb/a00853_1a76f0ce01e91a5272bee7f5cd4dd25a76" compoundref="d6/d2d/a00047" startline="4274" endline="4295">CIccMpeToneMap::ClearToneFuncs</referencedby>
+        <referencedby refid="d4/d41/a01661_1afdad40cbb945132cce5df3a75dc43ce3" compoundref="d5/de9/a00176" startline="862" endline="897">CIccMpeSpectralCLUT::copyData</referencedby>
+        <referencedby refid="dc/d87/a01649_1a751c03dc196929406a88199e0b20c7f9" compoundref="d5/de9/a00176" startline="177" endline="222">CIccMpeSpectralMatrix::copyData</referencedby>
+        <referencedby refid="d2/d44/a01677_1a3839b17412a677b2aea7e79515c43e2f" compoundref="d5/de9/a00176" startline="1712" endline="1733">CIccMpeSpectralObserver::copyData</referencedby>
+        <referencedby refid="db/deb/a00853_1ad135bbac66f06cf2c39de1e7b92af054" compoundref="d6/d2d/a00047" startline="4238" endline="4261">CIccMpeToneMap::CopyToneFuncs</referencedby>
+        <referencedby refid="d0/d82/a00857_1af62565d63b0f5b95b30e47921b39c540" compoundref="d6/d2d/a00047" startline="4992" endline="5021">CIccMpeMatrix::Describe</referencedby>
+        <referencedby refid="df/db8/a01317_1a7afd3e680abb8c914f51da8746145738" compoundref="d9/d77/a00095" startline="4430" endline="4459">CIccMpeCalculator::Describe</referencedby>
+        <referencedby refid="dc/d87/a01649_1a1300d426763de2b77ac9094bb705373f" compoundref="d5/de9/a00176" startline="310" endline="356">CIccMpeSpectralMatrix::Describe</referencedby>
+        <referencedby refid="d2/d44/a01677_1ae33c6fde8d44b2f732a67296aa23152e" compoundref="d5/de9/a00176" startline="1799" endline="1821">CIccMpeSpectralObserver::Describe</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a9956575349b08c9b0c7f6fc258d04f74" compoundref="d6/d2d/a00047" startline="3620" endline="3632">CIccMpeTintArray::Describe</referencedby>
+        <referencedby refid="db/deb/a00853_1ae960c0f90396fcdd228c28128f9f583e" compoundref="d6/d2d/a00047" startline="4371" endline="4393">CIccMpeToneMap::Describe</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="db/deb/a00853_1aa47bbfff0c543e80506d5f52120dfa48" compoundref="d6/d2d/a00047" startline="4350" endline="4358">CIccMpeToneMap::Insert</referencedby>
+        <referencedby refid="dd/d43/a01193_1a431d2d96c834f4f9b0674dafe8609ae1" compoundref="d7/d25/a00182" startline="160" endline="160">CIccMultiProcessElement::NumOutputChannels</referencedby>
+        <referencedby refid="d3/d21/a01657_1a3185f2c7cdf2dfdecbcac6fa5a0035e6" compoundref="d3/de5/a00209" startline="193" endline="193">CIccMpeInvEmissionMatrix::numVectors</referencedby>
+        <referencedby refid="d2/d1d/a01277_1ac32974b0a8df1a31e8bcf2aa8c6299b7" compoundref="d1/d09/a00077" startline="379" endline="392">CIccMpeBAcs::operator=</referencedby>
+        <referencedby refid="df/db8/a01317_1ad8378d67b67eb04ef201e03a0ff7e757" compoundref="d9/d77/a00095" startline="4278" endline="4317">CIccMpeCalculator::operator=</referencedby>
+        <referencedby refid="dd/dd5/a00861_1af54facf1bb77e97126f3fcf41d30ed2f" compoundref="d6/d2d/a00047" startline="5410" endline="5428">CIccMpeCLUT::operator=</referencedby>
+        <referencedby refid="d5/dac/a00841_1a8a607a291342bdba8708ee6d760878f8" compoundref="d6/d2d/a00047" startline="3035" endline="3069">CIccMpeCurveSet::operator=</referencedby>
+        <referencedby refid="d5/d6f/a01281_1af1df5101a4a16bf51fb2e5d2af0044bd" compoundref="d1/d09/a00077" startline="460" endline="473">CIccMpeEAcs::operator=</referencedby>
+        <referencedby refid="d0/d82/a00857_1a6cd6338e6cbf1ce6268a2d382f5d1a40" compoundref="d6/d2d/a00047" startline="4886" endline="4919">CIccMpeMatrix::operator=</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a97ca457e4abf9d6a818b33a7e9d1b144" compoundref="d6/d2d/a00047" startline="3543" endline="3558">CIccMpeTintArray::operator=</referencedby>
+        <referencedby refid="db/deb/a00853_1ad52ac5255a70e6af7280eb0f218d531c" compoundref="d6/d2d/a00047" startline="4181" endline="4208">CIccMpeToneMap::operator=</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+        <referencedby refid="d0/dfd/a02017_1a37d0e2cd5456b14801f72b2181ccb94a" compoundref="dd/dd7/a00260" startline="1782" endline="1869">CIccMpeXmlToneMap::ParseXml</referencedby>
+        <referencedby refid="d8/d45/a02021_1a1548b3217cbe964eab8e5bfff32af85b" compoundref="dd/dd7/a00260" startline="1236" endline="1278">CIccMpeXmlMatrix::ParseXml</referencedby>
+        <referencedby refid="da/d3e/a02025_1a12bdfaf73489d4043eaef10a429cff0a" compoundref="dd/dd7/a00260" startline="1887" endline="1905">ParseXml</referencedby>
+        <referencedby refid="d6/d19/a02029_1ad58a9eae57a40bbebbc8cfefe6f1e24f" compoundref="dd/dd7/a00260" startline="1927" endline="1948">CIccMpeXmlExtCLUT::ParseXml</referencedby>
+        <referencedby refid="d6/d94/a02033_1a0accb98f250503e091797235b89e06c1" compoundref="dd/dd7/a00260" startline="1981" endline="2003">CIccMpeXmlBAcs::ParseXml</referencedby>
+        <referencedby refid="dd/dfc/a02037_1a42deed0c1855bd1cbfa3c9a8ebc160e6" compoundref="dd/dd7/a00260" startline="2035" endline="2057">CIccMpeXmlEAcs::ParseXml</referencedby>
+        <referencedby refid="d3/dea/a02041_1a80da7cd38a9645ba1a22a5b81e92af16" compoundref="dd/dd7/a00260" startline="2184" endline="2211">CIccMpeXmlJabToXYZ::ParseXml</referencedby>
+        <referencedby refid="d7/d13/a02045_1a93de44beabef1e61b64a1bed175b28e2" compoundref="dd/dd7/a00260" startline="2235" endline="2262">CIccMpeXmlXYZToJab::ParseXml</referencedby>
+        <referencedby refid="d8/de6/a02061_1aa49fb555bcc2fe5e5377f7d608368b94" compoundref="dd/dd7/a00260" startline="3080" endline="3177">CIccMpeXmlCalculator::ParseXml</referencedby>
+        <referencedby refid="de/df8/a02073_1aa5d45fb5b70d1e4895c876400c2ea344" compoundref="dd/dd7/a00260" startline="3221" endline="3291">CIccMpeXmlEmissionCLUT::ParseXml</referencedby>
+        <referencedby refid="db/dac/a02077_1a96cc9696018abfed330d18170568536b" compoundref="dd/dd7/a00260" startline="3334" endline="3404">CIccMpeXmlReflectanceCLUT::ParseXml</referencedby>
+        <referencedby refid="de/d85/a01273_1a955fdb5b73893fa9cb416f22a1c1fc90" compoundref="d1/d09/a00077" startline="158" endline="201">CIccMpeAcs::Read</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+        <referencedby refid="d0/d82/a00857_1ab15bd5e24165fb2b5a9f89031b241319" compoundref="d6/d2d/a00047" startline="5033" endline="5116">CIccMpeMatrix::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" compoundref="d6/d2d/a00047" startline="5456" endline="5467">CIccMpeCLUT::SetCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1ab246a25f23eb9d6204685bfcfaa82375" compoundref="d5/de9/a00176" startline="932" endline="959">CIccMpeSpectralCLUT::SetData</referencedby>
+        <referencedby refid="db/deb/a00853_1a87d8e592fbe0dfe456d3050260d49735" compoundref="d6/d2d/a00047" startline="4329" endline="4337">CIccMpeToneMap::SetNumOutputChannels</referencedby>
+        <referencedby refid="df/db8/a01317_1a4094eb452594bf0f4901ffb3de71ad6e" compoundref="d9/d77/a00095" startline="4344" endline="4364">CIccMpeCalculator::SetSize</referencedby>
+        <referencedby refid="d0/d82/a00857_1aa7b2a7454eb559f5b0c39e619f028db2" compoundref="d6/d2d/a00047" startline="4950" endline="4980">CIccMpeMatrix::SetSize</referencedby>
+        <referencedby refid="dc/d87/a01649_1aff8702f84594301a41edc12c905ce9c8" compoundref="d5/de9/a00176" startline="260" endline="298">CIccMpeSpectralMatrix::SetSize</referencedby>
+        <referencedby refid="d2/d44/a01677_1a96beba055b9f60faa86a30220bd22959" compoundref="d5/de9/a00176" startline="1765" endline="1787">CIccMpeSpectralObserver::SetSize</referencedby>
+        <referencedby refid="d5/dac/a00841_1a5a96ee289523de2553ad603286b0d4a6" compoundref="d6/d2d/a00047" startline="3096" endline="3140">CIccMpeCurveSet::SetSize</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a0418aef89a89683aa04d7497d2349c61" compoundref="d6/d2d/a00047" startline="3586" endline="3589">CIccMpeTintArray::SetVectorSize</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a553846a76ebe4dd5dad3dc7e1d74da68" compoundref="d6/d2d/a00047" startline="3802" endline="3871">CIccMpeTintArray::Validate</referencedby>
+        <referencedby refid="db/deb/a00853_1ae79f8597b22451368bd65c9e79b74920" compoundref="d6/d2d/a00047" startline="4737" endline="4815">CIccMpeToneMap::Validate</referencedby>
+        <referencedby refid="d9/d22/a00873_1aa9d936e533fa1763e2966c9768d58fea" compoundref="d6/d2d/a00047" startline="6263" endline="6284">CIccMpeCAM::Validate</referencedby>
+        <referencedby refid="dc/d87/a01649_1aed818d6ee6320ec44db8056c76e57205" compoundref="d5/de9/a00176" startline="517" endline="583">CIccMpeSpectralMatrix::Validate</referencedby>
+        <referencedby refid="d2/d44/a01677_1ab05e40d048c944ddebc62b936764cf13" compoundref="d5/de9/a00176" startline="1984" endline="2031">CIccMpeSpectralObserver::Validate</referencedby>
+        <referencedby refid="de/d85/a01273_1a922718dde543a4adc575913f8b5e8cc9" compoundref="d1/d09/a00077" startline="213" endline="241">CIccMpeAcs::Write</referencedby>
+        <referencedby refid="d7/dcf/a00845_1ae44de3de19b91513bcc3b56812dc09eb" compoundref="d6/d2d/a00047" startline="3725" endline="3748">CIccMpeTintArray::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+        <referencedby refid="d0/d82/a00857_1a80348298f549ace16fa208e21a23cf42" compoundref="d6/d2d/a00047" startline="5128" endline="5168">CIccMpeMatrix::Write</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+        <referencedby refid="dc/d87/a01649_1af8262cb3a442bff7f5b447bd2648a19a" compoundref="d5/de9/a00176" startline="454" endline="505">CIccMpeSpectralMatrix::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d2/d44/a01677_1a2018b46d43b5ff7da4b1475349fee809" compoundref="d5/de9/a00176" startline="1906" endline="1946">CIccMpeSpectralObserver::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" prot="protected" static="no" mutable="no">
+        <type><ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref> *</type>
+        <definition>CIccCLUT* CIccMpeCLUT::m_pCLUT</definition>
+        <argsstring></argsstring>
+        <name>m_pCLUT</name>
+        <qualifiedname>CIccMpeCLUT::m_pCLUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="682" column="12" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="682" bodyend="-1"/>
+        <referencedby refid="dd/dd5/a00861_1aee5574bca7eff032a9530c762674ff2a" compoundref="d6/d2d/a00047" startline="5368" endline="5375">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1acd8979e1efe510c753cf181acf90be25" compoundref="d6/d2d/a00047" startline="5387" endline="5398">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="d3/db2/a00869_1a280da152b4a8a903be272757ec0755c8" compoundref="d6/d2d/a00047" startline="5793" endline="5803">CIccMpeExtCLUT::CIccMpeExtCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a59d5438c04330ab011aaa70783a99666" compoundref="d6/d2d/a00047" startline="5440" endline="5444">CIccMpeCLUT::~CIccMpeCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a2e607aed63f076ff4b520f56089944e8" compoundref="d6/d2d/a00047" startline="5619" endline="5653">CIccMpeCLUT::Begin</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a0c2d7c8b69e35f5c99d9103687c43ef7" compoundref="d6/d2d/a00047" startline="5479" endline="5484">CIccMpeCLUT::Describe</referencedby>
+        <referencedby refid="d3/db2/a00869_1a91d39dd0dfcf097f97aada8778585528" compoundref="d6/d2d/a00047" startline="5851" endline="5859">CIccMpeExtCLUT::Describe</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a54bed78abd2647e71e870d06602cbefe" compoundref="d2/de7/a00014" startline="678" endline="678">CIccMpeCLUT::GetCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1ae6dbc5e23dfb983719445609c76a3548" compoundref="d6/d2d/a00047" startline="5737" endline="5752">CIccMpeCLUT::GetNewApply</referencedby>
+        <referencedby refid="dd/dd5/a00861_1af54facf1bb77e97126f3fcf41d30ed2f" compoundref="d6/d2d/a00047" startline="5410" endline="5428">CIccMpeCLUT::operator=</referencedby>
+        <referencedby refid="da/d3e/a02025_1a12bdfaf73489d4043eaef10a429cff0a" compoundref="dd/dd7/a00260" startline="1887" endline="1905">ParseXml</referencedby>
+        <referencedby refid="d6/d19/a02029_1ad58a9eae57a40bbebbc8cfefe6f1e24f" compoundref="dd/dd7/a00260" startline="1927" endline="1948">CIccMpeXmlExtCLUT::ParseXml</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" compoundref="d6/d2d/a00047" startline="5456" endline="5467">CIccMpeCLUT::SetCLUT</referencedby>
+        <referencedby refid="da/d3e/a02025_1a6be0a6ac589d3e7ef65dea4771847ea3" compoundref="dd/dd7/a00260" startline="1873" endline="1885">ToXml</referencedby>
+        <referencedby refid="d6/d19/a02029_1a43c55f1b5cee810f8182340c359c61ee" compoundref="dd/dd7/a00260" startline="1907" endline="1925">CIccMpeXmlExtCLUT::ToXml</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a4a8c5f16731850aecf3645cbc911896f" compoundref="d6/d2d/a00047" startline="5708" endline="5724">CIccMpeCLUT::Validate</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/d43/a01193_1af2c0f93513ec8c5a0c54328e3d3d705c" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccMultiProcessElement::m_nReserved</definition>
+        <argsstring></argsstring>
+        <name>m_nReserved</name>
+        <qualifiedname>CIccMultiProcessElement::m_nReserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="188" column="18" bodyfile="IccProfLib/IccTagMPE.h" bodystart="188" bodyend="-1"/>
+        <referencedby refid="de/d85/a01273_1abe016eb9794808110b0a07afc965be6c" compoundref="d1/d09/a00077" startline="96" endline="102">CIccMpeAcs::CIccMpeAcs</referencedby>
+        <referencedby refid="d2/d1d/a01277_1af7c2a3b2011c0fc1fbbd83e669986768" compoundref="d1/d09/a00077" startline="350" endline="367">CIccMpeBAcs::CIccMpeBAcs</referencedby>
+        <referencedby refid="df/db8/a01317_1afef6001883de149ccd8293c77600b880" compoundref="d9/d77/a00095" startline="4225" endline="4266">CIccMpeCalculator::CIccMpeCalculator</referencedby>
+        <referencedby refid="df/db8/a01317_1a94a4a358e9256cff903a5f530c6661e4" compoundref="d9/d77/a00095" startline="4201" endline="4213">CIccMpeCalculator::CIccMpeCalculator</referencedby>
+        <referencedby refid="d9/d22/a00873_1a5b1ac63b668136cd904859a1e24b9be1" compoundref="d6/d2d/a00047" startline="6109" endline="6115">CIccMpeCAM::CIccMpeCAM</referencedby>
+        <referencedby refid="dd/dd5/a00861_1aee5574bca7eff032a9530c762674ff2a" compoundref="d6/d2d/a00047" startline="5368" endline="5375">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1acd8979e1efe510c753cf181acf90be25" compoundref="d6/d2d/a00047" startline="5387" endline="5398">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="d5/dac/a00841_1a840b6727e8dd11d81f746176c7916520" compoundref="d6/d2d/a00047" startline="2995" endline="3023">CIccMpeCurveSet::CIccMpeCurveSet</referencedby>
+        <referencedby refid="d5/dac/a00841_1abbb7c2dbec3e482852ba53d2563070db" compoundref="d6/d2d/a00047" startline="2968" endline="2981">CIccMpeCurveSet::CIccMpeCurveSet</referencedby>
+        <referencedby refid="d5/d6f/a01281_1a3a75efee7b85c1545d9fe88d2cbeacf1" compoundref="d1/d09/a00077" startline="436" endline="448">CIccMpeEAcs::CIccMpeEAcs</referencedby>
+        <referencedby refid="d3/db2/a00869_1a280da152b4a8a903be272757ec0755c8" compoundref="d6/d2d/a00047" startline="5793" endline="5803">CIccMpeExtCLUT::CIccMpeExtCLUT</referencedby>
+        <referencedby refid="d0/d82/a00857_1a9756e5b834a816d718bc0963d1063fdc" compoundref="d6/d2d/a00047" startline="4829" endline="4836">CIccMpeMatrix::CIccMpeMatrix</referencedby>
+        <referencedby refid="d0/d82/a00857_1a253d871ae38a36fd24251a91604f4af6" compoundref="d6/d2d/a00047" startline="4849" endline="4874">CIccMpeMatrix::CIccMpeMatrix</referencedby>
+        <referencedby refid="d4/d41/a01661_1a17fa6905b32e47201cf5d70a9f7b5b12" compoundref="d5/de9/a00176" startline="795" endline="812">CIccMpeSpectralCLUT::CIccMpeSpectralCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1a1c0279ebcaf5a3bd806198bd0b00f914" compoundref="d5/de9/a00176" startline="824" endline="850">CIccMpeSpectralCLUT::CIccMpeSpectralCLUT</referencedby>
+        <referencedby refid="dc/d87/a01649_1a5d3b43ac6ce42dad2065522c65c15f21" compoundref="d5/de9/a00176" startline="101" endline="116">CIccMpeSpectralMatrix::CIccMpeSpectralMatrix</referencedby>
+        <referencedby refid="dc/d87/a01649_1aa78f442cb3a9d2aff3bdac43961cf18a" compoundref="d5/de9/a00176" startline="129" endline="165">CIccMpeSpectralMatrix::CIccMpeSpectralMatrix</referencedby>
+        <referencedby refid="d2/d44/a01677_1a3f44315a0c9c4dbf5a957915d4716a95" compoundref="d5/de9/a00176" startline="1658" endline="1669">CIccMpeSpectralObserver::CIccMpeSpectralObserver</referencedby>
+        <referencedby refid="d2/d44/a01677_1a72138789b18dfd5fc3e527fbd592f74d" compoundref="d5/de9/a00176" startline="1682" endline="1700">CIccMpeSpectralObserver::CIccMpeSpectralObserver</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a65468661591beaa13e7a49bde8988078" compoundref="d6/d2d/a00047" startline="3521" endline="3531">CIccMpeTintArray::CIccMpeTintArray</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a6af9bf069e7b2fc7f27c209ca52acd35" compoundref="d6/d2d/a00047" startline="3501" endline="3507">CIccMpeTintArray::CIccMpeTintArray</referencedby>
+        <referencedby refid="db/deb/a00853_1a715cc9fc823f56c5154684731ff3be2b" compoundref="d6/d2d/a00047" startline="4154" endline="4169">CIccMpeToneMap::CIccMpeToneMap</referencedby>
+        <referencedby refid="db/deb/a00853_1a53487f9c7597ff35ded7e7805205eec3" compoundref="d6/d2d/a00047" startline="4132" endline="4142">CIccMpeToneMap::CIccMpeToneMap</referencedby>
+        <referencedby refid="dd/d43/a01193_1a6de4446424a4992090822a7cb5260265" compoundref="d7/d25/a00182" startline="148" endline="148">CIccMultiProcessElement::CIccMultiProcessElement</referencedby>
+        <referencedby refid="d4/d41/a01661_1afdad40cbb945132cce5df3a75dc43ce3" compoundref="d5/de9/a00176" startline="862" endline="897">CIccMpeSpectralCLUT::copyData</referencedby>
+        <referencedby refid="dc/d87/a01649_1a751c03dc196929406a88199e0b20c7f9" compoundref="d5/de9/a00176" startline="177" endline="222">CIccMpeSpectralMatrix::copyData</referencedby>
+        <referencedby refid="d2/d44/a01677_1a3839b17412a677b2aea7e79515c43e2f" compoundref="d5/de9/a00176" startline="1712" endline="1733">CIccMpeSpectralObserver::copyData</referencedby>
+        <referencedby refid="d2/d1d/a01277_1ac32974b0a8df1a31e8bcf2aa8c6299b7" compoundref="d1/d09/a00077" startline="379" endline="392">CIccMpeBAcs::operator=</referencedby>
+        <referencedby refid="df/db8/a01317_1ad8378d67b67eb04ef201e03a0ff7e757" compoundref="d9/d77/a00095" startline="4278" endline="4317">CIccMpeCalculator::operator=</referencedby>
+        <referencedby refid="dd/dd5/a00861_1af54facf1bb77e97126f3fcf41d30ed2f" compoundref="d6/d2d/a00047" startline="5410" endline="5428">CIccMpeCLUT::operator=</referencedby>
+        <referencedby refid="d5/dac/a00841_1a8a607a291342bdba8708ee6d760878f8" compoundref="d6/d2d/a00047" startline="3035" endline="3069">CIccMpeCurveSet::operator=</referencedby>
+        <referencedby refid="d5/d6f/a01281_1af1df5101a4a16bf51fb2e5d2af0044bd" compoundref="d1/d09/a00077" startline="460" endline="473">CIccMpeEAcs::operator=</referencedby>
+        <referencedby refid="d0/d82/a00857_1a6cd6338e6cbf1ce6268a2d382f5d1a40" compoundref="d6/d2d/a00047" startline="4886" endline="4919">CIccMpeMatrix::operator=</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a97ca457e4abf9d6a818b33a7e9d1b144" compoundref="d6/d2d/a00047" startline="3543" endline="3558">CIccMpeTintArray::operator=</referencedby>
+        <referencedby refid="db/deb/a00853_1ad52ac5255a70e6af7280eb0f218d531c" compoundref="d6/d2d/a00047" startline="4181" endline="4208">CIccMpeToneMap::operator=</referencedby>
+        <referencedby refid="d2/d6f/a01957_1a09408c36528ddcd6177b41b0d08614ea" compoundref="d0/d27/a00239" startline="4036" endline="4086">CIccTagXmlMultiProcessElement::ParseElement</referencedby>
+        <referencedby refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" compoundref="dd/dd7/a00260" startline="2341" endline="2618">CIccMpeXmlCalculator::ParseImport</referencedby>
+        <referencedby refid="de/d85/a01273_1a955fdb5b73893fa9cb416f22a1c1fc90" compoundref="d1/d09/a00077" startline="158" endline="201">CIccMpeAcs::Read</referencedby>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+        <referencedby refid="d0/d82/a00857_1ab15bd5e24165fb2b5a9f89031b241319" compoundref="d6/d2d/a00047" startline="5033" endline="5116">CIccMpeMatrix::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+        <referencedby refid="df/db8/a01317_1a7fefc4a48200f353586b9cb1f60af820" compoundref="d9/d77/a00095" startline="4474" endline="4586">CIccMpeCalculator::Read</referencedby>
+        <referencedby refid="dc/d87/a01649_1a0e4b78a17776fc35ca8f91a0f2e62de2" compoundref="d5/de9/a00176" startline="368" endline="442">CIccMpeSpectralMatrix::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d2/d44/a01677_1a64336f7b6bd64df40d294555edd3a4fc" compoundref="d5/de9/a00176" startline="1833" endline="1894">CIccMpeSpectralObserver::Read</referencedby>
+        <referencedby refid="d3/d39/a02005_1a858989c2f13b9b4047f8b4675efb49fd" compoundref="dd/dd7/a00260" startline="1050" endline="1085">CIccMpeXmlCurveSet::ToXml</referencedby>
+        <referencedby refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d" compoundref="dd/dd7/a00260" startline="1534" endline="1566">CIccMpeXmlTintArray::ToXml</referencedby>
+        <referencedby refid="d0/dfd/a02017_1a9efba74ea5302530c03ab16fc7737247" compoundref="dd/dd7/a00260" startline="1729" endline="1779">CIccMpeXmlToneMap::ToXml</referencedby>
+        <referencedby refid="d8/d45/a02021_1ae853ea83404517db05911c48a9ba5034" compoundref="dd/dd7/a00260" startline="1183" endline="1233">CIccMpeXmlMatrix::ToXml</referencedby>
+        <referencedby refid="da/d3e/a02025_1a6be0a6ac589d3e7ef65dea4771847ea3" compoundref="dd/dd7/a00260" startline="1873" endline="1885">ToXml</referencedby>
+        <referencedby refid="d6/d19/a02029_1a43c55f1b5cee810f8182340c359c61ee" compoundref="dd/dd7/a00260" startline="1907" endline="1925">CIccMpeXmlExtCLUT::ToXml</referencedby>
+        <referencedby refid="d6/d94/a02033_1ab99bd7712342c0d63b6cb2d545f13c9a" compoundref="dd/dd7/a00260" startline="1950" endline="1978">CIccMpeXmlBAcs::ToXml</referencedby>
+        <referencedby refid="dd/dfc/a02037_1afeb82ef0fbc9b414a1d7131e0f08f037" compoundref="dd/dd7/a00260" startline="2006" endline="2032">CIccMpeXmlEAcs::ToXml</referencedby>
+        <referencedby refid="d3/dea/a02041_1a34cf7cacb789aa994bea835172cb4967" compoundref="dd/dd7/a00260" startline="2162" endline="2181">CIccMpeXmlJabToXYZ::ToXml</referencedby>
+        <referencedby refid="d7/d13/a02045_1a54bb536e886c4f512c76956c51e2307f" compoundref="dd/dd7/a00260" startline="2213" endline="2232">CIccMpeXmlXYZToJab::ToXml</referencedby>
+        <referencedby refid="d8/de6/a02061_1ac2201e8656c54d4760a8b1f07e79ff51" compoundref="dd/dd7/a00260" startline="2265" endline="2314">CIccMpeXmlCalculator::ToXml</referencedby>
+        <referencedby refid="d0/d67/a02065_1afed419ced3da8e3dfe34d76c75fae099" compoundref="dd/dd7/a00260" startline="1280" endline="1340">CIccMpeXmlEmissionMatrix::ToXml</referencedby>
+        <referencedby refid="d3/d48/a02069_1aa72eae526f9c0b51758548a11be08aa0" compoundref="dd/dd7/a00260" startline="1407" endline="1467">CIccMpeXmlInvEmissionMatrix::ToXml</referencedby>
+        <referencedby refid="de/df8/a02073_1a90bc60d68216a101341bba3e58c048d6" compoundref="dd/dd7/a00260" startline="3180" endline="3219">CIccMpeXmlEmissionCLUT::ToXml</referencedby>
+        <referencedby refid="db/dac/a02077_1a65a4dd5664e7e4b7e72db2cb6613c2d3" compoundref="dd/dd7/a00260" startline="3293" endline="3332">CIccMpeXmlReflectanceCLUT::ToXml</referencedby>
+        <referencedby refid="d2/d50/a02081_1a97421b83857bdcd9162531eca05446fe" compoundref="dd/dd7/a00260" startline="3453" endline="3486">CIccMpeXmlEmissionObserver::ToXml</referencedby>
+        <referencedby refid="d2/dde/a02085_1ac006b2c376c05c9bafa2edba85663841" compoundref="dd/dd7/a00260" startline="3535" endline="3568">CIccMpeXmlReflectanceObserver::ToXml</referencedby>
+        <referencedby refid="dd/d43/a01193_1afa9aa73acfa0a036a2b5ac1fca5c579b" compoundref="dc/d87/a00032" startline="454" endline="469">CIccMultiProcessElement::Validate</referencedby>
+        <referencedby refid="de/d85/a01273_1a922718dde543a4adc575913f8b5e8cc9" compoundref="d1/d09/a00077" startline="213" endline="241">CIccMpeAcs::Write</referencedby>
+        <referencedby refid="d5/dac/a00841_1a7b15db55a9cf1e0bc6866e549f60abab" compoundref="d6/d2d/a00047" startline="3328" endline="3394">CIccMpeCurveSet::Write</referencedby>
+        <referencedby refid="d7/dcf/a00845_1ae44de3de19b91513bcc3b56812dc09eb" compoundref="d6/d2d/a00047" startline="3725" endline="3748">CIccMpeTintArray::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+        <referencedby refid="d0/d82/a00857_1a80348298f549ace16fa208e21a23cf42" compoundref="d6/d2d/a00047" startline="5128" endline="5168">CIccMpeMatrix::Write</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+        <referencedby refid="dc/d87/a01649_1af8262cb3a442bff7f5b447bd2648a19a" compoundref="d5/de9/a00176" startline="454" endline="505">CIccMpeSpectralMatrix::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d2/d44/a01677_1a2018b46d43b5ff7da4b1475349fee809" compoundref="d5/de9/a00176" startline="1906" endline="1946">CIccMpeSpectralObserver::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d43/a01193_1ab48227aba24bb193c81b0fd7956203f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement * CIccMultiProcessElement::Create</definition>
+        <argsstring>(icElemTypeSignature sig)</argsstring>
+        <name>Create</name>
+        <qualifiedname>CIccMultiProcessElement::Create</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/d43/a01193_1ab48227aba24bb193c81b0fd7956203f5" kindref="member">CIccMultiProcessElement::Create</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagMPE.h" line="152" column="34" bodyfile="IccProfLib/IccTagMPE.cpp" bodystart="131" bodyend="134"/>
+        <references refid="d6/d15/a01697_1abcc6f083b23b883d12dc88cc1f366673" compoundref="dc/d57/a00194" startline="213" endline="214">CIccMpeCreator::CreateElement</references>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="d1/de6/a00837_1a1545329e314b4d676c42a3b6990d912d" compoundref="d6/d2d/a00047" startline="2233" endline="2280">CIccSampledCalculatorCurve::Read</referencedby>
+        <referencedby refid="df/db8/a01317_1a7fefc4a48200f353586b9cb1f60af820" compoundref="d9/d77/a00095" startline="4474" endline="4586">CIccMpeCalculator::Read</referencedby>
+        <referencedby refid="d5/d54/a01213_1a00eff526d38081625b79195b3da1728d" compoundref="dc/d87/a00032" startline="969" endline="1072">CIccTagMultiProcessElement::Read</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccMpeCLUT</label>
+        <link refid="dd/dd5/a00861"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccMpeXml</label>
+        <link refid="d0/dc1/a01993"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccMpeXmlCLUT</label>
+        <link refid="da/d3e/a02025"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+      <node id="5">
+        <label>IIccExtensionMpe</label>
+        <link refid="d3/d10/a01189"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>CIccCLUT</label>
+        <link refid="d8/d02/a01149"/>
+      </node>
+      <node id="2">
+        <label>CIccMpeCLUT</label>
+        <link refid="dd/dd5/a00861"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_pCLUT</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccMpeXml</label>
+        <link refid="d0/dc1/a01993"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccMpeXmlCLUT</label>
+        <link refid="da/d3e/a02025"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+      <node id="6">
+        <label>IIccExtensionMpe</label>
+        <link refid="d3/d10/a01189"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccXML/IccLibXML/IccMpeXml.h" line="179" column="1" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="180" bodyend="190"/>
+    <listofallmembers>
+      <member refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>Apply</name></member>
+      <member refid="dd/dd5/a00861_1a2e607aed63f076ff4b520f56089944e8" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>Begin</name></member>
+      <member refid="dd/dd5/a00861_1aee5574bca7eff032a9530c762674ff2a" prot="public" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>CIccMpeCLUT</name></member>
+      <member refid="dd/dd5/a00861_1acd8979e1efe510c753cf181acf90be25" prot="public" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>CIccMpeCLUT</name></member>
+      <member refid="dd/d43/a01193_1a6de4446424a4992090822a7cb5260265" prot="public" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>CIccMultiProcessElement</name></member>
+      <member refid="dd/d43/a01193_1ab48227aba24bb193c81b0fd7956203f5" prot="public" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>Create</name></member>
+      <member refid="dd/dd5/a00861_1a0c2d7c8b69e35f5c99d9103687c43ef7" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>Describe</name></member>
+      <member refid="dd/d43/a01193_1a7c1ea49206872f4b3169f46e4710aec6" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>GetBAcsSig</name></member>
+      <member refid="da/d3e/a02025_1aa7bf206ca3cc7b96179b7aa9a805a3e4" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>GetClassName</name></member>
+      <member refid="dd/dd5/a00861_1a54bed78abd2647e71e870d06602cbefe" prot="public" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>GetCLUT</name></member>
+      <member refid="dd/d43/a01193_1a56c2c5f2779043b825041c11001b8296" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>GetEAcsSig</name></member>
+      <member refid="d0/dc1/a01993_1af05f90c831e553e88257f725a0cef8fb" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>GetExtClassName</name></member>
+      <member refid="da/d3e/a02025_1a80e75726bc76099e3b364a151928e0d4" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>GetExtension</name></member>
+      <member refid="dd/dd5/a00861_1ae6dbc5e23dfb983719445609c76a3548" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>GetNewApply</name></member>
+      <member refid="dd/dd5/a00861_1abbd18a47a15df339bb6703e9ff566835" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>GetType</name></member>
+      <member refid="dd/d43/a01193_1aa5aef125e1030ca400a22dd2650b3907" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>IsAcs</name></member>
+      <member refid="dd/d43/a01193_1a9f3ac4462c0b4d7e3f2cf7fe6dc23d6d" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>IsLateBinding</name></member>
+      <member refid="dd/d43/a01193_1a97df86006903861d22ccd6fdd9e5f0f6" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>IsLateBindingReflectance</name></member>
+      <member refid="dd/d43/a01193_1ae22437a7037a314146199a7ba3601656" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>IsSupported</name></member>
+      <member refid="dd/dd5/a00861_1ae661b3c3a3c8cad16a6cdf82574d6914" prot="protected" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>m_interpType</name></member>
+      <member refid="dd/d43/a01193_1abeb5f5378b5c7427f5b5a8b5eb36b27c" prot="protected" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>m_nInputChannels</name></member>
+      <member refid="dd/d43/a01193_1a167a265e4bbb61fc48c2c5b3618b59df" prot="protected" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>m_nOutputChannels</name></member>
+      <member refid="dd/d43/a01193_1af2c0f93513ec8c5a0c54328e3d3d705c" prot="public" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>m_nReserved</name></member>
+      <member refid="dd/dd5/a00861_1abb2ee857b662437e15ae2b51a3e54d41" prot="protected" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>m_pCLUT</name></member>
+      <member refid="dd/dd5/a00861_1a8b878571b7ab866ea2c24db0dfb68511" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>NewCopy</name></member>
+      <member refid="dd/d43/a01193_1a0e7393d937cb768d52265a7ebed2b3a9" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>NumInputChannels</name></member>
+      <member refid="dd/d43/a01193_1a431d2d96c834f4f9b0674dafe8609ae1" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>NumOutputChannels</name></member>
+      <member refid="dd/dd5/a00861_1af54facf1bb77e97126f3fcf41d30ed2f" prot="public" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>operator=</name></member>
+      <member refid="da/d3e/a02025_1a12bdfaf73489d4043eaef10a429cff0a" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>ParseXml</name></member>
+      <member refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>Read</name></member>
+      <member refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" prot="public" virt="non-virtual"><scope>CIccMpeXmlCLUT</scope><name>SetCLUT</name></member>
+      <member refid="da/d3e/a02025_1a6be0a6ac589d3e7ef65dea4771847ea3" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>ToXml</name></member>
+      <member refid="dd/dd5/a00861_1a4a8c5f16731850aecf3645cbc911896f" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>Validate</name></member>
+      <member refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>Write</name></member>
+      <member refid="dd/dd5/a00861_1a59d5438c04330ab011aaa70783a99666" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>~CIccMpeCLUT</name></member>
+      <member refid="d0/dc1/a01993_1a272a8b925cc2c9732e3c8af0bd4e415b" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>~CIccMpeXml</name></member>
+      <member refid="da/d3e/a02025_1a185c7b9bb13a9e594fc79f3c34b78ceb" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>~CIccMpeXmlCLUT</name></member>
+      <member refid="dd/d43/a01193_1aaf89af84aac694bad61e29fa07691544" prot="public" virt="virtual"><scope>CIccMpeXmlCLUT</scope><name>~CIccMultiProcessElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

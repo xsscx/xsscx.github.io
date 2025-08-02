@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d01/a02316" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>iccApplyNamedCmm</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`iccApplyNamedCmm`<sp/>is<sp/>a<sp/>command-line<sp/>tool<sp/>that<sp/>applies<sp/>a<sp/>chain<sp/>of<sp/>ICC<sp/>profiles<sp/>to<sp/>textual<sp/>or<sp/>structured<sp/>color<sp/>data,<sp/>producing<sp/>transformed<sp/>results<sp/>in<sp/>various<sp/>formats.<sp/>It<sp/>supports<sp/>named<sp/>color<sp/>transformations,<sp/>JSON<sp/>and<sp/>legacy<sp/>data<sp/>inputs,<sp/>and<sp/>ICCv5<sp/>capabilities<sp/>including<sp/>debugging<sp/>of<sp/>calculator-based<sp/>profiles.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>color<sp/>data<sp/>in:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Legacy<sp/>(plain<sp/>text)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>JSON<sp/>structured<sp/>format</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Embedded<sp/>ICC<sp/>configurations</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Applies<sp/>ICC<sp/>profiles<sp/>using<sp/>ICCMAX-style<sp/>CMM</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>named-to-named<sp/>and<sp/>pixel-to-named<sp/>transformations</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Built-in<sp/>support<sp/>for:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Luminance<sp/>PCS<sp/>matching</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Profile<sp/>Connection<sp/>Conditions<sp/>(PCC)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>ICC<sp/>environment<sp/>variable<sp/>hints</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Outputs<sp/>transformed<sp/>color<sp/>data<sp/>in:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>IT8</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>JSON</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Text</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Config-Based<sp/>Mode</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyNamedCmm<sp/>-cfg<sp/>config.json</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`config.json`<sp/>must<sp/>include:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`dataFiles`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`profileSequence`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>(optionally)<sp/>`colorData`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Legacy<sp/>CLI<sp/>Mode</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyNamedCmm<sp/>input.txt<sp/>encoding[:precision[:digits]]<sp/>interpolation<sp/>{{-ENV:tag<sp/>value}<sp/>profile.icc<sp/>intent<sp/>{-PCC<sp/>pcc.icc}}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Arguments</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>**`encoding`<sp/>values**:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0`<sp/>=<sp/>Lab/XYZ<sp/>Value</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`1`<sp/>=<sp/>Percent</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`2`<sp/>=<sp/>Unit<sp/>Float</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`3`<sp/>=<sp/>Raw<sp/>Float</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`4`<sp/>=<sp/>8-bit</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`5`<sp/>=<sp/>16-bit</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`6`<sp/>=<sp/>16-bit<sp/>ICCv2<sp/>style</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>**Interpolation**:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0`<sp/>=<sp/>Linear</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`1`<sp/>=<sp/>Tetrahedral</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>**Intent**<sp/>(plus<sp/>modifiers):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`0–3`:<sp/>Perceptual,<sp/>Relative,<sp/>Saturation,<sp/>Absolute</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+10`:<sp/>Disable<sp/>D2Bx/B2Dx</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+20`:<sp/>Preview</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+30`:<sp/>Gamut</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+40`:<sp/>With<sp/>BPC</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+100`:<sp/>Luminance-based<sp/>PCS<sp/>match</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+1000`:<sp/>ICCv5<sp/>SubProfile</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>`+100000`:<sp/>Use<sp/>HToS<sp/>tag</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Output<sp/>Formats</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Determined<sp/>by<sp/>config<sp/>or<sp/>filename:</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`output.txt`:<sp/>legacy<sp/>textual</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`output.json`:<sp/>JSON<sp/>color<sp/>set</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`output.it8`:<sp/>IT8<sp/>table</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Build<sp/>Instructions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyNamedCmm<sp/>-cfg<sp/>config_named.json</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccApplyNamedCmm<sp/>colors.txt<sp/>0:4:7<sp/>1<sp/>profile.icc<sp/>1</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Original<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>(2003)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>JSON<sp/>support<sp/>and<sp/>calculator<sp/>debugger<sp/>added<sp/>by<sp/>Max<sp/>Derhak<sp/>(2024)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Structural<sp/>cleanup<sp/>and<sp/>usage<sp/>clarity<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccApplyNamedCmm/Readme.md"/>
+  </compounddef>
+</doxygen>

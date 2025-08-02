@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/d43/a02205" kind="class" language="C++" prot="public">
+    <compoundname>MyTagDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">wxDialog</basecompoundref>
+    <includes refid="db/d7b/a00296" local="no">wxProfileDump.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/d43/a02205_1a55d3c3cc10b7a81c27d66460fe9d09d4" prot="public" static="no" mutable="no">
+        <type>wxFont</type>
+        <definition>wxFont MyTagDialog::m_FixedFont</definition>
+        <argsstring></argsstring>
+        <name>m_FixedFont</name>
+        <qualifiedname>MyTagDialog::m_FixedFont</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="213" column="8" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d43/a02205_1ad4e3aa93043afedcb36a77bd6eb6f44c" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+        <definition>CIccProfile* MyTagDialog::m_pIcc</definition>
+        <argsstring></argsstring>
+        <name>m_pIcc</name>
+        <qualifiedname>MyTagDialog::m_pIcc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="209" column="13" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="209" bodyend="-1"/>
+        <referencedby refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d43/a02205_1aee35d832ff8474eafcb17e514ce4f4f0" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+        <definition>CIccTag* MyTagDialog::m_pTag</definition>
+        <argsstring></argsstring>
+        <name>m_pTag</name>
+        <qualifiedname>MyTagDialog::m_pTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="211" column="9" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="211" bodyend="-1"/>
+        <referencedby refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d43/a02205_1a06e99cf98129fcd835631ac8cc5b2cee" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref></type>
+        <definition>icTagSignature MyTagDialog::m_sigTag</definition>
+        <argsstring></argsstring>
+        <name>m_sigTag</name>
+        <qualifiedname>MyTagDialog::m_sigTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="210" column="16" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="210" bodyend="-1"/>
+        <referencedby refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MyTagDialog::MyTagDialog</definition>
+        <argsstring>(wxWindow *pParent, CIccProfile *pIcc, icTagSignature sig, CIccTag *pTag)</argsstring>
+        <name>MyTagDialog</name>
+        <qualifiedname>MyTagDialog::MyTagDialog</qualifiedname>
+        <param>
+          <type>wxWindow *</type>
+          <declname>pParent</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pIcc</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+          <declname>pTag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="207" column="1" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.cpp" bodystart="1108" bodyend="1192"/>
+        <references refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog</references>
+        <references refid="d7/dfd/a00969_1a48edb50964c5a62a2ce4108297dd045a" compoundref="da/dec/a00080" startline="221" endline="221">CIccTag::Describe</references>
+        <references refid="da/d5b/a00905_1acf9274fbdc16e3f0ffb5495fec76552b" compoundref="df/d6a/a00119" startline="235" endline="235">CIccMemIO::GetData</references>
+        <references refid="da/d5b/a00905_1ad182169da70672b1f0007af9f3d475dc" compoundref="d9/d2e/a00056" startline="752" endline="758">CIccMemIO::GetLength</references>
+        <references refid="dc/d2f/a00425_1aa4d31231b22a56dc869b51eaa2b1f933" compoundref="d5/db1/a00140" startline="1594" endline="1602">CIccInfo::GetTagTypeSigName</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="d7/dce/a00143_1adc6193e63d5cc6e6c8a03ffc317fe61f" compoundref="d5/db1/a00140" startline="951" endline="986">icMemDump</references>
+        <references refid="d7/dfd/a00969_1a80251cce2257d65fff1f45c0d805480f" compoundref="da/dec/a00080" startline="135" endline="135">CIccTag::IsArrayType</references>
+        <references refid="dc/d43/a02205_1ad4e3aa93043afedcb36a77bd6eb6f44c" compoundref="db/d7b/a00296" startline="209">m_pIcc</references>
+        <references refid="dc/d43/a02205_1aee35d832ff8474eafcb17e514ce4f4f0" compoundref="db/d7b/a00296" startline="211">m_pTag</references>
+        <references refid="dc/d43/a02205_1a06e99cf98129fcd835631ac8cc5b2cee" compoundref="db/d7b/a00296" startline="210">m_sigTag</references>
+        <referencedby refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="1">
+        <label>MyTagDialog</label>
+        <link refid="dc/d43/a02205"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_pTag</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="204" column="1" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="205" bodyend="214"/>
+    <listofallmembers>
+      <member refid="dc/d43/a02205_1a55d3c3cc10b7a81c27d66460fe9d09d4" prot="public" virt="non-virtual"><scope>MyTagDialog</scope><name>m_FixedFont</name></member>
+      <member refid="dc/d43/a02205_1ad4e3aa93043afedcb36a77bd6eb6f44c" prot="public" virt="non-virtual"><scope>MyTagDialog</scope><name>m_pIcc</name></member>
+      <member refid="dc/d43/a02205_1aee35d832ff8474eafcb17e514ce4f4f0" prot="public" virt="non-virtual"><scope>MyTagDialog</scope><name>m_pTag</name></member>
+      <member refid="dc/d43/a02205_1a06e99cf98129fcd835631ac8cc5b2cee" prot="public" virt="non-virtual"><scope>MyTagDialog</scope><name>m_sigTag</name></member>
+      <member refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" prot="public" virt="non-virtual"><scope>MyTagDialog</scope><name>MyTagDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

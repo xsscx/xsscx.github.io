@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d03/a00254" kind="file" language="C++">
+    <compoundname>IccXmlConfig.h</compoundname>
+    <includedby refid="d6/de1/a00233" local="yes">IccXML/IccLibXML/IccTagXml.h</includedby>
+    <includedby refid="d9/d39/a00257" local="yes">IccXML/IccLibXML/IccUtilXml.h</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>IccXML/IccLibXML/IccMpeXml.cpp</label>
+        <link refid="dd/dd7/a00260"/>
+      </node>
+      <node id="4">
+        <label>IccXML/IccLibXML/IccProfileXml.cpp</label>
+        <link refid="dd/dd7/a00248"/>
+      </node>
+      <node id="5">
+        <label>IccXML/IccLibXML/IccTagXml.cpp</label>
+        <link refid="d0/d27/a00239"/>
+      </node>
+      <node id="2">
+        <label>IccXML/IccLibXML/IccTagXml.h</label>
+        <link refid="d6/de1/a00233"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IccXML/IccLibXML/IccTagXmlFactory.cpp</label>
+        <link refid="df/da9/a00263"/>
+      </node>
+      <node id="8">
+        <label>IccXML/IccLibXML/IccUtilXml.cpp</label>
+        <link refid="d5/d35/a00266"/>
+      </node>
+      <node id="7">
+        <label>IccXML/IccLibXML/IccUtilXml.h</label>
+        <link refid="d9/d39/a00257"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccXML/IccLibXML/IccXmlConfig.h</label>
+        <link refid="d7/d03/a00254"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d7/d03/a00254_1a1140748eceaf6e3b854e9d9c62f05370" prot="public" static="no">
+        <name>icXmlDoubleFmt</name>
+        <initializer>&quot;%.24lf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccXmlConfig.h" line="76" column="9" bodyfile="IccXML/IccLibXML/IccXmlConfig.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d7/d03/a00254_1adad2d4530f9ddd52a2027362d3a7caf9" prot="public" static="no">
+        <name>icXmlFloatFmt</name>
+        <initializer>&quot;%.12f&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccXmlConfig.h" line="75" column="9" bodyfile="IccXML/IccLibXML/IccXmlConfig.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="d7/d03/a00254_1ab447e050014084b7a8826a44ac620564" prot="public" static="no">
+        <name>icXmlHalfFmt</name>
+        <initializer>&quot;%.8f&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccXmlConfig.h" line="74" column="9" bodyfile="IccXML/IccLibXML/IccXmlConfig.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>icConvertType</name>
+        <enumvalue id="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a79a2afe52938a9d3b002c06a773b8eb8" prot="public">
+          <name>icConvert8Bit</name>
+          <initializer>=0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a9a36cdf34e3882ee2e65e4030db1b7fb" prot="public">
+          <name>icConvert16Bit</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a7b72d0077e286e2fd4a2113c00cd8663" prot="public">
+          <name>icConvertFloat</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8acf7f3d311a96b6529fb7b3ac82fd372b" prot="public">
+          <name>icConvertVariable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccXmlConfig.h" line="67" column="1" bodyfile="IccXML/IccLibXML/IccXmlConfig.h" bodystart="67" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: IccXmlConfig.cpp</para>
+<para>Contains: Implementation IccXMl Configuration</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_ICCXMLCONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_ICCXMLCONFIG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="68" refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a79a2afe52938a9d3b002c06a773b8eb8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a79a2afe52938a9d3b002c06a773b8eb8" kindref="member">icConvert8Bit</ref>=0,</highlight></codeline>
+<codeline lineno="69" refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a9a36cdf34e3882ee2e65e4030db1b7fb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a9a36cdf34e3882ee2e65e4030db1b7fb" kindref="member">icConvert16Bit</ref>,</highlight></codeline>
+<codeline lineno="70" refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a7b72d0077e286e2fd4a2113c00cd8663" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8a7b72d0077e286e2fd4a2113c00cd8663" kindref="member">icConvertFloat</ref>,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><ref refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8acf7f3d311a96b6529fb7b3ac82fd372b" kindref="member">icConvertVariable</ref></highlight></codeline>
+<codeline lineno="72" refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8acf7f3d311a96b6529fb7b3ac82fd372b" refkind="member"><highlight class="normal">}<sp/><ref refid="d7/d03/a00254_1a878aa1e8a53f75d023e069ed4950e2b8" kindref="member">icConvertType</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="d7/d03/a00254_1ab447e050014084b7a8826a44ac620564" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>icXmlHalfFmt<sp/>&quot;%.8f&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="d7/d03/a00254_1adad2d4530f9ddd52a2027362d3a7caf9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>icXmlFloatFmt<sp/>&quot;%.12f&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="d7/d03/a00254_1a1140748eceaf6e3b854e9d9c62f05370" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>icXmlDoubleFmt<sp/>&quot;%.24lf&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="IccXML/IccLibXML/IccXmlConfig.h"/>
+  </compounddef>
+</doxygen>

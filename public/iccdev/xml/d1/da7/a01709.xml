@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d1/da7/a01709" kind="class" language="C++" prot="public">
+    <compoundname>CIccSimpleMatrixInverter</compoundname>
+    <basecompoundref refid="d7/d53/a01645" prot="public" virt="non-virtual">IIccMatrixInverter</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/da7/a01709_1a6d8923299a0acb3796e519a0822c3d17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccSimpleMatrixInverter::CIccSimpleMatrixInverter</definition>
+        <argsstring>()</argsstring>
+        <name>CIccSimpleMatrixInverter</name>
+        <qualifiedname>CIccSimpleMatrixInverter::CIccSimpleMatrixInverter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="226" column="3" bodyfile="IccProfLib/IccSolve.cpp" bodystart="226" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/da7/a01709_1ae8ec7b4950a1b7c37f6b5579af1b697a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccSimpleMatrixInverter::Invert</definition>
+        <argsstring>(icFloatNumber *dMatrix, icUInt16Number nRows, icUInt16Number nCols)</argsstring>
+        <name>Invert</name>
+        <qualifiedname>CIccSimpleMatrixInverter::Invert</qualifiedname>
+        <reimplements refid="d7/d53/a01645_1a55c8cab2153e17ac692ad9f6dfb11bd0">Invert</reimplements>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>dMatrix</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nRows</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nCols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Member Function: Invert</para>
+<para>Purpose: Solve for x in the matrix/vector equation y=Mx when M is 3x3 matrix Otherwise return false.</para>
+<para>Parameters: -dMatrix is a matrix (M) with nRows x nCols entries in RowOrder -nRows is number of row entries -nCols is number of column entries</para>
+<para>Return: true if matrix was inverted or false if not possible/supported. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSolve.cpp" line="244" column="16" bodyfile="IccProfLib/IccSolve.cpp" bodystart="244" bodyend="253"/>
+        <references refid="d7/dce/a00143_1aa1bb8385706c3c656575f0d6a4ae4d76" compoundref="d5/db1/a00140" startline="391" endline="436">icMatrixInvert3x3</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccSimpleMatrixInverter</label>
+        <link refid="d1/da7/a01709"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccMatrixInverter</label>
+        <link refid="d7/d53/a01645"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccSimpleMatrixInverter</label>
+        <link refid="d1/da7/a01709"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccMatrixInverter</label>
+        <link refid="d7/d53/a01645"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccSolve.cpp" line="223" column="1" bodyfile="IccProfLib/IccSolve.cpp" bodystart="224" bodyend="254"/>
+    <listofallmembers>
+      <member refid="d1/da7/a01709_1a6d8923299a0acb3796e519a0822c3d17" prot="public" virt="non-virtual"><scope>CIccSimpleMatrixInverter</scope><name>CIccSimpleMatrixInverter</name></member>
+      <member refid="d1/da7/a01709_1ae8ec7b4950a1b7c37f6b5579af1b697a" prot="public" virt="virtual"><scope>CIccSimpleMatrixInverter</scope><name>Invert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="da/db8/a00797" kind="struct" language="C++" prot="public">
+    <compoundname>icProfile</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="da/db8/a00797_1af43a35d2353ffdd2f556f7baa8c38e36" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/dd7/a00793" kindref="compound">icHeader</ref></type>
+        <definition>icHeader icProfile::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <qualifiedname>icProfile::header</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2076" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2076" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db8/a00797_1af357b19f8fb94a1ff5e02f3ff3e625d7" prot="public" static="no" mutable="no">
+        <type><ref refid="d3/d00/a00785" kindref="compound">icTagList</ref></type>
+        <definition>icTagList icProfile::tagList</definition>
+        <argsstring></argsstring>
+        <name>tagList</name>
+        <qualifiedname>icProfile::tagList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="2077" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2077" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A profile, we can&apos;t use <ref refid="d3/d00/a00785" kindref="compound">icTagList</ref> here because its not at the end of the structure </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icDateTimeNumber</label>
+        <link refid="da/def/a00513"/>
+      </node>
+      <node id="2">
+        <label>icHeader</label>
+        <link refid="d4/dd7/a00793"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>date</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>illuminant</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>profileID</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>biSpectralRange</edgelabel>
+          <edgelabel>spectralRange</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>icProfile</label>
+        <link refid="da/db8/a00797"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>tagList</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>icProfileID</label>
+        <link refid="d8/d7d/a00789"/>
+      </node>
+      <node id="6">
+        <label>icSpectralRange</label>
+        <link refid="dd/d72/a00541"/>
+      </node>
+      <node id="8">
+        <label>icTag</label>
+        <link refid="d6/d86/a00781"/>
+      </node>
+      <node id="7">
+        <label>icTagList</label>
+        <link refid="d3/d00/a00785"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>tags</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>icXYZNumber</label>
+        <link refid="d8/dc7/a00517"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="2075" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="2075" bodyend="2088"/>
+    <listofallmembers>
+      <member refid="da/db8/a00797_1af43a35d2353ffdd2f556f7baa8c38e36" prot="public" virt="non-virtual"><scope>icProfile</scope><name>header</name></member>
+      <member refid="da/db8/a00797_1af357b19f8fb94a1ff5e02f3ff3e625d7" prot="public" virt="non-virtual"><scope>icProfile</scope><name>tagList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,28 @@
+var a01193 =
+[
+    [ "CIccMultiProcessElement", "dd/d43/a01193.html#a6de4446424a4992090822a7cb5260265", null ],
+    [ "~CIccMultiProcessElement", "dd/d43/a01193.html#aaf89af84aac694bad61e29fa07691544", null ],
+    [ "Apply", "dd/d43/a01193.html#a2cad8bcdf828e1abf3623d85dcacdab6", null ],
+    [ "Begin", "dd/d43/a01193.html#a85a5e19f880fb2703292ae2ea343edfc", null ],
+    [ "Create", "dd/d43/a01193.html#ab48227aba24bb193c81b0fd7956203f5", null ],
+    [ "Describe", "dd/d43/a01193.html#ad2a3d6c1ff9aa05ecd9cdcf403a633c5", null ],
+    [ "GetBAcsSig", "dd/d43/a01193.html#a7c1ea49206872f4b3169f46e4710aec6", null ],
+    [ "GetClassName", "dd/d43/a01193.html#adbca0ab9005419df17440d70e0f5eacf", null ],
+    [ "GetEAcsSig", "dd/d43/a01193.html#a56c2c5f2779043b825041c11001b8296", null ],
+    [ "GetExtension", "dd/d43/a01193.html#a9d0364bcea8215694dc1576f629934de", null ],
+    [ "GetNewApply", "dd/d43/a01193.html#ad56f9ad740d2b24fbd3790d5fa6edba9", null ],
+    [ "GetType", "dd/d43/a01193.html#abc48ee629f3d2102bfdd5c03891b37e1", null ],
+    [ "IsAcs", "dd/d43/a01193.html#aa5aef125e1030ca400a22dd2650b3907", null ],
+    [ "IsLateBinding", "dd/d43/a01193.html#a9f3ac4462c0b4d7e3f2cf7fe6dc23d6d", null ],
+    [ "IsLateBindingReflectance", "dd/d43/a01193.html#a97df86006903861d22ccd6fdd9e5f0f6", null ],
+    [ "IsSupported", "dd/d43/a01193.html#ae22437a7037a314146199a7ba3601656", null ],
+    [ "NewCopy", "dd/d43/a01193.html#a5ae6e493583e12b6ffe809d2deae8bde", null ],
+    [ "NumInputChannels", "dd/d43/a01193.html#a0e7393d937cb768d52265a7ebed2b3a9", null ],
+    [ "NumOutputChannels", "dd/d43/a01193.html#a431d2d96c834f4f9b0674dafe8609ae1", null ],
+    [ "Read", "dd/d43/a01193.html#a8efa1237ede305a68372dfac8a3279e7", null ],
+    [ "Validate", "dd/d43/a01193.html#afa9aa73acfa0a036a2b5ac1fca5c579b", null ],
+    [ "Write", "dd/d43/a01193.html#a6cdc794c8ee66da7d499b01c6f3e2936", null ],
+    [ "m_nInputChannels", "dd/d43/a01193.html#abeb5f5378b5c7427f5b5a8b5eb36b27c", null ],
+    [ "m_nOutputChannels", "dd/d43/a01193.html#a167a265e4bbb61fc48c2c5b3618b59df", null ],
+    [ "m_nReserved", "dd/d43/a01193.html#af2c0f93513ec8c5a0c54328e3d3d705c", null ]
+];

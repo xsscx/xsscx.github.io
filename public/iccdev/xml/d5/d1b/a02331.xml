@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d5/d1b/a02331" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>📸<sp/>iccJpegDump</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**iccJpegDump**<sp/>is<sp/>a<sp/>command-line<sp/>utility<sp/>for<sp/>extracting<sp/>and<sp/>injecting<sp/>ICC<sp/>color<sp/>profiles<sp/>in<sp/>JPEG<sp/>images.<sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">It<sp/>supports<sp/>standard<sp/>`APP2`<sp/>ICC<sp/>markers<sp/>and<sp/>intelligently<sp/>scans<sp/>EXIF<sp/>or<sp/>raw<sp/>JPEG<sp/>byte<sp/>streams<sp/>for<sp/>profile<sp/>detection.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🔧<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**ICC<sp/>Extraction:**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>From<sp/>`APP2`<sp/>segments<sp/>with<sp/>`ICC_PROFILE\0`<sp/>(Adobe<sp/>ICC<sp/>standard)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>From<sp/>`APPx`<sp/>markers<sp/>containing<sp/>the<sp/>`acsp`<sp/>ICC<sp/>signature</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Via<sp/>fallback<sp/>binary<sp/>scan<sp/>for<sp/>malformed<sp/>or<sp/>non-standard<sp/>files</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>✅<sp/>**ICC<sp/>Injection:**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Single-segment<sp/>injection<sp/>using<sp/>`APP2`</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Inserts<sp/>ICC<sp/>before<sp/>the<sp/>first<sp/>image<sp/>scan<sp/>for<sp/>maximum<sp/>compatibility</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>🧪<sp/>**Fuzzing<sp/>Support:**</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Ideal<sp/>for<sp/>image<sp/>fuzzers<sp/>and<sp/>ICC<sp/>validation<sp/>pipelines</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🚀<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>📤<sp/>Extract<sp/>ICC<sp/>Profile</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">iccJpegDump<sp/>input.jpg<sp/>output.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Saves<sp/>the<sp/>embedded<sp/>ICC<sp/>profile<sp/>(if<sp/>any)<sp/>into<sp/>`output.icc`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>📥<sp/>Inject<sp/>ICC<sp/>Profile</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">iccJpegDump<sp/>input.jpg<sp/>--write-icc<sp/>profile.icc<sp/>--output<sp/>output.jpg</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Injects<sp/>`profile.icc`<sp/>into<sp/>the<sp/>JPEG<sp/>and<sp/>creates<sp/>`output.jpg`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>📘<sp/>Segment<sp/>Heuristics</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>🔍<sp/>`APP2`<sp/>ICC<sp/>header:<sp/>`&quot;ICC_PROFILE\0&quot;`</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>🔍<sp/>`APPx`<sp/>fallback:<sp/>scans<sp/>for<sp/>`&quot;acsp&quot;`<sp/>ICC<sp/>signature</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>🔍<sp/>Full<sp/>file<sp/>scan<sp/>if<sp/>no<sp/>standard<sp/>marker<sp/>found</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>⚠️<sp/>Known<sp/>Limitations</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Only<sp/>supports<sp/>single<sp/>`APP2`<sp/>segment<sp/>(64KB<sp/>max)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Will<sp/>not<sp/>strip<sp/>or<sp/>merge<sp/>existing<sp/>ICC<sp/>tags</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Does<sp/>not<sp/>validate<sp/>ICC<sp/>contents<sp/>or<sp/>conformance</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>✅<sp/>Reproduction<sp/>Example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Inject<sp/>ICC<sp/>Profile</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">../Build/Tools/IccJpegDump/iccJpegDump<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>xnu_image_fuzzer_non_premultiplied_alpha.jpg<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>--write-icc<sp/>sRGB_v4_ICC_preference.icc<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>--output<sp/>export.jpg</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Expected<sp/>Output:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">[INFO]<sp/>ICC<sp/>profile<sp/>successfully<sp/>injected<sp/>into:<sp/>export.jpg</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🔍<sp/>Validation<sp/>Steps</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>1.<sp/>Check<sp/>output<sp/>with<sp/>`file`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">file<sp/>export.jpg</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">export.jpg:<sp/>JPEG<sp/>image<sp/>data,<sp/>Exif<sp/>Standard:<sp/>[TIFF<sp/>image<sp/>data...],<sp/>baseline,<sp/>precision<sp/>8,<sp/>32x32,<sp/>components<sp/>3</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>2.<sp/>Inspect<sp/>with<sp/>ImageMagick</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">identify<sp/>export.jpg</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">export.jpg<sp/>JPEG<sp/>32x32<sp/>32x32+0+0<sp/>8-bit<sp/>sRGB<sp/>63054B<sp/>0.000u<sp/>0:00.001</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>3.<sp/>Compare<sp/>with<sp/>original<sp/>JPEG</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">file<sp/>xnu_image_fuzzer_non_premultiplied_alpha.jpg</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">JPEG<sp/>image<sp/>data,<sp/>JFIF<sp/>standard<sp/>1.01,<sp/>density<sp/>72x72,<sp/>baseline,<sp/>...</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>4.<sp/>Inspect<sp/>the<sp/>ICC<sp/>profile<sp/>metadata</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```bash</highlight></codeline>
+<codeline><highlight class="normal">file<sp/>sRGB_v4_ICC_preference.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">sRGB_v4_ICC_preference.icc:<sp/>color<sp/>profile<sp/>4.2,<sp/>RGB/Lab-spac<sp/>device,<sp/>60960<sp/>bytes,<sp/>2007-07-25<sp/>00:05:37,<sp/>...</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>🧰<sp/>Integration</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>AFL++,<sp/>Honggfuzz,<sp/>Radamsa<sp/>compatible</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Easily<sp/>dropped<sp/>into<sp/>PNG/JPEG/WebP<sp/>ICC<sp/>fuzzing<sp/>suites</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccJpegDump/Readme.md"/>
+  </compounddef>
+</doxygen>

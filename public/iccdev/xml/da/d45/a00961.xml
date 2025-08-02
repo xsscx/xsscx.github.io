@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="da/d45/a00961" kind="class" language="C++" prot="public">
+    <compoundname>CIccDefaultEncProfileConverter</compoundname>
+    <basecompoundref refid="df/dc6/a00949" prot="public" virt="non-virtual">IIccEncProfileConverter</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d45/a00961_1ae3018a17df6d2c2e8640cbf7d201ad97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccDefaultEncProfileConverter::CIccDefaultEncProfileConverter</definition>
+        <argsstring>()</argsstring>
+        <name>CIccDefaultEncProfileConverter</name>
+        <qualifiedname>CIccDefaultEncProfileConverter::CIccDefaultEncProfileConverter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.cpp" line="120" column="3" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="120" bodyend="120"/>
+        <referencedby refid="df/dc6/a00949_1a1068c9894ebe0ce61288ae9af0baf091" compoundref="de/d76/a00134" startline="519" endline="525">IIccEncProfileConverter::GetHandler</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41" kindref="member">icStatusEncConvert</ref></type>
+        <definition>icStatusEncConvert CIccDefaultEncProfileConverter::ConvertFromParams</definition>
+        <argsstring>(CIccProfilePtr &amp;newIcc, CIccTagStruct *pParams, icHeader *pHeader)</argsstring>
+        <name>ConvertFromParams</name>
+        <qualifiedname>CIccDefaultEncProfileConverter::ConvertFromParams</qualifiedname>
+        <reimplements refid="df/dc6/a00949_1abf6dbc95367b300db648e5fb11bf227b">ConvertFromParams</reimplements>
+        <param>
+          <type>CIccProfilePtr &amp;</type>
+          <declname>newIcc</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+          <declname>pParams</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/a00793" kindref="compound">icHeader</ref> *</type>
+          <declname>pHeader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.cpp" line="122" column="30" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="142" bodyend="515"/>
+        <references refid="dc/ddf/a00469_1ad65712072563c64157b980fb6bc9eec0" compoundref="dd/d32/a00041" startline="302" endline="345">CIccCamConverter::CIccCamConverter</references>
+        <references refid="d3/ded/a01017_1a547c6bb28f52e35d113de398914eb653" compoundref="d9/dd0/a00191" startline="3507" endline="3513">CIccTagXYZ::CIccTagXYZ</references>
+        <references refid="d5/d54/a01213_1a22396fa68e0b7a5b8d3c0aba49a32342" compoundref="dc/d87/a00032" startline="922" endline="933">CIccTagMultiProcessElement::Attach</references>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <references refid="dd/d43/a01193_1ab48227aba24bb193c81b0fd7956203f5" compoundref="dc/d87/a00032" startline="131" endline="134">CIccMultiProcessElement::Create</references>
+        <references refid="d7/dfd/a00969_1a2a2efdbfae5e8820c0dc4cdd1af691a8" compoundref="d9/dd0/a00191" startline="143" endline="146">CIccTag::Create</references>
+        <references refid="d4/dd7/a00793_1a7c78d60d4a3ab09449f504f7f2149e54" compoundref="d7/d46/a00002" startline="2050">icHeader::date</references>
+        <references refid="da/def/a00513_1aa853a4d45cda9f9542d12edf872d1b95" compoundref="d7/d46/a00002" startline="1421">icDateTimeNumber::day</references>
+        <references refid="d4/dd7/a00793_1a1f3bfb3d969d1976ee9913792496c6c5" compoundref="d7/d46/a00002" startline="2047">icHeader::deviceClass</references>
+        <references refid="d5/d5f/a00461_1a0ba5568cbe27b91f0eaa5b7f86ef80e1" compoundref="d5/dcb/a00170" startline="698" endline="707">CIccTagStruct::FindElemOfType</references>
+        <references refid="db/d28/a01133_1a9174dfe58a027b1779151dbb5bb32881" compoundref="da/d24/a00068" startline="239" endline="239">CIccTagSegmentedCurve::GetCurve</references>
+        <references refid="d5/d5f/a00461_1a3a289a5085d977f0682ea411e24b211f" compoundref="d5/dcb/a00170" startline="726" endline="739">CIccTagStruct::GetElemNumberValue</references>
+        <references refid="d0/d82/a00857_1a8caea712089acbdd830b1fa29d10aa8c" compoundref="d2/de7/a00014" startline="618" endline="618">CIccMpeMatrix::GetMatrix</references>
+        <references refid="d7/d46/a01045_1a78d5291ac0dd7b33f763fe01fa5e1659" compoundref="da/dec/a00080" startline="1085" endline="1085">CIccTagFloatNum&lt; T, Tsig &gt;::GetNumValues</references>
+        <references refid="d7/d46/a01045_1a9812a564064be775cefc79889ccc0991" compoundref="da/dec/a00080" startline="1079" endline="1079">CIccTagFloatNum&lt; T, Tsig &gt;::GetSize</references>
+        <references refid="d5/d5f/a00461_1a6c6f5239d09682b0c51a5789a6870dbe" compoundref="d1/da8/a00230" startline="168" endline="168">CIccTagStruct::GetTagStructType</references>
+        <references refid="d7/d46/a01045_1a0e690449f88e2ae8bc7dfc058380dff7" compoundref="d9/dd0/a00191" startline="6528" endline="6539">CIccTagFloatNum&lt; T, Tsig &gt;::GetValues</references>
+        <references refid="da/def/a00513_1a750a7db1ac713dfeea3c807a2f3a5a08" compoundref="d7/d46/a00002" startline="1422">icDateTimeNumber::hours</references>
+        <references refid="d7/dce/a00143_1a13c4cd8d806f06c8ca38d9098f27ccb7" compoundref="d5/db1/a00140" startline="782" endline="782">icD50XYZ</references>
+        <references refid="d7/dce/a00143_1a4a143eb09493d53cb1f7252819615498" compoundref="d5/db1/a00140" startline="545" endline="557">icDtoF</references>
+        <references refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a19b4519b7cb895153a84a87e7bc220f3" compoundref="d3/dd5/a00215" startline="79">icEncConvertBadParams</references>
+        <references refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41aa96de1f8c5f14074ffd7bfe7fe1bfd02" compoundref="d3/dd5/a00215" startline="80">icEncConvertMemoryError</references>
+        <references refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a3fed7724f564a3c845311a6694bc0b06" compoundref="d3/dd5/a00215" startline="75">icEncConvertOk</references>
+        <references refid="d7/dce/a00143_1aa1bb8385706c3c656575f0d6a4ae4d76" compoundref="d5/db1/a00140" startline="391" endline="436">icMatrixInvert3x3</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a19b39e0d70b49c0c8864ec3b5ee2f1ba" compoundref="d7/d46/a00002" startline="345">icSigAToB3Tag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab6a3ba830b4ac279851cb5674c83ce06" compoundref="d7/d46/a00002" startline="377">icSigBToA3Tag</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14a93abf7ad5341fa35b313e2ee7ba34ec8" compoundref="d7/d46/a00002" startline="752">icSigCeptAmbientWhitePointChromaticityMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14af94b192f13a4daf50e771472d543d51f" compoundref="d7/d46/a00002" startline="751">icSigCeptAmbientWhitePointLuminanceMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14aec7138ff1904062bac37c958edb2bac6" compoundref="d7/d46/a00002" startline="737">icSigCeptBluePrimaryXYZMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14aa2c93ee2653763b90cb92cf3b1faadb9" compoundref="d7/d46/a00002" startline="738">icSigCeptGreenPrimaryXYZMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14a793d2bc3a4f33548974a8f3e2320c9b1" compoundref="d7/d46/a00002" startline="741">icSigCeptInverseTransferFunctionMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14a1f5de26d3a494dbc842793cca8c5fb0e" compoundref="d7/d46/a00002" startline="742">icSigCeptLumaChromaMatrixMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14a4799a423c14d355edc33414ca121ec05" compoundref="d7/d46/a00002" startline="756">icSigCeptMediumWhitePointChromaticityMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14a605b33922b45a1d1296900eb272dd246" compoundref="d7/d46/a00002" startline="739">icSigCeptRedPrimaryXYZMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14a92ef9e4360da6a446e7e56317d21ff19" compoundref="d7/d46/a00002" startline="740">icSigCeptTransferFunctionMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14a1f0e4a4094cf488a82fcc51d67771428" compoundref="d7/d46/a00002" startline="749">icSigCeptViewingSurroundMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14ab0f2f32b8bbc3ea4ad768f0bc4d4b4e7" compoundref="d7/d46/a00002" startline="744">icSigCeptWhitePointChromaticityMbr</references>
+        <references refid="d7/d46/a00002_1a1e275ac533cb85ae99a5b77fdc57bb14a3db6d607f2cc7995598c0b7a2ec28c80" compoundref="d7/d46/a00002" startline="743">icSigCeptWhitePointLuminanceMbr</references>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614aec4f285d26e277b240e699d8b8a4be15" compoundref="d7/d46/a00002" startline="601">icSigColorEncodingParamsSruct</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da4b1b08661df62c97b297732003d151b7" compoundref="d7/d46/a00002" startline="643">icSigCurveSetElemType</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a662ca2cfa42f6413cbb3340c1e2906de" compoundref="d7/d46/a00002" startline="394">icSigCustomToStandardPccTag</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a3146ff32df49a9a0515afa2d3da30a14" compoundref="d7/d46/a00002" startline="953">icSigDisplayClass</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae17f065e92dd0ee43aeef1f18c6e0db0" compoundref="d7/d46/a00002" startline="541">icSigFloat32ArrayType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da966ed281a33416c3e9538c0431a0654b" compoundref="d7/d46/a00002" startline="652">icSigJabToXYZElemType</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da9f1d5e498c47af2a0e0be3fa029970fe" compoundref="d7/d46/a00002" startline="644">icSigMatrixElemType</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aa000d29d0c1e0b2ed0fa49651a5efd26" compoundref="d7/d46/a00002" startline="439">icSigMediaWhitePointTag</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea81b933efd50884a057a280227c481" compoundref="d7/d46/a00002" startline="550">icSigMultiProcessElementType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea04e63b1627159eae67b6712d838c807f" compoundref="d7/d46/a00002" startline="558">icSigSegmentedCurveType</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a04ad166213f82cc83838f0afcc606346" compoundref="d7/d46/a00002" startline="470">icSigSpectralViewingConditionsTag</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaaacb8b955fce4e2e8ae7db86c7392eb9" compoundref="d7/d46/a00002" startline="561">icSigSpectralViewingConditionsType</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ad00966f5d7a65b7d2da7d09000f339d7" compoundref="d7/d46/a00002" startline="471">icSigStandardToCustomPccTag</references>
+        <references refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4da8eabe39cdaa93980c8d1a8874425b697" compoundref="d7/d46/a00002" startline="651">icSigXYZToJabElemType</references>
+        <references refid="de/d76/a00134_1a109884e430b3c2b9af36b33b5ab58a33" compoundref="de/d76/a00134" startline="135" endline="140">icYxy2XYZVector</references>
+        <references refid="d4/dd7/a00793_1a0af1ab741fa85545aa1852158d09a644" compoundref="d7/d46/a00002" startline="2058">icHeader::illuminant</references>
+        <references refid="d8/dbf/a01109_1a8c287dcd61abd831fcef0dbd0d8322c4" compoundref="da/dec/a00080" startline="1727">CIccTagSpectralViewingConditions::m_illuminantXYZ</references>
+        <references refid="d8/dbf/a01109_1a5451851100bc1f7b5e78cef6eec7e775" compoundref="da/dec/a00080" startline="1728">CIccTagSpectralViewingConditions::m_surroundXYZ</references>
+        <references refid="da/def/a00513_1a263e022871eed8cc62e3d35140d1a0bc" compoundref="d7/d46/a00002" startline="1423">icDateTimeNumber::minutes</references>
+        <references refid="da/def/a00513_1a208ea2fce0a9c7e72c3c06d5cbb43274" compoundref="d7/d46/a00002" startline="1420">icDateTimeNumber::month</references>
+        <references refid="d1/dea/a00829_1ad8de274085c19cff65b10e4113b53817" compoundref="d2/de7/a00014" startline="254" endline="254">CIccSegmentedCurve::NewCopy</references>
+        <references refid="d0/d82/a00857_1ad7ac6c0e20d5f0151c628b8c3293a6f1" compoundref="d2/de7/a00014" startline="605" endline="605">CIccMpeMatrix::NewCopy</references>
+        <references refid="dc/ddf/a00469_1a5d621d6d4d8298a0acbc73a7543b6286" compoundref="dd/d32/a00041" startline="636" endline="668">CIccCamConverter::operator=</references>
+        <references refid="d7/d46/a01045_1a2eca13deb4d8bf0706b94d41d629cafd" compoundref="da/dec/a00080" startline="1076" endline="1076">CIccTagFloatNum&lt; T, Tsig &gt;::operator[]</references>
+        <references refid="d3/ded/a01017_1a9e3ad2d132e6bd5e12c1c27cbe3c6140" compoundref="da/dec/a00080" startline="686" endline="686">CIccTagXYZ::operator[]</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <references refid="da/def/a00513_1a455c54212545ed44d29e800c62596c1c" compoundref="d7/d46/a00002" startline="1424">icDateTimeNumber::seconds</references>
+        <references refid="d9/d22/a00873_1a2fce749fefc4df4d90c82735543fccd2" compoundref="d6/d2d/a00047" startline="6220" endline="6225">CIccMpeCAM::SetCAM</references>
+        <references refid="d5/d54/a01213_1a99e1b408c3a11cc4281b15eaf0272e88" compoundref="d7/d25/a00182" startline="396" endline="396">CIccTagMultiProcessElement::SetChannels</references>
+        <references refid="d5/dac/a00841_1aa48a840e618570c5dab5535288fe85a6" compoundref="d6/d2d/a00047" startline="3152" endline="3174">CIccMpeCurveSet::SetCurve</references>
+        <references refid="d8/dbf/a01109_1ad6c4b67977c33b91722510802232c35f" compoundref="d9/dd0/a00191" startline="11451" endline="11481">CIccTagSpectralViewingConditions::setIlluminant</references>
+        <references refid="dc/ddf/a00469_1a7e311fec359da8f006d5d355e0b61cb8" compoundref="dd/d32/a00041" startline="393" endline="397">CIccCamConverter::SetParameter_C</references>
+        <references refid="dc/ddf/a00469_1a5745336e9bd9def6164a0048316aba47" compoundref="dd/d32/a00041" startline="411" endline="415">CIccCamConverter::SetParameter_F</references>
+        <references refid="dc/ddf/a00469_1a516ccb5edb55d757569accf9ebf88de5" compoundref="dd/d32/a00041" startline="375" endline="379">CIccCamConverter::SetParameter_La</references>
+        <references refid="dc/ddf/a00469_1a30b79740553c8f7861330b14ca6596e2" compoundref="dd/d32/a00041" startline="402" endline="406">CIccCamConverter::SetParameter_Nc</references>
+        <references refid="dc/ddf/a00469_1af57315ea4ba7f29d9b97d4bfdb0e2df1" compoundref="dd/d32/a00041" startline="364" endline="370">CIccCamConverter::SetParameter_WhitePoint</references>
+        <references refid="dc/ddf/a00469_1aeeabbc31d25cb8797dedc4dbdbfabb99" compoundref="dd/d32/a00041" startline="384" endline="388">CIccCamConverter::SetParameter_Yb</references>
+        <references refid="d0/d82/a00857_1aa7b2a7454eb559f5b0c39e619f028db2" compoundref="d6/d2d/a00047" startline="4950" endline="4980">CIccMpeMatrix::SetSize</references>
+        <references refid="d3/ded/a01017_1a23c4821cbb8258ffa16b4debcfabbbb1" compoundref="d9/dd0/a00191" startline="3699" endline="3717">CIccTagXYZ::SetSize</references>
+        <references refid="d5/dac/a00841_1a5a96ee289523de2553ad603286b0d4a6" compoundref="d6/d2d/a00047" startline="3096" endline="3140">CIccMpeCurveSet::SetSize</references>
+        <references refid="d8/dc7/a00517_1a8a82647ad953c198665aee9e3b659ea7" compoundref="d7/d46/a00002" startline="1429">icXYZNumber::X</references>
+        <references refid="d7/db7/a00525_1ae66932e46d116e7c5f3e26cb8ea99640" compoundref="d7/d46/a00002" startline="1441">icFloatXYZNumber::X</references>
+        <references refid="d8/dc7/a00517_1a3e75b8d208a5e4c55eac077643bc7689" compoundref="d7/d46/a00002" startline="1430">icXYZNumber::Y</references>
+        <references refid="d7/db7/a00525_1a91536390a8df347f89972fa23560d7cc" compoundref="d7/d46/a00002" startline="1442">icFloatXYZNumber::Y</references>
+        <references refid="da/def/a00513_1a1c28dcfa33b3bba180c5abebd74a29ef" compoundref="d7/d46/a00002" startline="1419">icDateTimeNumber::year</references>
+        <references refid="d8/dc7/a00517_1a8753b09e8d550ace7d30a0af5d0e7ab3" compoundref="d7/d46/a00002" startline="1431">icXYZNumber::Z</references>
+        <references refid="d7/db7/a00525_1a632b9e5a29d766deed2992c7e1da45d9" compoundref="d7/d46/a00002" startline="1443">icFloatXYZNumber::Z</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="df/dc6/a00949_1a1068c9894ebe0ce61288ae9af0baf091" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/dc6/a00949" kindref="compound">IIccEncProfileConverter</ref> *</type>
+        <definition>IIccEncProfileConverter * IIccEncProfileConverter::GetHandler</definition>
+        <argsstring>()</argsstring>
+        <name>GetHandler</name>
+        <qualifiedname>IIccEncProfileConverter::GetHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="101" column="34" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="519" bodyend="525"/>
+        <references refid="da/d45/a00961_1ae3018a17df6d2c2e8640cbf7d201ad97" compoundref="de/d76/a00134" startline="120" endline="120">CIccDefaultEncProfileConverter</references>
+        <references refid="de/d76/a00134_1a5e043c8906c269e2d4dcc58003012252" compoundref="de/d76/a00134" startline="517">g_pEncProfileConverter</references>
+        <referencedby refid="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" compoundref="de/d76/a00134" startline="538" endline="604">icConvertEncodingProfile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/dc6/a00949_1a07a6a126667287ae1047817a4ea23752" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IIccEncProfileConverter::SetEncProfileConverter</definition>
+        <argsstring>(IIccEncProfileConverter *pConverter)</argsstring>
+        <name>SetEncProfileConverter</name>
+        <qualifiedname>IIccEncProfileConverter::SetEncProfileConverter</qualifiedname>
+        <param>
+          <type><ref refid="df/dc6/a00949" kindref="compound">IIccEncProfileConverter</ref> *</type>
+          <declname>pConverter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="102" column="15" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="527" bodyend="535"/>
+        <references refid="de/d76/a00134_1a5e043c8906c269e2d4dcc58003012252" compoundref="de/d76/a00134" startline="517">g_pEncProfileConverter</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccDefaultEncProfileConverter</label>
+        <link refid="da/d45/a00961"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccEncProfileConverter</label>
+        <link refid="df/dc6/a00949"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccDefaultEncProfileConverter</label>
+        <link refid="da/d45/a00961"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccEncProfileConverter</label>
+        <link refid="df/dc6/a00949"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccEncoding.cpp" line="117" column="1" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="118" bodyend="123"/>
+    <listofallmembers>
+      <member refid="da/d45/a00961_1ae3018a17df6d2c2e8640cbf7d201ad97" prot="public" virt="non-virtual"><scope>CIccDefaultEncProfileConverter</scope><name>CIccDefaultEncProfileConverter</name></member>
+      <member refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" prot="public" virt="virtual"><scope>CIccDefaultEncProfileConverter</scope><name>ConvertFromParams</name></member>
+      <member refid="df/dc6/a00949_1a1068c9894ebe0ce61288ae9af0baf091" prot="public" virt="non-virtual"><scope>CIccDefaultEncProfileConverter</scope><name>GetHandler</name></member>
+      <member refid="df/dc6/a00949_1a07a6a126667287ae1047817a4ea23752" prot="public" virt="non-virtual"><scope>CIccDefaultEncProfileConverter</scope><name>SetEncProfileConverter</name></member>
+      <member refid="df/dc6/a00949_1a1be3368a383701494ddc83478462657c" prot="public" virt="virtual"><scope>CIccDefaultEncProfileConverter</scope><name>~IIccEncProfileConverter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

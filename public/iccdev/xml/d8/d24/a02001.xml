@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/d24/a02001" kind="class" language="C++" prot="public">
+    <compoundname>CIccSegmentedCurveXml</compoundname>
+    <basecompoundref refid="d1/dea/a00829" prot="public" virt="non-virtual">CIccSegmentedCurve</basecompoundref>
+    <includes refid="d7/d40/a00236" local="no">IccMpeXml.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/dea/a00829_1acb0c91fdb62ba6d0dd3c197387f14999" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccSegmentedCurve::Apply</definition>
+        <argsstring>(icFloatNumber v) const</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccSegmentedCurve::Apply</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a6e86a66fdf66a94c4c485923ad0bb336">Apply</reimplements>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d1/dea/a00829_1acb0c91fdb62ba6d0dd3c197387f14999" kindref="member">CIccSegmentedCurve::Apply</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="269" column="25" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2883" bodyend="2892"/>
+        <references refid="de/d9d/a00813_1afdc79f5b9d2f0df93ebadd8004db94d2">CIccCurveSegment::Apply</references>
+        <references refid="de/d9d/a00813_1a3c0f15b03cf644c15a14ac7cdb633026" compoundref="d2/de7/a00014" startline="116" endline="116">CIccCurveSegment::EndPoint</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <referencedby refid="db/d28/a01133_1afd5d103ce1f2828f7a750b9460827b60" compoundref="d4/d3e/a00116" startline="1351" endline="1357">CIccTagSegmentedCurve::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1a33ed9e29f2913e39a3fd9787f76680c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccSegmentedCurve::Begin</definition>
+        <argsstring>(icElemInterp nInterp, CIccTagMultiProcessElement *pMPE)</argsstring>
+        <name>Begin</name>
+        <qualifiedname>CIccSegmentedCurve::Begin</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a8c47418576c002142ff11a7d0581a65d">Begin</reimplements>
+        <param>
+          <type><ref refid="d7/d25/a00182_1ac2d11f72d4c98d21c3b2ca1509a52ee8" kindref="member">icElemInterp</ref></type>
+          <declname>nInterp</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d1/dea/a00829_1a33ed9e29f2913e39a3fd9787f76680c0" kindref="member">CIccSegmentedCurve::Begin</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="268" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2855" bodyend="2870"/>
+        <references refid="de/d9d/a00813_1ae92c96fd2197f674ba19abb8d715aa7b">CIccCurveSegment::Begin</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <referencedby refid="db/d28/a01133_1a201083422881c9b398ceecf92d6a8404" compoundref="d4/d3e/a00116" startline="1337" endline="1341">CIccTagSegmentedCurve::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1a3e345f686d0738a291fe28cbfe69d127" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccSegmentedCurve::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccSegmentedCurve::Describe</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1ab8e27594debe7cdefed3de3cee800d9a">Describe</reimplements>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d1/dea/a00829_1a3e345f686d0738a291fe28cbfe69d127" kindref="member">CIccSegmentedCurve::Describe</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="260" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2610" bodyend="2618"/>
+        <references refid="de/d9d/a00813_1a1eaa4c654225576bbbd76cfa7fea87b8">CIccCurveSegment::Describe</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <referencedby refid="db/d28/a01133_1a4a0017b1ebc31d1b788dbfbabe9d7180" compoundref="d4/d3e/a00116" startline="1248" endline="1256">CIccTagSegmentedCurve::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1a70ae179f296b5b05018c0056689569fc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccSegmentedCurve::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccSegmentedCurve::GetClassName</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a52f1af60750229fe27a16e7c5e393de1">GetClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="258" column="24" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="258" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1a05853fbbddd298123331859e16704eb9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821" kindref="member">icCurveElemSignature</ref></type>
+        <definition>virtual icCurveElemSignature CIccSegmentedCurve::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccSegmentedCurve::GetType</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1abcb92b6265cfc65e110c293be393960d">GetType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="257" column="32" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="257" bodyend="257"/>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821a363bbdea01b1917a02c55c4b389050a7" compoundref="d7/d46/a00002" startline="1057">icSigSegmentedCurve</references>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6" compoundref="d6/d2d/a00047" startline="2904" endline="2931">CIccSegmentedCurve::Validate</referencedby>
+        <referencedby refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" compoundref="d6/d2d/a00047" startline="2754" endline="2792">CIccSegmentedCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1a8486637433482f5e22cb19e67a53b4a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccSegmentedCurve::Insert</definition>
+        <argsstring>(CIccCurveSegment *pCurveSegment)</argsstring>
+        <name>Insert</name>
+        <qualifiedname>CIccSegmentedCurve::Insert</qualifiedname>
+        <param>
+          <type><ref refid="de/d9d/a00813" kindref="compound">CIccCurveSegment</ref> *</type>
+          <declname>pCurveSegment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d1/dea/a00829_1a8486637433482f5e22cb19e67a53b4a3" kindref="member">CIccSegmentedCurve::Insert</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="266" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2826" bodyend="2842"/>
+        <references refid="de/d9d/a00813_1a3c0f15b03cf644c15a14ac7cdb633026" compoundref="d2/de7/a00014" startline="116" endline="116">CIccCurveSegment::EndPoint</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <references refid="de/d9d/a00813_1a4c6123fe1f737bc92c43f43779bdd502" compoundref="d2/de7/a00014" startline="115" endline="115">CIccCurveSegment::StartPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1ad8de274085c19cff65b10e4113b53817" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="dd/d5f/a00825" kindref="compound">CIccCurveSetCurve</ref> *</type>
+        <definition>virtual CIccCurveSetCurve * CIccSegmentedCurve::NewCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccSegmentedCurve::NewCopy</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1ae703a90b768698cd86090fb1345b09d5">NewCopy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="254" column="29" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="254" bodyend="254"/>
+        <references refid="d1/dea/a00829_1ab1115b4a0ce6d024505f03761e3f4f85" compoundref="d6/d2d/a00047" startline="2543" endline="2554">CIccSegmentedCurve::CIccSegmentedCurve</references>
+        <referencedby refid="db/d28/a01133_1a072b05b46bd27baf9d2d68db1607efb3" compoundref="d4/d3e/a00116" startline="1194" endline="1200">CIccTagSegmentedCurve::CIccTagSegmentedCurve</referencedby>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="db/d28/a01133_1a10b77fbfa3149852e97a841c08c7820e" compoundref="d4/d3e/a00116" startline="1210" endline="1224">CIccTagSegmentedCurve::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d24/a02001_1a2bc340753a906c5ac56b9c546359f436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccSegmentedCurveXml::ParseXml</definition>
+        <argsstring>(xmlNode *pNode, std::string &amp;parseStr)</argsstring>
+        <name>ParseXml</name>
+        <qualifiedname>CIccSegmentedCurveXml::ParseXml</qualifiedname>
+        <param>
+          <type>xmlNode *</type>
+          <declname>pNode</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>parseStr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="105" column="8" bodyfile="IccXML/IccLibXML/IccMpeXml.cpp" bodystart="986" bodyend="1021"/>
+        <references refid="d4/dc6/a01793_1a036b642f8a5b2a5fd264ddef845337f6" compoundref="dd/dd7/a00260" startline="130" endline="130">CIccFormulaCurveSegmentXml::CIccFormulaCurveSegmentXml</references>
+        <references refid="d4/dd1/a01797_1a1f1f0a6f425ac53a9d0adc5615350002" compoundref="dd/dd7/a00260" startline="261" endline="261">CIccSampledCurveSegmentXml::CIccSampledCurveSegmentXml</references>
+        <references refid="dd/dd7/a00260_1af57ced646c8016d5b135bd0fb2e47dd4" compoundref="dd/dd7/a00260" startline="148" endline="158">icGetSegPos</references>
+        <references refid="d9/d39/a00257_1a459e22a536debe98c547657efa20b5ca" compoundref="d5/d35/a00266" startline="580" endline="587">icXmlAttrValue</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <references refid="d4/dc6/a01793_1acb3c0c9f73139cd186a0d7fd43c3669e" compoundref="dd/dd7/a00260" startline="193" endline="255">CIccFormulaCurveSegmentXml::ParseXml</references>
+        <references refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</references>
+        <referencedby refid="d9/d17/a01937_1a00dfc958c87aaf5c7840028fbba29959" compoundref="d0/d27/a00239" startline="3077" endline="3098">CIccTagXmlSegmentedCurve::ParseXml</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a24c7425edeae7243fd1281274f7dfd59" compoundref="dd/dd7/a00260" startline="1087" endline="1123">ParseXmlCurve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccSegmentedCurve::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccSegmentedCurve::Read</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a996d74980740d4f3159ab10965e2f793">Read</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" kindref="member">CIccSegmentedCurve::Read</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="262" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2632" bodyend="2741"/>
+        <references refid="de/d9d/a00813_1ac797e1107b3180a904006511d695a485" compoundref="d6/d2d/a00047" startline="2501" endline="2512">CIccCurveSegment::Create</references>
+        <references refid="d1/dea/a00829_1a05853fbbddd298123331859e16704eb9" compoundref="d2/de7/a00014" startline="257" endline="257">CIccSegmentedCurve::GetType</references>
+        <references refid="df/d6a/a00119_1af6770b40ac8178ba561dedeea867ae17a3b7b6e37e81aceaf14f0946926fac503" compoundref="df/d6a/a00119" startline="83">icSeekSet</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <references refid="d1/dea/a00829_1aa40405ae8acbadbdd5e1a3668bc7383f" compoundref="d2/de7/a00014" startline="274">CIccSegmentedCurve::m_nReserved1</references>
+        <references refid="d1/dea/a00829_1a074003cffee574a4644ffa06a9235d48" compoundref="d2/de7/a00014" startline="275">CIccSegmentedCurve::m_nReserved2</references>
+        <references refid="de/d9d/a00813_1a661689fb0016da4558e6f08505cee7b8">CIccCurveSegment::Read</references>
+        <references refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">CIccIO::Read16</references>
+        <references refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">CIccIO::Read32</references>
+        <references refid="dc/d2c/a00893_1a1399dc6dcf7aefe36b78ad96fc117d17" compoundref="d9/d2e/a00056" startline="302" endline="319">CIccIO::ReadFloat32Float</references>
+        <references refid="d1/dea/a00829_1a704b25537e4eeafe980d8d3ad3126ebf" compoundref="d6/d2d/a00047" startline="2805" endline="2813">CIccSegmentedCurve::Reset</references>
+        <references refid="dc/d2c/a00893_1a970eef37fff95838dabecc0a1b30de55" compoundref="df/d6a/a00119" startline="132" endline="132">CIccIO::Seek</references>
+        <references refid="dc/d2c/a00893_1a601e3908896710a0b8d3840df02e398f" compoundref="df/d6a/a00119" startline="133" endline="133">CIccIO::Tell</references>
+        <referencedby refid="db/d28/a01133_1a62b6d48c93f0573fc254b402a437f4cf" compoundref="d4/d3e/a00116" startline="1284" endline="1295">CIccTagSegmentedCurve::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1a704b25537e4eeafe980d8d3ad3126ebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccSegmentedCurve::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <qualifiedname>CIccSegmentedCurve::Reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d1/dea/a00829_1a704b25537e4eeafe980d8d3ad3126ebf" kindref="member">CIccSegmentedCurve::Reset</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="265" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2805" bodyend="2813"/>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <referencedby refid="d1/dea/a00829_1a07bd1276571f7b7cb4a17e5f9f87f5ac" compoundref="d6/d2d/a00047" startline="2593" endline="2597">CIccSegmentedCurve::~CIccSegmentedCurve</referencedby>
+        <referencedby refid="d1/dea/a00829_1a15bef96e0cc19508a80a6f08b837c67f" compoundref="d6/d2d/a00047" startline="2567" endline="2580">CIccSegmentedCurve::operator=</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d24/a02001_1ab1fc0f80a377b5eb7875e6ac1682af3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccSegmentedCurveXml::ToXml</definition>
+        <argsstring>(std::string &amp;xml, std::string blanks)</argsstring>
+        <name>ToXml</name>
+        <qualifiedname>CIccSegmentedCurveXml::ToXml</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>blanks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccMpeXml.h" line="104" column="8" bodyfile="IccXML/IccLibXML/IccMpeXml.cpp" bodystart="964" bodyend="983"/>
+        <references refid="de/d9d/a00813_1a00a35aa106a9fcfabf6e4d9831a2142b">CIccCurveSegment::GetType</references>
+        <references refid="d7/d46/a00002_1a440d01b173c2db6e130ad72c45931fddaeb604c0a5ad3535642198255610b4d2c" compoundref="d7/d46/a00002" startline="1046">icSigFormulaCurveSeg</references>
+        <references refid="d7/d46/a00002_1a440d01b173c2db6e130ad72c45931fddab1b7022de1bc3704039a88d717367c43" compoundref="d7/d46/a00002" startline="1047">icSigSampledCurveSeg</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <references refid="d4/dc6/a01793_1a1ead55b5ddccf6630233f38794724636" compoundref="dd/dd7/a00260" startline="161" endline="190">CIccFormulaCurveSegmentXml::ToXml</references>
+        <references refid="d4/dd1/a01797_1a80f565238b55483b220cc3bfb5528250" compoundref="dd/dd7/a00260" startline="267" endline="283">CIccSampledCurveSegmentXml::ToXml</references>
+        <referencedby refid="d9/d17/a01937_1a83d7b02083d56a963254256e31d138b1" compoundref="d0/d27/a00239" startline="3062" endline="3068">CIccTagXmlSegmentedCurve::ToXml</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a93b5b044171cd5f4bab2f05b51e63419" compoundref="dd/dd7/a00260" startline="1024" endline="1048">ToXmlCurve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccSegmentedCurve::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccTagMultiProcessElement *pMPE=NULL, const CIccProfile *pProfile=NULL) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccSegmentedCurve::Validate</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1a7c51821c5dd071c6bf87c7a47a3523fc">Validate</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d54/a01213" kindref="compound">CIccTagMultiProcessElement</ref> *</type>
+          <declname>pMPE</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6" kindref="member">CIccSegmentedCurve::Validate</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="270" column="28" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2904" bodyend="2931"/>
+        <references refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">CIccInfo::GetSigPathName</references>
+        <references refid="d1/dea/a00829_1a05853fbbddd298123331859e16704eb9" compoundref="d2/de7/a00014" startline="257" endline="257">CIccSegmentedCurve::GetType</references>
+        <references refid="d7/dce/a00143_1a727228588cfea91008a4adc62acbe471" compoundref="d5/db1/a00140" startline="1191" endline="1199">icGetSigPath</references>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1aa1bd59040ac26f5314f409e295cf9162" compoundref="d5/db1/a00140" startline="92">icMsgValidateCriticalError</references>
+        <references refid="d7/dce/a00143_1a96f185a7e8c155604a95848b2c9f4d2f" compoundref="d5/db1/a00140" startline="90">icMsgValidateWarning</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a371bf9a02d77f4dd8f339b4f4fff51c3" compoundref="d4/d81/a00110" startline="122">icValidateCriticalError</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a28bebc69f605af2c45812f342b3b3f74" compoundref="d4/d81/a00110" startline="120">icValidateWarning</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <references refid="d1/dea/a00829_1aa40405ae8acbadbdd5e1a3668bc7383f" compoundref="d2/de7/a00014" startline="274">CIccSegmentedCurve::m_nReserved1</references>
+        <references refid="d1/dea/a00829_1a074003cffee574a4644ffa06a9235d48" compoundref="d2/de7/a00014" startline="275">CIccSegmentedCurve::m_nReserved2</references>
+        <references refid="de/d9d/a00813_1a6a3fa30bbe0c5b224146eec204a850db">CIccCurveSegment::Validate</references>
+        <referencedby refid="db/d28/a01133_1a0edf35a32e3aba06b36533005713b4e3" compoundref="d4/d3e/a00116" startline="1367" endline="1376">CIccTagSegmentedCurve::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccSegmentedCurve::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccSegmentedCurve::Write</qualifiedname>
+        <reimplements refid="dd/d5f/a00825_1abc1bb9e4df746a2e84ff41193aa59b74">Write</reimplements>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" kindref="member">CIccSegmentedCurve::Write</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="263" column="16" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2754" bodyend="2792"/>
+        <references refid="d1/dea/a00829_1a05853fbbddd298123331859e16704eb9" compoundref="d2/de7/a00014" startline="257" endline="257">CIccSegmentedCurve::GetType</references>
+        <references refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" compoundref="d2/de7/a00014" startline="273">CIccSegmentedCurve::m_list</references>
+        <references refid="d1/dea/a00829_1aa40405ae8acbadbdd5e1a3668bc7383f" compoundref="d2/de7/a00014" startline="274">CIccSegmentedCurve::m_nReserved1</references>
+        <references refid="d1/dea/a00829_1a074003cffee574a4644ffa06a9235d48" compoundref="d2/de7/a00014" startline="275">CIccSegmentedCurve::m_nReserved2</references>
+        <references refid="de/d9d/a00813_1a4c6123fe1f737bc92c43f43779bdd502" compoundref="d2/de7/a00014" startline="115" endline="115">CIccCurveSegment::StartPoint</references>
+        <references refid="de/d9d/a00813_1ac63c757635df451115bc198544520073">CIccCurveSegment::Write</references>
+        <references refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" compoundref="d9/d2e/a00056" startline="122" endline="141">CIccIO::Write16</references>
+        <references refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" compoundref="d9/d2e/a00056" startline="152" endline="171">CIccIO::Write32</references>
+        <references refid="dc/d2c/a00893_1a9f55b95a792f5aa4353739c49f8952ee" compoundref="d9/d2e/a00056" startline="321" endline="339">CIccIO::WriteFloat32Float</references>
+        <referencedby refid="db/d28/a01133_1a6f9b4e9f2d1f5fa7ff98d5b4580623d2" compoundref="d4/d3e/a00116" startline="1305" endline="1311">CIccTagSegmentedCurve::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" prot="protected" static="no" mutable="no">
+        <type><ref refid="d2/de7/a00014_1a2ed31fb64d2dc1f71e8b09a40378a63b" kindref="member">CIccCurveSegmentList</ref> *</type>
+        <definition>CIccCurveSegmentList* CIccSegmentedCurve::m_list</definition>
+        <argsstring></argsstring>
+        <name>m_list</name>
+        <qualifiedname>CIccSegmentedCurve::m_list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="273" column="24" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="273" bodyend="-1"/>
+        <referencedby refid="d1/dea/a00829_1af9d0cb7c5f0fd4f00d548631007b9d02" compoundref="d6/d2d/a00047" startline="2524" endline="2530">CIccSegmentedCurve::CIccSegmentedCurve</referencedby>
+        <referencedby refid="d1/dea/a00829_1ab1115b4a0ce6d024505f03761e3f4f85" compoundref="d6/d2d/a00047" startline="2543" endline="2554">CIccSegmentedCurve::CIccSegmentedCurve</referencedby>
+        <referencedby refid="d1/dea/a00829_1a07bd1276571f7b7cb4a17e5f9f87f5ac" compoundref="d6/d2d/a00047" startline="2593" endline="2597">CIccSegmentedCurve::~CIccSegmentedCurve</referencedby>
+        <referencedby refid="d1/dea/a00829_1acb0c91fdb62ba6d0dd3c197387f14999" compoundref="d6/d2d/a00047" startline="2883" endline="2892">CIccSegmentedCurve::Apply</referencedby>
+        <referencedby refid="d1/dea/a00829_1a33ed9e29f2913e39a3fd9787f76680c0" compoundref="d6/d2d/a00047" startline="2855" endline="2870">CIccSegmentedCurve::Begin</referencedby>
+        <referencedby refid="d1/dea/a00829_1a3e345f686d0738a291fe28cbfe69d127" compoundref="d6/d2d/a00047" startline="2610" endline="2618">CIccSegmentedCurve::Describe</referencedby>
+        <referencedby refid="d1/dea/a00829_1a8486637433482f5e22cb19e67a53b4a3" compoundref="d6/d2d/a00047" startline="2826" endline="2842">CIccSegmentedCurve::Insert</referencedby>
+        <referencedby refid="d1/dea/a00829_1a15bef96e0cc19508a80a6f08b837c67f" compoundref="d6/d2d/a00047" startline="2567" endline="2580">CIccSegmentedCurve::operator=</referencedby>
+        <referencedby refid="d8/d24/a02001_1a2bc340753a906c5ac56b9c546359f436" compoundref="dd/dd7/a00260" startline="986" endline="1021">ParseXml</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="d1/dea/a00829_1a704b25537e4eeafe980d8d3ad3126ebf" compoundref="d6/d2d/a00047" startline="2805" endline="2813">CIccSegmentedCurve::Reset</referencedby>
+        <referencedby refid="d8/d24/a02001_1ab1fc0f80a377b5eb7875e6ac1682af3f" compoundref="dd/dd7/a00260" startline="964" endline="983">ToXml</referencedby>
+        <referencedby refid="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6" compoundref="d6/d2d/a00047" startline="2904" endline="2931">CIccSegmentedCurve::Validate</referencedby>
+        <referencedby refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" compoundref="d6/d2d/a00047" startline="2754" endline="2792">CIccSegmentedCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dea/a00829_1aa40405ae8acbadbdd5e1a3668bc7383f" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccSegmentedCurve::m_nReserved1</definition>
+        <argsstring></argsstring>
+        <name>m_nReserved1</name>
+        <qualifiedname>CIccSegmentedCurve::m_nReserved1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="274" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="274" bodyend="-1"/>
+        <referencedby refid="d1/dea/a00829_1af9d0cb7c5f0fd4f00d548631007b9d02" compoundref="d6/d2d/a00047" startline="2524" endline="2530">CIccSegmentedCurve::CIccSegmentedCurve</referencedby>
+        <referencedby refid="d1/dea/a00829_1ab1115b4a0ce6d024505f03761e3f4f85" compoundref="d6/d2d/a00047" startline="2543" endline="2554">CIccSegmentedCurve::CIccSegmentedCurve</referencedby>
+        <referencedby refid="d1/dea/a00829_1a15bef96e0cc19508a80a6f08b837c67f" compoundref="d6/d2d/a00047" startline="2567" endline="2580">CIccSegmentedCurve::operator=</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6" compoundref="d6/d2d/a00047" startline="2904" endline="2931">CIccSegmentedCurve::Validate</referencedby>
+        <referencedby refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" compoundref="d6/d2d/a00047" startline="2754" endline="2792">CIccSegmentedCurve::Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dea/a00829_1a074003cffee574a4644ffa06a9235d48" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccSegmentedCurve::m_nReserved2</definition>
+        <argsstring></argsstring>
+        <name>m_nReserved2</name>
+        <qualifiedname>CIccSegmentedCurve::m_nReserved2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="275" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="275" bodyend="-1"/>
+        <referencedby refid="d1/dea/a00829_1af9d0cb7c5f0fd4f00d548631007b9d02" compoundref="d6/d2d/a00047" startline="2524" endline="2530">CIccSegmentedCurve::CIccSegmentedCurve</referencedby>
+        <referencedby refid="d1/dea/a00829_1ab1115b4a0ce6d024505f03761e3f4f85" compoundref="d6/d2d/a00047" startline="2543" endline="2554">CIccSegmentedCurve::CIccSegmentedCurve</referencedby>
+        <referencedby refid="d1/dea/a00829_1a15bef96e0cc19508a80a6f08b837c67f" compoundref="d6/d2d/a00047" startline="2567" endline="2580">CIccSegmentedCurve::operator=</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6" compoundref="d6/d2d/a00047" startline="2904" endline="2931">CIccSegmentedCurve::Validate</referencedby>
+        <referencedby refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" compoundref="d6/d2d/a00047" startline="2754" endline="2792">CIccSegmentedCurve::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d5f/a00825" kindref="compound">CIccCurveSetCurve</ref> *</type>
+        <definition>CIccCurveSetCurve * CIccCurveSetCurve::Create</definition>
+        <argsstring>(icCurveElemSignature sig)</argsstring>
+        <name>Create</name>
+        <qualifiedname>CIccCurveSetCurve::Create</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821" kindref="member">icCurveElemSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" kindref="member">CIccCurveSetCurve::Create</ref></para>
+<para>Purpose:</para>
+<para>Args:</para>
+<para>Return: </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="219" column="28" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="2944" bodyend="2956"/>
+        <references refid="d1/de6/a00837_1a3118873be68554c684e3d90a7992898d" compoundref="d6/d2d/a00047" startline="1883" endline="1908">CIccSampledCalculatorCurve::CIccSampledCalculatorCurve</references>
+        <references refid="d1/dea/a00829_1af9d0cb7c5f0fd4f00d548631007b9d02" compoundref="d6/d2d/a00047" startline="2524" endline="2530">CIccSegmentedCurve::CIccSegmentedCurve</references>
+        <references refid="dc/d6e/a00833_1a9be28c430dc4aadc65862e2f3325e6dc" compoundref="d6/d2d/a00047" startline="1262" endline="1286">CIccSingleSampledCurve::CIccSingleSampledCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821ac48b1ac8f84255804cbe32704b1c5af6" compoundref="d7/d46/a00002" startline="1059">icSigSampledCalculatorCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821a363bbdea01b1917a02c55c4b389050a7" compoundref="d7/d46/a00002" startline="1057">icSigSegmentedCurve</references>
+        <references refid="d7/d46/a00002_1a008dec63a75b5b59911304f5754e3821adf1a2fe66e234712b8d6b183ee662453" compoundref="d7/d46/a00002" startline="1058">icSigSingleSampledCurve</references>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CIccCurveSetCurve</label>
+        <link refid="dd/d5f/a00825"/>
+      </node>
+      <node id="2">
+        <label>CIccSegmentedCurve</label>
+        <link refid="d1/dea/a00829"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccSegmentedCurveXml</label>
+        <link refid="d8/d24/a02001"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CIccCurveSetCurve</label>
+        <link refid="dd/d5f/a00825"/>
+      </node>
+      <node id="2">
+        <label>CIccSegmentedCurve</label>
+        <link refid="d1/dea/a00829"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccSegmentedCurveXml</label>
+        <link refid="d8/d24/a02001"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccXML/IccLibXML/IccMpeXml.h" line="101" column="1" bodyfile="IccXML/IccLibXML/IccMpeXml.h" bodystart="102" bodyend="106"/>
+    <listofallmembers>
+      <member refid="d1/dea/a00829_1acb0c91fdb62ba6d0dd3c197387f14999" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>Apply</name></member>
+      <member refid="d1/dea/a00829_1a33ed9e29f2913e39a3fd9787f76680c0" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>Begin</name></member>
+      <member refid="d1/dea/a00829_1af9d0cb7c5f0fd4f00d548631007b9d02" prot="public" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>CIccSegmentedCurve</name></member>
+      <member refid="d1/dea/a00829_1ab1115b4a0ce6d024505f03761e3f4f85" prot="public" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>CIccSegmentedCurve</name></member>
+      <member refid="dd/d5f/a00825_1a862e3befe57c362eb4e614adbfb4f67b" prot="public" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>Create</name></member>
+      <member refid="d1/dea/a00829_1a3e345f686d0738a291fe28cbfe69d127" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>Describe</name></member>
+      <member refid="d1/dea/a00829_1a70ae179f296b5b05018c0056689569fc" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>GetClassName</name></member>
+      <member refid="d1/dea/a00829_1a05853fbbddd298123331859e16704eb9" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>GetType</name></member>
+      <member refid="d1/dea/a00829_1a8486637433482f5e22cb19e67a53b4a3" prot="public" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>Insert</name></member>
+      <member refid="d1/dea/a00829_1a90a36a03c44da34cf9f4f542a2c98a00" prot="protected" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>m_list</name></member>
+      <member refid="d1/dea/a00829_1aa40405ae8acbadbdd5e1a3668bc7383f" prot="protected" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>m_nReserved1</name></member>
+      <member refid="d1/dea/a00829_1a074003cffee574a4644ffa06a9235d48" prot="protected" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>m_nReserved2</name></member>
+      <member refid="d1/dea/a00829_1ad8de274085c19cff65b10e4113b53817" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>NewCopy</name></member>
+      <member refid="d1/dea/a00829_1a15bef96e0cc19508a80a6f08b837c67f" prot="public" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>operator=</name></member>
+      <member refid="d8/d24/a02001_1a2bc340753a906c5ac56b9c546359f436" prot="public" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>ParseXml</name></member>
+      <member refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>Read</name></member>
+      <member refid="d1/dea/a00829_1a704b25537e4eeafe980d8d3ad3126ebf" prot="public" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>Reset</name></member>
+      <member refid="d8/d24/a02001_1ab1fc0f80a377b5eb7875e6ac1682af3f" prot="public" virt="non-virtual"><scope>CIccSegmentedCurveXml</scope><name>ToXml</name></member>
+      <member refid="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>Validate</name></member>
+      <member refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>Write</name></member>
+      <member refid="dd/d5f/a00825_1abdd160ab15b04b679b9a0daf352f005b" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>~CIccCurveSetCurve</name></member>
+      <member refid="d1/dea/a00829_1a07bd1276571f7b7cb4a17e5f9f87f5ac" prot="public" virt="virtual"><scope>CIccSegmentedCurveXml</scope><name>~CIccSegmentedCurve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d6/d6e/a01137" kind="class" language="C++" prot="public">
+    <compoundname>CIccMatrix</compoundname>
+    <includes refid="da/d24/a00068" local="no">IccTagLut.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d6e/a01137_1ae60e859fa2d9eb58ae46c1d78eb7b8e2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CIccMatrix::m_bUseConstants</definition>
+        <argsstring></argsstring>
+        <name>m_bUseConstants</name>
+        <qualifiedname>CIccMatrix::m_bUseConstants</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="270" column="8" bodyfile="IccProfLib/IccTagLut.h" bodystart="270" bodyend="-1"/>
+        <referencedby refid="d6/d6e/a01137_1a08369ae5963040072bb1bfb8a9404e85" compoundref="d4/d3e/a00116" startline="1406" endline="1416">CIccMatrix</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a1b9b5da50c582b75bce6c56f73142171" compoundref="d4/d3e/a00116" startline="1429" endline="1433">CIccMatrix</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a86ccbbb8b5eb11de50ca9821b32f3bed" compoundref="d4/d3e/a00116" startline="1543" endline="1562">Apply</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a79ccd28be50e65ea5c6e8751819e069c" compoundref="d4/d3e/a00116" startline="1469" endline="1498">DumpLut</referencedby>
+        <referencedby refid="d0/d27/a00239_1ac1a584ae1478d58b3578ae2b7c3dc10c" compoundref="d0/d27/a00239" startline="3301" endline="3325">icMatrixFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1aa3783dbcb8b73337e1975908b9d7c4e1" compoundref="d0/d27/a00239" startline="3107" endline="3128">icMatrixToXml</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a4d23ab3b8de14214e6794a08fc3a1162" compoundref="d4/d3e/a00116" startline="1511" endline="1530">IsIdentity</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a374d0db35c2368715b2b348c3988f766" compoundref="d4/d3e/a00116" startline="1446" endline="1455">operator=</referencedby>
+        <referencedby refid="d8/d92/a01165_1af8ae88b5402bfc99710e8f4903f88f40" compoundref="d4/d3e/a00116" startline="4614" endline="4649">CIccTagLut8::SetColorSpaces</referencedby>
+        <referencedby refid="d7/daf/a01169_1ad4acc5b6aaa16a0811d380bc2fbc9cd7" compoundref="d4/d3e/a00116" startline="5061" endline="5096">CIccTagLut16::SetColorSpaces</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccMatrix::m_e[12]</definition>
+        <argsstring>[12]</argsstring>
+        <name>m_e</name>
+        <qualifiedname>CIccMatrix::m_e</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="269" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="269" bodyend="-1"/>
+        <referencedby refid="d6/d6e/a01137_1a08369ae5963040072bb1bfb8a9404e85" compoundref="d4/d3e/a00116" startline="1406" endline="1416">CIccMatrix</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a1b9b5da50c582b75bce6c56f73142171" compoundref="d4/d3e/a00116" startline="1429" endline="1433">CIccMatrix</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a86ccbbb8b5eb11de50ca9821b32f3bed" compoundref="d4/d3e/a00116" startline="1543" endline="1562">Apply</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a79ccd28be50e65ea5c6e8751819e069c" compoundref="d4/d3e/a00116" startline="1469" endline="1498">DumpLut</referencedby>
+        <referencedby refid="d0/d27/a00239_1ac1a584ae1478d58b3578ae2b7c3dc10c" compoundref="d0/d27/a00239" startline="3301" endline="3325">icMatrixFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1aa3783dbcb8b73337e1975908b9d7c4e1" compoundref="d0/d27/a00239" startline="3107" endline="3128">icMatrixToXml</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a4d23ab3b8de14214e6794a08fc3a1162" compoundref="d4/d3e/a00116" startline="1511" endline="1530">IsIdentity</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a374d0db35c2368715b2b348c3988f766" compoundref="d4/d3e/a00116" startline="1446" endline="1455">operator=</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1af8ae88b5402bfc99710e8f4903f88f40" compoundref="d4/d3e/a00116" startline="4614" endline="4649">CIccTagLut8::SetColorSpaces</referencedby>
+        <referencedby refid="d7/daf/a01169_1ad4acc5b6aaa16a0811d380bc2fbc9cd7" compoundref="d4/d3e/a00116" startline="5061" endline="5096">CIccTagLut16::SetColorSpaces</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a762f071418e8bc4bcc4f0eb2f4da916b" compoundref="d4/d3e/a00116" startline="1579" endline="1602">Validate</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+        <referencedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf" compoundref="d4/d3e/a00116" startline="4665" endline="4763">CIccTagLut8::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d6e/a01137_1a08369ae5963040072bb1bfb8a9404e85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccMatrix::CIccMatrix</definition>
+        <argsstring>(bool bUseConstants=true)</argsstring>
+        <name>CIccMatrix</name>
+        <qualifiedname>CIccMatrix::CIccMatrix</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>bUseConstants</declname>
+          <defval><ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d6e/a01137_1a08369ae5963040072bb1bfb8a9404e85" kindref="member">CIccMatrix::CIccMatrix</ref></para>
+<para>Purpose: Constructor</para>
+<para>Args: bUseConstants = true if the matrix contains additional row for constants </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="262" column="3" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1406" bodyend="1416"/>
+        <references refid="d6/d6e/a01137_1ae60e859fa2d9eb58ae46c1d78eb7b8e2" compoundref="da/d24/a00068" startline="270">m_bUseConstants</references>
+        <references refid="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" compoundref="da/d24/a00068" startline="269">m_e</references>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6e/a01137_1a1b9b5da50c582b75bce6c56f73142171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccMatrix::CIccMatrix</definition>
+        <argsstring>(const CIccMatrix &amp;MatrixClass)</argsstring>
+        <name>CIccMatrix</name>
+        <qualifiedname>CIccMatrix::CIccMatrix</qualifiedname>
+        <param>
+          <type>const <ref refid="d6/d6e/a01137" kindref="compound">CIccMatrix</ref> &amp;</type>
+          <declname>MatrixClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d6e/a01137_1a08369ae5963040072bb1bfb8a9404e85" kindref="member">CIccMatrix::CIccMatrix</ref></para>
+<para>Purpose: Copy Constructor</para>
+<para>Args: MatrixClass = The <ref refid="d6/d6e/a01137" kindref="compound">CIccMatrix</ref> object to be copied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="263" column="3" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1429" bodyend="1433"/>
+        <references refid="d6/d6e/a01137_1ae60e859fa2d9eb58ae46c1d78eb7b8e2" compoundref="da/d24/a00068" startline="270">m_bUseConstants</references>
+        <references refid="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" compoundref="da/d24/a00068" startline="269">m_e</references>
+        <referencedby refid="dc/d06/a01153_1a0b9cd5c3baf9c768877b946e1d503e7e" compoundref="d4/d3e/a00116" startline="3167" endline="3224">CIccMBB::CIccMBB</referencedby>
+        <referencedby refid="dc/d06/a01153_1a52c9e35696f4a3069a6f0f251b70d8ee" compoundref="d4/d3e/a00116" startline="3237" endline="3301">CIccMBB::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6e/a01137_1a6e5579589992d18776d2dd65af250685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccMatrix::~CIccMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccMatrix</name>
+        <qualifiedname>CIccMatrix::~CIccMatrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="265" column="11" bodyfile="IccProfLib/IccTagLut.h" bodystart="265" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6e/a01137_1a86ccbbb8b5eb11de50ca9821b32f3bed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccMatrix::Apply</definition>
+        <argsstring>(icFloatNumber *Pixel) const</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccMatrix::Apply</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>Pixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d6e/a01137_1a86ccbbb8b5eb11de50ca9821b32f3bed" kindref="member">CIccMatrix::Apply</ref></para>
+<para>Purpose: Multiplies the pixel by the matrix.</para>
+<para>Args: Pixel = Pixel to be multiplied by the matrix </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="272" column="16" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1543" bodyend="1562"/>
+        <references refid="d6/d6e/a01137_1ae60e859fa2d9eb58ae46c1d78eb7b8e2" compoundref="da/d24/a00068" startline="270">m_bUseConstants</references>
+        <references refid="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" compoundref="da/d24/a00068" startline="269">m_e</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6e/a01137_1a79ccd28be50e65ea5c6e8751819e069c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccMatrix::DumpLut</definition>
+        <argsstring>(std::string &amp;sDescription, const icChar *szName, int nVerboseness)</argsstring>
+        <name>DumpLut</name>
+        <qualifiedname>CIccMatrix::DumpLut</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d9/d17/a01129_1a461ed47acd56fb78b14551e073e45b67" kindref="member">CIccTagParametricCurve::DumpLut</ref></para>
+<para>Purpose: Dump the matrix data to a string.</para>
+<para>Args: sDescription = string to concatenate tag dump to, szName = name of the curve to be printed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="267" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1469" bodyend="1498"/>
+        <references refid="d6/d6e/a01137_1ae60e859fa2d9eb58ae46c1d78eb7b8e2" compoundref="da/d24/a00068" startline="270">m_bUseConstants</references>
+        <references refid="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" compoundref="da/d24/a00068" startline="269">m_e</references>
+        <referencedby refid="dc/d06/a01153_1a30164c203eff281912c62009370f0650" compoundref="d4/d3e/a00116" startline="3444" endline="3515">CIccMBB::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6e/a01137_1a4d23ab3b8de14214e6794a08fc3a1162" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccMatrix::IsIdentity</definition>
+        <argsstring>()</argsstring>
+        <name>IsIdentity</name>
+        <qualifiedname>CIccMatrix::IsIdentity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d6e/a01137_1a4d23ab3b8de14214e6794a08fc3a1162" kindref="member">CIccMatrix::IsIdentity</ref></para>
+<para>Purpose: Checks if the matrix is identity</para>
+<para>Return: true if matrix is identity and uses no constants, else false </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="274" column="16" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1511" bodyend="1530"/>
+        <references refid="d4/d3e/a00116_1aca4e4680656868b788bb8a07ceaafff8" compoundref="d4/d3e/a00116" startline="520" endline="523">IsUnity</references>
+        <references refid="d6/d6e/a01137_1ae60e859fa2d9eb58ae46c1d78eb7b8e2" compoundref="da/d24/a00068" startline="270">m_bUseConstants</references>
+        <references refid="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" compoundref="da/d24/a00068" startline="269">m_e</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6e/a01137_1a374d0db35c2368715b2b348c3988f766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/d6e/a01137" kindref="compound">CIccMatrix</ref> &amp;</type>
+        <definition>CIccMatrix &amp; CIccMatrix::operator=</definition>
+        <argsstring>(const CIccMatrix &amp;MatrixClass)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccMatrix::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="d6/d6e/a01137" kindref="compound">CIccMatrix</ref> &amp;</type>
+          <declname>MatrixClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d6e/a01137_1a374d0db35c2368715b2b348c3988f766" kindref="member">CIccMatrix::operator=</ref></para>
+<para>Purpose: Copy Operator</para>
+<para>Args: MatrixClass = The <ref refid="d6/d6e/a01137" kindref="compound">CIccMatrix</ref> object to be copied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="264" column="14" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1446" bodyend="1455"/>
+        <references refid="d6/d6e/a01137_1ae60e859fa2d9eb58ae46c1d78eb7b8e2" compoundref="da/d24/a00068" startline="270">m_bUseConstants</references>
+        <references refid="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" compoundref="da/d24/a00068" startline="269">m_e</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d6e/a01137_1a762f071418e8bc4bcc4f0eb2f4da916b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccMatrix::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccProfile *pProfile=NULL) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccMatrix::Validate</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d6e/a01137_1a762f071418e8bc4bcc4f0eb2f4da916b" kindref="member">CIccMatrix::Validate</ref></para>
+<para>Purpose: Check tag data validity.</para>
+<para>Args: sig = signature of tag being validated, sReport = String to add report information to</para>
+<para>Return: icValidateStatusOK if valid, or other error status. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="273" column="20" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1579" bodyend="1602"/>
+        <references refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">CIccInfo::GetSigPathName</references>
+        <references refid="d7/dce/a00143_1a22fb34562b025b5016fe60b480b83805" compoundref="d5/db1/a00140" startline="1201" endline="1218">icGetFirstSigPathSig</references>
+        <references refid="d7/dce/a00143_1afc544e4cf29049a9dade4afa39fe5583" compoundref="d5/db1/a00140" startline="91">icMsgValidateNonCompliant</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9e29ef9b47ee8a2083b1fe5b27597349" compoundref="d7/d46/a00002" startline="544">icSigLut16Type</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea60c06e4b0b32ec314accd6607464cf7b" compoundref="d7/d46/a00002" startline="545">icSigLut8Type</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7030370eb0ee02671895978dc61858d8" compoundref="d7/d46/a00002" startline="846">icSigXYZData</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964afb5bd0ed92cee1ec73bc11b9f50a7e19" compoundref="d4/d81/a00110" startline="121">icValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" compoundref="da/d24/a00068" startline="269">m_e</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <referencedby refid="d8/d92/a01165_1a44e621b483545b6ee27a8c873c9d4d01" compoundref="d4/d3e/a00116" startline="4780" endline="4889">CIccTagLut8::Validate</referencedby>
+        <referencedby refid="d7/daf/a01169_1a8d9c73f08ddad1bc2a8b963d90698d59" compoundref="d4/d3e/a00116" startline="5204" endline="5314">CIccTagLut16::Validate</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d6/d6e/a01137" kindref="compound">CIccMatrix</ref></para>
+<para>Purpose: The base matrix class </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccTagLut.h" line="259" column="1" bodyfile="IccProfLib/IccTagLut.h" bodystart="260" bodyend="275"/>
+    <listofallmembers>
+      <member refid="d6/d6e/a01137_1a86ccbbb8b5eb11de50ca9821b32f3bed" prot="public" virt="virtual"><scope>CIccMatrix</scope><name>Apply</name></member>
+      <member refid="d6/d6e/a01137_1a08369ae5963040072bb1bfb8a9404e85" prot="public" virt="non-virtual"><scope>CIccMatrix</scope><name>CIccMatrix</name></member>
+      <member refid="d6/d6e/a01137_1a1b9b5da50c582b75bce6c56f73142171" prot="public" virt="non-virtual"><scope>CIccMatrix</scope><name>CIccMatrix</name></member>
+      <member refid="d6/d6e/a01137_1a79ccd28be50e65ea5c6e8751819e069c" prot="public" virt="non-virtual"><scope>CIccMatrix</scope><name>DumpLut</name></member>
+      <member refid="d6/d6e/a01137_1a4d23ab3b8de14214e6794a08fc3a1162" prot="public" virt="virtual"><scope>CIccMatrix</scope><name>IsIdentity</name></member>
+      <member refid="d6/d6e/a01137_1ae60e859fa2d9eb58ae46c1d78eb7b8e2" prot="public" virt="non-virtual"><scope>CIccMatrix</scope><name>m_bUseConstants</name></member>
+      <member refid="d6/d6e/a01137_1a69dfaeb08457336b51f559f484aa178a" prot="public" virt="non-virtual"><scope>CIccMatrix</scope><name>m_e</name></member>
+      <member refid="d6/d6e/a01137_1a374d0db35c2368715b2b348c3988f766" prot="public" virt="non-virtual"><scope>CIccMatrix</scope><name>operator=</name></member>
+      <member refid="d6/d6e/a01137_1a762f071418e8bc4bcc4f0eb2f4da916b" prot="public" virt="non-virtual"><scope>CIccMatrix</scope><name>Validate</name></member>
+      <member refid="d6/d6e/a01137_1a6e5579589992d18776d2dd65af250685" prot="public" virt="virtual"><scope>CIccMatrix</scope><name>~CIccMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

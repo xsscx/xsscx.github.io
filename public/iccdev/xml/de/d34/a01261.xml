@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/d34/a01261" kind="class" language="C++" prot="public">
+    <compoundname>CIccSpecTagFactory</compoundname>
+    <basecompoundref refid="d9/de7/a01257" prot="public" virt="non-virtual">IIccTagFactory</basecompoundref>
+    <includes refid="d8/d41/a00038" local="no">IccTagFactory.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d34/a01261_1af70956368aa090393af4acc39888f90d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+        <definition>CIccTag * CIccSpecTagFactory::CreateTag</definition>
+        <argsstring>(icTagTypeSignature tagSig)</argsstring>
+        <name>CreateTag</name>
+        <qualifiedname>CIccSpecTagFactory::CreateTag</qualifiedname>
+        <reimplements refid="d9/de7/a01257_1a1b29989361c92be45e0c41f31e0539f6">CreateTag</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+          <declname>tagSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateTag(tagTypeSig) Create a tag of type tagTypeSig.</para>
+<para>Parameter(s): tagTypeSig = signature of the ICC tag type for the tag to be created</para>
+<para>Returns a new <ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> object of the given signature type. Unrecognized tagTypeSig&apos;s will be created as a <ref refid="d3/da5/a00973" kindref="compound">CIccTagUnknown</ref> object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="197" column="19" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="307" bodyend="464"/>
+        <references refid="d5/d54/a01213_1accc12b22f49ab9e476708f80fa61f412" compoundref="dc/d87/a00032" startline="695" endline="710">CIccTagMultiProcessElement::CIccTagMultiProcessElement</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead6cb0f64a684c4482d2c7fe4ab2f654b" compoundref="d7/d46/a00002" startline="528">icSigChromaticityType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea09b7b42aaf503f2e659e6e5c33114fca" compoundref="d7/d46/a00002" startline="529">icSigCicpType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9721fd1ff1c66d9baa020c9cf2fc9629" compoundref="d7/d46/a00002" startline="530">icSigColorantOrderType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea7a120d822064e96dabdd4ca57bdacf63" compoundref="d7/d46/a00002" startline="531">icSigColorantTableType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaeedab4b40ce112d029b8f4278c40ec4d" compoundref="d7/d46/a00002" startline="532">icSigCrdInfoType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea96cf6489d8d5dc86691eee5d443cf337" compoundref="d7/d46/a00002" startline="533">icSigCurveType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1ee7a2996a3f46b79cc3138b8334d090" compoundref="d7/d46/a00002" startline="534">icSigDataType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9c76fbe1fae6494b7d387f3e88ced78a" compoundref="d7/d46/a00002" startline="536">icSigDateTimeType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe54cb2e577fb2a5f5d79f6419afc799" compoundref="d7/d46/a00002" startline="535">icSigDictType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea47d290cad7d493be1401f57b7c1110ca" compoundref="d7/d46/a00002" startline="538">icSigEmbeddedHeightImageType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea8cdb48a3c147199b533626017a48df78" compoundref="d7/d46/a00002" startline="539">icSigEmbeddedNormalImageType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea29a2db9c5a66843e8673523ac95e0f52" compoundref="d7/d46/a00002" startline="585">icSigEmbeddedProfileType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea530de0674970862d1cb29d7a3d8f342c" compoundref="d7/d46/a00002" startline="540">icSigFloat16ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae17f065e92dd0ee43aeef1f18c6e0db0" compoundref="d7/d46/a00002" startline="541">icSigFloat32ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9d1705d00ee5bd14f2ac2b0109eb901d" compoundref="d7/d46/a00002" startline="542">icSigFloat64ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaffc5da7a7d4a166c0fbc1626d0068f52" compoundref="d7/d46/a00002" startline="543">icSigGamutBoundaryDescType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea9e29ef9b47ee8a2083b1fe5b27597349" compoundref="d7/d46/a00002" startline="544">icSigLut16Type</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea60c06e4b0b32ec314accd6607464cf7b" compoundref="d7/d46/a00002" startline="545">icSigLut8Type</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaf6c346a4129d5338fe280bb905753416" compoundref="d7/d46/a00002" startline="546">icSigLutAtoBType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea66f3d51d8644296e35c92fa5ccc71927" compoundref="d7/d46/a00002" startline="547">icSigLutBtoAType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea41ac2aa0166f3edef60a2c2d42c168bc" compoundref="d7/d46/a00002" startline="548">icSigMeasurementType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6138e5639e8125b850bbb5ac1ff683ce" compoundref="d7/d46/a00002" startline="549">icSigMultiLocalizedUnicodeType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea81b933efd50884a057a280227c481" compoundref="d7/d46/a00002" startline="550">icSigMultiProcessElementType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeabd3b6889c64ac3ffb16f1c48be950dc8" compoundref="d7/d46/a00002" startline="551">icSigNamedColor2Type</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea5f55d7347cee83f4b7570f2c0092a3c4" compoundref="d7/d46/a00002" startline="552">icSigParametricCurveType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea256a4f90b8a63297739eae01e3dfc818" compoundref="d7/d46/a00002" startline="554">icSigProfileSequceIdType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2657c4e05a260313e4f5503676898f8c" compoundref="d7/d46/a00002" startline="553">icSigProfileSequenceDescType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6832a9ea52567d51b1c4dc6bcaedee67" compoundref="d7/d46/a00002" startline="555">icSigResponseCurveSet16Type</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6e14fa1c5ecc1f51851d0eba0154a4fe" compoundref="d7/d46/a00002" startline="556">icSigS15Fixed16ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa233e511fc3be8dfe63d9c951764f465" compoundref="d7/d46/a00002" startline="557">icSigScreeningType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea04e63b1627159eae67b6712d838c807f" compoundref="d7/d46/a00002" startline="558">icSigSegmentedCurveType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead76a6a52f1dc2eb085749ae311c51136" compoundref="d7/d46/a00002" startline="559">icSigSignatureType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea4559b66c16f172281d08d130b6b36155" compoundref="d7/d46/a00002" startline="560">icSigSparseMatrixArrayType</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a4259e1b992c558204602d82369f23ec6" compoundref="d7/d46/a00002" startline="468">icSigSpectralDataInfoTag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a04ad166213f82cc83838f0afcc606346" compoundref="d7/d46/a00002" startline="470">icSigSpectralViewingConditionsTag</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2a4636dabf07722022104d8d112e2417" compoundref="d7/d46/a00002" startline="563">icSigTagArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea42d8a785706c2dc6140684c1ff40d074" compoundref="d7/d46/a00002" startline="564">icSigTagStructType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" compoundref="d7/d46/a00002" startline="566">icSigTextDescriptionType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa731ac0970275919e73734adc498b74a" compoundref="d7/d46/a00002" startline="565">icSigTextType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeac934416d1d3e95c99c75b2bf8f018f2e" compoundref="d7/d46/a00002" startline="567">icSigU16Fixed16ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeae858b02aceeb2afc38945d9f04c90e4e" compoundref="d7/d46/a00002" startline="568">icSigUcrBgType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea2368c79224b0f401f4dc19ee5353e4a9" compoundref="d7/d46/a00002" startline="569">icSigUInt16ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeafe8c40bc78370d5212050e2dd129d317" compoundref="d7/d46/a00002" startline="570">icSigUInt32ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaa3c8d9a1c8b9a7fa396a79e493e96084" compoundref="d7/d46/a00002" startline="571">icSigUInt64ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea1308dbd189e810ca0f0f804e74c8a49c" compoundref="d7/d46/a00002" startline="572">icSigUInt8ArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea719a290f152c4b35b25d97cb8e339382" compoundref="d7/d46/a00002" startline="575">icSigUtf16TextType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea21dfb852fbf1b3dfa35ca6804d3d0499" compoundref="d7/d46/a00002" startline="574">icSigUtf8TextType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea7fd650bd1f0aa4f0bfff5142912109fe" compoundref="d7/d46/a00002" startline="573">icSigViewingConditionsType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3ea98122bd6abb44702c61a5c53006da" compoundref="d7/d46/a00002" startline="577">icSigXYZArrayType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead8a14846cc8db3c25bf7091c2985ef76" compoundref="d7/d46/a00002" startline="578">icSigZipUtf8TextType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeab9133265087c30a8260234f8e3aa2d28" compoundref="d7/d46/a00002" startline="582">icSigZipXmlType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea3cc22932f0c574b6c66c9bc32da8023e" compoundref="d7/d46/a00002" startline="586">icSigZipXMLType</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d34/a01261_1a5fc55baeb411a1205ef34c1355868d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref></type>
+        <definition>icTagSignature CIccSpecTagFactory::GetTagNameSig</definition>
+        <argsstring>(const icChar *szTagName)</argsstring>
+        <name>GetTagNameSig</name>
+        <qualifiedname>CIccSpecTagFactory::GetTagNameSig</qualifiedname>
+        <reimplements refid="d9/de7/a01257_1a8f02e7b394e7b9b053a38a50bb8cf9e6">GetTagNameSig</reimplements>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szTagName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetTagNameSig(szTagName) Get signature from tag display name.</para>
+<para>Parameter(s): szTagName = name of tag</para>
+<para>Returns tag signature of tag if tag name is recognized by the factory, icSigUnknownTag if the tag name is not recognized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="222" column="26" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="479" bodyend="490"/>
+        <references refid="de/de1/a00065_1a664f429bd4cf8c3ce609dfcd8ca45375" compoundref="de/de1/a00065" startline="86">g_TagNameToSigMap</references>
+        <references refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" compoundref="de/de1/a00065" startline="83">g_TagSigToNameMap</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d34/a01261_1aa0b1453f1f9b42ce35185ec786700a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccSpecTagFactory::GetTagSigName</definition>
+        <argsstring>(icTagSignature tagSig)</argsstring>
+        <name>GetTagSigName</name>
+        <qualifiedname>CIccSpecTagFactory::GetTagSigName</qualifiedname>
+        <reimplements refid="d9/de7/a01257_1aa7ee87663f2d8dcbb6e8107973d8f8fe">GetTagSigName</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref></type>
+          <declname>tagSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetTagSigName(tagSig) Get display name of tagSig.</para>
+<para>Parameter(s): tagName = string to put tag name into, tagSig = signature of the ICC tag type to get a name for</para>
+<para>Returns pointer to string containing name of tag if tag is recognized by the factory, NULL if the factory doesn&apos;t create tagSig tags. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="210" column="24" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="466" bodyend="477"/>
+        <references refid="de/de1/a00065_1ab0ee9b94ce50fcc78e96c83692c0a673" compoundref="de/de1/a00065" startline="83">g_TagSigToNameMap</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d34/a01261_1a8f456fd3f9154b5ea30a0ec958b0fe8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+        <definition>icTagTypeSignature CIccSpecTagFactory::GetTagTypeNameSig</definition>
+        <argsstring>(const icChar *szTypeName)</argsstring>
+        <name>GetTagTypeNameSig</name>
+        <qualifiedname>CIccSpecTagFactory::GetTagTypeNameSig</qualifiedname>
+        <reimplements refid="d9/de7/a01257_1ab6ee4e456b1725d9bbe8932ac8208fb2">GetTagTypeNameSig</reimplements>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szTypeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetTagTypeNameSig(szTypeName) Get signature based on display name of tag type.</para>
+<para>Parameter(s): szTypeName = name of the ICC tag type to get a signature for</para>
+<para>Returns tag type signature of tag type name if type name is recognized by the factory, icSigUnknownType if the type name is not recognized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="247" column="30" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="505" bodyend="525"/>
+        <references refid="de/de1/a00065_1a51dd477ab3f4b3c02b89378f6c9a61f5" compoundref="de/de1/a00065" startline="224">g_AltTagTypeNameToSigMap</references>
+        <references refid="de/de1/a00065_1afda960a501ed764b4df2981eb76ad77a" compoundref="de/de1/a00065" startline="223">g_TagTypeNameToSigMap</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d34/a01261_1a116d068adb461630d1ea644cd940d344" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccSpecTagFactory::GetTagTypeSigName</definition>
+        <argsstring>(icTagTypeSignature tagTypeSig)</argsstring>
+        <name>GetTagTypeSigName</name>
+        <qualifiedname>CIccSpecTagFactory::GetTagTypeSigName</qualifiedname>
+        <reimplements refid="d9/de7/a01257_1a88091538a206198a107508c885e49e9d">GetTagTypeSigName</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+          <declname>tagTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetTagTypeSigName(tagTypeSig) Get display name of tagTypeSig.</para>
+<para>Parameter(s): tagName = string to put tag name into, tagTypeSig = signature of the ICC tag type to get a name for</para>
+<para>Returns pointer to string containing name of tag type if tag is recognized by the factory, NULL if the factory doesn&apos;t create tagTypeSig tags. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagFactory.h" line="235" column="24" bodyfile="IccProfLib/IccTagFactory.cpp" bodystart="492" bodyend="503"/>
+        <references refid="de/de1/a00065_1ac9d094be967f7c563929713100322ef6" compoundref="de/de1/a00065" startline="220">g_TagTypeSigToNameMap</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="de/d34/a01261" kindref="compound">CIccSpecTagFactory</ref></para>
+<para>Purpose: <ref refid="de/d34/a01261" kindref="compound">CIccSpecTagFactory</ref> provides creation of <ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref>&apos;s defined by the ICC profile specification. The <ref refid="da/dd8/a01265" kindref="compound">CIccTagCreator</ref> always creates a <ref refid="de/d34/a01261" kindref="compound">CIccSpecTagFactory</ref>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccSpecTagFactory</label>
+        <link refid="de/d34/a01261"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccTagFactory</label>
+        <link refid="d9/de7/a01257"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccSpecTagFactory</label>
+        <link refid="de/d34/a01261"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccTagFactory</label>
+        <link refid="d9/de7/a01257"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagFactory.h" line="184" column="1" bodyfile="IccProfLib/IccTagFactory.h" bodystart="185" bodyend="248"/>
+    <listofallmembers>
+      <member refid="de/d34/a01261_1af70956368aa090393af4acc39888f90d" prot="public" virt="virtual"><scope>CIccSpecTagFactory</scope><name>CreateTag</name></member>
+      <member refid="de/d34/a01261_1a5fc55baeb411a1205ef34c1355868d3c" prot="public" virt="virtual"><scope>CIccSpecTagFactory</scope><name>GetTagNameSig</name></member>
+      <member refid="de/d34/a01261_1aa0b1453f1f9b42ce35185ec786700a38" prot="public" virt="virtual"><scope>CIccSpecTagFactory</scope><name>GetTagSigName</name></member>
+      <member refid="de/d34/a01261_1a8f456fd3f9154b5ea30a0ec958b0fe8c" prot="public" virt="virtual"><scope>CIccSpecTagFactory</scope><name>GetTagTypeNameSig</name></member>
+      <member refid="de/d34/a01261_1a116d068adb461630d1ea644cd940d344" prot="public" virt="virtual"><scope>CIccSpecTagFactory</scope><name>GetTagTypeSigName</name></member>
+      <member refid="d9/de7/a01257_1a240c0224624325f4a71b05981d492e35" prot="public" virt="virtual"><scope>CIccSpecTagFactory</scope><name>~IIccTagFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d4/d8c/a02292" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccApplyNamedCmm_2Readme</compoundname>
+    <title>iccApplyNamedCmm</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="d4/d8c/a02292_1autotoc_md33"/> </para>
+<sect1 id="d4/d8c/a02292_1autotoc_md34">
+<title>Overview</title>
+<para><computeroutput>iccApplyNamedCmm</computeroutput> is a command-line tool that applies a chain of ICC profiles to textual or structured color data, producing transformed results in various formats. It supports named color transformations, JSON and legacy data inputs, and ICCv5 capabilities including debugging of calculator-based profiles.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d4/d8c/a02292_1autotoc_md36">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Supports color data in:<itemizedlist>
+<listitem><para>Legacy (plain text)</para>
+</listitem><listitem><para>JSON structured format</para>
+</listitem><listitem><para>Embedded ICC configurations</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Applies ICC profiles using ICCMAX-style CMM</para>
+</listitem><listitem><para>Supports named-to-named and pixel-to-named transformations</para>
+</listitem><listitem><para>Built-in support for:<itemizedlist>
+<listitem><para>Luminance PCS matching</para>
+</listitem><listitem><para>Profile Connection Conditions (PCC)</para>
+</listitem><listitem><para>ICC environment variable hints</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Outputs transformed color data in:<itemizedlist>
+<listitem><para>IT8</para>
+</listitem><listitem><para>JSON</para>
+</listitem><listitem><para>Text</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d4/d8c/a02292_1autotoc_md38">
+<title>Usage</title>
+<sect2 id="d4/d8c/a02292_1autotoc_md39">
+<title>Config-Based Mode</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyNamedCmm<sp/>-cfg<sp/>config.json</highlight></codeline>
+</programlisting></para>
+<para><itemizedlist>
+<listitem><para><computeroutput>config.json</computeroutput> must include:<itemizedlist>
+<listitem><para><computeroutput>dataFiles</computeroutput></para>
+</listitem><listitem><para><computeroutput>profileSequence</computeroutput></para>
+</listitem><listitem><para>(optionally) <computeroutput>colorData</computeroutput></para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="d4/d8c/a02292_1autotoc_md40">
+<title>Legacy CLI Mode</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyNamedCmm<sp/>input.txt<sp/>encoding[:precision[:digits]]<sp/>interpolation<sp/>{{-ENV:tag<sp/>value}<sp/>profile.icc<sp/>intent<sp/>{-PCC<sp/>pcc.icc}}</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="d4/d8c/a02292_1autotoc_md42">
+<title>Arguments</title>
+<para><itemizedlist>
+<listitem><para>**<computeroutput>encoding</computeroutput> values**:<itemizedlist>
+<listitem><para><computeroutput>0</computeroutput> = Lab/XYZ Value</para>
+</listitem><listitem><para><computeroutput>1</computeroutput> = Percent</para>
+</listitem><listitem><para><computeroutput>2</computeroutput> = Unit Float</para>
+</listitem><listitem><para><computeroutput>3</computeroutput> = Raw Float</para>
+</listitem><listitem><para><computeroutput>4</computeroutput> = 8-bit</para>
+</listitem><listitem><para><computeroutput>5</computeroutput> = 16-bit</para>
+</listitem><listitem><para><computeroutput>6</computeroutput> = 16-bit ICCv2 style</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><bold>Interpolation</bold>:<itemizedlist>
+<listitem><para><computeroutput>0</computeroutput> = Linear</para>
+</listitem><listitem><para><computeroutput>1</computeroutput> = Tetrahedral</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><bold>Intent</bold> (plus modifiers):<itemizedlist>
+<listitem><para><computeroutput>0–3</computeroutput>: Perceptual, Relative, Saturation, Absolute</para>
+</listitem><listitem><para><computeroutput>+10</computeroutput>: Disable D2Bx/B2Dx</para>
+</listitem><listitem><para><computeroutput>+20</computeroutput>: Preview</para>
+</listitem><listitem><para><computeroutput>+30</computeroutput>: Gamut</para>
+</listitem><listitem><para><computeroutput>+40</computeroutput>: With BPC</para>
+</listitem><listitem><para><computeroutput>+100</computeroutput>: Luminance-based PCS match</para>
+</listitem><listitem><para><computeroutput>+1000</computeroutput>: ICCv5 SubProfile</para>
+</listitem><listitem><para><computeroutput>+100000</computeroutput>: Use HToS tag</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d4/d8c/a02292_1autotoc_md44">
+<title>Output Formats</title>
+<para>Determined by config or filename:<itemizedlist>
+<listitem><para><computeroutput>output.txt</computeroutput>: legacy textual</para>
+</listitem><listitem><para><computeroutput>output.json</computeroutput>: JSON color set</para>
+</listitem><listitem><para><computeroutput>output.it8</computeroutput>: IT8 table</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d4/d8c/a02292_1autotoc_md46">
+<title>Build Instructions</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d4/d8c/a02292_1autotoc_md48">
+<title>Example</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyNamedCmm<sp/>-cfg<sp/>config_named.json</highlight></codeline>
+</programlisting></para>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyNamedCmm<sp/>colors.txt<sp/>0:4:7<sp/>1<sp/>profile.icc<sp/>1</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d4/d8c/a02292_1autotoc_md50">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Original implementation by Max Derhak (2003)</para>
+</listitem><listitem><para>JSON support and calculator debugger added by Max Derhak (2024)</para>
+</listitem><listitem><para>Structural cleanup and usage clarity by David Hoyt (2025) </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccApplyNamedCmm/Readme.md"/>
+  </compounddef>
+</doxygen>

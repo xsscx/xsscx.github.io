@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d26/a02129" kind="class" language="C++" prot="public">
+    <compoundname>CTiffImg</compoundname>
+    <includes refid="db/d10/a00350" local="no">TiffImg.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="db/d26/a02129_1a318adb237c5520ac5f582b14384ecb3a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CTiffImg::m_bRead</definition>
+        <argsstring></argsstring>
+        <name>m_bRead</name>
+        <qualifiedname>CTiffImg::m_bRead</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="119" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="119" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CTiffImg::m_fXRes</definition>
+        <argsstring></argsstring>
+        <name>m_fXRes</name>
+        <qualifiedname>CTiffImg::m_fXRes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="131" column="9" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="131" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a67d5200a3e5473db3b0e5b5604d5e743" compoundref="db/d10/a00350" startline="101" endline="101">GetWidthIn</referencedby>
+        <referencedby refid="db/d26/a02129_1a6dc830ba9ac0c9e2d1a85bda879131bc" compoundref="db/d10/a00350" startline="109" endline="109">GetXRes</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CTiffImg::m_fYRes</definition>
+        <argsstring></argsstring>
+        <name>m_fYRes</name>
+        <qualifiedname>CTiffImg::m_fYRes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="132" column="9" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="132" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a5b7303a00dcf5356188a9efb84f8126e" compoundref="db/d10/a00350" startline="102" endline="102">GetHeightIn</referencedby>
+        <referencedby refid="db/d26/a02129_1a113ea4ef5fc10e4778a2cb585d704fbe" compoundref="db/d10/a00350" startline="110" endline="110">GetYRes</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" prot="protected" static="no" mutable="no">
+        <type>TIFF *</type>
+        <definition>TIFF* CTiffImg::m_hTif</definition>
+        <argsstring></argsstring>
+        <name>m_hTif</name>
+        <qualifiedname>CTiffImg::m_hTif</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="118" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" compoundref="db/ddc/a00353" startline="87" endline="97">CTiffImg</referencedby>
+        <referencedby refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</referencedby>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1acbb26ff13f50f3d2ddd757422a9858b4" compoundref="db/ddc/a00353" startline="410" endline="418">GetIccProfile</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1aafb632521f5425a0a258abe00ab689e2" compoundref="db/ddc/a00353" startline="420" endline="425">SetIccProfile</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CTiffImg::m_nBitsPerSample</definition>
+        <argsstring></argsstring>
+        <name>m_nBitsPerSample</name>
+        <qualifiedname>CTiffImg::m_nBitsPerSample</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="123" column="18" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="123" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" compoundref="db/ddc/a00353" startline="87" endline="97">CTiffImg</referencedby>
+        <referencedby refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</referencedby>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a20639680f1c2d3935295c0eaf277f198" compoundref="db/d10/a00350" startline="103" endline="103">GetBitsPerSample</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nBytesPerLine</definition>
+        <argsstring></argsstring>
+        <name>m_nBytesPerLine</name>
+        <qualifiedname>CTiffImg::m_nBytesPerLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="134" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="134" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1aa89d15bc35d33c5f74cdd5b4b333297a" compoundref="db/d10/a00350" startline="112" endline="112">GetBytesPerLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1afaac8b60332fdd384be552a05307cae5" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CTiffImg::m_nBytesPerSample</definition>
+        <argsstring></argsstring>
+        <name>m_nBytesPerSample</name>
+        <qualifiedname>CTiffImg::m_nBytesPerSample</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="124" column="18" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="124" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1afcd22754eaf7d4cfd8378434d196ceb1" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nBytesPerStripLine</definition>
+        <argsstring></argsstring>
+        <name>m_nBytesPerStripLine</name>
+        <qualifiedname>CTiffImg::m_nBytesPerStripLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="139" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="139" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a3e8789a303bc98235373088b9bdd7d9f" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CTiffImg::m_nCompress</definition>
+        <argsstring></argsstring>
+        <name>m_nCompress</name>
+        <qualifiedname>CTiffImg::m_nCompress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="129" column="18" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="129" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1aec83628e5640a6a6fea546d9d43a8d05" compoundref="db/d10/a00350" startline="107" endline="107">GetCompress</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1ad8514b61177d7a93534e352de7f058bf" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nCurLine</definition>
+        <argsstring></argsstring>
+        <name>m_nCurLine</name>
+        <qualifiedname>CTiffImg::m_nCurLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="143" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="143" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a7e9cf46d318d6eb584d92d09deb0fa38" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nCurStrip</definition>
+        <argsstring></argsstring>
+        <name>m_nCurStrip</name>
+        <qualifiedname>CTiffImg::m_nCurStrip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="144" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="144" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CTiffImg::m_nExtraSamples</definition>
+        <argsstring></argsstring>
+        <name>m_nExtraSamples</name>
+        <qualifiedname>CTiffImg::m_nExtraSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="127" column="18" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="127" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" compoundref="db/ddc/a00353" startline="87" endline="97">CTiffImg</referencedby>
+        <referencedby refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</referencedby>
+        <referencedby refid="db/d26/a02129_1a8d3efc73ec83f59cfaea9c5e03687137" compoundref="db/d10/a00350" startline="106" endline="106">GetExtraSamples</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nHeight</definition>
+        <argsstring></argsstring>
+        <name>m_nHeight</name>
+        <qualifiedname>CTiffImg::m_nHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="122" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="122" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" compoundref="db/ddc/a00353" startline="87" endline="97">CTiffImg</referencedby>
+        <referencedby refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</referencedby>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a93aff9a530fb494c957c1fb3a05682db" compoundref="db/d10/a00350" startline="100" endline="100">GetHeight</referencedby>
+        <referencedby refid="db/d26/a02129_1a5b7303a00dcf5356188a9efb84f8126e" compoundref="db/d10/a00350" startline="102" endline="102">GetHeightIn</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a94762cbbdc7f74ab5b7ff85ba3a96609" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CTiffImg::m_nPhoto</definition>
+        <argsstring></argsstring>
+        <name>m_nPhoto</name>
+        <qualifiedname>CTiffImg::m_nPhoto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="125" column="18" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="125" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a77533f61a8eceef6c6fb6155242e8bde" compoundref="db/ddc/a00353" startline="391" endline="407">GetPhoto</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a3f020541561fbfdb7482c967f576c32f" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CTiffImg::m_nPlanar</definition>
+        <argsstring></argsstring>
+        <name>m_nPlanar</name>
+        <qualifiedname>CTiffImg::m_nPlanar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="128" column="18" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="128" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a501d5972938549997de84d9c632ac499" compoundref="db/d10/a00350" startline="108" endline="108">GetPlanar</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a06ce24d3676b4f94dc205ab691319e61" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nProfileLength</definition>
+        <argsstring></argsstring>
+        <name>m_nProfileLength</name>
+        <qualifiedname>CTiffImg::m_nProfileLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="147" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a3c0378d53f893e53ef056aa489547c87" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nRowsPerStrip</definition>
+        <argsstring></argsstring>
+        <name>m_nRowsPerStrip</name>
+        <qualifiedname>CTiffImg::m_nRowsPerStrip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="135" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="135" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CTiffImg::m_nSamples</definition>
+        <argsstring></argsstring>
+        <name>m_nSamples</name>
+        <qualifiedname>CTiffImg::m_nSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="126" column="18" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="126" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" compoundref="db/ddc/a00353" startline="87" endline="97">CTiffImg</referencedby>
+        <referencedby refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</referencedby>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a8c1ee0a16e8d393d24290965289bdca2" compoundref="db/d10/a00350" startline="105" endline="105">GetSamples</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a4da74ba840e59c496301f78f099b87b4" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nStripSamples</definition>
+        <argsstring></argsstring>
+        <name>m_nStripSamples</name>
+        <qualifiedname>CTiffImg::m_nStripSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="137" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="137" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1aacb570adc2b1482c522de941784fa56b" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nStripSize</definition>
+        <argsstring></argsstring>
+        <name>m_nStripSize</name>
+        <qualifiedname>CTiffImg::m_nStripSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="136" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="136" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a265145d8b838c78f503f230c62f82859" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nStripsPerSample</definition>
+        <argsstring></argsstring>
+        <name>m_nStripsPerSample</name>
+        <qualifiedname>CTiffImg::m_nStripsPerSample</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="138" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="138" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::m_nWidth</definition>
+        <argsstring></argsstring>
+        <name>m_nWidth</name>
+        <qualifiedname>CTiffImg::m_nWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="121" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="121" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" compoundref="db/ddc/a00353" startline="87" endline="97">CTiffImg</referencedby>
+        <referencedby refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</referencedby>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a30cb0eaa739b586c7e32b8051c0bc7c2" compoundref="db/d10/a00350" startline="99" endline="99">GetWidth</referencedby>
+        <referencedby refid="db/d26/a02129_1a67d5200a3e5473db3b0e5b5604d5e743" compoundref="db/d10/a00350" startline="101" endline="101">GetWidthIn</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1a71e2bc83711a2f83e6fbc548e9660c8b" prot="protected" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* CTiffImg::m_pProfile</definition>
+        <argsstring></argsstring>
+        <name>m_pProfile</name>
+        <qualifiedname>CTiffImg::m_pProfile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="146" column="17" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" prot="protected" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* CTiffImg::m_pStripBuf</definition>
+        <argsstring></argsstring>
+        <name>m_pStripBuf</name>
+        <qualifiedname>CTiffImg::m_pStripBuf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="141" column="17" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="141" bodyend="-1"/>
+        <referencedby refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" compoundref="db/ddc/a00353" startline="87" endline="97">CTiffImg</referencedby>
+        <referencedby refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</referencedby>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+        <referencedby refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" compoundref="db/ddc/a00353" startline="302" endline="351">ReadLine</referencedby>
+        <referencedby refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" compoundref="db/ddc/a00353" startline="353" endline="389">WriteLine</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CTiffImg::CTiffImg</definition>
+        <argsstring>()</argsstring>
+        <name>CTiffImg</name>
+        <qualifiedname>CTiffImg::CTiffImg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="86" column="3" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="87" bodyend="97"/>
+        <references refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" compoundref="db/d10/a00350" startline="118">m_hTif</references>
+        <references refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" compoundref="db/d10/a00350" startline="123">m_nBitsPerSample</references>
+        <references refid="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" compoundref="db/d10/a00350" startline="127">m_nExtraSamples</references>
+        <references refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" compoundref="db/d10/a00350" startline="122">m_nHeight</references>
+        <references refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" compoundref="db/d10/a00350" startline="126">m_nSamples</references>
+        <references refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" compoundref="db/d10/a00350" startline="121">m_nWidth</references>
+        <references refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" compoundref="db/d10/a00350" startline="141">m_pStripBuf</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a6014990096aeb3f0dadcf71319cbf28c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CTiffImg::~CTiffImg</definition>
+        <argsstring>()</argsstring>
+        <name>~CTiffImg</name>
+        <qualifiedname>CTiffImg::~CTiffImg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="87" column="11" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="99" bodyend="102"/>
+        <references refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</references>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CTiffImg::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <qualifiedname>CTiffImg::Close</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="89" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="104" bodyend="122"/>
+        <references refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" compoundref="db/d10/a00350" startline="118">m_hTif</references>
+        <references refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" compoundref="db/d10/a00350" startline="123">m_nBitsPerSample</references>
+        <references refid="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" compoundref="db/d10/a00350" startline="127">m_nExtraSamples</references>
+        <references refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" compoundref="db/d10/a00350" startline="122">m_nHeight</references>
+        <references refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" compoundref="db/d10/a00350" startline="126">m_nSamples</references>
+        <references refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" compoundref="db/d10/a00350" startline="121">m_nWidth</references>
+        <references refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" compoundref="db/d10/a00350" startline="141">m_pStripBuf</references>
+        <referencedby refid="db/d26/a02129_1a6014990096aeb3f0dadcf71319cbf28c" compoundref="db/ddc/a00353" startline="99" endline="102">~CTiffImg</referencedby>
+        <referencedby refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" compoundref="db/ddc/a00353" startline="124" endline="226">Create</referencedby>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+        <referencedby refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">Open</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CTiffImg::Create</definition>
+        <argsstring>(const char *szFname, unsigned int nWidth, unsigned int nHeight, unsigned int nBPS, unsigned int nPhoto, unsigned int nSamples, float fXRes, float fYRes, bool bCompress=true, bool bSep=false)</argsstring>
+        <name>Create</name>
+        <qualifiedname>CTiffImg::Create</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szFname</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nWidth</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nHeight</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nBPS</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nPhoto</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nSamples</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fXRes</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fYRes</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bCompress</declname>
+          <defval><ref refid="d5/ddf/a00224_1a41f9c5fb8b08eb5dc3edce4dcb37fee7" kindref="member">true</ref></defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bSep</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="91" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="124" bodyend="226"/>
+        <references refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</references>
+        <references refid="db/d26/a02129_1a318adb237c5520ac5f582b14384ecb3a" compoundref="db/d10/a00350" startline="119">m_bRead</references>
+        <references refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" compoundref="db/d10/a00350" startline="131">m_fXRes</references>
+        <references refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" compoundref="db/d10/a00350" startline="132">m_fYRes</references>
+        <references refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" compoundref="db/d10/a00350" startline="118">m_hTif</references>
+        <references refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" compoundref="db/d10/a00350" startline="123">m_nBitsPerSample</references>
+        <references refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" compoundref="db/d10/a00350" startline="134">m_nBytesPerLine</references>
+        <references refid="db/d26/a02129_1afaac8b60332fdd384be552a05307cae5" compoundref="db/d10/a00350" startline="124">m_nBytesPerSample</references>
+        <references refid="db/d26/a02129_1afcd22754eaf7d4cfd8378434d196ceb1" compoundref="db/d10/a00350" startline="139">m_nBytesPerStripLine</references>
+        <references refid="db/d26/a02129_1a3e8789a303bc98235373088b9bdd7d9f" compoundref="db/d10/a00350" startline="129">m_nCompress</references>
+        <references refid="db/d26/a02129_1ad8514b61177d7a93534e352de7f058bf" compoundref="db/d10/a00350" startline="143">m_nCurLine</references>
+        <references refid="db/d26/a02129_1a7e9cf46d318d6eb584d92d09deb0fa38" compoundref="db/d10/a00350" startline="144">m_nCurStrip</references>
+        <references refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" compoundref="db/d10/a00350" startline="122">m_nHeight</references>
+        <references refid="db/d26/a02129_1a94762cbbdc7f74ab5b7ff85ba3a96609" compoundref="db/d10/a00350" startline="125">m_nPhoto</references>
+        <references refid="db/d26/a02129_1a3f020541561fbfdb7482c967f576c32f" compoundref="db/d10/a00350" startline="128">m_nPlanar</references>
+        <references refid="db/d26/a02129_1a3c0378d53f893e53ef056aa489547c87" compoundref="db/d10/a00350" startline="135">m_nRowsPerStrip</references>
+        <references refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" compoundref="db/d10/a00350" startline="126">m_nSamples</references>
+        <references refid="db/d26/a02129_1a4da74ba840e59c496301f78f099b87b4" compoundref="db/d10/a00350" startline="137">m_nStripSamples</references>
+        <references refid="db/d26/a02129_1aacb570adc2b1482c522de941784fa56b" compoundref="db/d10/a00350" startline="136">m_nStripSize</references>
+        <references refid="db/d26/a02129_1a265145d8b838c78f503f230c62f82859" compoundref="db/d10/a00350" startline="138">m_nStripsPerSample</references>
+        <references refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" compoundref="db/d10/a00350" startline="121">m_nWidth</references>
+        <references refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" compoundref="db/d10/a00350" startline="141">m_pStripBuf</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a20639680f1c2d3935295c0eaf277f198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetBitsPerSample</definition>
+        <argsstring>()</argsstring>
+        <name>GetBitsPerSample</name>
+        <qualifiedname>CTiffImg::GetBitsPerSample</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="103" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="103" bodyend="103"/>
+        <references refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" compoundref="db/d10/a00350" startline="123">m_nBitsPerSample</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1aa89d15bc35d33c5f74cdd5b4b333297a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetBytesPerLine</definition>
+        <argsstring>()</argsstring>
+        <name>GetBytesPerLine</name>
+        <qualifiedname>CTiffImg::GetBytesPerLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="112" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="112" bodyend="112"/>
+        <references refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" compoundref="db/d10/a00350" startline="134">m_nBytesPerLine</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1aec83628e5640a6a6fea546d9d43a8d05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetCompress</definition>
+        <argsstring>()</argsstring>
+        <name>GetCompress</name>
+        <qualifiedname>CTiffImg::GetCompress</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="107" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="107" bodyend="107"/>
+        <references refid="db/d26/a02129_1a3e8789a303bc98235373088b9bdd7d9f" compoundref="db/d10/a00350" startline="129">m_nCompress</references>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a8d3efc73ec83f59cfaea9c5e03687137" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetExtraSamples</definition>
+        <argsstring>()</argsstring>
+        <name>GetExtraSamples</name>
+        <qualifiedname>CTiffImg::GetExtraSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="106" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="106" bodyend="106"/>
+        <references refid="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" compoundref="db/d10/a00350" startline="127">m_nExtraSamples</references>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a93aff9a530fb494c957c1fb3a05682db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetHeight</definition>
+        <argsstring>()</argsstring>
+        <name>GetHeight</name>
+        <qualifiedname>CTiffImg::GetHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="100" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="100" bodyend="100"/>
+        <references refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" compoundref="db/d10/a00350" startline="122">m_nHeight</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a5b7303a00dcf5356188a9efb84f8126e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double CTiffImg::GetHeightIn</definition>
+        <argsstring>()</argsstring>
+        <name>GetHeightIn</name>
+        <qualifiedname>CTiffImg::GetHeightIn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="102" column="10" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="102" bodyend="102"/>
+        <references refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" compoundref="db/d10/a00350" startline="132">m_fYRes</references>
+        <references refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" compoundref="db/d10/a00350" startline="122">m_nHeight</references>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1acbb26ff13f50f3d2ddd757422a9858b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CTiffImg::GetIccProfile</definition>
+        <argsstring>(unsigned char *&amp;pProfile, unsigned int &amp;nLen)</argsstring>
+        <name>GetIccProfile</name>
+        <qualifiedname>CTiffImg::GetIccProfile</qualifiedname>
+        <param>
+          <type>unsigned char *&amp;</type>
+          <declname>pProfile</declname>
+        </param>
+        <param>
+          <type>unsigned int &amp;</type>
+          <declname>nLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="114" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="410" bodyend="418"/>
+        <references refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" compoundref="db/d10/a00350" startline="118">m_hTif</references>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a77533f61a8eceef6c6fb6155242e8bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetPhoto</definition>
+        <argsstring>()</argsstring>
+        <name>GetPhoto</name>
+        <qualifiedname>CTiffImg::GetPhoto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="104" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="391" bodyend="407"/>
+        <references refid="db/d26/a02129_1a94762cbbdc7f74ab5b7ff85ba3a96609" compoundref="db/d10/a00350" startline="125">m_nPhoto</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a501d5972938549997de84d9c632ac499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetPlanar</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlanar</name>
+        <qualifiedname>CTiffImg::GetPlanar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="108" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="108" bodyend="108"/>
+        <references refid="db/d26/a02129_1a3f020541561fbfdb7482c967f576c32f" compoundref="db/d10/a00350" startline="128">m_nPlanar</references>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a8c1ee0a16e8d393d24290965289bdca2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetSamples</definition>
+        <argsstring>()</argsstring>
+        <name>GetSamples</name>
+        <qualifiedname>CTiffImg::GetSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="105" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="105" bodyend="105"/>
+        <references refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" compoundref="db/d10/a00350" startline="126">m_nSamples</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a30cb0eaa739b586c7e32b8051c0bc7c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int CTiffImg::GetWidth</definition>
+        <argsstring>()</argsstring>
+        <name>GetWidth</name>
+        <qualifiedname>CTiffImg::GetWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="99" column="16" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="99" bodyend="99"/>
+        <references refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" compoundref="db/d10/a00350" startline="121">m_nWidth</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a67d5200a3e5473db3b0e5b5604d5e743" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double CTiffImg::GetWidthIn</definition>
+        <argsstring>()</argsstring>
+        <name>GetWidthIn</name>
+        <qualifiedname>CTiffImg::GetWidthIn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="101" column="10" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="101" bodyend="101"/>
+        <references refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" compoundref="db/d10/a00350" startline="131">m_fXRes</references>
+        <references refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" compoundref="db/d10/a00350" startline="121">m_nWidth</references>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a6dc830ba9ac0c9e2d1a85bda879131bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float CTiffImg::GetXRes</definition>
+        <argsstring>()</argsstring>
+        <name>GetXRes</name>
+        <qualifiedname>CTiffImg::GetXRes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="109" column="9" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="109" bodyend="109"/>
+        <references refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" compoundref="db/d10/a00350" startline="131">m_fXRes</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a113ea4ef5fc10e4778a2cb585d704fbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float CTiffImg::GetYRes</definition>
+        <argsstring>()</argsstring>
+        <name>GetYRes</name>
+        <qualifiedname>CTiffImg::GetYRes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="110" column="9" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="110" bodyend="110"/>
+        <references refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" compoundref="db/d10/a00350" startline="132">m_fYRes</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CTiffImg::Open</definition>
+        <argsstring>(const char *szFname)</argsstring>
+        <name>Open</name>
+        <qualifiedname>CTiffImg::Open</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szFname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="94" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="228" bodyend="299"/>
+        <references refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">Close</references>
+        <references refid="db/d26/a02129_1a318adb237c5520ac5f582b14384ecb3a" compoundref="db/d10/a00350" startline="119">m_bRead</references>
+        <references refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" compoundref="db/d10/a00350" startline="131">m_fXRes</references>
+        <references refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" compoundref="db/d10/a00350" startline="132">m_fYRes</references>
+        <references refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" compoundref="db/d10/a00350" startline="118">m_hTif</references>
+        <references refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" compoundref="db/d10/a00350" startline="123">m_nBitsPerSample</references>
+        <references refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" compoundref="db/d10/a00350" startline="134">m_nBytesPerLine</references>
+        <references refid="db/d26/a02129_1afaac8b60332fdd384be552a05307cae5" compoundref="db/d10/a00350" startline="124">m_nBytesPerSample</references>
+        <references refid="db/d26/a02129_1afcd22754eaf7d4cfd8378434d196ceb1" compoundref="db/d10/a00350" startline="139">m_nBytesPerStripLine</references>
+        <references refid="db/d26/a02129_1a3e8789a303bc98235373088b9bdd7d9f" compoundref="db/d10/a00350" startline="129">m_nCompress</references>
+        <references refid="db/d26/a02129_1ad8514b61177d7a93534e352de7f058bf" compoundref="db/d10/a00350" startline="143">m_nCurLine</references>
+        <references refid="db/d26/a02129_1a7e9cf46d318d6eb584d92d09deb0fa38" compoundref="db/d10/a00350" startline="144">m_nCurStrip</references>
+        <references refid="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" compoundref="db/d10/a00350" startline="127">m_nExtraSamples</references>
+        <references refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" compoundref="db/d10/a00350" startline="122">m_nHeight</references>
+        <references refid="db/d26/a02129_1a94762cbbdc7f74ab5b7ff85ba3a96609" compoundref="db/d10/a00350" startline="125">m_nPhoto</references>
+        <references refid="db/d26/a02129_1a3f020541561fbfdb7482c967f576c32f" compoundref="db/d10/a00350" startline="128">m_nPlanar</references>
+        <references refid="db/d26/a02129_1a3c0378d53f893e53ef056aa489547c87" compoundref="db/d10/a00350" startline="135">m_nRowsPerStrip</references>
+        <references refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" compoundref="db/d10/a00350" startline="126">m_nSamples</references>
+        <references refid="db/d26/a02129_1a4da74ba840e59c496301f78f099b87b4" compoundref="db/d10/a00350" startline="137">m_nStripSamples</references>
+        <references refid="db/d26/a02129_1aacb570adc2b1482c522de941784fa56b" compoundref="db/d10/a00350" startline="136">m_nStripSize</references>
+        <references refid="db/d26/a02129_1a265145d8b838c78f503f230c62f82859" compoundref="db/d10/a00350" startline="138">m_nStripsPerSample</references>
+        <references refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" compoundref="db/d10/a00350" startline="121">m_nWidth</references>
+        <references refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" compoundref="db/d10/a00350" startline="141">m_pStripBuf</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CTiffImg::ReadLine</definition>
+        <argsstring>(unsigned char *pBuf)</argsstring>
+        <name>ReadLine</name>
+        <qualifiedname>CTiffImg::ReadLine</qualifiedname>
+        <param>
+          <type>unsigned char *</type>
+          <declname>pBuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="96" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="302" bodyend="351"/>
+        <references refid="db/d26/a02129_1a318adb237c5520ac5f582b14384ecb3a" compoundref="db/d10/a00350" startline="119">m_bRead</references>
+        <references refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" compoundref="db/d10/a00350" startline="118">m_hTif</references>
+        <references refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" compoundref="db/d10/a00350" startline="134">m_nBytesPerLine</references>
+        <references refid="db/d26/a02129_1afaac8b60332fdd384be552a05307cae5" compoundref="db/d10/a00350" startline="124">m_nBytesPerSample</references>
+        <references refid="db/d26/a02129_1afcd22754eaf7d4cfd8378434d196ceb1" compoundref="db/d10/a00350" startline="139">m_nBytesPerStripLine</references>
+        <references refid="db/d26/a02129_1ad8514b61177d7a93534e352de7f058bf" compoundref="db/d10/a00350" startline="143">m_nCurLine</references>
+        <references refid="db/d26/a02129_1a7e9cf46d318d6eb584d92d09deb0fa38" compoundref="db/d10/a00350" startline="144">m_nCurStrip</references>
+        <references refid="db/d26/a02129_1a3c0378d53f893e53ef056aa489547c87" compoundref="db/d10/a00350" startline="135">m_nRowsPerStrip</references>
+        <references refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" compoundref="db/d10/a00350" startline="126">m_nSamples</references>
+        <references refid="db/d26/a02129_1a4da74ba840e59c496301f78f099b87b4" compoundref="db/d10/a00350" startline="137">m_nStripSamples</references>
+        <references refid="db/d26/a02129_1aacb570adc2b1482c522de941784fa56b" compoundref="db/d10/a00350" startline="136">m_nStripSize</references>
+        <references refid="db/d26/a02129_1a265145d8b838c78f503f230c62f82859" compoundref="db/d10/a00350" startline="138">m_nStripsPerSample</references>
+        <references refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" compoundref="db/d10/a00350" startline="121">m_nWidth</references>
+        <references refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" compoundref="db/d10/a00350" startline="141">m_pStripBuf</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1aafb632521f5425a0a258abe00ab689e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CTiffImg::SetIccProfile</definition>
+        <argsstring>(unsigned char *pProfile, unsigned int nLen)</argsstring>
+        <name>SetIccProfile</name>
+        <qualifiedname>CTiffImg::SetIccProfile</qualifiedname>
+        <param>
+          <type>unsigned char *</type>
+          <declname>pProfile</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>nLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="115" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="420" bodyend="425"/>
+        <references refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" compoundref="db/d10/a00350" startline="118">m_hTif</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CTiffImg::WriteLine</definition>
+        <argsstring>(unsigned char *pBuf)</argsstring>
+        <name>WriteLine</name>
+        <qualifiedname>CTiffImg::WriteLine</qualifiedname>
+        <param>
+          <type>unsigned char *</type>
+          <declname>pBuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="97" column="8" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.cpp" bodystart="353" bodyend="389"/>
+        <references refid="db/d26/a02129_1a318adb237c5520ac5f582b14384ecb3a" compoundref="db/d10/a00350" startline="119">m_bRead</references>
+        <references refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" compoundref="db/d10/a00350" startline="118">m_hTif</references>
+        <references refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" compoundref="db/d10/a00350" startline="134">m_nBytesPerLine</references>
+        <references refid="db/d26/a02129_1afaac8b60332fdd384be552a05307cae5" compoundref="db/d10/a00350" startline="124">m_nBytesPerSample</references>
+        <references refid="db/d26/a02129_1a7e9cf46d318d6eb584d92d09deb0fa38" compoundref="db/d10/a00350" startline="144">m_nCurStrip</references>
+        <references refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" compoundref="db/d10/a00350" startline="122">m_nHeight</references>
+        <references refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" compoundref="db/d10/a00350" startline="126">m_nSamples</references>
+        <references refid="db/d26/a02129_1a4da74ba840e59c496301f78f099b87b4" compoundref="db/d10/a00350" startline="137">m_nStripSamples</references>
+        <references refid="db/d26/a02129_1aacb570adc2b1482c522de941784fa56b" compoundref="db/d10/a00350" startline="136">m_nStripSize</references>
+        <references refid="db/d26/a02129_1a265145d8b838c78f503f230c62f82859" compoundref="db/d10/a00350" startline="138">m_nStripsPerSample</references>
+        <references refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" compoundref="db/d10/a00350" startline="121">m_nWidth</references>
+        <references refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" compoundref="db/d10/a00350" startline="141">m_pStripBuf</references>
+        <referencedby refid="d8/d8e/a00344_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d8/d8e/a00344" startline="94" endline="242">main</referencedby>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="83" column="1" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="84" bodyend="148"/>
+    <listofallmembers>
+      <member refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>Close</name></member>
+      <member refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>Create</name></member>
+      <member refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>CTiffImg</name></member>
+      <member refid="db/d26/a02129_1a20639680f1c2d3935295c0eaf277f198" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetBitsPerSample</name></member>
+      <member refid="db/d26/a02129_1aa89d15bc35d33c5f74cdd5b4b333297a" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetBytesPerLine</name></member>
+      <member refid="db/d26/a02129_1aec83628e5640a6a6fea546d9d43a8d05" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetCompress</name></member>
+      <member refid="db/d26/a02129_1a8d3efc73ec83f59cfaea9c5e03687137" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetExtraSamples</name></member>
+      <member refid="db/d26/a02129_1a93aff9a530fb494c957c1fb3a05682db" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetHeight</name></member>
+      <member refid="db/d26/a02129_1a5b7303a00dcf5356188a9efb84f8126e" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetHeightIn</name></member>
+      <member refid="db/d26/a02129_1acbb26ff13f50f3d2ddd757422a9858b4" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetIccProfile</name></member>
+      <member refid="db/d26/a02129_1a77533f61a8eceef6c6fb6155242e8bde" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetPhoto</name></member>
+      <member refid="db/d26/a02129_1a501d5972938549997de84d9c632ac499" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetPlanar</name></member>
+      <member refid="db/d26/a02129_1a8c1ee0a16e8d393d24290965289bdca2" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetSamples</name></member>
+      <member refid="db/d26/a02129_1a30cb0eaa739b586c7e32b8051c0bc7c2" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetWidth</name></member>
+      <member refid="db/d26/a02129_1a67d5200a3e5473db3b0e5b5604d5e743" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetWidthIn</name></member>
+      <member refid="db/d26/a02129_1a6dc830ba9ac0c9e2d1a85bda879131bc" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetXRes</name></member>
+      <member refid="db/d26/a02129_1a113ea4ef5fc10e4778a2cb585d704fbe" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>GetYRes</name></member>
+      <member refid="db/d26/a02129_1a318adb237c5520ac5f582b14384ecb3a" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_bRead</name></member>
+      <member refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_fXRes</name></member>
+      <member refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_fYRes</name></member>
+      <member refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_hTif</name></member>
+      <member refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nBitsPerSample</name></member>
+      <member refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nBytesPerLine</name></member>
+      <member refid="db/d26/a02129_1afaac8b60332fdd384be552a05307cae5" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nBytesPerSample</name></member>
+      <member refid="db/d26/a02129_1afcd22754eaf7d4cfd8378434d196ceb1" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nBytesPerStripLine</name></member>
+      <member refid="db/d26/a02129_1a3e8789a303bc98235373088b9bdd7d9f" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nCompress</name></member>
+      <member refid="db/d26/a02129_1ad8514b61177d7a93534e352de7f058bf" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nCurLine</name></member>
+      <member refid="db/d26/a02129_1a7e9cf46d318d6eb584d92d09deb0fa38" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nCurStrip</name></member>
+      <member refid="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nExtraSamples</name></member>
+      <member refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nHeight</name></member>
+      <member refid="db/d26/a02129_1a94762cbbdc7f74ab5b7ff85ba3a96609" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nPhoto</name></member>
+      <member refid="db/d26/a02129_1a3f020541561fbfdb7482c967f576c32f" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nPlanar</name></member>
+      <member refid="db/d26/a02129_1a06ce24d3676b4f94dc205ab691319e61" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nProfileLength</name></member>
+      <member refid="db/d26/a02129_1a3c0378d53f893e53ef056aa489547c87" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nRowsPerStrip</name></member>
+      <member refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nSamples</name></member>
+      <member refid="db/d26/a02129_1a4da74ba840e59c496301f78f099b87b4" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nStripSamples</name></member>
+      <member refid="db/d26/a02129_1aacb570adc2b1482c522de941784fa56b" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nStripSize</name></member>
+      <member refid="db/d26/a02129_1a265145d8b838c78f503f230c62f82859" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nStripsPerSample</name></member>
+      <member refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_nWidth</name></member>
+      <member refid="db/d26/a02129_1a71e2bc83711a2f83e6fbc548e9660c8b" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_pProfile</name></member>
+      <member refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" prot="protected" virt="non-virtual"><scope>CTiffImg</scope><name>m_pStripBuf</name></member>
+      <member refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>Open</name></member>
+      <member refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>ReadLine</name></member>
+      <member refid="db/d26/a02129_1aafb632521f5425a0a258abe00ab689e2" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>SetIccProfile</name></member>
+      <member refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" prot="public" virt="non-virtual"><scope>CTiffImg</scope><name>WriteLine</name></member>
+      <member refid="db/d26/a02129_1a6014990096aeb3f0dadcf71319cbf28c" prot="public" virt="virtual"><scope>CTiffImg</scope><name>~CTiffImg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d00/a00401" kind="class" language="C++" prot="public">
+    <compoundname>CIccStructBRDF</compoundname>
+    <basecompoundref refid="da/dbf/a00393" prot="public" virt="non-virtual">CIccStructUnknown</basecompoundref>
+    <includes refid="da/d1e/a00149" local="no">IccStructBasic.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d00/a00401_1a4c0e319257b80f2bb1a68a7bf7e2b59a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccStructBRDF::CIccStructBRDF</definition>
+        <argsstring>(CIccTagStruct *pTagStruct=NULL)</argsstring>
+        <name>CIccStructBRDF</name>
+        <qualifiedname>CIccStructBRDF::CIccStructBRDF</qualifiedname>
+        <param>
+          <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+          <declname>pTagStruct</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="163" column="3" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="213" bodyend="217"/>
+        <references refid="d1/d88/a00128_1aa1da3359b846f7ad00c7aef29510f5da" compoundref="d1/d88/a00128" startline="205" endline="211">g_IccStructBRDFMbrTable</references>
+        <references refid="da/dbf/a00393_1a88bcc2da0a0db8b5adcd7c04bbe73ee5" compoundref="da/d1e/a00149" startline="115">CIccStructUnknown::m_pElemNameSigTable</references>
+        <references refid="da/dc3/a00453_1a8a366004f59930af892e13e29ca8e35d" compoundref="d1/da8/a00230" startline="118">IIccStruct::m_pTagStruct</references>
+        <referencedby refid="dd/ddb/a01717_1a972568137ff372ba692c18444e6a4a99" compoundref="d5/df9/a00044" startline="83" endline="110">CIccBasicStructFactory::CreateStruct</referencedby>
+        <referencedby refid="d7/d00/a00401_1a04717c1b439015d6e7f8bf717a899b42" compoundref="d1/d88/a00128" startline="226" endline="231">NewCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/d00/a00401_1a3cb24443797d54645bb8103af764c531" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccStructBRDF::~CIccStructBRDF</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccStructBRDF</name>
+        <qualifiedname>CIccStructBRDF::~CIccStructBRDF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="164" column="11" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dbf/a00393_1afed6df30c0a290f3e033930c60b607fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccStructUnknown::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness) const</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccStructUnknown::Describe</qualifiedname>
+        <reimplements refid="da/dc3/a00453_1a259291677d13d2f343c4c12725654051">Describe</reimplements>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="102" column="16" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="115" bodyend="137"/>
+        <references refid="d7/dfd/a00969_1a48edb50964c5a62a2ce4108297dd045a" compoundref="da/dec/a00080" startline="221" endline="221">CIccTag::Describe</references>
+        <references refid="d5/d5f/a00461_1a585382c9d5e868031eea7e15578fd777" compoundref="d1/da8/a00230" startline="181" endline="181">CIccTagStruct::GetElemList</references>
+        <references refid="da/dbf/a00393_1a1c8641070c37f4a9fba0ad6b2449f8fa" compoundref="d1/d88/a00128" startline="140" endline="157">CIccStructUnknown::GetElemName</references>
+        <references refid="da/dc3/a00453_1a8a366004f59930af892e13e29ca8e35d" compoundref="d1/da8/a00230" startline="118">IIccStruct::m_pTagStruct</references>
+        <references refid="d6/d86/a00781_1a9e4fa23633a1ca43a6793a61c8252de4" compoundref="d7/d46/a00002" startline="2022">icTag::sig</references>
+        <referencedby refid="d5/d5f/a00461_1a2e25328a4c9d9fc7bc9149fb7bd6f718" compoundref="d5/dcb/a00170" startline="308" endline="333">CIccTagStruct::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/d00/a00401_1ae254249e0ddaf4e1a3c70501b25b2443" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1aa4e7e529497ba1c446ad01e8b7aa80da" kindref="member">icSigBRDFFunction</ref></type>
+        <definition>icSigBRDFFunction CIccStructBRDF::GetBRDFFunction</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBRDFFunction</name>
+        <qualifiedname>CIccStructBRDF::GetBRDFFunction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="172" column="29" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="251" bodyend="265"/>
+        <references refid="da/dbf/a00393_1ae59376fd46156a41bb687406b3d881d7" compoundref="d1/d88/a00128" startline="172" endline="178">CIccStructUnknown::GetElem</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="df/d59/a01001_1a1c0be52357c3d68a04657e39d25c414b" compoundref="da/dec/a00080" startline="554" endline="554">CIccTagSignature::GetValue</references>
+        <references refid="d7/d46/a00002_1af46212fb10475a9822be7160951f142ca02075aa1af6c65699f94f79a34735f03" compoundref="d7/d46/a00002" startline="678">icSigBrdfFunctionMbr</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead76a6a52f1dc2eb085749ae311c51136" compoundref="d7/d46/a00002" startline="559">icSigSignatureType</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d00/a00401_1a9dfba644b72f1390fcd0c245a3c003fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a5bd500cd0105d3c792c500ef20fabf37" kindref="member">icSigBRDFType</ref></type>
+        <definition>icSigBRDFType CIccStructBRDF::GetBRDFType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBRDFType</name>
+        <qualifiedname>CIccStructBRDF::GetBRDFType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="170" column="25" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="234" bodyend="248"/>
+        <references refid="da/dbf/a00393_1ae59376fd46156a41bb687406b3d881d7" compoundref="d1/d88/a00128" startline="172" endline="178">CIccStructUnknown::GetElem</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="df/d59/a01001_1a1c0be52357c3d68a04657e39d25c414b" compoundref="da/dec/a00080" startline="554" endline="554">CIccTagSignature::GetValue</references>
+        <references refid="d7/d46/a00002_1af46212fb10475a9822be7160951f142ca90d284dfd23700e2447cea25284504b1" compoundref="d7/d46/a00002" startline="677">icSigBrdfTypeMbr</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddead76a6a52f1dc2eb085749ae311c51136" compoundref="d7/d46/a00002" startline="559">icSigSignatureType</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d00/a00401_1a0324a08da4c72face57b7744694b720c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccStructBRDF::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccStructBRDF::GetClassName</qualifiedname>
+        <reimplements refid="da/dbf/a00393_1a296bfdac9094cebea39e00c3e60bf79e">GetClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="167" column="24" bodyfile="IccProfLib/IccStructBasic.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d00/a00401_1a49abb0b52d557951c11536db02645152" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccStructBRDF::GetDisplayName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDisplayName</name>
+        <qualifiedname>CIccStructBRDF::GetDisplayName</qualifiedname>
+        <reimplements refid="da/dbf/a00393_1ade0f47a1fdc5934a394b9c5939fd27c1">GetDisplayName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="168" column="24" bodyfile="IccProfLib/IccStructBasic.h" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dbf/a00393_1ae59376fd46156a41bb687406b3d881d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+        <definition>CIccTag * CIccStructUnknown::GetElem</definition>
+        <argsstring>(icSignature sigElem) const</argsstring>
+        <name>GetElem</name>
+        <qualifiedname>CIccStructUnknown::GetElem</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a67fa1b773fad35303680761ee5ef9313" kindref="member">icSignature</ref></type>
+          <declname>sigElem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="110" column="11" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="172" bodyend="178"/>
+        <references refid="d5/d5f/a00461_1aa0b72fbb18a2e44fcd165b41a1c6b9b2" compoundref="d5/dcb/a00170" startline="672" endline="681">CIccTagStruct::FindElem</references>
+        <references refid="da/dc3/a00453_1a8a366004f59930af892e13e29ca8e35d" compoundref="d1/da8/a00230" startline="118">IIccStruct::m_pTagStruct</references>
+        <referencedby refid="d5/d05/a00385_1a9425c5f4e45f89e119c7dd5add27f69a" compoundref="dc/de6/a00167" startline="315" endline="347">CIccArrayNamedColor::FindDeviceColor</referencedby>
+        <referencedby refid="d5/d05/a00385_1a94b8521face8ca8e1df119db8d7abeeb" compoundref="dc/de6/a00167" startline="349" endline="385">CIccArrayNamedColor::FindPcsColor</referencedby>
+        <referencedby refid="d5/d05/a00385_1a6c3143e1f5a2433144786f86e7d9becc" compoundref="dc/de6/a00167" startline="387" endline="422">CIccArrayNamedColor::FindSpectralColor</referencedby>
+        <referencedby refid="d7/d00/a00401_1ae254249e0ddaf4e1a3c70501b25b2443" compoundref="d1/d88/a00128" startline="251" endline="265">GetBRDFFunction</referencedby>
+        <referencedby refid="d7/d00/a00401_1a9dfba644b72f1390fcd0c245a3c003fd" compoundref="d1/d88/a00128" startline="234" endline="248">GetBRDFType</referencedby>
+        <referencedby refid="d7/d93/a00397_1a29aeaa159d5b68cd0badf917a11d8030" compoundref="d1/d88/a00128" startline="470" endline="477">CIccStructNamedColor::GetNumArray</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/dbf/a00393_1a1c8641070c37f4a9fba0ad6b2449f8fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string CIccStructUnknown::GetElemName</definition>
+        <argsstring>(icSignature sigElem) const</argsstring>
+        <name>GetElemName</name>
+        <qualifiedname>CIccStructUnknown::GetElemName</qualifiedname>
+        <reimplements refid="da/dc3/a00453_1a6ced0baf319523fe902bb6276f057498">GetElemName</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a67fa1b773fad35303680761ee5ef9313" kindref="member">icSignature</ref></type>
+          <declname>sigElem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="107" column="23" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="140" bodyend="157"/>
+        <references refid="da/dbf/a00393_1a88bcc2da0a0db8b5adcd7c04bbe73ee5" compoundref="da/d1e/a00149" startline="115">CIccStructUnknown::m_pElemNameSigTable</references>
+        <references refid="dc/dc9/a00389_1a726bd3b232ae3b8fada12a95a11a10b9" compoundref="da/d1e/a00149" startline="84">SIccElemNameSig::nSig</references>
+        <references refid="dc/dc9/a00389_1aae182a53022397a54491475fb0bc7dd4" compoundref="da/d1e/a00149" startline="85">SIccElemNameSig::szName</references>
+        <referencedby refid="da/dbf/a00393_1afed6df30c0a290f3e033930c60b607fe" compoundref="d1/d88/a00128" startline="115" endline="137">CIccStructUnknown::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/dbf/a00393_1ad4fd8a7c08d130fc5ce272d123bbe4b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a67fa1b773fad35303680761ee5ef9313" kindref="member">icSignature</ref></type>
+        <definition>icSignature CIccStructUnknown::GetElemSig</definition>
+        <argsstring>(const icChar *szElemName) const</argsstring>
+        <name>GetElemSig</name>
+        <qualifiedname>CIccStructUnknown::GetElemSig</qualifiedname>
+        <reimplements refid="da/dc3/a00453_1adf78dd0cabf431b09ee29ad24f113bb5">GetElemSig</reimplements>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szElemName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="108" column="23" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="159" bodyend="170"/>
+        <references refid="da/dbf/a00393_1a88bcc2da0a0db8b5adcd7c04bbe73ee5" compoundref="da/d1e/a00149" startline="115">CIccStructUnknown::m_pElemNameSigTable</references>
+        <references refid="dc/dc9/a00389_1a726bd3b232ae3b8fada12a95a11a10b9" compoundref="da/d1e/a00149" startline="84">SIccElemNameSig::nSig</references>
+        <references refid="dc/dc9/a00389_1aae182a53022397a54491475fb0bc7dd4" compoundref="da/d1e/a00149" startline="85">SIccElemNameSig::szName</references>
+      </memberdef>
+      <memberdef kind="function" id="da/dc3/a00453_1aa2e62c114853876f0c31c5c2cf833956" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+        <definition>CIccTagStruct * IIccStruct::GetTagStruct</definition>
+        <argsstring>()</argsstring>
+        <name>GetTagStruct</name>
+        <qualifiedname>IIccStruct::GetTagStruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="107" column="17" bodyfile="IccProfLib/IccTagComposite.h" bodystart="107" bodyend="107"/>
+        <references refid="da/dc3/a00453_1a8a366004f59930af892e13e29ca8e35d" compoundref="d1/da8/a00230" startline="118">IIccStruct::m_pTagStruct</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d00/a00401_1a04717c1b439015d6e7f8bf717a899b42" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="da/dc3/a00453" kindref="compound">IIccStruct</ref> *</type>
+        <definition>IIccStruct * CIccStructBRDF::NewCopy</definition>
+        <argsstring>(CIccTagStruct *pNewTagStruct) const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccStructBRDF::NewCopy</qualifiedname>
+        <reimplements refid="da/dbf/a00393_1a2e8a3d7410320ab97ac12b5ec3e3dac5">NewCopy</reimplements>
+        <param>
+          <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+          <declname>pNewTagStruct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="165" column="22" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="226" bodyend="231"/>
+        <references refid="d7/d00/a00401_1a4c0e319257b80f2bb1a68a7bf7e2b59a" compoundref="d1/d88/a00128" startline="213" endline="217">CIccStructBRDF</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d00/a00401_1a12499ff044fcbd5493543e7f04702d51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccStructBRDF::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccProfile *pProfile=NULL) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccStructBRDF::Validate</qualifiedname>
+        <reimplements refid="da/dbf/a00393_1a2ca20ad9e6a3fda566db8c5c460fb3eb">Validate</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="174" column="28" bodyfile="IccProfLib/IccStructBasic.cpp" bodystart="267" bodyend="284"/>
+        <references refid="d5/d5f/a00461_1aa0b72fbb18a2e44fcd165b41a1c6b9b2" compoundref="d5/dcb/a00170" startline="672" endline="681">CIccTagStruct::FindElem</references>
+        <references refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">CIccInfo::GetSigPathName</references>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1a96f185a7e8c155604a95848b2c9f4d2f" compoundref="d5/db1/a00140" startline="90">icMsgValidateWarning</references>
+        <references refid="d7/d46/a00002_1af46212fb10475a9822be7160951f142ca02075aa1af6c65699f94f79a34735f03" compoundref="d7/d46/a00002" startline="678">icSigBrdfFunctionMbr</references>
+        <references refid="d7/d46/a00002_1af46212fb10475a9822be7160951f142cac0e47156b0cd267084485f7e3c3a97b9" compoundref="d7/d46/a00002" startline="679">icSigBrdfParamsPerChannelMbr</references>
+        <references refid="d7/d46/a00002_1af46212fb10475a9822be7160951f142cadd1015e094e8b2a1f9dff66dc0271754" compoundref="d7/d46/a00002" startline="680">icSigBrdfTransformMbr</references>
+        <references refid="d7/d46/a00002_1af46212fb10475a9822be7160951f142ca90d284dfd23700e2447cea25284504b1" compoundref="d7/d46/a00002" startline="677">icSigBrdfTypeMbr</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a371bf9a02d77f4dd8f339b4f4fff51c3" compoundref="d4/d81/a00110" startline="122">icValidateCriticalError</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="da/dc3/a00453_1a8a366004f59930af892e13e29ca8e35d" compoundref="d1/da8/a00230" startline="118">IIccStruct::m_pTagStruct</references>
+        <references refid="da/dbf/a00393_1a2ca20ad9e6a3fda566db8c5c460fb3eb" compoundref="d1/d88/a00128" startline="181" endline="201">CIccStructUnknown::Validate</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="da/dbf/a00393_1a88bcc2da0a0db8b5adcd7c04bbe73ee5" prot="protected" static="no" mutable="no">
+        <type><ref refid="dc/dc9/a00389" kindref="compound">SIccElemNameSig</ref> *</type>
+        <definition>SIccElemNameSig* CIccStructUnknown::m_pElemNameSigTable</definition>
+        <argsstring></argsstring>
+        <name>m_pElemNameSigTable</name>
+        <qualifiedname>CIccStructUnknown::m_pElemNameSigTable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccStructBasic.h" line="115" column="19" bodyfile="IccProfLib/IccStructBasic.h" bodystart="115" bodyend="-1"/>
+        <referencedby refid="d7/d00/a00401_1a4c0e319257b80f2bb1a68a7bf7e2b59a" compoundref="d1/d88/a00128" startline="213" endline="217">CIccStructBRDF</referencedby>
+        <referencedby refid="de/d3d/a00409_1a029eb034ca1ae49972f79ee283afb624" compoundref="d1/d88/a00128" startline="344" endline="348">CIccStructColorantInfo::CIccStructColorantInfo</referencedby>
+        <referencedby refid="de/de8/a00405_1a902a7e7c1df40c6e6f29180ba1203560" compoundref="d1/d88/a00128" startline="314" endline="318">CIccStructColorEncodingParams::CIccStructColorEncodingParams</referencedby>
+        <referencedby refid="da/d9c/a00413_1a6c51181e2c238f931c07044e0b6fc41d" compoundref="d1/d88/a00128" startline="396" endline="400">CIccStructMeasurementInfo::CIccStructMeasurementInfo</referencedby>
+        <referencedby refid="d7/d93/a00397_1a0d4e9414702b1d06e981893da179f88e" compoundref="d1/d88/a00128" startline="436" endline="440">CIccStructNamedColor::CIccStructNamedColor</referencedby>
+        <referencedby refid="d8/de7/a00417_1a8c73d67a5a36c27790e01f79f27e06b5" compoundref="d1/d88/a00128" startline="589" endline="593">CIccStructProfileInfo::CIccStructProfileInfo</referencedby>
+        <referencedby refid="d2/de1/a00421_1a39aaaef03e967af4a6b6894d8e37fd7e" compoundref="d1/d88/a00128" startline="620" endline="624">CIccStructTintZero::CIccStructTintZero</referencedby>
+        <referencedby refid="da/dbf/a00393_1a938822061505c56e54c7b959369a21f6" compoundref="d1/d88/a00128" startline="94" endline="98">CIccStructUnknown::CIccStructUnknown</referencedby>
+        <referencedby refid="da/dbf/a00393_1a1c8641070c37f4a9fba0ad6b2449f8fa" compoundref="d1/d88/a00128" startline="140" endline="157">CIccStructUnknown::GetElemName</referencedby>
+        <referencedby refid="da/dbf/a00393_1ad4fd8a7c08d130fc5ce272d123bbe4b7" compoundref="d1/d88/a00128" startline="159" endline="170">CIccStructUnknown::GetElemSig</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc3/a00453_1a8a366004f59930af892e13e29ca8e35d" prot="protected" static="no" mutable="no">
+        <type><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref> *</type>
+        <definition>CIccTagStruct* IIccStruct::m_pTagStruct</definition>
+        <argsstring></argsstring>
+        <name>m_pTagStruct</name>
+        <qualifiedname>IIccStruct::m_pTagStruct</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="118" column="17" bodyfile="IccProfLib/IccTagComposite.h" bodystart="118" bodyend="-1"/>
+        <referencedby refid="d7/d00/a00401_1a4c0e319257b80f2bb1a68a7bf7e2b59a" compoundref="d1/d88/a00128" startline="213" endline="217">CIccStructBRDF</referencedby>
+        <referencedby refid="de/d3d/a00409_1a029eb034ca1ae49972f79ee283afb624" compoundref="d1/d88/a00128" startline="344" endline="348">CIccStructColorantInfo::CIccStructColorantInfo</referencedby>
+        <referencedby refid="de/de8/a00405_1a902a7e7c1df40c6e6f29180ba1203560" compoundref="d1/d88/a00128" startline="314" endline="318">CIccStructColorEncodingParams::CIccStructColorEncodingParams</referencedby>
+        <referencedby refid="da/d9c/a00413_1a6c51181e2c238f931c07044e0b6fc41d" compoundref="d1/d88/a00128" startline="396" endline="400">CIccStructMeasurementInfo::CIccStructMeasurementInfo</referencedby>
+        <referencedby refid="d7/d93/a00397_1a0d4e9414702b1d06e981893da179f88e" compoundref="d1/d88/a00128" startline="436" endline="440">CIccStructNamedColor::CIccStructNamedColor</referencedby>
+        <referencedby refid="d8/de7/a00417_1a8c73d67a5a36c27790e01f79f27e06b5" compoundref="d1/d88/a00128" startline="589" endline="593">CIccStructProfileInfo::CIccStructProfileInfo</referencedby>
+        <referencedby refid="d2/de1/a00421_1a39aaaef03e967af4a6b6894d8e37fd7e" compoundref="d1/d88/a00128" startline="620" endline="624">CIccStructTintZero::CIccStructTintZero</referencedby>
+        <referencedby refid="da/dbf/a00393_1a938822061505c56e54c7b959369a21f6" compoundref="d1/d88/a00128" startline="94" endline="98">CIccStructUnknown::CIccStructUnknown</referencedby>
+        <referencedby refid="da/dbf/a00393_1afed6df30c0a290f3e033930c60b607fe" compoundref="d1/d88/a00128" startline="115" endline="137">CIccStructUnknown::Describe</referencedby>
+        <referencedby refid="da/dc3/a00453_1a259291677d13d2f343c4c12725654051" compoundref="d5/dcb/a00170" startline="86" endline="108">IIccStruct::Describe</referencedby>
+        <referencedby refid="da/dbf/a00393_1ae59376fd46156a41bb687406b3d881d7" compoundref="d1/d88/a00128" startline="172" endline="178">CIccStructUnknown::GetElem</referencedby>
+        <referencedby refid="d7/d93/a00397_1a5e4aa1c33ed61d8d91ca597e57ab7177" compoundref="d1/d88/a00128" startline="457" endline="468">CIccStructNamedColor::getName</referencedby>
+        <referencedby refid="da/dc3/a00453_1a9ea2a27738a8f7c6b1d821ab9ca2e149" compoundref="d5/dcb/a00170" startline="110" endline="116">IIccStruct::getTagEntries</referencedby>
+        <referencedby refid="da/dc3/a00453_1aa2e62c114853876f0c31c5c2cf833956" compoundref="d1/da8/a00230" startline="107" endline="107">IIccStruct::GetTagStruct</referencedby>
+        <referencedby refid="d7/d93/a00397_1a2a0ef2709ac9b5f5c4af5fd2d808a714" compoundref="d1/d88/a00128" startline="557" endline="573">CIccStructNamedColor::Validate</referencedby>
+        <referencedby refid="d7/d00/a00401_1a12499ff044fcbd5493543e7f04702d51" compoundref="d1/d88/a00128" startline="267" endline="284">Validate</referencedby>
+        <referencedby refid="de/d3d/a00409_1a64a51a6cd8b7b8bd29e3ba7cb8835898" compoundref="d1/d88/a00128" startline="365" endline="381">CIccStructColorantInfo::Validate</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/dc3/a00453_1a9ea2a27738a8f7c6b1d821ab9ca2e149" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>TagEntryList *</type>
+        <definition>TagEntryList * IIccStruct::getTagEntries</definition>
+        <argsstring>() const</argsstring>
+        <name>getTagEntries</name>
+        <qualifiedname>IIccStruct::getTagEntries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="116" column="16" bodyfile="IccProfLib/IccTagComposite.cpp" bodystart="110" bodyend="116"/>
+        <references refid="d5/d5f/a00461_1a1abdd8dc781b04f0ffb68f5670bc3f98" compoundref="d1/da8/a00230" startline="212">CIccTagStruct::m_ElemEntries</references>
+        <references refid="da/dc3/a00453_1a8a366004f59930af892e13e29ca8e35d" compoundref="d1/da8/a00230" startline="118">IIccStruct::m_pTagStruct</references>
+        <referencedby refid="da/dbf/a00393_1a2ca20ad9e6a3fda566db8c5c460fb3eb" compoundref="d1/d88/a00128" startline="181" endline="201">CIccStructUnknown::Validate</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d7/d00/a00401" kindref="compound">CIccStructBRDF</ref></para>
+<para>Purpose: The BRDF struct handler </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccStructBRDF</label>
+        <link refid="d7/d00/a00401"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccStructUnknown</label>
+        <link refid="da/dbf/a00393"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IIccStruct</label>
+        <link refid="da/dc3/a00453"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccStructBRDF</label>
+        <link refid="d7/d00/a00401"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccStructUnknown</label>
+        <link refid="da/dbf/a00393"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>m_pElemNameSigTable</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="4">
+        <label>CIccTagStruct</label>
+        <link refid="d5/d5f/a00461"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_pStruct</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IIccStruct</label>
+        <link refid="da/dc3/a00453"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_pTagStruct</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>SIccElemNameSig</label>
+        <link refid="dc/dc9/a00389"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccStructBasic.h" line="160" column="1" bodyfile="IccProfLib/IccStructBasic.h" bodystart="161" bodyend="178"/>
+    <listofallmembers>
+      <member refid="d7/d00/a00401_1a4c0e319257b80f2bb1a68a7bf7e2b59a" prot="public" virt="non-virtual"><scope>CIccStructBRDF</scope><name>CIccStructBRDF</name></member>
+      <member refid="da/dbf/a00393_1a938822061505c56e54c7b959369a21f6" prot="public" virt="non-virtual"><scope>CIccStructBRDF</scope><name>CIccStructUnknown</name></member>
+      <member refid="da/dbf/a00393_1afed6df30c0a290f3e033930c60b607fe" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>Describe</name></member>
+      <member refid="d7/d00/a00401_1ae254249e0ddaf4e1a3c70501b25b2443" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>GetBRDFFunction</name></member>
+      <member refid="d7/d00/a00401_1a9dfba644b72f1390fcd0c245a3c003fd" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>GetBRDFType</name></member>
+      <member refid="d7/d00/a00401_1a0324a08da4c72face57b7744694b720c" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>GetClassName</name></member>
+      <member refid="d7/d00/a00401_1a49abb0b52d557951c11536db02645152" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>GetDisplayName</name></member>
+      <member refid="da/dbf/a00393_1ae59376fd46156a41bb687406b3d881d7" prot="public" virt="non-virtual"><scope>CIccStructBRDF</scope><name>GetElem</name></member>
+      <member refid="da/dbf/a00393_1a1c8641070c37f4a9fba0ad6b2449f8fa" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>GetElemName</name></member>
+      <member refid="da/dbf/a00393_1ad4fd8a7c08d130fc5ce272d123bbe4b7" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>GetElemSig</name></member>
+      <member refid="da/dc3/a00453_1a9ea2a27738a8f7c6b1d821ab9ca2e149" prot="protected" virt="non-virtual"><scope>CIccStructBRDF</scope><name>getTagEntries</name></member>
+      <member refid="da/dc3/a00453_1aa2e62c114853876f0c31c5c2cf833956" prot="public" virt="non-virtual"><scope>CIccStructBRDF</scope><name>GetTagStruct</name></member>
+      <member refid="da/dbf/a00393_1a88bcc2da0a0db8b5adcd7c04bbe73ee5" prot="protected" virt="non-virtual"><scope>CIccStructBRDF</scope><name>m_pElemNameSigTable</name></member>
+      <member refid="da/dc3/a00453_1a8a366004f59930af892e13e29ca8e35d" prot="protected" virt="non-virtual"><scope>CIccStructBRDF</scope><name>m_pTagStruct</name></member>
+      <member refid="d7/d00/a00401_1a04717c1b439015d6e7f8bf717a899b42" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>NewCopy</name></member>
+      <member refid="d7/d00/a00401_1a12499ff044fcbd5493543e7f04702d51" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>Validate</name></member>
+      <member refid="d7/d00/a00401_1a3cb24443797d54645bb8103af764c531" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>~CIccStructBRDF</name></member>
+      <member refid="da/dbf/a00393_1a8a53a9b758b91fced8ae54b2fd8025b9" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>~CIccStructUnknown</name></member>
+      <member refid="da/dc3/a00453_1a0a854eb5e2221c4bc3dd0688b9a2946f" prot="public" virt="virtual"><scope>CIccStructBRDF</scope><name>~IIccStruct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

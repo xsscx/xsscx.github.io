@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d4/d4f/a00673" kind="struct" language="C++" prot="public">
+    <compoundname>icDateTimeType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/d4f/a00673_1add9ee09466456d7883f58817ce5b2ed1" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icDateTimeType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icDateTimeType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1838" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1838" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d4f/a00673_1a7fbd54c734d777de0d8484cd0da21c81" prot="public" static="no" mutable="no">
+        <type><ref refid="da/def/a00513" kindref="compound">icDateTimeNumber</ref></type>
+        <definition>icDateTimeNumber icDateTimeType::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <qualifiedname>icDateTimeType::date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1839" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1839" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>dateTimeType </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icDateTimeNumber</label>
+        <link refid="da/def/a00513"/>
+      </node>
+      <node id="1">
+        <label>icDateTimeType</label>
+        <link refid="d4/d4f/a00673"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>date</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1837" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1837" bodyend="1840"/>
+    <listofallmembers>
+      <member refid="d4/d4f/a00673_1add9ee09466456d7883f58817ce5b2ed1" prot="public" virt="non-virtual"><scope>icDateTimeType</scope><name>base</name></member>
+      <member refid="d4/d4f/a00673_1a7fbd54c734d777de0d8484cd0da21c81" prot="public" virt="non-virtual"><scope>icDateTimeType</scope><name>date</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

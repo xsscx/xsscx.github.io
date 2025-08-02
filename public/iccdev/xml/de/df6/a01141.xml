@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/df6/a01141" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccCLUTExec</compoundname>
+    <derivedcompoundref refid="d3/d1e/a02093" prot="public" virt="non-virtual">CIccDumpXmlCLUT</derivedcompoundref>
+    <includes refid="da/d24/a00068" local="no">IccTagLut.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/df6/a01141_1ab2ff72cfa45e15c61bdbb0856734d9e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccCLUTExec::~IIccCLUTExec</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccCLUTExec</name>
+        <qualifiedname>IIccCLUTExec::~IIccCLUTExec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="287" column="11" bodyfile="IccProfLib/IccTagLut.h" bodystart="287" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="de/df6/a01141_1aaa5f4390b0993556fe12b631f5b14ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IIccCLUTExec::PixelOp</definition>
+        <argsstring>(icFloatNumber *pGridAdr, icFloatNumber *pData)=0</argsstring>
+        <name>PixelOp</name>
+        <qualifiedname>IIccCLUTExec::PixelOp</qualifiedname>
+        <reimplementedby refid="d3/d1e/a02093_1ad945454bc4ae997578a38e9aef727eff">PixelOp</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pGridAdr</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="289" column="16"/>
+        <referencedby refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" compoundref="d4/d3e/a00116" startline="2069" endline="2112">CIccCLUT::Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">CIccCLUT::SubIterate</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface Class: <ref refid="de/df6/a01141" kindref="compound">IIccCLUTExec</ref></para>
+<para>Purpose: Interface class that is useful to populate CLUTs </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccDumpXmlCLUT</label>
+        <link refid="d3/d1e/a02093"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccCLUTExec</label>
+        <link refid="de/df6/a01141"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccTagLut.h" line="284" column="1" bodyfile="IccProfLib/IccTagLut.h" bodystart="285" bodyend="290"/>
+    <listofallmembers>
+      <member refid="de/df6/a01141_1aaa5f4390b0993556fe12b631f5b14ab3" prot="public" virt="pure-virtual"><scope>IIccCLUTExec</scope><name>PixelOp</name></member>
+      <member refid="de/df6/a01141_1ab2ff72cfa45e15c61bdbb0856734d9e7" prot="public" virt="virtual"><scope>IIccCLUTExec</scope><name>~IIccCLUTExec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d51/a00769" kind="struct" language="C++" prot="public">
+    <compoundname>icChromaticAdaptationType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/d51/a00769_1a8d935029ae5727d382f84d7829ce9190" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icChromaticAdaptationType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icChromaticAdaptationType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1994" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1994" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d51/a00769_1a9d002e4e6d9904be3ded9986775794c7" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1abc1aae452b363ecc9470f398332083bc" kindref="member">icS15Fixed16Number</ref></type>
+        <definition>icS15Fixed16Number icChromaticAdaptationType::matrix[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>matrix</name>
+        <qualifiedname>icChromaticAdaptationType::matrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1995" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1995" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>ChromaticAdaptation type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>icChromaticAdaptationType</label>
+        <link refid="dd/d51/a00769"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1993" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1993" bodyend="1996"/>
+    <listofallmembers>
+      <member refid="dd/d51/a00769_1a8d935029ae5727d382f84d7829ce9190" prot="public" virt="non-virtual"><scope>icChromaticAdaptationType</scope><name>base</name></member>
+      <member refid="dd/d51/a00769_1a9d002e4e6d9904be3ded9986775794c7" prot="public" virt="non-virtual"><scope>icChromaticAdaptationType</scope><name>matrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d4/ddc/a00917" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>CIccSparseMatrixEntry</compoundname>
+    <basecompoundref refid="d9/dfb/a00913" prot="public" virt="non-virtual">IIccSparseMatrixEntry</basecompoundref>
+    <includes refid="dd/d52/a00221" local="no">IccSparseMatrix.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" prot="protected" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* CIccSparseMatrixEntry&lt; T &gt;::m_pData</definition>
+        <argsstring></argsstring>
+        <name>m_pData</name>
+        <qualifiedname>CIccSparseMatrixEntry::m_pData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSparseMatrix.h" line="103" column="5" bodyfile="IccProfLib/IccSparseMatrix.h" bodystart="103" bodyend="-1"/>
+        <referencedby refid="d4/ddc/a00917_1a6e70d0c6b51818edbfd335c69bd7d0af" compoundref="dd/d52/a00221" startline="100" endline="100">CIccSparseMatrixEntry&lt; T &gt;::getPtr</referencedby>
+        <referencedby refid="d4/ddc/a00917_1a1b9b916087a506819ef2e2625276a63f" compoundref="dd/d52/a00221" startline="97" endline="97">CIccSparseMatrixEntry&lt; T &gt;::init</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/ddc/a00917_1a9e8428b52d896d157658489fdf33421e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccSparseMatrixEntry&lt; T &gt;::CIccSparseMatrixEntry</definition>
+        <argsstring>()</argsstring>
+        <name>CIccSparseMatrixEntry</name>
+        <qualifiedname>CIccSparseMatrixEntry::CIccSparseMatrixEntry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSparseMatrix.h" line="89" column="25" bodyfile="IccProfLib/IccSparseMatrix.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dfb/a00913_1a1d342968ce0ebdabe20013b1b8d85ee9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>virtual icFloatNumber IIccSparseMatrixEntry::get</definition>
+        <argsstring>(int index) const =0</argsstring>
+        <name>get</name>
+        <qualifiedname>IIccSparseMatrixEntry::get</qualifiedname>
+        <reimplementedby refid="dd/d7a/a00921_1afc91ab008eab3c6199f9e6e16bd3c630">get</reimplementedby>
+        <reimplementedby refid="dc/d36/a00925_1a60045615081897f9ba886ef592bbf01b">get</reimplementedby>
+        <reimplementedby refid="dc/d92/a00929_1aa040ac7b1c6cdedc5c668f0967acb11a">get</reimplementedby>
+        <reimplementedby refid="d0/d5b/a00933_1aa227b647f2ca3d8d6afce74a1d6afc8b">get</reimplementedby>
+        <reimplementedby refid="de/db9/a00937_1a694d424891e7be47db77706baada0911">get</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSparseMatrix.h" line="85" column="25"/>
+        <referencedby refid="d6/dad/a00941_1a8dee61c3a99b8c0807f2f795e5dc3891" compoundref="d7/d3f/a00173" startline="218" endline="235">CIccSparseMatrix::Copy</referencedby>
+        <referencedby refid="d2/d57/a01033_1a75cf9311bdc3fc036ca2ba698312be8f" compoundref="d9/dd0/a00191" startline="4789" endline="4826">CIccTagSparseMatrixArray::Describe</referencedby>
+        <referencedby refid="d6/dad/a00941_1a32d2bd0d7dee7be0e3fc987529c2c4cc" compoundref="d7/d3f/a00173" startline="288" endline="381">CIccSparseMatrix::Interp</referencedby>
+        <referencedby refid="d6/dad/a00941_1a5ac261e448180adc8574e5b0771ab5d1" compoundref="d7/d3f/a00173" startline="265" endline="285">CIccSparseMatrix::MultiplyVector</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/ddc/a00917_1a6e70d0c6b51818edbfd335c69bd7d0af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref> *</type>
+        <definition>virtual icUInt8Number * CIccSparseMatrixEntry&lt; T &gt;::getPtr</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>getPtr</name>
+        <qualifiedname>CIccSparseMatrixEntry::getPtr</qualifiedname>
+        <reimplements refid="d9/dfb/a00913_1af2f75fb97a626f7e2d33aa365f9541c4">getPtr</reimplements>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSparseMatrix.h" line="100" column="25" bodyfile="IccProfLib/IccSparseMatrix.h" bodystart="100" bodyend="100"/>
+        <references refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" compoundref="dd/d52/a00221" startline="103">CIccSparseMatrixEntry&lt; T &gt;::m_pData</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/ddc/a00917_1a1b9b916087a506819ef2e2625276a63f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void CIccSparseMatrixEntry&lt; T &gt;::init</definition>
+        <argsstring>(void *pData)</argsstring>
+        <name>init</name>
+        <qualifiedname>CIccSparseMatrixEntry::init</qualifiedname>
+        <reimplements refid="d9/dfb/a00913_1ac63cb584e6a12cc9472140ab0b678a4f">init</reimplements>
+        <param>
+          <type>void *</type>
+          <declname>pData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSparseMatrix.h" line="97" column="8" bodyfile="IccProfLib/IccSparseMatrix.h" bodystart="97" bodyend="97"/>
+        <references refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" compoundref="dd/d52/a00221" startline="103">CIccSparseMatrixEntry&lt; T &gt;::m_pData</references>
+      </memberdef>
+      <memberdef kind="function" id="d9/dfb/a00913_1a13aed89f674c29895a4f2db8be290712" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void IIccSparseMatrixEntry::set</definition>
+        <argsstring>(int index, icFloatNumber value)=0</argsstring>
+        <name>set</name>
+        <qualifiedname>IIccSparseMatrixEntry::set</qualifiedname>
+        <reimplementedby refid="dd/d7a/a00921_1a227df0619c7257b742dfb4e4fbf25e0a">set</reimplementedby>
+        <reimplementedby refid="dc/d36/a00925_1abd1d9a3fbe1694a364e50e42ab6565f5">set</reimplementedby>
+        <reimplementedby refid="dc/d92/a00929_1a843b2181ce298a51e68726f5c06cfb88">set</reimplementedby>
+        <reimplementedby refid="d0/d5b/a00933_1ad336d0bdfecc5461872c2188417c4d72">set</reimplementedby>
+        <reimplementedby refid="de/db9/a00937_1aec4d57f55cdc22e5f098edd6a3d7e3f5">set</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSparseMatrix.h" line="86" column="16"/>
+        <referencedby refid="d6/dad/a00941_1a8dee61c3a99b8c0807f2f795e5dc3891" compoundref="d7/d3f/a00173" startline="218" endline="235">CIccSparseMatrix::Copy</referencedby>
+        <referencedby refid="d6/dad/a00941_1a11d18378291acc9661a0f4ae6d44fd41" compoundref="d7/d3f/a00173" startline="237" endline="263">CIccSparseMatrix::FillFromFullMatrix</referencedby>
+        <referencedby refid="d6/dad/a00941_1a32d2bd0d7dee7be0e3fc987529c2c4cc" compoundref="d7/d3f/a00173" startline="288" endline="381">CIccSparseMatrix::Interp</referencedby>
+        <referencedby refid="d6/dad/a00941_1a1beed97298c83201babe52519c2a041e" compoundref="d7/d3f/a00173" startline="384" endline="477">CIccSparseMatrix::Union</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/ddc/a00917_1aacc3e4e92a62f156ad042a3aabf593f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>virtual icUInt8Number CIccSparseMatrixEntry&lt; T &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>CIccSparseMatrixEntry::size</qualifiedname>
+        <reimplements refid="d9/dfb/a00913_1aec5bc73b2f22d0b8e20f65e6badf4b96">size</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccSparseMatrix.h" line="99" column="25" bodyfile="IccProfLib/IccSparseMatrix.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccSparseMatrixEntry&lt; T &gt;</label>
+        <link refid="d4/ddc/a00917"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccSparseMatrixEntry&lt; icFloat16Number &gt;</label>
+        <link refid="d4/ddc/a00917"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; icFloat16Number &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccSparseMatrixEntry&lt; icFloat32Number &gt;</label>
+        <link refid="d4/ddc/a00917"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; icFloat32Number &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CIccSparseMatrixEntry&lt; icFloatNumber &gt;</label>
+        <link refid="d4/ddc/a00917"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; icFloatNumber &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccSparseMatrixEntry&lt; icUInt16Number &gt;</label>
+        <link refid="d4/ddc/a00917"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; icUInt16Number &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>CIccSparseMatrixEntry&lt; icUInt8Number &gt;</label>
+        <link refid="d4/ddc/a00917"/>
+        <childnode refid="1" relation="template-instance">
+          <edgelabel>&lt; icUInt8Number &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccSparseMatrixFloat16</label>
+        <link refid="dc/d92/a00929"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CIccSparseMatrixFloat32</label>
+        <link refid="d0/d5b/a00933"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CIccSparseMatrixFloatNum</label>
+        <link refid="de/db9/a00937"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CIccSparseMatrixUInt16</label>
+        <link refid="dc/d36/a00925"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>CIccSparseMatrixUInt8</label>
+        <link refid="dd/d7a/a00921"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccSparseMatrixEntry</label>
+        <link refid="d9/dfb/a00913"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccSparseMatrixEntry&lt; T &gt;</label>
+        <link refid="d4/ddc/a00917"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccSparseMatrixEntry</label>
+        <link refid="d9/dfb/a00913"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccSparseMatrix.h" line="93" column="1" bodyfile="IccProfLib/IccSparseMatrix.h" bodystart="94" bodyend="104"/>
+    <listofallmembers>
+      <member refid="d4/ddc/a00917_1a9e8428b52d896d157658489fdf33421e" prot="public" virt="non-virtual"><scope>CIccSparseMatrixEntry</scope><name>CIccSparseMatrixEntry</name></member>
+      <member refid="d9/dfb/a00913_1a1d342968ce0ebdabe20013b1b8d85ee9" prot="public" virt="pure-virtual"><scope>CIccSparseMatrixEntry</scope><name>get</name></member>
+      <member refid="d4/ddc/a00917_1a6e70d0c6b51818edbfd335c69bd7d0af" prot="public" virt="virtual"><scope>CIccSparseMatrixEntry</scope><name>getPtr</name></member>
+      <member refid="d4/ddc/a00917_1a1b9b916087a506819ef2e2625276a63f" prot="public" virt="virtual"><scope>CIccSparseMatrixEntry</scope><name>init</name></member>
+      <member refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" prot="protected" virt="non-virtual"><scope>CIccSparseMatrixEntry</scope><name>m_pData</name></member>
+      <member refid="d9/dfb/a00913_1a13aed89f674c29895a4f2db8be290712" prot="public" virt="pure-virtual"><scope>CIccSparseMatrixEntry</scope><name>set</name></member>
+      <member refid="d4/ddc/a00917_1aacc3e4e92a62f156ad042a3aabf593f5" prot="public" virt="virtual"><scope>CIccSparseMatrixEntry</scope><name>size</name></member>
+      <member refid="d9/dfb/a00913_1a477bf480fd4b59fb862850a3fc824c41" prot="public" virt="virtual"><scope>CIccSparseMatrixEntry</scope><name>~IIccSparseMatrixEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d1/dbd/a00457" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccArray</compoundname>
+    <derivedcompoundref refid="d4/d13/a00377" prot="public" virt="non-virtual">CIccArrayUnknown</derivedcompoundref>
+    <includes refid="d1/da8/a00230" local="no">IccTagComposite.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d1/dbd/a00457_1ac21c19a7261d5086a07ca84dffba00ce" prot="protected" static="no" mutable="no">
+        <type><ref refid="db/de0/a00465" kindref="compound">CIccTagArray</ref> *</type>
+        <definition>CIccTagArray* IIccArray::m_pTagArray</definition>
+        <argsstring></argsstring>
+        <name>m_pTagArray</name>
+        <qualifiedname>IIccArray::m_pTagArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="144" column="16" bodyfile="IccProfLib/IccTagComposite.h" bodystart="144" bodyend="-1"/>
+        <referencedby refid="d1/dbd/a00457_1a67bfd90309752427d99b32925a256795" compoundref="d1/da8/a00230" startline="141" endline="141">GetTagArray</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/dbd/a00457_1ac5c71765f3d4fc682a6f1a4b99a20975" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccArray::~IIccArray</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccArray</name>
+        <qualifiedname>IIccArray::~IIccArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="132" column="11" bodyfile="IccProfLib/IccTagComposite.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbd/a00457_1af4d4319d6530aaee172b60db6ed1c173" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void IIccArray::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness) const</argsstring>
+        <name>Describe</name>
+        <qualifiedname>IIccArray::Describe</qualifiedname>
+        <reimplementedby refid="d4/d13/a00377_1a57a8dba03618a7f06ef79fb847aa5133">Describe</reimplementedby>
+        <reimplementedby refid="de/d08/a00381_1a403eb59b8c1123adad307430f860b77c">Describe</reimplementedby>
+        <reimplementedby refid="d5/d05/a00385_1ac409a272574a6a2e486fd2ccb8d977e0">Describe</reimplementedby>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="135" column="16" bodyfile="IccProfLib/IccTagComposite.h" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbd/a00457_1af91616871f3213071c52d34ed1e5dbbc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * IIccArray::GetClassName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>IIccArray::GetClassName</qualifiedname>
+        <reimplementedby refid="d4/d13/a00377_1abef702926e9eb52991f012768672aa78">GetClassName</reimplementedby>
+        <reimplementedby refid="de/d08/a00381_1adfb4a204efcbf4c14e25f6b4836e1551">GetClassName</reimplementedby>
+        <reimplementedby refid="d5/d05/a00385_1aecea1897c17802cc3cc03c3ca61ed9ba">GetClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="137" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbd/a00457_1a67bfd90309752427d99b32925a256795" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/de0/a00465" kindref="compound">CIccTagArray</ref> *</type>
+        <definition>CIccTagArray * IIccArray::GetTagArray</definition>
+        <argsstring>()</argsstring>
+        <name>GetTagArray</name>
+        <qualifiedname>IIccArray::GetTagArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="141" column="16" bodyfile="IccProfLib/IccTagComposite.h" bodystart="141" bodyend="141"/>
+        <references refid="d1/dbd/a00457_1ac21c19a7261d5086a07ca84dffba00ce" compoundref="d1/da8/a00230" startline="144">m_pTagArray</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbd/a00457_1a8b161e3f2a8493beb5070736cf094f68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d1/dbd/a00457" kindref="compound">IIccArray</ref> *</type>
+        <definition>virtual IIccArray * IIccArray::NewCopy</definition>
+        <argsstring>(CIccTagArray *pNewTagArray) const =0</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>IIccArray::NewCopy</qualifiedname>
+        <reimplementedby refid="d4/d13/a00377_1add0fab96f0acf7c10662cac5d254739c">NewCopy</reimplementedby>
+        <reimplementedby refid="de/d08/a00381_1affd9460fd2240e92c80165111f999bdf">NewCopy</reimplementedby>
+        <reimplementedby refid="d5/d05/a00385_1a4e9c37438dd2d330163648c7462e31ff">NewCopy</reimplementedby>
+        <param>
+          <type><ref refid="db/de0/a00465" kindref="compound">CIccTagArray</ref> *</type>
+          <declname>pNewTagArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="133" column="21"/>
+        <referencedby refid="db/de0/a00465_1a1361ea475ab69942f083fd6e108aabf9" compoundref="d5/dcb/a00170" startline="1030" endline="1050">CIccTagArray::CIccTagArray</referencedby>
+        <referencedby refid="db/de0/a00465_1a5595210ce0d4d09700158ca63e255807" compoundref="d5/dcb/a00170" startline="1062" endline="1090">CIccTagArray::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbd/a00457_1af4ac0ae396dab185cc32f989e1f1bed6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>virtual icValidateStatus IIccArray::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccProfile *pProfile=NULL) const =0</argsstring>
+        <name>Validate</name>
+        <qualifiedname>IIccArray::Validate</qualifiedname>
+        <reimplementedby refid="d4/d13/a00377_1af963154771cc622580cd4251ce854596">Validate</reimplementedby>
+        <reimplementedby refid="de/d08/a00381_1ac28db86091b3c137fb8d5aa2c184a083">Validate</reimplementedby>
+        <reimplementedby refid="d5/d05/a00385_1a0862295ad84631f6d56761091cf16474">Validate</reimplementedby>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagComposite.h" line="139" column="28"/>
+        <referencedby refid="db/de0/a00465_1af4ca3bece348eb0c1233206fbe3fb8a6" compoundref="d5/dcb/a00170" startline="1455" endline="1494">CIccTagArray::Validate</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d1/dbd/a00457" kindref="compound">IIccArray</ref></para>
+<para>Purpose: The interface for Tag Array handler </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>CIccArrayColorantInfo</label>
+        <link refid="de/d08/a00381"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccArrayNamedColor</label>
+        <link refid="d5/d05/a00385"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccArrayUnknown</label>
+        <link refid="d4/d13/a00377"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccArray</label>
+        <link refid="d1/dbd/a00457"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="2">
+        <label>CIccTagArray</label>
+        <link refid="db/de0/a00465"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>m_pArray</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccArray</label>
+        <link refid="d1/dbd/a00457"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_pTagArray</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagComposite.h" line="129" column="1" bodyfile="IccProfLib/IccTagComposite.h" bodystart="130" bodyend="145"/>
+    <listofallmembers>
+      <member refid="d1/dbd/a00457_1af4d4319d6530aaee172b60db6ed1c173" prot="public" virt="virtual"><scope>IIccArray</scope><name>Describe</name></member>
+      <member refid="d1/dbd/a00457_1af91616871f3213071c52d34ed1e5dbbc" prot="public" virt="pure-virtual"><scope>IIccArray</scope><name>GetClassName</name></member>
+      <member refid="d1/dbd/a00457_1a67bfd90309752427d99b32925a256795" prot="public" virt="non-virtual"><scope>IIccArray</scope><name>GetTagArray</name></member>
+      <member refid="d1/dbd/a00457_1ac21c19a7261d5086a07ca84dffba00ce" prot="protected" virt="non-virtual"><scope>IIccArray</scope><name>m_pTagArray</name></member>
+      <member refid="d1/dbd/a00457_1a8b161e3f2a8493beb5070736cf094f68" prot="public" virt="pure-virtual"><scope>IIccArray</scope><name>NewCopy</name></member>
+      <member refid="d1/dbd/a00457_1af4ac0ae396dab185cc32f989e1f1bed6" prot="public" virt="pure-virtual"><scope>IIccArray</scope><name>Validate</name></member>
+      <member refid="d1/dbd/a00457_1ac5c71765f3d4fc682a6f1a4b99a20975" prot="public" virt="virtual"><scope>IIccArray</scope><name>~IIccArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

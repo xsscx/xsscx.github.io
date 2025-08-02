@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/d8c/a01297" kind="struct" language="C++" prot="public">
+    <compoundname>SIccOpState</compoundname>
+    <includes refid="d5/de0/a00050" local="no">IccMpeCalc.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/d8c/a01297_1a07edc976440a9b564c509426c16e7808" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number SIccOpState::idx</definition>
+        <argsstring></argsstring>
+        <name>idx</name>
+        <qualifiedname>SIccOpState::idx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="280" column="18" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="280" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">CIccCalculatorFunc::ApplySequence</referencedby>
+        <referencedby refid="db/dec/a01337_1a96c44309c9073e6e21855269ddeeeeae" compoundref="d9/d77/a00095" startline="231" endline="251">CIccOpDefData::Exec</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d8c/a01297_1a3d4421a95f068a86c2ee794b3439e372" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number SIccOpState::nOps</definition>
+        <argsstring></argsstring>
+        <name>nOps</name>
+        <qualifiedname>SIccOpState::nOps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="281" column="18" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="281" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">CIccCalculatorFunc::ApplySequence</referencedby>
+        <referencedby refid="db/dec/a01337_1a96c44309c9073e6e21855269ddeeeeae" compoundref="d9/d77/a00095" startline="231" endline="251">CIccOpDefData::Exec</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d8c/a01297_1a5a8da342d73f944976651389096def65" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* SIccOpState::output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <qualifiedname>SIccOpState::output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="279" column="17" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="279" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">CIccCalculatorFunc::ApplySequence</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d8c/a01297_1ae0a44dde754f5fb4e93e47b4fafd6bef" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d5c/a01321" kindref="compound">CIccApplyMpeCalculator</ref> *</type>
+        <definition>CIccApplyMpeCalculator* SIccOpState::pApply</definition>
+        <argsstring></argsstring>
+        <name>pApply</name>
+        <qualifiedname>SIccOpState::pApply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="274" column="26" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="274" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">CIccCalculatorFunc::ApplySequence</referencedby>
+        <referencedby refid="d7/d81/a01365_1ac32ed1e6a2f963179b6ccda644652208" compoundref="d9/d77/a00095" startline="327" endline="349">CIccOpDefEnvVar::Exec</referencedby>
+        <referencedby refid="d1/d17/a01369_1ad54e10126c3c8581c109d8cada01bd3c" compoundref="d9/d77/a00095" startline="355" endline="384">CIccOpDefSubElement::Exec</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d8c/a01297_1adde8698f9acb4dafaf8702cdb9809e16" prot="public" static="no" mutable="no">
+        <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>const icFloatNumber* SIccOpState::pixel</definition>
+        <argsstring></argsstring>
+        <name>pixel</name>
+        <qualifiedname>SIccOpState::pixel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="278" column="23" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="278" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">CIccCalculatorFunc::ApplySequence</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d8c/a01297_1a7f057bcb322a86fbd0be20edc9e91ee6" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/de0/a00050_1a5c6071647ffb9045dfcc18bf6c6db422" kindref="member">CIccFloatVector</ref> *</type>
+        <definition>CIccFloatVector* SIccOpState::pScratch</definition>
+        <argsstring></argsstring>
+        <name>pScratch</name>
+        <qualifiedname>SIccOpState::pScratch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="276" column="19" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="276" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">CIccCalculatorFunc::ApplySequence</referencedby>
+        <referencedby refid="d1/d17/a01369_1ad54e10126c3c8581c109d8cada01bd3c" compoundref="d9/d77/a00095" startline="355" endline="384">CIccOpDefSubElement::Exec</referencedby>
+        <referencedby refid="df/d68/a01385_1adec289bbd5fc5ac7243e16077b46fa16" compoundref="d9/d77/a00095" startline="463" endline="483">CIccOpDefRotateLeft::Exec</referencedby>
+        <referencedby refid="d0/d95/a01389_1ac87b7d61fe451592c5d419e574bdde5c" compoundref="d9/d77/a00095" startline="489" endline="509">CIccOpDefRotateRight::Exec</referencedby>
+        <referencedby refid="d3/d92/a01393_1abee2ddc127fb0793d5b88e9186e3d833" compoundref="d9/d77/a00095" startline="515" endline="547">CIccOpDefTranspose::Exec</referencedby>
+        <referencedby refid="d7/d1c/a01397_1ada9311a3a01ab9c73f3f878c90ac95f6" compoundref="d9/d77/a00095" startline="553" endline="590">CIccOpDefSolve::Exec</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d8c/a01297_1ab3754fddf22c18661914dc452cc1cfbd" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/de0/a00050_1a5c6071647ffb9045dfcc18bf6c6db422" kindref="member">CIccFloatVector</ref> *</type>
+        <definition>CIccFloatVector* SIccOpState::pStack</definition>
+        <argsstring></argsstring>
+        <name>pStack</name>
+        <qualifiedname>SIccOpState::pStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="275" column="19" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="275" bodyend="-1"/>
+        <referencedby refid="df/d29/a01329_1a6a36893b9e789e8c289972297a45f603" compoundref="d9/d77/a00095" startline="119" endline="142">CIccConsoleDebugger::AfterOp</referencedby>
+        <referencedby refid="d4/dbb/a02097_1a8ad65ef259354e591341ae4320c39820" compoundref="d3/d93/a00341" startline="135" endline="169">CIccLogDebugger::AfterOp</referencedby>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">CIccCalculatorFunc::ApplySequence</referencedby>
+        <referencedby refid="df/d29/a01329_1ad131252183085b7a2848807419fd452c" compoundref="d9/d77/a00095" startline="105" endline="117">CIccConsoleDebugger::BeforeOp</referencedby>
+        <referencedby refid="d4/dbb/a02097_1a5e3a58aae40e429f3ec103e0b420ee6c" compoundref="d3/d93/a00341" startline="117" endline="133">CIccLogDebugger::BeforeOp</referencedby>
+        <referencedby refid="db/dec/a01337_1a96c44309c9073e6e21855269ddeeeeae" compoundref="d9/d77/a00095" startline="231" endline="251">CIccOpDefData::Exec</referencedby>
+        <referencedby refid="de/da0/a01341_1accc39d310acb1463029c2f0db59e696d" compoundref="d9/d77/a00095" startline="257" endline="264">CIccOpDefPop::Exec</referencedby>
+        <referencedby refid="d2/d1f/a01361_1aa2ea4c50e64ba44de1845a8d15512167" compoundref="d9/d77/a00095" startline="310" endline="321">CIccOpDefTempSaveChan::Exec</referencedby>
+        <referencedby refid="d1/d17/a01369_1ad54e10126c3c8581c109d8cada01bd3c" compoundref="d9/d77/a00095" startline="355" endline="384">CIccOpDefSubElement::Exec</referencedby>
+        <referencedby refid="d7/d38/a01373_1a55098779e9d522954461e1ceeb938409" compoundref="d9/d77/a00095" startline="390" endline="411">CIccOpDefCopy::Exec</referencedby>
+        <referencedby refid="d3/dea/a01377_1ad04a24ac96783fce679edab0e4bf9fbb" compoundref="d9/d77/a00095" startline="417" endline="436">CIccOpDefPositionDup::Exec</referencedby>
+        <referencedby refid="da/d77/a01381_1aeb799c74191f6a02145ccb2c6dddb7ac" compoundref="d9/d77/a00095" startline="442" endline="457">CIccOpDefFlip::Exec</referencedby>
+        <referencedby refid="d3/d92/a01393_1abee2ddc127fb0793d5b88e9186e3d833" compoundref="d9/d77/a00095" startline="515" endline="547">CIccOpDefTranspose::Exec</referencedby>
+        <referencedby refid="d7/d1c/a01397_1ada9311a3a01ab9c73f3f878c90ac95f6" compoundref="d9/d77/a00095" startline="553" endline="590">CIccOpDefSolve::Exec</referencedby>
+        <referencedby refid="de/daf/a01417_1aa4fd485615780caf7a8bdf9e0166ccfb" compoundref="d9/d77/a00095" startline="636" endline="654">CIccOpDefSum::Exec</referencedby>
+        <referencedby refid="d4/d20/a01421_1a84ab2753a082842040b5393702e7692e" compoundref="d9/d77/a00095" startline="660" endline="678">CIccOpDefProduct::Exec</referencedby>
+        <referencedby refid="db/df2/a01425_1a78543aaac1a2abe73a9e3f03413d4b2c" compoundref="d9/d77/a00095" startline="684" endline="705">CIccOpDefMinimum::Exec</referencedby>
+        <referencedby refid="d1/d3b/a01429_1a08e26a4f5d36ec610eb75066290ff5dc" compoundref="d9/d77/a00095" startline="711" endline="732">CIccOpDefMaximum::Exec</referencedby>
+        <referencedby refid="d2/d9b/a01433_1a2c9b67e79848ab79ad3f088d1cf3576e" compoundref="d9/d77/a00095" startline="738" endline="754">CIccOpDefAnd::Exec</referencedby>
+        <referencedby refid="d9/db0/a01437_1ae6c2aee44fc91669fd34fcbe7d54abbb" compoundref="d9/d77/a00095" startline="760" endline="776">CIccOpDefOr::Exec</referencedby>
+        <referencedby refid="d5/df9/a01441_1a7f63ed1f734c2b3e2ba6321f98dcba0d" compoundref="d9/d77/a00095" startline="782" endline="795">CIccOpDefVectorMinimum::Exec</referencedby>
+        <referencedby refid="d9/d6f/a01445_1a363ceb89f905f9ceb1bf09023bf4a3a5" compoundref="d9/d77/a00095" startline="801" endline="814">CIccOpDefVectorMaximum::Exec</referencedby>
+        <referencedby refid="d2/d95/a01449_1a225ffda3fa5beb63dc21a84754cb80d5" compoundref="d9/d77/a00095" startline="820" endline="833">CIccOpDefVectorAnd::Exec</referencedby>
+        <referencedby refid="d9/dae/a01453_1ae5b77bf8962c8d1fdb7ea6856936bc56" compoundref="d9/d77/a00095" startline="839" endline="852">CIccOpDefVectorOr::Exec</referencedby>
+        <referencedby refid="da/df7/a01457_1a3bc04a239d488890ee614d7419add5a0" compoundref="d9/d77/a00095" startline="858" endline="871">CIccOpDefAdd::Exec</referencedby>
+        <referencedby refid="dc/d60/a01461_1a1c757d432d3a89c670c7b9bca6b56884" compoundref="d9/d77/a00095" startline="877" endline="890">CIccOpDefSubtract::Exec</referencedby>
+        <referencedby refid="d4/dfd/a01465_1a6a2f1ced5e110ab9362f39a019554fd8" compoundref="d9/d77/a00095" startline="896" endline="909">CIccOpDefMultiply::Exec</referencedby>
+        <referencedby refid="d9/d8b/a01469_1a482e24fdee93cbe355c2f66ff952df36" compoundref="d9/d77/a00095" startline="915" endline="928">CIccOpDefDivide::Exec</referencedby>
+        <referencedby refid="de/d13/a01473_1a6ab628614a517b04b099866f16bd9b9c" compoundref="d9/d77/a00095" startline="934" endline="947">CIccOpDefModulus::Exec</referencedby>
+        <referencedby refid="d8/d67/a01477_1aa3be3179e244aa3025c26ffbc48fa8d1" compoundref="d9/d77/a00095" startline="953" endline="967">CIccOpDefGamma::Exec</referencedby>
+        <referencedby refid="d1/de4/a01481_1a956b438c88cddca8cac814cd599094c5" compoundref="d9/d77/a00095" startline="973" endline="987">CIccOpDefScalarAdd::Exec</referencedby>
+        <referencedby refid="d4/d39/a01485_1abb5d638e81cc2af7899e2e5d37edb09c" compoundref="d9/d77/a00095" startline="993" endline="1007">CIccOpDefScalarSubtract::Exec</referencedby>
+        <referencedby refid="d2/dac/a01489_1a84501ce2be74c1393c1f933fb36a754b" compoundref="d9/d77/a00095" startline="1013" endline="1027">CIccOpDefScalarMultiply::Exec</referencedby>
+        <referencedby refid="d2/d41/a01493_1a56975f3ef81332bf5879d6588e5d6388" compoundref="d9/d77/a00095" startline="1033" endline="1047">CIccOpDefScalarDivide::Exec</referencedby>
+        <referencedby refid="db/d1e/a01497_1ab6d9e006f56babb9ca80cf6d400edd43" compoundref="d9/d77/a00095" startline="1053" endline="1066">CIccOpDefPow::Exec</referencedby>
+        <referencedby refid="db/d2c/a01501_1ab89b59af6546ac2d00d0d567e5ec285b" compoundref="d9/d77/a00095" startline="1072" endline="1085">CIccOpDefSquare::Exec</referencedby>
+        <referencedby refid="dc/dce/a01505_1a5fd8b99f95fd1f53dfeb0d44c38af2f5" compoundref="d9/d77/a00095" startline="1091" endline="1104">CIccOpDefSquareRoot::Exec</referencedby>
+        <referencedby refid="db/d06/a01509_1a6b898ec787af8d509250ba453a3c7a0b" compoundref="d9/d77/a00095" startline="1110" endline="1123">CIccOpDefCube::Exec</referencedby>
+        <referencedby refid="d0/d62/a01513_1ae161cca4fbbeb9563aaf0cb7c320fab4" compoundref="d9/d77/a00095" startline="1129" endline="1142">CIccOpDefCubeRoot::Exec</referencedby>
+        <referencedby refid="dc/d96/a01517_1a9922313fcc0cfee1ed7cd0f17dfa89af" compoundref="d9/d77/a00095" startline="1148" endline="1161">CIccOpDefSign::Exec</referencedby>
+        <referencedby refid="dc/d42/a01521_1a0ad12447a3f70b34e53a2fe6e55d2ca6" compoundref="d9/d77/a00095" startline="1167" endline="1180">CIccOpDefAbsoluteVal::Exec</referencedby>
+        <referencedby refid="db/de9/a01525_1add2f368aa9656eaa29bcd332356e1e4e" compoundref="d9/d77/a00095" startline="1186" endline="1198">CIccOpDefTruncate::Exec</referencedby>
+        <referencedby refid="db/dce/a01529_1ae20212971a50bf2e6a0721caf523746c" compoundref="d9/d77/a00095" startline="1204" endline="1215">CIccOpDefFloor::Exec</referencedby>
+        <referencedby refid="d1/d62/a01533_1ac6878f74b72fc6310aece9ea75ff5426" compoundref="d9/d77/a00095" startline="1221" endline="1232">CIccOpDefCeiling::Exec</referencedby>
+        <referencedby refid="df/d3f/a01537_1a5a45d9b16ea6afff791c52619d71d8b9" compoundref="d9/d77/a00095" startline="1238" endline="1252">CIccOpDefRound::Exec</referencedby>
+        <referencedby refid="d5/dc8/a01541_1af3bc091b3ba7d4dafe026d82c6cb5346" compoundref="d9/d77/a00095" startline="1258" endline="1271">CIccOpDefExp::Exec</referencedby>
+        <referencedby refid="dd/dba/a01545_1afb467875dd5bb695e63c621185d5adb2" compoundref="d9/d77/a00095" startline="1277" endline="1290">CIccOpDefLogrithm::Exec</referencedby>
+        <referencedby refid="d3/d1b/a01549_1aefae1e99d1df28165e4546aad37b0070" compoundref="d9/d77/a00095" startline="1296" endline="1309">CIccOpDefNaturalLog::Exec</referencedby>
+        <referencedby refid="de/d2c/a01553_1a52ded47fc396c7339f9265f2eb7907db" compoundref="d9/d77/a00095" startline="1315" endline="1328">CIccOpDefSine::Exec</referencedby>
+        <referencedby refid="d9/dac/a01557_1a386aeccf4368aeaa3123845440687529" compoundref="d9/d77/a00095" startline="1334" endline="1347">CIccOpDefCosine::Exec</referencedby>
+        <referencedby refid="d2/d49/a01561_1a97ef0f2ce17277480ff071cc7e0e42b3" compoundref="d9/d77/a00095" startline="1353" endline="1366">CIccOpDefTangent::Exec</referencedby>
+        <referencedby refid="d6/d82/a01565_1aa3ab5f414db42048cb11829cfa7f6e5e" compoundref="d9/d77/a00095" startline="1372" endline="1385">CIccOpDefArcSine::Exec</referencedby>
+        <referencedby refid="d9/d32/a01569_1ae774dd0c1648f57869e04faa827f0ca3" compoundref="d9/d77/a00095" startline="1391" endline="1404">CIccOpDefArcCosine::Exec</referencedby>
+        <referencedby refid="d6/db5/a01573_1ac8c200d7c6e37d622053e4cefd738582" compoundref="d9/d77/a00095" startline="1410" endline="1423">CIccOpDefArcTangent::Exec</referencedby>
+        <referencedby refid="d3/daa/a01577_1acf8ebec57e72dd6a60c9870556d3a530" compoundref="d9/d77/a00095" startline="1429" endline="1445">CIccOpDefArcTan2::Exec</referencedby>
+        <referencedby refid="da/df3/a01581_1a68701585090e89fd5d485ba1c5651724" compoundref="d9/d77/a00095" startline="1451" endline="1470">CIccOpDefCartesianToPolar::Exec</referencedby>
+        <referencedby refid="da/de2/a01585_1aac2a9ff10a70b9d9c6e4b9b1d438ae32" compoundref="d9/d77/a00095" startline="1476" endline="1493">CIccOpDefPolarToCartesian::Exec</referencedby>
+        <referencedby refid="d7/d29/a01589_1affc2ed8b4e36c9cc9b962e01f0e89ef2" compoundref="d9/d77/a00095" startline="1499" endline="1515">CIccOpDefLessThan::Exec</referencedby>
+        <referencedby refid="d9/dc8/a01593_1a0f71df2701796a6a71ec671b1bf5e0c9" compoundref="d9/d77/a00095" startline="1521" endline="1538">CIccOpDefRealNumber::Exec</referencedby>
+        <referencedby refid="d0/d1d/a01597_1a63c2e513087844a29f9fa8cbbbf23f47" compoundref="d9/d77/a00095" startline="1544" endline="1560">CIccOpDefLessThanEqual::Exec</referencedby>
+        <referencedby refid="d7/d82/a01601_1a0cb08a2ee3bc30cb9ea8473a4584a469" compoundref="d9/d77/a00095" startline="1566" endline="1587">CIccOpDefEqual::Exec</referencedby>
+        <referencedby refid="d5/d75/a01605_1a5d8ea9b3ae5dece5d59ab346c7a3d68e" compoundref="d9/d77/a00095" startline="1593" endline="1614">CIccOpDefNotEqual::Exec</referencedby>
+        <referencedby refid="da/d24/a01609_1a7d5341299601a44f6c8e71df2f69ee06" compoundref="d9/d77/a00095" startline="1620" endline="1636">CIccOpDefNear::Exec</referencedby>
+        <referencedby refid="d3/da1/a01613_1ad4e82210a3e4b04627bf3186573d9c22" compoundref="d9/d77/a00095" startline="1642" endline="1658">CIccOpDefGreaterThanEqual::Exec</referencedby>
+        <referencedby refid="d6/d6d/a01617_1a7a24f55af0a2ca345151bb4853bd03c3" compoundref="d9/d77/a00095" startline="1664" endline="1680">CIccOpDefGreaterThan::Exec</referencedby>
+        <referencedby refid="dd/dda/a01621_1a17dc2057b4bc2892c277b54a5326751e" compoundref="d9/d77/a00095" startline="1686" endline="1699">CIccOpDefNot::Exec</referencedby>
+        <referencedby refid="d3/d2d/a01625_1a21b4d57a2085b46cf7b71c510a411b29" compoundref="d9/d77/a00095" startline="1705" endline="1718">CIccOpDefNeg::Exec</referencedby>
+        <referencedby refid="dc/d62/a01629_1aa000ffa91816df3cd4a53564125e24b1" compoundref="d9/d77/a00095" startline="1724" endline="1744">CIccOpDefToLab::Exec</referencedby>
+        <referencedby refid="d6/dd6/a01633_1a9b85050a8930dfe0d4a9719835ae506f" compoundref="d9/d77/a00095" startline="1750" endline="1772">CIccOpDefFromLab::Exec</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d8c/a01297_1a2c05b4f0131bf03cb4297d5fa21a994f" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* SIccOpState::temp</definition>
+        <argsstring></argsstring>
+        <name>temp</name>
+        <qualifiedname>SIccOpState::temp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="277" column="17" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="277" bodyend="-1"/>
+        <referencedby refid="db/d4b/a01309_1a6d4c22d9c00dce394baabe39a3012285" compoundref="d9/d77/a00095" startline="3561" endline="3673">CIccCalculatorFunc::ApplySequence</referencedby>
+        <referencedby refid="d2/d1f/a01361_1aa2ea4c50e64ba44de1845a8d15512167" compoundref="d9/d77/a00095" startline="310" endline="321">CIccOpDefTempSaveChan::Exec</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure: <ref refid="dc/d8c/a01297" kindref="compound">SIccOpState</ref></para>
+<para>Purpose: Keep everything in one place for <ref refid="d3/d07/a01301" kindref="compound">IIccOpDef</ref> Exec </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>CIccApplyMpe</label>
+        <link refid="d4/d10/a01197"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>m_pApplyTag</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>m_pElem</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccApplyMpeCalculator</label>
+        <link refid="d9/d5c/a01321"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>m_SubElem</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>m_pCmmEnvVarLookup</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccApplyTagMpe</label>
+        <link refid="de/d04/a01209"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>m_pTag</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>m_applyBuf</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CIccDblPixelBuffer</label>
+        <link refid="de/d61/a01205"/>
+      </node>
+      <node id="11">
+        <label>CIccMultiProcessElement</label>
+        <link refid="dd/d43/a01193"/>
+      </node>
+      <node id="12">
+        <label>CIccSubCalcApply</label>
+        <link refid="de/d90/a01313"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>m_pApply</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="5">
+        <label>CIccTagMultiProcessElement</label>
+        <link refid="d5/d54/a01213"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_pAppliedPCC</edgelabel>
+          <edgelabel>m_pProfilePCC</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>m_pCmmEnvVarLookup</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>IIccCmmEnvVarLookup</label>
+        <link refid="dd/d07/a00433"/>
+      </node>
+      <node id="8">
+        <label>IIccProfileConnectionConditions</label>
+        <link refid="db/d18/a00885"/>
+      </node>
+      <node id="1">
+        <label>SIccOpState</label>
+        <link refid="dc/d8c/a01297"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pApply</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>icPositionNumber</label>
+        <link refid="d8/d6e/a00537"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeCalc.h" line="272" column="1" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="273" bodyend="282"/>
+    <listofallmembers>
+      <member refid="dc/d8c/a01297_1a07edc976440a9b564c509426c16e7808" prot="public" virt="non-virtual"><scope>SIccOpState</scope><name>idx</name></member>
+      <member refid="dc/d8c/a01297_1a3d4421a95f068a86c2ee794b3439e372" prot="public" virt="non-virtual"><scope>SIccOpState</scope><name>nOps</name></member>
+      <member refid="dc/d8c/a01297_1a5a8da342d73f944976651389096def65" prot="public" virt="non-virtual"><scope>SIccOpState</scope><name>output</name></member>
+      <member refid="dc/d8c/a01297_1ae0a44dde754f5fb4e93e47b4fafd6bef" prot="public" virt="non-virtual"><scope>SIccOpState</scope><name>pApply</name></member>
+      <member refid="dc/d8c/a01297_1adde8698f9acb4dafaf8702cdb9809e16" prot="public" virt="non-virtual"><scope>SIccOpState</scope><name>pixel</name></member>
+      <member refid="dc/d8c/a01297_1a7f057bcb322a86fbd0be20edc9e91ee6" prot="public" virt="non-virtual"><scope>SIccOpState</scope><name>pScratch</name></member>
+      <member refid="dc/d8c/a01297_1ab3754fddf22c18661914dc452cc1cfbd" prot="public" virt="non-virtual"><scope>SIccOpState</scope><name>pStack</name></member>
+      <member refid="dc/d8c/a01297_1a2c05b4f0131bf03cb4297d5fa21a994f" prot="public" virt="non-virtual"><scope>SIccOpState</scope><name>temp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

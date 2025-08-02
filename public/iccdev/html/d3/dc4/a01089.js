@@ -1,0 +1,27 @@
+var a01089 =
+[
+    [ "CIccTagProfileSeqDesc", "d3/dc4/a01089.html#aa7f7bebe988e83062098831bc49e2291", null ],
+    [ "CIccTagProfileSeqDesc", "d3/dc4/a01089.html#a76ef7107d6a87e5796c58d73142af86a", null ],
+    [ "~CIccTagProfileSeqDesc", "d3/dc4/a01089.html#a2fd7d3be3f3d47e96d37d6bdddb858b0", null ],
+    [ "Create", "d3/dc4/a01089.html#a2a2efdbfae5e8820c0dc4cdd1af691a8", null ],
+    [ "Describe", "d3/dc4/a01089.html#a7d1d6d470a3864dd497badec54fc2a28", null ],
+    [ "DetachIO", "d3/dc4/a01089.html#a3b8c88576df48859517cda49e412c9f3", null ],
+    [ "GetClassName", "d3/dc4/a01089.html#a5bb2ddb8dcdf7fe8fd9b3b45eb939d3f", null ],
+    [ "GetExtension", "d3/dc4/a01089.html#aa4cc7f1dd04e9b537738d1dfa96a9790", null ],
+    [ "GetTagArrayType", "d3/dc4/a01089.html#acc454c2f425b8619187fc75f682d7aa4", null ],
+    [ "GetTagStructType", "d3/dc4/a01089.html#ad53030e068551d6ac9f69124b4a6c9bb", null ],
+    [ "GetType", "d3/dc4/a01089.html#ad6716dd6a9322d67b55641e191cfd6bd", null ],
+    [ "IsArrayType", "d3/dc4/a01089.html#a80251cce2257d65fff1f45c0d805480f", null ],
+    [ "IsMBBType", "d3/dc4/a01089.html#a5cf5b72ab66ca68a6c8ddfd861741bb8", null ],
+    [ "IsNumArrayType", "d3/dc4/a01089.html#aa2a3dd91bfad9cf1297300d70936121a", null ],
+    [ "IsSupported", "d3/dc4/a01089.html#a3415307280dc7b871cc1797704008991", null ],
+    [ "NewCopy", "d3/dc4/a01089.html#a75e27f7883e595e29575dca402d84a4e", null ],
+    [ "operator=", "d3/dc4/a01089.html#a26e0aefc630ce72a0c7c1c8afb63ab74", null ],
+    [ "Read", "d3/dc4/a01089.html#ae5af70d0e084a18fe04f7cfcaab17f7a", null ],
+    [ "Read", "d3/dc4/a01089.html#a9c4cabcc7ea3278e375131bb688a8293", null ],
+    [ "ReadAll", "d3/dc4/a01089.html#affe66685d53e2ebf016a5a5126ed968d", null ],
+    [ "Validate", "d3/dc4/a01089.html#a76fce6cca3932803be2f6c6974ee7ff0", null ],
+    [ "Write", "d3/dc4/a01089.html#a7d64032c11a24811af599c55681579ed", null ],
+    [ "m_Descriptions", "d3/dc4/a01089.html#afa0e7e0f2a5de20db50d0fb7f995bd4d", null ],
+    [ "m_nReserved", "d3/dc4/a01089.html#a0dbc39e419057e941c11cacb8c9e3fb0", null ]
+];

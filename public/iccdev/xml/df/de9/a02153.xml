@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="df/de9/a02153" kind="class" language="C++" prot="public">
+    <compoundname>CubeFile</compoundname>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/de9/a02153_1a6ef4e64c2cea3d6cff58c8aa5064408f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CubeFile::m_bLutInVideoRange</definition>
+        <argsstring></argsstring>
+        <name>m_bLutInVideoRange</name>
+        <qualifiedname>CubeFile::m_bLutInVideoRange</qualifiedname>
+        <initializer>= <ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="329" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="329" bodyend="-1"/>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="df/de9/a02153_1aa7fcd87e883499e1c6cee8e4927c4b19" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CubeFile::m_bLutOutVideoRange</definition>
+        <argsstring></argsstring>
+        <name>m_bLutOutVideoRange</name>
+        <qualifiedname>CubeFile::m_bLutOutVideoRange</qualifiedname>
+        <initializer>= <ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="330" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="330" bodyend="-1"/>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="df/de9/a02153_1aacd36222704cf633ca28e48123277294" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CubeFile::m_comments</definition>
+        <argsstring></argsstring>
+        <name>m_comments</name>
+        <qualifiedname>CubeFile::m_comments</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="327" column="15" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="327" bodyend="-1"/>
+        <referencedby refid="df/de9/a02153_1aac67a6787ae80d0a400d689bc88795d4" compoundref="dc/d84/a00338" startline="202" endline="202">getCopyright</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="df/de9/a02153_1a00f73a2271f7798dbfa97847e709bbfd" prot="protected" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* CubeFile::m_f</definition>
+        <argsstring></argsstring>
+        <name>m_f</name>
+        <qualifiedname>CubeFile::m_f</qualifiedname>
+        <initializer>=nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="320" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="320" bodyend="-1"/>
+        <referencedby refid="df/de9/a02153_1a86cd8324d815bb228fe805d4b4c4fc7e" compoundref="dc/d84/a00338" startline="90" endline="95">close</referencedby>
+        <referencedby refid="df/de9/a02153_1aac358e8bd911211818f059b2f4711b2a" compoundref="dc/d84/a00338" startline="302" endline="318">getNextLine</referencedby>
+        <referencedby refid="df/de9/a02153_1ac96ca5cf056426c4324e9a2879d47aef" compoundref="dc/d84/a00338" startline="298" endline="298">isEOF</referencedby>
+        <referencedby refid="df/de9/a02153_1a18a7af314a8dd5ac28976d81e519bf62" compoundref="dc/d84/a00338" startline="253" endline="262">open</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="df/de9/a02153_1aeda21dbbc65d2ccdf099ad9fbde0e528" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CubeFile::m_fMaxInput[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>m_fMaxInput</name>
+        <qualifiedname>CubeFile::m_fMaxInput</qualifiedname>
+        <initializer>= { 1.0f, 1.0f, 1.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="324" column="17" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="324" bodyend="324"/>
+        <referencedby refid="df/de9/a02153_1ae6d2844f5fadfbd7d43e4ceff3bbce29" compoundref="dc/d84/a00338" startline="205" endline="205">getMaxInput</referencedby>
+        <referencedby refid="df/de9/a02153_1a8664901571bf87e989d9881f0da76ae3" compoundref="dc/d84/a00338" startline="207" endline="213">isCustomInputRange</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="df/de9/a02153_1afbb089aff543c1d7e75acdb89546690a" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CubeFile::m_fMinInput[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>m_fMinInput</name>
+        <qualifiedname>CubeFile::m_fMinInput</qualifiedname>
+        <initializer>= { 0.0f, 0.0f, 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="323" column="17" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="323" bodyend="323"/>
+        <referencedby refid="df/de9/a02153_1ae113ac13721326e902bccc63e418004f" compoundref="dc/d84/a00338" startline="204" endline="204">getMinInput</referencedby>
+        <referencedby refid="df/de9/a02153_1a8664901571bf87e989d9881f0da76ae3" compoundref="dc/d84/a00338" startline="207" endline="213">isCustomInputRange</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="df/de9/a02153_1a773afa86cf2c6950bc57fbfeb50201c6" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CubeFile::m_sFilename</definition>
+        <argsstring></argsstring>
+        <name>m_sFilename</name>
+        <qualifiedname>CubeFile::m_sFilename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="251" column="15" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="251" bodyend="-1"/>
+        <referencedby refid="df/de9/a02153_1aef50d4913183a8d3a1d45a7c524cecac" compoundref="dc/d84/a00338" startline="84" endline="87">CubeFile</referencedby>
+        <referencedby refid="df/de9/a02153_1a18a7af314a8dd5ac28976d81e519bf62" compoundref="dc/d84/a00338" startline="253" endline="262">open</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="df/de9/a02153_1a5bc438d110237195ef34ed6b8075da7d" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CubeFile::m_sizeLut3D</definition>
+        <argsstring></argsstring>
+        <name>m_sizeLut3D</name>
+        <qualifiedname>CubeFile::m_sizeLut3D</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="322" column="7" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="322" bodyend="-1"/>
+        <referencedby refid="df/de9/a02153_1ad0419f9f816ca241b89ff817e5022188" compoundref="dc/d84/a00338" startline="216" endline="248">parse3DTable</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+        <referencedby refid="df/de9/a02153_1afb94c451681f42033e63d1d29f618d4b" compoundref="dc/d84/a00338" startline="215" endline="215">sizeLut3D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="df/de9/a02153_1a57f5f63fcbf0acc78334d1f91fc278b7" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CubeFile::m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <qualifiedname>CubeFile::m_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="326" column="15" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="326" bodyend="-1"/>
+        <referencedby refid="df/de9/a02153_1a7d3d1a7a78b9fbbe0adf56305c6ecf2c" compoundref="dc/d84/a00338" startline="201" endline="201">getDescription</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/de9/a02153_1aef50d4913183a8d3a1d45a7c524cecac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CubeFile::CubeFile</definition>
+        <argsstring>(const char *szFilename)</argsstring>
+        <name>CubeFile</name>
+        <qualifiedname>CubeFile::CubeFile</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szFilename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="84" column="3" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="84" bodyend="87"/>
+        <references refid="df/de9/a02153_1a773afa86cf2c6950bc57fbfeb50201c6" compoundref="dc/d84/a00338" startline="251">m_sFilename</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1a553e0d48a98d3a324d95a3d4a8733297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CubeFile::~CubeFile</definition>
+        <argsstring>()</argsstring>
+        <name>~CubeFile</name>
+        <qualifiedname>CubeFile::~CubeFile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="88" column="3" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="88" bodyend="88"/>
+        <references refid="df/de9/a02153_1a86cd8324d815bb228fe805d4b4c4fc7e" compoundref="dc/d84/a00338" startline="90" endline="95">close</references>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1a86cd8324d815bb228fe805d4b4c4fc7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeFile::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <qualifiedname>CubeFile::close</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="90" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="90" bodyend="95"/>
+        <references refid="df/de9/a02153_1a00f73a2271f7798dbfa97847e709bbfd" compoundref="dc/d84/a00338" startline="320">m_f</references>
+        <referencedby refid="df/de9/a02153_1a553e0d48a98d3a324d95a3d4a8733297" compoundref="dc/d84/a00338" startline="88" endline="88">~CubeFile</referencedby>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1aac67a6787ae80d0a400d689bc88795d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CubeFile::getCopyright</definition>
+        <argsstring>()</argsstring>
+        <name>getCopyright</name>
+        <qualifiedname>CubeFile::getCopyright</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="202" column="15" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="202" bodyend="202"/>
+        <references refid="df/de9/a02153_1aacd36222704cf633ca28e48123277294" compoundref="dc/d84/a00338" startline="327">m_comments</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1a7d3d1a7a78b9fbbe0adf56305c6ecf2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CubeFile::getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <qualifiedname>CubeFile::getDescription</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="201" column="15" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="201" bodyend="201"/>
+        <references refid="df/de9/a02153_1a57f5f63fcbf0acc78334d1f91fc278b7" compoundref="dc/d84/a00338" startline="326">m_title</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1ae6d2844f5fadfbd7d43e4ceff3bbce29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CubeFile::getMaxInput</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxInput</name>
+        <qualifiedname>CubeFile::getMaxInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="205" column="17" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="205" bodyend="205"/>
+        <references refid="df/de9/a02153_1aeda21dbbc65d2ccdf099ad9fbde0e528" compoundref="dc/d84/a00338" startline="324" endline="324">m_fMaxInput</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1ae113ac13721326e902bccc63e418004f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CubeFile::getMinInput</definition>
+        <argsstring>()</argsstring>
+        <name>getMinInput</name>
+        <qualifiedname>CubeFile::getMinInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="204" column="17" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="204" bodyend="204"/>
+        <references refid="df/de9/a02153_1afbb089aff543c1d7e75acdb89546690a" compoundref="dc/d84/a00338" startline="323" endline="323">m_fMinInput</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1a8664901571bf87e989d9881f0da76ae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CubeFile::isCustomInputRange</definition>
+        <argsstring>()</argsstring>
+        <name>isCustomInputRange</name>
+        <qualifiedname>CubeFile::isCustomInputRange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="207" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="207" bodyend="213"/>
+        <references refid="d7/dce/a00143_1aaf96c225d68d992235383deca65d96c9" compoundref="d5/db1/a00140" startline="142" endline="145">icIsNear</references>
+        <references refid="df/de9/a02153_1aeda21dbbc65d2ccdf099ad9fbde0e528" compoundref="dc/d84/a00338" startline="324" endline="324">m_fMaxInput</references>
+        <references refid="df/de9/a02153_1afbb089aff543c1d7e75acdb89546690a" compoundref="dc/d84/a00338" startline="323" endline="323">m_fMinInput</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1ad0419f9f816ca241b89ff817e5022188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CubeFile::parse3DTable</definition>
+        <argsstring>(icFloatNumber *toLut, icUInt32Number nSizeLut)</argsstring>
+        <name>parse3DTable</name>
+        <qualifiedname>CubeFile::parse3DTable</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>toLut</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nSizeLut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="216" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="216" bodyend="248"/>
+        <references refid="df/de9/a02153_1a4ee3c90005e930f0c6b715c7f5976bf4" compoundref="dc/d84/a00338" startline="279" endline="286">getNext</references>
+        <references refid="df/de9/a02153_1aac358e8bd911211818f059b2f4711b2a" compoundref="dc/d84/a00338" startline="302" endline="318">getNextLine</references>
+        <references refid="df/de9/a02153_1ac96ca5cf056426c4324e9a2879d47aef" compoundref="dc/d84/a00338" startline="298" endline="298">isEOF</references>
+        <references refid="df/de9/a02153_1a5bc438d110237195ef34ed6b8075da7d" compoundref="dc/d84/a00338" startline="322">m_sizeLut3D</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CubeFile::parseHeader</definition>
+        <argsstring>()</argsstring>
+        <name>parseHeader</name>
+        <qualifiedname>CubeFile::parseHeader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="97" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="97" bodyend="199"/>
+        <references refid="df/de9/a02153_1a4ee3c90005e930f0c6b715c7f5976bf4" compoundref="dc/d84/a00338" startline="279" endline="286">getNext</references>
+        <references refid="df/de9/a02153_1aac358e8bd911211818f059b2f4711b2a" compoundref="dc/d84/a00338" startline="302" endline="318">getNextLine</references>
+        <references refid="df/de9/a02153_1a38f4860ff71dc677343df5bff38ac99b" compoundref="dc/d84/a00338" startline="264" endline="277">getTitle</references>
+        <references refid="df/de9/a02153_1ac96ca5cf056426c4324e9a2879d47aef" compoundref="dc/d84/a00338" startline="298" endline="298">isEOF</references>
+        <references refid="df/de9/a02153_1a6ef4e64c2cea3d6cff58c8aa5064408f" compoundref="dc/d84/a00338" startline="329">m_bLutInVideoRange</references>
+        <references refid="df/de9/a02153_1aa7fcd87e883499e1c6cee8e4927c4b19" compoundref="dc/d84/a00338" startline="330">m_bLutOutVideoRange</references>
+        <references refid="df/de9/a02153_1aacd36222704cf633ca28e48123277294" compoundref="dc/d84/a00338" startline="327">m_comments</references>
+        <references refid="df/de9/a02153_1a00f73a2271f7798dbfa97847e709bbfd" compoundref="dc/d84/a00338" startline="320">m_f</references>
+        <references refid="df/de9/a02153_1aeda21dbbc65d2ccdf099ad9fbde0e528" compoundref="dc/d84/a00338" startline="324" endline="324">m_fMaxInput</references>
+        <references refid="df/de9/a02153_1afbb089aff543c1d7e75acdb89546690a" compoundref="dc/d84/a00338" startline="323" endline="323">m_fMinInput</references>
+        <references refid="df/de9/a02153_1a5bc438d110237195ef34ed6b8075da7d" compoundref="dc/d84/a00338" startline="322">m_sizeLut3D</references>
+        <references refid="df/de9/a02153_1a57f5f63fcbf0acc78334d1f91fc278b7" compoundref="dc/d84/a00338" startline="326">m_title</references>
+        <references refid="df/de9/a02153_1a18a7af314a8dd5ac28976d81e519bf62" compoundref="dc/d84/a00338" startline="253" endline="262">open</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1afb94c451681f42033e63d1d29f618d4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CubeFile::sizeLut3D</definition>
+        <argsstring>()</argsstring>
+        <name>sizeLut3D</name>
+        <qualifiedname>CubeFile::sizeLut3D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="215" column="7" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="215" bodyend="215"/>
+        <references refid="df/de9/a02153_1a5bc438d110237195ef34ed6b8075da7d" compoundref="dc/d84/a00338" startline="322">m_sizeLut3D</references>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="df/de9/a02153_1a4ee3c90005e930f0c6b715c7f5976bf4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * CubeFile::getNext</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>getNext</name>
+        <qualifiedname>CubeFile::getNext</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="279" column="14" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="279" bodyend="286"/>
+        <referencedby refid="df/de9/a02153_1ad0419f9f816ca241b89ff817e5022188" compoundref="dc/d84/a00338" startline="216" endline="248">parse3DTable</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1aac358e8bd911211818f059b2f4711b2a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CubeFile::getNextLine</definition>
+        <argsstring>()</argsstring>
+        <name>getNextLine</name>
+        <qualifiedname>CubeFile::getNextLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="302" column="15" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="302" bodyend="318"/>
+        <references refid="df/de9/a02153_1ac96ca5cf056426c4324e9a2879d47aef" compoundref="dc/d84/a00338" startline="298" endline="298">isEOF</references>
+        <references refid="df/de9/a02153_1a00f73a2271f7798dbfa97847e709bbfd" compoundref="dc/d84/a00338" startline="320">m_f</references>
+        <referencedby refid="df/de9/a02153_1ad0419f9f816ca241b89ff817e5022188" compoundref="dc/d84/a00338" startline="216" endline="248">parse3DTable</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1a38f4860ff71dc677343df5bff38ac99b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CubeFile::getTitle</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>getTitle</name>
+        <qualifiedname>CubeFile::getTitle</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="264" column="15" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="264" bodyend="277"/>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1ac96ca5cf056426c4324e9a2879d47aef" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CubeFile::isEOF</definition>
+        <argsstring>()</argsstring>
+        <name>isEOF</name>
+        <qualifiedname>CubeFile::isEOF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="298" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="298" bodyend="298"/>
+        <references refid="df/de9/a02153_1a00f73a2271f7798dbfa97847e709bbfd" compoundref="dc/d84/a00338" startline="320">m_f</references>
+        <referencedby refid="df/de9/a02153_1aac358e8bd911211818f059b2f4711b2a" compoundref="dc/d84/a00338" startline="302" endline="318">getNextLine</referencedby>
+        <referencedby refid="df/de9/a02153_1ad0419f9f816ca241b89ff817e5022188" compoundref="dc/d84/a00338" startline="216" endline="248">parse3DTable</referencedby>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1a18a7af314a8dd5ac28976d81e519bf62" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CubeFile::open</definition>
+        <argsstring>()</argsstring>
+        <name>open</name>
+        <qualifiedname>CubeFile::open</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="253" column="8" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="253" bodyend="262"/>
+        <references refid="df/de9/a02153_1a00f73a2271f7798dbfa97847e709bbfd" compoundref="dc/d84/a00338" startline="320">m_f</references>
+        <references refid="df/de9/a02153_1a773afa86cf2c6950bc57fbfeb50201c6" compoundref="dc/d84/a00338" startline="251">m_sFilename</references>
+        <referencedby refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" compoundref="dc/d84/a00338" startline="97" endline="199">parseHeader</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/de9/a02153_1a5c3d0cefdb79bef4e18c81263e148bef" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CubeFile::toEnd</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>toEnd</name>
+        <qualifiedname>CubeFile::toEnd</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="288" column="15" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="288" bodyend="296"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccFromCube/iccFromCube.cpp" line="81" column="1" bodyfile="Tools/CmdLine/IccFromCube/iccFromCube.cpp" bodystart="82" bodyend="331"/>
+    <listofallmembers>
+      <member refid="df/de9/a02153_1a86cd8324d815bb228fe805d4b4c4fc7e" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>close</name></member>
+      <member refid="df/de9/a02153_1aef50d4913183a8d3a1d45a7c524cecac" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>CubeFile</name></member>
+      <member refid="df/de9/a02153_1aac67a6787ae80d0a400d689bc88795d4" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>getCopyright</name></member>
+      <member refid="df/de9/a02153_1a7d3d1a7a78b9fbbe0adf56305c6ecf2c" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>getDescription</name></member>
+      <member refid="df/de9/a02153_1ae6d2844f5fadfbd7d43e4ceff3bbce29" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>getMaxInput</name></member>
+      <member refid="df/de9/a02153_1ae113ac13721326e902bccc63e418004f" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>getMinInput</name></member>
+      <member refid="df/de9/a02153_1a4ee3c90005e930f0c6b715c7f5976bf4" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>getNext</name></member>
+      <member refid="df/de9/a02153_1aac358e8bd911211818f059b2f4711b2a" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>getNextLine</name></member>
+      <member refid="df/de9/a02153_1a38f4860ff71dc677343df5bff38ac99b" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>getTitle</name></member>
+      <member refid="df/de9/a02153_1a8664901571bf87e989d9881f0da76ae3" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>isCustomInputRange</name></member>
+      <member refid="df/de9/a02153_1ac96ca5cf056426c4324e9a2879d47aef" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>isEOF</name></member>
+      <member refid="df/de9/a02153_1a6ef4e64c2cea3d6cff58c8aa5064408f" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_bLutInVideoRange</name></member>
+      <member refid="df/de9/a02153_1aa7fcd87e883499e1c6cee8e4927c4b19" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_bLutOutVideoRange</name></member>
+      <member refid="df/de9/a02153_1aacd36222704cf633ca28e48123277294" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_comments</name></member>
+      <member refid="df/de9/a02153_1a00f73a2271f7798dbfa97847e709bbfd" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_f</name></member>
+      <member refid="df/de9/a02153_1aeda21dbbc65d2ccdf099ad9fbde0e528" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_fMaxInput</name></member>
+      <member refid="df/de9/a02153_1afbb089aff543c1d7e75acdb89546690a" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_fMinInput</name></member>
+      <member refid="df/de9/a02153_1a773afa86cf2c6950bc57fbfeb50201c6" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_sFilename</name></member>
+      <member refid="df/de9/a02153_1a5bc438d110237195ef34ed6b8075da7d" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_sizeLut3D</name></member>
+      <member refid="df/de9/a02153_1a57f5f63fcbf0acc78334d1f91fc278b7" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>m_title</name></member>
+      <member refid="df/de9/a02153_1a18a7af314a8dd5ac28976d81e519bf62" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>open</name></member>
+      <member refid="df/de9/a02153_1ad0419f9f816ca241b89ff817e5022188" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>parse3DTable</name></member>
+      <member refid="df/de9/a02153_1a650447d316b1a728e9912ad8e020e1d3" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>parseHeader</name></member>
+      <member refid="df/de9/a02153_1afb94c451681f42033e63d1d29f618d4b" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>sizeLut3D</name></member>
+      <member refid="df/de9/a02153_1a5c3d0cefdb79bef4e18c81263e148bef" prot="protected" virt="non-virtual"><scope>CubeFile</scope><name>toEnd</name></member>
+      <member refid="df/de9/a02153_1a553e0d48a98d3a324d95a3d4a8733297" prot="public" virt="non-virtual"><scope>CubeFile</scope><name>~CubeFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

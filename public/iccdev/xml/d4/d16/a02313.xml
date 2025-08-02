@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d4/d16/a02313" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>IccToXml</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`IccToXml`<sp/>is<sp/>a<sp/>command-line<sp/>utility<sp/>that<sp/>converts<sp/>binary<sp/>ICC<sp/>profiles<sp/>to<sp/>their<sp/>XML<sp/>representations.<sp/>This<sp/>is<sp/>useful<sp/>for<sp/>inspection,<sp/>validation,<sp/>and<sp/>editing<sp/>of<sp/>profile<sp/>contents<sp/>in<sp/>a<sp/>human-readable<sp/>format,<sp/>or<sp/>for<sp/>round-trip<sp/>transformations<sp/>in<sp/>conjunction<sp/>with<sp/>`IccFromXml`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Converts<sp/>`.icc`<sp/>binary<sp/>profiles<sp/>into<sp/>`.xml`<sp/>representation</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Preserves<sp/>all<sp/>tag<sp/>and<sp/>header<sp/>data<sp/>using<sp/>ICC<sp/>XML<sp/>schema</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>profiles<sp/>using<sp/>multi-process<sp/>elements<sp/>(MPEs)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Based<sp/>on<sp/>ICC<sp/>ProfLib<sp/>and<sp/>ICC<sp/>LibXML<sp/>libraries</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Outputs<sp/>well-formed<sp/>XML<sp/>suitable<sp/>for<sp/>re-import<sp/>or<sp/>validation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">IccToXml<sp/>source.icc<sp/>output.xml</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Parameters</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`source.icc`:<sp/>The<sp/>input<sp/>ICC<sp/>profile<sp/>(any<sp/>valid<sp/>ICC.1<sp/>or<sp/>ICC.2<sp/>binary<sp/>file)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`output.xml`:<sp/>Destination<sp/>XML<sp/>file<sp/>to<sp/>save<sp/>the<sp/>profile<sp/>representation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Output</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>A<sp/>full<sp/>XML<sp/>representation<sp/>of<sp/>the<sp/>ICC<sp/>profile<sp/>including:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Header<sp/>metadata</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Tag<sp/>table<sp/>with<sp/>all<sp/>defined<sp/>tags</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Multi-process<sp/>elements<sp/>and<sp/>nested<sp/>structure</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Can<sp/>be<sp/>re-imported<sp/>using<sp/>`IccFromXml`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">IccToXml<sp/>DisplayProfile.icc<sp/>DisplayProfile.xml</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Original<sp/>version<sp/>by<sp/>Max<sp/>Derhak</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>XML<sp/>serialization<sp/>reliability<sp/>improvements<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)</highlight></codeline>
+    </programlisting>
+    <location file="IccXML/CmdLine/IccToXml/Readme.md"/>
+  </compounddef>
+</doxygen>

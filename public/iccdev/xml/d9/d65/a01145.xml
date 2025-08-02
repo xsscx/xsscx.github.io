@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d9/d65/a01145" kind="class" language="C++" prot="public">
+    <compoundname>CIccApplyCLUT</compoundname>
+    <includes refid="da/d24/a00068" local="no">IccTagLut.h</includes>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="d9/d65/a01145_1acb25072eca229c2fced3f6ff827e7cdd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class</type>
+        <definition>friend class CIccCLUT</definition>
+        <argsstring></argsstring>
+        <name>CIccCLUT</name>
+        <qualifiedname>CIccApplyCLUT::CIccCLUT</qualifiedname>
+        <param>
+          <type><ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="303" column="16" bodyfile="IccProfLib/IccTagLut.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d9/d65/a01145_1a43a0a59cbc684f0ad06cea74b9bf390c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CIccApplyCLUT::m_df</definition>
+        <argsstring></argsstring>
+        <name>m_df</name>
+        <qualifiedname>CIccApplyCLUT::m_df</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="313" column="27" bodyfile="IccProfLib/IccTagLut.h" bodystart="313" bodyend="-1"/>
+        <referencedby refid="d9/d65/a01145_1a0c3ab95bb70a73658db4610846cd9f9c" compoundref="d4/d3e/a00116" startline="1623" endline="1629">CIccApplyCLUT</referencedby>
+        <referencedby refid="d9/d65/a01145_1a50060d1ce6e655a05e5a9b3b837bd3d0" compoundref="d4/d3e/a00116" startline="1640" endline="1650">~CIccApplyCLUT</referencedby>
+        <referencedby refid="d9/d65/a01145_1a65f8181225f079f5cf8d96c25178eaef" compoundref="d4/d3e/a00116" startline="1661" endline="1674">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">CIccCLUT::InterpND</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d65/a01145_1a5953c1fce7a39480d7db12fd5277d730" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CIccApplyCLUT::m_g</definition>
+        <argsstring></argsstring>
+        <name>m_g</name>
+        <qualifiedname>CIccApplyCLUT::m_g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="313" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="313" bodyend="-1"/>
+        <referencedby refid="d9/d65/a01145_1a0c3ab95bb70a73658db4610846cd9f9c" compoundref="d4/d3e/a00116" startline="1623" endline="1629">CIccApplyCLUT</referencedby>
+        <referencedby refid="d9/d65/a01145_1a50060d1ce6e655a05e5a9b3b837bd3d0" compoundref="d4/d3e/a00116" startline="1640" endline="1650">~CIccApplyCLUT</referencedby>
+        <referencedby refid="d9/d65/a01145_1a65f8181225f079f5cf8d96c25178eaef" compoundref="d4/d3e/a00116" startline="1661" endline="1674">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">CIccCLUT::InterpND</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d65/a01145_1ad3236a791bf972172aab4cf2679b9d15" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref> *</type>
+        <definition>icUInt32Number* CIccApplyCLUT::m_ig</definition>
+        <argsstring></argsstring>
+        <name>m_ig</name>
+        <qualifiedname>CIccApplyCLUT::m_ig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="314" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="314" bodyend="-1"/>
+        <referencedby refid="d9/d65/a01145_1a0c3ab95bb70a73658db4610846cd9f9c" compoundref="d4/d3e/a00116" startline="1623" endline="1629">CIccApplyCLUT</referencedby>
+        <referencedby refid="d9/d65/a01145_1a50060d1ce6e655a05e5a9b3b837bd3d0" compoundref="d4/d3e/a00116" startline="1640" endline="1650">~CIccApplyCLUT</referencedby>
+        <referencedby refid="d9/d65/a01145_1a65f8181225f079f5cf8d96c25178eaef" compoundref="d4/d3e/a00116" startline="1661" endline="1674">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">CIccCLUT::InterpND</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d65/a01145_1a996be6a288407f5bf11c9f1da2b63ed1" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccApplyCLUT::m_nSrcSamples</definition>
+        <argsstring></argsstring>
+        <name>m_nSrcSamples</name>
+        <qualifiedname>CIccApplyCLUT::m_nSrcSamples</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="311" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d65/a01145_1aa54b0528c2f9fd4cb42add01c19c2953" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CIccApplyCLUT::m_s</definition>
+        <argsstring></argsstring>
+        <name>m_s</name>
+        <qualifiedname>CIccApplyCLUT::m_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="313" column="22" bodyfile="IccProfLib/IccTagLut.h" bodystart="313" bodyend="-1"/>
+        <referencedby refid="d9/d65/a01145_1a0c3ab95bb70a73658db4610846cd9f9c" compoundref="d4/d3e/a00116" startline="1623" endline="1629">CIccApplyCLUT</referencedby>
+        <referencedby refid="d9/d65/a01145_1a50060d1ce6e655a05e5a9b3b837bd3d0" compoundref="d4/d3e/a00116" startline="1640" endline="1650">~CIccApplyCLUT</referencedby>
+        <referencedby refid="d9/d65/a01145_1a65f8181225f079f5cf8d96c25178eaef" compoundref="d4/d3e/a00116" startline="1661" endline="1674">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">CIccCLUT::InterpND</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d65/a01145_1a0c3ab95bb70a73658db4610846cd9f9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccApplyCLUT::CIccApplyCLUT</definition>
+        <argsstring>()</argsstring>
+        <name>CIccApplyCLUT</name>
+        <qualifiedname>CIccApplyCLUT::CIccApplyCLUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d9/d65/a01145_1a0c3ab95bb70a73658db4610846cd9f9c" kindref="member">CIccApplyCLUT::CIccApplyCLUT</ref></para>
+<para>Purpose: Constructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="305" column="3" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1623" bodyend="1629"/>
+        <references refid="d9/d65/a01145_1a43a0a59cbc684f0ad06cea74b9bf390c" compoundref="da/d24/a00068" startline="313">m_df</references>
+        <references refid="d9/d65/a01145_1a5953c1fce7a39480d7db12fd5277d730" compoundref="da/d24/a00068" startline="313">m_g</references>
+        <references refid="d9/d65/a01145_1ad3236a791bf972172aab4cf2679b9d15" compoundref="da/d24/a00068" startline="314">m_ig</references>
+        <references refid="d9/d65/a01145_1aa54b0528c2f9fd4cb42add01c19c2953" compoundref="da/d24/a00068" startline="313">m_s</references>
+        <referencedby refid="d8/d02/a01149_1af5d5680c45af970ec254e32f06b15c41" compoundref="d4/d3e/a00116" startline="2403" endline="2416">CIccCLUT::GetNewApply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d9/d65/a01145_1a50060d1ce6e655a05e5a9b3b837bd3d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccApplyCLUT::~CIccApplyCLUT</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccApplyCLUT</name>
+        <qualifiedname>CIccApplyCLUT::~CIccApplyCLUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: CIccApplyNDLutXform::~CIccApplyNDLutXform</para>
+<para>Purpose: Destructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="306" column="11" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1640" bodyend="1650"/>
+        <references refid="d9/d65/a01145_1a43a0a59cbc684f0ad06cea74b9bf390c" compoundref="da/d24/a00068" startline="313">m_df</references>
+        <references refid="d9/d65/a01145_1a5953c1fce7a39480d7db12fd5277d730" compoundref="da/d24/a00068" startline="313">m_g</references>
+        <references refid="d9/d65/a01145_1ad3236a791bf972172aab4cf2679b9d15" compoundref="da/d24/a00068" startline="314">m_ig</references>
+        <references refid="d9/d65/a01145_1aa54b0528c2f9fd4cb42add01c19c2953" compoundref="da/d24/a00068" startline="313">m_s</references>
+      </memberdef>
+      <memberdef kind="function" id="d9/d65/a01145_1a65f8181225f079f5cf8d96c25178eaef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccApplyCLUT::Init</definition>
+        <argsstring>(icUInt8Number nSrcChannels, icUInt32Number nNodes)</argsstring>
+        <name>Init</name>
+        <qualifiedname>CIccApplyCLUT::Init</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nSrcChannels</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nNodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d9/d65/a01145_1a65f8181225f079f5cf8d96c25178eaef" kindref="member">CIccApplyCLUT::Init</ref></para>
+<para>Purpose: Initializer </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="308" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1661" bodyend="1674"/>
+        <references refid="d9/d65/a01145_1a43a0a59cbc684f0ad06cea74b9bf390c" compoundref="da/d24/a00068" startline="313">m_df</references>
+        <references refid="d9/d65/a01145_1a5953c1fce7a39480d7db12fd5277d730" compoundref="da/d24/a00068" startline="313">m_g</references>
+        <references refid="d9/d65/a01145_1ad3236a791bf972172aab4cf2679b9d15" compoundref="da/d24/a00068" startline="314">m_ig</references>
+        <references refid="d9/d65/a01145_1aa54b0528c2f9fd4cb42add01c19c2953" compoundref="da/d24/a00068" startline="313">m_s</references>
+        <referencedby refid="d8/d02/a01149_1af5d5680c45af970ec254e32f06b15c41" compoundref="d4/d3e/a00116" startline="2403" endline="2416">CIccCLUT::GetNewApply</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d9/d65/a01145" kindref="compound">CIccApplyCLUT</ref></para>
+<para>Purpose: Apply storage for CLUT ND interpolation </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccTagLut.h" line="301" column="1" bodyfile="IccProfLib/IccTagLut.h" bodystart="302" bodyend="315"/>
+    <listofallmembers>
+      <member refid="d9/d65/a01145_1a0c3ab95bb70a73658db4610846cd9f9c" prot="public" virt="non-virtual"><scope>CIccApplyCLUT</scope><name>CIccApplyCLUT</name></member>
+      <member refid="d9/d65/a01145_1a65f8181225f079f5cf8d96c25178eaef" prot="public" virt="non-virtual"><scope>CIccApplyCLUT</scope><name>Init</name></member>
+      <member refid="d9/d65/a01145_1a43a0a59cbc684f0ad06cea74b9bf390c" prot="protected" virt="non-virtual"><scope>CIccApplyCLUT</scope><name>m_df</name></member>
+      <member refid="d9/d65/a01145_1a5953c1fce7a39480d7db12fd5277d730" prot="protected" virt="non-virtual"><scope>CIccApplyCLUT</scope><name>m_g</name></member>
+      <member refid="d9/d65/a01145_1ad3236a791bf972172aab4cf2679b9d15" prot="protected" virt="non-virtual"><scope>CIccApplyCLUT</scope><name>m_ig</name></member>
+      <member refid="d9/d65/a01145_1a996be6a288407f5bf11c9f1da2b63ed1" prot="protected" virt="non-virtual"><scope>CIccApplyCLUT</scope><name>m_nSrcSamples</name></member>
+      <member refid="d9/d65/a01145_1aa54b0528c2f9fd4cb42add01c19c2953" prot="protected" virt="non-virtual"><scope>CIccApplyCLUT</scope><name>m_s</name></member>
+      <member refid="d9/d65/a01145_1a50060d1ce6e655a05e5a9b3b837bd3d0" prot="public" virt="virtual"><scope>CIccApplyCLUT</scope><name>~CIccApplyCLUT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

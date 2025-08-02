@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/dd5/a00215" kind="file" language="C++">
+    <compoundname>IccEncoding.h</compoundname>
+    <includes refid="d4/d51/a00017" local="yes">IccProfile.h</includes>
+    <includedby refid="d3/df8/a00155" local="yes">IccProfLib/IccCmm.cpp</includedby>
+    <includedby refid="de/d76/a00134" local="yes">IccProfLib/IccEncoding.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccEncoding.h</label>
+        <link refid="d3/dd5/a00215"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>IccPcc.h</label>
+        <link refid="d4/d3a/a00101"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IccProfile.h</label>
+        <link refid="d4/d51/a00017"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="9">
+        <label>list</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>IccProfLib/IccCmm.cpp</label>
+        <link refid="d3/df8/a00155"/>
+      </node>
+      <node id="3">
+        <label>IccProfLib/IccEncoding.cpp</label>
+        <link refid="de/d76/a00134"/>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccEncoding.h</label>
+        <link refid="d3/dd5/a00215"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d1/db0/a00945" prot="public">IIccEncProfileCacheHandler</innerclass>
+    <innerclass refid="df/dc6/a00949" prot="public">IIccEncProfileConverter</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41" prot="public" static="no" strong="no">
+        <type></type>
+        <name>icStatusEncConvert</name>
+        <enumvalue id="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a3fed7724f564a3c845311a6694bc0b06" prot="public">
+          <name>icEncConvertOk</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a245302c3ed6158ae1dfc7de9699cc469" prot="public">
+          <name>icEncConvertBadProfile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a5696e72bd4fd15e79975b55b6032dae5" prot="public">
+          <name>icEncConvertNoBaseProfile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a63c1efdc6158cf8495fe50f0f52075a7" prot="public">
+          <name>icEncConvertBadBaseProfile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a19b4519b7cb895153a84a87e7bc220f3" prot="public">
+          <name>icEncConvertBadParams</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41aa96de1f8c5f14074ffd7bfe7fe1bfd02" prot="public">
+          <name>icEncConvertMemoryError</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="74" column="1" bodyfile="IccProfLib/IccEncoding.h" bodystart="74" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41" kindref="member">icStatusEncConvert</ref> <ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref></type>
+        <definition>icStatusEncConvert ICCPROFLIB_API icConvertEncodingProfile</definition>
+        <argsstring>(CIccProfilePtr &amp;newIcc, CIccProfile *pEncodeIcc)</argsstring>
+        <name>icConvertEncodingProfile</name>
+        <param>
+          <type>CIccProfilePtr &amp;</type>
+          <declname>newIcc</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pEncodeIcc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="105" column="35" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="538" bodyend="604" declfile="IccProfLib/IccEncoding.h" declline="105" declcolumn="35"/>
+        <references refid="d5/d5f/a00461_1a013394d9ae76eb2d65468060d52a50f9" compoundref="d5/dcb/a00170" startline="757" endline="789">CIccTagStruct::AttachElem</references>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <references refid="df/dc6/a00949_1abf6dbc95367b300db648e5fb11bf227b">IIccEncProfileConverter::ConvertFromParams</references>
+        <references refid="d5/d5f/a00461_1a52a413609854f16ec811ab3896882e41" compoundref="d5/dcb/a00170" startline="807" endline="827">CIccTagStruct::DeleteElem</references>
+        <references refid="d4/dd7/a00793_1a1f3bfb3d969d1976ee9913792496c6c5" compoundref="d7/d46/a00002" startline="2047">icHeader::deviceClass</references>
+        <references refid="d5/d5f/a00461_1a585382c9d5e868031eea7e15578fd777" compoundref="d1/da8/a00230" startline="181" endline="181">CIccTagStruct::GetElemList</references>
+        <references refid="d1/db0/a00945_1a90f4cc15765e813843f6b6c85115afaf">IIccEncProfileCacheHandler::GetEncodingProfile</references>
+        <references refid="d1/db0/a00945_1ad0c1572d1a530617c447045391e88074" compoundref="de/d76/a00134" startline="99" endline="105">IIccEncProfileCacheHandler::GetHandler</references>
+        <references refid="df/dc6/a00949_1a1068c9894ebe0ce61288ae9af0baf091" compoundref="de/d76/a00134" startline="519" endline="525">IIccEncProfileConverter::GetHandler</references>
+        <references refid="dd/d24/a00981_1a97b90bdd57a762ef871db759f1c71ff0" compoundref="da/dec/a00080" startline="338" endline="338">CIccTagUtf8Text::GetText</references>
+        <references refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a63c1efdc6158cf8495fe50f0f52075a7" compoundref="d3/dd5/a00215" startline="78">icEncConvertBadBaseProfile</references>
+        <references refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a245302c3ed6158ae1dfc7de9699cc469" compoundref="d3/dd5/a00215" startline="76">icEncConvertBadProfile</references>
+        <references refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a5696e72bd4fd15e79975b55b6032dae5" compoundref="d3/dd5/a00215" startline="77">icEncConvertNoBaseProfile</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a24cf99d0920e4e0b4549d67311e99928" compoundref="d7/d46/a00002" startline="959">icSigColorEncodingClass</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5ab60fd192f09adeb45ac657279bf53ff6" compoundref="d7/d46/a00002" startline="383">icSigColorEncodingParamsTag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a337e009b8d090fa92e60b9f34a59c371" compoundref="d7/d46/a00002" startline="384">icSigColorSpaceNameTag</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5aca49a7a664b57187af8a75a09647d057" compoundref="d7/d46/a00002" startline="464">icSigReferenceNameTag</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea42d8a785706c2dc6140684c1ff40d074" compoundref="d7/d46/a00002" startline="564">icSigTagStructType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea21dfb852fbf1b3dfa35ca6804d3d0499" compoundref="d7/d46/a00002" startline="574">icSigUtf8TextType</references>
+        <references refid="d7/dfd/a00969_1afc2491647e600a6f2ffefb36af6055d6" compoundref="da/dec/a00080" startline="121" endline="121">CIccTag::NewCopy</references>
+        <references refid="d6/d86/a00781_1a9e4fa23633a1ca43a6793a61c8252de4" compoundref="d7/d46/a00002" startline="2022">icTag::sig</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: IccEncode.h</para>
+<para>Contains: Header for implementation of Encoded profile class utiltities</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*<sp/>Copyright<sp/>(c)<sp/>2005<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment">*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment">*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment">*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment">*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Separated<sp/>tags<sp/>to<sp/>separate<sp/>files<sp/>and<sp/>created<sp/>this<sp/>single<sp/>header</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>file<sp/>to<sp/>declare<sp/>them<sp/>all</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/d51/a00017" kindref="compound">IccProfile.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="75" refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a3fed7724f564a3c845311a6694bc0b06" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a3fed7724f564a3c845311a6694bc0b06" kindref="member">icEncConvertOk</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="76" refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a245302c3ed6158ae1dfc7de9699cc469" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a245302c3ed6158ae1dfc7de9699cc469" kindref="member">icEncConvertBadProfile</ref>,</highlight></codeline>
+<codeline lineno="77" refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a5696e72bd4fd15e79975b55b6032dae5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a5696e72bd4fd15e79975b55b6032dae5" kindref="member">icEncConvertNoBaseProfile</ref>,</highlight></codeline>
+<codeline lineno="78" refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a63c1efdc6158cf8495fe50f0f52075a7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a63c1efdc6158cf8495fe50f0f52075a7" kindref="member">icEncConvertBadBaseProfile</ref>,</highlight></codeline>
+<codeline lineno="79" refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a19b4519b7cb895153a84a87e7bc220f3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41a19b4519b7cb895153a84a87e7bc220f3" kindref="member">icEncConvertBadParams</ref>,</highlight></codeline>
+<codeline lineno="80" refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41aa96de1f8c5f14074ffd7bfe7fe1bfd02" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41aa96de1f8c5f14074ffd7bfe7fe1bfd02" kindref="member">icEncConvertMemoryError</ref>,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41" kindref="member">icStatusEncConvert</ref>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="d1/db0/a00945" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d1/db0/a00945" kindref="compound">IIccEncProfileCacheHandler</ref></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="86" refid="d1/db0/a00945_1a3d71ca959aed1f79b0296e215d17b625" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d1/db0/a00945_1a3d71ca959aed1f79b0296e215d17b625" kindref="member">~IIccEncProfileCacheHandler</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="87" refid="d1/db0/a00945_1a90f4cc15765e813843f6b6c85115afaf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*<ref refid="d1/db0/a00945_1a90f4cc15765e813843f6b6c85115afaf" kindref="member">GetEncodingProfile</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a11ef650eb30d34d4f469f2c5db79aa50" kindref="member">icUChar</ref><sp/>*szColorSpaceName)=0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d1/db0/a00945" kindref="compound">IIccEncProfileCacheHandler</ref>*<sp/>GetHandler();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetEncCacheHandler(<ref refid="d1/db0/a00945" kindref="compound">IIccEncProfileCacheHandler</ref><sp/>*pHandler);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="df/dc6/a00949" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="df/dc6/a00949" kindref="compound">IIccEncProfileConverter</ref></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="98" refid="df/dc6/a00949_1a1be3368a383701494ddc83478462657c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="df/dc6/a00949_1a1be3368a383701494ddc83478462657c" kindref="member">~IIccEncProfileConverter</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="99" refid="df/dc6/a00949_1abf6dbc95367b300db648e5fb11bf227b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41" kindref="member">icStatusEncConvert</ref><sp/><ref refid="df/dc6/a00949_1abf6dbc95367b300db648e5fb11bf227b" kindref="member">ConvertFromParams</ref>(CIccProfilePtr<sp/>&amp;newIcc,<sp/><ref refid="d5/d5f/a00461" kindref="compound">CIccTagStruct</ref><sp/>*pParams,<sp/><ref refid="d4/dd7/a00793" kindref="compound">icHeader</ref><sp/>*pHeader)=0;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="df/dc6/a00949" kindref="compound">IIccEncProfileConverter</ref>*<sp/>GetHandler();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetEncProfileConverter(<ref refid="df/dc6/a00949" kindref="compound">IIccEncProfileConverter</ref><sp/>*pConverter);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><ref refid="d3/dd5/a00215_1af0a7084e49f2f756cb1ff0cc500a9a41" kindref="member">icStatusEncConvert</ref><sp/><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" kindref="member">icConvertEncodingProfile</ref>(CIccProfilePtr<sp/>&amp;newIcc,<sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*pEncodeIcc);</highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccEncoding.h"/>
+  </compounddef>
+</doxygen>

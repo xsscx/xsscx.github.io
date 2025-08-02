@@ -1,0 +1,27 @@
+var a00893 =
+[
+    [ "~CIccIO", "dc/d2c/a00893.html#a6216aac62e650cba9b25dd37528a8b54", null ],
+    [ "Align32", "dc/d2c/a00893.html#a6305c8a2db094c196a72663047ee5ddc", null ],
+    [ "Close", "dc/d2c/a00893.html#af38578f9470b5a195403552f252d4365", null ],
+    [ "GetLength", "dc/d2c/a00893.html#a2548156a3c8c463b27ec06a433b7d427", null ],
+    [ "Read16", "dc/d2c/a00893.html#a460f7d82e1daf63f867d7cbca8db2ac4", null ],
+    [ "Read32", "dc/d2c/a00893.html#ac9aad1577a5866e6d35dcacec83b6a59", null ],
+    [ "Read64", "dc/d2c/a00893.html#abce317a3e29ef016c9b72f0022aef53d", null ],
+    [ "Read8", "dc/d2c/a00893.html#a3a42fb785255dda8609fc46c83fe4f2c", null ],
+    [ "ReadFloat16Float", "dc/d2c/a00893.html#a05eb65f9187a4c84eec42ba30334ed69", null ],
+    [ "ReadFloat32Float", "dc/d2c/a00893.html#a1399dc6dcf7aefe36b78ad96fc117d17", null ],
+    [ "ReadLine", "dc/d2c/a00893.html#a95835f8ddc8b4e6915336b97268d0cba", null ],
+    [ "ReadUInt16Float", "dc/d2c/a00893.html#aa610de49d9918d4e354710b04491ae44", null ],
+    [ "ReadUInt8Float", "dc/d2c/a00893.html#a684b306f5069d36794d70afe2662e660", null ],
+    [ "Seek", "dc/d2c/a00893.html#a970eef37fff95838dabecc0a1b30de55", null ],
+    [ "Sync32", "dc/d2c/a00893.html#ad837e1b50625fe8a294dd73b7d923a0c", null ],
+    [ "Tell", "dc/d2c/a00893.html#a601e3908896710a0b8d3840df02e398f", null ],
+    [ "Write16", "dc/d2c/a00893.html#a2f7d1dcc2e402bf9b8c099c0929fd521", null ],
+    [ "Write32", "dc/d2c/a00893.html#a7c1a91f03bf48691c5de2e712fefa1f9", null ],
+    [ "Write64", "dc/d2c/a00893.html#a9811df24786ca05642a80a1754204105", null ],
+    [ "Write8", "dc/d2c/a00893.html#a24fbc228df298a644aceefc37cfab40e", null ],
+    [ "WriteFloat16Float", "dc/d2c/a00893.html#a57109e85a49573fd9f1af1e6ad7a53e2", null ],
+    [ "WriteFloat32Float", "dc/d2c/a00893.html#a9f55b95a792f5aa4353739c49f8952ee", null ],
+    [ "WriteUInt16Float", "dc/d2c/a00893.html#afd87a27fcc9a6871151f9c07e1721bae", null ],
+    [ "WriteUInt8Float", "dc/d2c/a00893.html#aa2873808c28b4bc36d5f5ff60c54e817", null ]
+];

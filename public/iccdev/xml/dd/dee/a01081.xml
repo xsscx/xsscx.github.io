@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/dee/a01081" kind="class" language="C++" prot="public">
+    <compoundname>CIccProfileDescText</compoundname>
+    <includes refid="da/dec/a00080" local="no">IccTagBasic.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/dee/a01081_1a0b649a8c5d94c61cd54ecc01c8b3eec2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CIccProfileDescText::m_bNeedsPading</definition>
+        <argsstring></argsstring>
+        <name>m_bNeedsPading</name>
+        <qualifiedname>CIccProfileDescText::m_bNeedsPading</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1475" column="8" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1475" bodyend="-1"/>
+        <referencedby refid="dd/dee/a01081_1a1a6964003e52d2d7021ca536be5ae13d" compoundref="d9/dd0/a00191" startline="9173" endline="9177">CIccProfileDescText</referencedby>
+        <referencedby refid="dd/dee/a01081_1ab6576e323d065d5e7f7515a9d6ab3412" compoundref="d9/dd0/a00191" startline="9190" endline="9200">CIccProfileDescText</referencedby>
+        <referencedby refid="dd/dee/a01081_1a45c411738f6363dc513c02bb46252ff0" compoundref="d9/dd0/a00191" startline="9213" endline="9231">operator=</referencedby>
+        <referencedby refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" compoundref="d9/dd0/a00191" startline="9331" endline="9369">Read</referencedby>
+        <referencedby refid="d3/dc4/a01089_1a76fce6cca3932803be2f6c6974ee7ff0" compoundref="d9/dd0/a00191" startline="9707" endline="9776">CIccTagProfileSeqDesc::Validate</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+        <definition>CIccTag* CIccProfileDescText::m_pTag</definition>
+        <argsstring></argsstring>
+        <name>m_pTag</name>
+        <qualifiedname>CIccProfileDescText::m_pTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1478" column="11" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1478" bodyend="-1"/>
+        <referencedby refid="dd/dee/a01081_1a1a6964003e52d2d7021ca536be5ae13d" compoundref="d9/dd0/a00191" startline="9173" endline="9177">CIccProfileDescText</referencedby>
+        <referencedby refid="dd/dee/a01081_1ab6576e323d065d5e7f7515a9d6ab3412" compoundref="d9/dd0/a00191" startline="9190" endline="9200">CIccProfileDescText</referencedby>
+        <referencedby refid="dd/dee/a01081_1aa804dd278060bf3955c16c97d54b447c" compoundref="d9/dd0/a00191" startline="9242" endline="9246">~CIccProfileDescText</referencedby>
+        <referencedby refid="dd/dee/a01081_1a00335003ac9434def281c2d1be1c135d" compoundref="d9/dd0/a00191" startline="9310" endline="9314">Describe</referencedby>
+        <referencedby refid="dd/dee/a01081_1aa4678e864f3f11cf1cfb3ff583b79b95" compoundref="da/dec/a00080" startline="1468" endline="1468">GetTag</referencedby>
+        <referencedby refid="dd/dee/a01081_1a3574cfc2a93ae239ba9bfd3b0fed6239" compoundref="d9/dd0/a00191" startline="9291" endline="9297">GetType</referencedby>
+        <referencedby refid="dd/dee/a01081_1a45c411738f6363dc513c02bb46252ff0" compoundref="d9/dd0/a00191" startline="9213" endline="9231">operator=</referencedby>
+        <referencedby refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" compoundref="d9/dd0/a00191" startline="9331" endline="9369">Read</referencedby>
+        <referencedby refid="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" compoundref="d9/dd0/a00191" startline="9263" endline="9279">SetType</referencedby>
+        <referencedby refid="dd/dee/a01081_1a8e00e4fdacd1b9a729c797cb6c239966" compoundref="d9/dd0/a00191" startline="9385" endline="9398">Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/dee/a01081_1a1a6964003e52d2d7021ca536be5ae13d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccProfileDescText::CIccProfileDescText</definition>
+        <argsstring>()</argsstring>
+        <name>CIccProfileDescText</name>
+        <qualifiedname>CIccProfileDescText::CIccProfileDescText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1a1a6964003e52d2d7021ca536be5ae13d" kindref="member">CIccProfileDescText::CIccProfileDescText</ref></para>
+<para>Purpose: Constructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1460" column="3" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9173" bodyend="9177"/>
+        <references refid="dd/dee/a01081_1a0b649a8c5d94c61cd54ecc01c8b3eec2" compoundref="da/dec/a00080" startline="1475">m_bNeedsPading</references>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1ab6576e323d065d5e7f7515a9d6ab3412" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccProfileDescText::CIccProfileDescText</definition>
+        <argsstring>(const CIccProfileDescText &amp;IPDC)</argsstring>
+        <name>CIccProfileDescText</name>
+        <qualifiedname>CIccProfileDescText::CIccProfileDescText</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/dee/a01081" kindref="compound">CIccProfileDescText</ref> &amp;</type>
+          <declname>IPDC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1a1a6964003e52d2d7021ca536be5ae13d" kindref="member">CIccProfileDescText::CIccProfileDescText</ref></para>
+<para>Purpose: Copy Constructor</para>
+<para>Args: IPDC = The <ref refid="d3/da5/a00973" kindref="compound">CIccTagUnknown</ref> object to be copied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1461" column="3" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9190" bodyend="9200"/>
+        <references refid="dd/dee/a01081_1a0b649a8c5d94c61cd54ecc01c8b3eec2" compoundref="da/dec/a00080" startline="1475">m_bNeedsPading</references>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+        <references refid="d7/dfd/a00969_1afc2491647e600a6f2ffefb36af6055d6" compoundref="da/dec/a00080" startline="121" endline="121">CIccTag::NewCopy</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1aa804dd278060bf3955c16c97d54b447c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccProfileDescText::~CIccProfileDescText</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccProfileDescText</name>
+        <qualifiedname>CIccProfileDescText::~CIccProfileDescText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1aa804dd278060bf3955c16c97d54b447c" kindref="member">CIccProfileDescText::~CIccProfileDescText</ref></para>
+<para>Purpose: Destructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1463" column="11" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9242" bodyend="9246"/>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1a00335003ac9434def281c2d1be1c135d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CIccProfileDescText::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccProfileDescText::Describe</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1a00335003ac9434def281c2d1be1c135d" kindref="member">CIccProfileDescText::Describe</ref></para>
+<para>Purpose: Dump data associated with the tag to a string</para>
+<para>Args: sDescription - string to concatenate tag dump to </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1470" column="16" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9310" bodyend="9314"/>
+        <references refid="d7/dfd/a00969_1a48edb50964c5a62a2ce4108297dd045a" compoundref="da/dec/a00080" startline="221" endline="221">CIccTag::Describe</references>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+        <referencedby refid="d3/dc4/a01089_1a7d1d6d470a3864dd497badec54fc2a28" compoundref="d9/dd0/a00191" startline="9655" endline="9690">CIccTagProfileSeqDesc::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1aa4678e864f3f11cf1cfb3ff583b79b95" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+        <definition>CIccTag * CIccProfileDescText::GetTag</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTag</name>
+        <qualifiedname>CIccProfileDescText::GetTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1468" column="11" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1468" bodyend="1468"/>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+        <referencedby refid="d0/d27/a00239_1a5e18ab5a318311f6b8e807ae44b7ed45" compoundref="d0/d27/a00239" startline="2181" endline="2255">icProfDescToXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a0f0f9f2d4fbf03932c3a2512b8d63410" compoundref="d0/d27/a00239" startline="2257" endline="2338">icXmlParseProfDesc</referencedby>
+        <referencedby refid="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" compoundref="d1/dc6/a00347" startline="457" endline="523">CDevLinkWriter::iterate</referencedby>
+        <referencedby refid="d3/dc4/a01089_1a76fce6cca3932803be2f6c6974ee7ff0" compoundref="d9/dd0/a00191" startline="9707" endline="9776">CIccTagProfileSeqDesc::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1a3574cfc2a93ae239ba9bfd3b0fed6239" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+        <definition>icTagTypeSignature CIccProfileDescText::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccProfileDescText::GetType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" kindref="member">CIccProfileDescText::SetType</ref></para>
+<para>Purpose: Gets the type of the profile description text. Could be either a MultiLocalizedUnicodeType or a TextDescriptionType. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1466" column="30" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9291" bodyend="9297"/>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1a45c411738f6363dc513c02bb46252ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/dee/a01081" kindref="compound">CIccProfileDescText</ref> &amp;</type>
+        <definition>CIccProfileDescText &amp; CIccProfileDescText::operator=</definition>
+        <argsstring>(const CIccProfileDescText &amp;ProfDescText)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccProfileDescText::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="dd/dee/a01081" kindref="compound">CIccProfileDescText</ref> &amp;</type>
+          <declname>ProfDescText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1a45c411738f6363dc513c02bb46252ff0" kindref="member">CIccProfileDescText::operator=</ref></para>
+<para>Purpose: Copy Operator</para>
+<para>Args: ProfDescText = The <ref refid="dd/dee/a01081" kindref="compound">CIccProfileDescText</ref> object to be copied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1462" column="23" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9213" bodyend="9231"/>
+        <references refid="dd/dee/a01081_1a0b649a8c5d94c61cd54ecc01c8b3eec2" compoundref="da/dec/a00080" startline="1475">m_bNeedsPading</references>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+        <references refid="d7/dfd/a00969_1afc2491647e600a6f2ffefb36af6055d6" compoundref="da/dec/a00080" startline="121" endline="121">CIccTag::NewCopy</references>
+        <referencedby refid="d2/df3/a01085_1a4b84d81694aaa7c4e7a85a3aa9760cec" compoundref="d9/dd0/a00191" startline="9425" endline="9433">CIccProfileDescStruct::CIccProfileDescStruct</referencedby>
+        <referencedby refid="d2/df3/a01085_1add5b58d66a53333f20734f5a6f84f27a" compoundref="d9/dd0/a00191" startline="9447" endline="9460">CIccProfileDescStruct::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileDescText::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccProfileDescText::Read</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" kindref="member">CIccProfileDescText::Read</ref></para>
+<para>Purpose: Read in the tag contents into a data block</para>
+<para>Args: size - # of bytes in tag, pIO - IO object to read tag from</para>
+<para>Return: true = successful, false = failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1472" column="16" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9331" bodyend="9369"/>
+        <references refid="df/d6a/a00119_1af6770b40ac8178ba561dedeea867ae17a3b7b6e37e81aceaf14f0946926fac503" compoundref="df/d6a/a00119" startline="83">icSeekSet</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" compoundref="d7/d46/a00002" startline="566">icSigTextDescriptionType</references>
+        <references refid="dd/dee/a01081_1a0b649a8c5d94c61cd54ecc01c8b3eec2" compoundref="da/dec/a00080" startline="1475">m_bNeedsPading</references>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+        <references refid="d7/dfd/a00969_1a5568fff58a4e0e004f2456c44151307d" compoundref="da/dec/a00080" startline="167" endline="167">CIccTag::Read</references>
+        <references refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">CIccIO::Read32</references>
+        <references refid="dc/d2c/a00893_1a970eef37fff95838dabecc0a1b30de55" compoundref="df/d6a/a00119" startline="132" endline="132">CIccIO::Seek</references>
+        <references refid="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" compoundref="d9/dd0/a00191" startline="9263" endline="9279">SetType</references>
+        <references refid="dc/d2c/a00893_1ad837e1b50625fe8a294dd73b7d923a0c" compoundref="d9/d2e/a00056" startline="357" endline="365">CIccIO::Sync32</references>
+        <references refid="dc/d2c/a00893_1a601e3908896710a0b8d3840df02e398f" compoundref="df/d6a/a00119" startline="133" endline="133">CIccIO::Tell</references>
+        <referencedby refid="d3/dc4/a01089_1ae5af70d0e084a18fe04f7cfcaab17f7a" compoundref="d9/dd0/a00191" startline="9544" endline="9596">CIccTagProfileSeqDesc::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileDescText::SetType</definition>
+        <argsstring>(icTagTypeSignature nType)</argsstring>
+        <name>SetType</name>
+        <qualifiedname>CIccProfileDescText::SetType</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+          <declname>nType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" kindref="member">CIccProfileDescText::SetType</ref></para>
+<para>Purpose: Sets the type of the profile description text. Could be either a MultiLocalizedUnicodeType or a TextDescriptionType.</para>
+<para>Args: nType = the tag type signature</para>
+<para>Return: true = successful, false = failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1465" column="8" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9263" bodyend="9279"/>
+        <references refid="d7/dfd/a00969_1a2a2efdbfae5e8820c0dc4cdd1af691a8" compoundref="d9/dd0/a00191" startline="143" endline="146">CIccTag::Create</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6138e5639e8125b850bbb5ac1ff683ce" compoundref="d7/d46/a00002" startline="549">icSigMultiLocalizedUnicodeType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" compoundref="d7/d46/a00002" startline="566">icSigTextDescriptionType</references>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+        <referencedby refid="d0/d27/a00239_1a0f0f9f2d4fbf03932c3a2512b8d63410" compoundref="d0/d27/a00239" startline="2257" endline="2338">icXmlParseProfDesc</referencedby>
+        <referencedby refid="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" compoundref="d1/dc6/a00347" startline="457" endline="523">CDevLinkWriter::iterate</referencedby>
+        <referencedby refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" compoundref="d9/dd0/a00191" startline="9331" endline="9369">Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/dee/a01081_1a8e00e4fdacd1b9a729c797cb6c239966" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CIccProfileDescText::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccProfileDescText::Write</qualifiedname>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="dd/dee/a01081_1a8e00e4fdacd1b9a729c797cb6c239966" kindref="member">CIccProfileDescText::Write</ref></para>
+<para>Purpose: Write the tag to a file</para>
+<para>Args: pIO - The IO object to write tag to.</para>
+<para>Return: true = succesful, false = failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="1473" column="16" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="9385" bodyend="9398"/>
+        <references refid="dc/d2c/a00893_1a6305c8a2db094c196a72663047ee5ddc" compoundref="d9/d2e/a00056" startline="341" endline="355">CIccIO::Align32</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" compoundref="d7/d46/a00002" startline="566">icSigTextDescriptionType</references>
+        <references refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" compoundref="da/dec/a00080" startline="1478">m_pTag</references>
+        <references refid="d7/dfd/a00969_1aaa4a03afee156aacc066d0419cb79537" compoundref="da/dec/a00080" startline="211" endline="211">CIccTag::Write</references>
+        <referencedby refid="d3/dc4/a01089_1a7d64032c11a24811af599c55681579ed" compoundref="d9/dd0/a00191" startline="9612" endline="9642">CIccTagProfileSeqDesc::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Data Class: <ref refid="dd/dee/a01081" kindref="compound">CIccProfileDescText</ref></para>
+<para>Purpose: Private text class for <ref refid="d2/df3/a01085" kindref="compound">CIccProfileDescStruct</ref>. Text can be either a <ref refid="d0/d28/a00997" kindref="compound">CIccTagTextDescription</ref> or a <ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref> so this class provides a single interface to both. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccProfileDescText</label>
+        <link refid="dd/dee/a01081"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_pTag</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagBasic.h" line="1457" column="1" bodyfile="IccProfLib/IccTagBasic.h" bodystart="1458" bodyend="1479"/>
+    <listofallmembers>
+      <member refid="dd/dee/a01081_1a1a6964003e52d2d7021ca536be5ae13d" prot="public" virt="non-virtual"><scope>CIccProfileDescText</scope><name>CIccProfileDescText</name></member>
+      <member refid="dd/dee/a01081_1ab6576e323d065d5e7f7515a9d6ab3412" prot="public" virt="non-virtual"><scope>CIccProfileDescText</scope><name>CIccProfileDescText</name></member>
+      <member refid="dd/dee/a01081_1a00335003ac9434def281c2d1be1c135d" prot="public" virt="virtual"><scope>CIccProfileDescText</scope><name>Describe</name></member>
+      <member refid="dd/dee/a01081_1aa4678e864f3f11cf1cfb3ff583b79b95" prot="public" virt="non-virtual"><scope>CIccProfileDescText</scope><name>GetTag</name></member>
+      <member refid="dd/dee/a01081_1a3574cfc2a93ae239ba9bfd3b0fed6239" prot="public" virt="virtual"><scope>CIccProfileDescText</scope><name>GetType</name></member>
+      <member refid="dd/dee/a01081_1a0b649a8c5d94c61cd54ecc01c8b3eec2" prot="public" virt="non-virtual"><scope>CIccProfileDescText</scope><name>m_bNeedsPading</name></member>
+      <member refid="dd/dee/a01081_1a66eede5ccc75bcc94e44d4a691ceda83" prot="protected" virt="non-virtual"><scope>CIccProfileDescText</scope><name>m_pTag</name></member>
+      <member refid="dd/dee/a01081_1a45c411738f6363dc513c02bb46252ff0" prot="public" virt="non-virtual"><scope>CIccProfileDescText</scope><name>operator=</name></member>
+      <member refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" prot="public" virt="virtual"><scope>CIccProfileDescText</scope><name>Read</name></member>
+      <member refid="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" prot="public" virt="non-virtual"><scope>CIccProfileDescText</scope><name>SetType</name></member>
+      <member refid="dd/dee/a01081_1a8e00e4fdacd1b9a729c797cb6c239966" prot="public" virt="virtual"><scope>CIccProfileDescText</scope><name>Write</name></member>
+      <member refid="dd/dee/a01081_1aa804dd278060bf3955c16c97d54b447c" prot="public" virt="virtual"><scope>CIccProfileDescText</scope><name>~CIccProfileDescText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

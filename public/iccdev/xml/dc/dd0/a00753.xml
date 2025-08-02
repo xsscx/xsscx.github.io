@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/dd0/a00753" kind="struct" language="C++" prot="public">
+    <compoundname>icXYZType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/dd0/a00753_1acfd04047e6fcdf6e84a6c03aa1ca623b" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icXYZType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icXYZType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1962" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1962" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/dd0/a00753_1af6ffa5f4447f0a495597536934a031ba" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/def/a00521" kindref="compound">icXYZArray</ref></type>
+        <definition>icXYZArray icXYZType::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>icXYZType::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1963" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1963" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>XYZ Type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+      <node id="3">
+        <label>icXYZArray</label>
+        <link refid="d7/def/a00521"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>icXYZNumber</label>
+        <link refid="d8/dc7/a00517"/>
+      </node>
+      <node id="1">
+        <label>icXYZType</label>
+        <link refid="dc/dd0/a00753"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1961" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1961" bodyend="1964"/>
+    <listofallmembers>
+      <member refid="dc/dd0/a00753_1acfd04047e6fcdf6e84a6c03aa1ca623b" prot="public" virt="non-virtual"><scope>icXYZType</scope><name>base</name></member>
+      <member refid="dc/dd0/a00753_1af6ffa5f4447f0a495597536934a031ba" prot="public" virt="non-virtual"><scope>icXYZType</scope><name>data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

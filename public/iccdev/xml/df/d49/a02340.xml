@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="df/d49/a02340" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>iccSpecSepToTiff</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Overview</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">`iccSpecSepToTiff`<sp/>is<sp/>a<sp/>command-line<sp/>utility<sp/>that<sp/>concatenates<sp/>multiple<sp/>monochrome<sp/>spectral<sp/>band<sp/>TIFF<sp/>images<sp/>into<sp/>a<sp/>single<sp/>multi-channel<sp/>TIFF<sp/>file.<sp/>It<sp/>supports<sp/>optional<sp/>compression<sp/>and<sp/>profile<sp/>embedding,<sp/>and<sp/>is<sp/>useful<sp/>for<sp/>assembling<sp/>spectral<sp/>image<sp/>stacks<sp/>into<sp/>a<sp/>standardized<sp/>format.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Features</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Merges<sp/>multiple<sp/>separated<sp/>spectral<sp/>TIFFs<sp/>into<sp/>one<sp/>multichannel<sp/>TIFF</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Optionally<sp/>compresses<sp/>the<sp/>output<sp/>TIFF</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Supports<sp/>separation<sp/>(planar)<sp/>or<sp/>interleaved<sp/>channel<sp/>format</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Preserves<sp/>resolution<sp/>and<sp/>photometric<sp/>interpretation</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Embeds<sp/>ICC<sp/>profile<sp/>if<sp/>provided</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Requirements</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Input<sp/>TIFFs<sp/>must:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Be<sp/>grayscale<sp/>(1<sp/>sample<sp/>per<sp/>pixel)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Have<sp/>the<sp/>same<sp/>dimensions,<sp/>bit<sp/>depth,<sp/>resolution,<sp/>and<sp/>photometric<sp/>type</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Be<sp/>specified<sp/>by<sp/>a<sp/>printf-style<sp/>format<sp/>string<sp/>(e.g.,<sp/>`band_%03d.tif`)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Output<sp/>will:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Match<sp/>input<sp/>resolution<sp/>and<sp/>dimensions</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Contain<sp/>as<sp/>many<sp/>channels<sp/>as<sp/>there<sp/>are<sp/>spectral<sp/>images</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>-<sp/>Use<sp/>`MinIsBlack`<sp/>photometric<sp/>if<sp/>not<sp/>inverted</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">Tools/IccSpecSepToTiff/iccSpecSepToTiff<sp/>output.tiff<sp/>compress_flag<sp/>sep_flag<sp/>input_fmt<sp/>start_nm<sp/>end_nm<sp/>inc_nm<sp/>[embedded_profile.icc]</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Parameters</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>`output.tiff`:<sp/>Name<sp/>of<sp/>the<sp/>output<sp/>TIFF<sp/>file</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`compress_flag`:<sp/>1<sp/>to<sp/>enable<sp/>compression,<sp/>0<sp/>to<sp/>disable</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`sep_flag`:<sp/>1<sp/>for<sp/>separated<sp/>planes,<sp/>0<sp/>for<sp/>interleaved</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`input_fmt`:<sp/>Format<sp/>string<sp/>for<sp/>input<sp/>filenames<sp/>(e.g.,<sp/>`spec_%03d.tif`)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`start_nm`:<sp/>Starting<sp/>wavelength<sp/>(integer)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`end_nm`:<sp/>Ending<sp/>wavelength<sp/>(integer)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`inc_nm`:<sp/>Increment<sp/>step<sp/>(nm<sp/>between<sp/>bands)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`embedded_profile.icc`:<sp/>Optional<sp/>ICC<sp/>profile<sp/>to<sp/>embed</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Example</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">iccSpecSepToTiff<sp/>merged.tiff<sp/>1<sp/>0<sp/>&quot;bands/spec_%03d.tif&quot;<sp/>400<sp/>700<sp/>10<sp/>profile.icc</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Creates<sp/>a<sp/>compressed,<sp/>interleaved<sp/>TIFF<sp/>from<sp/>`spec_400.tif`<sp/>to<sp/>`spec_700.tif`<sp/>in<sp/>10nm<sp/>steps,<sp/>embedding<sp/>`profile.icc`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Build<sp/>Instructions</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```sh</highlight></codeline>
+<codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Changelog</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>(2013)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Batch<sp/>and<sp/>ICC<sp/>embedding<sp/>enhancements<sp/>by<sp/>David<sp/>Hoyt<sp/>(2025)</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccSpecSepToTiff/Readme.md"/>
+  </compounddef>
+</doxygen>

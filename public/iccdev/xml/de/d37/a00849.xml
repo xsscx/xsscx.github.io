@@ -1,0 +1,497 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/d37/a00849" kind="class" language="C++" prot="public">
+    <compoundname>CIccToneMapFunc</compoundname>
+    <derivedcompoundref refid="d1/dc5/a02013" prot="public" virt="non-virtual">CIccXmlToneMapFunc</derivedcompoundref>
+    <includes refid="d2/de7/a00014" local="no">IccMpeBasic.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccToneMapFunc::m_nFunctionType</definition>
+        <argsstring></argsstring>
+        <name>m_nFunctionType</name>
+        <qualifiedname>CIccToneMapFunc::m_nFunctionType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="531" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="531" bodyend="-1"/>
+        <referencedby refid="de/d37/a00849_1aa501201e37646e3f489d21f59f0fefea" compoundref="d6/d2d/a00047" startline="3873" endline="3880">CIccToneMapFunc</referencedby>
+        <referencedby refid="de/d37/a00849_1ab51eded3a011aa9ef7fa8f3fbd8e8137" compoundref="d6/d2d/a00047" startline="4071" endline="4078">Apply</referencedby>
+        <referencedby refid="de/d37/a00849_1a3976fc43c7abee79db2c74de8a708940" compoundref="d6/d2d/a00047" startline="4060" endline="4069">Begin</referencedby>
+        <referencedby refid="de/d37/a00849_1a7b4ccb00a76a920ccdf3ed89124c078c" compoundref="d6/d2d/a00047" startline="3948" endline="3972">Describe</referencedby>
+        <referencedby refid="de/d37/a00849_1a8161fcfc519c03c014cef4307d158a74" compoundref="d6/d2d/a00047" startline="3923" endline="3928">NumArgs</referencedby>
+        <referencedby refid="de/d37/a00849_1a51ec0266dd586dff416db0657b2f52a9" compoundref="d6/d2d/a00047" startline="3889" endline="3911">operator=</referencedby>
+        <referencedby refid="d1/dc5/a02013_1a67d52136c7b6a56968bfab8d22dfecb6" compoundref="dd/dd7/a00260" startline="1681" endline="1726">CIccXmlToneMapFunc::ParseXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" compoundref="d6/d2d/a00047" startline="3974" endline="4026">Read</referencedby>
+        <referencedby refid="de/d37/a00849_1ace0d42f43c33a75927a259684b5b439e" compoundref="d6/d2d/a00047" startline="3930" endline="3946">SetFunction</referencedby>
+        <referencedby refid="d1/dc5/a02013_1ad507a27e2fd2f879f9afbe1c26071798" compoundref="dd/dd7/a00260" startline="1656" endline="1679">CIccXmlToneMapFunc::ToXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ac17fa188eaffcf0cd3cfb2196b213760" compoundref="d6/d2d/a00047" startline="4080" endline="4117">Validate</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccToneMapFunc::m_nParameters</definition>
+        <argsstring></argsstring>
+        <name>m_nParameters</name>
+        <qualifiedname>CIccToneMapFunc::m_nParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="532" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="532" bodyend="-1"/>
+        <referencedby refid="de/d37/a00849_1aa501201e37646e3f489d21f59f0fefea" compoundref="d6/d2d/a00047" startline="3873" endline="3880">CIccToneMapFunc</referencedby>
+        <referencedby refid="de/d37/a00849_1a3976fc43c7abee79db2c74de8a708940" compoundref="d6/d2d/a00047" startline="4060" endline="4069">Begin</referencedby>
+        <referencedby refid="de/d37/a00849_1a7b4ccb00a76a920ccdf3ed89124c078c" compoundref="d6/d2d/a00047" startline="3948" endline="3972">Describe</referencedby>
+        <referencedby refid="de/d37/a00849_1a51ec0266dd586dff416db0657b2f52a9" compoundref="d6/d2d/a00047" startline="3889" endline="3911">operator=</referencedby>
+        <referencedby refid="d1/dc5/a02013_1a67d52136c7b6a56968bfab8d22dfecb6" compoundref="dd/dd7/a00260" startline="1681" endline="1726">CIccXmlToneMapFunc::ParseXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" compoundref="d6/d2d/a00047" startline="3974" endline="4026">Read</referencedby>
+        <referencedby refid="de/d37/a00849_1ace0d42f43c33a75927a259684b5b439e" compoundref="d6/d2d/a00047" startline="3930" endline="3946">SetFunction</referencedby>
+        <referencedby refid="d1/dc5/a02013_1ad507a27e2fd2f879f9afbe1c26071798" compoundref="dd/dd7/a00260" startline="1656" endline="1679">CIccXmlToneMapFunc::ToXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ac17fa188eaffcf0cd3cfb2196b213760" compoundref="d6/d2d/a00047" startline="4080" endline="4117">Validate</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d37/a00849_1a54f61021e2ca9233c44ef21eb31f782a" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccToneMapFunc::m_nReserved</definition>
+        <argsstring></argsstring>
+        <name>m_nReserved</name>
+        <qualifiedname>CIccToneMapFunc::m_nReserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="534" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="534" bodyend="-1"/>
+        <referencedby refid="de/d37/a00849_1aa501201e37646e3f489d21f59f0fefea" compoundref="d6/d2d/a00047" startline="3873" endline="3880">CIccToneMapFunc</referencedby>
+        <referencedby refid="de/d37/a00849_1a51ec0266dd586dff416db0657b2f52a9" compoundref="d6/d2d/a00047" startline="3889" endline="3911">operator=</referencedby>
+        <referencedby refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" compoundref="d6/d2d/a00047" startline="3974" endline="4026">Read</referencedby>
+        <referencedby refid="d1/dc5/a02013_1ad507a27e2fd2f879f9afbe1c26071798" compoundref="dd/dd7/a00260" startline="1656" endline="1679">CIccXmlToneMapFunc::ToXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ac17fa188eaffcf0cd3cfb2196b213760" compoundref="d6/d2d/a00047" startline="4080" endline="4117">Validate</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d37/a00849_1a0bd635bf666ed89c5850cd8169b0eec1" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccToneMapFunc::m_nReserved2</definition>
+        <argsstring></argsstring>
+        <name>m_nReserved2</name>
+        <qualifiedname>CIccToneMapFunc::m_nReserved2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="535" column="18" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="535" bodyend="-1"/>
+        <referencedby refid="de/d37/a00849_1aa501201e37646e3f489d21f59f0fefea" compoundref="d6/d2d/a00047" startline="3873" endline="3880">CIccToneMapFunc</referencedby>
+        <referencedby refid="de/d37/a00849_1a51ec0266dd586dff416db0657b2f52a9" compoundref="d6/d2d/a00047" startline="3889" endline="3911">operator=</referencedby>
+        <referencedby refid="d1/dc5/a02013_1a67d52136c7b6a56968bfab8d22dfecb6" compoundref="dd/dd7/a00260" startline="1681" endline="1726">CIccXmlToneMapFunc::ParseXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" compoundref="d6/d2d/a00047" startline="3974" endline="4026">Read</referencedby>
+        <referencedby refid="d1/dc5/a02013_1ad507a27e2fd2f879f9afbe1c26071798" compoundref="dd/dd7/a00260" startline="1656" endline="1679">CIccXmlToneMapFunc::ToXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ac17fa188eaffcf0cd3cfb2196b213760" compoundref="d6/d2d/a00047" startline="4080" endline="4117">Validate</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CIccToneMapFunc::m_params</definition>
+        <argsstring></argsstring>
+        <name>m_params</name>
+        <qualifiedname>CIccToneMapFunc::m_params</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="533" column="17" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="533" bodyend="-1"/>
+        <referencedby refid="de/d37/a00849_1aa501201e37646e3f489d21f59f0fefea" compoundref="d6/d2d/a00047" startline="3873" endline="3880">CIccToneMapFunc</referencedby>
+        <referencedby refid="de/d37/a00849_1a1d42a2b33e7692aa2619d38e8a17577c" compoundref="d6/d2d/a00047" startline="3883" endline="3887">~CIccToneMapFunc</referencedby>
+        <referencedby refid="de/d37/a00849_1ab51eded3a011aa9ef7fa8f3fbd8e8137" compoundref="d6/d2d/a00047" startline="4071" endline="4078">Apply</referencedby>
+        <referencedby refid="de/d37/a00849_1a3976fc43c7abee79db2c74de8a708940" compoundref="d6/d2d/a00047" startline="4060" endline="4069">Begin</referencedby>
+        <referencedby refid="de/d37/a00849_1a7b4ccb00a76a920ccdf3ed89124c078c" compoundref="d6/d2d/a00047" startline="3948" endline="3972">Describe</referencedby>
+        <referencedby refid="de/d37/a00849_1a51ec0266dd586dff416db0657b2f52a9" compoundref="d6/d2d/a00047" startline="3889" endline="3911">operator=</referencedby>
+        <referencedby refid="d1/dc5/a02013_1a67d52136c7b6a56968bfab8d22dfecb6" compoundref="dd/dd7/a00260" startline="1681" endline="1726">CIccXmlToneMapFunc::ParseXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" compoundref="d6/d2d/a00047" startline="3974" endline="4026">Read</referencedby>
+        <referencedby refid="de/d37/a00849_1ace0d42f43c33a75927a259684b5b439e" compoundref="d6/d2d/a00047" startline="3930" endline="3946">SetFunction</referencedby>
+        <referencedby refid="d1/dc5/a02013_1ad507a27e2fd2f879f9afbe1c26071798" compoundref="dd/dd7/a00260" startline="1656" endline="1679">CIccXmlToneMapFunc::ToXml</referencedby>
+        <referencedby refid="de/d37/a00849_1ac17fa188eaffcf0cd3cfb2196b213760" compoundref="d6/d2d/a00047" startline="4080" endline="4117">Validate</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d37/a00849_1aa501201e37646e3f489d21f59f0fefea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccToneMapFunc::CIccToneMapFunc</definition>
+        <argsstring>()</argsstring>
+        <name>CIccToneMapFunc</name>
+        <qualifiedname>CIccToneMapFunc::CIccToneMapFunc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="508" column="3" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="3873" bodyend="3880"/>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" compoundref="d2/de7/a00014" startline="532">m_nParameters</references>
+        <references refid="de/d37/a00849_1a54f61021e2ca9233c44ef21eb31f782a" compoundref="d2/de7/a00014" startline="534">m_nReserved</references>
+        <references refid="de/d37/a00849_1a0bd635bf666ed89c5850cd8169b0eec1" compoundref="d2/de7/a00014" startline="535">m_nReserved2</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <referencedby refid="de/d37/a00849_1adf64bdd5109fec93586f6d8e6785dc6c" compoundref="d6/d2d/a00047" startline="3913" endline="3921">NewCopy</referencedby>
+        <referencedby refid="db/deb/a00853_1abd18846b0e68f69ee2e17846032b3808" compoundref="d2/de7/a00014" startline="557" endline="557">CIccMpeToneMap::NewToneMapFunc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1a1d42a2b33e7692aa2619d38e8a17577c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccToneMapFunc::~CIccToneMapFunc</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccToneMapFunc</name>
+        <qualifiedname>CIccToneMapFunc::~CIccToneMapFunc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="509" column="11" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="3883" bodyend="3887"/>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1ab51eded3a011aa9ef7fa8f3fbd8e8137" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccToneMapFunc::Apply</definition>
+        <argsstring>(icFloatNumber lumValue, icFloatNumber pixelValue) const</argsstring>
+        <name>Apply</name>
+        <qualifiedname>CIccToneMapFunc::Apply</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>lumValue</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>pixelValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="524" column="17" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="4071" bodyend="4078"/>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <referencedby refid="db/deb/a00853_1a6258ff9a42f36ab16bb01c8b3bfb051f" compoundref="d6/d2d/a00047" startline="4719" endline="4725">CIccMpeToneMap::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1a3976fc43c7abee79db2c74de8a708940" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccToneMapFunc::Begin</definition>
+        <argsstring>()</argsstring>
+        <name>Begin</name>
+        <qualifiedname>CIccToneMapFunc::Begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="523" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="4060" bodyend="4069"/>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" compoundref="d2/de7/a00014" startline="532">m_nParameters</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <references refid="de/d37/a00849_1a8161fcfc519c03c014cef4307d158a74" compoundref="d6/d2d/a00047" startline="3923" endline="3928">NumArgs</references>
+        <referencedby refid="db/deb/a00853_1a02818167a037d49841c5f80ccc23ea44" compoundref="d6/d2d/a00047" startline="4686" endline="4706">CIccMpeToneMap::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1a7b4ccb00a76a920ccdf3ed89124c078c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccToneMapFunc::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness=0)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccToneMapFunc::Describe</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="518" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="3948" bodyend="3972"/>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" compoundref="d2/de7/a00014" startline="532">m_nParameters</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <referencedby refid="db/deb/a00853_1ae960c0f90396fcdd228c28128f9f583e" compoundref="d6/d2d/a00047" startline="4371" endline="4393">CIccMpeToneMap::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1addae7ef6d1213ec8c5bffe66d71330be" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char * CIccToneMapFunc::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccToneMapFunc::GetClassName</qualifiedname>
+        <reimplementedby refid="d1/dc5/a02013_1a1831ec35fcac1bf837e686205423de86">GetClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="514" column="22" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="514" bodyend="514"/>
+        <referencedby refid="d0/dfd/a02017_1a9efba74ea5302530c03ab16fc7737247" compoundref="dd/dd7/a00260" startline="1729" endline="1779">CIccMpeXmlToneMap::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1a650ac8180b8db5b1c12c18ccec80ca68" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a0fe56f740e82f924ea92b0ddd4a9a47a" kindref="member">icToneFunctionSignature</ref></type>
+        <definition>virtual icToneFunctionSignature CIccToneMapFunc::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccToneMapFunc::GetType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="513" column="35" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="513" bodyend="513"/>
+        <references refid="d7/d46/a00002_1a0fe56f740e82f924ea92b0ddd4a9a47aa2150cb4c32ad4a16dabe73c7983a4a88" compoundref="d7/d46/a00002" startline="1077">icSigToneMapFunction</references>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1adf64bdd5109fec93586f6d8e6785dc6c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="de/d37/a00849" kindref="compound">CIccToneMapFunc</ref> *</type>
+        <definition>CIccToneMapFunc * CIccToneMapFunc::NewCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccToneMapFunc::NewCopy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="511" column="27" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="3913" bodyend="3921"/>
+        <references refid="de/d37/a00849_1aa501201e37646e3f489d21f59f0fefea" compoundref="d6/d2d/a00047" startline="3873" endline="3880">CIccToneMapFunc</references>
+        <references refid="de/d37/a00849_1a51ec0266dd586dff416db0657b2f52a9" compoundref="d6/d2d/a00047" startline="3889" endline="3911">operator=</references>
+        <referencedby refid="db/deb/a00853_1ad135bbac66f06cf2c39de1e7b92af054" compoundref="d6/d2d/a00047" startline="4238" endline="4261">CIccMpeToneMap::CopyToneFuncs</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1a51ec0266dd586dff416db0657b2f52a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d37/a00849" kindref="compound">CIccToneMapFunc</ref> &amp;</type>
+        <definition>CIccToneMapFunc &amp; CIccToneMapFunc::operator=</definition>
+        <argsstring>(const CIccToneMapFunc &amp;toneMap)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccToneMapFunc::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="de/d37/a00849" kindref="compound">CIccToneMapFunc</ref> &amp;</type>
+          <declname>toneMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="510" column="19" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="3889" bodyend="3911"/>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" compoundref="d2/de7/a00014" startline="532">m_nParameters</references>
+        <references refid="de/d37/a00849_1a54f61021e2ca9233c44ef21eb31f782a" compoundref="d2/de7/a00014" startline="534">m_nReserved</references>
+        <references refid="de/d37/a00849_1a0bd635bf666ed89c5850cd8169b0eec1" compoundref="d2/de7/a00014" startline="535">m_nReserved2</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <referencedby refid="d1/dc5/a02013_1a07ede53ed5ea8f9e89bebc91ae8e9c3c" compoundref="dd/dd7/a00260" startline="1646" endline="1654">CIccXmlToneMapFunc::NewCopy</referencedby>
+        <referencedby refid="de/d37/a00849_1adf64bdd5109fec93586f6d8e6785dc6c" compoundref="d6/d2d/a00047" startline="3913" endline="3921">NewCopy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccToneMapFunc::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccToneMapFunc::Read</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="520" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="3974" bodyend="4026"/>
+        <references refid="d7/d46/a00002_1a0fe56f740e82f924ea92b0ddd4a9a47aa2150cb4c32ad4a16dabe73c7983a4a88" compoundref="d7/d46/a00002" startline="1077">icSigToneMapFunction</references>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" compoundref="d2/de7/a00014" startline="532">m_nParameters</references>
+        <references refid="de/d37/a00849_1a54f61021e2ca9233c44ef21eb31f782a" compoundref="d2/de7/a00014" startline="534">m_nReserved</references>
+        <references refid="de/d37/a00849_1a0bd635bf666ed89c5850cd8169b0eec1" compoundref="d2/de7/a00014" startline="535">m_nReserved2</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <references refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">CIccIO::Read16</references>
+        <references refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">CIccIO::Read32</references>
+        <references refid="dc/d2c/a00893_1a1399dc6dcf7aefe36b78ad96fc117d17" compoundref="d9/d2e/a00056" startline="302" endline="319">CIccIO::ReadFloat32Float</references>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1ace0d42f43c33a75927a259684b5b439e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccToneMapFunc::SetFunction</definition>
+        <argsstring>(icUInt16Number nFunc, icUInt8Number, icFloatNumber *pParams)</argsstring>
+        <name>SetFunction</name>
+        <qualifiedname>CIccToneMapFunc::SetFunction</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nFunc</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <defname>nParams</defname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pParams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="516" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="3930" bodyend="3946"/>
+        <references refid="d7/dce/a00143_1ad24afa240a65b1f84c71f10c7a62a370" compoundref="d5/db1/a00140" startline="908" endline="911">icIntMin</references>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" compoundref="d2/de7/a00014" startline="532">m_nParameters</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <references refid="de/d37/a00849_1a8161fcfc519c03c014cef4307d158a74" compoundref="d6/d2d/a00047" startline="3923" endline="3928">NumArgs</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1ac17fa188eaffcf0cd3cfb2196b213760" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccToneMapFunc::Validate</definition>
+        <argsstring>(std::string &amp;sFuncReport, int nVerboseness=0) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccToneMapFunc::Validate</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sFuncReport</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="526" column="20" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="4080" bodyend="4117"/>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1aa1bd59040ac26f5314f409e295cf9162" compoundref="d5/db1/a00140" startline="92">icMsgValidateCriticalError</references>
+        <references refid="d7/dce/a00143_1a96f185a7e8c155604a95848b2c9f4d2f" compoundref="d5/db1/a00140" startline="90">icMsgValidateWarning</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a371bf9a02d77f4dd8f339b4f4fff51c3" compoundref="d4/d81/a00110" startline="122">icValidateCriticalError</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a28bebc69f605af2c45812f342b3b3f74" compoundref="d4/d81/a00110" startline="120">icValidateWarning</references>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" compoundref="d2/de7/a00014" startline="532">m_nParameters</references>
+        <references refid="de/d37/a00849_1a54f61021e2ca9233c44ef21eb31f782a" compoundref="d2/de7/a00014" startline="534">m_nReserved</references>
+        <references refid="de/d37/a00849_1a0bd635bf666ed89c5850cd8169b0eec1" compoundref="d2/de7/a00014" startline="535">m_nReserved2</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <referencedby refid="db/deb/a00853_1ae79f8597b22451368bd65c9e79b74920" compoundref="d6/d2d/a00047" startline="4737" endline="4815">CIccMpeToneMap::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccToneMapFunc::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccToneMapFunc::Write</qualifiedname>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="521" column="8" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="4028" bodyend="4058"/>
+        <references refid="de/d37/a00849_1a650ac8180b8db5b1c12c18ccec80ca68" compoundref="d2/de7/a00014" startline="513" endline="513">GetType</references>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <references refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" compoundref="d2/de7/a00014" startline="532">m_nParameters</references>
+        <references refid="de/d37/a00849_1a54f61021e2ca9233c44ef21eb31f782a" compoundref="d2/de7/a00014" startline="534">m_nReserved</references>
+        <references refid="de/d37/a00849_1a0bd635bf666ed89c5850cd8169b0eec1" compoundref="d2/de7/a00014" startline="535">m_nReserved2</references>
+        <references refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" compoundref="d2/de7/a00014" startline="533">m_params</references>
+        <references refid="de/d37/a00849_1a8161fcfc519c03c014cef4307d158a74" compoundref="d6/d2d/a00047" startline="3923" endline="3928">NumArgs</references>
+        <references refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" compoundref="d9/d2e/a00056" startline="122" endline="141">CIccIO::Write16</references>
+        <references refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" compoundref="d9/d2e/a00056" startline="152" endline="171">CIccIO::Write32</references>
+        <references refid="dc/d2c/a00893_1a9f55b95a792f5aa4353739c49f8952ee" compoundref="d9/d2e/a00056" startline="321" endline="339">CIccIO::WriteFloat32Float</references>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="de/d37/a00849_1a8161fcfc519c03c014cef4307d158a74" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CIccToneMapFunc::NumArgs</definition>
+        <argsstring>() const</argsstring>
+        <name>NumArgs</name>
+        <qualifiedname>CIccToneMapFunc::NumArgs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeBasic.h" line="529" column="7" bodyfile="IccProfLib/IccMpeBasic.cpp" bodystart="3923" bodyend="3928"/>
+        <references refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" compoundref="d2/de7/a00014" startline="531">m_nFunctionType</references>
+        <referencedby refid="de/d37/a00849_1a3976fc43c7abee79db2c74de8a708940" compoundref="d6/d2d/a00047" startline="4060" endline="4069">Begin</referencedby>
+        <referencedby refid="de/d37/a00849_1ace0d42f43c33a75927a259684b5b439e" compoundref="d6/d2d/a00047" startline="3930" endline="3946">SetFunction</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="de/d37/a00849" kindref="compound">CIccToneMapFunc</ref></para>
+<para>Purpose: The parametric function to apply a tone map based on mapped luminance and channel value </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccToneMapFunc</label>
+        <link refid="de/d37/a00849"/>
+      </node>
+      <node id="2">
+        <label>CIccXmlToneMapFunc</label>
+        <link refid="d1/dc5/a02013"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccMpeBasic.h" line="505" column="1" bodyfile="IccProfLib/IccMpeBasic.h" bodystart="506" bodyend="536"/>
+    <listofallmembers>
+      <member refid="de/d37/a00849_1ab51eded3a011aa9ef7fa8f3fbd8e8137" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>Apply</name></member>
+      <member refid="de/d37/a00849_1a3976fc43c7abee79db2c74de8a708940" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>Begin</name></member>
+      <member refid="de/d37/a00849_1aa501201e37646e3f489d21f59f0fefea" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>CIccToneMapFunc</name></member>
+      <member refid="de/d37/a00849_1a7b4ccb00a76a920ccdf3ed89124c078c" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>Describe</name></member>
+      <member refid="de/d37/a00849_1addae7ef6d1213ec8c5bffe66d71330be" prot="public" virt="virtual"><scope>CIccToneMapFunc</scope><name>GetClassName</name></member>
+      <member refid="de/d37/a00849_1a650ac8180b8db5b1c12c18ccec80ca68" prot="public" virt="virtual"><scope>CIccToneMapFunc</scope><name>GetType</name></member>
+      <member refid="de/d37/a00849_1a7eb5bf1e6b2622ef855b8fe12f9f08a6" prot="protected" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>m_nFunctionType</name></member>
+      <member refid="de/d37/a00849_1aa6f7a106a8e72409021a12d07b5e6f7d" prot="protected" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>m_nParameters</name></member>
+      <member refid="de/d37/a00849_1a54f61021e2ca9233c44ef21eb31f782a" prot="protected" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>m_nReserved</name></member>
+      <member refid="de/d37/a00849_1a0bd635bf666ed89c5850cd8169b0eec1" prot="protected" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>m_nReserved2</name></member>
+      <member refid="de/d37/a00849_1aa9c6a63b9cc0567e1aaf1faf45084ba0" prot="protected" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>m_params</name></member>
+      <member refid="de/d37/a00849_1adf64bdd5109fec93586f6d8e6785dc6c" prot="public" virt="virtual"><scope>CIccToneMapFunc</scope><name>NewCopy</name></member>
+      <member refid="de/d37/a00849_1a8161fcfc519c03c014cef4307d158a74" prot="protected" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>NumArgs</name></member>
+      <member refid="de/d37/a00849_1a51ec0266dd586dff416db0657b2f52a9" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>operator=</name></member>
+      <member refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>Read</name></member>
+      <member refid="de/d37/a00849_1ace0d42f43c33a75927a259684b5b439e" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>SetFunction</name></member>
+      <member refid="de/d37/a00849_1ac17fa188eaffcf0cd3cfb2196b213760" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>Validate</name></member>
+      <member refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" prot="public" virt="non-virtual"><scope>CIccToneMapFunc</scope><name>Write</name></member>
+      <member refid="de/d37/a00849_1a1d42a2b33e7692aa2619d38e8a17577c" prot="public" virt="virtual"><scope>CIccToneMapFunc</scope><name>~CIccToneMapFunc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

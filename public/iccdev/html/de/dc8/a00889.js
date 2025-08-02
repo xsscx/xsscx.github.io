@@ -1,0 +1,28 @@
+var a00889 =
+[
+    [ "CIccCombinedConnectionConditions", "de/dc8/a00889.html#a1e34aec1449da50c0ac66c5ef8d1cdd9", null ],
+    [ "~CIccCombinedConnectionConditions", "de/dc8/a00889.html#a4ca5fffcbe93ff916a118578febb059d", null ],
+    [ "getCustomToStandardPcc", "de/dc8/a00889.html#ae8b41cced50e6210c6fe996917ff3591", null ],
+    [ "getEmissiveObserver", "de/dc8/a00889.html#a3b47bc2eb9b37350fa6a95b1bdd28944", null ],
+    [ "getLumIlluminantXYZ", "de/dc8/a00889.html#a440ccadbec2f770e4d73703c1ecfed15", null ],
+    [ "getMediaWhiteXYZ", "de/dc8/a00889.html#aed68310972685449d41908c3aad8c65f", null ],
+    [ "getNormIlluminantXYZ", "de/dc8/a00889.html#aea2874717f84c6d6392022609c7b1dd0", null ],
+    [ "getObserverIlluminantScaleFactor", "de/dc8/a00889.html#a26aeaba43632aa5d06de6623fd900d4b", null ],
+    [ "getObserverWhiteScaleFactor", "de/dc8/a00889.html#a81fb6e4ffae390d84145d802702b6d6c", null ],
+    [ "getPccCCT", "de/dc8/a00889.html#afef290dfe66fbd9182f21bbbf638fdf9", null ],
+    [ "getPccIlluminant", "de/dc8/a00889.html#a627a50ed026d5b225e0cc7e5b9c8da8f", null ],
+    [ "getPccObserver", "de/dc8/a00889.html#ad0359bc6e9a6089d09aa364413930990", null ],
+    [ "getPccViewingConditions", "de/dc8/a00889.html#ae134c05e68cd8f8106c765a55e7446f8", null ],
+    [ "getReflectanceObserver", "de/dc8/a00889.html#a84d4a4ae4e32e9a526d4c6ff9e6ce613", null ],
+    [ "getStandardToCustomPcc", "de/dc8/a00889.html#a65595fbacdffb232b40d70efa5869ea6", null ],
+    [ "hasIlluminantSPD", "de/dc8/a00889.html#af68de8addb66a26899ca13f2a20c288e", null ],
+    [ "isEquivalentPcc", "de/dc8/a00889.html#a9ca9746d8f42338293e7570275af03d7", null ],
+    [ "isStandardPcc", "de/dc8/a00889.html#a91dc6e895f5fcc5cd924bcdedd5ea0b5", null ],
+    [ "m_bValidIllumXYZ", "de/dc8/a00889.html#a9bb3242fbb13fbff9b4f92571174871b", null ],
+    [ "m_bValidMediaXYZ", "de/dc8/a00889.html#a64f8ddf19ec00d3f9d512a9d0bce8087", null ],
+    [ "m_illuminantXYZ", "de/dc8/a00889.html#aca5412c3b6071ecf8c36c8a02bc852da", null ],
+    [ "m_illuminantXYZLum", "de/dc8/a00889.html#a9f90c7d579ac79b152ef402045cb1412", null ],
+    [ "m_mediaXYZ", "de/dc8/a00889.html#aa52139f6d3dfc4b5f7edf61aaa0c0940", null ],
+    [ "m_pPCC", "de/dc8/a00889.html#aa3f09f18236c376c2b00f79a3b49ff88", null ],
+    [ "m_pViewingConditions", "de/dc8/a00889.html#a86a1c107247db71ae136f01067a7b774", null ]
+];

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/d2d/a02145" kind="class" language="C++" prot="public">
+    <compoundname>CIccIt8Parser</compoundname>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d7/d2d/a02145_1a90b25070518bc758134297132b6f2b9e" prot="protected" static="no" mutable="no">
+        <type>std::ifstream *</type>
+        <definition>std::ifstream* CIccIt8Parser::m_f</definition>
+        <argsstring></argsstring>
+        <name>m_f</name>
+        <qualifiedname>CIccIt8Parser::m_f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="893" column="17" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="893" bodyend="-1"/>
+        <referencedby refid="d7/d2d/a02145_1a311358523500aebd910d2eca12349dbd" compoundref="d8/d23/a00326" startline="833" endline="833">CIccIt8Parser</referencedby>
+        <referencedby refid="d7/d2d/a02145_1a6381fc3bc5069ebbc3ff8ec2e758cb60" compoundref="d8/d23/a00326" startline="834" endline="834">~CIccIt8Parser</referencedby>
+        <referencedby refid="d7/d2d/a02145_1afca6d12e2efeebf3654fbf0d9dcca444" compoundref="d8/d23/a00326" startline="842" endline="842">isEOF</referencedby>
+        <referencedby refid="d7/d2d/a02145_1a1ccacd3c54ce080d3fd06b5d68bfb371" compoundref="d8/d23/a00326" startline="836" endline="841">open</referencedby>
+        <referencedby refid="d7/d2d/a02145_1aed89c481b06071b502e268cdfd2363cf" compoundref="d8/d23/a00326" startline="843" endline="874">parseLine</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d2d/a02145_1a311358523500aebd910d2eca12349dbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccIt8Parser::CIccIt8Parser</definition>
+        <argsstring>()</argsstring>
+        <name>CIccIt8Parser</name>
+        <qualifiedname>CIccIt8Parser::CIccIt8Parser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="833" column="3" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="833" bodyend="833"/>
+        <references refid="d7/d2d/a02145_1a90b25070518bc758134297132b6f2b9e" compoundref="d8/d23/a00326" startline="893">m_f</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d2d/a02145_1a6381fc3bc5069ebbc3ff8ec2e758cb60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccIt8Parser::~CIccIt8Parser</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccIt8Parser</name>
+        <qualifiedname>CIccIt8Parser::~CIccIt8Parser</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="834" column="3" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="834" bodyend="834"/>
+        <references refid="d7/d2d/a02145_1a90b25070518bc758134297132b6f2b9e" compoundref="d8/d23/a00326" startline="893">m_f</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d2d/a02145_1a7faaf93aa34134352710848544cacdb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccIt8Parser::findTokenLine</definition>
+        <argsstring>(std::vector&lt; std::string &gt; &amp;line, const char *szToken)</argsstring>
+        <name>findTokenLine</name>
+        <qualifiedname>CIccIt8Parser::findTokenLine</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::string &gt; &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>szToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="884" column="8" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="884" bodyend="890"/>
+        <references refid="d7/d2d/a02145_1abcf1274cbca0838a94bbe190508271be" compoundref="d8/d23/a00326" startline="876" endline="882">parseNextLine</references>
+        <referencedby refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" compoundref="d8/d23/a00326" startline="1090" endline="1362">CIccCfgColorData::fromIt8</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/d2d/a02145_1afca6d12e2efeebf3654fbf0d9dcca444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccIt8Parser::isEOF</definition>
+        <argsstring>()</argsstring>
+        <name>isEOF</name>
+        <qualifiedname>CIccIt8Parser::isEOF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="842" column="8" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="842" bodyend="842"/>
+        <references refid="d7/d2d/a02145_1a90b25070518bc758134297132b6f2b9e" compoundref="d8/d23/a00326" startline="893">m_f</references>
+        <referencedby refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" compoundref="d8/d23/a00326" startline="1090" endline="1362">CIccCfgColorData::fromIt8</referencedby>
+        <referencedby refid="d7/d2d/a02145_1aed89c481b06071b502e268cdfd2363cf" compoundref="d8/d23/a00326" startline="843" endline="874">parseLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/d2d/a02145_1a1ccacd3c54ce080d3fd06b5d68bfb371" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccIt8Parser::open</definition>
+        <argsstring>(const char *szFilename)</argsstring>
+        <name>open</name>
+        <qualifiedname>CIccIt8Parser::open</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szFilename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="836" column="8" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="836" bodyend="841"/>
+        <references refid="d7/d2d/a02145_1a90b25070518bc758134297132b6f2b9e" compoundref="d8/d23/a00326" startline="893">m_f</references>
+        <referencedby refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" compoundref="d8/d23/a00326" startline="1090" endline="1362">CIccCfgColorData::fromIt8</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/d2d/a02145_1aed89c481b06071b502e268cdfd2363cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccIt8Parser::parseLine</definition>
+        <argsstring>(std::vector&lt; std::string &gt; &amp;line)</argsstring>
+        <name>parseLine</name>
+        <qualifiedname>CIccIt8Parser::parseLine</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::string &gt; &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="843" column="8" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="843" bodyend="874"/>
+        <references refid="d7/d2d/a02145_1afca6d12e2efeebf3654fbf0d9dcca444" compoundref="d8/d23/a00326" startline="842" endline="842">isEOF</references>
+        <references refid="d7/d2d/a02145_1a90b25070518bc758134297132b6f2b9e" compoundref="d8/d23/a00326" startline="893">m_f</references>
+        <referencedby refid="d7/d2d/a02145_1abcf1274cbca0838a94bbe190508271be" compoundref="d8/d23/a00326" startline="876" endline="882">parseNextLine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/d2d/a02145_1abcf1274cbca0838a94bbe190508271be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccIt8Parser::parseNextLine</definition>
+        <argsstring>(std::vector&lt; std::string &gt; &amp;line)</argsstring>
+        <name>parseNextLine</name>
+        <qualifiedname>CIccIt8Parser::parseNextLine</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::string &gt; &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="876" column="8" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="876" bodyend="882"/>
+        <references refid="d7/d2d/a02145_1aed89c481b06071b502e268cdfd2363cf" compoundref="d8/d23/a00326" startline="843" endline="874">parseLine</references>
+        <referencedby refid="d7/d2d/a02145_1a7faaf93aa34134352710848544cacdb4" compoundref="d8/d23/a00326" startline="884" endline="890">findTokenLine</referencedby>
+        <referencedby refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" compoundref="d8/d23/a00326" startline="1090" endline="1362">CIccCfgColorData::fromIt8</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" line="830" column="1" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="831" bodyend="894"/>
+    <listofallmembers>
+      <member refid="d7/d2d/a02145_1a311358523500aebd910d2eca12349dbd" prot="public" virt="non-virtual"><scope>CIccIt8Parser</scope><name>CIccIt8Parser</name></member>
+      <member refid="d7/d2d/a02145_1a7faaf93aa34134352710848544cacdb4" prot="public" virt="non-virtual"><scope>CIccIt8Parser</scope><name>findTokenLine</name></member>
+      <member refid="d7/d2d/a02145_1afca6d12e2efeebf3654fbf0d9dcca444" prot="public" virt="non-virtual"><scope>CIccIt8Parser</scope><name>isEOF</name></member>
+      <member refid="d7/d2d/a02145_1a90b25070518bc758134297132b6f2b9e" prot="protected" virt="non-virtual"><scope>CIccIt8Parser</scope><name>m_f</name></member>
+      <member refid="d7/d2d/a02145_1a1ccacd3c54ce080d3fd06b5d68bfb371" prot="public" virt="non-virtual"><scope>CIccIt8Parser</scope><name>open</name></member>
+      <member refid="d7/d2d/a02145_1aed89c481b06071b502e268cdfd2363cf" prot="public" virt="non-virtual"><scope>CIccIt8Parser</scope><name>parseLine</name></member>
+      <member refid="d7/d2d/a02145_1abcf1274cbca0838a94bbe190508271be" prot="public" virt="non-virtual"><scope>CIccIt8Parser</scope><name>parseNextLine</name></member>
+      <member refid="d7/d2d/a02145_1a6381fc3bc5069ebbc3ff8ec2e758cb60" prot="public" virt="non-virtual"><scope>CIccIt8Parser</scope><name>~CIccIt8Parser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

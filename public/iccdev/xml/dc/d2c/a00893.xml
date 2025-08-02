@@ -1,0 +1,1086 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/d2c/a00893" kind="class" language="C++" prot="public">
+    <compoundname>CIccIO</compoundname>
+    <derivedcompoundref refid="d0/dac/a00901" prot="public" virt="non-virtual">CIccEmbedIO</derivedcompoundref>
+    <derivedcompoundref refid="de/d01/a00897" prot="public" virt="non-virtual">CIccFileIO</derivedcompoundref>
+    <derivedcompoundref refid="da/d5b/a00905" prot="public" virt="non-virtual">CIccMemIO</derivedcompoundref>
+    <derivedcompoundref refid="de/dc3/a00909" prot="public" virt="non-virtual">CIccNullIO</derivedcompoundref>
+    <includes refid="df/d6a/a00119" local="no">IccIO.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d2c/a00893_1a6216aac62e650cba9b25dd37528a8b54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccIO::~CIccIO</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccIO</name>
+        <qualifiedname>CIccIO::~CIccIO</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="100" column="11" bodyfile="IccProfLib/IccIO.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a6305c8a2db094c196a72663047ee5ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccIO::Align32</definition>
+        <argsstring>()</argsstring>
+        <name>Align32</name>
+        <qualifiedname>CIccIO::Align32</qualifiedname>
+        <briefdescription>
+<para>Write operation to make sure that filelength is evenly divisible by 4. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="136" column="8" bodyfile="IccProfLib/IccIO.cpp" bodystart="341" bodyend="355"/>
+        <references refid="dc/d2c/a00893_1a2548156a3c8c463b27ec06a433b7d427" compoundref="df/d6a/a00119" startline="130" endline="130">GetLength</references>
+        <references refid="df/d6a/a00119_1af6770b40ac8178ba561dedeea867ae17a15cf0499934739e8f706b9cbe13ecd1f" compoundref="df/d6a/a00119" startline="85">icSeekEnd</references>
+        <references refid="dc/d2c/a00893_1a970eef37fff95838dabecc0a1b30de55" compoundref="df/d6a/a00119" startline="132" endline="132">Seek</references>
+        <references refid="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" compoundref="df/d6a/a00119" startline="105" endline="105">Write8</references>
+        <referencedby refid="d5/dac/a00841_1a7b15db55a9cf1e0bc6866e549f60abab" compoundref="d6/d2d/a00047" startline="3328" endline="3394">CIccMpeCurveSet::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+        <referencedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed" compoundref="d9/dd0/a00191" startline="4711" endline="4777">CIccTagSparseMatrixArray::Write</referencedby>
+        <referencedby refid="dd/dee/a01081_1a8e00e4fdacd1b9a729c797cb6c239966" compoundref="d9/dd0/a00191" startline="9385" endline="9398">CIccProfileDescText::Write</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+        <referencedby refid="db/de0/a00465_1acd5daadb93f9f89ede59f12310c5f076" compoundref="d5/dcb/a00170" startline="1328" endline="1407">CIccTagArray::Write</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+        <referencedby refid="d6/dc4/a01125_1add153f2428e36419fdaf7465a49ad941" compoundref="d4/d3e/a00116" startline="282" endline="305">CIccTagCurve::Write</referencedby>
+        <referencedby refid="d9/d17/a01129_1a7b40bd034c7d6dd0efc7668bb5151b92" compoundref="d4/d3e/a00116" startline="791" endline="820">CIccTagParametricCurve::Write</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+        <referencedby refid="d5/d54/a01213_1aa4fc1619236076a2cf093cbeb9850d9d" compoundref="dc/d87/a00032" startline="1084" endline="1177">CIccTagMultiProcessElement::Write</referencedby>
+        <referencedby refid="dd/d3f/a01221_1a3c3c2655304d893875fc32646ad9af3a" compoundref="de/df3/a00185" startline="542" endline="601">CIccTagProfileSequenceId::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1af38578f9470b5a195403552f252d4365" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccIO::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <qualifiedname>CIccIO::Close</qualifiedname>
+        <reimplementedby refid="de/d01/a00897_1a1cbb6e828bcf050d250bd157c9bf5576">Close</reimplementedby>
+        <reimplementedby refid="d0/dac/a00901_1a62d02d567990373715f2cc245e6c89f2">Close</reimplementedby>
+        <reimplementedby refid="da/d5b/a00905_1a8c8e1e57d736a0074e6933c71d9925f1">Close</reimplementedby>
+        <reimplementedby refid="de/dc3/a00909_1a254b77a3203663bf90a5d888668f617f">Close</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="102" column="16" bodyfile="IccProfLib/IccIO.h" bodystart="102" bodyend="102"/>
+        <referencedby refid="d0/dac/a00901_1a62d02d567990373715f2cc245e6c89f2" compoundref="d9/d2e/a00056" startline="536" endline="544">CIccEmbedIO::Close</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a2548156a3c8c463b27ec06a433b7d427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>virtual icInt32Number CIccIO::GetLength</definition>
+        <argsstring>()</argsstring>
+        <name>GetLength</name>
+        <qualifiedname>CIccIO::GetLength</qualifiedname>
+        <reimplementedby refid="de/d01/a00897_1a4721290af672759824b5fd1053a8e9ed">GetLength</reimplementedby>
+        <reimplementedby refid="d0/dac/a00901_1adb2a2d70cb582dc07e9ef771c8224364">GetLength</reimplementedby>
+        <reimplementedby refid="da/d5b/a00905_1ad182169da70672b1f0007af9f3d475dc">GetLength</reimplementedby>
+        <reimplementedby refid="de/dc3/a00909_1a13ea826f3ebdb49597c64aa7d279e3fa">GetLength</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="130" column="25" bodyfile="IccProfLib/IccIO.h" bodystart="130" bodyend="130"/>
+        <referencedby refid="dc/d2c/a00893_1a6305c8a2db094c196a72663047ee5ddc" compoundref="d9/d2e/a00056" startline="341" endline="355">Align32</referencedby>
+        <referencedby refid="d0/dc2/a00104_1aff7a9ca0b9e6a67e49a30d327ff14bf8" compoundref="d0/dc2/a00104" startline="3787" endline="3818">CalcProfileID</referencedby>
+        <referencedby refid="d0/dac/a00901_1adb2a2d70cb582dc07e9ef771c8224364" compoundref="d9/d2e/a00056" startline="573" endline="582">CIccEmbedIO::GetLength</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a27a49e117d637e0073ff82ff83e0ed17" compoundref="d0/d27/a00239" startline="180" endline="251">icXmlParseTextString</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+        <referencedby refid="d7/db1/a01837_1a90eeefd13346d44fe87970c91ca28287" compoundref="d0/d27/a00239" startline="381" endline="565">CIccTagXmlTextDescription::ParseXml</referencedby>
+        <referencedby refid="d9/d63/a01877_1aef548e5ab696b113bf1158b5bbf36f0b" compoundref="d0/d27/a00239" startline="1463" endline="1578">CIccTagXmlFloatNum&lt; T, A, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="df/db2/a01981_1a1f911f834c825441d4694595710bcf55" compoundref="d0/d27/a00239" startline="5099" endline="5162">CIccTagXmlEmbeddedHeightImage::ParseXml</referencedby>
+        <referencedby refid="d3/def/a01985_1a40585eab56b698d0579d922b924997e9" compoundref="d0/d27/a00239" startline="5195" endline="5255">CIccTagXmlEmbeddedNormalImage::ParseXml</referencedby>
+        <referencedby refid="d0/dac/a00901_1a31aef274278c3e58a4ac371b214862b7" compoundref="d9/d2e/a00056" startline="585" endline="628">CIccEmbedIO::Seek</referencedby>
+        <referencedby refid="de/d99/a01101_1ae5098d34ecc43ea5166662d3650f9e06" compoundref="d9/dd0/a00191" startline="10291" endline="10343">CIccTagResponseCurveSet16::Write</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+        <referencedby refid="dc/d98/a01177_1a216c00ad5cd51842449bb7f50d382a28" compoundref="d4/d3e/a00116" startline="5576" endline="5621">CIccTagGamutBoundaryDesc::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::Read16</definition>
+        <argsstring>(void *pBuf16, icInt32Number nNum=1)</argsstring>
+        <name>Read16</name>
+        <qualifiedname>CIccIO::Read16</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf16</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="109" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="114" bodyend="120"/>
+        <references refid="d7/dce/a00143_1a3c7e7a74d88ca4b6c3483fd184bf77da" compoundref="d7/dce/a00143" startline="218" endline="228">icSwab16Array</references>
+        <references refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" compoundref="df/d6a/a00119" startline="104" endline="104">Read8</references>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+        <referencedby refid="d9/d63/a01877_1aef548e5ab696b113bf1158b5bbf36f0b" compoundref="d0/d27/a00239" startline="1463" endline="1578">CIccTagXmlFloatNum&lt; T, A, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="de/df7/a01201_1a6bae5948d64a8a6923108ef5320db225" compoundref="dc/d87/a00032" startline="341" endline="378">CIccMpeUnknown::Read</referencedby>
+        <referencedby refid="de/d85/a01273_1a955fdb5b73893fa9cb416f22a1c1fc90" compoundref="d1/d09/a00077" startline="158" endline="201">CIccMpeAcs::Read</referencedby>
+        <referencedby refid="dc/d5e/a00817_1a2939176007d3b977785e283d62d5f32d" compoundref="d6/d2d/a00047" startline="365" endline="437">CIccFormulaCurveSegment::Read</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="d1/de6/a00837_1a1545329e314b4d676c42a3b6990d912d" compoundref="d6/d2d/a00047" startline="2233" endline="2280">CIccSampledCalculatorCurve::Read</referencedby>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" compoundref="d6/d2d/a00047" startline="3974" endline="4026">CIccToneMapFunc::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+        <referencedby refid="d0/d82/a00857_1ab15bd5e24165fb2b5a9f89031b241319" compoundref="d6/d2d/a00047" startline="5033" endline="5116">CIccMpeMatrix::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+        <referencedby refid="df/db8/a01317_1a7fefc4a48200f353586b9cb1f60af820" compoundref="d9/d77/a00095" startline="4474" endline="4586">CIccMpeCalculator::Read</referencedby>
+        <referencedby refid="dc/d87/a01649_1a0e4b78a17776fc35ca8f91a0f2e62de2" compoundref="d5/de9/a00176" startline="368" endline="442">CIccMpeSpectralMatrix::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d2/d44/a01677_1a64336f7b6bd64df40d294555edd3a4fc" compoundref="d5/de9/a00176" startline="1833" endline="1894">CIccMpeSpectralObserver::Read</referencedby>
+        <referencedby refid="da/d0a/a00993_1a541b259a793c7a6a5ef550f6dcc5e3b5" compoundref="d9/dd0/a00191" startline="1605" endline="1633">CIccTagUtf16Text::Read</referencedby>
+        <referencedby refid="d0/d28/a00997_1a21f20acea58aebce6ed81c3ab99fc116" compoundref="d9/dd0/a00191" startline="2055" endline="2133">CIccTagTextDescription::Read</referencedby>
+        <referencedby refid="d5/dfb/a01021_1a6dd75947efad4af7776c7479d025cc29" compoundref="d9/dd0/a00191" startline="3852" endline="3894">CIccTagChromaticity::Read</referencedby>
+        <referencedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032" compoundref="d9/dd0/a00191" startline="4513" endline="4695">CIccTagSparseMatrixArray::Read</referencedby>
+        <referencedby refid="d1/d83/a01041_1a1ae343363af0fc5c9f73b8a85a25c2f1" compoundref="d9/dd0/a00191" startline="5708" endline="5752">CIccTagNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d2/db8/a01057_1ad1c5b1272f6e344c2bb9ed0dfbee8f86" compoundref="d9/dd0/a00191" startline="7451" endline="7527">CIccTagMultiLocalizedUnicode::Read</referencedby>
+        <referencedby refid="d0/dc9/a01065_1a351d04c1e658e77c5b1c54a8321ca212" compoundref="d9/dd0/a00191" startline="8200" endline="8229">CIccTagDateTime::Read</referencedby>
+        <referencedby refid="d9/d7c/a01073_1aa0a7314bacc5e5562432f5ab9f10a83d" compoundref="d9/dd0/a00191" startline="8701" endline="8744">CIccTagColorantTable::Read</referencedby>
+        <referencedby refid="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" compoundref="d9/dd0/a00191" startline="9907" endline="9958">CIccResponseCurveStruct::Read</referencedby>
+        <referencedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2" compoundref="d9/dd0/a00191" startline="10217" endline="10275">CIccTagResponseCurveSet16::Read</referencedby>
+        <referencedby refid="de/d1d/a01105_1ad26da18f2fbaa300b05e71bbe90b3586" compoundref="d9/dd0/a00191" startline="10653" endline="10695">CIccTagSpectralDataInfo::Read</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a2517e82008350846709ef534e551bebe" compoundref="d9/dd0/a00191" startline="10992" endline="11090">CIccTagSpectralViewingConditions::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d9/d17/a01129_1a4226e608622c8c05df0962b90a116503" compoundref="d4/d3e/a00116" startline="732" endline="775">CIccTagParametricCurve::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+        <referencedby refid="dc/d98/a01177_1ac762581885a9375d6459cd390d538c94" compoundref="d4/d3e/a00116" startline="5484" endline="5561">CIccTagGamutBoundaryDesc::Read</referencedby>
+        <referencedby refid="d5/d54/a01213_1a00eff526d38081625b79195b3da1728d" compoundref="dc/d87/a00032" startline="969" endline="1072">CIccTagMultiProcessElement::Read</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a05eb65f9187a4c84eec42ba30334ed69" compoundref="d9/d2e/a00056" startline="269" endline="283">ReadFloat16Float</referencedby>
+        <referencedby refid="dc/d2c/a00893_1aa610de49d9918d4e354710b04491ae44" compoundref="d9/d2e/a00056" startline="236" endline="250">ReadUInt16Float</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::Read32</definition>
+        <argsstring>(void *pBuf32, icInt32Number nNum=1)</argsstring>
+        <name>Read32</name>
+        <qualifiedname>CIccIO::Read32</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf32</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="112" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="143" bodyend="149"/>
+        <references refid="d7/dce/a00143_1ae31bb0485a1b8ccd06dbd2ad121c169f" compoundref="d7/dce/a00143" startline="239" endline="251">icSwab32Array</references>
+        <references refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" compoundref="df/d6a/a00119" startline="104" endline="104">Read8</references>
+        <referencedby refid="d5/d5f/a00461_1ac6d61b8ae0ec667a3a6de3cc20ab96fd" compoundref="d5/dcb/a00170" startline="847" endline="911">CIccTagStruct::LoadElem</referencedby>
+        <referencedby refid="de/df7/a01201_1a6bae5948d64a8a6923108ef5320db225" compoundref="dc/d87/a00032" startline="341" endline="378">CIccMpeUnknown::Read</referencedby>
+        <referencedby refid="de/d85/a01273_1a955fdb5b73893fa9cb416f22a1c1fc90" compoundref="d1/d09/a00077" startline="158" endline="201">CIccMpeAcs::Read</referencedby>
+        <referencedby refid="dc/d5e/a00817_1a2939176007d3b977785e283d62d5f32d" compoundref="d6/d2d/a00047" startline="365" endline="437">CIccFormulaCurveSegment::Read</referencedby>
+        <referencedby refid="d6/d8b/a00821_1aae2ab12b643b973903388f86a939f60f" compoundref="d6/d2d/a00047" startline="1068" endline="1110">CIccSampledCurveSegment::Read</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="d1/de6/a00837_1a1545329e314b4d676c42a3b6990d912d" compoundref="d6/d2d/a00047" startline="2233" endline="2280">CIccSampledCalculatorCurve::Read</referencedby>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" compoundref="d6/d2d/a00047" startline="3974" endline="4026">CIccToneMapFunc::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+        <referencedby refid="d0/d82/a00857_1ab15bd5e24165fb2b5a9f89031b241319" compoundref="d6/d2d/a00047" startline="5033" endline="5116">CIccMpeMatrix::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+        <referencedby refid="db/d4b/a01309_1a42480d803f2054946b97eecad98ee430" compoundref="d9/d77/a00095" startline="3335" endline="3387">CIccCalculatorFunc::Read</referencedby>
+        <referencedby refid="df/db8/a01317_1a7fefc4a48200f353586b9cb1f60af820" compoundref="d9/d77/a00095" startline="4474" endline="4586">CIccMpeCalculator::Read</referencedby>
+        <referencedby refid="dc/d87/a01649_1a0e4b78a17776fc35ca8f91a0f2e62de2" compoundref="d5/de9/a00176" startline="368" endline="442">CIccMpeSpectralMatrix::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d2/d44/a01677_1a64336f7b6bd64df40d294555edd3a4fc" compoundref="d5/de9/a00176" startline="1833" endline="1894">CIccMpeSpectralObserver::Read</referencedby>
+        <referencedby refid="d3/da5/a00973_1a3957f5eab366867344b44df2d62e36a2" compoundref="d9/dd0/a00191" startline="268" endline="296">CIccTagUnknown::Read</referencedby>
+        <referencedby refid="d5/d6c/a00977_1a7864b17f6ae5097cf91aa0868347c5b9" compoundref="d9/dd0/a00191" startline="438" endline="467">CIccTagText::Read</referencedby>
+        <referencedby refid="dd/d24/a00981_1a83a1e653b635dc8de0d7ae5d954fac2f" compoundref="d9/dd0/a00191" startline="783" endline="814">CIccTagUtf8Text::Read</referencedby>
+        <referencedby refid="da/deb/a00985_1a54b57ff1d3862921f5b9521d36f8c1b9" compoundref="d9/dd0/a00191" startline="1133" endline="1159">CIccTagZipUtf8Text::Read</referencedby>
+        <referencedby refid="da/d0a/a00993_1a541b259a793c7a6a5ef550f6dcc5e3b5" compoundref="d9/dd0/a00191" startline="1605" endline="1633">CIccTagUtf16Text::Read</referencedby>
+        <referencedby refid="d0/d28/a00997_1a21f20acea58aebce6ed81c3ab99fc116" compoundref="d9/dd0/a00191" startline="2055" endline="2133">CIccTagTextDescription::Read</referencedby>
+        <referencedby refid="df/d59/a01001_1a7a9c398068ff4923347784c5a49d0dd6" compoundref="d9/dd0/a00191" startline="2486" endline="2508">CIccTagSignature::Read</referencedby>
+        <referencedby refid="d7/d59/a01013_1a7dc35fa353a34a281bf4dedccacef154" compoundref="d9/dd0/a00191" startline="2891" endline="2945">CIccTagNamedColor2::Read</referencedby>
+        <referencedby refid="d3/ded/a01017_1ae532c686e1218e1fa4b06170dbe6bf9b" compoundref="d9/dd0/a00191" startline="3591" endline="3620">CIccTagXYZ::Read</referencedby>
+        <referencedby refid="d5/dfb/a01021_1a6dd75947efad4af7776c7479d025cc29" compoundref="d9/dd0/a00191" startline="3852" endline="3894">CIccTagChromaticity::Read</referencedby>
+        <referencedby refid="db/d23/a01025_1a8d879b749261432edad544fad531181e" compoundref="d9/dd0/a00191" startline="4184" endline="4210">CIccTagCicp::Read</referencedby>
+        <referencedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032" compoundref="d9/dd0/a00191" startline="4513" endline="4695">CIccTagSparseMatrixArray::Read</referencedby>
+        <referencedby refid="d2/d41/a01037_1acef71609b8b4ed38f49f8e3f6ba9fcee" compoundref="d9/dd0/a00191" startline="5245" endline="5273">CIccTagFixedNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d1/d83/a01041_1a1ae343363af0fc5c9f73b8a85a25c2f1" compoundref="d9/dd0/a00191" startline="5708" endline="5752">CIccTagNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d7/d46/a01045_1ac6bd7df482255281c7d245b902acb1ef" compoundref="d9/dd0/a00191" startline="6313" endline="6371">CIccTagFloatNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d0/d22/a01049_1a5f30945e89be4dcf7a0b9efd74ef6108" compoundref="d9/dd0/a00191" startline="6786" endline="6811">CIccTagMeasurement::Read</referencedby>
+        <referencedby refid="d2/db8/a01057_1ad1c5b1272f6e344c2bb9ed0dfbee8f86" compoundref="d9/dd0/a00191" startline="7451" endline="7527">CIccTagMultiLocalizedUnicode::Read</referencedby>
+        <referencedby refid="de/d9e/a01061_1aba8584733382242a5302deab1639f404" compoundref="d9/dd0/a00191" startline="7893" endline="7929">CIccTagData::Read</referencedby>
+        <referencedby refid="d0/dc9/a01065_1a351d04c1e658e77c5b1c54a8321ca212" compoundref="d9/dd0/a00191" startline="8200" endline="8229">CIccTagDateTime::Read</referencedby>
+        <referencedby refid="d8/d18/a01069_1a667e348cdeef45ba95f5834c6171531a" compoundref="d9/dd0/a00191" startline="8413" endline="8448">CIccTagColorantOrder::Read</referencedby>
+        <referencedby refid="d9/d7c/a01073_1aa0a7314bacc5e5562432f5ab9f10a83d" compoundref="d9/dd0/a00191" startline="8701" endline="8744">CIccTagColorantTable::Read</referencedby>
+        <referencedby refid="d0/dd3/a01077_1ac07eaef0a9edd17a3ef51533a6c99d7d" compoundref="d9/dd0/a00191" startline="9031" endline="9060">CIccTagViewingConditions::Read</referencedby>
+        <referencedby refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" compoundref="d9/dd0/a00191" startline="9331" endline="9369">CIccProfileDescText::Read</referencedby>
+        <referencedby refid="d3/dc4/a01089_1ae5af70d0e084a18fe04f7cfcaab17f7a" compoundref="d9/dd0/a00191" startline="9544" endline="9596">CIccTagProfileSeqDesc::Read</referencedby>
+        <referencedby refid="de/d1c/a01093_1a9e30337f671231ac41fab6a8664615ad" compoundref="d9/dd0/a00191" startline="9907" endline="9958">CIccResponseCurveStruct::Read</referencedby>
+        <referencedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2" compoundref="d9/dd0/a00191" startline="10217" endline="10275">CIccTagResponseCurveSet16::Read</referencedby>
+        <referencedby refid="de/d1d/a01105_1ad26da18f2fbaa300b05e71bbe90b3586" compoundref="d9/dd0/a00191" startline="10653" endline="10695">CIccTagSpectralDataInfo::Read</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a2517e82008350846709ef534e551bebe" compoundref="d9/dd0/a00191" startline="10992" endline="11090">CIccTagSpectralViewingConditions::Read</referencedby>
+        <referencedby refid="d8/ded/a01113_1a5147c62ec0b6383c6dcabf8ebeac5f5e" compoundref="d9/dd0/a00191" startline="11797" endline="11841">CIccTagEmbeddedHeightImage::Read</referencedby>
+        <referencedby refid="d6/d8b/a01117_1a2758418b06545dd03f4b8c8f478da8e5" compoundref="d9/dd0/a00191" startline="12113" endline="12149">CIccTagEmbeddedNormalImage::Read</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a560ac9d14c6e3c5f85b2568a76823cb2" compoundref="d5/dcb/a00170" startline="346" endline="413">CIccTagStruct::Read</referencedby>
+        <referencedby refid="db/de0/a00465_1aa3fe4ccface825d27a6c49ae022bcdb0" compoundref="d5/dcb/a00170" startline="1213" endline="1316">CIccTagArray::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d6/dc4/a01125_1a86401f42aa785fac984b8dcc1f721f39" compoundref="d4/d3e/a00116" startline="229" endline="266">CIccTagCurve::Read</referencedby>
+        <referencedby refid="d9/d17/a01129_1a4226e608622c8c05df0962b90a116503" compoundref="d4/d3e/a00116" startline="732" endline="775">CIccTagParametricCurve::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+        <referencedby refid="dc/d98/a01177_1ac762581885a9375d6459cd390d538c94" compoundref="d4/d3e/a00116" startline="5484" endline="5561">CIccTagGamutBoundaryDesc::Read</referencedby>
+        <referencedby refid="d5/d54/a01213_1a00eff526d38081625b79195b3da1728d" compoundref="dc/d87/a00032" startline="969" endline="1072">CIccTagMultiProcessElement::Read</referencedby>
+        <referencedby refid="dd/d3f/a01221_1aa1568bb1c77891e42ca498bc092b673f" compoundref="de/df3/a00185" startline="461" endline="530">CIccTagProfileSequenceId::Read</referencedby>
+        <referencedby refid="dc/dab/a01237_1afd8cd85808168cd64779b3d94273c344" compoundref="d9/d01/a00227" startline="172" endline="232">CIccTagEmbeddedProfile::Read</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a1399dc6dcf7aefe36b78ad96fc117d17" compoundref="d9/d2e/a00056" startline="302" endline="319">ReadFloat32Float</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1abce317a3e29ef016c9b72f0022aef53d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::Read64</definition>
+        <argsstring>(void *pBuf64, icInt32Number nNum=1)</argsstring>
+        <name>Read64</name>
+        <qualifiedname>CIccIO::Read64</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf64</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="115" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="173" bodyend="179"/>
+        <references refid="d7/dce/a00143_1ab1fb28508d184cac65e381ae1a276ef1" compoundref="d7/dce/a00143" startline="264" endline="278">icSwab64Array</references>
+        <references refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" compoundref="df/d6a/a00119" startline="104" endline="104">Read8</references>
+        <referencedby refid="d9/d63/a01877_1aef548e5ab696b113bf1158b5bbf36f0b" compoundref="d0/d27/a00239" startline="1463" endline="1578">CIccTagXmlFloatNum&lt; T, A, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="d1/d83/a01041_1a1ae343363af0fc5c9f73b8a85a25c2f1" compoundref="d9/dd0/a00191" startline="5708" endline="5752">CIccTagNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d7/d46/a01045_1ac6bd7df482255281c7d245b902acb1ef" compoundref="d9/dd0/a00191" startline="6313" endline="6371">CIccTagFloatNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d3/dc4/a01089_1ae5af70d0e084a18fe04f7cfcaab17f7a" compoundref="d9/dd0/a00191" startline="9544" endline="9596">CIccTagProfileSeqDesc::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>virtual icInt32Number CIccIO::Read8</definition>
+        <argsstring>(void *pBuf8, icInt32Number nNum=1)</argsstring>
+        <name>Read8</name>
+        <qualifiedname>CIccIO::Read8</qualifiedname>
+        <reimplementedby refid="de/d01/a00897_1a4385669a0011f7a169f1f8caf5de1b89">Read8</reimplementedby>
+        <reimplementedby refid="d0/dac/a00901_1aca930566a88fecbce386ec657709f0b6">Read8</reimplementedby>
+        <reimplementedby refid="da/d5b/a00905_1a9fd2c60e2d6008ad81e459cf6641f1d6">Read8</reimplementedby>
+        <reimplementedby refid="de/dc3/a00909_1a097b8705580a4dd8ecfac9743f79181b">Read8</reimplementedby>
+        <param>
+          <type>void *</type>
+          <declname>pBuf8</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="104" column="25" bodyfile="IccProfLib/IccIO.h" bodystart="104" bodyend="104"/>
+        <referencedby refid="d0/dc2/a00104_1aff7a9ca0b9e6a67e49a30d327ff14bf8" compoundref="d0/dc2/a00104" startline="3787" endline="3818">CalcProfileID</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+        <referencedby refid="d9/d63/a01877_1aef548e5ab696b113bf1158b5bbf36f0b" compoundref="d0/d27/a00239" startline="1463" endline="1578">CIccTagXmlFloatNum&lt; T, A, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="df/db2/a01981_1a1f911f834c825441d4694595710bcf55" compoundref="d0/d27/a00239" startline="5099" endline="5162">CIccTagXmlEmbeddedHeightImage::ParseXml</referencedby>
+        <referencedby refid="d3/def/a01985_1a40585eab56b698d0579d922b924997e9" compoundref="d0/d27/a00239" startline="5195" endline="5255">CIccTagXmlEmbeddedNormalImage::ParseXml</referencedby>
+        <referencedby refid="de/df7/a01201_1a6bae5948d64a8a6923108ef5320db225" compoundref="dc/d87/a00032" startline="341" endline="378">CIccMpeUnknown::Read</referencedby>
+        <referencedby refid="de/d85/a01273_1a955fdb5b73893fa9cb416f22a1c1fc90" compoundref="d1/d09/a00077" startline="158" endline="201">CIccMpeAcs::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d3/da5/a00973_1a3957f5eab366867344b44df2d62e36a2" compoundref="d9/dd0/a00191" startline="268" endline="296">CIccTagUnknown::Read</referencedby>
+        <referencedby refid="d5/d6c/a00977_1a7864b17f6ae5097cf91aa0868347c5b9" compoundref="d9/dd0/a00191" startline="438" endline="467">CIccTagText::Read</referencedby>
+        <referencedby refid="dd/d24/a00981_1a83a1e653b635dc8de0d7ae5d954fac2f" compoundref="d9/dd0/a00191" startline="783" endline="814">CIccTagUtf8Text::Read</referencedby>
+        <referencedby refid="da/deb/a00985_1a54b57ff1d3862921f5b9521d36f8c1b9" compoundref="d9/dd0/a00191" startline="1133" endline="1159">CIccTagZipUtf8Text::Read</referencedby>
+        <referencedby refid="d0/d28/a00997_1a21f20acea58aebce6ed81c3ab99fc116" compoundref="d9/dd0/a00191" startline="2055" endline="2133">CIccTagTextDescription::Read</referencedby>
+        <referencedby refid="d7/d59/a01013_1a7dc35fa353a34a281bf4dedccacef154" compoundref="d9/dd0/a00191" startline="2891" endline="2945">CIccTagNamedColor2::Read</referencedby>
+        <referencedby refid="db/d23/a01025_1a8d879b749261432edad544fad531181e" compoundref="d9/dd0/a00191" startline="4184" endline="4210">CIccTagCicp::Read</referencedby>
+        <referencedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032" compoundref="d9/dd0/a00191" startline="4513" endline="4695">CIccTagSparseMatrixArray::Read</referencedby>
+        <referencedby refid="d1/d83/a01041_1a1ae343363af0fc5c9f73b8a85a25c2f1" compoundref="d9/dd0/a00191" startline="5708" endline="5752">CIccTagNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="de/d9e/a01061_1aba8584733382242a5302deab1639f404" compoundref="d9/dd0/a00191" startline="7893" endline="7929">CIccTagData::Read</referencedby>
+        <referencedby refid="d8/d18/a01069_1a667e348cdeef45ba95f5834c6171531a" compoundref="d9/dd0/a00191" startline="8413" endline="8448">CIccTagColorantOrder::Read</referencedby>
+        <referencedby refid="d9/d7c/a01073_1aa0a7314bacc5e5562432f5ab9f10a83d" compoundref="d9/dd0/a00191" startline="8701" endline="8744">CIccTagColorantTable::Read</referencedby>
+        <referencedby refid="d8/ded/a01113_1a5147c62ec0b6383c6dcabf8ebeac5f5e" compoundref="d9/dd0/a00191" startline="11797" endline="11841">CIccTagEmbeddedHeightImage::Read</referencedby>
+        <referencedby refid="d6/d8b/a01117_1a2758418b06545dd03f4b8c8f478da8e5" compoundref="d9/dd0/a00191" startline="12113" endline="12149">CIccTagEmbeddedNormalImage::Read</referencedby>
+        <referencedby refid="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" compoundref="d4/d3e/a00116" startline="1969" endline="1983">CIccCLUT::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+        <referencedby refid="da/d19/a01217_1a62bb8ad81c00c011e74dd293ccad3543" compoundref="de/df3/a00185" startline="266" endline="278">CIccProfileIdDesc::Read</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">Read16</referencedby>
+        <referencedby refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">Read32</referencedby>
+        <referencedby refid="dc/d2c/a00893_1abce317a3e29ef016c9b72f0022aef53d" compoundref="d9/d2e/a00056" startline="173" endline="179">Read64</referencedby>
+        <referencedby refid="d0/dac/a00901_1aca930566a88fecbce386ec657709f0b6" compoundref="d9/d2e/a00056" startline="547" endline="561">CIccEmbedIO::Read8</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a95835f8ddc8b4e6915336b97268d0cba" compoundref="d9/d2e/a00056" startline="93" endline="112">ReadLine</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a684b306f5069d36794d70afe2662e660" compoundref="d9/d2e/a00056" startline="203" endline="217">ReadUInt8Float</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a05eb65f9187a4c84eec42ba30334ed69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::ReadFloat16Float</definition>
+        <argsstring>(void *pBufFloat, icInt32Number nNum=1)</argsstring>
+        <name>ReadFloat16Float</name>
+        <qualifiedname>CIccIO::ReadFloat16Float</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBufFloat</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="124" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="269" bodyend="283"/>
+        <references refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" compoundref="d5/db1/a00140" startline="629" endline="671">icF16toF</references>
+        <references refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">Read16</references>
+        <referencedby refid="d9/d63/a01877_1aef548e5ab696b113bf1158b5bbf36f0b" compoundref="d0/d27/a00239" startline="1463" endline="1578">CIccTagXmlFloatNum&lt; T, A, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032" compoundref="d9/dd0/a00191" startline="4513" endline="4695">CIccTagSparseMatrixArray::Read</referencedby>
+        <referencedby refid="d7/d46/a01045_1ac6bd7df482255281c7d245b902acb1ef" compoundref="d9/dd0/a00191" startline="6313" endline="6371">CIccTagFloatNum&lt; T, Tsig &gt;::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a1399dc6dcf7aefe36b78ad96fc117d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::ReadFloat32Float</definition>
+        <argsstring>(void *pBufFloat, icInt32Number nNum=1)</argsstring>
+        <name>ReadFloat32Float</name>
+        <qualifiedname>CIccIO::ReadFloat32Float</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBufFloat</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="127" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="302" bodyend="319"/>
+        <references refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" compoundref="d9/d2e/a00056" startline="143" endline="149">Read32</references>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/dc8/a01929_1a92fda6907dac46dc92bbafa9efa9d40b" compoundref="d0/d27/a00239" startline="2570" endline="2956">CIccTagXmlCurve::ParseXml</referencedby>
+        <referencedby refid="d4/dd1/a01797_1a17951bffcfa1b0cc3494411d61ba6fb5" compoundref="dd/dd7/a00260" startline="286" endline="505">CIccSampledCurveSegmentXml::ParseXml</referencedby>
+        <referencedby refid="d7/d62/a01805_1aa6fcb8735d6aa3f1e104778862dfeb6d" compoundref="dd/dd7/a00260" startline="636" endline="961">CIccSinglSampledeCurveXml::ParseXml</referencedby>
+        <referencedby refid="d9/d63/a01877_1aef548e5ab696b113bf1158b5bbf36f0b" compoundref="d0/d27/a00239" startline="1463" endline="1578">CIccTagXmlFloatNum&lt; T, A, Tsig &gt;::ParseXml</referencedby>
+        <referencedby refid="dc/d5e/a00817_1a2939176007d3b977785e283d62d5f32d" compoundref="d6/d2d/a00047" startline="365" endline="437">CIccFormulaCurveSegment::Read</referencedby>
+        <referencedby refid="d6/d8b/a00821_1aae2ab12b643b973903388f86a939f60f" compoundref="d6/d2d/a00047" startline="1068" endline="1110">CIccSampledCurveSegment::Read</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="d1/de6/a00837_1a1545329e314b4d676c42a3b6990d912d" compoundref="d6/d2d/a00047" startline="2233" endline="2280">CIccSampledCalculatorCurve::Read</referencedby>
+        <referencedby refid="de/d37/a00849_1ad9aab09d8a66b053a9762742c5091e0e" compoundref="d6/d2d/a00047" startline="3974" endline="4026">CIccToneMapFunc::Read</referencedby>
+        <referencedby refid="d0/d82/a00857_1ab15bd5e24165fb2b5a9f89031b241319" compoundref="d6/d2d/a00047" startline="5033" endline="5116">CIccMpeMatrix::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d9/d22/a00873_1ad731205def22bd1ede67a6d4fdd23b80" compoundref="d6/d2d/a00047" startline="6123" endline="6172">CIccMpeCAM::Read</referencedby>
+        <referencedby refid="dc/d87/a01649_1a0e4b78a17776fc35ca8f91a0f2e62de2" compoundref="d5/de9/a00176" startline="368" endline="442">CIccMpeSpectralMatrix::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d2/d44/a01677_1a64336f7b6bd64df40d294555edd3a4fc" compoundref="d5/de9/a00176" startline="1833" endline="1894">CIccMpeSpectralObserver::Read</referencedby>
+        <referencedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032" compoundref="d9/dd0/a00191" startline="4513" endline="4695">CIccTagSparseMatrixArray::Read</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a2517e82008350846709ef534e551bebe" compoundref="d9/dd0/a00191" startline="10992" endline="11090">CIccTagSpectralViewingConditions::Read</referencedby>
+        <referencedby refid="d8/ded/a01113_1a5147c62ec0b6383c6dcabf8ebeac5f5e" compoundref="d9/dd0/a00191" startline="11797" endline="11841">CIccTagEmbeddedHeightImage::Read</referencedby>
+        <referencedby refid="dc/d98/a01177_1ac762581885a9375d6459cd390d538c94" compoundref="d4/d3e/a00116" startline="5484" endline="5561">CIccTagGamutBoundaryDesc::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a95835f8ddc8b4e6915336b97268d0cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::ReadLine</definition>
+        <argsstring>(void *pBuf8, icInt32Number nNum=256)</argsstring>
+        <name>ReadLine</name>
+        <qualifiedname>CIccIO::ReadLine</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf8</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>256</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="107" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="93" bodyend="112"/>
+        <references refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" compoundref="df/d6a/a00119" startline="104" endline="104">Read8</references>
+        <referencedby refid="d0/d27/a00239_1a27a49e117d637e0073ff82ff83e0ed17" compoundref="d0/d27/a00239" startline="180" endline="251">icXmlParseTextString</referencedby>
+        <referencedby refid="d7/db1/a01837_1a90eeefd13346d44fe87970c91ca28287" compoundref="d0/d27/a00239" startline="381" endline="565">CIccTagXmlTextDescription::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1aa610de49d9918d4e354710b04491ae44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::ReadUInt16Float</definition>
+        <argsstring>(void *pBufFloat, icInt32Number nNum=1)</argsstring>
+        <name>ReadUInt16Float</name>
+        <qualifiedname>CIccIO::ReadUInt16Float</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBufFloat</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="121" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="236" bodyend="250"/>
+        <references refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" compoundref="d9/d2e/a00056" startline="114" endline="120">Read16</references>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d7/d59/a01013_1a7dc35fa353a34a281bf4dedccacef154" compoundref="d9/dd0/a00191" startline="2891" endline="2945">CIccTagNamedColor2::Read</referencedby>
+        <referencedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032" compoundref="d9/dd0/a00191" startline="4513" endline="4695">CIccTagSparseMatrixArray::Read</referencedby>
+        <referencedby refid="d6/dc4/a01125_1a86401f42aa785fac984b8dcc1f721f39" compoundref="d4/d3e/a00116" startline="229" endline="266">CIccTagCurve::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+        <referencedby refid="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" compoundref="d4/d3e/a00116" startline="1896" endline="1918">CIccCLUT::ReadData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a684b306f5069d36794d70afe2662e660" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::ReadUInt8Float</definition>
+        <argsstring>(void *pBufFloat, icInt32Number nNum=1)</argsstring>
+        <name>ReadUInt8Float</name>
+        <qualifiedname>CIccIO::ReadUInt8Float</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBufFloat</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="118" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="203" bodyend="217"/>
+        <references refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" compoundref="df/d6a/a00119" startline="104" endline="104">Read8</references>
+        <referencedby refid="dc/d6e/a00833_1a3bbdb26384efaad02523dfbb34d5106d" compoundref="d6/d2d/a00047" startline="1594" endline="1676">CIccSingleSampledCurve::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032" compoundref="d9/dd0/a00191" startline="4513" endline="4695">CIccTagSparseMatrixArray::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" compoundref="d4/d3e/a00116" startline="1896" endline="1918">CIccCLUT::ReadData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a970eef37fff95838dabecc0a1b30de55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>virtual icInt32Number CIccIO::Seek</definition>
+        <argsstring>(icInt32Number nOffset, icSeekVal pos)</argsstring>
+        <name>Seek</name>
+        <qualifiedname>CIccIO::Seek</qualifiedname>
+        <reimplementedby refid="de/d01/a00897_1ab740a586b4d73cd1c7678cf76a016bf0">Seek</reimplementedby>
+        <reimplementedby refid="d0/dac/a00901_1a31aef274278c3e58a4ac371b214862b7">Seek</reimplementedby>
+        <reimplementedby refid="da/d5b/a00905_1a7b640c7989617663e6f654bd98bea99e">Seek</reimplementedby>
+        <reimplementedby refid="de/dc3/a00909_1a786343ad4138bf30992961e96c31c329">Seek</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nOffset</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d6a/a00119_1af6770b40ac8178ba561dedeea867ae17" kindref="member">icSeekVal</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="132" column="25" bodyfile="IccProfLib/IccIO.h" bodystart="132" bodyend="132"/>
+        <referencedby refid="dc/d2c/a00893_1a6305c8a2db094c196a72663047ee5ddc" compoundref="d9/d2e/a00056" startline="341" endline="355">Align32</referencedby>
+        <referencedby refid="d0/dc2/a00104_1aff7a9ca0b9e6a67e49a30d327ff14bf8" compoundref="d0/dc2/a00104" startline="3787" endline="3818">CalcProfileID</referencedby>
+        <referencedby refid="d5/d5f/a00461_1ac6d61b8ae0ec667a3a6de3cc20ab96fd" compoundref="d5/dcb/a00170" startline="847" endline="911">CIccTagStruct::LoadElem</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+        <referencedby refid="df/db8/a01317_1a7fefc4a48200f353586b9cb1f60af820" compoundref="d9/d77/a00095" startline="4474" endline="4586">CIccMpeCalculator::Read</referencedby>
+        <referencedby refid="d2/db8/a01057_1ad1c5b1272f6e344c2bb9ed0dfbee8f86" compoundref="d9/dd0/a00191" startline="7451" endline="7527">CIccTagMultiLocalizedUnicode::Read</referencedby>
+        <referencedby refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" compoundref="d9/dd0/a00191" startline="9331" endline="9369">CIccProfileDescText::Read</referencedby>
+        <referencedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2" compoundref="d9/dd0/a00191" startline="10217" endline="10275">CIccTagResponseCurveSet16::Read</referencedby>
+        <referencedby refid="db/de0/a00465_1aa3fe4ccface825d27a6c49ae022bcdb0" compoundref="d5/dcb/a00170" startline="1213" endline="1316">CIccTagArray::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d5/d54/a01213_1a00eff526d38081625b79195b3da1728d" compoundref="dc/d87/a00032" startline="969" endline="1072">CIccTagMultiProcessElement::Read</referencedby>
+        <referencedby refid="dd/d3f/a01221_1aa1568bb1c77891e42ca498bc092b673f" compoundref="de/df3/a00185" startline="461" endline="530">CIccTagProfileSequenceId::Read</referencedby>
+        <referencedby refid="d0/dac/a00901_1a31aef274278c3e58a4ac371b214862b7" compoundref="d9/d2e/a00056" startline="585" endline="628">CIccEmbedIO::Seek</referencedby>
+        <referencedby refid="dc/d2c/a00893_1ad837e1b50625fe8a294dd73b7d923a0c" compoundref="d9/d2e/a00056" startline="357" endline="365">Sync32</referencedby>
+        <referencedby refid="d5/dac/a00841_1a7b15db55a9cf1e0bc6866e549f60abab" compoundref="d6/d2d/a00047" startline="3328" endline="3394">CIccMpeCurveSet::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+        <referencedby refid="de/d99/a01101_1ae5098d34ecc43ea5166662d3650f9e06" compoundref="d9/dd0/a00191" startline="10291" endline="10343">CIccTagResponseCurveSet16::Write</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+        <referencedby refid="db/de0/a00465_1acd5daadb93f9f89ede59f12310c5f076" compoundref="d5/dcb/a00170" startline="1328" endline="1407">CIccTagArray::Write</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+        <referencedby refid="d5/d54/a01213_1aa4fc1619236076a2cf093cbeb9850d9d" compoundref="dc/d87/a00032" startline="1084" endline="1177">CIccTagMultiProcessElement::Write</referencedby>
+        <referencedby refid="dd/d3f/a01221_1a3c3c2655304d893875fc32646ad9af3a" compoundref="de/df3/a00185" startline="542" endline="601">CIccTagProfileSequenceId::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1ad837e1b50625fe8a294dd73b7d923a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccIO::Sync32</definition>
+        <argsstring>(icUInt32Number nOffset=0)</argsstring>
+        <name>Sync32</name>
+        <qualifiedname>CIccIO::Sync32</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nOffset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Operation to make sure read position is evenly divisible by 4. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="139" column="8" bodyfile="IccProfLib/IccIO.cpp" bodystart="357" bodyend="365"/>
+        <references refid="df/d6a/a00119_1af6770b40ac8178ba561dedeea867ae17a3b7b6e37e81aceaf14f0946926fac503" compoundref="df/d6a/a00119" startline="83">icSeekSet</references>
+        <references refid="dc/d2c/a00893_1a970eef37fff95838dabecc0a1b30de55" compoundref="df/d6a/a00119" startline="132" endline="132">Seek</references>
+        <references refid="dc/d2c/a00893_1a601e3908896710a0b8d3840df02e398f" compoundref="df/d6a/a00119" startline="133" endline="133">Tell</references>
+        <referencedby refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" compoundref="d9/dd0/a00191" startline="9331" endline="9369">CIccProfileDescText::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a601e3908896710a0b8d3840df02e398f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>virtual icInt32Number CIccIO::Tell</definition>
+        <argsstring>()</argsstring>
+        <name>Tell</name>
+        <qualifiedname>CIccIO::Tell</qualifiedname>
+        <reimplementedby refid="de/d01/a00897_1a0a8b7f48242bb49011ac00395e5d66ee">Tell</reimplementedby>
+        <reimplementedby refid="d0/dac/a00901_1aade4e7fd5ec2ae5545b5435b52b2e0bc">Tell</reimplementedby>
+        <reimplementedby refid="da/d5b/a00905_1a2f15ee59d3657b644d4508f5660ecb0a">Tell</reimplementedby>
+        <reimplementedby refid="de/dc3/a00909_1a7e478567c4db6b30bd633460aa668978">Tell</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="133" column="25" bodyfile="IccProfLib/IccIO.h" bodystart="133" bodyend="133"/>
+        <referencedby refid="d0/dac/a00901_1a286be7f43217da0c25eb07b629d07475" compoundref="d9/d2e/a00056" startline="519" endline="533">CIccEmbedIO::Attach</referencedby>
+        <referencedby refid="d0/dc2/a00104_1aff7a9ca0b9e6a67e49a30d327ff14bf8" compoundref="d0/dc2/a00104" startline="3787" endline="3818">CalcProfileID</referencedby>
+        <referencedby refid="d1/dea/a00829_1a555e4f6bb32e3e14312acc71747003b0" compoundref="d6/d2d/a00047" startline="2632" endline="2741">CIccSegmentedCurve::Read</referencedby>
+        <referencedby refid="d5/dac/a00841_1a5ea84a70307b7d7601d0d862e00a69cb" compoundref="d6/d2d/a00047" startline="3220" endline="3316">CIccMpeCurveSet::Read</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="db/deb/a00853_1a29f6aacb8c539033987216bedaf02f93" compoundref="d6/d2d/a00047" startline="4405" endline="4555">CIccMpeToneMap::Read</referencedby>
+        <referencedby refid="df/db8/a01317_1a7fefc4a48200f353586b9cb1f60af820" compoundref="d9/d77/a00095" startline="4474" endline="4586">CIccMpeCalculator::Read</referencedby>
+        <referencedby refid="d0/d28/a00997_1a21f20acea58aebce6ed81c3ab99fc116" compoundref="d9/dd0/a00191" startline="2055" endline="2133">CIccTagTextDescription::Read</referencedby>
+        <referencedby refid="d2/db8/a01057_1ad1c5b1272f6e344c2bb9ed0dfbee8f86" compoundref="d9/dd0/a00191" startline="7451" endline="7527">CIccTagMultiLocalizedUnicode::Read</referencedby>
+        <referencedby refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" compoundref="d9/dd0/a00191" startline="9331" endline="9369">CIccProfileDescText::Read</referencedby>
+        <referencedby refid="d3/dc4/a01089_1ae5af70d0e084a18fe04f7cfcaab17f7a" compoundref="d9/dd0/a00191" startline="9544" endline="9596">CIccTagProfileSeqDesc::Read</referencedby>
+        <referencedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2" compoundref="d9/dd0/a00191" startline="10217" endline="10275">CIccTagResponseCurveSet16::Read</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a560ac9d14c6e3c5f85b2568a76823cb2" compoundref="d5/dcb/a00170" startline="346" endline="413">CIccTagStruct::Read</referencedby>
+        <referencedby refid="db/de0/a00465_1aa3fe4ccface825d27a6c49ae022bcdb0" compoundref="d5/dcb/a00170" startline="1213" endline="1316">CIccTagArray::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+        <referencedby refid="d5/d54/a01213_1a00eff526d38081625b79195b3da1728d" compoundref="dc/d87/a00032" startline="969" endline="1072">CIccTagMultiProcessElement::Read</referencedby>
+        <referencedby refid="dd/d3f/a01221_1aa1568bb1c77891e42ca498bc092b673f" compoundref="de/df3/a00185" startline="461" endline="530">CIccTagProfileSequenceId::Read</referencedby>
+        <referencedby refid="d0/dac/a00901_1aca930566a88fecbce386ec657709f0b6" compoundref="d9/d2e/a00056" startline="547" endline="561">CIccEmbedIO::Read8</referencedby>
+        <referencedby refid="d0/dac/a00901_1a31aef274278c3e58a4ac371b214862b7" compoundref="d9/d2e/a00056" startline="585" endline="628">CIccEmbedIO::Seek</referencedby>
+        <referencedby refid="dc/d2c/a00893_1ad837e1b50625fe8a294dd73b7d923a0c" compoundref="d9/d2e/a00056" startline="357" endline="365">Sync32</referencedby>
+        <referencedby refid="d0/dac/a00901_1aade4e7fd5ec2ae5545b5435b52b2e0bc" compoundref="d9/d2e/a00056" startline="631" endline="642">CIccEmbedIO::Tell</referencedby>
+        <referencedby refid="d5/dac/a00841_1a7b15db55a9cf1e0bc6866e549f60abab" compoundref="d6/d2d/a00047" startline="3328" endline="3394">CIccMpeCurveSet::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+        <referencedby refid="db/de0/a00465_1acd5daadb93f9f89ede59f12310c5f076" compoundref="d5/dcb/a00170" startline="1328" endline="1407">CIccTagArray::Write</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+        <referencedby refid="d5/d54/a01213_1aa4fc1619236076a2cf093cbeb9850d9d" compoundref="dc/d87/a00032" startline="1084" endline="1177">CIccTagMultiProcessElement::Write</referencedby>
+        <referencedby refid="dd/d3f/a01221_1a3c3c2655304d893875fc32646ad9af3a" compoundref="de/df3/a00185" startline="542" endline="601">CIccTagProfileSequenceId::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::Write16</definition>
+        <argsstring>(void *pBuf16, icInt32Number nNum=1)</argsstring>
+        <name>Write16</name>
+        <qualifiedname>CIccIO::Write16</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf16</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="110" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="122" bodyend="141"/>
+        <references refid="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" compoundref="df/d6a/a00119" startline="105" endline="105">Write8</references>
+        <referencedby refid="de/d85/a01273_1a922718dde543a4adc575913f8b5e8cc9" compoundref="d1/d09/a00077" startline="213" endline="241">CIccMpeAcs::Write</referencedby>
+        <referencedby refid="dc/d5e/a00817_1a4e73b171396f72d91843e2bec92dcafa" compoundref="d6/d2d/a00047" startline="449" endline="500">CIccFormulaCurveSegment::Write</referencedby>
+        <referencedby refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" compoundref="d6/d2d/a00047" startline="2754" endline="2792">CIccSegmentedCurve::Write</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+        <referencedby refid="d1/de6/a00837_1a447fb895b961dce8aca7a89f1e8ac63c" compoundref="d6/d2d/a00047" startline="2292" endline="2325">CIccSampledCalculatorCurve::Write</referencedby>
+        <referencedby refid="d5/dac/a00841_1a7b15db55a9cf1e0bc6866e549f60abab" compoundref="d6/d2d/a00047" startline="3328" endline="3394">CIccMpeCurveSet::Write</referencedby>
+        <referencedby refid="d7/dcf/a00845_1ae44de3de19b91513bcc3b56812dc09eb" compoundref="d6/d2d/a00047" startline="3725" endline="3748">CIccMpeTintArray::Write</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">CIccToneMapFunc::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+        <referencedby refid="d0/d82/a00857_1a80348298f549ace16fa208e21a23cf42" compoundref="d6/d2d/a00047" startline="5128" endline="5168">CIccMpeMatrix::Write</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+        <referencedby refid="dc/d87/a01649_1af8262cb3a442bff7f5b447bd2648a19a" compoundref="d5/de9/a00176" startline="454" endline="505">CIccMpeSpectralMatrix::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d2/d44/a01677_1a2018b46d43b5ff7da4b1475349fee809" compoundref="d5/de9/a00176" startline="1906" endline="1946">CIccMpeSpectralObserver::Write</referencedby>
+        <referencedby refid="da/d0a/a00993_1a425df6d6990c5382d0790e468265a29b" compoundref="d9/dd0/a00191" startline="1648" endline="1672">CIccTagUtf16Text::Write</referencedby>
+        <referencedby refid="d0/d28/a00997_1a9559c228ba13084c2e36840d0f6c7edd" compoundref="d9/dd0/a00191" startline="2148" endline="2187">CIccTagTextDescription::Write</referencedby>
+        <referencedby refid="d5/dfb/a01021_1a5c84516a7f909694815c730197c9ca1e" compoundref="d9/dd0/a00191" startline="3910" endline="3935">CIccTagChromaticity::Write</referencedby>
+        <referencedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed" compoundref="d9/dd0/a00191" startline="4711" endline="4777">CIccTagSparseMatrixArray::Write</referencedby>
+        <referencedby refid="d1/d83/a01041_1a936bd3aef111beef827f3e57b6c907c0" compoundref="d9/dd0/a00191" startline="5769" endline="5802">CIccTagNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d2/db8/a01057_1af6652ac806b7cfeb91afb4c274a0be92" compoundref="d9/dd0/a00191" startline="7543" endline="7585">CIccTagMultiLocalizedUnicode::Write</referencedby>
+        <referencedby refid="d0/dc9/a01065_1a071ca9e3c84c008802d3f9531e9cb7f8" compoundref="d9/dd0/a00191" startline="8246" endline="8263">CIccTagDateTime::Write</referencedby>
+        <referencedby refid="d9/d7c/a01073_1a1eb67ae5b05fcb67d2a6d60b21cad938" compoundref="d9/dd0/a00191" startline="8760" endline="8788">CIccTagColorantTable::Write</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" compoundref="d9/dd0/a00191" startline="9974" endline="10020">CIccResponseCurveStruct::Write</referencedby>
+        <referencedby refid="de/d99/a01101_1ae5098d34ecc43ea5166662d3650f9e06" compoundref="d9/dd0/a00191" startline="10291" endline="10343">CIccTagResponseCurveSet16::Write</referencedby>
+        <referencedby refid="de/d1d/a01105_1af0a0779928f736679bc07ea10784b356" compoundref="d9/dd0/a00191" startline="10710" endline="10744">CIccTagSpectralDataInfo::Write</referencedby>
+        <referencedby refid="d8/dbf/a01109_1ad2d1da3030f6deadd1993d7938fed8c0" compoundref="d9/dd0/a00191" startline="11106" endline="11151">CIccTagSpectralViewingConditions::Write</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+        <referencedby refid="d9/d17/a01129_1a7b40bd034c7d6dd0efc7668bb5151b92" compoundref="d4/d3e/a00116" startline="791" endline="820">CIccTagParametricCurve::Write</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+        <referencedby refid="dc/d98/a01177_1a216c00ad5cd51842449bb7f50d382a28" compoundref="d4/d3e/a00116" startline="5576" endline="5621">CIccTagGamutBoundaryDesc::Write</referencedby>
+        <referencedby refid="de/df7/a01201_1a0bc80d62b9af7d88b2316ae63a3ce0a1" compoundref="dc/d87/a00032" startline="390" endline="415">CIccMpeUnknown::Write</referencedby>
+        <referencedby refid="d5/d54/a01213_1aa4fc1619236076a2cf093cbeb9850d9d" compoundref="dc/d87/a00032" startline="1084" endline="1177">CIccTagMultiProcessElement::Write</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a57109e85a49573fd9f1af1e6ad7a53e2" compoundref="d9/d2e/a00056" startline="285" endline="300">WriteFloat16Float</referencedby>
+        <referencedby refid="dc/d2c/a00893_1afd87a27fcc9a6871151f9c07e1721bae" compoundref="d9/d2e/a00056" startline="252" endline="267">WriteUInt16Float</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::Write32</definition>
+        <argsstring>(void *pBuf32, icInt32Number nNum=1)</argsstring>
+        <name>Write32</name>
+        <qualifiedname>CIccIO::Write32</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf32</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="113" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="152" bodyend="171"/>
+        <references refid="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" compoundref="df/d6a/a00119" startline="105" endline="105">Write8</references>
+        <referencedby refid="de/d85/a01273_1a922718dde543a4adc575913f8b5e8cc9" compoundref="d1/d09/a00077" startline="213" endline="241">CIccMpeAcs::Write</referencedby>
+        <referencedby refid="dc/d5e/a00817_1a4e73b171396f72d91843e2bec92dcafa" compoundref="d6/d2d/a00047" startline="449" endline="500">CIccFormulaCurveSegment::Write</referencedby>
+        <referencedby refid="d6/d8b/a00821_1ad1a3f4156084c217b0283f8dbf418143" compoundref="d6/d2d/a00047" startline="1122" endline="1152">CIccSampledCurveSegment::Write</referencedby>
+        <referencedby refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" compoundref="d6/d2d/a00047" startline="2754" endline="2792">CIccSegmentedCurve::Write</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+        <referencedby refid="d1/de6/a00837_1a447fb895b961dce8aca7a89f1e8ac63c" compoundref="d6/d2d/a00047" startline="2292" endline="2325">CIccSampledCalculatorCurve::Write</referencedby>
+        <referencedby refid="d5/dac/a00841_1a7b15db55a9cf1e0bc6866e549f60abab" compoundref="d6/d2d/a00047" startline="3328" endline="3394">CIccMpeCurveSet::Write</referencedby>
+        <referencedby refid="d7/dcf/a00845_1ae44de3de19b91513bcc3b56812dc09eb" compoundref="d6/d2d/a00047" startline="3725" endline="3748">CIccMpeTintArray::Write</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">CIccToneMapFunc::Write</referencedby>
+        <referencedby refid="db/deb/a00853_1a3576710649218915ae7a552b97f2fc90" compoundref="d6/d2d/a00047" startline="4567" endline="4674">CIccMpeToneMap::Write</referencedby>
+        <referencedby refid="d0/d82/a00857_1a80348298f549ace16fa208e21a23cf42" compoundref="d6/d2d/a00047" startline="5128" endline="5168">CIccMpeMatrix::Write</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+        <referencedby refid="db/d4b/a01309_1acc272cf47e01269c89013f0e73c5276f" compoundref="d9/d77/a00095" startline="3399" endline="3424">CIccCalculatorFunc::Write</referencedby>
+        <referencedby refid="df/db8/a01317_1a85190c32e352d916b5216f6dbb89d539" compoundref="d9/d77/a00095" startline="4598" endline="4675">CIccMpeCalculator::Write</referencedby>
+        <referencedby refid="dc/d87/a01649_1af8262cb3a442bff7f5b447bd2648a19a" compoundref="d5/de9/a00176" startline="454" endline="505">CIccMpeSpectralMatrix::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d2/d44/a01677_1a2018b46d43b5ff7da4b1475349fee809" compoundref="d5/de9/a00176" startline="1906" endline="1946">CIccMpeSpectralObserver::Write</referencedby>
+        <referencedby refid="d3/da5/a00973_1a07905ecc6c14d71812b5c262d11eb0c6" compoundref="d9/dd0/a00191" startline="312" endline="326">CIccTagUnknown::Write</referencedby>
+        <referencedby refid="d5/d6c/a00977_1a2420c8aa5ef8596206d6634e86d0c2a7" compoundref="d9/dd0/a00191" startline="482" endline="504">CIccTagText::Write</referencedby>
+        <referencedby refid="dd/d24/a00981_1a6d6e1d88e59b4303b0b9e2a51958e9e8" compoundref="d9/dd0/a00191" startline="829" endline="851">CIccTagUtf8Text::Write</referencedby>
+        <referencedby refid="da/deb/a00985_1a03f23410a51ff78712538aa985f4c719" compoundref="d9/dd0/a00191" startline="1174" endline="1192">CIccTagZipUtf8Text::Write</referencedby>
+        <referencedby refid="da/d0a/a00993_1a425df6d6990c5382d0790e468265a29b" compoundref="d9/dd0/a00191" startline="1648" endline="1672">CIccTagUtf16Text::Write</referencedby>
+        <referencedby refid="d0/d28/a00997_1a9559c228ba13084c2e36840d0f6c7edd" compoundref="d9/dd0/a00191" startline="2148" endline="2187">CIccTagTextDescription::Write</referencedby>
+        <referencedby refid="df/d59/a01001_1a70aa191f560507eab577666320cce6fb" compoundref="d9/dd0/a00191" startline="2523" endline="2540">CIccTagSignature::Write</referencedby>
+        <referencedby refid="d7/d59/a01013_1a7275fd6a6f74d1987274cd0a6cb4f9d9" compoundref="d9/dd0/a00191" startline="2961" endline="3004">CIccTagNamedColor2::Write</referencedby>
+        <referencedby refid="d3/ded/a01017_1aaa8f1b3a3fca9d237e537d623a1f70af" compoundref="d9/dd0/a00191" startline="3636" endline="3656">CIccTagXYZ::Write</referencedby>
+        <referencedby refid="d5/dfb/a01021_1a5c84516a7f909694815c730197c9ca1e" compoundref="d9/dd0/a00191" startline="3910" endline="3935">CIccTagChromaticity::Write</referencedby>
+        <referencedby refid="db/d23/a01025_1a3b3f3a4ea79f37c343e56c9124be30c6" compoundref="d9/dd0/a00191" startline="4226" endline="4246">CIccTagCicp::Write</referencedby>
+        <referencedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed" compoundref="d9/dd0/a00191" startline="4711" endline="4777">CIccTagSparseMatrixArray::Write</referencedby>
+        <referencedby refid="d2/d41/a01037_1a1703b3c680165fd01691e12680057f8b" compoundref="d9/dd0/a00191" startline="5290" endline="5307">CIccTagFixedNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d1/d83/a01041_1a936bd3aef111beef827f3e57b6c907c0" compoundref="d9/dd0/a00191" startline="5769" endline="5802">CIccTagNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d7/d46/a01045_1a305a6f569c1948ed158d69948ee5481d" compoundref="d9/dd0/a00191" startline="6388" endline="6417">CIccTagFloatNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d0/d22/a01049_1a8875bed465480e096f923e7dd7c02892" compoundref="d9/dd0/a00191" startline="6827" endline="6846">CIccTagMeasurement::Write</referencedby>
+        <referencedby refid="d2/db8/a01057_1af6652ac806b7cfeb91afb4c274a0be92" compoundref="d9/dd0/a00191" startline="7543" endline="7585">CIccTagMultiLocalizedUnicode::Write</referencedby>
+        <referencedby refid="de/d9e/a01061_1a5c38408813ceb02e19b00a1ef8e42fee" compoundref="d9/dd0/a00191" startline="7945" endline="7975">CIccTagData::Write</referencedby>
+        <referencedby refid="d0/dc9/a01065_1a071ca9e3c84c008802d3f9531e9cb7f8" compoundref="d9/dd0/a00191" startline="8246" endline="8263">CIccTagDateTime::Write</referencedby>
+        <referencedby refid="d8/d18/a01069_1a589e222bf4d420b885053c461fc5fd9e" compoundref="d9/dd0/a00191" startline="8465" endline="8485">CIccTagColorantOrder::Write</referencedby>
+        <referencedby refid="d9/d7c/a01073_1a1eb67ae5b05fcb67d2a6d60b21cad938" compoundref="d9/dd0/a00191" startline="8760" endline="8788">CIccTagColorantTable::Write</referencedby>
+        <referencedby refid="d0/dd3/a01077_1a07f17dde762d52f517c065148b349b7e" compoundref="d9/dd0/a00191" startline="9076" endline="9099">CIccTagViewingConditions::Write</referencedby>
+        <referencedby refid="d3/dc4/a01089_1a7d64032c11a24811af599c55681579ed" compoundref="d9/dd0/a00191" startline="9612" endline="9642">CIccTagProfileSeqDesc::Write</referencedby>
+        <referencedby refid="de/d1c/a01093_1a1f8c63949046d5003255e405a2c4e16c" compoundref="d9/dd0/a00191" startline="9974" endline="10020">CIccResponseCurveStruct::Write</referencedby>
+        <referencedby refid="de/d99/a01101_1ae5098d34ecc43ea5166662d3650f9e06" compoundref="d9/dd0/a00191" startline="10291" endline="10343">CIccTagResponseCurveSet16::Write</referencedby>
+        <referencedby refid="de/d1d/a01105_1af0a0779928f736679bc07ea10784b356" compoundref="d9/dd0/a00191" startline="10710" endline="10744">CIccTagSpectralDataInfo::Write</referencedby>
+        <referencedby refid="d8/dbf/a01109_1ad2d1da3030f6deadd1993d7938fed8c0" compoundref="d9/dd0/a00191" startline="11106" endline="11151">CIccTagSpectralViewingConditions::Write</referencedby>
+        <referencedby refid="d8/ded/a01113_1a06cdc977f66b84af9e47ef3e873b1b49" compoundref="d9/dd0/a00191" startline="11857" endline="11886">CIccTagEmbeddedHeightImage::Write</referencedby>
+        <referencedby refid="d6/d8b/a01117_1aef90495e7c31d6694e540ddc04ed76fe" compoundref="d9/dd0/a00191" startline="12165" endline="12188">CIccTagEmbeddedNormalImage::Write</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+        <referencedby refid="db/de0/a00465_1acd5daadb93f9f89ede59f12310c5f076" compoundref="d5/dcb/a00170" startline="1328" endline="1407">CIccTagArray::Write</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+        <referencedby refid="dc/dab/a01237_1a1d18120e63e422bb3cad2b0aef1a968a" compoundref="d9/d01/a00227" startline="267" endline="295">CIccTagEmbeddedProfile::Write</referencedby>
+        <referencedby refid="d6/dc4/a01125_1add153f2428e36419fdaf7465a49ad941" compoundref="d4/d3e/a00116" startline="282" endline="305">CIccTagCurve::Write</referencedby>
+        <referencedby refid="d9/d17/a01129_1a7b40bd034c7d6dd0efc7668bb5151b92" compoundref="d4/d3e/a00116" startline="791" endline="820">CIccTagParametricCurve::Write</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+        <referencedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf" compoundref="d4/d3e/a00116" startline="4665" endline="4763">CIccTagLut8::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+        <referencedby refid="dc/d98/a01177_1a216c00ad5cd51842449bb7f50d382a28" compoundref="d4/d3e/a00116" startline="5576" endline="5621">CIccTagGamutBoundaryDesc::Write</referencedby>
+        <referencedby refid="de/df7/a01201_1a0bc80d62b9af7d88b2316ae63a3ce0a1" compoundref="dc/d87/a00032" startline="390" endline="415">CIccMpeUnknown::Write</referencedby>
+        <referencedby refid="d5/d54/a01213_1aa4fc1619236076a2cf093cbeb9850d9d" compoundref="dc/d87/a00032" startline="1084" endline="1177">CIccTagMultiProcessElement::Write</referencedby>
+        <referencedby refid="dd/d3f/a01221_1a3c3c2655304d893875fc32646ad9af3a" compoundref="de/df3/a00185" startline="542" endline="601">CIccTagProfileSequenceId::Write</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a9f55b95a792f5aa4353739c49f8952ee" compoundref="d9/d2e/a00056" startline="321" endline="339">WriteFloat32Float</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a9811df24786ca05642a80a1754204105" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::Write64</definition>
+        <argsstring>(void *pBuf64, icInt32Number nNum=1)</argsstring>
+        <name>Write64</name>
+        <qualifiedname>CIccIO::Write64</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf64</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="116" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="182" bodyend="201"/>
+        <references refid="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" compoundref="df/d6a/a00119" startline="105" endline="105">Write8</references>
+        <referencedby refid="d1/d83/a01041_1a936bd3aef111beef827f3e57b6c907c0" compoundref="d9/dd0/a00191" startline="5769" endline="5802">CIccTagNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d7/d46/a01045_1a305a6f569c1948ed158d69948ee5481d" compoundref="d9/dd0/a00191" startline="6388" endline="6417">CIccTagFloatNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d3/dc4/a01089_1a7d64032c11a24811af599c55681579ed" compoundref="d9/dd0/a00191" startline="9612" endline="9642">CIccTagProfileSeqDesc::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>virtual icInt32Number CIccIO::Write8</definition>
+        <argsstring>(void *pBuf8, icInt32Number nNum=1)</argsstring>
+        <name>Write8</name>
+        <qualifiedname>CIccIO::Write8</qualifiedname>
+        <reimplementedby refid="de/d01/a00897_1ab243b2d050a1e74c48a7c03f01f04cef">Write8</reimplementedby>
+        <reimplementedby refid="d0/dac/a00901_1adb3bc88ea61848ec68233f7b3caf88c1">Write8</reimplementedby>
+        <reimplementedby refid="da/d5b/a00905_1ab4471a2bfa2ab33b2cbfb0d9de777c0b">Write8</reimplementedby>
+        <reimplementedby refid="de/dc3/a00909_1a2ddab2f05a162dc83af488e50e2c14c3">Write8</reimplementedby>
+        <param>
+          <type>void *</type>
+          <declname>pBuf8</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="105" column="25" bodyfile="IccProfLib/IccIO.h" bodystart="105" bodyend="105"/>
+        <referencedby refid="dc/d2c/a00893_1a6305c8a2db094c196a72663047ee5ddc" compoundref="d9/d2e/a00056" startline="341" endline="355">Align32</referencedby>
+        <referencedby refid="de/d85/a01273_1a922718dde543a4adc575913f8b5e8cc9" compoundref="d1/d09/a00077" startline="213" endline="241">CIccMpeAcs::Write</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d3/da5/a00973_1a07905ecc6c14d71812b5c262d11eb0c6" compoundref="d9/dd0/a00191" startline="312" endline="326">CIccTagUnknown::Write</referencedby>
+        <referencedby refid="d5/d6c/a00977_1a2420c8aa5ef8596206d6634e86d0c2a7" compoundref="d9/dd0/a00191" startline="482" endline="504">CIccTagText::Write</referencedby>
+        <referencedby refid="dd/d24/a00981_1a6d6e1d88e59b4303b0b9e2a51958e9e8" compoundref="d9/dd0/a00191" startline="829" endline="851">CIccTagUtf8Text::Write</referencedby>
+        <referencedby refid="da/deb/a00985_1a03f23410a51ff78712538aa985f4c719" compoundref="d9/dd0/a00191" startline="1174" endline="1192">CIccTagZipUtf8Text::Write</referencedby>
+        <referencedby refid="d0/d28/a00997_1a9559c228ba13084c2e36840d0f6c7edd" compoundref="d9/dd0/a00191" startline="2148" endline="2187">CIccTagTextDescription::Write</referencedby>
+        <referencedby refid="d7/d59/a01013_1a7275fd6a6f74d1987274cd0a6cb4f9d9" compoundref="d9/dd0/a00191" startline="2961" endline="3004">CIccTagNamedColor2::Write</referencedby>
+        <referencedby refid="db/d23/a01025_1a3b3f3a4ea79f37c343e56c9124be30c6" compoundref="d9/dd0/a00191" startline="4226" endline="4246">CIccTagCicp::Write</referencedby>
+        <referencedby refid="d1/d83/a01041_1a936bd3aef111beef827f3e57b6c907c0" compoundref="d9/dd0/a00191" startline="5769" endline="5802">CIccTagNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="de/d9e/a01061_1a5c38408813ceb02e19b00a1ef8e42fee" compoundref="d9/dd0/a00191" startline="7945" endline="7975">CIccTagData::Write</referencedby>
+        <referencedby refid="d8/d18/a01069_1a589e222bf4d420b885053c461fc5fd9e" compoundref="d9/dd0/a00191" startline="8465" endline="8485">CIccTagColorantOrder::Write</referencedby>
+        <referencedby refid="d9/d7c/a01073_1a1eb67ae5b05fcb67d2a6d60b21cad938" compoundref="d9/dd0/a00191" startline="8760" endline="8788">CIccTagColorantTable::Write</referencedby>
+        <referencedby refid="d8/ded/a01113_1a06cdc977f66b84af9e47ef3e873b1b49" compoundref="d9/dd0/a00191" startline="11857" endline="11886">CIccTagEmbeddedHeightImage::Write</referencedby>
+        <referencedby refid="d6/d8b/a01117_1aef90495e7c31d6694e540ddc04ed76fe" compoundref="d9/dd0/a00191" startline="12165" endline="12188">CIccTagEmbeddedNormalImage::Write</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+        <referencedby refid="d8/d02/a01149_1ae3219c66d5cad056ceb7b452246c106b" compoundref="d4/d3e/a00116" startline="1999" endline="2007">CIccCLUT::Write</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+        <referencedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf" compoundref="d4/d3e/a00116" startline="4665" endline="4763">CIccTagLut8::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+        <referencedby refid="de/df7/a01201_1a0bc80d62b9af7d88b2316ae63a3ce0a1" compoundref="dc/d87/a00032" startline="390" endline="415">CIccMpeUnknown::Write</referencedby>
+        <referencedby refid="da/d19/a01217_1a52ab385fae1da83f359611f96642db7c" compoundref="de/df3/a00185" startline="294" endline="300">CIccProfileIdDesc::Write</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" compoundref="d9/d2e/a00056" startline="122" endline="141">Write16</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" compoundref="d9/d2e/a00056" startline="152" endline="171">Write32</referencedby>
+        <referencedby refid="dc/d2c/a00893_1a9811df24786ca05642a80a1754204105" compoundref="d9/d2e/a00056" startline="182" endline="201">Write64</referencedby>
+        <referencedby refid="d0/dac/a00901_1adb3bc88ea61848ec68233f7b3caf88c1" compoundref="d9/d2e/a00056" startline="564" endline="570">CIccEmbedIO::Write8</referencedby>
+        <referencedby refid="dc/d2c/a00893_1aa2873808c28b4bc36d5f5ff60c54e817" compoundref="d9/d2e/a00056" startline="219" endline="234">WriteUInt8Float</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a57109e85a49573fd9f1af1e6ad7a53e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::WriteFloat16Float</definition>
+        <argsstring>(void *pBuf16, icInt32Number nNum=1)</argsstring>
+        <name>WriteFloat16Float</name>
+        <qualifiedname>CIccIO::WriteFloat16Float</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf16</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="125" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="285" bodyend="300"/>
+        <references refid="d7/dce/a00143_1a7f49bd1c3d34a4dd4199f6bb0a674f96" compoundref="d5/db1/a00140" startline="673" endline="722">icFtoF16</references>
+        <references refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" compoundref="d9/d2e/a00056" startline="122" endline="141">Write16</references>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed" compoundref="d9/dd0/a00191" startline="4711" endline="4777">CIccTagSparseMatrixArray::Write</referencedby>
+        <referencedby refid="d7/d46/a01045_1a305a6f569c1948ed158d69948ee5481d" compoundref="d9/dd0/a00191" startline="6388" endline="6417">CIccTagFloatNum&lt; T, Tsig &gt;::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1a9f55b95a792f5aa4353739c49f8952ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::WriteFloat32Float</definition>
+        <argsstring>(void *pBufFloat, icInt32Number nNum=1)</argsstring>
+        <name>WriteFloat32Float</name>
+        <qualifiedname>CIccIO::WriteFloat32Float</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBufFloat</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="128" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="321" bodyend="339"/>
+        <references refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" compoundref="d9/d2e/a00056" startline="152" endline="171">Write32</references>
+        <referencedby refid="dc/d5e/a00817_1a4e73b171396f72d91843e2bec92dcafa" compoundref="d6/d2d/a00047" startline="449" endline="500">CIccFormulaCurveSegment::Write</referencedby>
+        <referencedby refid="d6/d8b/a00821_1ad1a3f4156084c217b0283f8dbf418143" compoundref="d6/d2d/a00047" startline="1122" endline="1152">CIccSampledCurveSegment::Write</referencedby>
+        <referencedby refid="d1/dea/a00829_1ac3faf7c4defcea060386dcd1a21c2061" compoundref="d6/d2d/a00047" startline="2754" endline="2792">CIccSegmentedCurve::Write</referencedby>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+        <referencedby refid="d1/de6/a00837_1a447fb895b961dce8aca7a89f1e8ac63c" compoundref="d6/d2d/a00047" startline="2292" endline="2325">CIccSampledCalculatorCurve::Write</referencedby>
+        <referencedby refid="de/d37/a00849_1add3b227580071a50cf20efc13ee14f45" compoundref="d6/d2d/a00047" startline="4028" endline="4058">CIccToneMapFunc::Write</referencedby>
+        <referencedby refid="d0/d82/a00857_1a80348298f549ace16fa208e21a23cf42" compoundref="d6/d2d/a00047" startline="5128" endline="5168">CIccMpeMatrix::Write</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d9/d22/a00873_1a86181ba5efecec1d94b749a22ff6082b" compoundref="d6/d2d/a00047" startline="6174" endline="6210">CIccMpeCAM::Write</referencedby>
+        <referencedby refid="dc/d87/a01649_1af8262cb3a442bff7f5b447bd2648a19a" compoundref="d5/de9/a00176" startline="454" endline="505">CIccMpeSpectralMatrix::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d2/d44/a01677_1a2018b46d43b5ff7da4b1475349fee809" compoundref="d5/de9/a00176" startline="1906" endline="1946">CIccMpeSpectralObserver::Write</referencedby>
+        <referencedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed" compoundref="d9/dd0/a00191" startline="4711" endline="4777">CIccTagSparseMatrixArray::Write</referencedby>
+        <referencedby refid="d8/dbf/a01109_1ad2d1da3030f6deadd1993d7938fed8c0" compoundref="d9/dd0/a00191" startline="11106" endline="11151">CIccTagSpectralViewingConditions::Write</referencedby>
+        <referencedby refid="d8/ded/a01113_1a06cdc977f66b84af9e47ef3e873b1b49" compoundref="d9/dd0/a00191" startline="11857" endline="11886">CIccTagEmbeddedHeightImage::Write</referencedby>
+        <referencedby refid="dc/d98/a01177_1a216c00ad5cd51842449bb7f50d382a28" compoundref="d4/d3e/a00116" startline="5576" endline="5621">CIccTagGamutBoundaryDesc::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1afd87a27fcc9a6871151f9c07e1721bae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::WriteUInt16Float</definition>
+        <argsstring>(void *pBuf16, icInt32Number nNum=1)</argsstring>
+        <name>WriteUInt16Float</name>
+        <qualifiedname>CIccIO::WriteUInt16Float</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf16</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="122" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="252" bodyend="267"/>
+        <references refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" compoundref="d9/d2e/a00056" startline="122" endline="141">Write16</references>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d7/d59/a01013_1a7275fd6a6f74d1987274cd0a6cb4f9d9" compoundref="d9/dd0/a00191" startline="2961" endline="3004">CIccTagNamedColor2::Write</referencedby>
+        <referencedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed" compoundref="d9/dd0/a00191" startline="4711" endline="4777">CIccTagSparseMatrixArray::Write</referencedby>
+        <referencedby refid="d6/dc4/a01125_1add153f2428e36419fdaf7465a49ad941" compoundref="d4/d3e/a00116" startline="282" endline="305">CIccTagCurve::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+        <referencedby refid="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" compoundref="d4/d3e/a00116" startline="1936" endline="1952">CIccCLUT::WriteData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2c/a00893_1aa2873808c28b4bc36d5f5ff60c54e817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+        <definition>icInt32Number CIccIO::WriteUInt8Float</definition>
+        <argsstring>(void *pBuf16, icInt32Number nNum=1)</argsstring>
+        <name>WriteUInt8Float</name>
+        <qualifiedname>CIccIO::WriteUInt8Float</qualifiedname>
+        <param>
+          <type>void *</type>
+          <declname>pBuf16</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1663bd430c0c31a708d9a141fc6b6c45" kindref="member">icInt32Number</ref></type>
+          <declname>nNum</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccIO.h" line="119" column="17" bodyfile="IccProfLib/IccIO.cpp" bodystart="219" bodyend="234"/>
+        <references refid="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" compoundref="df/d6a/a00119" startline="105" endline="105">Write8</references>
+        <referencedby refid="dc/d6e/a00833_1ae90d38a17faf2f922d3d76907dae89da" compoundref="d6/d2d/a00047" startline="1688" endline="1741">CIccSingleSampledCurve::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed" compoundref="d9/dd0/a00191" startline="4711" endline="4777">CIccTagSparseMatrixArray::Write</referencedby>
+        <referencedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf" compoundref="d4/d3e/a00116" startline="4665" endline="4763">CIccTagLut8::Write</referencedby>
+        <referencedby refid="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" compoundref="d4/d3e/a00116" startline="1936" endline="1952">CIccCLUT::WriteData</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Type: Class</para>
+<para>Purpose: This is the base object that handles the IO with an ICC profile. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccEmbedIO</label>
+        <link refid="d0/dac/a00901"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CIccFileIO</label>
+        <link refid="de/d01/a00897"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccIO</label>
+        <link refid="dc/d2c/a00893"/>
+      </node>
+      <node id="4">
+        <label>CIccMemIO</label>
+        <link refid="da/d5b/a00905"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccNullIO</label>
+        <link refid="de/dc3/a00909"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccIO.h" line="96" column="1" bodyfile="IccProfLib/IccIO.h" bodystart="97" bodyend="140"/>
+    <listofallmembers>
+      <member refid="dc/d2c/a00893_1a6305c8a2db094c196a72663047ee5ddc" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>Align32</name></member>
+      <member refid="dc/d2c/a00893_1af38578f9470b5a195403552f252d4365" prot="public" virt="virtual"><scope>CIccIO</scope><name>Close</name></member>
+      <member refid="dc/d2c/a00893_1a2548156a3c8c463b27ec06a433b7d427" prot="public" virt="virtual"><scope>CIccIO</scope><name>GetLength</name></member>
+      <member refid="dc/d2c/a00893_1a460f7d82e1daf63f867d7cbca8db2ac4" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>Read16</name></member>
+      <member refid="dc/d2c/a00893_1ac9aad1577a5866e6d35dcacec83b6a59" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>Read32</name></member>
+      <member refid="dc/d2c/a00893_1abce317a3e29ef016c9b72f0022aef53d" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>Read64</name></member>
+      <member refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" prot="public" virt="virtual"><scope>CIccIO</scope><name>Read8</name></member>
+      <member refid="dc/d2c/a00893_1a05eb65f9187a4c84eec42ba30334ed69" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>ReadFloat16Float</name></member>
+      <member refid="dc/d2c/a00893_1a1399dc6dcf7aefe36b78ad96fc117d17" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>ReadFloat32Float</name></member>
+      <member refid="dc/d2c/a00893_1a95835f8ddc8b4e6915336b97268d0cba" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>ReadLine</name></member>
+      <member refid="dc/d2c/a00893_1aa610de49d9918d4e354710b04491ae44" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>ReadUInt16Float</name></member>
+      <member refid="dc/d2c/a00893_1a684b306f5069d36794d70afe2662e660" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>ReadUInt8Float</name></member>
+      <member refid="dc/d2c/a00893_1a970eef37fff95838dabecc0a1b30de55" prot="public" virt="virtual"><scope>CIccIO</scope><name>Seek</name></member>
+      <member refid="dc/d2c/a00893_1ad837e1b50625fe8a294dd73b7d923a0c" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>Sync32</name></member>
+      <member refid="dc/d2c/a00893_1a601e3908896710a0b8d3840df02e398f" prot="public" virt="virtual"><scope>CIccIO</scope><name>Tell</name></member>
+      <member refid="dc/d2c/a00893_1a2f7d1dcc2e402bf9b8c099c0929fd521" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>Write16</name></member>
+      <member refid="dc/d2c/a00893_1a7c1a91f03bf48691c5de2e712fefa1f9" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>Write32</name></member>
+      <member refid="dc/d2c/a00893_1a9811df24786ca05642a80a1754204105" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>Write64</name></member>
+      <member refid="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" prot="public" virt="virtual"><scope>CIccIO</scope><name>Write8</name></member>
+      <member refid="dc/d2c/a00893_1a57109e85a49573fd9f1af1e6ad7a53e2" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>WriteFloat16Float</name></member>
+      <member refid="dc/d2c/a00893_1a9f55b95a792f5aa4353739c49f8952ee" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>WriteFloat32Float</name></member>
+      <member refid="dc/d2c/a00893_1afd87a27fcc9a6871151f9c07e1721bae" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>WriteUInt16Float</name></member>
+      <member refid="dc/d2c/a00893_1aa2873808c28b4bc36d5f5ff60c54e817" prot="public" virt="non-virtual"><scope>CIccIO</scope><name>WriteUInt8Float</name></member>
+      <member refid="dc/d2c/a00893_1a6216aac62e650cba9b25dd37528a8b54" prot="public" virt="virtual"><scope>CIccIO</scope><name>~CIccIO</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d1/d31/a01245" kind="class" language="C++" prot="public">
+    <compoundname>CIccCmmEnvVarHint</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CIccCreateCmmEnvVarXformHint</basecompoundref>
+    <includes refid="dc/dee/a00053" local="no">IccEnvVar.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d1/d31/a01245_1aea316ecae31340e0e177d74bd776faf6" prot="protected" static="no" mutable="no">
+        <type><ref refid="dc/dee/a00053_1a1b8215b8024cf7a33adfb10b319bb842" kindref="member">icCmmEnvSigMap</ref> *</type>
+        <definition>icCmmEnvSigMap* CIccCmmEnvVarHint::m_map</definition>
+        <argsstring></argsstring>
+        <name>m_map</name>
+        <qualifiedname>CIccCmmEnvVarHint::m_map</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEnvVar.h" line="106" column="18" bodyfile="IccProfLib/IccEnvVar.h" bodystart="106" bodyend="-1"/>
+        <referencedby refid="d1/d31/a01245_1aa48394d74fb9386047b7bb5bfc37aadc" compoundref="de/d79/a00203" startline="43" endline="47">CIccCmmEnvVarHint</referencedby>
+        <referencedby refid="d1/d31/a01245_1a827403c5f3a7d04ac6c696256b85d326" compoundref="de/d79/a00203" startline="49" endline="52">~CIccCmmEnvVarHint</referencedby>
+        <referencedby refid="d1/d31/a01245_1a4ffa0b3b5926365297dce92928c63dc9" compoundref="dc/dee/a00053" startline="103" endline="103">GetNewCmmEnvVarLookup</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d31/a01245_1aa48394d74fb9386047b7bb5bfc37aadc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCmmEnvVarHint::CIccCmmEnvVarHint</definition>
+        <argsstring>(icCmmEnvSigMap &amp;map)</argsstring>
+        <name>CIccCmmEnvVarHint</name>
+        <qualifiedname>CIccCmmEnvVarHint::CIccCmmEnvVarHint</qualifiedname>
+        <param>
+          <type><ref refid="dc/dee/a00053_1a1b8215b8024cf7a33adfb10b319bb842" kindref="member">icCmmEnvSigMap</ref> &amp;</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEnvVar.h" line="100" column="3" bodyfile="IccProfLib/IccEnvVar.cpp" bodystart="43" bodyend="47"/>
+        <references refid="d1/d31/a01245_1aea316ecae31340e0e177d74bd776faf6" compoundref="dc/dee/a00053" startline="106">m_map</references>
+        <referencedby refid="d6/de1/a00356_1a217dbf8b442f20279ea00b898af96f52" compoundref="d6/de1/a00356" startline="150" endline="622">main</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/d31/a01245_1a827403c5f3a7d04ac6c696256b85d326" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccCmmEnvVarHint::~CIccCmmEnvVarHint</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccCmmEnvVarHint</name>
+        <qualifiedname>CIccCmmEnvVarHint::~CIccCmmEnvVarHint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEnvVar.h" line="101" column="11" bodyfile="IccProfLib/IccEnvVar.cpp" bodystart="49" bodyend="52"/>
+        <references refid="d1/d31/a01245_1aea316ecae31340e0e177d74bd776faf6" compoundref="dc/dee/a00053" startline="106">m_map</references>
+      </memberdef>
+      <memberdef kind="function" id="d1/d31/a01245_1a4ffa0b3b5926365297dce92928c63dc9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="dd/d07/a00433" kindref="compound">IIccCmmEnvVarLookup</ref> *</type>
+        <definition>virtual IIccCmmEnvVarLookup * CIccCmmEnvVarHint::GetNewCmmEnvVarLookup</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNewCmmEnvVarLookup</name>
+        <qualifiedname>CIccCmmEnvVarHint::GetNewCmmEnvVarLookup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEnvVar.h" line="103" column="31" bodyfile="IccProfLib/IccEnvVar.h" bodystart="103" bodyend="103"/>
+        <references refid="d3/d07/a01241_1a2fd0e94bdd83a06ac50abc7a8cb660e8" compoundref="de/d79/a00203" startline="3" endline="7">CIccCmmVarLookup::CIccCmmVarLookup</references>
+        <references refid="d1/d31/a01245_1aea316ecae31340e0e177d74bd776faf6" compoundref="dc/dee/a00053" startline="106">m_map</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IccProfLib/IccEnvVar.h" line="97" column="1" bodyfile="IccProfLib/IccEnvVar.h" bodystart="98" bodyend="107"/>
+    <listofallmembers>
+      <member refid="d1/d31/a01245_1aa48394d74fb9386047b7bb5bfc37aadc" prot="public" virt="non-virtual"><scope>CIccCmmEnvVarHint</scope><name>CIccCmmEnvVarHint</name></member>
+      <member refid="d1/d31/a01245_1a4ffa0b3b5926365297dce92928c63dc9" prot="public" virt="virtual"><scope>CIccCmmEnvVarHint</scope><name>GetNewCmmEnvVarLookup</name></member>
+      <member refid="d1/d31/a01245_1aea316ecae31340e0e177d74bd776faf6" prot="protected" virt="non-virtual"><scope>CIccCmmEnvVarHint</scope><name>m_map</name></member>
+      <member refid="d1/d31/a01245_1a827403c5f3a7d04ac6c696256b85d326" prot="public" virt="virtual"><scope>CIccCmmEnvVarHint</scope><name>~CIccCmmEnvVarHint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

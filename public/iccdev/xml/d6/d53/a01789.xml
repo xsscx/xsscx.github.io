@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d6/d53/a01789" kind="class" language="C++" prot="public">
+    <compoundname>CIccStandardFileIO</compoundname>
+    <basecompoundref refid="d7/d10/a01785" prot="public" virt="non-virtual">IIccOpenFileIO</basecompoundref>
+    <includes refid="d2/dc8/a00242" local="no">IccIoXml.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d53/a01789_1af3eaedca9a50a7640bb2cbdac73d85b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccStandardFileIO::CIccStandardFileIO</definition>
+        <argsstring>()</argsstring>
+        <name>CIccStandardFileIO</name>
+        <qualifiedname>CIccStandardFileIO::CIccStandardFileIO</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccIoXml.h" line="106" column="3" bodyfile="IccXML/IccLibXML/IccIoXml.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d53/a01789_1a5a02dfad10fe8e2bd066a0c61462de38" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+        <definition>CIccIO * CIccStandardFileIO::OpenFile</definition>
+        <argsstring>(const icChar *szFilename, const char *szAttr)</argsstring>
+        <name>OpenFile</name>
+        <qualifiedname>CIccStandardFileIO::OpenFile</qualifiedname>
+        <reimplements refid="d7/d10/a01785_1a8b20061e8e57da5c8193dbb1d9ddbfe7">OpenFile</reimplements>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szFilename</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>szAttr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d6/d53/a01789_1a5a02dfad10fe8e2bd066a0c61462de38" kindref="member">CIccStandardFileIO::OpenFile</ref></para>
+<para>Purpose: Open a file</para>
+<para>Args: szFilename - path to file to be opened szAttr - attributes of open (identical to attributes in fopen call).</para>
+<para>Return: Pointer a <ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> object that IO can be performed with or NULL if file cannot be opened. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccXML/IccLibXML/IccIoXml.h" line="108" column="18" bodyfile="IccXML/IccLibXML/IccIoXml.cpp" bodystart="85" bodyend="95"/>
+        <references refid="de/d01/a00897_1a148b1a7f2f9a8d10369addb060fd08a4" compoundref="d9/d2e/a00056" startline="372" endline="375">CIccFileIO::CIccFileIO</references>
+        <references refid="de/d01/a00897_1ac387c7f17813239d3d046517e9e093cb" compoundref="d9/d2e/a00056" startline="382" endline="401">CIccFileIO::Open</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Type: class</para>
+<para>Purpose: Provides default <ref refid="d7/d10/a01785" kindref="compound">IIccOpenFileIO</ref> implementation </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccStandardFileIO</label>
+        <link refid="d6/d53/a01789"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccOpenFileIO</label>
+        <link refid="d7/d10/a01785"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccStandardFileIO</label>
+        <link refid="d6/d53/a01789"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccOpenFileIO</label>
+        <link refid="d7/d10/a01785"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccXML/IccLibXML/IccIoXml.h" line="103" column="1" bodyfile="IccXML/IccLibXML/IccIoXml.h" bodystart="104" bodyend="109"/>
+    <listofallmembers>
+      <member refid="d6/d53/a01789_1af3eaedca9a50a7640bb2cbdac73d85b0" prot="public" virt="non-virtual"><scope>CIccStandardFileIO</scope><name>CIccStandardFileIO</name></member>
+      <member refid="d6/d53/a01789_1a5a02dfad10fe8e2bd066a0c61462de38" prot="public" virt="virtual"><scope>CIccStandardFileIO</scope><name>OpenFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

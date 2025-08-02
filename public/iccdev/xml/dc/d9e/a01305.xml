@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/d9e/a01305" kind="class" language="C++" prot="public">
+    <compoundname>CIccFuncTokenizer</compoundname>
+    <includes refid="d5/de0/a00050" local="no">IccMpeCalc.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dc/d9e/a01305_1a4ca51224531337f24202e52553debabd" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CIccFuncTokenizer::m_bUseRefs</definition>
+        <argsstring></argsstring>
+        <name>m_bUseRefs</name>
+        <qualifiedname>CIccFuncTokenizer::m_bUseRefs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="351" column="8" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="351" bodyend="-1"/>
+        <referencedby refid="dc/d9e/a01305_1a2df1ca6eb411b8f226848935674b903b" compoundref="d9/d77/a00095" startline="2482" endline="2487">CIccFuncTokenizer</referencedby>
+        <referencedby refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">GetNext</referencedby>
+        <referencedby refid="dc/d9e/a01305_1aba78741f4c7a254314d5dad206a67333" compoundref="d9/d77/a00095" startline="2614" endline="2628">GetReference</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" prot="protected" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* CIccFuncTokenizer::m_text</definition>
+        <argsstring></argsstring>
+        <name>m_text</name>
+        <qualifiedname>CIccFuncTokenizer::m_text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="348" column="14" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="348" bodyend="-1"/>
+        <referencedby refid="dc/d9e/a01305_1a2df1ca6eb411b8f226848935674b903b" compoundref="d9/d77/a00095" startline="2482" endline="2487">CIccFuncTokenizer</referencedby>
+        <referencedby refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">GetNext</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a8c16d4a0985723da637811f100e461db" compoundref="d5/de0/a00050" startline="329" endline="329">GetPos</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a9a13b65751baf4b64f1f48e8693069aa" compoundref="d9/d77/a00095" startline="2723" endline="2728">IsComment</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a07255dd1c2bd8034d6c436718262e6b8" compoundref="d9/d77/a00095" startline="2716" endline="2721">IsWhiteSpace</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a77cd739a5c3d806995e91624ea957996" compoundref="d5/de0/a00050" startline="330" endline="330">SetPos</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a66022944412621808c91a9f2673e751d" compoundref="d9/d77/a00095" startline="2730" endline="2735">SkipComment</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" prot="protected" static="no" mutable="no">
+        <type>std::string *</type>
+        <definition>std::string* CIccFuncTokenizer::m_token</definition>
+        <argsstring></argsstring>
+        <name>m_token</name>
+        <qualifiedname>CIccFuncTokenizer::m_token</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="349" column="15" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="349" bodyend="-1"/>
+        <referencedby refid="dc/d9e/a01305_1a2df1ca6eb411b8f226848935674b903b" compoundref="d9/d77/a00095" startline="2482" endline="2487">CIccFuncTokenizer</referencedby>
+        <referencedby refid="dc/d9e/a01305_1ab0c0a8f669d228b34c4640b0446a9611" compoundref="d9/d77/a00095" startline="2489" endline="2492">~CIccFuncTokenizer</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a0bf8bc23f19cf2277ef854d0a6f9704d" compoundref="d9/d77/a00095" startline="2673" endline="2713">GetEnvSig</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a3a63a50846af14dfa16e88d82c096a99" compoundref="d9/d77/a00095" startline="2630" endline="2661">GetIndex</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a6f7dd3b8b60901859fe5da7352c0beb6" compoundref="d5/de0/a00050" startline="341" endline="341">GetLast</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a6882189d45f24304196b5ed5eac3f655" compoundref="d9/d77/a00095" startline="2601" endline="2612">GetName</referencedby>
+        <referencedby refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">GetNext</referencedby>
+        <referencedby refid="dc/d9e/a01305_1aba78741f4c7a254314d5dad206a67333" compoundref="d9/d77/a00095" startline="2614" endline="2628">GetReference</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a3026ce719c69a45b36e878273cd7f21c" compoundref="d9/d77/a00095" startline="2569" endline="2599">GetSig</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a2a30013f443c182714ccd310608d588a" compoundref="d9/d77/a00095" startline="2664" endline="2670">GetValue</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d9e/a01305_1a2df1ca6eb411b8f226848935674b903b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccFuncTokenizer::CIccFuncTokenizer</definition>
+        <argsstring>(const char *szText, bool bAllowReferences=false)</argsstring>
+        <name>CIccFuncTokenizer</name>
+        <qualifiedname>CIccFuncTokenizer::CIccFuncTokenizer</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szText</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bAllowReferences</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="325" column="3" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2482" bodyend="2487"/>
+        <references refid="dc/d9e/a01305_1a4ca51224531337f24202e52553debabd" compoundref="d5/de0/a00050" startline="351">m_bUseRefs</references>
+        <references refid="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" compoundref="d5/de0/a00050" startline="348">m_text</references>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">CIccCalculatorFunc::ParseFuncDef</referencedby>
+        <referencedby refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" compoundref="dd/dd7/a00260" startline="2341" endline="2618">CIccMpeXmlCalculator::ParseImport</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6a778e1dcd669430198c37377d137046" compoundref="dd/dd7/a00260" startline="2959" endline="3004">CIccMpeXmlCalculator::UpdateLocals</referencedby>
+        <referencedby refid="d8/de6/a02061_1a88dab230dfb5391a2a51d9953a284f8e" compoundref="dd/dd7/a00260" startline="2620" endline="2645">CIccMpeXmlCalculator::ValidMacroCalls</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1ab0c0a8f669d228b34c4640b0446a9611" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccFuncTokenizer::~CIccFuncTokenizer</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccFuncTokenizer</name>
+        <qualifiedname>CIccFuncTokenizer::~CIccFuncTokenizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="326" column="11" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2489" bodyend="2492"/>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a0bf8bc23f19cf2277ef854d0a6f9704d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccFuncTokenizer::GetEnvSig</definition>
+        <argsstring>(icSigCmmEnvVar &amp;envSig)</argsstring>
+        <name>GetEnvSig</name>
+        <qualifiedname>CIccFuncTokenizer::GetEnvSig</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1af6a4f8757485de5bcefb83418483d3a5" kindref="member">icSigCmmEnvVar</ref> &amp;</type>
+          <declname>envSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="335" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2673" bodyend="2713"/>
+        <references refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">GetNext</references>
+        <references refid="dc/d9e/a01305_1a8c16d4a0985723da637811f100e461db" compoundref="d5/de0/a00050" startline="329" endline="329">GetPos</references>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <references refid="dc/d9e/a01305_1a77cd739a5c3d806995e91624ea957996" compoundref="d5/de0/a00050" startline="330" endline="330">SetPos</references>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">CIccCalculatorFunc::ParseFuncDef</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a3a63a50846af14dfa16e88d82c096a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccFuncTokenizer::GetIndex</definition>
+        <argsstring>(icUInt16Number &amp;v1, icUInt16Number &amp;v2, icUInt16Number initV1=0, icUInt16Number initV2=0)</argsstring>
+        <name>GetIndex</name>
+        <qualifiedname>CIccFuncTokenizer::GetIndex</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref> &amp;</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref> &amp;</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>initV1</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>initV2</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="333" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2630" bodyend="2661"/>
+        <references refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">GetNext</references>
+        <references refid="dc/d9e/a01305_1a8c16d4a0985723da637811f100e461db" compoundref="d5/de0/a00050" startline="329" endline="329">GetPos</references>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <references refid="dc/d9e/a01305_1a77cd739a5c3d806995e91624ea957996" compoundref="d5/de0/a00050" startline="330" endline="330">SetPos</references>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">CIccCalculatorFunc::ParseFuncDef</referencedby>
+        <referencedby refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" compoundref="dd/dd7/a00260" startline="2341" endline="2618">CIccMpeXmlCalculator::ParseImport</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6a778e1dcd669430198c37377d137046" compoundref="dd/dd7/a00260" startline="2959" endline="3004">CIccMpeXmlCalculator::UpdateLocals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a6f7dd3b8b60901859fe5da7352c0beb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string &amp;</type>
+        <definition>std::string &amp; CIccFuncTokenizer::GetLast</definition>
+        <argsstring>()</argsstring>
+        <name>GetLast</name>
+        <qualifiedname>CIccFuncTokenizer::GetLast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="341" column="15" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="341" bodyend="341"/>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6a778e1dcd669430198c37377d137046" compoundref="dd/dd7/a00260" startline="2959" endline="3004">CIccMpeXmlCalculator::UpdateLocals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a6882189d45f24304196b5ed5eac3f655" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CIccFuncTokenizer::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <qualifiedname>CIccFuncTokenizer::GetName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="338" column="15" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2601" bodyend="2612"/>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" compoundref="dd/dd7/a00260" startline="2341" endline="2618">CIccMpeXmlCalculator::ParseImport</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6a778e1dcd669430198c37377d137046" compoundref="dd/dd7/a00260" startline="2959" endline="3004">CIccMpeXmlCalculator::UpdateLocals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccFuncTokenizer::GetNext</definition>
+        <argsstring>(bool bForceNoRefs=false)</argsstring>
+        <name>GetNext</name>
+        <qualifiedname>CIccFuncTokenizer::GetNext</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>bForceNoRefs</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="328" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2495" bodyend="2566"/>
+        <references refid="dc/d9e/a01305_1a9a13b65751baf4b64f1f48e8693069aa" compoundref="d9/d77/a00095" startline="2723" endline="2728">IsComment</references>
+        <references refid="dc/d9e/a01305_1a07255dd1c2bd8034d6c436718262e6b8" compoundref="d9/d77/a00095" startline="2716" endline="2721">IsWhiteSpace</references>
+        <references refid="dc/d9e/a01305_1a4ca51224531337f24202e52553debabd" compoundref="d5/de0/a00050" startline="351">m_bUseRefs</references>
+        <references refid="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" compoundref="d5/de0/a00050" startline="348">m_text</references>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <references refid="dc/d9e/a01305_1a66022944412621808c91a9f2673e751d" compoundref="d9/d77/a00095" startline="2730" endline="2735">SkipComment</references>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a0bf8bc23f19cf2277ef854d0a6f9704d" compoundref="d9/d77/a00095" startline="2673" endline="2713">GetEnvSig</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a3a63a50846af14dfa16e88d82c096a99" compoundref="d9/d77/a00095" startline="2630" endline="2661">GetIndex</referencedby>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">CIccCalculatorFunc::ParseFuncDef</referencedby>
+        <referencedby refid="d8/de6/a02061_1a71ab517362b15ce1f2e189a3c830d439" compoundref="dd/dd7/a00260" startline="2341" endline="2618">CIccMpeXmlCalculator::ParseImport</referencedby>
+        <referencedby refid="d8/de6/a02061_1a6a778e1dcd669430198c37377d137046" compoundref="dd/dd7/a00260" startline="2959" endline="3004">CIccMpeXmlCalculator::UpdateLocals</referencedby>
+        <referencedby refid="d8/de6/a02061_1a88dab230dfb5391a2a51d9953a284f8e" compoundref="dd/dd7/a00260" startline="2620" endline="2645">CIccMpeXmlCalculator::ValidMacroCalls</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a8c16d4a0985723da637811f100e461db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * CIccFuncTokenizer::GetPos</definition>
+        <argsstring>()</argsstring>
+        <name>GetPos</name>
+        <qualifiedname>CIccFuncTokenizer::GetPos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="329" column="14" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="329" bodyend="329"/>
+        <references refid="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" compoundref="d5/de0/a00050" startline="348">m_text</references>
+        <referencedby refid="dc/d9e/a01305_1a0bf8bc23f19cf2277ef854d0a6f9704d" compoundref="d9/d77/a00095" startline="2673" endline="2713">GetEnvSig</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a3a63a50846af14dfa16e88d82c096a99" compoundref="d9/d77/a00095" startline="2630" endline="2661">GetIndex</referencedby>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">CIccCalculatorFunc::ParseFuncDef</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1aba78741f4c7a254314d5dad206a67333" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CIccFuncTokenizer::GetReference</definition>
+        <argsstring>() const</argsstring>
+        <name>GetReference</name>
+        <qualifiedname>CIccFuncTokenizer::GetReference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="339" column="15" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2614" bodyend="2628"/>
+        <references refid="dc/d9e/a01305_1a4ca51224531337f24202e52553debabd" compoundref="d5/de0/a00050" startline="351">m_bUseRefs</references>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <referencedby refid="d8/de6/a02061_1a6dceacd068834515833da80c7e559dff" compoundref="dd/dd7/a00260" startline="2659" endline="2957">CIccMpeXmlCalculator::Flatten</referencedby>
+        <referencedby refid="d8/de6/a02061_1a88dab230dfb5391a2a51d9953a284f8e" compoundref="dd/dd7/a00260" startline="2620" endline="2645">CIccMpeXmlCalculator::ValidMacroCalls</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a3026ce719c69a45b36e878273cd7f21c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5" kindref="member">icSigCalcOp</ref></type>
+        <definition>icSigCalcOp CIccFuncTokenizer::GetSig</definition>
+        <argsstring>()</argsstring>
+        <name>GetSig</name>
+        <qualifiedname>CIccFuncTokenizer::GetSig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="332" column="15" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2569" bodyend="2599"/>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a799fa857823055001ccb0c044c069a2d" compoundref="d5/de0/a00050" startline="112">icSigDataOp</references>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">CIccCalculatorFunc::ParseFuncDef</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a2a30013f443c182714ccd310608d588a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a087042fc82a070c4afebf2e05e708f5b" kindref="member">icFloat32Number</ref></type>
+        <definition>icFloat32Number CIccFuncTokenizer::GetValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetValue</name>
+        <qualifiedname>CIccFuncTokenizer::GetValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="334" column="19" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2664" bodyend="2670"/>
+        <references refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" compoundref="d5/de0/a00050" startline="349">m_token</references>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">CIccCalculatorFunc::ParseFuncDef</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a77cd739a5c3d806995e91624ea957996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccFuncTokenizer::SetPos</definition>
+        <argsstring>(const char *szText)</argsstring>
+        <name>SetPos</name>
+        <qualifiedname>CIccFuncTokenizer::SetPos</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>szText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="330" column="8" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="330" bodyend="330"/>
+        <references refid="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" compoundref="d5/de0/a00050" startline="348">m_text</references>
+        <referencedby refid="dc/d9e/a01305_1a0bf8bc23f19cf2277ef854d0a6f9704d" compoundref="d9/d77/a00095" startline="2673" endline="2713">GetEnvSig</referencedby>
+        <referencedby refid="dc/d9e/a01305_1a3a63a50846af14dfa16e88d82c096a99" compoundref="d9/d77/a00095" startline="2630" endline="2661">GetIndex</referencedby>
+        <referencedby refid="db/d4b/a01309_1aea859f17a332b3e585154a0869b61709" compoundref="d9/d77/a00095" startline="2985" endline="3263">CIccCalculatorFunc::ParseFuncDef</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dc/d9e/a01305_1a9a13b65751baf4b64f1f48e8693069aa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccFuncTokenizer::IsComment</definition>
+        <argsstring>()</argsstring>
+        <name>IsComment</name>
+        <qualifiedname>CIccFuncTokenizer::IsComment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="345" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2723" bodyend="2728"/>
+        <references refid="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" compoundref="d5/de0/a00050" startline="348">m_text</references>
+        <referencedby refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">GetNext</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a07255dd1c2bd8034d6c436718262e6b8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccFuncTokenizer::IsWhiteSpace</definition>
+        <argsstring>()</argsstring>
+        <name>IsWhiteSpace</name>
+        <qualifiedname>CIccFuncTokenizer::IsWhiteSpace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="344" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2716" bodyend="2721"/>
+        <references refid="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" compoundref="d5/de0/a00050" startline="348">m_text</references>
+        <referencedby refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">GetNext</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d9e/a01305_1a66022944412621808c91a9f2673e751d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccFuncTokenizer::SkipComment</definition>
+        <argsstring>()</argsstring>
+        <name>SkipComment</name>
+        <qualifiedname>CIccFuncTokenizer::SkipComment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="346" column="8" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="2730" bodyend="2735"/>
+        <references refid="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" compoundref="d5/de0/a00050" startline="348">m_text</references>
+        <referencedby refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" compoundref="d9/d77/a00095" startline="2495" endline="2566">GetNext</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="IccProfLib/IccMpeCalc.h" line="322" column="1" bodyfile="IccProfLib/IccMpeCalc.h" bodystart="323" bodyend="352"/>
+    <listofallmembers>
+      <member refid="dc/d9e/a01305_1a2df1ca6eb411b8f226848935674b903b" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>CIccFuncTokenizer</name></member>
+      <member refid="dc/d9e/a01305_1a0bf8bc23f19cf2277ef854d0a6f9704d" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetEnvSig</name></member>
+      <member refid="dc/d9e/a01305_1a3a63a50846af14dfa16e88d82c096a99" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetIndex</name></member>
+      <member refid="dc/d9e/a01305_1a6f7dd3b8b60901859fe5da7352c0beb6" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetLast</name></member>
+      <member refid="dc/d9e/a01305_1a6882189d45f24304196b5ed5eac3f655" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetName</name></member>
+      <member refid="dc/d9e/a01305_1af16b4c39c40ceea0608fa443fcf67148" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetNext</name></member>
+      <member refid="dc/d9e/a01305_1a8c16d4a0985723da637811f100e461db" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetPos</name></member>
+      <member refid="dc/d9e/a01305_1aba78741f4c7a254314d5dad206a67333" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetReference</name></member>
+      <member refid="dc/d9e/a01305_1a3026ce719c69a45b36e878273cd7f21c" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetSig</name></member>
+      <member refid="dc/d9e/a01305_1a2a30013f443c182714ccd310608d588a" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>GetValue</name></member>
+      <member refid="dc/d9e/a01305_1a9a13b65751baf4b64f1f48e8693069aa" prot="protected" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>IsComment</name></member>
+      <member refid="dc/d9e/a01305_1a07255dd1c2bd8034d6c436718262e6b8" prot="protected" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>IsWhiteSpace</name></member>
+      <member refid="dc/d9e/a01305_1a4ca51224531337f24202e52553debabd" prot="protected" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>m_bUseRefs</name></member>
+      <member refid="dc/d9e/a01305_1a959cc2cf50fd89df467baceed9272b1a" prot="protected" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>m_text</name></member>
+      <member refid="dc/d9e/a01305_1adc62e850da8e9790a285556f1bcfff73" prot="protected" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>m_token</name></member>
+      <member refid="dc/d9e/a01305_1a77cd739a5c3d806995e91624ea957996" prot="public" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>SetPos</name></member>
+      <member refid="dc/d9e/a01305_1a66022944412621808c91a9f2673e751d" prot="protected" virt="non-virtual"><scope>CIccFuncTokenizer</scope><name>SkipComment</name></member>
+      <member refid="dc/d9e/a01305_1ab0c0a8f669d228b34c4640b0446a9611" prot="public" virt="virtual"><scope>CIccFuncTokenizer</scope><name>~CIccFuncTokenizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

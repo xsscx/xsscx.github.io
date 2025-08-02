@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d10/a00350" kind="file" language="C++">
+    <compoundname>TiffImg.h</compoundname>
+    <includes local="yes">tiffio.h</includes>
+    <includes refid="d5/d16/a00029" local="yes">IccProfLibConf.h</includes>
+    <includes refid="d7/d46/a00002" local="yes">icProfileHeader.h</includes>
+    <includedby refid="db/ddc/a00353" local="yes">Tools/CmdLine/IccApplyProfiles/TiffImg.cpp</includedby>
+    <includedby refid="d6/de1/a00356" local="yes">Tools/CmdLine/IccApplyProfiles/iccApplyProfiles.cpp</includedby>
+    <includedby refid="d8/d8e/a00344" local="yes">Tools/CmdLine/IccSpecSepToTiff/iccSpecSepToTiff.cpp</includedby>
+    <includedby refid="d4/def/a00359" local="yes">Tools/CmdLine/IccTiffDump/iccTiffDump.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="1">
+        <label>Tools/CmdLine/IccApplyProfiles/TiffImg.h</label>
+        <link refid="db/d10/a00350"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>tiffio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>Tools/CmdLine/IccApplyProfiles/TiffImg.cpp</label>
+        <link refid="db/ddc/a00353"/>
+      </node>
+      <node id="1">
+        <label>Tools/CmdLine/IccApplyProfiles/TiffImg.h</label>
+        <link refid="db/d10/a00350"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Tools/CmdLine/IccApplyProfiles/iccApplyProfiles.cpp</label>
+        <link refid="d6/de1/a00356"/>
+      </node>
+      <node id="4">
+        <label>Tools/CmdLine/IccSpecSepToTiff/iccSpecSepToTiff.cpp</label>
+        <link refid="d8/d8e/a00344"/>
+      </node>
+      <node id="5">
+        <label>Tools/CmdLine/IccTiffDump/iccTiffDump.cpp</label>
+        <link refid="d4/def/a00359"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="db/d26/a02129" prot="public">CTiffImg</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="db/d10/a00350_1a175838d243f822b08053d3c940da67bb" prot="public" static="no">
+        <name>PHOTO_CIELAB</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="80" column="9" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/d10/a00350_1ab98bd4a728d3404332eeedab6075e5e8" prot="public" static="no">
+        <name>PHOTO_ICCLAB</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="81" column="9" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/d10/a00350_1a3ac452a1abf537c67bbaa2ee089502c2" prot="public" static="no">
+        <name>PHOTO_MINISBLACK</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="78" column="9" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/d10/a00350_1afde13a7eabb130990ad0269cd86b77d8" prot="public" static="no">
+        <name>PHOTO_MINISWHITE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h" line="79" column="9" bodyfile="Tools/CmdLine/IccApplyProfiles/TiffImg.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/>File:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>TiffImg.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>Contains:<sp/><sp/><sp/>Implementation<sp/>of<sp/>the<sp/>CTiffImg<sp/>class.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>Version:<sp/><sp/><sp/><sp/>V1</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright:<sp/><sp/>(c)<sp/>see<sp/>below</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2010<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>5-15-2003</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(_TIFFIMG_H)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_TIFFIMG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tiffio.h&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>need<sp/>tiff<sp/>library</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d5/d16/a00029" kindref="compound">IccProfLibConf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/d46/a00002" kindref="compound">icProfileHeader.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="db/d10/a00350_1a3ac452a1abf537c67bbaa2ee089502c2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PHOTO_MINISBLACK<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="db/d10/a00350_1afde13a7eabb130990ad0269cd86b77d8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PHOTO_MINISWHITE<sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="db/d10/a00350_1a175838d243f822b08053d3c940da67bb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PHOTO_CIELAB<sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="db/d10/a00350_1ab98bd4a728d3404332eeedab6075e5e8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PHOTO_ICCLAB<sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="db/d26/a02129" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/d26/a02129" kindref="compound">CTiffImg</ref><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><ref refid="db/d26/a02129_1a9d37ea640d8bf174d7cac6f39cb9afe8" kindref="member">CTiffImg</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a6014990096aeb3f0dadcf71319cbf28c" kindref="member">~CTiffImg</ref>();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" kindref="member">Close</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a83cef5173408afeab2881a1a235d9111" kindref="member">Create</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*szFname,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nWidth,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nHeight,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBPS,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nPhoto,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nSamples,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fXRes,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fYRes,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bCompress=</highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bSep=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" kindref="member">Open</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*szFname);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1aaf5dea778e534ef5902430debb36d185" kindref="member">ReadLine</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pBuf);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a9f9036942aff0ad3986d19432d3a12f6" kindref="member">WriteLine</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pBuf);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="99" refid="db/d26/a02129_1a30cb0eaa739b586c7e32b8051c0bc7c2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a30cb0eaa739b586c7e32b8051c0bc7c2" kindref="member">GetWidth</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" kindref="member">m_nWidth</ref>;}</highlight></codeline>
+<codeline lineno="100" refid="db/d26/a02129_1a93aff9a530fb494c957c1fb3a05682db" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a93aff9a530fb494c957c1fb3a05682db" kindref="member">GetHeight</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" kindref="member">m_nHeight</ref>;}</highlight></codeline>
+<codeline lineno="101" refid="db/d26/a02129_1a67d5200a3e5473db3b0e5b5604d5e743" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a67d5200a3e5473db3b0e5b5604d5e743" kindref="member">GetWidthIn</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<ref refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" kindref="member">m_nWidth</ref><sp/>/<sp/><ref refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" kindref="member">m_fXRes</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="102" refid="db/d26/a02129_1a5b7303a00dcf5356188a9efb84f8126e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a5b7303a00dcf5356188a9efb84f8126e" kindref="member">GetHeightIn</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<ref refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" kindref="member">m_nHeight</ref><sp/>/<sp/><ref refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" kindref="member">m_fYRes</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="103" refid="db/d26/a02129_1a20639680f1c2d3935295c0eaf277f198" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a20639680f1c2d3935295c0eaf277f198" kindref="member">GetBitsPerSample</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" kindref="member">m_nBitsPerSample</ref>;}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a77533f61a8eceef6c6fb6155242e8bde" kindref="member">GetPhoto</ref>();</highlight></codeline>
+<codeline lineno="105" refid="db/d26/a02129_1a8c1ee0a16e8d393d24290965289bdca2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a8c1ee0a16e8d393d24290965289bdca2" kindref="member">GetSamples</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" kindref="member">m_nSamples</ref>;}</highlight></codeline>
+<codeline lineno="106" refid="db/d26/a02129_1a8d3efc73ec83f59cfaea9c5e03687137" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a8d3efc73ec83f59cfaea9c5e03687137" kindref="member">GetExtraSamples</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" kindref="member">m_nExtraSamples</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="107" refid="db/d26/a02129_1aec83628e5640a6a6fea546d9d43a8d05" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1aec83628e5640a6a6fea546d9d43a8d05" kindref="member">GetCompress</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a3e8789a303bc98235373088b9bdd7d9f" kindref="member">m_nCompress</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="108" refid="db/d26/a02129_1a501d5972938549997de84d9c632ac499" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a501d5972938549997de84d9c632ac499" kindref="member">GetPlanar</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a3f020541561fbfdb7482c967f576c32f" kindref="member">m_nPlanar</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="109" refid="db/d26/a02129_1a6dc830ba9ac0c9e2d1a85bda879131bc" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a6dc830ba9ac0c9e2d1a85bda879131bc" kindref="member">GetXRes</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" kindref="member">m_fXRes</ref>;}</highlight></codeline>
+<codeline lineno="110" refid="db/d26/a02129_1a113ea4ef5fc10e4778a2cb585d704fbe" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a113ea4ef5fc10e4778a2cb585d704fbe" kindref="member">GetYRes</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" kindref="member">m_fYRes</ref>;}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="db/d26/a02129_1aa89d15bc35d33c5f74cdd5b4b333297a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1aa89d15bc35d33c5f74cdd5b4b333297a" kindref="member">GetBytesPerLine</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" kindref="member">m_nBytesPerLine</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1acbb26ff13f50f3d2ddd757422a9858b4" kindref="member">GetIccProfile</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*&amp;pProfile,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>&amp;nLen);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1aafb632521f5425a0a258abe00ab689e2" kindref="member">SetIccProfile</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pProfile,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>nLen);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="118" refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" refkind="member"><highlight class="normal"><sp/><sp/>TIFF<sp/>*<ref refid="db/d26/a02129_1a810c17e18166cdbe8b72a53ee3ac4f63" kindref="member">m_hTif</ref>;</highlight></codeline>
+<codeline lineno="119" refid="db/d26/a02129_1a318adb237c5520ac5f582b14384ecb3a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a318adb237c5520ac5f582b14384ecb3a" kindref="member">m_bRead</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a25049cb8e46a3c6d7fa08f1614c6992d" kindref="member">m_nWidth</ref>;</highlight></codeline>
+<codeline lineno="122" refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a8bd0b096170469e1ca4ca31cf9b5d7c8" kindref="member">m_nHeight</ref>;</highlight></codeline>
+<codeline lineno="123" refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="db/d26/a02129_1aefc271e73c234295b72f0f134ac259a3" kindref="member">m_nBitsPerSample</ref>;</highlight></codeline>
+<codeline lineno="124" refid="db/d26/a02129_1afaac8b60332fdd384be552a05307cae5" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="db/d26/a02129_1afaac8b60332fdd384be552a05307cae5" kindref="member">m_nBytesPerSample</ref>;</highlight></codeline>
+<codeline lineno="125" refid="db/d26/a02129_1a94762cbbdc7f74ab5b7ff85ba3a96609" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="db/d26/a02129_1a94762cbbdc7f74ab5b7ff85ba3a96609" kindref="member">m_nPhoto</ref>;</highlight></codeline>
+<codeline lineno="126" refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="db/d26/a02129_1a52ec427db4dc80824cb6616e8e8f8cfc" kindref="member">m_nSamples</ref>;</highlight></codeline>
+<codeline lineno="127" refid="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="db/d26/a02129_1a3be78bd24f337fcd285ee91bcf3e6d83" kindref="member">m_nExtraSamples</ref>;</highlight></codeline>
+<codeline lineno="128" refid="db/d26/a02129_1a3f020541561fbfdb7482c967f576c32f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="db/d26/a02129_1a3f020541561fbfdb7482c967f576c32f" kindref="member">m_nPlanar</ref>;</highlight></codeline>
+<codeline lineno="129" refid="db/d26/a02129_1a3e8789a303bc98235373088b9bdd7d9f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="db/d26/a02129_1a3e8789a303bc98235373088b9bdd7d9f" kindref="member">m_nCompress</ref>;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a12cd2ba708471ccdccb1f2bbc6aafcb8" kindref="member">m_fXRes</ref>;</highlight></codeline>
+<codeline lineno="132" refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a91ac4869b4fbfa4b722746bc2bc5325a" kindref="member">m_fYRes</ref>;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1adfb7e1147b2e86a7ccf94105f1265130" kindref="member">m_nBytesPerLine</ref>;</highlight></codeline>
+<codeline lineno="135" refid="db/d26/a02129_1a3c0378d53f893e53ef056aa489547c87" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a3c0378d53f893e53ef056aa489547c87" kindref="member">m_nRowsPerStrip</ref>;</highlight></codeline>
+<codeline lineno="136" refid="db/d26/a02129_1aacb570adc2b1482c522de941784fa56b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1aacb570adc2b1482c522de941784fa56b" kindref="member">m_nStripSize</ref>;</highlight></codeline>
+<codeline lineno="137" refid="db/d26/a02129_1a4da74ba840e59c496301f78f099b87b4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a4da74ba840e59c496301f78f099b87b4" kindref="member">m_nStripSamples</ref>;</highlight></codeline>
+<codeline lineno="138" refid="db/d26/a02129_1a265145d8b838c78f503f230c62f82859" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a265145d8b838c78f503f230c62f82859" kindref="member">m_nStripsPerSample</ref>;</highlight></codeline>
+<codeline lineno="139" refid="db/d26/a02129_1afcd22754eaf7d4cfd8378434d196ceb1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1afcd22754eaf7d4cfd8378434d196ceb1" kindref="member">m_nBytesPerStripLine</ref>;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="db/d26/a02129_1ad8d18321a275daf607c0478fdef8eb09" kindref="member">m_pStripBuf</ref>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="db/d26/a02129_1ad8514b61177d7a93534e352de7f058bf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1ad8514b61177d7a93534e352de7f058bf" kindref="member">m_nCurLine</ref>;</highlight></codeline>
+<codeline lineno="144" refid="db/d26/a02129_1a7e9cf46d318d6eb584d92d09deb0fa38" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a7e9cf46d318d6eb584d92d09deb0fa38" kindref="member">m_nCurStrip</ref>;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="db/d26/a02129_1a71e2bc83711a2f83e6fbc548e9660c8b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="db/d26/a02129_1a71e2bc83711a2f83e6fbc548e9660c8b" kindref="member">m_pProfile</ref>;</highlight></codeline>
+<codeline lineno="147" refid="db/d26/a02129_1a06ce24d3676b4f94dc205ab691319e61" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="db/d26/a02129_1a06ce24d3676b4f94dc205ab691319e61" kindref="member">m_nProfileLength</ref>;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>!defined(_TIFFIMG_H)</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccApplyProfiles/TiffImg.h"/>
+  </compounddef>
+</doxygen>

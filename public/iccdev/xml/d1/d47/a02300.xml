@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d1/d47/a02300" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccSpecSepToTiff_2Readme</compoundname>
+    <title>iccSpecSepToTiff</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="d1/d47/a02300_1autotoc_md181"/> </para>
+<sect1 id="d1/d47/a02300_1autotoc_md182">
+<title>Overview</title>
+<para><computeroutput>iccSpecSepToTiff</computeroutput> is a command-line utility that concatenates multiple monochrome spectral band TIFF images into a single multi-channel TIFF file. It supports optional compression and profile embedding, and is useful for assembling spectral image stacks into a standardized format.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d1/d47/a02300_1autotoc_md184">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Merges multiple separated spectral TIFFs into one multichannel TIFF</para>
+</listitem><listitem><para>Optionally compresses the output TIFF</para>
+</listitem><listitem><para>Supports separation (planar) or interleaved channel format</para>
+</listitem><listitem><para>Preserves resolution and photometric interpretation</para>
+</listitem><listitem><para>Embeds ICC profile if provided</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d1/d47/a02300_1autotoc_md186">
+<title>Requirements</title>
+<para><itemizedlist>
+<listitem><para>Input TIFFs must:<itemizedlist>
+<listitem><para>Be grayscale (1 sample per pixel)</para>
+</listitem><listitem><para>Have the same dimensions, bit depth, resolution, and photometric type</para>
+</listitem><listitem><para>Be specified by a printf-style format string (e.g., <computeroutput>band_%03d.tif</computeroutput>)</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para>Output will:<itemizedlist>
+<listitem><para>Match input resolution and dimensions</para>
+</listitem><listitem><para>Contain as many channels as there are spectral images</para>
+</listitem><listitem><para>Use <computeroutput>MinIsBlack</computeroutput> photometric if not inverted</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d1/d47/a02300_1autotoc_md188">
+<title>Usage</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">Tools/IccSpecSepToTiff/iccSpecSepToTiff<sp/>output.tiff<sp/>compress_flag<sp/>sep_flag<sp/>input_fmt<sp/>start_nm<sp/>end_nm<sp/>inc_nm<sp/>[embedded_profile.icc]</highlight></codeline>
+</programlisting></para>
+<sect2 id="d1/d47/a02300_1autotoc_md189">
+<title>Parameters</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>output.tiff</computeroutput>: Name of the output TIFF file</para>
+</listitem><listitem><para><computeroutput>compress_flag</computeroutput>: 1 to enable compression, 0 to disable</para>
+</listitem><listitem><para><computeroutput>sep_flag</computeroutput>: 1 for separated planes, 0 for interleaved</para>
+</listitem><listitem><para><computeroutput>input_fmt</computeroutput>: Format string for input filenames (e.g., <computeroutput>spec_%03d.tif</computeroutput>)</para>
+</listitem><listitem><para><computeroutput>start_nm</computeroutput>: Starting wavelength (integer)</para>
+</listitem><listitem><para><computeroutput>end_nm</computeroutput>: Ending wavelength (integer)</para>
+</listitem><listitem><para><computeroutput>inc_nm</computeroutput>: Increment step (nm between bands)</para>
+</listitem><listitem><para><computeroutput>embedded_profile.icc</computeroutput>: Optional ICC profile to embed</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="d1/d47/a02300_1autotoc_md191">
+<title>Example</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccSpecSepToTiff<sp/>merged.tiff<sp/>1<sp/>0<sp/>&quot;bands/spec_%03d.tif&quot;<sp/>400<sp/>700<sp/>10<sp/>profile.icc</highlight></codeline>
+</programlisting></para>
+<para>Creates a compressed, interleaved TIFF from <computeroutput>spec_400.tif</computeroutput> to <computeroutput>spec_700.tif</computeroutput> in 10nm steps, embedding <computeroutput>profile.icc</computeroutput>.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d1/d47/a02300_1autotoc_md193">
+<title>Build Instructions</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d1/d47/a02300_1autotoc_md195">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Initial implementation by Max Derhak (2013)</para>
+</listitem><listitem><para>Batch and ICC embedding enhancements by David Hoyt (2025) </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccSpecSepToTiff/Readme.md"/>
+  </compounddef>
+</doxygen>

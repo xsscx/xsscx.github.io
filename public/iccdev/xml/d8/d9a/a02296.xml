@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/d9a/a02296" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccFromCube_2Readme</compoundname>
+    <title>iccFromCube</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="d8/d9a/a02296_1autotoc_md107"/> </para>
+<sect1 id="d8/d9a/a02296_1autotoc_md108">
+<title>Overview</title>
+<para><computeroutput>iccFromCube</computeroutput> is a command-line utility that converts a 3D LUT file in <computeroutput>.cube</computeroutput> format (common in video and color grading applications) into an ICC.2 DeviceLink profile. This tool enables integration of creative grading LUTs into ICC color management workflows.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d8/d9a/a02296_1autotoc_md110">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Parses 3D LUTs from <computeroutput>.cube</computeroutput> files</para>
+</listitem><listitem><para>Creates ICC.2 v5 DeviceLink profiles</para>
+</listitem><listitem><para>Automatically handles custom input domains using linear mapping curves</para>
+</listitem><listitem><para>Embeds LUT data as a multi-process element (MPE)</para>
+</listitem><listitem><para>Preserves title and comments as profile metadata</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d8/d9a/a02296_1autotoc_md112">
+<title>Supported Format</title>
+<para><itemizedlist>
+<listitem><para>Only <bold>3D LUTs</bold> are supported</para>
+</listitem><listitem><para>Cube file must contain <computeroutput>LUT_3D_SIZE</computeroutput> directive</para>
+</listitem><listitem><para>Optional directives:<itemizedlist>
+<listitem><para><computeroutput>DOMAIN_MIN</computeroutput>, <computeroutput>DOMAIN_MAX</computeroutput></para>
+</listitem><listitem><para><computeroutput>LUT_3D_INPUT_RANGE</computeroutput></para>
+</listitem><listitem><para><computeroutput>TITLE</computeroutput>, comments (<computeroutput>#</computeroutput>)</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d8/d9a/a02296_1autotoc_md114">
+<title>Usage</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">Tools/IccFromCube/iccFromCube<sp/>input.cube<sp/>output.icc</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d8/d9a/a02296_1autotoc_md116">
+<title>Output</title>
+<para><itemizedlist>
+<listitem><para>Profile Class: <computeroutput>DeviceLink</computeroutput></para>
+</listitem><listitem><para>Version: <computeroutput>ICC.2 v5</computeroutput></para>
+</listitem><listitem><para>Color Space: <computeroutput>RGB</computeroutput> (input and PCS)</para>
+</listitem><listitem><para>Tags:<itemizedlist>
+<listitem><para><computeroutput>AToB0</computeroutput>: MPE with optional input curves and CLUT</para>
+</listitem><listitem><para><computeroutput>desc</computeroutput>: Title from cube</para>
+</listitem><listitem><para><computeroutput>cprt</computeroutput>: Comment lines from cube</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d8/d9a/a02296_1autotoc_md118">
+<title>Build Instructions</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d8/d9a/a02296_1autotoc_md120">
+<title>Example</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccFromCube<sp/>creativeGrade.cube<sp/>creativeGrade.icc</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="d8/d9a/a02296_1autotoc_md122">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Initial implementation by Max Derhak (Mar 2023)</para>
+</listitem><listitem><para>File parsing and ICCv5 MPE improvements by David Hoyt (2025) </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccFromCube/Readme.md"/>
+  </compounddef>
+</doxygen>

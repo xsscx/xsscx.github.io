@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d52/a00221" kind="file" language="C++">
+    <compoundname>IccSparseMatrix.h</compoundname>
+    <includes refid="d4/d81/a00110" local="yes">IccDefs.h</includes>
+    <includes refid="d7/dce/a00143" local="yes">IccUtil.h</includes>
+    <includedby refid="d3/df8/a00155" local="yes">IccProfLib/IccCmm.cpp</includedby>
+    <includedby refid="d7/d3f/a00173" local="yes">IccProfLib/IccSparseMatrix.cpp</includedby>
+    <includedby refid="d9/dd0/a00191" local="yes">IccProfLib/IccTagBasic.cpp</includedby>
+    <includedby refid="d0/d27/a00239" local="yes">IccXML/IccLibXML/IccTagXml.cpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccSparseMatrix.h</label>
+        <link refid="dd/d52/a00221"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IccUtil.h</label>
+        <link refid="d7/dce/a00143"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="9">
+        <label>limits</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+      <node id="8">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>IccProfLib/IccCmm.cpp</label>
+        <link refid="d3/df8/a00155"/>
+      </node>
+      <node id="3">
+        <label>IccProfLib/IccSparseMatrix.cpp</label>
+        <link refid="d7/d3f/a00173"/>
+      </node>
+      <node id="1">
+        <label>IccProfLib/IccSparseMatrix.h</label>
+        <link refid="dd/d52/a00221"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>IccProfLib/IccTagBasic.cpp</label>
+        <link refid="d9/dd0/a00191"/>
+      </node>
+      <node id="5">
+        <label>IccXML/IccLibXML/IccTagXml.cpp</label>
+        <link refid="d0/d27/a00239"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d6/dad/a00941" prot="public">CIccSparseMatrix</innerclass>
+    <innerclass refid="d4/ddc/a00917" prot="public">CIccSparseMatrixEntry</innerclass>
+    <innerclass refid="dc/d92/a00929" prot="public">CIccSparseMatrixFloat16</innerclass>
+    <innerclass refid="d0/d5b/a00933" prot="public">CIccSparseMatrixFloat32</innerclass>
+    <innerclass refid="de/db9/a00937" prot="public">CIccSparseMatrixFloatNum</innerclass>
+    <innerclass refid="dc/d36/a00925" prot="public">CIccSparseMatrixUInt16</innerclass>
+    <innerclass refid="dd/d7a/a00921" prot="public">CIccSparseMatrixUInt8</innerclass>
+    <innerclass refid="d9/dfb/a00913" prot="public">IIccSparseMatrixEntry</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="dd/d52/a00221" kindref="compound">IccSparseMatrix.h</ref></para>
+<para>Contains: Header for implementation of Sparse Matrices</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*<sp/>Copyright<sp/>(c)<sp/>2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment">*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment">*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment">*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment">*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Dec<sp/>30,<sp/>2012<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Initial<sp/>Sparse<sp/>Matrix<sp/>development</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_ICCSPARSEMATRIX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_ICCSPARSEMATRIX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/d81/a00110" kindref="compound">IccDefs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/dce/a00143" kindref="compound">IccUtil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="d9/dfb/a00913" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/dfb/a00913" kindref="compound">IIccSparseMatrixEntry</ref></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="82" refid="d9/dfb/a00913_1a477bf480fd4b59fb862850a3fc824c41" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d9/dfb/a00913_1a477bf480fd4b59fb862850a3fc824c41" kindref="member">~IIccSparseMatrixEntry</ref>(){}</highlight></codeline>
+<codeline lineno="83" refid="d9/dfb/a00913_1ac63cb584e6a12cc9472140ab0b678a4f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dfb/a00913_1ac63cb584e6a12cc9472140ab0b678a4f" kindref="member">init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pData)=0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="85" refid="d9/dfb/a00913_1a1d342968ce0ebdabe20013b1b8d85ee9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="d9/dfb/a00913_1a1d342968ce0ebdabe20013b1b8d85ee9" kindref="member">get</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">=0;</highlight></codeline>
+<codeline lineno="86" refid="d9/dfb/a00913_1a13aed89f674c29895a4f2db8be290712" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d9/dfb/a00913_1a13aed89f674c29895a4f2db8be290712" kindref="member">set</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>value)=0;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="d9/dfb/a00913_1aec5bc73b2f22d0b8e20f65e6badf4b96" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/><ref refid="d9/dfb/a00913_1aec5bc73b2f22d0b8e20f65e6badf4b96" kindref="member">size</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">=0;</highlight></codeline>
+<codeline lineno="89" refid="d4/ddc/a00917_1a9e8428b52d896d157658489fdf33421e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/>*<ref refid="d9/dfb/a00913_1af2f75fb97a626f7e2d33aa365f9541c4" kindref="member">getPtr</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index=0)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">=0;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="93" refid="d4/ddc/a00917" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/ddc/a00917" kindref="compound">CIccSparseMatrixEntry</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d9/dfb/a00913" kindref="compound">IIccSparseMatrixEntry</ref></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><ref refid="d4/ddc/a00917" kindref="compound">CIccSparseMatrixEntry&lt;T&gt;</ref>()<sp/>{<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref><sp/>=<sp/>0;}</highlight></codeline>
+<codeline lineno="97" refid="d4/ddc/a00917_1a1b9b916087a506819ef2e2625276a63f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/ddc/a00917_1a1b9b916087a506819ef2e2625276a63f" kindref="member">init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pData)<sp/>{<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref><sp/>=<sp/>(T*)pData;}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="d4/ddc/a00917_1aacc3e4e92a62f156ad042a3aabf593f5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/><ref refid="d4/ddc/a00917_1aacc3e4e92a62f156ad042a3aabf593f5" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(T);<sp/>}</highlight></codeline>
+<codeline lineno="100" refid="d4/ddc/a00917_1a6e70d0c6b51818edbfd335c69bd7d0af" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/>*<ref refid="d4/ddc/a00917_1a6e70d0c6b51818edbfd335c69bd7d0af" kindref="member">getPtr</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref>*)(&amp;<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]);<sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="103" refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" refkind="member"><highlight class="normal"><sp/><sp/>T<sp/>*<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="dd/d7a/a00921" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d7a/a00921" kindref="compound">CIccSparseMatrixUInt8</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d4/ddc/a00917" kindref="compound">CIccSparseMatrixEntry</ref>&lt;icUInt8Number&gt;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="109" refid="dd/d7a/a00921_1a0e803fddb7d5423aebaeb7cb611c53fb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="dd/d7a/a00921_1a0e803fddb7d5423aebaeb7cb611c53fb" kindref="member">CIccSparseMatrixUInt8</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="dd/d7a/a00921_1afc91ab008eab3c6199f9e6e16bd3c630" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="dd/d7a/a00921_1afc91ab008eab3c6199f9e6e16bd3c630" kindref="member">get</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]/255.0f;}</highlight></codeline>
+<codeline lineno="112" refid="dd/d7a/a00921_1a227df0619c7257b742dfb4e4fbf25e0a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d7a/a00921_1a227df0619c7257b742dfb4e4fbf25e0a" kindref="member">set</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>value)<sp/>{<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]<sp/>=<sp/>value&lt;0.0<sp/>?<sp/>0<sp/>:<sp/>(value<sp/>&gt;<sp/>1.0<sp/>?<sp/>255<sp/>:<sp/>(<ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref>)(value*255.0f+0.5f));}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="dc/d36/a00925" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d36/a00925" kindref="compound">CIccSparseMatrixUInt16</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d4/ddc/a00917" kindref="compound">CIccSparseMatrixEntry</ref>&lt;icUInt16Number&gt;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="119" refid="dc/d36/a00925_1a9bee88c97f41a2a715033613f716ba86" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="dc/d36/a00925_1a9bee88c97f41a2a715033613f716ba86" kindref="member">CIccSparseMatrixUInt16</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="dc/d36/a00925_1a60045615081897f9ba886ef592bbf01b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="dc/d36/a00925_1a60045615081897f9ba886ef592bbf01b" kindref="member">get</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]/65535.0f;}</highlight></codeline>
+<codeline lineno="122" refid="dc/d36/a00925_1abd1d9a3fbe1694a364e50e42ab6565f5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/d36/a00925_1abd1d9a3fbe1694a364e50e42ab6565f5" kindref="member">set</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>value)<sp/>{<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]<sp/>=<sp/>value&lt;0.0<sp/>?<sp/>0<sp/>:<sp/>(value<sp/>&gt;<sp/>1.0<sp/>?<sp/>65535<sp/>:<sp/>(<ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref>)(value*65535.0f+0.5f));}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="dc/d92/a00929" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d92/a00929" kindref="compound">CIccSparseMatrixFloat16</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d4/ddc/a00917" kindref="compound">CIccSparseMatrixEntry</ref>&lt;icFloat16Number&gt;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129" refid="dc/d92/a00929_1a3cf5488b81c5a87b58e975e6bccc10b7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="dc/d92/a00929_1a3cf5488b81c5a87b58e975e6bccc10b7" kindref="member">CIccSparseMatrixFloat16</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="dc/d92/a00929_1aa040ac7b1c6cdedc5c668f0967acb11a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="dc/d92/a00929_1aa040ac7b1c6cdedc5c668f0967acb11a" kindref="member">get</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" kindref="member">icF16toF</ref>(<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]);}</highlight></codeline>
+<codeline lineno="132" refid="dc/d92/a00929_1a843b2181ce298a51e68726f5c06cfb88" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dc/d92/a00929_1a843b2181ce298a51e68726f5c06cfb88" kindref="member">set</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>value)<sp/>{<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]<sp/>=<sp/><ref refid="d7/dce/a00143_1a7f49bd1c3d34a4dd4199f6bb0a674f96" kindref="member">icFtoF16</ref>(value);}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="d0/d5b/a00933" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d5b/a00933" kindref="compound">CIccSparseMatrixFloat32</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d4/ddc/a00917" kindref="compound">CIccSparseMatrixEntry</ref>&lt;icFloat32Number&gt;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="138" refid="d0/d5b/a00933_1a9bc8b7c0db99c2f5f516106f86156b50" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d0/d5b/a00933_1a9bc8b7c0db99c2f5f516106f86156b50" kindref="member">CIccSparseMatrixFloat32</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="d0/d5b/a00933_1aa227b647f2ca3d8d6afce74a1d6afc8b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="d0/d5b/a00933_1aa227b647f2ca3d8d6afce74a1d6afc8b" kindref="member">get</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref>)<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index];}</highlight></codeline>
+<codeline lineno="141" refid="d0/d5b/a00933_1ad336d0bdfecc5461872c2188417c4d72" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d5b/a00933_1ad336d0bdfecc5461872c2188417c4d72" kindref="member">set</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>value)<sp/>{<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]<sp/>=<sp/>(<ref refid="d7/d46/a00002_1a087042fc82a070c4afebf2e05e708f5b" kindref="member">icFloat32Number</ref>)value;}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="de/db9/a00937" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/db9/a00937" kindref="compound">CIccSparseMatrixFloatNum</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d4/ddc/a00917" kindref="compound">CIccSparseMatrixEntry</ref>&lt;icFloatNumber&gt;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="147" refid="de/db9/a00937_1adbb5f58fc6ed534e172f8dee5b6aad69" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="de/db9/a00937_1adbb5f58fc6ed534e172f8dee5b6aad69" kindref="member">CIccSparseMatrixFloatNum</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="de/db9/a00937_1a694d424891e7be47db77706baada0911" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/><ref refid="de/db9/a00937_1a694d424891e7be47db77706baada0911" kindref="member">get</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index];}</highlight></codeline>
+<codeline lineno="150" refid="de/db9/a00937_1aec4d57f55cdc22e5f098edd6a3d7e3f5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/db9/a00937_1aec4d57f55cdc22e5f098edd6a3d7e3f5" kindref="member">set</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>value)<sp/>{<ref refid="d4/ddc/a00917_1a10641a54c31c72ad6d6bba29d7ef8264" kindref="member">m_pData</ref>[index]<sp/>=<sp/>value;}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="d6/dad/a00941" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d16/a00029_1a82966d668ed6bdc39656fdabcf084956" kindref="member">ICCPROFLIB_API</ref><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pMatrix=NULL,<sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>nSize=0,<sp/><ref refid="d7/d46/a00002_1a0e2018f5694557b3208beb5fc6a7d017" kindref="member">icSparseMatrixType</ref><sp/>nType=<ref refid="d7/d46/a00002_1a5bc58d64df71e86546c9f40fe5fefa06" kindref="member">icSparseMatrixFloatNum</ref>,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bInitFromData=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref><sp/>&amp;mtx);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941" kindref="compound">~CIccSparseMatrix</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref><sp/>&amp;operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref><sp/>&amp;mtx);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="d6/dad/a00941_1a614d8c78f05d62ec2614f277df172fb8" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d6/dad/a00941_1a614d8c78f05d62ec2614f277df172fb8" kindref="member">Rows</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_nRows;<sp/>}</highlight></codeline>
+<codeline lineno="164" refid="d6/dad/a00941_1a3de766a6e294bbe66b14e123d2dde4d9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d6/dad/a00941_1a3de766a6e294bbe66b14e123d2dde4d9" kindref="member">Cols</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_nCols;<sp/>}</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Reset(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pMatrix,<sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>nSize,<sp/><ref refid="d7/d46/a00002_1a0e2018f5694557b3208beb5fc6a7d017" kindref="member">icSparseMatrixType</ref><sp/>nType,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bInitFromData=</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Init(<ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRows,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nCols,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bSetData=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Clear();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Copy(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref><sp/>&amp;mtx);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>FillFromFullMatrix(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*pData);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MultiplyVector(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*pResult,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>*pVector)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Interp(<ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>d1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref><sp/>&amp;mtx1,<sp/><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref><sp/>d2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref><sp/>&amp;mtx2);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Union(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref><sp/>&amp;mtx1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941" kindref="compound">CIccSparseMatrix</ref><sp/>&amp;mtx2);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsValid();</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="d6/dad/a00941_1aaa202687365605b5c29bd644e10b6aa7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d6/dad/a00941_1aaa202687365605b5c29bd644e10b6aa7" kindref="member">GetNumEntries</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_RowStart<sp/>?<sp/>m_RowStart[m_nRows]<sp/>:<sp/>0;}</highlight></codeline>
+<codeline lineno="179" refid="d6/dad/a00941_1a959a13335b4751975e32a019b1e984b7" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref>*<sp/><ref refid="d6/dad/a00941_1a959a13335b4751975e32a019b1e984b7" kindref="member">GetRowStart</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_RowStart;<sp/>}</highlight></codeline>
+<codeline lineno="180" refid="d6/dad/a00941_1a30e835c6d790541bb901707125fa3786" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d6/dad/a00941_1a30e835c6d790541bb901707125fa3786" kindref="member">GetRowOffset</ref>(<ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRow=0)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_RowStart[nRow];<sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="d6/dad/a00941_1a322c6c08b316ecfa334868b4da03e217" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref>*<sp/><ref refid="d6/dad/a00941_1a322c6c08b316ecfa334868b4da03e217" kindref="member">GetColumnsForRow</ref>(<ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRow=0)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_ColumnIndices[m_RowStart[nRow]];<sp/>}</highlight></codeline>
+<codeline lineno="183" refid="d6/dad/a00941_1a2273cbd70a01743ba1cac6d9928fcb0c" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d6/dad/a00941_1a2273cbd70a01743ba1cac6d9928fcb0c" kindref="member">GetNumRowColumns</ref>(<ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRow)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref>)(m_RowStart[nRow+1]<sp/>-<sp/>m_RowStart[nRow]);<sp/>}</highlight></codeline>
+<codeline lineno="184" refid="d6/dad/a00941_1a3c6d52ca31c0ba29a9b5427dc164e973" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d9/dfb/a00913" kindref="compound">IIccSparseMatrixEntry</ref>*<sp/><ref refid="d6/dad/a00941_1a3c6d52ca31c0ba29a9b5427dc164e973" kindref="member">GetData</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_Data;<sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="d6/dad/a00941_1a402208f179874b8cea43004c41cb2675" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/><ref refid="d6/dad/a00941_1a402208f179874b8cea43004c41cb2675" kindref="member">GetMaxEntries</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_nMaxEntries;<sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>MaxEntries(<ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>nMemSize,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRows,<sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/>nTypeSize);</highlight></codeline>
+<codeline lineno="189" refid="d6/dad/a00941_1a9bbcd86faef8a65ae398ccf659ce620a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/><ref refid="d6/dad/a00941_1a9bbcd86faef8a65ae398ccf659ce620a" kindref="member">MaxEntries</ref>(<ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>nMemSize,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRows,<sp/><ref refid="d7/d46/a00002_1a0e2018f5694557b3208beb5fc6a7d017" kindref="member">icSparseMatrixType</ref><sp/>nType)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941_1a9bbcd86faef8a65ae398ccf659ce620a" kindref="member">MaxEntries</ref>(nMemSize,<sp/>nRows,<sp/>EntrySize(nType));}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>MemSize(<ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>nMaxEntries,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRows,<sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/>nTypeSize);</highlight></codeline>
+<codeline lineno="191" refid="d6/dad/a00941_1ae005ad2d2fde60b8c999c096a46cc9a3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/><ref refid="d6/dad/a00941_1ae005ad2d2fde60b8c999c096a46cc9a3" kindref="member">MemSize</ref>(<ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/>nMaxEntries,<sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>nRows,<sp/><ref refid="d7/d46/a00002_1a0e2018f5694557b3208beb5fc6a7d017" kindref="member">icSparseMatrixType</ref><sp/>nType)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d6/dad/a00941_1ae005ad2d2fde60b8c999c096a46cc9a3" kindref="member">MemSize</ref>(nMaxEntries,<sp/>nRows,<sp/>EntrySize(nType));}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/>EntrySize(<ref refid="d7/d46/a00002_1a0e2018f5694557b3208beb5fc6a7d017" kindref="member">icSparseMatrixType</ref><sp/>nType);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="195" refid="d6/dad/a00941_1a524d9110e91e28f9186cf26dbbc3f852" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref><sp/>*<ref refid="d6/dad/a00941_1a524d9110e91e28f9186cf26dbbc3f852" kindref="member">m_pMatrix</ref>;</highlight></codeline>
+<codeline lineno="196" refid="d6/dad/a00941_1aa27e2dec2b8930f376063a081e39c878" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/><ref refid="d6/dad/a00941_1aa27e2dec2b8930f376063a081e39c878" kindref="member">m_nRawSize</ref>;</highlight></codeline>
+<codeline lineno="197" refid="d6/dad/a00941_1a97f65a7fd82a8a71e5b4ed01ff1d1fcd" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a0e2018f5694557b3208beb5fc6a7d017" kindref="member">icSparseMatrixType</ref><sp/><ref refid="d6/dad/a00941_1a97f65a7fd82a8a71e5b4ed01ff1d1fcd" kindref="member">m_nType</ref>;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="d6/dad/a00941_1acabab9523f12955ea77bec50b1c6db6e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d6/dad/a00941_1acabab9523f12955ea77bec50b1c6db6e" kindref="member">m_nRows</ref>;</highlight></codeline>
+<codeline lineno="200" refid="d6/dad/a00941_1a86e8c8101161eed741fb33e96f988224" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/><ref refid="d6/dad/a00941_1a86e8c8101161eed741fb33e96f988224" kindref="member">m_nCols</ref>;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="d6/dad/a00941_1ad279613a23050c43d4674bb5e1fa2bbb" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>*<ref refid="d6/dad/a00941_1ad279613a23050c43d4674bb5e1fa2bbb" kindref="member">m_RowStart</ref>;</highlight></codeline>
+<codeline lineno="203" refid="d6/dad/a00941_1a3a1de00f6460975873b05c0d6a3732e3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref><sp/>*<ref refid="d6/dad/a00941_1a3a1de00f6460975873b05c0d6a3732e3" kindref="member">m_ColumnIndices</ref>;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="d6/dad/a00941_1a400dda600fa82bcbf85c17c591fc7be4" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d9/dfb/a00913" kindref="compound">IIccSparseMatrixEntry</ref><sp/>*<ref refid="d6/dad/a00941_1a400dda600fa82bcbf85c17c591fc7be4" kindref="member">m_Data</ref>;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="d6/dad/a00941_1abfe8dacc5e40eeccff224fef6ce8d4de" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref><sp/><ref refid="d6/dad/a00941_1abfe8dacc5e40eeccff224fef6ce8d4de" kindref="member">m_nMaxEntries</ref>;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//_ICCSPARSEMATRIX_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="IccProfLib/IccSparseMatrix.h"/>
+  </compounddef>
+</doxygen>

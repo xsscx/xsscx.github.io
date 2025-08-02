@@ -1,0 +1,1350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/d2f/a00425" kind="class" language="C++" prot="public">
+    <compoundname>CIccInfo</compoundname>
+    <includes refid="d7/dce/a00143" local="no">IccUtil.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dc/d2f/a00425_1aa9938a427b2a74f0f31280aa60d5a452" prot="protected" static="no" mutable="no">
+        <type>std::string *</type>
+        <definition>std::string* CIccInfo::m_str</definition>
+        <argsstring></argsstring>
+        <name>m_str</name>
+        <qualifiedname>CIccInfo::m_str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="360" column="15" bodyfile="IccProfLib/IccUtil.h" bodystart="360" bodyend="-1"/>
+        <referencedby refid="dc/d2f/a00425_1aeb624332914e8ca6d72ee82586ff09de" compoundref="d5/db1/a00140" startline="1411" endline="1414">~CIccInfo</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a33e41fb4779a4f8119c999dd9eef0587" compoundref="d5/db1/a00140" startline="1512" endline="1518">GetArraySigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a5d8a7ba8e3bcc56823823d6f051b8af4" compoundref="d5/db1/a00140" startline="1604" endline="1612">GetElementTypeSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a19d253176227bcad2ce11b5ead07ff67" compoundref="d5/db1/a00140" startline="1504" endline="1510">GetStructSigName</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d2f/a00425_1a9edb3d44178508b07fcac523620fe3c8" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref></type>
+        <definition>icChar CIccInfo::m_szSigStr[128]</definition>
+        <argsstring>[128]</argsstring>
+        <name>m_szSigStr</name>
+        <qualifiedname>CIccInfo::m_szSigStr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="359" column="10" bodyfile="IccProfLib/IccUtil.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref></type>
+        <definition>icChar CIccInfo::m_szStr[128]</definition>
+        <argsstring>[128]</argsstring>
+        <name>m_szStr</name>
+        <qualifiedname>CIccInfo::m_szStr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="358" column="10" bodyfile="IccProfLib/IccUtil.h" bodystart="358" bodyend="-1"/>
+        <referencedby refid="dc/d2f/a00425_1ae5a7ead20560f9bf53baceb8cfc21908" compoundref="d5/db1/a00140" startline="1406" endline="1409">CIccInfo</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aa0a8f4850e598e92b3c8b0e65843bb20" compoundref="d5/db1/a00140" startline="1640" endline="1767">GetColorSpaceSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1ab5bad43e006931562cdc360f3cddb81a" compoundref="d5/db1/a00140" startline="1448" endline="1463">GetDeviceAttrName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a5888e31c43ad13b788e08eb21ab9cca4" compoundref="d5/db1/a00140" startline="2169" endline="2245">GetIlluminantName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a96530a87f3c7b95a05376bd1e2535818" compoundref="d5/db1/a00140" startline="2055" endline="2073">GetMeasurementFlareName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a92f692bd1bdb86c0d5c4def767006159" compoundref="d5/db1/a00140" startline="2076" endline="2089">GetMeasurementGeometryName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a6a30f40247f6ad22584608fbd00ff89a" compoundref="d5/db1/a00140" startline="2247" endline="2290">GetMeasurementUnit</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a8fb60070c13c31d57a9fdad4d38f0aae" compoundref="d5/db1/a00140" startline="2035" endline="2052">GetPathEntrySigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a66565413c1093225f402d89dd4180270" compoundref="d5/db1/a00140" startline="1465" endline="1493">GetProfileFlagsName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a8717c25616bb14a42d031a674e6455aa" compoundref="d5/db1/a00140" startline="2293" endline="2303">GetProfileID</referencedby>
+        <referencedby refid="dc/d2f/a00425_1af113cdc02ca5a23735be71cbb05e6727" compoundref="d5/db1/a00140" startline="2091" endline="2116">GetRenderingIntentName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a18e5049b3381864771e310baca9b0a0a" compoundref="d5/db1/a00140" startline="1769" endline="1802">GetSpectralColorSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a5efca7a24e60cbfec9244ffd649c7110" compoundref="d5/db1/a00140" startline="2118" endline="2149">GetSpotShapeName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1ac11d399114783d07a4594e018a78cf10" compoundref="d5/db1/a00140" startline="2151" endline="2167">GetStandardObserverName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1adf19390ac8376ef3f5b381238ea41861" compoundref="d5/db1/a00140" startline="1438" endline="1446">GetSubClassVersionName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a0efe3504b8790f409f6c7423a92efb86" compoundref="d5/db1/a00140" startline="1428" endline="1436">GetVersionName</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d2f/a00425_1ae5a7ead20560f9bf53baceb8cfc21908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccInfo::CIccInfo</definition>
+        <argsstring>()</argsstring>
+        <name>CIccInfo</name>
+        <qualifiedname>CIccInfo::CIccInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="305" column="3" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1406" bodyend="1409"/>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1aeb624332914e8ca6d72ee82586ff09de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccInfo::~CIccInfo</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccInfo</name>
+        <qualifiedname>CIccInfo::~CIccInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="306" column="11" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1411" bodyend="1414"/>
+        <references refid="dc/d2f/a00425_1aa9938a427b2a74f0f31280aa60d5a452" compoundref="d7/dce/a00143" startline="360">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1afaaff9bd393e3479918fc25c37572a74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccInfo::CheckData</definition>
+        <argsstring>(std::string &amp;sReport, const icDateTimeNumber &amp;dateTime, std::string sDesc=&quot;&quot;)</argsstring>
+        <name>CheckData</name>
+        <qualifiedname>CIccInfo::CheckData</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/def/a00513" kindref="compound">icDateTimeNumber</ref> &amp;</type>
+          <declname>dateTime</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sDesc</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="347" column="20" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2414" bodyend="2514"/>
+        <references refid="da/def/a00513_1aa853a4d45cda9f9542d12edf872d1b95" compoundref="d7/d46/a00002" startline="1421">icDateTimeNumber::day</references>
+        <references refid="da/def/a00513_1a750a7db1ac713dfeea3c807a2f3a5a08" compoundref="d7/d46/a00002" startline="1422">icDateTimeNumber::hours</references>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1a96f185a7e8c155604a95848b2c9f4d2f" compoundref="d5/db1/a00140" startline="90">icMsgValidateWarning</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a28bebc69f605af2c45812f342b3b3f74" compoundref="d4/d81/a00110" startline="120">icValidateWarning</references>
+        <references refid="da/def/a00513_1a263e022871eed8cc62e3d35140d1a0bc" compoundref="d7/d46/a00002" startline="1423">icDateTimeNumber::minutes</references>
+        <references refid="da/def/a00513_1a208ea2fce0a9c7e72c3c06d5cbb43274" compoundref="d7/d46/a00002" startline="1420">icDateTimeNumber::month</references>
+        <references refid="da/def/a00513_1a455c54212545ed44d29e800c62596c1c" compoundref="d7/d46/a00002" startline="1424">icDateTimeNumber::seconds</references>
+        <references refid="da/def/a00513_1a1c28dcfa33b3bba180c5abebd74a29ef" compoundref="d7/d46/a00002" startline="1419">icDateTimeNumber::year</references>
+        <referencedby refid="d0/dc9/a01065_1a2e8592a635b1e712758bdb65231b8911" compoundref="d9/dd0/a00191" startline="8305" endline="8313">CIccTagDateTime::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1abaadc52578e6efb2c4a3396e9888de2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccInfo::CheckData</definition>
+        <argsstring>(std::string &amp;sReport, const icFloatXYZNumber &amp;XYZ, std::string sDesc=&quot;&quot;)</argsstring>
+        <name>CheckData</name>
+        <qualifiedname>CIccInfo::CheckData</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/db7/a00525" kindref="compound">icFloatXYZNumber</ref> &amp;</type>
+          <declname>XYZ</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sDesc</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="349" column="20" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2365" bodyend="2391"/>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1afc544e4cf29049a9dade4afa39fe5583" compoundref="d5/db1/a00140" startline="91">icMsgValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964afb5bd0ed92cee1ec73bc11b9f50a7e19" compoundref="d4/d81/a00110" startline="121">icValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d7/db7/a00525_1ae66932e46d116e7c5f3e26cb8ea99640" compoundref="d7/d46/a00002" startline="1441">icFloatXYZNumber::X</references>
+        <references refid="d7/db7/a00525_1a91536390a8df347f89972fa23560d7cc" compoundref="d7/d46/a00002" startline="1442">icFloatXYZNumber::Y</references>
+        <references refid="d7/db7/a00525_1a632b9e5a29d766deed2992c7e1da45d9" compoundref="d7/d46/a00002" startline="1443">icFloatXYZNumber::Z</references>
+        <referencedby refid="d8/dbf/a01109_1a11a2673242d11dd1e19a93a6bff7a7d8" compoundref="d9/dd0/a00191" startline="11246" endline="11299">CIccTagSpectralViewingConditions::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a9d43386c9f734072d9307eb110075332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccInfo::CheckData</definition>
+        <argsstring>(std::string &amp;sReport, const icSpectralRange &amp;range, std::string sDesc=&quot;&quot;)</argsstring>
+        <name>CheckData</name>
+        <qualifiedname>CIccInfo::CheckData</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/d72/a00541" kindref="compound">icSpectralRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sDesc</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="350" column="20" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2393" bodyend="2412"/>
+        <references refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" compoundref="d7/d46/a00002" startline="1468">icSpectralRange::end</references>
+        <references refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" compoundref="d5/db1/a00140" startline="629" endline="671">icF16toF</references>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1afc544e4cf29049a9dade4afa39fe5583" compoundref="d5/db1/a00140" startline="91">icMsgValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964afb5bd0ed92cee1ec73bc11b9f50a7e19" compoundref="d4/d81/a00110" startline="121">icValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" compoundref="d7/d46/a00002" startline="1467">icSpectralRange::start</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <referencedby refid="de/d1d/a01105_1a87b19a51bc56af0cf18704bb5cff1a16" compoundref="d9/dd0/a00191" startline="10788" endline="10812">CIccTagSpectralDataInfo::Validate</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a11a2673242d11dd1e19a93a6bff7a7d8" compoundref="d9/dd0/a00191" startline="11246" endline="11299">CIccTagSpectralViewingConditions::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a9207beabfef2f9bf347b7b835e768004" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccInfo::CheckData</definition>
+        <argsstring>(std::string &amp;sReport, const icXYZNumber &amp;XYZ, std::string sDesc=&quot;&quot;)</argsstring>
+        <name>CheckData</name>
+        <qualifiedname>CIccInfo::CheckData</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d8/dc7/a00517" kindref="compound">icXYZNumber</ref> &amp;</type>
+          <declname>XYZ</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sDesc</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="348" column="20" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2337" bodyend="2363"/>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1afc544e4cf29049a9dade4afa39fe5583" compoundref="d5/db1/a00140" startline="91">icMsgValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964afb5bd0ed92cee1ec73bc11b9f50a7e19" compoundref="d4/d81/a00110" startline="121">icValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d8/dc7/a00517_1a8a82647ad953c198665aee9e3b659ea7" compoundref="d7/d46/a00002" startline="1429">icXYZNumber::X</references>
+        <references refid="d8/dc7/a00517_1a3e75b8d208a5e4c55eac077643bc7689" compoundref="d7/d46/a00002" startline="1430">icXYZNumber::Y</references>
+        <references refid="d8/dc7/a00517_1a8753b09e8d550ace7d30a0af5d0e7ab3" compoundref="d7/d46/a00002" startline="1431">icXYZNumber::Z</references>
+        <referencedby refid="de/d1c/a01093_1acb79496fc8f159096ca6894c49ffc2c9" compoundref="d9/dd0/a00191" startline="10080" endline="10117">CIccResponseCurveStruct::Validate</referencedby>
+        <referencedby refid="d3/ded/a01017_1a085ef8333b48a12156bfbeca4d7ea0a6" compoundref="d9/dd0/a00191" startline="3734" endline="3755">CIccTagXYZ::Validate</referencedby>
+        <referencedby refid="d0/dd3/a01077_1ae498dc86ec84e11c46036d3ab33b1f5c" compoundref="d9/dd0/a00191" startline="9151" endline="9162">CIccTagViewingConditions::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1abac9f400c5965b917873a4afb7e166ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccInfo::CheckLuminance</definition>
+        <argsstring>(std::string &amp;sReport, const icFloatXYZNumber &amp;XYZ, std::string sDesc=&quot;&quot;)</argsstring>
+        <name>CheckLuminance</name>
+        <qualifiedname>CIccInfo::CheckLuminance</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/db7/a00525" kindref="compound">icFloatXYZNumber</ref> &amp;</type>
+          <declname>XYZ</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sDesc</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="352" column="20" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2516" bodyend="2528"/>
+        <references refid="d7/dce/a00143_1a96f185a7e8c155604a95848b2c9f4d2f" compoundref="d5/db1/a00140" startline="90">icMsgValidateWarning</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a28bebc69f605af2c45812f342b3b3f74" compoundref="d4/d81/a00110" startline="120">icValidateWarning</references>
+        <references refid="d7/db7/a00525_1a91536390a8df347f89972fa23560d7cc" compoundref="d7/d46/a00002" startline="1442">icFloatXYZNumber::Y</references>
+        <referencedby refid="d8/dbf/a01109_1a11a2673242d11dd1e19a93a6bff7a7d8" compoundref="d9/dd0/a00191" startline="11246" endline="11299">CIccTagSpectralViewingConditions::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a33e41fb4779a4f8119c999dd9eef0587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetArraySigName</definition>
+        <argsstring>(icArraySignature sig)</argsstring>
+        <name>GetArraySigName</name>
+        <qualifiedname>CIccInfo::GetArraySigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="317" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1512" bodyend="1518"/>
+        <references refid="dd/d47/a00445_1ad16c44f0c8404d0d6abceb523108cb94" compoundref="da/d2a/a00086" startline="254" endline="255">CIccArrayCreator::GetArraySigName</references>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="dc/d2f/a00425_1aa9938a427b2a74f0f31280aa60d5a452" compoundref="d7/dce/a00143" startline="360">m_str</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a2b438ae9dd2767103a67ea06d28230a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetCmmSigName</definition>
+        <argsstring>(icCmmSignature sig)</argsstring>
+        <name>GetCmmSigName</name>
+        <qualifiedname>CIccInfo::GetCmmSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923" kindref="member">icCmmSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="321" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1874" bodyend="1961"/>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923ac0dd8fd68df40887dff67453408f701e" compoundref="d7/d46/a00002" startline="986">icSigAdobe</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a0f2febf5738738539db9ea613f772751" compoundref="d7/d46/a00002" startline="987">icSigAgfa</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923aea77dcfbe9281d8f8246ccf784c9478c" compoundref="d7/d46/a00002" startline="988">icSigApple</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a5cf1c5ef16fe8b8a233925f2813b67d9" compoundref="d7/d46/a00002" startline="996">icSigArgyllCMS</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a219511a652b19d450bf65125f8b149fe" compoundref="d7/d46/a00002" startline="989">icSigColorGear</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a13513665f59be9aec3b8936b51a0375a" compoundref="d7/d46/a00002" startline="991">icSigColorGearC</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a38b005981e12301b53a1d42f7a68aa3b" compoundref="d7/d46/a00002" startline="990">icSigColorGearLite</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a06a8fab891f6fd050bc9e22be9278e72" compoundref="d7/d46/a00002" startline="1006">icSigDemoIccMAX</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a943ad1a13621da68df371c9134034c7b" compoundref="d7/d46/a00002" startline="992">icSigEFI</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a7f3bfcf206f6f3884f38fdc1f071c7a8" compoundref="d7/d46/a00002" startline="993">icSigExactScan</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923abac30b7d94edf610343336bc49a73d84" compoundref="d7/d46/a00002" startline="994">icSigFujiFilm</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a666b04d52dd72fdd7940585afc9be48c" compoundref="d7/d46/a00002" startline="995">icSigHarlequinRIP</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a81193fd8b772d2e3c94de9f328123047" compoundref="d7/d46/a00002" startline="998">icSigHeidelberg</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a524da57cc1a6f1b0d6d21171b6265708" compoundref="d7/d46/a00002" startline="1000">icSigKodak</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a3ee0721a4a14693a940265adc1cdb170" compoundref="d7/d46/a00002" startline="1001">icSigKonicaMinolta</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923acb1945e864a3aafde4a511ec8a201f55" compoundref="d7/d46/a00002" startline="999">icSigLittleCMS</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a278ff72da7f2e9aa2e87e9abb6b479c3" compoundref="d7/d46/a00002" startline="997">icSigLogoSync</references>
+        <references refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1ae3d69bb0ff85b8dc702cc1e4181c590a" compoundref="d7/d46/a00002" startline="973">icSigMicrosoft</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a90d72026a5a2f0594055dbc2c81c2ed7" compoundref="d7/d46/a00002" startline="1003">icSigMutoh</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923ad6758db708da162d11771f9f516ecde7" compoundref="d7/d46/a00002" startline="1005">icSigRefIccMAX</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a30beb63610fd0e4ed710c396eb7f46ba" compoundref="d7/d46/a00002" startline="1007">icSigRolfGierling</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a556aa64f92ae3809615deb53acb85e78" compoundref="d7/d46/a00002" startline="1008">icSigSampleICC</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a219aafc2f966362afe9d0da60eabf3a7" compoundref="d7/d46/a00002" startline="1010">icSigTheImagingFactory</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a6e65ae3c4367c29a59a5283719e4ec1c" compoundref="d7/d46/a00002" startline="1009">icSigToshiba</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923ae0918a5ef943d6e71899e8540f6b29d3" compoundref="d7/d46/a00002" startline="1011">icSigVivo</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923af5fb30b1178363e014d1233c6fdee8de" compoundref="d7/d46/a00002" startline="1012">icSigWareToGo</references>
+        <references refid="d7/d46/a00002_1af9faa1fcec3b80cfd0c397350721e923a9dda2cdcf5bcf2580cda05bb378157e3" compoundref="d7/d46/a00002" startline="1013">icSigZoran</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a1db3c9bc71c0972a0d9d147b17a34ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetColorantEncoding</definition>
+        <argsstring>(icColorantEncoding colorant)</argsstring>
+        <name>GetColorantEncoding</name>
+        <qualifiedname>CIccInfo::GetColorantEncoding</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a2b2782f9ad3719ac6197c1f3d9816132" kindref="member">icColorantEncoding</ref></type>
+          <declname>colorant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="344" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2317" bodyend="2335"/>
+        <references refid="d7/d46/a00002_1a2b2782f9ad3719ac6197c1f3d9816132a6a1cf103b2c513f645512f5032db8d9d" compoundref="d7/d46/a00002" startline="1299">icColorantEBU</references>
+        <references refid="d7/d46/a00002_1a2b2782f9ad3719ac6197c1f3d9816132a97eaf81a9b66f3bd4f1f1758af636c0d" compoundref="d7/d46/a00002" startline="1297">icColorantITU</references>
+        <references refid="d7/d46/a00002_1a2b2782f9ad3719ac6197c1f3d9816132af04ffc8fb91da99c8757aafcea30892c" compoundref="d7/d46/a00002" startline="1300">icColorantP22</references>
+        <references refid="d7/d46/a00002_1a2b2782f9ad3719ac6197c1f3d9816132ae593a74f211a7ed7cb4da81609763cf7" compoundref="d7/d46/a00002" startline="1298">icColorantSMPTE</references>
+        <referencedby refid="d5/dfb/a01021_1a90ec4f5d7e205e23c0db2d344fb7b9a4" compoundref="d9/dd0/a00191" startline="3948" endline="3966">CIccTagChromaticity::Describe</referencedby>
+        <referencedby refid="db/d6b/a01853_1a4651f6e4b37317d021eb814da704ad1d" compoundref="d0/d27/a00239" startline="927" endline="943">CIccTagXmlChromaticity::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a251ac443f8c7bd0ba89a53c7613492cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetColorimetricIntentImageStateName</definition>
+        <argsstring>(icColorimetricIntentImageStateSignature sig)</argsstring>
+        <name>GetColorimetricIntentImageStateName</name>
+        <qualifiedname>CIccInfo::GetColorimetricIntentImageStateName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a9aaf7538c5941e68d7bdcd9122d3fc6f" kindref="member">icColorimetricIntentImageStateSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="323" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1976" bodyend="1997"/>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="d7/d46/a00002_1a9aaf7538c5941e68d7bdcd9122d3fc6fa81fb4e7893d0874e45371e32dc49c5a6" compoundref="d7/d46/a00002" startline="1033">icSigFocalPlaneColorimetryEstimates</references>
+        <references refid="d7/d46/a00002_1a9aaf7538c5941e68d7bdcd9122d3fc6fadbf942221e490e5c576540111bd85157" compoundref="d7/d46/a00002" startline="1034">icSigReflectionHardcopyOriginalColorimetry</references>
+        <references refid="d7/d46/a00002_1a9aaf7538c5941e68d7bdcd9122d3fc6fa7327d9265a031f9e8d068282d10b28e2" compoundref="d7/d46/a00002" startline="1035">icSigReflectionPrintOutputColorimetry</references>
+        <references refid="d7/d46/a00002_1a9aaf7538c5941e68d7bdcd9122d3fc6faf90e13602ccc9653222e6ecefe561105" compoundref="d7/d46/a00002" startline="1032">icSigSceneAppearanceEstimates</references>
+        <references refid="d7/d46/a00002_1a9aaf7538c5941e68d7bdcd9122d3fc6fa293992750bd6bd5748657a8548e17656" compoundref="d7/d46/a00002" startline="1031">icSigSceneColorimetryEstimates</references>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1aa0a8f4850e598e92b3c8b0e65843bb20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetColorSpaceSigName</definition>
+        <argsstring>(icColorSpaceSignature sig)</argsstring>
+        <name>GetColorSpaceSigName</name>
+        <qualifiedname>CIccInfo::GetColorSpaceSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="318" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1640" bodyend="1767"/>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="d7/dce/a00143_1a719dc0d47f230294e78ac9c8cbc91a89" compoundref="d5/db1/a00140" startline="1303" endline="1365">icGetSpaceSamples</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcaba35d0be0f3dbd664a0cd06eb484b318" compoundref="d7/d46/a00002" startline="918">icSigBiSpectralReflectanceData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af20259a5702129c41fd08e21c7e94a74" compoundref="d7/d46/a00002" startline="856">icSigCmyData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac5ad31bfd82d421d33be30f0a68b4661" compoundref="d7/d46/a00002" startline="855">icSigCmykData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af4c6afaa42216765b0431ec6ae0ba27c" compoundref="d7/d46/a00002" startline="852">icSigGrayData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad4a717752d16d5fcf92e1fdd892b8bd8" compoundref="d7/d46/a00002" startline="854">icSigHlsData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917afc7cddf72b4d83ee5cb3568143580828" compoundref="d7/d46/a00002" startline="853">icSigHsvData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" compoundref="d7/d46/a00002" startline="847">icSigLabData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0ab090e1f79d31e78c006c6ab25933dd" compoundref="d7/d46/a00002" startline="848">icSigLuvData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aa0e30bb20e8778df735bb96425040e08" compoundref="d7/d46/a00002" startline="875">icSigMCH1Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad0394a9aa3cf98b500f4840c2e063cf8" compoundref="d7/d46/a00002" startline="876">icSigMCH2Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ace6dab2ff84963e437f8c546ecfa13cd" compoundref="d7/d46/a00002" startline="877">icSigMCH3Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a298422e327f0105ca03fa96982e1c83a" compoundref="d7/d46/a00002" startline="878">icSigMCH4Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a9472411e5ab8d7d44d1d75b7c371df96" compoundref="d7/d46/a00002" startline="879">icSigMCH5Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a61d68540266dd8167b80619ffd0f28e7" compoundref="d7/d46/a00002" startline="880">icSigMCH6Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a6a5424db807c6b471abb9e1af911e0df" compoundref="d7/d46/a00002" startline="881">icSigMCH7Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a69e3c5d633de3237d9bca413422754bb" compoundref="d7/d46/a00002" startline="882">icSigMCH8Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a96ccf9baf4276053002578dbfe64cd8a" compoundref="d7/d46/a00002" startline="883">icSigMCH9Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad95a5bb673fadd351919c3c6431e84ca" compoundref="d7/d46/a00002" startline="884">icSigMCHAData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aec1d338f8e77bdf764494adbcf1e06dc" compoundref="d7/d46/a00002" startline="885">icSigMCHBData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a127bfac8ca44d43d560adeca9a187be8" compoundref="d7/d46/a00002" startline="886">icSigMCHCData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917adf8e57d4ffdc21be8ef6dff15f2e5db8" compoundref="d7/d46/a00002" startline="887">icSigMCHDData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aad6aac496c1ae2f54fe6569a2f341d8d" compoundref="d7/d46/a00002" startline="888">icSigMCHEData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aed31c61b6e2add4c51e926aae419df90" compoundref="d7/d46/a00002" startline="889">icSigMCHFData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aa23b5cd6907746734b71b3a5eb2034f3" compoundref="d7/d46/a00002" startline="873">icSigNamedData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac8919c5ac8fc3849f57bf7fd2fc1d70a" compoundref="d7/d46/a00002" startline="891">icSigNChannelData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a16d273d058fad42f0099c5b819f4749b" compoundref="d7/d46/a00002" startline="844">icSigNoColorData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcad7bcebb4d48769e833d9873eade95410" compoundref="d7/d46/a00002" startline="915">icSigRadiantSpectralData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dca21f038fee27dae75713848e8d9e5402c" compoundref="d7/d46/a00002" startline="909">icSigReflectanceSpectralData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad0e9fe12d5f79f3a3b8b15be31288a30" compoundref="d7/d46/a00002" startline="851">icSigRgbData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcaf998be557de1c759b2f460bb7c8e14cb" compoundref="d7/d46/a00002" startline="921">icSigSparseMatrixReflectanceData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dca9824604f8255e42bc7c71fef7812c797" compoundref="d7/d46/a00002" startline="912">icSigTransmisionSpectralData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7030370eb0ee02671895978dc61858d8" compoundref="d7/d46/a00002" startline="846">icSigXYZData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ae02a4b86c48a9b85be92fdfc2114e496" compoundref="d7/d46/a00002" startline="849">icSigYCbCrData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917afc7f319f261280fc48d7510c3a8bc330" compoundref="d7/d46/a00002" startline="850">icSigYxyData</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+        <referencedby refid="dd/de2/a00320_1a7431d1954b02d2a2d01ad5c9c66a7fba" compoundref="dd/de2/a00320" startline="553" endline="590">PrintIccProfileInfo</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1ab5bad43e006931562cdc360f3cddb81a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetDeviceAttrName</definition>
+        <argsstring>(icUInt64Number val)</argsstring>
+        <name>GetDeviceAttrName</name>
+        <qualifiedname>CIccInfo::GetDeviceAttrName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7d5ef7f224b316dacc02ba0bce6d3110" kindref="member">icUInt64Number</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="310" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1448" bodyend="1463"/>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a5d8a7ba8e3bcc56823823d6f051b8af4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetElementTypeSigName</definition>
+        <argsstring>(icElemTypeSignature sig)</argsstring>
+        <name>GetElementTypeSigName</name>
+        <qualifiedname>CIccInfo::GetElementTypeSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="325" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1604" bodyend="1612"/>
+        <references refid="d6/d15/a01697_1adb40b8192b4afd94f3e2f214dbb34373" compoundref="dc/d57/a00194" startline="229" endline="230">CIccMpeCreator::GetElementSigName</references>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="dc/d2f/a00425_1aa9938a427b2a74f0f31280aa60d5a452" compoundref="d7/dce/a00143" startline="360">m_str</references>
+        <referencedby refid="dc/d2f/a00425_1a8fb60070c13c31d57a9fdad4d38f0aae" compoundref="d5/db1/a00140" startline="2035" endline="2052">GetPathEntrySigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a5888e31c43ad13b788e08eb21ab9cca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetIlluminantName</definition>
+        <argsstring>(icIlluminant val)</argsstring>
+        <name>GetIlluminantName</name>
+        <qualifiedname>CIccInfo::GetIlluminantName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17" kindref="member">icIlluminant</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="339" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2169" bodyend="2245"/>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a8a45d870e58637e69dba6880adcfd8a7" compoundref="d7/d46/a00002" startline="1197">icIlluminantA</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a7496498516f74e19ad2de229c2fe641a" compoundref="d7/d46/a00002" startline="1204">icIlluminantB</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17aa2ae921dec6ee8f3fede2f53bd7f3d60" compoundref="d7/d46/a00002" startline="1202">icIlluminantBlackBody</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17acdbda48c6c0d6bb633cdeb77a8203094" compoundref="d7/d46/a00002" startline="1205">icIlluminantC</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ac5371c55bd4c3d83624ba6cf705207fd" compoundref="d7/d46/a00002" startline="1192">icIlluminantD50</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a4a7cbc826a131c94c39dd5d5b1aa27b5" compoundref="d7/d46/a00002" startline="1196">icIlluminantD55</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ab5abfa1ed5e6ceb001b00f4b13444426" compoundref="d7/d46/a00002" startline="1193">icIlluminantD65</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17abff07031c0b07488498839610152d9e2" compoundref="d7/d46/a00002" startline="1194">icIlluminantD93</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a4f741f748f7d67a4c26eaf716f4acfeb" compoundref="d7/d46/a00002" startline="1203">icIlluminantDaylight</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a376fbad42501a31786f44ae26ef711e7" compoundref="d7/d46/a00002" startline="1198">icIlluminantEquiPowerE</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a26a20c59010c38ddeeee0ce630acc23f" compoundref="d7/d46/a00002" startline="1206">icIlluminantF1</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ab8bfaccb1ee450e329ecfefa4c0d7156" compoundref="d7/d46/a00002" startline="1213">icIlluminantF10</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a3a70dcf570e00d636c1c75689488c120" compoundref="d7/d46/a00002" startline="1214">icIlluminantF11</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ae7af34e1cafa130d2f275db3565face4" compoundref="d7/d46/a00002" startline="1215">icIlluminantF12</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a44378a4d6c29b2c5ffa5e8713b7bcdfd" compoundref="d7/d46/a00002" startline="1195">icIlluminantF2</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a48fa50f619ae962be0cd59fc7d40c67b" compoundref="d7/d46/a00002" startline="1207">icIlluminantF3</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a44dc6c1dcbc50da22c3a0b7fccebbd3a" compoundref="d7/d46/a00002" startline="1208">icIlluminantF4</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17acfae429d27688d4d2c58af1a2e7b3e72" compoundref="d7/d46/a00002" startline="1209">icIlluminantF5</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a03b4215125807903e09d07c1e695501e" compoundref="d7/d46/a00002" startline="1210">icIlluminantF6</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a3c89b422ea021e634a7a70cce1d97674" compoundref="d7/d46/a00002" startline="1211">icIlluminantF7</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a0c6a226ae923661e4a7b094543f2bc12" compoundref="d7/d46/a00002" startline="1199">icIlluminantF8</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17a9369446635e00e09a8179c9631dc31d0" compoundref="d7/d46/a00002" startline="1212">icIlluminantF9</references>
+        <references refid="d7/d46/a00002_1a2146034a274143b2ffbb868845d93e17ab1c241e8a8bf7f4843c929227113ac84" compoundref="d7/d46/a00002" startline="1191">icIlluminantUnknown</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="d0/d22/a01049_1a3e2a17306c40399999311006cb7309fd" compoundref="d9/dd0/a00191" startline="6859" endline="6873">CIccTagMeasurement::Describe</referencedby>
+        <referencedby refid="d0/dd3/a01077_1a01d7a7a2d87135c2fec2e3597191febc" compoundref="d9/dd0/a00191" startline="9112" endline="9134">CIccTagViewingConditions::Describe</referencedby>
+        <referencedby refid="d8/dbf/a01109_1aa150241973b5410bec49077ba6ffca50" compoundref="d9/dd0/a00191" startline="11164" endline="11228">CIccTagSpectralViewingConditions::Describe</referencedby>
+        <referencedby refid="de/d9f/a01881_1a943c0e19163087a7e59350c75b14491c" compoundref="d0/d27/a00239" startline="1587" endline="1609">CIccTagXmlMeasurement::ToXml</referencedby>
+        <referencedby refid="d9/d65/a01905_1aaa3491f669708fecb38fce323bd54882" compoundref="d0/d27/a00239" startline="1886" endline="1903">CIccTagXmlViewingConditions::ToXml</referencedby>
+        <referencedby refid="d4/d07/a01913_1ac5db89bfc7ab38c5ce925ea17819aa8c" compoundref="d0/d27/a00239" startline="1959" endline="2042">CIccTagXmlSpectralViewingConditions::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a96530a87f3c7b95a05376bd1e2535818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetMeasurementFlareName</definition>
+        <argsstring>(icMeasurementFlare val)</argsstring>
+        <name>GetMeasurementFlareName</name>
+        <qualifiedname>CIccInfo::GetMeasurementFlareName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a242c6f629b1f7891df0b57de836c85eb" kindref="member">icMeasurementFlare</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="334" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2055" bodyend="2073"/>
+        <references refid="d7/d46/a00002_1a242c6f629b1f7891df0b57de836c85ebafe8f84f868bdc90cd64f96d4e742350e" compoundref="d7/d46/a00002" startline="1118">icFlare0</references>
+        <references refid="d7/d46/a00002_1a242c6f629b1f7891df0b57de836c85ebad510342b8cfc2c8b819e0eb474e4abef" compoundref="d7/d46/a00002" startline="1119">icFlare100</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="d0/d22/a01049_1a3e2a17306c40399999311006cb7309fd" compoundref="d9/dd0/a00191" startline="6859" endline="6873">CIccTagMeasurement::Describe</referencedby>
+        <referencedby refid="de/d9f/a01881_1a943c0e19163087a7e59350c75b14491c" compoundref="d0/d27/a00239" startline="1587" endline="1609">CIccTagXmlMeasurement::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a92f692bd1bdb86c0d5c4def767006159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetMeasurementGeometryName</definition>
+        <argsstring>(icMeasurementGeometry val)</argsstring>
+        <name>GetMeasurementGeometryName</name>
+        <qualifiedname>CIccInfo::GetMeasurementGeometryName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a913fdffb4ed34f95d70833d696a65d99" kindref="member">icMeasurementGeometry</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="335" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2076" bodyend="2089"/>
+        <references refid="d7/d46/a00002_1a913fdffb4ed34f95d70833d696a65d99a6f2f98eb0066eaa49b79632eb2beef2f" compoundref="d7/d46/a00002" startline="1131">icGeometry045or450</references>
+        <references refid="d7/d46/a00002_1a913fdffb4ed34f95d70833d696a65d99a72e0cb6f5045b9053a1e59623e6562c2" compoundref="d7/d46/a00002" startline="1132">icGeometry0dord0</references>
+        <references refid="d7/d46/a00002_1a913fdffb4ed34f95d70833d696a65d99ad5402ac19929041f150fd24596fadcae" compoundref="d7/d46/a00002" startline="1130">icGeometryUnknown</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="d0/d22/a01049_1a3e2a17306c40399999311006cb7309fd" compoundref="d9/dd0/a00191" startline="6859" endline="6873">CIccTagMeasurement::Describe</referencedby>
+        <referencedby refid="de/d9f/a01881_1a943c0e19163087a7e59350c75b14491c" compoundref="d0/d27/a00239" startline="1587" endline="1609">CIccTagXmlMeasurement::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a6a30f40247f6ad22584608fbd00ff89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetMeasurementUnit</definition>
+        <argsstring>(icSignature sig)</argsstring>
+        <name>GetMeasurementUnit</name>
+        <qualifiedname>CIccInfo::GetMeasurementUnit</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a67fa1b773fad35303680761ee5ef9313" kindref="member">icSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="342" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2247" bodyend="2290"/>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a8cfe99677b174541f071898ac1ae227f" compoundref="d7/d46/a00002" startline="1283">icSigDN</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78ae7f4fe5da63530727a71394766d77ad1" compoundref="d7/d46/a00002" startline="1285">icSigDNN</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a3914cfba84254bdb2dd6dfc0cf46dcff" compoundref="d7/d46/a00002" startline="1286">icSigDNNP</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78ad2ba89e0bbbe0e28f25f12bbceb22829" compoundref="d7/d46/a00002" startline="1284">icSigDNP</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a7a34807a4459a7fcedbfdacdc0fb4f78" compoundref="d7/d46/a00002" startline="1278">icSigStatusA</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a29cdd67a1f54a822c763942a4d9971a2" compoundref="d7/d46/a00002" startline="1279">icSigStatusE</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78a28246c0327d46c333395de46ee37edab" compoundref="d7/d46/a00002" startline="1280">icSigStatusI</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78afb573c4a707be32fd465bae2e063aaab" compoundref="d7/d46/a00002" startline="1282">icSigStatusM</references>
+        <references refid="d7/d46/a00002_1a70823a6060e4fe159171b2b3c0e3bf78aa110dfae73978c9afab842b1d74320df" compoundref="d7/d46/a00002" startline="1281">icSigStatusT</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="de/d1c/a01093_1a3c039fd4397421b213985e41da5582d9" compoundref="d9/dd0/a00191" startline="10033" endline="10063">CIccResponseCurveStruct::Describe</referencedby>
+        <referencedby refid="da/d6c/a01921_1a96a45c1c394648ad89e8c34ad56ccd67" compoundref="d0/d27/a00239" startline="2382" endline="2421">CIccTagXmlResponseCurveSet16::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a8fb60070c13c31d57a9fdad4d38f0aae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetPathEntrySigName</definition>
+        <argsstring>(icUInt32Number val)</argsstring>
+        <name>GetPathEntrySigName</name>
+        <qualifiedname>CIccInfo::GetPathEntrySigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="329" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2035" bodyend="2052"/>
+        <references refid="dc/d2f/a00425_1a5d8a7ba8e3bcc56823823d6f051b8af4" compoundref="d5/db1/a00140" startline="1604" endline="1612">GetElementTypeSigName</references>
+        <references refid="dc/d2f/a00425_1a457cbdc77f3728b5b93b939090e7dc67" compoundref="d5/db1/a00140" startline="1495" endline="1502">GetTagSigName</references>
+        <references refid="dc/d2f/a00425_1aa4d31231b22a56dc869b51eaa2b1f933" compoundref="d5/db1/a00140" startline="1594" endline="1602">GetTagTypeSigName</references>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">GetSigPathName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a763f8149dc28d1373fff725a6c94e82a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetPlatformSigName</definition>
+        <argsstring>(icPlatformSignature sig)</argsstring>
+        <name>GetPlatformSigName</name>
+        <qualifiedname>CIccInfo::GetPlatformSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1" kindref="member">icPlatformSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="320" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1845" bodyend="1869"/>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1a42fee99a0809b8482ce5121c8e75452a" compoundref="d7/d46/a00002" startline="972">icSigMacintosh</references>
+        <references refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1ae3d69bb0ff85b8dc702cc1e4181c590a" compoundref="d7/d46/a00002" startline="973">icSigMicrosoft</references>
+        <references refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1a1ded59dd38f8324b02dd4c278f2d7b43" compoundref="d7/d46/a00002" startline="975">icSigSGI</references>
+        <references refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1ac7257d369e4452f8591d41a5c452204e" compoundref="d7/d46/a00002" startline="974">icSigSolaris</references>
+        <references refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1a2b877793f06e3a5c69079af1c595945b" compoundref="d7/d46/a00002" startline="976">icSigTaligent</references>
+        <references refid="d7/d46/a00002_1a890a7c80622edc67f54b7b55238f15c1a38db3a37d46bde64c3d7e11e517cb11d" compoundref="d7/d46/a00002" startline="977">icSigUnknownPlatform</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a3cabe2aae75ffa51c32058908f1dd93c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetProfileClassSigName</definition>
+        <argsstring>(icProfileClassSignature sig)</argsstring>
+        <name>GetProfileClassSigName</name>
+        <qualifiedname>CIccInfo::GetProfileClassSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0" kindref="member">icProfileClassSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="319" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1804" bodyend="1843"/>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a200e4fc8dcec29c6d411cae0c9a0483c" compoundref="d7/d46/a00002" startline="956">icSigAbstractClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a24cf99d0920e4e0b4549d67311e99928" compoundref="d7/d46/a00002" startline="959">icSigColorEncodingClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0ab2c082ddf37925c8cd1e1d58ce4de4e1" compoundref="d7/d46/a00002" startline="957">icSigColorSpaceClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a3146ff32df49a9a0515afa2d3da30a14" compoundref="d7/d46/a00002" startline="953">icSigDisplayClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a787f32c0c9368bc8c4e85a670ae91c8d" compoundref="d7/d46/a00002" startline="952">icSigInputClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0af50c13fdfab9fcc0a7b831ac86d1fe3b" compoundref="d7/d46/a00002" startline="955">icSigLinkClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0aeb74955777b1abe38df700474c7be5ce" compoundref="d7/d46/a00002" startline="960">icSigMaterialIdentificationClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a8b2deae24b9246ac33314b42ad02ac48" compoundref="d7/d46/a00002" startline="961">icSigMaterialLinkClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a349ff3baa7f838df9ba2e6a2200aa55f" compoundref="d7/d46/a00002" startline="962">icSigMaterialVisualizationClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0ac1881705b3792813f8ef0745b7a12170" compoundref="d7/d46/a00002" startline="958">icSigNamedColorClass</references>
+        <references refid="d7/d46/a00002_1a1cc0ddb4770d5695c83543b62afaa1a0a3d7221c908ff87364cca86a1d275ce8e" compoundref="d7/d46/a00002" startline="954">icSigOutputClass</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a66565413c1093225f402d89dd4180270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetProfileFlagsName</definition>
+        <argsstring>(icUInt32Number val, bool bCheckMCS=false)</argsstring>
+        <name>GetProfileFlagsName</name>
+        <qualifiedname>CIccInfo::GetProfileFlagsName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bCheckMCS</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="311" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1465" bodyend="1493"/>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a8717c25616bb14a42d031a674e6455aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetProfileID</definition>
+        <argsstring>(icProfileID *profileID)</argsstring>
+        <name>GetProfileID</name>
+        <qualifiedname>CIccInfo::GetProfileID</qualifiedname>
+        <param>
+          <type><ref refid="d8/d7d/a00789" kindref="compound">icProfileID</ref> *</type>
+          <declname>profileID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="343" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2293" bodyend="2303"/>
+        <references refid="d8/d7d/a00789_1afe4fb21fec0213523799be407c8b054f" compoundref="d7/d46/a00002" startline="2037">icProfileID::ID8</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1ab4421f8db65aca670a09b250a54d6184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetReferenceMediumGamutSigNameName</definition>
+        <argsstring>(icReferenceMediumGamutSignature sig)</argsstring>
+        <name>GetReferenceMediumGamutSigNameName</name>
+        <qualifiedname>CIccInfo::GetReferenceMediumGamutSigNameName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ac7b6c239c27853c8ba73b89fd0d3695e" kindref="member">icReferenceMediumGamutSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="322" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1964" bodyend="1973"/>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="d7/d46/a00002_1ac7b6c239c27853c8ba73b89fd0d3695ea7f889e51f760bafb97700bf853811915" compoundref="d7/d46/a00002" startline="1022">icSigPerceptualReferenceMediumGamut</references>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1af113cdc02ca5a23735be71cbb05e6727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetRenderingIntentName</definition>
+        <argsstring>(icRenderingIntent val, bool bIsV5=false)</argsstring>
+        <name>GetRenderingIntentName</name>
+        <qualifiedname>CIccInfo::GetRenderingIntentName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77" kindref="member">icRenderingIntent</ref></type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bIsV5</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="336" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2091" bodyend="2116"/>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77ae6136c556a175effd2e35cb1db5ff944" compoundref="d7/d46/a00002" startline="1147">icAbsoluteColorimetric</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77a300c7e86384819a2318614c61c20a112" compoundref="d7/d46/a00002" startline="1143">icPerceptual</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77a64d6354071e8f3d7b461202675e755cb" compoundref="d7/d46/a00002" startline="1144">icRelativeColorimetric</references>
+        <references refid="d7/d46/a00002_1ad596b62f264ef4846d435b494c8d2a77ae73fda5aaf64986600eb12f2f41e85f3" compoundref="d7/d46/a00002" startline="1146">icSaturation</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetSigName</definition>
+        <argsstring>(icUInt32Number val)</argsstring>
+        <name>GetSigName</name>
+        <qualifiedname>CIccInfo::GetSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="327" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2000" bodyend="2033"/>
+        <references refid="dc/d2f/a00425_1a251ac443f8c7bd0ba89a53c7613492cb" compoundref="d5/db1/a00140" startline="1976" endline="1997">GetColorimetricIntentImageStateName</references>
+        <references refid="dc/d2f/a00425_1aa0a8f4850e598e92b3c8b0e65843bb20" compoundref="d5/db1/a00140" startline="1640" endline="1767">GetColorSpaceSigName</references>
+        <references refid="dc/d2f/a00425_1a763f8149dc28d1373fff725a6c94e82a" compoundref="d5/db1/a00140" startline="1845" endline="1869">GetPlatformSigName</references>
+        <references refid="dc/d2f/a00425_1a3cabe2aae75ffa51c32058908f1dd93c" compoundref="d5/db1/a00140" startline="1804" endline="1843">GetProfileClassSigName</references>
+        <references refid="dc/d2f/a00425_1ab4421f8db65aca670a09b250a54d6184" compoundref="d5/db1/a00140" startline="1964" endline="1973">GetReferenceMediumGamutSigNameName</references>
+        <references refid="dc/d2f/a00425_1a457cbdc77f3728b5b93b939090e7dc67" compoundref="d5/db1/a00140" startline="1495" endline="1502">GetTagSigName</references>
+        <references refid="dc/d2f/a00425_1aa4d31231b22a56dc869b51eaa2b1f933" compoundref="d5/db1/a00140" startline="1594" endline="1602">GetTagTypeSigName</references>
+        <references refid="dc/d2f/a00425_1a15b2eae0c5d2774441bb423a6c98c9a2" compoundref="d5/db1/a00140" startline="1520" endline="1592">GetTechnologySigName</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="df/d59/a01001_1a5b1cd1aaf8c091c8d373e2a7b138b0ab" compoundref="d9/dd0/a00191" startline="2553" endline="2559">CIccTagSignature::Describe</referencedby>
+        <referencedby refid="de/d1c/a01093_1acb79496fc8f159096ca6894c49ffc2c9" compoundref="d9/dd0/a00191" startline="10080" endline="10117">CIccResponseCurveStruct::Validate</referencedby>
+        <referencedby refid="df/d59/a01001_1a7923e91a0c8942a0616ec2cad523dafa" compoundref="d9/dd0/a00191" startline="2576" endline="2663">CIccTagSignature::Validate</referencedby>
+        <referencedby refid="d3/dc4/a01089_1a76fce6cca3932803be2f6c6974ee7ff0" compoundref="d9/dd0/a00191" startline="9707" endline="9776">CIccTagProfileSeqDesc::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CIccInfo::GetSigPathName</definition>
+        <argsstring>(std::string sigPath)</argsstring>
+        <name>GetSigPathName</name>
+        <qualifiedname>CIccInfo::GetSigPathName</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="331" column="15" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1614" bodyend="1637"/>
+        <references refid="dc/d2f/a00425_1a8fb60070c13c31d57a9fdad4d38f0aae" compoundref="d5/db1/a00140" startline="2035" endline="2052">GetPathEntrySigName</references>
+        <references refid="d7/dce/a00143_1a3a009765ea132eda6aadf6bedbf10e2d" compoundref="d5/db1/a00140" startline="1258" endline="1300">icGetSigVal</references>
+        <referencedby refid="db/d4b/a01309_1a481dac5c2539596e7d0dc1462d5535c3" compoundref="d9/d77/a00095" startline="3712" endline="3774">CIccCalculatorFunc::Validate</referencedby>
+        <referencedby refid="d7/d93/a00397_1a2a0ef2709ac9b5f5c4af5fd2d808a714" compoundref="d1/d88/a00128" startline="557" endline="573">CIccStructNamedColor::Validate</referencedby>
+        <referencedby refid="dc/d98/a01177_1a35e15603a306985d25d670b6328e257b" compoundref="d4/d3e/a00116" startline="5816" endline="5833">CIccTagGamutBoundaryDesc::Validate</referencedby>
+        <referencedby refid="dc/d06/a01153_1a8ee5ed15873b9957a76e8aad99c16c39" compoundref="d4/d3e/a00116" startline="3532" endline="3662">CIccMBB::Validate</referencedby>
+        <referencedby refid="d9/d25/a01157_1afba782ec7a479cebdc49a2ce92fb69ff" compoundref="d4/d3e/a00116" startline="4194" endline="4276">CIccTagLutAtoB::Validate</referencedby>
+        <referencedby refid="dc/d81/a01161_1ac351f0a08a54161218bc8c13b9fdcbff" compoundref="d4/d3e/a00116" startline="4342" endline="4442">CIccTagLutBtoA::Validate</referencedby>
+        <referencedby refid="d8/d92/a01165_1a44e621b483545b6ee27a8c873c9d4d01" compoundref="d4/d3e/a00116" startline="4780" endline="4889">CIccTagLut8::Validate</referencedby>
+        <referencedby refid="d7/daf/a01169_1a8d9c73f08ddad1bc2a8b963d90698d59" compoundref="d4/d3e/a00116" startline="5204" endline="5314">CIccTagLut16::Validate</referencedby>
+        <referencedby refid="d7/d00/a00401_1a12499ff044fcbd5493543e7f04702d51" compoundref="d1/d88/a00128" startline="267" endline="284">CIccStructBRDF::Validate</referencedby>
+        <referencedby refid="de/d3d/a00409_1a64a51a6cd8b7b8bd29e3ba7cb8835898" compoundref="d1/d88/a00128" startline="365" endline="381">CIccStructColorantInfo::Validate</referencedby>
+        <referencedby refid="d7/dfd/a00969_1a8c774206ae56bc1e504696da10977f18" compoundref="d9/dd0/a00191" startline="164" endline="178">CIccTag::Validate</referencedby>
+        <referencedby refid="d5/d6c/a00977_1a11f674aa13ce90e3d49cb96fdb3d97b5" compoundref="d9/dd0/a00191" startline="651" endline="696">CIccTagText::Validate</referencedby>
+        <referencedby refid="dd/d24/a00981_1aabca61f520bf0d80e1f6c6bd9f29ebfe" compoundref="d9/dd0/a00191" startline="1027" endline="1043">CIccTagUtf8Text::Validate</referencedby>
+        <referencedby refid="da/deb/a00985_1a6d44f85a12ab8469ff8ed526c9b1ce4f" compoundref="d9/dd0/a00191" startline="1460" endline="1499">CIccTagZipUtf8Text::Validate</referencedby>
+        <referencedby refid="da/d0a/a00993_1ac0946f38c155aead0d5fdf292ed2b4da" compoundref="d9/dd0/a00191" startline="1886" endline="1901">CIccTagUtf16Text::Validate</referencedby>
+        <referencedby refid="d0/d28/a00997_1aa20bfff991d9bc819f33cc3b78bbd897" compoundref="d9/dd0/a00191" startline="2381" endline="2405">CIccTagTextDescription::Validate</referencedby>
+        <referencedby refid="df/d59/a01001_1a7923e91a0c8942a0616ec2cad523dafa" compoundref="d9/dd0/a00191" startline="2576" endline="2663">CIccTagSignature::Validate</referencedby>
+        <referencedby refid="d7/d59/a01013_1ac0354e0bf4c50fc04a8c2aab14690084" compoundref="d9/dd0/a00191" startline="3459" endline="3493">CIccTagNamedColor2::Validate</referencedby>
+        <referencedby refid="d3/ded/a01017_1a085ef8333b48a12156bfbeca4d7ea0a6" compoundref="d9/dd0/a00191" startline="3734" endline="3755">CIccTagXYZ::Validate</referencedby>
+        <referencedby refid="d5/dfb/a01021_1a363fa8d1549974c0ab2a50c9e6330927" compoundref="d9/dd0/a00191" startline="4014" endline="4094">CIccTagChromaticity::Validate</referencedby>
+        <referencedby refid="db/d23/a01025_1aadd22549e640fe94f69690bb2308b180" compoundref="d9/dd0/a00191" startline="4374" endline="4399">CIccTagCicp::Validate</referencedby>
+        <referencedby refid="d2/d57/a01033_1a0425bc1b2a3489ac1caec150c85ab025" compoundref="d9/dd0/a00191" startline="4840" endline="4963">CIccTagSparseMatrixArray::Validate</referencedby>
+        <referencedby refid="d1/d83/a01041_1a5a9feb512c4a89fec572b76d1798e38b" compoundref="d9/dd0/a00191" startline="5868" endline="5887">CIccTagNum&lt; T, Tsig &gt;::Validate</referencedby>
+        <referencedby refid="d7/d46/a01045_1a5448179b0e65e4422d46808e5b516ebb" compoundref="d9/dd0/a00191" startline="6554" endline="6573">CIccTagFloatNum&lt; T, Tsig &gt;::Validate</referencedby>
+        <referencedby refid="d0/d22/a01049_1a1e63996a6dcb3195997623027486315d" compoundref="d9/dd0/a00191" startline="6890" endline="6943">CIccTagMeasurement::Validate</referencedby>
+        <referencedby refid="d2/db8/a01057_1a725c1209bd34f547b2b56b504175bfcb" compoundref="d9/dd0/a00191" startline="7654" endline="7675">CIccTagMultiLocalizedUnicode::Validate</referencedby>
+        <referencedby refid="de/d9e/a01061_1a0c165a2dfc3f21babb4ff6ae9868981b" compoundref="d9/dd0/a00191" startline="8077" endline="8118">CIccTagData::Validate</referencedby>
+        <referencedby refid="d8/d18/a01069_1a4361502a44dcaa131346a8aec86172da" compoundref="d9/dd0/a00191" startline="8561" endline="8600">CIccTagColorantOrder::Validate</referencedby>
+        <referencedby refid="d9/d7c/a01073_1a8793138eaec712cb06b9a7c326f50d55" compoundref="d9/dd0/a00191" startline="8895" endline="8936">CIccTagColorantTable::Validate</referencedby>
+        <referencedby refid="d0/dd3/a01077_1ae498dc86ec84e11c46036d3ab33b1f5c" compoundref="d9/dd0/a00191" startline="9151" endline="9162">CIccTagViewingConditions::Validate</referencedby>
+        <referencedby refid="d3/dc4/a01089_1a76fce6cca3932803be2f6c6974ee7ff0" compoundref="d9/dd0/a00191" startline="9707" endline="9776">CIccTagProfileSeqDesc::Validate</referencedby>
+        <referencedby refid="de/d99/a01101_1a025f795911a18435967649ccac38f3a2" compoundref="d9/dd0/a00191" startline="10530" endline="10565">CIccTagResponseCurveSet16::Validate</referencedby>
+        <referencedby refid="de/d1d/a01105_1a87b19a51bc56af0cf18704bb5cff1a16" compoundref="d9/dd0/a00191" startline="10788" endline="10812">CIccTagSpectralDataInfo::Validate</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a11a2673242d11dd1e19a93a6bff7a7d8" compoundref="d9/dd0/a00191" startline="11246" endline="11299">CIccTagSpectralViewingConditions::Validate</referencedby>
+        <referencedby refid="d8/ded/a01113_1ac56b7ea2312e53fdffc1fb77b1195fde" compoundref="d9/dd0/a00191" startline="11979" endline="12009">CIccTagEmbeddedHeightImage::Validate</referencedby>
+        <referencedby refid="d6/d8b/a01117_1a51520355f27be869e3bc1350653f955f" compoundref="d9/dd0/a00191" startline="12278" endline="12329">CIccTagEmbeddedNormalImage::Validate</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a3081292ee5bd17119c61e22466e482ec" compoundref="d5/dcb/a00170" startline="519" endline="550">CIccTagStruct::Validate</referencedby>
+        <referencedby refid="db/de0/a00465_1af4ca3bece348eb0c1233206fbe3fb8a6" compoundref="d5/dcb/a00170" startline="1455" endline="1494">CIccTagArray::Validate</referencedby>
+        <referencedby refid="d6/da1/a01233_1af0339febf31b983fa69e29aa62f5662e" compoundref="dd/dc1/a00212" startline="917" endline="949">CIccTagDict::Validate</referencedby>
+        <referencedby refid="dc/dab/a01237_1a39483430810402bbf631128d04e60690" compoundref="d9/d01/a00227" startline="448" endline="483">CIccTagEmbeddedProfile::Validate</referencedby>
+        <referencedby refid="d6/dc4/a01125_1afec4b4005ac6b85095673d3de298cda1" compoundref="d4/d3e/a00116" startline="613" endline="635">CIccTagCurve::Validate</referencedby>
+        <referencedby refid="d9/d17/a01129_1a03eee7edd12951e6a62e5e1784188c09" compoundref="d4/d3e/a00116" startline="1090" endline="1171">CIccTagParametricCurve::Validate</referencedby>
+        <referencedby refid="d6/d6e/a01137_1a762f071418e8bc4bcc4f0eb2f4da916b" compoundref="d4/d3e/a00116" startline="1579" endline="1602">CIccMatrix::Validate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a20b9586e9c603687d1e36a6f75125380" compoundref="d4/d3e/a00116" startline="3098" endline="3127">CIccCLUT::Validate</referencedby>
+        <referencedby refid="d5/d54/a01213_1ada9c86287fe2987e6efc099dcdbfc28d" compoundref="dc/d87/a00032" startline="1526" endline="1890">CIccTagMultiProcessElement::Validate</referencedby>
+        <referencedby refid="dd/d3f/a01221_1a72d91bd7fba5cfe3464e796e075d0c47" compoundref="de/df3/a00185" startline="614" endline="629">CIccTagProfileSequenceId::Validate</referencedby>
+        <referencedby refid="dc/d5e/a00817_1a70af98a8199072b3ece4a4923e6477fb" compoundref="d6/d2d/a00047" startline="701" endline="847">CIccFormulaCurveSegment::Validate</referencedby>
+        <referencedby refid="d6/d8b/a00821_1ab62183bbf69e74cacfc0bd043a65a014" compoundref="d6/d2d/a00047" startline="1221" endline="1248">CIccSampledCurveSegment::Validate</referencedby>
+        <referencedby refid="d1/dea/a00829_1aaba1ce57f1012070e800b0bf90b6fec6" compoundref="d6/d2d/a00047" startline="2904" endline="2931">CIccSegmentedCurve::Validate</referencedby>
+        <referencedby refid="dc/d6e/a00833_1acdec165ffde2f082f05ea9e40cfa296c" compoundref="d6/d2d/a00047" startline="1828" endline="1870">CIccSingleSampledCurve::Validate</referencedby>
+        <referencedby refid="d1/de6/a00837_1a22e2cf9b1ea4ff166e1693d33a70db38" compoundref="d6/d2d/a00047" startline="2434" endline="2488">CIccSampledCalculatorCurve::Validate</referencedby>
+        <referencedby refid="d5/dac/a00841_1ad1a688c856f5084e658edd04e557d9f7" compoundref="d6/d2d/a00047" startline="3458" endline="3489">CIccMpeCurveSet::Validate</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a553846a76ebe4dd5dad3dc7e1d74da68" compoundref="d6/d2d/a00047" startline="3802" endline="3871">CIccMpeTintArray::Validate</referencedby>
+        <referencedby refid="db/deb/a00853_1ae79f8597b22451368bd65c9e79b74920" compoundref="d6/d2d/a00047" startline="4737" endline="4815">CIccMpeToneMap::Validate</referencedby>
+        <referencedby refid="d0/d82/a00857_1a7005fa48925efe89642aa1e0312e7bb0" compoundref="d6/d2d/a00047" startline="5334" endline="5350">CIccMpeMatrix::Validate</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a4a8c5f16731850aecf3645cbc911896f" compoundref="d6/d2d/a00047" startline="5708" endline="5724">CIccMpeCLUT::Validate</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7a19493e13e646ec0f9c2fc7957a69f4" compoundref="d6/d2d/a00047" startline="6090" endline="6106">CIccMpeExtCLUT::Validate</referencedby>
+        <referencedby refid="df/db8/a01317_1a84dbede92659116443f4f6c0ebfad7dd" compoundref="d9/d77/a00095" startline="4819" endline="4851">CIccMpeCalculator::Validate</referencedby>
+        <referencedby refid="dc/d87/a01649_1aed818d6ee6320ec44db8056c76e57205" compoundref="d5/de9/a00176" startline="517" endline="583">CIccMpeSpectralMatrix::Validate</referencedby>
+        <referencedby refid="d3/d21/a01657_1a80d89644684be6e9bb9f19e5044ec79b" compoundref="d5/de9/a00176" startline="760" endline="776">CIccMpeInvEmissionMatrix::Validate</referencedby>
+        <referencedby refid="d4/d41/a01661_1a020fd9a4b6949af342bae8b3678248a4" compoundref="d5/de9/a00176" startline="1322" endline="1378">CIccMpeSpectralCLUT::Validate</referencedby>
+        <referencedby refid="d2/d44/a01677_1ab05e40d048c944ddebc62b936764cf13" compoundref="d5/de9/a00176" startline="1984" endline="2031">CIccMpeSpectralObserver::Validate</referencedby>
+        <referencedby refid="de/df7/a01201_1ace58d0c323674329264e1e011c12aef7" compoundref="dc/d87/a00032" startline="427" endline="441">CIccMpeUnknown::Validate</referencedby>
+        <referencedby refid="dd/d43/a01193_1afa9aa73acfa0a036a2b5ac1fca5c579b" compoundref="dc/d87/a00032" startline="454" endline="469">CIccMultiProcessElement::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a18e5049b3381864771e310baca9b0a0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetSpectralColorSigName</definition>
+        <argsstring>(icSpectralColorSignature sig)</argsstring>
+        <name>GetSpectralColorSigName</name>
+        <qualifiedname>CIccInfo::GetSpectralColorSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dc" kindref="member">icSpectralColorSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="324" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1769" bodyend="1802"/>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcaba35d0be0f3dbd664a0cd06eb484b318" compoundref="d7/d46/a00002" startline="918">icSigBiSpectralReflectanceData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac8919c5ac8fc3849f57bf7fd2fc1d70a" compoundref="d7/d46/a00002" startline="891">icSigNChannelData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcaa41f3998e89c905766de1159c78d5ace" compoundref="d7/d46/a00002" startline="908">icSigNoSpectralData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcad7bcebb4d48769e833d9873eade95410" compoundref="d7/d46/a00002" startline="915">icSigRadiantSpectralData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dca21f038fee27dae75713848e8d9e5402c" compoundref="d7/d46/a00002" startline="909">icSigReflectanceSpectralData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcaf998be557de1c759b2f460bb7c8e14cb" compoundref="d7/d46/a00002" startline="921">icSigSparseMatrixReflectanceData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dca9824604f8255e42bc7c71fef7812c797" compoundref="d7/d46/a00002" startline="912">icSigTransmisionSpectralData</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a5efca7a24e60cbfec9244ffd649c7110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetSpotShapeName</definition>
+        <argsstring>(icSpotShape val)</argsstring>
+        <name>GetSpotShapeName</name>
+        <qualifiedname>CIccInfo::GetSpotShapeName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596e" kindref="member">icSpotShape</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="337" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2118" bodyend="2149"/>
+        <references refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596ea0ac3f7fc05efe85a4b65db930338f73f" compoundref="d7/d46/a00002" startline="1166">icSpotShapeCross</references>
+        <references refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596ea0f70867f7fd9253f7954b4cb612e7d84" compoundref="d7/d46/a00002" startline="1162">icSpotShapeDiamond</references>
+        <references refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596ea4acec2b46cd52616a0a3343d049c9f91" compoundref="d7/d46/a00002" startline="1163">icSpotShapeEllipse</references>
+        <references refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596ea119e12d635367e572c825f13f271583b" compoundref="d7/d46/a00002" startline="1164">icSpotShapeLine</references>
+        <references refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596ea4842a7717c85e2213bcdfbb6c8eb5ecd" compoundref="d7/d46/a00002" startline="1160">icSpotShapePrinterDefault</references>
+        <references refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596eac06d48cc0f135f16e7006cac95830337" compoundref="d7/d46/a00002" startline="1161">icSpotShapeRound</references>
+        <references refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596eab9a1eef8f745688f92a7dcf2634cee26" compoundref="d7/d46/a00002" startline="1165">icSpotShapeSquare</references>
+        <references refid="d7/d46/a00002_1ab191a6d1789021aef327882ff24d596eae7355d93d551fdbb3d5d73d7e938d3e1" compoundref="d7/d46/a00002" startline="1159">icSpotShapeUnknown</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1ac11d399114783d07a4594e018a78cf10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetStandardObserverName</definition>
+        <argsstring>(icStandardObserver val)</argsstring>
+        <name>GetStandardObserverName</name>
+        <qualifiedname>CIccInfo::GetStandardObserverName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859b" kindref="member">icStandardObserver</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="338" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2151" bodyend="2167"/>
+        <references refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859ba75bc24faaa2326e527a38382dc626ab8" compoundref="d7/d46/a00002" startline="1177">icStdObs1931TwoDegrees</references>
+        <references refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859ba56d2f4a07f7b0624a6aab2a9b9d62b43" compoundref="d7/d46/a00002" startline="1178">icStdObs1964TenDegrees</references>
+        <references refid="d7/d46/a00002_1af513aa5d6844f10ca9aa78ad5fa7859ba363218b26c81ee65a62869b50aae371e" compoundref="d7/d46/a00002" startline="1176">icStdObsUnknown</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="d0/d22/a01049_1a3e2a17306c40399999311006cb7309fd" compoundref="d9/dd0/a00191" startline="6859" endline="6873">CIccTagMeasurement::Describe</referencedby>
+        <referencedby refid="d8/dbf/a01109_1aa150241973b5410bec49077ba6ffca50" compoundref="d9/dd0/a00191" startline="11164" endline="11228">CIccTagSpectralViewingConditions::Describe</referencedby>
+        <referencedby refid="d4/d07/a01913_1ac5db89bfc7ab38c5ce925ea17819aa8c" compoundref="d0/d27/a00239" startline="1959" endline="2042">CIccTagXmlSpectralViewingConditions::ToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a19d253176227bcad2ce11b5ead07ff67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetStructSigName</definition>
+        <argsstring>(icStructSignature sig)</argsstring>
+        <name>GetStructSigName</name>
+        <qualifiedname>CIccInfo::GetStructSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="316" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1504" bodyend="1510"/>
+        <references refid="db/d66/a01721_1a08a0cc8a9db573c04cb4e7ace7eb4e34" compoundref="d1/d44/a00098" startline="253" endline="254">CIccStructCreator::GetStructSigName</references>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="dc/d2f/a00425_1aa9938a427b2a74f0f31280aa60d5a452" compoundref="d7/dce/a00143" startline="360">m_str</references>
+        <referencedby refid="da/dc3/a00453_1a259291677d13d2f343c4c12725654051" compoundref="d5/dcb/a00170" startline="86" endline="108">IIccStruct::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1adf19390ac8376ef3f5b381238ea41861" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetSubClassVersionName</definition>
+        <argsstring>(icUInt32Number val)</argsstring>
+        <name>GetSubClassVersionName</name>
+        <qualifiedname>CIccInfo::GetSubClassVersionName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="309" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1438" bodyend="1446"/>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a457cbdc77f3728b5b93b939090e7dc67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetTagSigName</definition>
+        <argsstring>(icTagSignature sig)</argsstring>
+        <name>GetTagSigName</name>
+        <qualifiedname>CIccInfo::GetTagSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="313" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1495" bodyend="1502"/>
+        <references refid="da/dd8/a01265_1a7c59cb6e6fcce1dae966cbad6d95b9fe" compoundref="d8/d41/a00038" startline="292" endline="293">CIccTagCreator::GetTagSigName</references>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a8f09c8ce556188d595f49b9677d19200" compoundref="d0/d39/a00314" startline="90" endline="111">DumpTag</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a8fb60070c13c31d57a9fdad4d38f0aae" compoundref="d5/db1/a00140" startline="2035" endline="2052">GetPathEntrySigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1aa4d31231b22a56dc869b51eaa2b1f933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetTagTypeSigName</definition>
+        <argsstring>(icTagTypeSignature sig)</argsstring>
+        <name>GetTagTypeSigName</name>
+        <qualifiedname>CIccInfo::GetTagTypeSigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="315" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1594" bodyend="1602"/>
+        <references refid="da/dd8/a01265_1aa6aef9f6c963c17afc3f4d40b5d71f3a" compoundref="d8/d41/a00038" startline="322" endline="323">CIccTagCreator::GetTagTypeSigName</references>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <referencedby refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog::MyTagDialog</referencedby>
+        <referencedby refid="d0/d39/a00314_1a8f09c8ce556188d595f49b9677d19200" compoundref="d0/d39/a00314" startline="90" endline="111">DumpTag</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a8fb60070c13c31d57a9fdad4d38f0aae" compoundref="d5/db1/a00140" startline="2035" endline="2052">GetPathEntrySigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+        <referencedby refid="db/d49/a01969_1adc66f52cad265a25289afdf71b69dcc7" compoundref="d0/d27/a00239" startline="4496" endline="4666">CIccTagXmlStruct::ParseTag</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a15b2eae0c5d2774441bb423a6c98c9a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetTechnologySigName</definition>
+        <argsstring>(icTechnologySignature sig)</argsstring>
+        <name>GetTechnologySigName</name>
+        <qualifiedname>CIccInfo::GetTechnologySigName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4df" kindref="member">icTechnologySignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="314" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1520" bodyend="1592"/>
+        <references refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" compoundref="d5/db1/a00140" startline="1416" endline="1426">GetUnknownName</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfaf3ac33c13a0981f6e9c3f30e00551b52" compoundref="d7/d46/a00002" startline="507">icSigAMDisplay</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa1112b2bd9b484c977cbd2d88d98d03dd" compoundref="d7/d46/a00002" startline="505">icSigCRTDisplay</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa9e3d353cec4c5a541f84dfc6e8fdd44b" compoundref="d7/d46/a00002" startline="492">icSigDigitalCamera</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfaa7f8dc470c9cd418c58be36fa7b6d2e2" compoundref="d7/d46/a00002" startline="499">icSigDyeSublimationPrinter</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfaea566a31ffb00f47c5e1f9f80c980f70" compoundref="d7/d46/a00002" startline="497">icSigElectrophotographicPrinter</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa38cb81671cb080d87f4c7fcecd84ddd1" compoundref="d7/d46/a00002" startline="498">icSigElectrostaticPrinter</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfaabe990b27270733a0a2107f997ce448e" compoundref="d7/d46/a00002" startline="493">icSigFilmScanner</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa0b02cc735bba90185a65383f6e2f2ada" compoundref="d7/d46/a00002" startline="501">icSigFilmWriter</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa21726898850d3c4eaf5f848a3531cfaf" compoundref="d7/d46/a00002" startline="513">icSigFlexography</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa48d6f2e977d3110fff9afeb467b1c862" compoundref="d7/d46/a00002" startline="510">icSigGravure</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa688cde07d15715368f8678c43e31339d" compoundref="d7/d46/a00002" startline="495">icSigInkJetPrinter</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa17bab41b0d15e6552dfc96c22a5df791" compoundref="d7/d46/a00002" startline="511">icSigOffsetLithography</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfac53e738f2512c93b504576857dd41fd1" compoundref="d7/d46/a00002" startline="508">icSigPhotoCD</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa2d8a8a5f660bc5f70ec5c01e4f967ee5" compoundref="d7/d46/a00002" startline="500">icSigPhotographicPaperPrinter</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfade7ec8ee588a9ebd94faaba685d0af10" compoundref="d7/d46/a00002" startline="509">icSigPhotoImageSetter</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa47ea4e9faa7948b9f26e4c2de394f5f5" compoundref="d7/d46/a00002" startline="506">icSigPMDisplay</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfaf1c368d23d50ab15b256656115ea5346" compoundref="d7/d46/a00002" startline="504">icSigProjectionTelevision</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa775462a3603aa4ef09362ed55db2cdb2" compoundref="d7/d46/a00002" startline="494">icSigReflectiveScanner</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa28523254ff1bfb0bfef3b4ec95ef593e" compoundref="d7/d46/a00002" startline="512">icSigSilkscreen</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfaab4a431c5df4168eda0095f7a98be837" compoundref="d7/d46/a00002" startline="496">icSigThermalWaxPrinter</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfaa4f8de6a73a3c2aee990e8e24d3af698" compoundref="d7/d46/a00002" startline="503">icSigVideoCamera</references>
+        <references refid="d7/d46/a00002_1a1a76cbaf039288333b1f83838e83c4dfa30172fe4f342f199d485aa6762679815" compoundref="d7/d46/a00002" startline="502">icSigVideoMonitor</references>
+        <referencedby refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" compoundref="d5/db1/a00140" startline="2000" endline="2033">GetSigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetUnknownName</definition>
+        <argsstring>(icUInt32Number val)</argsstring>
+        <name>GetUnknownName</name>
+        <qualifiedname>CIccInfo::GetUnknownName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="341" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1416" bodyend="1426"/>
+        <references refid="d7/dce/a00143_1ad11487710d1ea9eef4be68d659041800" compoundref="d5/db1/a00140" startline="1028" endline="1054">icGetSig</references>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/d2f/a00425_1a33e41fb4779a4f8119c999dd9eef0587" compoundref="d5/db1/a00140" startline="1512" endline="1518">GetArraySigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a2b438ae9dd2767103a67ea06d28230a5" compoundref="d5/db1/a00140" startline="1874" endline="1961">GetCmmSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a251ac443f8c7bd0ba89a53c7613492cb" compoundref="d5/db1/a00140" startline="1976" endline="1997">GetColorimetricIntentImageStateName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aa0a8f4850e598e92b3c8b0e65843bb20" compoundref="d5/db1/a00140" startline="1640" endline="1767">GetColorSpaceSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a5d8a7ba8e3bcc56823823d6f051b8af4" compoundref="d5/db1/a00140" startline="1604" endline="1612">GetElementTypeSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a8fb60070c13c31d57a9fdad4d38f0aae" compoundref="d5/db1/a00140" startline="2035" endline="2052">GetPathEntrySigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a763f8149dc28d1373fff725a6c94e82a" compoundref="d5/db1/a00140" startline="1845" endline="1869">GetPlatformSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a3cabe2aae75ffa51c32058908f1dd93c" compoundref="d5/db1/a00140" startline="1804" endline="1843">GetProfileClassSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1ab4421f8db65aca670a09b250a54d6184" compoundref="d5/db1/a00140" startline="1964" endline="1973">GetReferenceMediumGamutSigNameName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a18e5049b3381864771e310baca9b0a0a" compoundref="d5/db1/a00140" startline="1769" endline="1802">GetSpectralColorSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a19d253176227bcad2ce11b5ead07ff67" compoundref="d5/db1/a00140" startline="1504" endline="1510">GetStructSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a457cbdc77f3728b5b93b939090e7dc67" compoundref="d5/db1/a00140" startline="1495" endline="1502">GetTagSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1aa4d31231b22a56dc869b51eaa2b1f933" compoundref="d5/db1/a00140" startline="1594" endline="1602">GetTagTypeSigName</referencedby>
+        <referencedby refid="dc/d2f/a00425_1a15b2eae0c5d2774441bb423a6c98c9a2" compoundref="d5/db1/a00140" startline="1520" endline="1592">GetTechnologySigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a0efe3504b8790f409f6c7423a92efb86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>const icChar * CIccInfo::GetVersionName</definition>
+        <argsstring>(icUInt32Number val)</argsstring>
+        <name>GetVersionName</name>
+        <qualifiedname>CIccInfo::GetVersionName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="308" column="16" bodyfile="IccProfLib/IccUtil.cpp" bodystart="1428" bodyend="1436"/>
+        <references refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" compoundref="d7/dce/a00143" startline="358">m_szStr</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a0561bff983312eedc0dec3c1e04ef282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccInfo::IsProfileIDCalculated</definition>
+        <argsstring>(icProfileID *profileID)</argsstring>
+        <name>IsProfileIDCalculated</name>
+        <qualifiedname>CIccInfo::IsProfileIDCalculated</qualifiedname>
+        <param>
+          <type><ref refid="d8/d7d/a00789" kindref="compound">icProfileID</ref> *</type>
+          <declname>profileID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="346" column="8" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2305" bodyend="2315"/>
+        <references refid="d8/d7d/a00789_1afe4fb21fec0213523799be407c8b054f" compoundref="d7/d46/a00002" startline="2037">icProfileID::ID8</references>
+        <referencedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c" compoundref="d9/d01/a00227" startline="308" endline="431">CIccTagEmbeddedProfile::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d0/d39/a00314" startline="113" endline="446">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a4085cef4f9c9c594c790d8e3cae1124a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccInfo::IsValidSpace</definition>
+        <argsstring>(icColorSpaceSignature sig)</argsstring>
+        <name>IsValidSpace</name>
+        <qualifiedname>CIccInfo::IsValidSpace</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="354" column="8" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2531" bodyend="2576"/>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a3db473a6296c0e148d96c5c8550d30ef" compoundref="d7/d46/a00002" startline="867">icSig10colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ae5952ccb50b566d3a517c484e3555632" compoundref="d7/d46/a00002" startline="868">icSig11colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ae3c5020999a99b24b3bd28b6aa71e57a" compoundref="d7/d46/a00002" startline="869">icSig12colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7182f8c00cee9454b7b5917805dce8a7" compoundref="d7/d46/a00002" startline="870">icSig13colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0438f07f3d3757977904f48c5d7d8efa" compoundref="d7/d46/a00002" startline="871">icSig14colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af8640335da4bca8d7eb7e238ceaf139a" compoundref="d7/d46/a00002" startline="872">icSig15colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0a6f546f80aaa84e97c667d8e64c3235" compoundref="d7/d46/a00002" startline="859">icSig2colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917afa0686ad8f20f604e7e52807087f04da" compoundref="d7/d46/a00002" startline="860">icSig3colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917addb4c9db388eda46c3ec7fdaa8824cf5" compoundref="d7/d46/a00002" startline="861">icSig4colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917afe9abf41fcde9ef6b5cb704bf1b01113" compoundref="d7/d46/a00002" startline="862">icSig5colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7d79686b4ed63ff02e44242287c38169" compoundref="d7/d46/a00002" startline="863">icSig6colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a582f7f5ffda83ca75b6196b2cbc76bff" compoundref="d7/d46/a00002" startline="864">icSig7colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0ebb5fc548c720f704c34d4a6307f3e2" compoundref="d7/d46/a00002" startline="865">icSig8colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a5c72d5788e1a60e7a9d6b7b56d46899c" compoundref="d7/d46/a00002" startline="866">icSig9colorData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af20259a5702129c41fd08e21c7e94a74" compoundref="d7/d46/a00002" startline="856">icSigCmyData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac5ad31bfd82d421d33be30f0a68b4661" compoundref="d7/d46/a00002" startline="855">icSigCmykData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af4c6afaa42216765b0431ec6ae0ba27c" compoundref="d7/d46/a00002" startline="852">icSigGrayData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad4a717752d16d5fcf92e1fdd892b8bd8" compoundref="d7/d46/a00002" startline="854">icSigHlsData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917afc7cddf72b4d83ee5cb3568143580828" compoundref="d7/d46/a00002" startline="853">icSigHsvData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" compoundref="d7/d46/a00002" startline="847">icSigLabData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0ab090e1f79d31e78c006c6ab25933dd" compoundref="d7/d46/a00002" startline="848">icSigLuvData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aa0e30bb20e8778df735bb96425040e08" compoundref="d7/d46/a00002" startline="875">icSigMCH1Data</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aa23b5cd6907746734b71b3a5eb2034f3" compoundref="d7/d46/a00002" startline="873">icSigNamedData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac8919c5ac8fc3849f57bf7fd2fc1d70a" compoundref="d7/d46/a00002" startline="891">icSigNChannelData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad0e9fe12d5f79f3a3b8b15be31288a30" compoundref="d7/d46/a00002" startline="851">icSigRgbData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7030370eb0ee02671895978dc61858d8" compoundref="d7/d46/a00002" startline="846">icSigXYZData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ae02a4b86c48a9b85be92fdfc2114e496" compoundref="d7/d46/a00002" startline="849">icSigYCbCrData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917afc7f319f261280fc48d7510c3a8bc330" compoundref="d7/d46/a00002" startline="850">icSigYxyData</references>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dc/d2f/a00425_1a4a2b38ef719db63c4cd70d5e0f6adac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccInfo::IsValidSpectralSpace</definition>
+        <argsstring>(icColorSpaceSignature sig)</argsstring>
+        <name>IsValidSpectralSpace</name>
+        <qualifiedname>CIccInfo::IsValidSpectralSpace</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccUtil.h" line="355" column="8" bodyfile="IccProfLib/IccUtil.cpp" bodystart="2579" bodyend="2594"/>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcaba35d0be0f3dbd664a0cd06eb484b318" compoundref="d7/d46/a00002" startline="918">icSigBiSpectralReflectanceData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcad7bcebb4d48769e833d9873eade95410" compoundref="d7/d46/a00002" startline="915">icSigRadiantSpectralData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dca21f038fee27dae75713848e8d9e5402c" compoundref="d7/d46/a00002" startline="909">icSigReflectanceSpectralData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dcaf998be557de1c759b2f460bb7c8e14cb" compoundref="d7/d46/a00002" startline="921">icSigSparseMatrixReflectanceData</references>
+        <references refid="d7/d46/a00002_1a852cf5d81aa3d65ff6a08c3eaafcd0dca9824604f8255e42bc7c71fef7812c797" compoundref="d7/d46/a00002" startline="912">icSigTransmisionSpectralData</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Type: Class</para>
+<para>Purpose: This is a utility class which can be used to get profile info for printing. The member functions are used to convert signatures and other enum values to character strings for printing. </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccUtil.h" line="303" column="1" bodyfile="IccProfLib/IccUtil.h" bodystart="303" bodyend="361"/>
+    <listofallmembers>
+      <member refid="dc/d2f/a00425_1afaaff9bd393e3479918fc25c37572a74" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>CheckData</name></member>
+      <member refid="dc/d2f/a00425_1a9207beabfef2f9bf347b7b835e768004" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>CheckData</name></member>
+      <member refid="dc/d2f/a00425_1abaadc52578e6efb2c4a3396e9888de2f" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>CheckData</name></member>
+      <member refid="dc/d2f/a00425_1a9d43386c9f734072d9307eb110075332" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>CheckData</name></member>
+      <member refid="dc/d2f/a00425_1abac9f400c5965b917873a4afb7e166ff" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>CheckLuminance</name></member>
+      <member refid="dc/d2f/a00425_1ae5a7ead20560f9bf53baceb8cfc21908" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>CIccInfo</name></member>
+      <member refid="dc/d2f/a00425_1a33e41fb4779a4f8119c999dd9eef0587" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetArraySigName</name></member>
+      <member refid="dc/d2f/a00425_1a2b438ae9dd2767103a67ea06d28230a5" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetCmmSigName</name></member>
+      <member refid="dc/d2f/a00425_1a1db3c9bc71c0972a0d9d147b17a34ee9" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetColorantEncoding</name></member>
+      <member refid="dc/d2f/a00425_1a251ac443f8c7bd0ba89a53c7613492cb" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetColorimetricIntentImageStateName</name></member>
+      <member refid="dc/d2f/a00425_1aa0a8f4850e598e92b3c8b0e65843bb20" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetColorSpaceSigName</name></member>
+      <member refid="dc/d2f/a00425_1ab5bad43e006931562cdc360f3cddb81a" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetDeviceAttrName</name></member>
+      <member refid="dc/d2f/a00425_1a5d8a7ba8e3bcc56823823d6f051b8af4" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetElementTypeSigName</name></member>
+      <member refid="dc/d2f/a00425_1a5888e31c43ad13b788e08eb21ab9cca4" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetIlluminantName</name></member>
+      <member refid="dc/d2f/a00425_1a96530a87f3c7b95a05376bd1e2535818" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetMeasurementFlareName</name></member>
+      <member refid="dc/d2f/a00425_1a92f692bd1bdb86c0d5c4def767006159" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetMeasurementGeometryName</name></member>
+      <member refid="dc/d2f/a00425_1a6a30f40247f6ad22584608fbd00ff89a" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetMeasurementUnit</name></member>
+      <member refid="dc/d2f/a00425_1a8fb60070c13c31d57a9fdad4d38f0aae" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetPathEntrySigName</name></member>
+      <member refid="dc/d2f/a00425_1a763f8149dc28d1373fff725a6c94e82a" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetPlatformSigName</name></member>
+      <member refid="dc/d2f/a00425_1a3cabe2aae75ffa51c32058908f1dd93c" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetProfileClassSigName</name></member>
+      <member refid="dc/d2f/a00425_1a66565413c1093225f402d89dd4180270" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetProfileFlagsName</name></member>
+      <member refid="dc/d2f/a00425_1a8717c25616bb14a42d031a674e6455aa" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetProfileID</name></member>
+      <member refid="dc/d2f/a00425_1ab4421f8db65aca670a09b250a54d6184" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetReferenceMediumGamutSigNameName</name></member>
+      <member refid="dc/d2f/a00425_1af113cdc02ca5a23735be71cbb05e6727" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetRenderingIntentName</name></member>
+      <member refid="dc/d2f/a00425_1aaf6cb67c6b8c313d58a2f8c5664b9bf2" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetSigName</name></member>
+      <member refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetSigPathName</name></member>
+      <member refid="dc/d2f/a00425_1a18e5049b3381864771e310baca9b0a0a" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetSpectralColorSigName</name></member>
+      <member refid="dc/d2f/a00425_1a5efca7a24e60cbfec9244ffd649c7110" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetSpotShapeName</name></member>
+      <member refid="dc/d2f/a00425_1ac11d399114783d07a4594e018a78cf10" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetStandardObserverName</name></member>
+      <member refid="dc/d2f/a00425_1a19d253176227bcad2ce11b5ead07ff67" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetStructSigName</name></member>
+      <member refid="dc/d2f/a00425_1adf19390ac8376ef3f5b381238ea41861" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetSubClassVersionName</name></member>
+      <member refid="dc/d2f/a00425_1a457cbdc77f3728b5b93b939090e7dc67" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetTagSigName</name></member>
+      <member refid="dc/d2f/a00425_1aa4d31231b22a56dc869b51eaa2b1f933" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetTagTypeSigName</name></member>
+      <member refid="dc/d2f/a00425_1a15b2eae0c5d2774441bb423a6c98c9a2" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetTechnologySigName</name></member>
+      <member refid="dc/d2f/a00425_1a5dacd531cac49a9fbe6b059c4ac47e28" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetUnknownName</name></member>
+      <member refid="dc/d2f/a00425_1a0efe3504b8790f409f6c7423a92efb86" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>GetVersionName</name></member>
+      <member refid="dc/d2f/a00425_1a0561bff983312eedc0dec3c1e04ef282" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>IsProfileIDCalculated</name></member>
+      <member refid="dc/d2f/a00425_1a4085cef4f9c9c594c790d8e3cae1124a" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>IsValidSpace</name></member>
+      <member refid="dc/d2f/a00425_1a4a2b38ef719db63c4cd70d5e0f6adac1" prot="public" virt="non-virtual"><scope>CIccInfo</scope><name>IsValidSpectralSpace</name></member>
+      <member refid="dc/d2f/a00425_1aa9938a427b2a74f0f31280aa60d5a452" prot="protected" virt="non-virtual"><scope>CIccInfo</scope><name>m_str</name></member>
+      <member refid="dc/d2f/a00425_1a9edb3d44178508b07fcac523620fe3c8" prot="protected" virt="non-virtual"><scope>CIccInfo</scope><name>m_szSigStr</name></member>
+      <member refid="dc/d2f/a00425_1a2aa06edd78c13a6a101f93045200d95f" prot="protected" virt="non-virtual"><scope>CIccInfo</scope><name>m_szStr</name></member>
+      <member refid="dc/d2f/a00425_1aeb624332914e8ca6d72ee82586ff09de" prot="public" virt="virtual"><scope>CIccInfo</scope><name>~CIccInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

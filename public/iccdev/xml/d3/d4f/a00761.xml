@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d3/d4f/a00761" kind="struct" language="C++" prot="public">
+    <compoundname>icColorantOrderType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d4f/a00761_1a2ee8729144b54c9d1cc02457915b35c0" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icColorantOrderType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icColorantOrderType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1982" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d4f/a00761_1ad930efbbc94debc57511b2799f3ab1be" prot="public" static="no" mutable="no">
+        <type><ref refid="db/d3a/a00641" kindref="compound">icColorantOrder</ref></type>
+        <definition>icColorantOrder icColorantOrderType::order</definition>
+        <argsstring></argsstring>
+        <name>order</name>
+        <qualifiedname>icColorantOrderType::order</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1983" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1983" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>ColorantOrderType type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icColorantOrder</label>
+        <link refid="db/d3a/a00641"/>
+      </node>
+      <node id="1">
+        <label>icColorantOrderType</label>
+        <link refid="d3/d4f/a00761"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>order</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1981" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1981" bodyend="1984"/>
+    <listofallmembers>
+      <member refid="d3/d4f/a00761_1a2ee8729144b54c9d1cc02457915b35c0" prot="public" virt="non-virtual"><scope>icColorantOrderType</scope><name>base</name></member>
+      <member refid="d3/d4f/a00761_1ad930efbbc94debc57511b2799f3ab1be" prot="public" virt="non-virtual"><scope>icColorantOrderType</scope><name>order</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

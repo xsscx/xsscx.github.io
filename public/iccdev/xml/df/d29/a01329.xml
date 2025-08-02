@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="df/d29/a01329" kind="class" language="C++" prot="public">
+    <compoundname>CIccConsoleDebugger</compoundname>
+    <basecompoundref refid="dd/d5d/a01325" prot="public" virt="non-virtual">IIccCalcDebugger</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d29/a01329_1a4eb5cafe2bc3fffeef45c1ac435c5f92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccConsoleDebugger::~CIccConsoleDebugger</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccConsoleDebugger</name>
+        <qualifiedname>CIccConsoleDebugger::~CIccConsoleDebugger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="92" column="11" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d29/a01329_1a6a36893b9e789e8c289972297a45f603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccConsoleDebugger::AfterOp</definition>
+        <argsstring>(SIccCalcOp *op, SIccOpState &amp;os, SIccCalcOp *ops)</argsstring>
+        <name>AfterOp</name>
+        <qualifiedname>CIccConsoleDebugger::AfterOp</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1a48d5eb95b4bcebad6d0522f1ba9d0174">AfterOp</reimplements>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d8c/a01297" kindref="compound">SIccOpState</ref> &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>ops</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="119" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="119" bodyend="142"/>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a799fa857823055001ccb0c044c069a2d" compoundref="d5/de0/a00050" startline="112">icSigDataOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="dc/d8c/a01297_1ab3754fddf22c18661914dc452cc1cfbd" compoundref="d5/de0/a00050" startline="275">SIccOpState::pStack</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+      </memberdef>
+      <memberdef kind="function" id="df/d29/a01329_1ad131252183085b7a2848807419fd452c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccConsoleDebugger::BeforeOp</definition>
+        <argsstring>(SIccCalcOp *op, SIccOpState &amp;os, SIccCalcOp *ops)</argsstring>
+        <name>BeforeOp</name>
+        <qualifiedname>CIccConsoleDebugger::BeforeOp</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1a280970908eb062c22d3f14f50b08e658">BeforeOp</reimplements>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d8c/a01297" kindref="compound">SIccOpState</ref> &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d1a/a01285" kindref="compound">SIccCalcOp</ref> *</type>
+          <declname>ops</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="105" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="105" bodyend="117"/>
+        <references refid="d1/d1a/a01285_1a785a21521fdc744ccc6f5578bd7039af" compoundref="d9/d77/a00095" startline="1787" endline="1951">SIccCalcOp::Describe</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5ab2c90cdb6f17b378a27a04c8e9fc5ac1" compoundref="d5/de0/a00050" startline="210">icSigIfOp</references>
+        <references refid="d5/de0/a00050_1a0432d830667e697d6768204b6e5ed4a5a7fdb95d1e9dc4550392c82d5358d776e" compoundref="d5/de0/a00050" startline="214">icSigSelectOp</references>
+        <references refid="dc/d8c/a01297_1ab3754fddf22c18661914dc452cc1cfbd" compoundref="d5/de0/a00050" startline="275">SIccOpState::pStack</references>
+        <references refid="d1/d1a/a01285_1a5497e30428937cf4a1492380f4a2b432" compoundref="d5/de0/a00050" startline="233">SIccCalcOp::sig</references>
+      </memberdef>
+      <memberdef kind="function" id="df/d29/a01329_1af894ec225fbd3ecdf1a46befa6a0e949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccConsoleDebugger::BeginApply</definition>
+        <argsstring>()</argsstring>
+        <name>BeginApply</name>
+        <qualifiedname>CIccConsoleDebugger::BeginApply</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1aeaa7d4a4120b42eb307ed17262238d25">BeginApply</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="94" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d29/a01329_1ae0d4599e6883ee928fa9a952e6fd68ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccConsoleDebugger::EndApply</definition>
+        <argsstring>()</argsstring>
+        <name>EndApply</name>
+        <qualifiedname>CIccConsoleDebugger::EndApply</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1a16d288faab94c18ab4a0638624b2b4ee">EndApply</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="99" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="99" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d29/a01329_1a743ae2aa440dc6b8d99fc28290e4fbd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccConsoleDebugger::Error</definition>
+        <argsstring>(const char *szMsg)</argsstring>
+        <name>Error</name>
+        <qualifiedname>CIccConsoleDebugger::Error</qualifiedname>
+        <reimplements refid="dd/d5d/a01325_1ad0ccf386782bd5b24d3446cd2bee398c">Error</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>szMsg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.cpp" line="143" column="16" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="143" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d5d/a01325_1a703f6f8acef15bb34a6c19dbc8b3aa2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IIccCalcDebugger::SetDebugger</definition>
+        <argsstring>(IIccCalcDebugger *pDebugger)</argsstring>
+        <name>SetDebugger</name>
+        <qualifiedname>IIccCalcDebugger::SetDebugger</qualifiedname>
+        <param>
+          <type><ref refid="dd/d5d/a01325" kindref="compound">IIccCalcDebugger</ref> *</type>
+          <declname>pDebugger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeCalc.h" line="546" column="15" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="157" bodyend="163"/>
+        <references refid="d9/d77/a00095_1abe9f888eb0b225fb67dc4b2e07a1f594" compoundref="d9/d77/a00095" startline="149">g_ConsoleDebugger</references>
+        <references refid="d9/d77/a00095_1af1e538bb71e14151ca446799994795bc" compoundref="d9/d77/a00095" startline="154">g_pDebugger</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CIccConsoleDebugger</label>
+        <link refid="df/d29/a01329"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccCalcDebugger</label>
+        <link refid="dd/d5d/a01325"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CIccConsoleDebugger</label>
+        <link refid="df/d29/a01329"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IIccCalcDebugger</label>
+        <link refid="dd/d5d/a01325"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccMpeCalc.cpp" line="88" column="1" bodyfile="IccProfLib/IccMpeCalc.cpp" bodystart="89" bodyend="147"/>
+    <listofallmembers>
+      <member refid="df/d29/a01329_1a6a36893b9e789e8c289972297a45f603" prot="public" virt="virtual"><scope>CIccConsoleDebugger</scope><name>AfterOp</name></member>
+      <member refid="df/d29/a01329_1ad131252183085b7a2848807419fd452c" prot="public" virt="virtual"><scope>CIccConsoleDebugger</scope><name>BeforeOp</name></member>
+      <member refid="df/d29/a01329_1af894ec225fbd3ecdf1a46befa6a0e949" prot="public" virt="virtual"><scope>CIccConsoleDebugger</scope><name>BeginApply</name></member>
+      <member refid="df/d29/a01329_1ae0d4599e6883ee928fa9a952e6fd68ff" prot="public" virt="virtual"><scope>CIccConsoleDebugger</scope><name>EndApply</name></member>
+      <member refid="df/d29/a01329_1a743ae2aa440dc6b8d99fc28290e4fbd4" prot="public" virt="virtual"><scope>CIccConsoleDebugger</scope><name>Error</name></member>
+      <member refid="dd/d5d/a01325_1a703f6f8acef15bb34a6c19dbc8b3aa2a" prot="public" virt="non-virtual"><scope>CIccConsoleDebugger</scope><name>SetDebugger</name></member>
+      <member refid="df/d29/a01329_1a4eb5cafe2bc3fffeef45c1ac435c5f92" prot="public" virt="virtual"><scope>CIccConsoleDebugger</scope><name>~CIccConsoleDebugger</name></member>
+      <member refid="dd/d5d/a01325_1a5518a7c0d9bf439d820c49c868393682" prot="public" virt="virtual"><scope>CIccConsoleDebugger</scope><name>~IIccCalcDebugger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

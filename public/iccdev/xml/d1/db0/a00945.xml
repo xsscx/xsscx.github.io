@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d1/db0/a00945" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>IIccEncProfileCacheHandler</compoundname>
+    <derivedcompoundref refid="d1/df7/a00957" prot="public" virt="non-virtual">CIccDefaultEncProfileCacheHandler</derivedcompoundref>
+    <includes refid="d3/dd5/a00215" local="no">IccEncoding.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/db0/a00945_1a3d71ca959aed1f79b0296e215d17b625" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual IIccEncProfileCacheHandler::~IIccEncProfileCacheHandler</definition>
+        <argsstring>()</argsstring>
+        <name>~IIccEncProfileCacheHandler</name>
+        <qualifiedname>IIccEncProfileCacheHandler::~IIccEncProfileCacheHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="86" column="11" bodyfile="IccProfLib/IccEncoding.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/db0/a00945_1a90f4cc15765e813843f6b6c85115afaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+        <definition>virtual CIccProfile * IIccEncProfileCacheHandler::GetEncodingProfile</definition>
+        <argsstring>(const icUChar *szColorSpaceName)=0</argsstring>
+        <name>GetEncodingProfile</name>
+        <qualifiedname>IIccEncProfileCacheHandler::GetEncodingProfile</qualifiedname>
+        <reimplementedby refid="d1/df7/a00957_1aa8c5c3fa23c4c8b747693148ddc5dd1c">GetEncodingProfile</reimplementedby>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a11ef650eb30d34d4f469f2c5db79aa50" kindref="member">icUChar</ref> *</type>
+          <declname>szColorSpaceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="87" column="23"/>
+        <referencedby refid="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" compoundref="de/d76/a00134" startline="538" endline="604">icConvertEncodingProfile</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/db0/a00945_1ad0c1572d1a530617c447045391e88074" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/db0/a00945" kindref="compound">IIccEncProfileCacheHandler</ref> *</type>
+        <definition>IIccEncProfileCacheHandler * IIccEncProfileCacheHandler::GetHandler</definition>
+        <argsstring>()</argsstring>
+        <name>GetHandler</name>
+        <qualifiedname>IIccEncProfileCacheHandler::GetHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="89" column="37" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="99" bodyend="105"/>
+        <references refid="d1/df7/a00957_1a4230714584e8991fa4e0d2b2c339d082" compoundref="de/d76/a00134" startline="85" endline="85">CIccDefaultEncProfileCacheHandler::CIccDefaultEncProfileCacheHandler</references>
+        <references refid="de/d76/a00134_1a5b0d83db7411cc720f0972c0848564de" compoundref="de/d76/a00134" startline="97">g_pEncProfileCacheHandler</references>
+        <referencedby refid="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" compoundref="de/d76/a00134" startline="538" endline="604">icConvertEncodingProfile</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/db0/a00945_1ac91ef77ad325f5fc805ad658da87a628" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IIccEncProfileCacheHandler::SetEncCacheHandler</definition>
+        <argsstring>(IIccEncProfileCacheHandler *pHandler)</argsstring>
+        <name>SetEncCacheHandler</name>
+        <qualifiedname>IIccEncProfileCacheHandler::SetEncCacheHandler</qualifiedname>
+        <param>
+          <type><ref refid="d1/db0/a00945" kindref="compound">IIccEncProfileCacheHandler</ref> *</type>
+          <declname>pHandler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccEncoding.h" line="90" column="15" bodyfile="IccProfLib/IccEncoding.cpp" bodystart="107" bodyend="115"/>
+        <references refid="de/d76/a00134_1a5b0d83db7411cc720f0972c0848564de" compoundref="de/d76/a00134" startline="97">g_pEncProfileCacheHandler</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccDefaultEncProfileCacheHandler</label>
+        <link refid="d1/df7/a00957"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IIccEncProfileCacheHandler</label>
+        <link refid="d1/db0/a00945"/>
+      </node>
+    </inheritancegraph>
+    <location file="IccProfLib/IccEncoding.h" line="83" column="1" bodyfile="IccProfLib/IccEncoding.h" bodystart="84" bodyend="91"/>
+    <listofallmembers>
+      <member refid="d1/db0/a00945_1a90f4cc15765e813843f6b6c85115afaf" prot="public" virt="pure-virtual"><scope>IIccEncProfileCacheHandler</scope><name>GetEncodingProfile</name></member>
+      <member refid="d1/db0/a00945_1ad0c1572d1a530617c447045391e88074" prot="public" virt="non-virtual"><scope>IIccEncProfileCacheHandler</scope><name>GetHandler</name></member>
+      <member refid="d1/db0/a00945_1ac91ef77ad325f5fc805ad658da87a628" prot="public" virt="non-virtual"><scope>IIccEncProfileCacheHandler</scope><name>SetEncCacheHandler</name></member>
+      <member refid="d1/db0/a00945_1a3d71ca959aed1f79b0296e215d17b625" prot="public" virt="virtual"><scope>IIccEncProfileCacheHandler</scope><name>~IIccEncProfileCacheHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

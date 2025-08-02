@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d6/d16/a01269" kind="struct" language="C++" prot="public">
+    <compoundname>MD5_CTX</compoundname>
+    <includes refid="df/dc8/a00122" local="no">IccMD5.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d16/a01269_1a2da73ecf544745f58211e998719f367f" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char MD5_CTX::buffer[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>buffer</name>
+        <qualifiedname>MD5_CTX::buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="55" column="17" bodyfile="IccProfLib/IccMD5.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="d7/d9a/a00152_1a6d3d8e3fdecab13c36a2d4f25cbe5381" compoundref="d7/d9a/a00152" startline="114" endline="145">icMD5Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d16/a01269_1a57bfa2c0108b976870e1b2faed3bad86" prot="public" static="no" mutable="no">
+        <type><ref refid="df/dc8/a00122_1a25c0f40abb1ec4a70b852253e026a49e" kindref="member">UINT4</ref></type>
+        <definition>UINT4 MD5_CTX::count[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>count</name>
+        <qualifiedname>MD5_CTX::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="54" column="9" bodyfile="IccProfLib/IccMD5.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="d7/d9a/a00152_1ab383f2ba95a1659496f2d624e3e5efc2" compoundref="d7/d9a/a00152" startline="150" endline="174">icMD5Final</referencedby>
+        <referencedby refid="d7/d9a/a00152_1acb9df5eecfe2fe6da5fb054f45c1db0d" compoundref="d7/d9a/a00152" startline="99" endline="108">icMD5Init</referencedby>
+        <referencedby refid="d7/d9a/a00152_1a6d3d8e3fdecab13c36a2d4f25cbe5381" compoundref="d7/d9a/a00152" startline="114" endline="145">icMD5Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d16/a01269_1a5738e98929af4093919c3216fafe76c8" prot="public" static="no" mutable="no">
+        <type><ref refid="df/dc8/a00122_1a25c0f40abb1ec4a70b852253e026a49e" kindref="member">UINT4</ref></type>
+        <definition>UINT4 MD5_CTX::state[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>state</name>
+        <qualifiedname>MD5_CTX::state</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMD5.h" line="53" column="9" bodyfile="IccProfLib/IccMD5.h" bodystart="53" bodyend="-1"/>
+        <referencedby refid="d7/d9a/a00152_1ab383f2ba95a1659496f2d624e3e5efc2" compoundref="d7/d9a/a00152" startline="150" endline="174">icMD5Final</referencedby>
+        <referencedby refid="d7/d9a/a00152_1acb9df5eecfe2fe6da5fb054f45c1db0d" compoundref="d7/d9a/a00152" startline="99" endline="108">icMD5Init</referencedby>
+        <referencedby refid="d7/d9a/a00152_1a6d3d8e3fdecab13c36a2d4f25cbe5381" compoundref="d7/d9a/a00152" startline="114" endline="145">icMD5Update</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>MD5 context. </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccMD5.h" line="52" column="1" bodyfile="IccProfLib/IccMD5.h" bodystart="52" bodyend="56"/>
+    <listofallmembers>
+      <member refid="d6/d16/a01269_1a2da73ecf544745f58211e998719f367f" prot="public" virt="non-virtual"><scope>MD5_CTX</scope><name>buffer</name></member>
+      <member refid="d6/d16/a01269_1a57bfa2c0108b976870e1b2faed3bad86" prot="public" virt="non-virtual"><scope>MD5_CTX</scope><name>count</name></member>
+      <member refid="d6/d16/a01269_1a5738e98929af4093919c3216fafe76c8" prot="public" virt="non-virtual"><scope>MD5_CTX</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

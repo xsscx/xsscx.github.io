@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d7/df1/a00705" kind="struct" language="C++" prot="public">
+    <compoundname>icTextDescriptionType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/df1/a00705_1a3668fbcc73f9350250cdc8f089d8578c" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icTextDescriptionType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icTextDescriptionType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1890" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/df1/a00705_1af06a8af28e6b8381c7917498d613ff28" prot="public" static="no" mutable="no">
+        <type><ref refid="db/d3f/a00609" kindref="compound">icTextDescription</ref></type>
+        <definition>icTextDescription icTextDescriptionType::desc</definition>
+        <argsstring></argsstring>
+        <name>desc</name>
+        <qualifiedname>icTextDescriptionType::desc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1891" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1891" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>textDescriptionType </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+      <node id="3">
+        <label>icTextDescription</label>
+        <link refid="db/d3f/a00609"/>
+      </node>
+      <node id="1">
+        <label>icTextDescriptionType</label>
+        <link refid="d7/df1/a00705"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>desc</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1889" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1889" bodyend="1892"/>
+    <listofallmembers>
+      <member refid="d7/df1/a00705_1a3668fbcc73f9350250cdc8f089d8578c" prot="public" virt="non-virtual"><scope>icTextDescriptionType</scope><name>base</name></member>
+      <member refid="d7/df1/a00705_1af06a8af28e6b8381c7917498d613ff28" prot="public" virt="non-virtual"><scope>icTextDescriptionType</scope><name>desc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1964 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/d02/a01149" kind="class" language="C++" prot="public">
+    <compoundname>CIccCLUT</compoundname>
+    <includes refid="da/d24/a00068" local="no">IccTagLut.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d8/d02/a01149_1ae9fe0f792783609826a5b8563f11dd70" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+        <definition>icColorSpaceSignature CIccCLUT::m_csInput</definition>
+        <argsstring></argsstring>
+        <name>m_csInput</name>
+        <qualifiedname>CIccCLUT::m_csInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="406" column="25" bodyfile="IccProfLib/IccTagLut.h" bodystart="406" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a7a6ff507569fa7b3b4d9037e955f6460" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+        <definition>icColorSpaceSignature CIccCLUT::m_csOutput</definition>
+        <argsstring></argsstring>
+        <name>m_csOutput</name>
+        <qualifiedname>CIccCLUT::m_csOutput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="406" column="35" bodyfile="IccProfLib/IccTagLut.h" bodystart="406" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::m_DimSize[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>m_DimSize</name>
+        <qualifiedname>CIccCLUT::m_DimSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="399" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="399" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2493c325865eb1f81e3ae79715014e27" compoundref="da/d24/a00068" startline="354" endline="354">GetDimSize</referencedby>
+        <referencedby refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+        <referencedby refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" compoundref="d4/d3e/a00116" startline="2069" endline="2112">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">SubIterate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a1b9823d767fd1836a66486ebfb34d80d" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CIccCLUT::m_fGridAdr[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>m_fGridAdr</name>
+        <qualifiedname>CIccCLUT::m_fGridAdr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="404" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="404" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" compoundref="d4/d3e/a00116" startline="2069" endline="2112">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">SubIterate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a30e16a4576a125e5ca31b647f732e8d4" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::m_GridAdr[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>m_GridAdr</name>
+        <qualifiedname>CIccCLUT::m_GridAdr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="403" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="403" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::m_GridPoints[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>m_GridPoints</name>
+        <qualifiedname>CIccCLUT::m_GridPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="396" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="396" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a9a0c0cde105baab7884f1c8f7dd55cdf" compoundref="da/d24/a00068" startline="350" endline="350">GridPoint</referencedby>
+        <referencedby refid="d8/d02/a01149_1ac11ebf5780c61dd1482b96dade593e1c" compoundref="da/d24/a00068" startline="351" endline="351">GridPointArray</referencedby>
+        <referencedby refid="d8/d02/a01149_1acca93aa550ae0782397cfee701695323" compoundref="da/d24/a00068" startline="349" endline="349">GridPoints</referencedby>
+        <referencedby refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1afaacdd60037b3ebf7682d55a45009a31" compoundref="d4/d3e/a00116" startline="1806" endline="1814">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" compoundref="d4/d3e/a00116" startline="2069" endline="2112">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" compoundref="d4/d3e/a00116" startline="1969" endline="1983">Read</referencedby>
+        <referencedby refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">SubIterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a20b9586e9c603687d1e36a6f75125380" compoundref="d4/d3e/a00116" startline="3098" endline="3127">Validate</referencedby>
+        <referencedby refid="d8/d02/a01149_1ae3219c66d5cad056ceb7b452246c106b" compoundref="d4/d3e/a00116" startline="1999" endline="2007">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::m_MaxGridPoint[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>m_MaxGridPoint</name>
+        <qualifiedname>CIccCLUT::m_MaxGridPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="409" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="409" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" compoundref="d4/d3e/a00116" startline="2428" endline="2459">Interp1d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">Interp2d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad548f0b923d46b0819db75fc93a3c336" compoundref="da/d24/a00068" startline="352" endline="352">MaxGridPoint</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::m_nInput</definition>
+        <argsstring></argsstring>
+        <name>m_nInput</name>
+        <qualifiedname>CIccCLUT::m_nInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="392" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="392" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0e017fe91f97b04ee7ac8d7ebdf69ee5" compoundref="da/d24/a00068" startline="356" endline="356">GetInputDim</referencedby>
+        <referencedby refid="d8/d02/a01149_1af5d5680c45af970ec254e32f06b15c41" compoundref="d4/d3e/a00116" startline="2403" endline="2416">GetNewApply</referencedby>
+        <referencedby refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1afaacdd60037b3ebf7682d55a45009a31" compoundref="d4/d3e/a00116" startline="1806" endline="1814">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+        <referencedby refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" compoundref="d4/d3e/a00116" startline="2069" endline="2112">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">SubIterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a20b9586e9c603687d1e36a6f75125380" compoundref="d4/d3e/a00116" startline="3098" endline="3127">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a73c73cf20065b8aecee15eea767e0993" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::m_nNodes</definition>
+        <argsstring></argsstring>
+        <name>m_nNodes</name>
+        <qualifiedname>CIccCLUT::m_nNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="414" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="414" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1af5d5680c45af970ec254e32f06b15c41" compoundref="d4/d3e/a00116" startline="2403" endline="2416">GetNewApply</referencedby>
+        <referencedby refid="d8/d02/a01149_1aaa1f7a6bcc146118621236acb69009c8" compoundref="da/d24/a00068" startline="359" endline="359">GetNumOffset</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1ab62d34f7cd753cb70fc9e35877d0001b" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::m_nNumPoints</definition>
+        <argsstring></argsstring>
+        <name>m_nNumPoints</name>
+        <qualifiedname>CIccCLUT::m_nNumPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="397" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="397" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">NumPoints</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref> *</type>
+        <definition>icUInt32Number* CIccCLUT::m_nOffset</definition>
+        <argsstring></argsstring>
+        <name>m_nOffset</name>
+        <qualifiedname>CIccCLUT::m_nOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="413" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="413" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1acfc05f7caea1190d708dbc5b750cdfca" compoundref="d4/d3e/a00116" startline="1786" endline="1794">~CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a3e47f5923e03cc7cef662ddcbe53bd22" compoundref="da/d24/a00068" startline="360" endline="360">GetOffset</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccCLUT::m_nOutput</definition>
+        <argsstring></argsstring>
+        <name>m_nOutput</name>
+        <qualifiedname>CIccCLUT::m_nOutput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="393" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="393" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a11c1f0a6f3f878840eaed3e00d1ce74e" compoundref="da/d24/a00068" startline="357" endline="357">GetOutputChannels</referencedby>
+        <referencedby refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" compoundref="d4/d3e/a00116" startline="2428" endline="2459">Interp1d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">Interp2d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" compoundref="d4/d3e/a00116" startline="1896" endline="1918">ReadData</referencedby>
+        <referencedby refid="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" compoundref="d4/d3e/a00116" startline="1936" endline="1952">WriteData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1af6e657d86673362586af87f4f59fd7a9" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::m_nPower[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>m_nPower</name>
+        <qualifiedname>CIccCLUT::m_nPower</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="414" column="27" bodyfile="IccProfLib/IccTagLut.h" bodystart="414" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::m_nPrecision</definition>
+        <argsstring></argsstring>
+        <name>m_nPrecision</name>
+        <qualifiedname>CIccCLUT::m_nPrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="394" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="394" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1af754b393a5e5570d67bf14daf759e335" compoundref="da/d24/a00068" startline="381" endline="381">GetPrecision</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" compoundref="d4/d3e/a00116" startline="1969" endline="1983">Read</referencedby>
+        <referencedby refid="d8/d02/a01149_1aa33a2b8078f4408eb02918676992f686" compoundref="da/d24/a00068" startline="382" endline="382">SetPrecision</referencedby>
+        <referencedby refid="d8/d02/a01149_1ae3219c66d5cad056ceb7b452246c106b" compoundref="d4/d3e/a00116" startline="1999" endline="2007">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::m_nReserved2[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>m_nReserved2</name>
+        <qualifiedname>CIccCLUT::m_nReserved2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="390" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="390" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" compoundref="d4/d3e/a00116" startline="1969" endline="1983">Read</referencedby>
+        <referencedby refid="d8/d02/a01149_1a20b9586e9c603687d1e36a6f75125380" compoundref="d4/d3e/a00116" startline="3098" endline="3127">Validate</referencedby>
+        <referencedby refid="d8/d02/a01149_1ae3219c66d5cad056ceb7b452246c106b" compoundref="d4/d3e/a00116" startline="1999" endline="2007">Write</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber* CIccCLUT::m_pData</definition>
+        <argsstring></argsstring>
+        <name>m_pData</name>
+        <qualifiedname>CIccCLUT::m_pData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="400" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="400" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1acfc05f7caea1190d708dbc5b750cdfca" compoundref="d4/d3e/a00116" startline="1786" endline="1794">~CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1aa42861bdf83a889cb2bb7dc8940ba325" compoundref="da/d24/a00068" startline="347" endline="347">GetData</referencedby>
+        <referencedby refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</referencedby>
+        <referencedby refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" compoundref="d4/d3e/a00116" startline="2428" endline="2459">Interp1d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">Interp2d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+        <referencedby refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" compoundref="d4/d3e/a00116" startline="2069" endline="2112">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="d8/d02/a01149_1a748e5a18f80c783743223138a6fbd732" compoundref="da/d24/a00068" startline="346" endline="346">operator[]</referencedby>
+        <referencedby refid="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" compoundref="d4/d3e/a00116" startline="1896" endline="1918">ReadData</referencedby>
+        <referencedby refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">SubIterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" compoundref="d4/d3e/a00116" startline="1936" endline="1952">WriteData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a7e6566e7a976992fa5e223e7a04ca42e" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>icChar* CIccCLUT::m_pOutText</definition>
+        <argsstring></argsstring>
+        <name>m_pOutText</name>
+        <qualifiedname>CIccCLUT::m_pOutText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="405" column="10" bodyfile="IccProfLib/IccTagLut.h" bodystart="405" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a46992a5304d56180b41c540d9155c14b" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>icChar * CIccCLUT::m_pVal</definition>
+        <argsstring></argsstring>
+        <name>m_pVal</name>
+        <qualifiedname>CIccCLUT::m_pVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="405" column="21" bodyfile="IccProfLib/IccTagLut.h" bodystart="405" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1aaa51f0b7b3ed13fc85b86cdcf48d87b0" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n000</definition>
+        <argsstring></argsstring>
+        <name>n000</name>
+        <qualifiedname>CIccCLUT::n000</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" compoundref="d4/d3e/a00116" startline="2428" endline="2459">Interp1d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">Interp2d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n001</definition>
+        <argsstring></argsstring>
+        <name>n001</name>
+        <qualifiedname>CIccCLUT::n001</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="23" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" compoundref="d4/d3e/a00116" startline="2428" endline="2459">Interp1d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">Interp2d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n010</definition>
+        <argsstring></argsstring>
+        <name>n010</name>
+        <qualifiedname>CIccCLUT::n010</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="28" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">Interp2d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a366acc22c96299c7758fc1dc39d4549c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n011</definition>
+        <argsstring></argsstring>
+        <name>n011</name>
+        <qualifiedname>CIccCLUT::n011</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="33" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">Interp2d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a983beaa7c80b78a2516ddadd9ada23ba" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n100</definition>
+        <argsstring></argsstring>
+        <name>n100</name>
+        <qualifiedname>CIccCLUT::n100</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="38" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1af84c1aea62acb50806d9a74b02d3dc69" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n1000</definition>
+        <argsstring></argsstring>
+        <name>n1000</name>
+        <qualifiedname>CIccCLUT::n1000</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="58" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1ad051fb96e2693d8da3d60843d6b19bc2" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n10000</definition>
+        <argsstring></argsstring>
+        <name>n10000</name>
+        <qualifiedname>CIccCLUT::n10000</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="64" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1af74fd80f596c9d9f1e8f8b01cf2d756e" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n100000</definition>
+        <argsstring></argsstring>
+        <name>n100000</name>
+        <qualifiedname>CIccCLUT::n100000</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="71" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1ae1d143c9184b2bf5d685bc1677ff5b9d" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n101</definition>
+        <argsstring></argsstring>
+        <name>n101</name>
+        <qualifiedname>CIccCLUT::n101</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="43" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a654f01822022d1c302d3a23091260bc8" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n110</definition>
+        <argsstring></argsstring>
+        <name>n110</name>
+        <qualifiedname>CIccCLUT::n110</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="48" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1aaea3cb230689bea7f774214c0634a899" prot="protected" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::n111</definition>
+        <argsstring></argsstring>
+        <name>n111</name>
+        <qualifiedname>CIccCLUT::n111</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="410" column="53" bodyfile="IccProfLib/IccTagLut.h" bodystart="410" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" compoundref="d4/d3e/a00116" startline="2221" endline="2400">Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" prot="protected" static="no" mutable="no">
+        <type><ref refid="da/d24/a00068_1a9d6608dd126f38291c16197e1fd35ac2" kindref="member">icCLUTCLIPFUNC</ref></type>
+        <definition>icCLUTCLIPFUNC CIccCLUT::UnitClip</definition>
+        <argsstring></argsstring>
+        <name>UnitClip</name>
+        <qualifiedname>CIccCLUT::UnitClip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="388" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="388" bodyend="-1"/>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" compoundref="d4/d3e/a00116" startline="1688" endline="1698">CIccCLUT</referencedby>
+        <referencedby refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" compoundref="d4/d3e/a00116" startline="2428" endline="2459">Interp1d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" compoundref="d4/d3e/a00116" startline="2472" endline="2514">Interp2d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" compoundref="d4/d3e/a00116" startline="2613" endline="2669">Interp3d</referencedby>
+        <referencedby refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" compoundref="d4/d3e/a00116" startline="2527" endline="2599">Interp3dTetra</referencedby>
+        <referencedby refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" compoundref="d4/d3e/a00116" startline="2683" endline="2756">Interp4d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" compoundref="d4/d3e/a00116" startline="2769" endline="2867">Interp5d</referencedby>
+        <referencedby refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" compoundref="d4/d3e/a00116" startline="2881" endline="3020">Interp6d</referencedby>
+        <referencedby refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" compoundref="d4/d3e/a00116" startline="3033" endline="3081">InterpND</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="d8/d02/a01149_1a15ef6c2b5eec45d969f5fba28f8ce31f" compoundref="da/d24/a00068" startline="379" endline="379">SetClipFunc</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCLUT::CIccCLUT</definition>
+        <argsstring>(const CIccCLUT &amp;ICLUT)</argsstring>
+        <name>CIccCLUT</name>
+        <qualifiedname>CIccCLUT::CIccCLUT</qualifiedname>
+        <param>
+          <type>const <ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref> &amp;</type>
+          <declname>ICLUT</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" kindref="member">CIccCLUT::CIccCLUT</ref></para>
+<para>Purpose: Copy Constructor</para>
+<para>Args: ICLUT = The <ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref> object to be copied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="329" column="3" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1711" bodyend="1733"/>
+        <references refid="d8/d02/a01149_1ae9fe0f792783609826a5b8563f11dd70" compoundref="da/d24/a00068" startline="406">m_csInput</references>
+        <references refid="d8/d02/a01149_1a7a6ff507569fa7b3b4d9037e955f6460" compoundref="da/d24/a00068" startline="406">m_csOutput</references>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+        <references refid="d8/d02/a01149_1a30e16a4576a125e5ca31b647f732e8d4" compoundref="da/d24/a00068" startline="403">m_GridAdr</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1ab62d34f7cd753cb70fc9e35877d0001b" compoundref="da/d24/a00068" startline="397">m_nNumPoints</references>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" compoundref="da/d24/a00068" startline="394">m_nPrecision</references>
+        <references refid="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" compoundref="da/d24/a00068" startline="390">m_nReserved2</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">NumPoints</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dc/d06/a01153_1a0b9cd5c3baf9c768877b946e1d503e7e" compoundref="d4/d3e/a00116" startline="3167" endline="3224">CIccMBB::CIccMBB</referencedby>
+        <referencedby refid="dd/dd5/a00861_1acd8979e1efe510c753cf181acf90be25" compoundref="d6/d2d/a00047" startline="5387" endline="5398">CIccMpeCLUT::CIccMpeCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1a1c0279ebcaf5a3bd806198bd0b00f914" compoundref="d5/de9/a00176" startline="824" endline="850">CIccMpeSpectralCLUT::CIccMpeSpectralCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1afdad40cbb945132cce5df3a75dc43ce3" compoundref="d5/de9/a00176" startline="862" endline="897">CIccMpeSpectralCLUT::copyData</referencedby>
+        <referencedby refid="dc/d06/a01153_1a52c9e35696f4a3069a6f0f251b70d8ee" compoundref="d4/d3e/a00116" startline="3237" endline="3301">CIccMBB::operator=</referencedby>
+        <referencedby refid="dd/dd5/a00861_1af54facf1bb77e97126f3fcf41d30ed2f" compoundref="d6/d2d/a00047" startline="5410" endline="5428">CIccMpeCLUT::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCLUT::CIccCLUT</definition>
+        <argsstring>(icUInt8Number nInputChannels, icUInt16Number nOutputChannels, icUInt8Number nPrecision=2)</argsstring>
+        <name>CIccCLUT</name>
+        <qualifiedname>CIccCLUT::CIccCLUT</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nInputChannels</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+          <declname>nOutputChannels</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nPrecision</declname>
+          <defval>2</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" kindref="member">CIccCLUT::CIccCLUT</ref></para>
+<para>Purpose: Constructor</para>
+<para>Args: nInputChannels = number of input channels, nOutputChannels = number of output channels </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="328" column="3" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1688" bodyend="1698"/>
+        <references refid="d4/d3e/a00116_1a847db3e114193885cd704d92dfa37a1d" compoundref="d4/d3e/a00116" startline="1605" endline="1613">ClutUnitClip</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" compoundref="da/d24/a00068" startline="394">m_nPrecision</references>
+        <references refid="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" compoundref="da/d24/a00068" startline="390">m_nReserved2</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+        <referencedby refid="dc/d06/a01153_1a24a533b0270bd3d24aa1cbd4a2f625fa" compoundref="d4/d3e/a00116" startline="3762" endline="3772">CIccMBB::NewCLUT</referencedby>
+        <referencedby refid="dc/d06/a01153_1aeae51e01af120d668c43f51ae55b53da" compoundref="d4/d3e/a00116" startline="3815" endline="3825">CIccMBB::NewCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1acfc05f7caea1190d708dbc5b750cdfca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>CIccCLUT::~CIccCLUT</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccCLUT</name>
+        <qualifiedname>CIccCLUT::~CIccCLUT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1acfc05f7caea1190d708dbc5b750cdfca" kindref="member">CIccCLUT::~CIccCLUT</ref></para>
+<para>Purpose: Destructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="331" column="11" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1786" bodyend="1794"/>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Begin</definition>
+        <argsstring>()</argsstring>
+        <name>Begin</name>
+        <qualifiedname>CIccCLUT::Begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" kindref="member">CIccCLUT::Begin</ref></para>
+<para>Purpose: Initializes the CLUT. Must be called before Apply(). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="363" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2221" bodyend="2400"/>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1a73c73cf20065b8aecee15eea767e0993" compoundref="da/d24/a00068" startline="414">m_nNodes</references>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+        <references refid="d8/d02/a01149_1af6e657d86673362586af87f4f59fd7a9" compoundref="da/d24/a00068" startline="414">m_nPower</references>
+        <references refid="d8/d02/a01149_1aaa51f0b7b3ed13fc85b86cdcf48d87b0" compoundref="da/d24/a00068" startline="410">n000</references>
+        <references refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" compoundref="da/d24/a00068" startline="410">n001</references>
+        <references refid="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" compoundref="da/d24/a00068" startline="410">n010</references>
+        <references refid="d8/d02/a01149_1a366acc22c96299c7758fc1dc39d4549c" compoundref="da/d24/a00068" startline="410">n011</references>
+        <references refid="d8/d02/a01149_1a983beaa7c80b78a2516ddadd9ada23ba" compoundref="da/d24/a00068" startline="410">n100</references>
+        <references refid="d8/d02/a01149_1af84c1aea62acb50806d9a74b02d3dc69" compoundref="da/d24/a00068" startline="410">n1000</references>
+        <references refid="d8/d02/a01149_1ad051fb96e2693d8da3d60843d6b19bc2" compoundref="da/d24/a00068" startline="410">n10000</references>
+        <references refid="d8/d02/a01149_1af74fd80f596c9d9f1e8f8b01cf2d756e" compoundref="da/d24/a00068" startline="410">n100000</references>
+        <references refid="d8/d02/a01149_1ae1d143c9184b2bf5d685bc1677ff5b9d" compoundref="da/d24/a00068" startline="410">n101</references>
+        <references refid="d8/d02/a01149_1a654f01822022d1c302d3a23091260bc8" compoundref="da/d24/a00068" startline="410">n110</references>
+        <references refid="d8/d02/a01149_1aaea3cb230689bea7f774214c0634a899" compoundref="da/d24/a00068" startline="410">n111</references>
+        <referencedby refid="dd/dd5/a00861_1a2e607aed63f076ff4b520f56089944e8" compoundref="d6/d2d/a00047" startline="5619" endline="5653">CIccMpeCLUT::Begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::DumpLut</definition>
+        <argsstring>(std::string &amp;sDescription, const icChar *szName, icColorSpaceSignature csInput, icColorSpaceSignature csOutput, int nVerboseness, bool bUseLegacy=false)</argsstring>
+        <name>DumpLut</name>
+        <qualifiedname>CIccCLUT::DumpLut</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>szName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>csInput</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>csOutput</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bUseLegacy</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" kindref="member">CIccCLUT::DumpLut</ref></para>
+<para>Purpose: Dump data associated with the tag to a string.</para>
+<para>Args: sDescription = string to concatenate tag dump to, szName = name of the LUT to be printed, csInput = color space signature of the input data, csOutput = color space signature of the output data nVerboseness = how verbose the output is (bigger = more verbose) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="342" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2157" bodyend="2209"/>
+        <references refid="d7/dce/a00143_1ae5635648d7a2a4b77f889781e5742ff7" compoundref="d5/db1/a00140" startline="295" endline="328">icColorIndexName</references>
+        <references refid="d7/dce/a00143_1a3eb2a6217a7330408f48f0c147d9ea23" compoundref="d5/db1/a00140" startline="330" endline="354">icColorValue</references>
+        <references refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</references>
+        <references refid="d8/d02/a01149_1ae9fe0f792783609826a5b8563f11dd70" compoundref="da/d24/a00068" startline="406">m_csInput</references>
+        <references refid="d8/d02/a01149_1a7a6ff507569fa7b3b4d9037e955f6460" compoundref="da/d24/a00068" startline="406">m_csOutput</references>
+        <references refid="d8/d02/a01149_1a30e16a4576a125e5ca31b647f732e8d4" compoundref="da/d24/a00068" startline="403">m_GridAdr</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1a7e6566e7a976992fa5e223e7a04ca42e" compoundref="da/d24/a00068" startline="405">m_pOutText</references>
+        <references refid="d8/d02/a01149_1a46992a5304d56180b41c540d9155c14b" compoundref="da/d24/a00068" startline="405">m_pVal</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">NumPoints</references>
+        <referencedby refid="dd/dd5/a00861_1a0c2d7c8b69e35f5c99d9103687c43ef7" compoundref="d6/d2d/a00047" startline="5479" endline="5484">CIccMpeCLUT::Describe</referencedby>
+        <referencedby refid="d3/db2/a00869_1a91d39dd0dfcf097f97aada8778585528" compoundref="d6/d2d/a00047" startline="5851" endline="5859">CIccMpeExtCLUT::Describe</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96cfa998b26454c096d4fe86b6b7efaa" compoundref="d5/de9/a00176" startline="971" endline="976">CIccMpeSpectralCLUT::Describe</referencedby>
+        <referencedby refid="dc/d06/a01153_1a30164c203eff281912c62009370f0650" compoundref="d4/d3e/a00116" startline="3444" endline="3515">CIccMBB::Describe</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1aa42861bdf83a889cb2bb7dc8940ba325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+        <definition>icFloatNumber * CIccCLUT::GetData</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetData</name>
+        <qualifiedname>CIccCLUT::GetData</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="347" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="347" bodyend="347"/>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a2493c325865eb1f81e3ae79715014e27" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::GetDimSize</definition>
+        <argsstring>(icUInt8Number nIndex) const</argsstring>
+        <name>GetDimSize</name>
+        <qualifiedname>CIccCLUT::GetDimSize</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="354" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="354" bodyend="354"/>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a0e017fe91f97b04ee7ac8d7ebdf69ee5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::GetInputDim</definition>
+        <argsstring>() const</argsstring>
+        <name>GetInputDim</name>
+        <qualifiedname>CIccCLUT::GetInputDim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="356" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="356" bodyend="356"/>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <referencedby refid="d9/d39/a00257_1ad5170248b277a4a29ceda7150dfe054c" compoundref="d5/d35/a00266" startline="485" endline="535">icCLUTDataToXml</referencedby>
+        <referencedby refid="dc/d06/a01153_1a3f28f022fea3853583b82184b35a2587" compoundref="d4/d3e/a00116" startline="3788" endline="3801">CIccMBB::SetCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" compoundref="d6/d2d/a00047" startline="5456" endline="5467">CIccMpeCLUT::SetCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1ab246a25f23eb9d6204685bfcfaa82375" compoundref="d5/de9/a00176" startline="932" endline="959">CIccMpeSpectralCLUT::SetData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1af5d5680c45af970ec254e32f06b15c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d9/d65/a01145" kindref="compound">CIccApplyCLUT</ref> *</type>
+        <definition>CIccApplyCLUT * CIccCLUT::GetNewApply</definition>
+        <argsstring>()</argsstring>
+        <name>GetNewApply</name>
+        <qualifiedname>CIccCLUT::GetNewApply</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="365" column="17" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2403" bodyend="2416"/>
+        <references refid="d9/d65/a01145_1a0c3ab95bb70a73658db4610846cd9f9c" compoundref="d4/d3e/a00116" startline="1623" endline="1629">CIccApplyCLUT::CIccApplyCLUT</references>
+        <references refid="d9/d65/a01145_1a65f8181225f079f5cf8d96c25178eaef" compoundref="d4/d3e/a00116" startline="1661" endline="1674">CIccApplyCLUT::Init</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1a73c73cf20065b8aecee15eea767e0993" compoundref="da/d24/a00068" startline="414">m_nNodes</references>
+        <referencedby refid="dd/dd5/a00861_1ae6dbc5e23dfb983719445609c76a3548" compoundref="d6/d2d/a00047" startline="5737" endline="5752">CIccMpeCLUT::GetNewApply</referencedby>
+        <referencedby refid="d4/d41/a01661_1afe075ef9aa97e1b1687a87062c83a040" compoundref="d5/de9/a00176" startline="1251" endline="1266">CIccMpeSpectralCLUT::GetNewApply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1aaa1f7a6bcc146118621236acb69009c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::GetNumOffset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumOffset</name>
+        <qualifiedname>CIccCLUT::GetNumOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="359" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="359" bodyend="359"/>
+        <references refid="d8/d02/a01149_1a73c73cf20065b8aecee15eea767e0993" compoundref="da/d24/a00068" startline="414">m_nNodes</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a3e47f5923e03cc7cef662ddcbe53bd22" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::GetOffset</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GetOffset</name>
+        <qualifiedname>CIccCLUT::GetOffset</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="360" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="360" bodyend="360"/>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a11c1f0a6f3f878840eaed3e00d1ce74e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a13b7fe380f7b096933ceaaa7a1e1e3ef" kindref="member">icUInt16Number</ref></type>
+        <definition>icUInt16Number CIccCLUT::GetOutputChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOutputChannels</name>
+        <qualifiedname>CIccCLUT::GetOutputChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="357" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="357" bodyend="357"/>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="d9/d39/a00257_1ad5170248b277a4a29ceda7150dfe054c" compoundref="d5/d35/a00266" startline="485" endline="535">icCLUTDataToXml</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/d06/a01153_1a3f28f022fea3853583b82184b35a2587" compoundref="d4/d3e/a00116" startline="3788" endline="3801">CIccMBB::SetCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" compoundref="d6/d2d/a00047" startline="5456" endline="5467">CIccMpeCLUT::SetCLUT</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1af754b393a5e5570d67bf14daf759e335" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::GetPrecision</definition>
+        <argsstring>()</argsstring>
+        <name>GetPrecision</name>
+        <qualifiedname>CIccCLUT::GetPrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="381" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="381" bodyend="381"/>
+        <references refid="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" compoundref="da/d24/a00068" startline="394">m_nPrecision</references>
+        <referencedby refid="d9/d39/a00257_1ad5170248b277a4a29ceda7150dfe054c" compoundref="d5/d35/a00266" startline="485" endline="535">icCLUTDataToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a9a0c0cde105baab7884f1c8f7dd55cdf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::GridPoint</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>GridPoint</name>
+        <qualifiedname>CIccCLUT::GridPoint</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="350" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="350" bodyend="350"/>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <referencedby refid="d9/d39/a00257_1ad5170248b277a4a29ceda7150dfe054c" compoundref="d5/d35/a00266" startline="485" endline="535">icCLUTDataToXml</referencedby>
+        <referencedby refid="d9/d39/a00257_1a8e60807f7d16227a24f22ad32623bf98" compoundref="d5/d35/a00266" startline="537" endline="557">icCLUTToXml</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1ac11ebf5780c61dd1482b96dade593e1c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref> *</type>
+        <definition>const icUInt8Number * CIccCLUT::GridPointArray</definition>
+        <argsstring>() const</argsstring>
+        <name>GridPointArray</name>
+        <qualifiedname>CIccCLUT::GridPointArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="351" column="23" bodyfile="IccProfLib/IccTagLut.h" bodystart="351" bodyend="351"/>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1acca93aa550ae0782397cfee701695323" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+        <definition>icUInt8Number CIccCLUT::GridPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>GridPoints</name>
+        <qualifiedname>CIccCLUT::GridPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="349" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="349" bodyend="349"/>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <referencedby refid="d3/d0b/a01253_1a4e78a74db74af56bcde82c7c3f4f7147" compoundref="d3/d8b/a00059" startline="82" endline="189">CIccEvalCompare::EvaluateProfile</referencedby>
+        <referencedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf" compoundref="d4/d3e/a00116" startline="4665" endline="4763">CIccTagLut8::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCLUT::Init</definition>
+        <argsstring>(const icUInt8Number *pGridPoints, icUInt32Number nMaxSize=0, icUInt8Number nBytesPerPoint=4)</argsstring>
+        <name>Init</name>
+        <qualifiedname>CIccCLUT::Init</qualifiedname>
+        <param>
+          <type>const <ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref> *</type>
+          <declname>pGridPoints</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nMaxSize</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nBytesPerPoint</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1afaacdd60037b3ebf7682d55a45009a31" kindref="member">CIccCLUT::Init</ref></para>
+<para>Purpose: Initializes and sets the size of the CLUT</para>
+<para>Args: pGridPoints = number of grid points in the CLUT </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="334" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1826" bodyend="1877"/>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1ab62d34f7cd753cb70fc9e35877d0001b" compoundref="da/d24/a00068" startline="397">m_nNumPoints</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" compoundref="da/d24/a00068" startline="390">m_nReserved2</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">NumPoints</references>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="d8/d02/a01149_1afaacdd60037b3ebf7682d55a45009a31" compoundref="d4/d3e/a00116" startline="1806" endline="1814">Init</referencedby>
+        <referencedby refid="dc/d06/a01153_1a24a533b0270bd3d24aa1cbd4a2f625fa" compoundref="d4/d3e/a00116" startline="3762" endline="3772">CIccMBB::NewCLUT</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" compoundref="d4/d3e/a00116" startline="1969" endline="1983">Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1afaacdd60037b3ebf7682d55a45009a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCLUT::Init</definition>
+        <argsstring>(icUInt8Number nGridPoints, icUInt32Number nMaxSize=0, icUInt8Number nBytesPerPoint=4)</argsstring>
+        <name>Init</name>
+        <qualifiedname>CIccCLUT::Init</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nGridPoints</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nMaxSize</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nBytesPerPoint</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1afaacdd60037b3ebf7682d55a45009a31" kindref="member">CIccCLUT::Init</ref></para>
+<para>Purpose: Initializes and sets the size of the CLUT</para>
+<para>Args: nGridPoints = number of grid points in the CLUT </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="333" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1806" bodyend="1814"/>
+        <references refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+        <referencedby refid="dc/d06/a01153_1aeae51e01af120d668c43f51ae55b53da" compoundref="d4/d3e/a00116" startline="3815" endline="3825">CIccMBB::NewCLUT</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Interp1d</definition>
+        <argsstring>(icFloatNumber *destPixel, const icFloatNumber *srcPixel) const</argsstring>
+        <name>Interp1d</name>
+        <qualifiedname>CIccCLUT::Interp1d</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>destPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" kindref="member">CIccCLUT::Interp1d</ref></para>
+<para>Purpose: One dimensional interpolation function</para>
+<para>Args: Pixel = Pixel value to be found in the CLUT. Also used to store the result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="367" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2428" bodyend="2459"/>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1aaa51f0b7b3ed13fc85b86cdcf48d87b0" compoundref="da/d24/a00068" startline="410">n000</references>
+        <references refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" compoundref="da/d24/a00068" startline="410">n001</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Interp2d</definition>
+        <argsstring>(icFloatNumber *destPixel, const icFloatNumber *srcPixel) const</argsstring>
+        <name>Interp2d</name>
+        <qualifiedname>CIccCLUT::Interp2d</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>destPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" kindref="member">CIccCLUT::Interp2d</ref></para>
+<para>Purpose: Two dimensional interpolation function</para>
+<para>Args: Pixel = Pixel value to be found in the CLUT. Also used to store the result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="368" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2472" bodyend="2514"/>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1aaa51f0b7b3ed13fc85b86cdcf48d87b0" compoundref="da/d24/a00068" startline="410">n000</references>
+        <references refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" compoundref="da/d24/a00068" startline="410">n001</references>
+        <references refid="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" compoundref="da/d24/a00068" startline="410">n010</references>
+        <references refid="d8/d02/a01149_1a366acc22c96299c7758fc1dc39d4549c" compoundref="da/d24/a00068" startline="410">n011</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Interp3d</definition>
+        <argsstring>(icFloatNumber *destPixel, const icFloatNumber *srcPixel) const</argsstring>
+        <name>Interp3d</name>
+        <qualifiedname>CIccCLUT::Interp3d</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>destPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" kindref="member">CIccCLUT::Interp3d</ref></para>
+<para>Purpose: Three dimensional interpolation function</para>
+<para>Args: Pixel = Pixel value to be found in the CLUT. Also used to store the result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="370" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2613" bodyend="2669"/>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1aaa51f0b7b3ed13fc85b86cdcf48d87b0" compoundref="da/d24/a00068" startline="410">n000</references>
+        <references refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" compoundref="da/d24/a00068" startline="410">n001</references>
+        <references refid="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" compoundref="da/d24/a00068" startline="410">n010</references>
+        <references refid="d8/d02/a01149_1a366acc22c96299c7758fc1dc39d4549c" compoundref="da/d24/a00068" startline="410">n011</references>
+        <references refid="d8/d02/a01149_1a983beaa7c80b78a2516ddadd9ada23ba" compoundref="da/d24/a00068" startline="410">n100</references>
+        <references refid="d8/d02/a01149_1ae1d143c9184b2bf5d685bc1677ff5b9d" compoundref="da/d24/a00068" startline="410">n101</references>
+        <references refid="d8/d02/a01149_1a654f01822022d1c302d3a23091260bc8" compoundref="da/d24/a00068" startline="410">n110</references>
+        <references refid="d8/d02/a01149_1aaea3cb230689bea7f774214c0634a899" compoundref="da/d24/a00068" startline="410">n111</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Interp3dTetra</definition>
+        <argsstring>(icFloatNumber *destPixel, const icFloatNumber *srcPixel) const</argsstring>
+        <name>Interp3dTetra</name>
+        <qualifiedname>CIccCLUT::Interp3dTetra</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>destPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" kindref="member">CIccCLUT::Interp3dTetra</ref></para>
+<para>Purpose: Tetrahedral interpolation function</para>
+<para>Args: Pixel = Pixel value to be found in the CLUT. Also used to store the result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="369" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2527" bodyend="2599"/>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1aaa51f0b7b3ed13fc85b86cdcf48d87b0" compoundref="da/d24/a00068" startline="410">n000</references>
+        <references refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" compoundref="da/d24/a00068" startline="410">n001</references>
+        <references refid="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" compoundref="da/d24/a00068" startline="410">n010</references>
+        <references refid="d8/d02/a01149_1a366acc22c96299c7758fc1dc39d4549c" compoundref="da/d24/a00068" startline="410">n011</references>
+        <references refid="d8/d02/a01149_1a983beaa7c80b78a2516ddadd9ada23ba" compoundref="da/d24/a00068" startline="410">n100</references>
+        <references refid="d8/d02/a01149_1ae1d143c9184b2bf5d685bc1677ff5b9d" compoundref="da/d24/a00068" startline="410">n101</references>
+        <references refid="d8/d02/a01149_1a654f01822022d1c302d3a23091260bc8" compoundref="da/d24/a00068" startline="410">n110</references>
+        <references refid="d8/d02/a01149_1aaea3cb230689bea7f774214c0634a899" compoundref="da/d24/a00068" startline="410">n111</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Interp4d</definition>
+        <argsstring>(icFloatNumber *destPixel, const icFloatNumber *srcPixel) const</argsstring>
+        <name>Interp4d</name>
+        <qualifiedname>CIccCLUT::Interp4d</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>destPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" kindref="member">CIccCLUT::Interp4d</ref></para>
+<para>Purpose: Four dimensional interpolation function</para>
+<para>Args: Pixel = Pixel value to be found in the CLUT. Also used to store the result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="371" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2683" bodyend="2756"/>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" compoundref="da/d24/a00068" startline="410">n001</references>
+        <references refid="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" compoundref="da/d24/a00068" startline="410">n010</references>
+        <references refid="d8/d02/a01149_1a983beaa7c80b78a2516ddadd9ada23ba" compoundref="da/d24/a00068" startline="410">n100</references>
+        <references refid="d8/d02/a01149_1af84c1aea62acb50806d9a74b02d3dc69" compoundref="da/d24/a00068" startline="410">n1000</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Interp5d</definition>
+        <argsstring>(icFloatNumber *destPixel, const icFloatNumber *srcPixel) const</argsstring>
+        <name>Interp5d</name>
+        <qualifiedname>CIccCLUT::Interp5d</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>destPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" kindref="member">CIccCLUT::Interp5d</ref></para>
+<para>Purpose: Five dimensional interpolation function</para>
+<para>Args: Pixel = Pixel value to be found in the CLUT. Also used to store the result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="372" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2769" bodyend="2867"/>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" compoundref="da/d24/a00068" startline="410">n001</references>
+        <references refid="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" compoundref="da/d24/a00068" startline="410">n010</references>
+        <references refid="d8/d02/a01149_1a983beaa7c80b78a2516ddadd9ada23ba" compoundref="da/d24/a00068" startline="410">n100</references>
+        <references refid="d8/d02/a01149_1af84c1aea62acb50806d9a74b02d3dc69" compoundref="da/d24/a00068" startline="410">n1000</references>
+        <references refid="d8/d02/a01149_1ad051fb96e2693d8da3d60843d6b19bc2" compoundref="da/d24/a00068" startline="410">n10000</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Interp6d</definition>
+        <argsstring>(icFloatNumber *destPixel, const icFloatNumber *srcPixel) const</argsstring>
+        <name>Interp6d</name>
+        <qualifiedname>CIccCLUT::Interp6d</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>destPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" kindref="member">CIccCLUT::Interp6d</ref></para>
+<para>Purpose: Six dimensional interpolation function</para>
+<para>Args: Pixel = Pixel value to be found in the CLUT. Also used to store the result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="373" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2881" bodyend="3020"/>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" compoundref="da/d24/a00068" startline="410">n001</references>
+        <references refid="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" compoundref="da/d24/a00068" startline="410">n010</references>
+        <references refid="d8/d02/a01149_1a983beaa7c80b78a2516ddadd9ada23ba" compoundref="da/d24/a00068" startline="410">n100</references>
+        <references refid="d8/d02/a01149_1af84c1aea62acb50806d9a74b02d3dc69" compoundref="da/d24/a00068" startline="410">n1000</references>
+        <references refid="d8/d02/a01149_1ad051fb96e2693d8da3d60843d6b19bc2" compoundref="da/d24/a00068" startline="410">n10000</references>
+        <references refid="d8/d02/a01149_1af74fd80f596c9d9f1e8f8b01cf2d756e" compoundref="da/d24/a00068" startline="410">n100000</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::InterpND</definition>
+        <argsstring>(icFloatNumber *destPixel, const icFloatNumber *srcPixel, CIccApplyCLUT *pApply) const</argsstring>
+        <name>InterpND</name>
+        <qualifiedname>CIccCLUT::InterpND</qualifiedname>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>destPixel</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>srcPixel</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/d65/a01145" kindref="compound">CIccApplyCLUT</ref> *</type>
+          <declname>pApply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" kindref="member">CIccCLUT::InterpND</ref></para>
+<para>Purpose: Generic N-dimensional interpolation function</para>
+<para>Args: Pixel = Pixel value to be found in the CLUT. Also used to store the result. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="374" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="3033" bodyend="3081"/>
+        <references refid="d9/d65/a01145_1a43a0a59cbc684f0ad06cea74b9bf390c" compoundref="da/d24/a00068" startline="313">CIccApplyCLUT::m_df</references>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+        <references refid="d9/d65/a01145_1a5953c1fce7a39480d7db12fd5277d730" compoundref="da/d24/a00068" startline="313">CIccApplyCLUT::m_g</references>
+        <references refid="d9/d65/a01145_1ad3236a791bf972172aab4cf2679b9d15" compoundref="da/d24/a00068" startline="314">CIccApplyCLUT::m_ig</references>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1a73c73cf20065b8aecee15eea767e0993" compoundref="da/d24/a00068" startline="414">m_nNodes</references>
+        <references refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" compoundref="da/d24/a00068" startline="413">m_nOffset</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1af6e657d86673362586af87f4f59fd7a9" compoundref="da/d24/a00068" startline="414">m_nPower</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d9/d65/a01145_1aa54b0528c2f9fd4cb42add01c19c2953" compoundref="da/d24/a00068" startline="313">CIccApplyCLUT::m_s</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dd/dd5/a00861_1aa509148618c073032617301e2d2b67c8" compoundref="d6/d2d/a00047" startline="5665" endline="5696">CIccMpeCLUT::Apply</referencedby>
+        <referencedby refid="d4/d41/a01661_1a725e5612cea17b6a154d777716dab0d3" compoundref="d5/de9/a00176" startline="1278" endline="1309">CIccMpeSpectralCLUT::Apply</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Iterate</definition>
+        <argsstring>(IIccCLUTExec *pExec)</argsstring>
+        <name>Iterate</name>
+        <qualifiedname>CIccCLUT::Iterate</qualifiedname>
+        <param>
+          <type><ref refid="de/df6/a01141" kindref="compound">IIccCLUTExec</ref> *</type>
+          <declname>pExec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" kindref="member">CIccCLUT::Iterate</ref></para>
+<para>Purpose: Iterate through the CLUT to get the data and execute PixelOp</para>
+<para>Args: pExec = pointer to the <ref refid="de/df6/a01141" kindref="compound">IIccCLUTExec</ref> object that implements the IIccCLUTExec::Apply() function </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="376" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2069" bodyend="2112"/>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+        <references refid="d8/d02/a01149_1a1b9823d767fd1836a66486ebfb34d80d" compoundref="da/d24/a00068" startline="404">m_fGridAdr</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="de/df6/a01141_1aaa5f4390b0993556fe12b631f5b14ab3">IIccCLUTExec::PixelOp</references>
+        <references refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">SubIterate</references>
+        <referencedby refid="d9/d39/a00257_1ad5170248b277a4a29ceda7150dfe054c" compoundref="d5/d35/a00266" startline="485" endline="535">icCLUTDataToXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1ad548f0b923d46b0819db75fc93a3c336" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::MaxGridPoint</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>MaxGridPoint</name>
+        <qualifiedname>CIccCLUT::MaxGridPoint</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="352" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="352" bodyend="352"/>
+        <references refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" compoundref="da/d24/a00068" startline="409">m_MaxGridPoint</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccCLUT::NumPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>NumPoints</name>
+        <qualifiedname>CIccCLUT::NumPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="348" column="18" bodyfile="IccProfLib/IccTagLut.h" bodystart="348" bodyend="348"/>
+        <references refid="d8/d02/a01149_1ab62d34f7cd753cb70fc9e35877d0001b" compoundref="da/d24/a00068" startline="397">m_nNumPoints</references>
+        <referencedby refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" compoundref="d4/d3e/a00116" startline="1711" endline="1733">CIccCLUT</referencedby>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+        <referencedby refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</referencedby>
+        <referencedby refid="dc/d84/a00338_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="dc/d84/a00338" startline="333" endline="455">main</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" compoundref="d4/d3e/a00116" startline="1746" endline="1774">operator=</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" compoundref="d4/d3e/a00116" startline="1896" endline="1918">ReadData</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a18ed8bd1452eaf5263b7dc212932f200" compoundref="d6/d2d/a00047" startline="5570" endline="5607">CIccMpeCLUT::Write</referencedby>
+        <referencedby refid="d3/db2/a00869_1af234887c4f2a0bf48962d932687756bf" compoundref="d6/d2d/a00047" startline="6012" endline="6077">CIccMpeExtCLUT::Write</referencedby>
+        <referencedby refid="d4/d41/a01661_1a7f65eb90011ed4416dc8cc882c249258" compoundref="d5/de9/a00176" startline="1135" endline="1239">CIccMpeSpectralCLUT::Write</referencedby>
+        <referencedby refid="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" compoundref="d4/d3e/a00116" startline="1936" endline="1952">WriteData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref> &amp;</type>
+        <definition>CIccCLUT &amp; CIccCLUT::operator=</definition>
+        <argsstring>(const CIccCLUT &amp;CLUTClass)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>CIccCLUT::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref> &amp;</type>
+          <declname>CLUTClass</declname>
+          <defname>CLUTTag</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" kindref="member">CIccCLUT::operator=</ref></para>
+<para>Purpose: Copy Operator</para>
+<para>Args: CLUTTag = The <ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref> object to be copied </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="330" column="12" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1746" bodyend="1774"/>
+        <references refid="d8/d02/a01149_1ae9fe0f792783609826a5b8563f11dd70" compoundref="da/d24/a00068" startline="406">m_csInput</references>
+        <references refid="d8/d02/a01149_1a7a6ff507569fa7b3b4d9037e955f6460" compoundref="da/d24/a00068" startline="406">m_csOutput</references>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+        <references refid="d8/d02/a01149_1a30e16a4576a125e5ca31b647f732e8d4" compoundref="da/d24/a00068" startline="403">m_GridAdr</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1ab62d34f7cd753cb70fc9e35877d0001b" compoundref="da/d24/a00068" startline="397">m_nNumPoints</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" compoundref="da/d24/a00068" startline="394">m_nPrecision</references>
+        <references refid="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" compoundref="da/d24/a00068" startline="390">m_nReserved2</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">NumPoints</references>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a748e5a18f80c783743223138a6fbd732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> &amp;</type>
+        <definition>icFloatNumber &amp; CIccCLUT::operator[]</definition>
+        <argsstring>(int index)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>CIccCLUT::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="346" column="17" bodyfile="IccProfLib/IccTagLut.h" bodystart="346" bodyend="346"/>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCLUT::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccCLUT::Read</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" kindref="member">CIccCLUT::Read</ref></para>
+<para>Purpose: Read in the tag contents into a data block</para>
+<para>Args: size - # of bytes in tag, pIO - IO object to read tag from</para>
+<para>Return: true = successful, false = failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="339" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1969" bodyend="1983"/>
+        <references refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" compoundref="d4/d3e/a00116" startline="1826" endline="1877">Init</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" compoundref="da/d24/a00068" startline="394">m_nPrecision</references>
+        <references refid="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" compoundref="da/d24/a00068" startline="390">m_nReserved2</references>
+        <references refid="dc/d2c/a00893_1a3a42fb785255dda8609fc46c83fe4f2c" compoundref="df/d6a/a00119" startline="104" endline="104">CIccIO::Read8</references>
+        <references refid="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" compoundref="d4/d3e/a00116" startline="1896" endline="1918">ReadData</references>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCLUT::ReadData</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO, icUInt8Number nPrecision)</argsstring>
+        <name>ReadData</name>
+        <qualifiedname>CIccCLUT::ReadData</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nPrecision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" kindref="member">CIccCLUT::ReadData</ref></para>
+<para>Purpose: Reads the CLUT data points into the data buffer</para>
+<para>Args: size = # of bytes in the tag, pIO = IO object to read data from, nPrecision = data precision (8bit encoded as 1 or 16bit encoded as 2)</para>
+<para>Return: true = data read succesfully, false = read data failed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="336" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1896" bodyend="1918"/>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">NumPoints</references>
+        <references refid="dc/d2c/a00893_1aa610de49d9918d4e354710b04491ae44" compoundref="d9/d2e/a00056" startline="236" endline="250">CIccIO::ReadUInt16Float</references>
+        <references refid="dc/d2c/a00893_1a684b306f5069d36794d70afe2662e660" compoundref="d9/d2e/a00056" startline="203" endline="217">CIccIO::ReadUInt8Float</references>
+        <referencedby refid="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" compoundref="d4/d3e/a00116" startline="1969" endline="1983">Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a15ef6c2b5eec45d969f5fba28f8ce31f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::SetClipFunc</definition>
+        <argsstring>(icCLUTCLIPFUNC ClipFunc)</argsstring>
+        <name>SetClipFunc</name>
+        <qualifiedname>CIccCLUT::SetClipFunc</qualifiedname>
+        <param>
+          <type><ref refid="da/d24/a00068_1a9d6608dd126f38291c16197e1fd35ac2" kindref="member">icCLUTCLIPFUNC</ref></type>
+          <declname>ClipFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="379" column="8" bodyfile="IccProfLib/IccTagLut.h" bodystart="379" bodyend="379"/>
+        <references refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" compoundref="da/d24/a00068" startline="388">UnitClip</references>
+        <referencedby refid="dc/dec/a01669_1abd2af6e3f7e074f5f41a9e22c8caef6f" compoundref="d5/de9/a00176" startline="1421" endline="1505">CIccMpeEmissionCLUT::Begin</referencedby>
+        <referencedby refid="d9/df5/a01673_1aa42f17a44494af2c0961bd7cc547b9a1" compoundref="d5/de9/a00176" startline="1518" endline="1645">CIccMpeReflectanceCLUT::Begin</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a61f8836ed80bc26fd12e3d4bec192a4e" compoundref="d6/d2d/a00047" startline="5496" endline="5558">CIccMpeCLUT::Read</referencedby>
+        <referencedby refid="d3/db2/a00869_1a7138c6f2ff1468a913f25f4541563df2" compoundref="d6/d2d/a00047" startline="5899" endline="6000">CIccMpeExtCLUT::Read</referencedby>
+        <referencedby refid="d4/d41/a01661_1a96aa003ad7068ce86d980d851e0fec41" compoundref="d5/de9/a00176" startline="989" endline="1123">CIccMpeSpectralCLUT::Read</referencedby>
+        <referencedby refid="dd/dd5/a00861_1a5287eea70f23fa9ae77284464f0b7906" compoundref="d6/d2d/a00047" startline="5456" endline="5467">CIccMpeCLUT::SetCLUT</referencedby>
+        <referencedby refid="d4/d41/a01661_1ab246a25f23eb9d6204685bfcfaa82375" compoundref="d5/de9/a00176" startline="932" endline="959">CIccMpeSpectralCLUT::SetData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1aa33a2b8078f4408eb02918676992f686" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::SetPrecision</definition>
+        <argsstring>(icUInt8Number nPrecision)</argsstring>
+        <name>SetPrecision</name>
+        <qualifiedname>CIccCLUT::SetPrecision</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nPrecision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="382" column="8" bodyfile="IccProfLib/IccTagLut.h" bodystart="382" bodyend="382"/>
+        <references refid="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" compoundref="da/d24/a00068" startline="394">m_nPrecision</references>
+        <referencedby refid="dd/dd7/a00260_1a7c5a7e91d27be931c8067c38c7f17ea6" compoundref="d0/d27/a00239" startline="3327" endline="3791">icCLutFromXml</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a20b9586e9c603687d1e36a6f75125380" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccCLUT::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccProfile *pProfile=NULL) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccCLUT::Validate</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a20b9586e9c603687d1e36a6f75125380" kindref="member">CIccCLUT::Validate</ref></para>
+<para>Purpose: Check tag data validity.</para>
+<para>Args: sig = signature of tag being validated, sReport = String to add report information to</para>
+<para>Return: icValidateStatusOK if valid, or other error status. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="377" column="20" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="3098" bodyend="3127"/>
+        <references refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">CIccInfo::GetSigPathName</references>
+        <references refid="d7/dce/a00143_1a22fb34562b025b5016fe60b480b83805" compoundref="d5/db1/a00140" startline="1201" endline="1218">icGetFirstSigPathSig</references>
+        <references refid="d7/dce/a00143_1ac477e5adbd54aa6e7dcfe9125bc7e44f" compoundref="d5/db1/a00140" startline="244" endline="249">icMaxStatus</references>
+        <references refid="d7/dce/a00143_1aa1bd59040ac26f5314f409e295cf9162" compoundref="d5/db1/a00140" startline="92">icMsgValidateCriticalError</references>
+        <references refid="d7/dce/a00143_1afc544e4cf29049a9dade4afa39fe5583" compoundref="d5/db1/a00140" startline="91">icMsgValidateNonCompliant</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddeaf6c346a4129d5338fe280bb905753416" compoundref="d7/d46/a00002" startline="546">icSigLutAtoBType</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea66f3d51d8644296e35c92fa5ccc71927" compoundref="d7/d46/a00002" startline="547">icSigLutBtoAType</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a371bf9a02d77f4dd8f339b4f4fff51c3" compoundref="d4/d81/a00110" startline="122">icValidateCriticalError</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964afb5bd0ed92cee1ec73bc11b9f50a7e19" compoundref="d4/d81/a00110" startline="121">icValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" compoundref="da/d24/a00068" startline="390">m_nReserved2</references>
+        <referencedby refid="dc/d06/a01153_1a8ee5ed15873b9957a76e8aad99c16c39" compoundref="d4/d3e/a00116" startline="3532" endline="3662">CIccMBB::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1ae3219c66d5cad056ceb7b452246c106b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCLUT::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccCLUT::Write</qualifiedname>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1ae3219c66d5cad056ceb7b452246c106b" kindref="member">CIccCLUT::Write</ref></para>
+<para>Purpose: Write the tag to a file</para>
+<para>Args: pIO - The IO object to write tag to.</para>
+<para>Return: true = succesful, false = failure </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="340" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1999" bodyend="2007"/>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" compoundref="da/d24/a00068" startline="394">m_nPrecision</references>
+        <references refid="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" compoundref="da/d24/a00068" startline="390">m_nReserved2</references>
+        <references refid="dc/d2c/a00893_1a24fbc228df298a644aceefc37cfab40e" compoundref="df/d6a/a00119" startline="105" endline="105">CIccIO::Write8</references>
+        <references refid="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" compoundref="d4/d3e/a00116" startline="1936" endline="1952">WriteData</references>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCLUT::WriteData</definition>
+        <argsstring>(CIccIO *pIO, icUInt8Number nPrecision)</argsstring>
+        <name>WriteData</name>
+        <qualifiedname>CIccCLUT::WriteData</qualifiedname>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nPrecision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" kindref="member">CIccCLUT::WriteData</ref></para>
+<para>Purpose: Writes the CLUT data points from the data buffer</para>
+<para>Args: pIO = IO object to write data to, nPrecision = data precision (8bit encoded as 1 or 16bit encoded as 2)</para>
+<para>Return: true = data written succesfully, false = write operation failed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="337" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="1936" bodyend="1952"/>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" compoundref="da/d24/a00068" startline="348" endline="348">NumPoints</references>
+        <references refid="dc/d2c/a00893_1afd87a27fcc9a6871151f9c07e1721bae" compoundref="d9/d2e/a00056" startline="252" endline="267">CIccIO::WriteUInt16Float</references>
+        <references refid="dc/d2c/a00893_1aa2873808c28b4bc36d5f5ff60c54e817" compoundref="d9/d2e/a00056" startline="219" endline="234">CIccIO::WriteUInt8Float</references>
+        <referencedby refid="d8/d02/a01149_1ae3219c66d5cad056ceb7b452246c106b" compoundref="d4/d3e/a00116" startline="1999" endline="2007">Write</referencedby>
+        <referencedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf" compoundref="d4/d3e/a00116" startline="4665" endline="4763">CIccTagLut8::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::Iterate</definition>
+        <argsstring>(std::string &amp;sDescription, icUInt8Number nIndex, icUInt32Number nPos, bool bUseLegacy=false)</argsstring>
+        <name>Iterate</name>
+        <qualifiedname>CIccCLUT::Iterate</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nPos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bUseLegacy</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" kindref="member">CIccCLUT::Iterate</ref></para>
+<para>Purpose: Iterate through the CLUT to dump the data</para>
+<para>Args: sDescription = string to concatenate data dump to, nIndex = the channel number, nPos = the current position in the CLUT </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="385" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2022" bodyend="2054"/>
+        <references refid="d7/dce/a00143_1a3eb2a6217a7330408f48f0c147d9ea23" compoundref="d5/db1/a00140" startline="330" endline="354">icColorValue</references>
+        <references refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</references>
+        <references refid="d8/d02/a01149_1ae9fe0f792783609826a5b8563f11dd70" compoundref="da/d24/a00068" startline="406">m_csInput</references>
+        <references refid="d8/d02/a01149_1a7a6ff507569fa7b3b4d9037e955f6460" compoundref="da/d24/a00068" startline="406">m_csOutput</references>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+        <references refid="d8/d02/a01149_1a30e16a4576a125e5ca31b647f732e8d4" compoundref="da/d24/a00068" startline="403">m_GridAdr</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" compoundref="da/d24/a00068" startline="393">m_nOutput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="d8/d02/a01149_1a7e6566e7a976992fa5e223e7a04ca42e" compoundref="da/d24/a00068" startline="405">m_pOutText</references>
+        <references refid="d8/d02/a01149_1a46992a5304d56180b41c540d9155c14b" compoundref="da/d24/a00068" startline="405">m_pVal</references>
+        <referencedby refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" compoundref="d4/d3e/a00116" startline="2157" endline="2209">DumpLut</referencedby>
+        <referencedby refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" compoundref="d4/d3e/a00116" startline="2022" endline="2054">Iterate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCLUT::SubIterate</definition>
+        <argsstring>(IIccCLUTExec *pExec, icUInt8Number nIndex, icUInt32Number nPos)</argsstring>
+        <name>SubIterate</name>
+        <qualifiedname>CIccCLUT::SubIterate</qualifiedname>
+        <param>
+          <type><ref refid="de/df6/a01141" kindref="compound">IIccCLUTExec</ref> *</type>
+          <declname>pExec</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" kindref="member">CIccCLUT::SubIterate</ref></para>
+<para>Purpose: Iterate through the CLUT to get the data</para>
+<para>Args: pExec = pointer to the <ref refid="de/df6/a01141" kindref="compound">IIccCLUTExec</ref> object that implements the IIccCLUTExec::Apply() function, nIndex = the channel number, nPos = the current position in the CLUT </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagLut.h" line="386" column="8" bodyfile="IccProfLib/IccTagLut.cpp" bodystart="2129" bodyend="2141"/>
+        <references refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" compoundref="da/d24/a00068" startline="399">m_DimSize</references>
+        <references refid="d8/d02/a01149_1a1b9823d767fd1836a66486ebfb34d80d" compoundref="da/d24/a00068" startline="404">m_fGridAdr</references>
+        <references refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" compoundref="da/d24/a00068" startline="396">m_GridPoints</references>
+        <references refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" compoundref="da/d24/a00068" startline="392">m_nInput</references>
+        <references refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" compoundref="da/d24/a00068" startline="400">m_pData</references>
+        <references refid="de/df6/a01141_1aaa5f4390b0993556fe12b631f5b14ab3">IIccCLUTExec::PixelOp</references>
+        <references refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">SubIterate</references>
+        <referencedby refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" compoundref="d4/d3e/a00116" startline="2069" endline="2112">Iterate</referencedby>
+        <referencedby refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" compoundref="d4/d3e/a00116" startline="2129" endline="2141">SubIterate</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d8/d02/a01149" kindref="compound">CIccCLUT</ref></para>
+<para>Purpose: The base multidimensional color look-up table (CLUT) class </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccTagLut.h" line="325" column="1" bodyfile="IccProfLib/IccTagLut.h" bodystart="326" bodyend="415"/>
+    <listofallmembers>
+      <member refid="d8/d02/a01149_1a1a4121908bdd7c014666626601e836c7" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Begin</name></member>
+      <member refid="d8/d02/a01149_1a5ca68cccc55f99adcf011186a6ed2615" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>CIccCLUT</name></member>
+      <member refid="d8/d02/a01149_1aae0b5e8fce2eebab6b3de194c0881b63" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>CIccCLUT</name></member>
+      <member refid="d8/d02/a01149_1a3055bb38530146cdd1f50ac311ff8792" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>DumpLut</name></member>
+      <member refid="d8/d02/a01149_1aa42861bdf83a889cb2bb7dc8940ba325" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GetData</name></member>
+      <member refid="d8/d02/a01149_1a2493c325865eb1f81e3ae79715014e27" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GetDimSize</name></member>
+      <member refid="d8/d02/a01149_1a0e017fe91f97b04ee7ac8d7ebdf69ee5" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GetInputDim</name></member>
+      <member refid="d8/d02/a01149_1af5d5680c45af970ec254e32f06b15c41" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GetNewApply</name></member>
+      <member refid="d8/d02/a01149_1aaa1f7a6bcc146118621236acb69009c8" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GetNumOffset</name></member>
+      <member refid="d8/d02/a01149_1a3e47f5923e03cc7cef662ddcbe53bd22" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GetOffset</name></member>
+      <member refid="d8/d02/a01149_1a11c1f0a6f3f878840eaed3e00d1ce74e" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GetOutputChannels</name></member>
+      <member refid="d8/d02/a01149_1af754b393a5e5570d67bf14daf759e335" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GetPrecision</name></member>
+      <member refid="d8/d02/a01149_1a9a0c0cde105baab7884f1c8f7dd55cdf" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GridPoint</name></member>
+      <member refid="d8/d02/a01149_1ac11ebf5780c61dd1482b96dade593e1c" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GridPointArray</name></member>
+      <member refid="d8/d02/a01149_1acca93aa550ae0782397cfee701695323" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>GridPoints</name></member>
+      <member refid="d8/d02/a01149_1afaacdd60037b3ebf7682d55a45009a31" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Init</name></member>
+      <member refid="d8/d02/a01149_1a98ecac13b9537465c0b69aa7bf477437" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Init</name></member>
+      <member refid="d8/d02/a01149_1af824f7a0ee36eae9716d0231b6ee480a" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Interp1d</name></member>
+      <member refid="d8/d02/a01149_1a2042509842499c7f04e37b5bd0029062" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Interp2d</name></member>
+      <member refid="d8/d02/a01149_1a2321412eb59372f80f2908c9489ee029" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Interp3d</name></member>
+      <member refid="d8/d02/a01149_1ad274b9ef0a5064c06b382a64c7b8b56a" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Interp3dTetra</name></member>
+      <member refid="d8/d02/a01149_1a0086ebf3ecc12cfe1349fda4393e7f85" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Interp4d</name></member>
+      <member refid="d8/d02/a01149_1a630b21b225591c40d80f96578ba8c8e3" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Interp5d</name></member>
+      <member refid="d8/d02/a01149_1a22f01522d52493302a69a82ab1c45c49" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Interp6d</name></member>
+      <member refid="d8/d02/a01149_1af934c46f43e34a2ae800cdce054ccb52" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>InterpND</name></member>
+      <member refid="d8/d02/a01149_1a6daf6407801422f20ec2a70b60651ce4" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Iterate</name></member>
+      <member refid="d8/d02/a01149_1a59e91ed7b36decf67a550454fce3b50c" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>Iterate</name></member>
+      <member refid="d8/d02/a01149_1ae9fe0f792783609826a5b8563f11dd70" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_csInput</name></member>
+      <member refid="d8/d02/a01149_1a7a6ff507569fa7b3b4d9037e955f6460" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_csOutput</name></member>
+      <member refid="d8/d02/a01149_1a2b22bbb2117db7f077cb7bda9591a30d" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_DimSize</name></member>
+      <member refid="d8/d02/a01149_1a1b9823d767fd1836a66486ebfb34d80d" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_fGridAdr</name></member>
+      <member refid="d8/d02/a01149_1a30e16a4576a125e5ca31b647f732e8d4" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_GridAdr</name></member>
+      <member refid="d8/d02/a01149_1afe8c63f4be942183fc3e1e9ec58c0166" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_GridPoints</name></member>
+      <member refid="d8/d02/a01149_1a1b7c144d2fb546b949ffa72142d8d26c" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_MaxGridPoint</name></member>
+      <member refid="d8/d02/a01149_1a42b4210226214e456c559ea45f30d909" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_nInput</name></member>
+      <member refid="d8/d02/a01149_1a73c73cf20065b8aecee15eea767e0993" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_nNodes</name></member>
+      <member refid="d8/d02/a01149_1ab62d34f7cd753cb70fc9e35877d0001b" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_nNumPoints</name></member>
+      <member refid="d8/d02/a01149_1acc3ed1eea6e77ba3318bb0c91bfaf6a7" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_nOffset</name></member>
+      <member refid="d8/d02/a01149_1a98e772a1ac2d0199b4c30011f777483b" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_nOutput</name></member>
+      <member refid="d8/d02/a01149_1af6e657d86673362586af87f4f59fd7a9" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_nPower</name></member>
+      <member refid="d8/d02/a01149_1a747efeceace3cff787124c412dcd39ec" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_nPrecision</name></member>
+      <member refid="d8/d02/a01149_1ad4d9513a30128ed7f4f9f9390649c605" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_nReserved2</name></member>
+      <member refid="d8/d02/a01149_1afb96269187e645eaaa5e4c5e261b52c8" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_pData</name></member>
+      <member refid="d8/d02/a01149_1a7e6566e7a976992fa5e223e7a04ca42e" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_pOutText</name></member>
+      <member refid="d8/d02/a01149_1a46992a5304d56180b41c540d9155c14b" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>m_pVal</name></member>
+      <member refid="d8/d02/a01149_1ad548f0b923d46b0819db75fc93a3c336" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>MaxGridPoint</name></member>
+      <member refid="d8/d02/a01149_1aaa51f0b7b3ed13fc85b86cdcf48d87b0" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n000</name></member>
+      <member refid="d8/d02/a01149_1ab11d8b6e431b52c218f58490098c0708" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n001</name></member>
+      <member refid="d8/d02/a01149_1a89b653dab44df825c06d5b9614e627d1" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n010</name></member>
+      <member refid="d8/d02/a01149_1a366acc22c96299c7758fc1dc39d4549c" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n011</name></member>
+      <member refid="d8/d02/a01149_1a983beaa7c80b78a2516ddadd9ada23ba" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n100</name></member>
+      <member refid="d8/d02/a01149_1af84c1aea62acb50806d9a74b02d3dc69" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n1000</name></member>
+      <member refid="d8/d02/a01149_1ad051fb96e2693d8da3d60843d6b19bc2" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n10000</name></member>
+      <member refid="d8/d02/a01149_1af74fd80f596c9d9f1e8f8b01cf2d756e" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n100000</name></member>
+      <member refid="d8/d02/a01149_1ae1d143c9184b2bf5d685bc1677ff5b9d" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n101</name></member>
+      <member refid="d8/d02/a01149_1a654f01822022d1c302d3a23091260bc8" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n110</name></member>
+      <member refid="d8/d02/a01149_1aaea3cb230689bea7f774214c0634a899" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>n111</name></member>
+      <member refid="d8/d02/a01149_1a815d091583440220135b3e99fed15f08" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>NumPoints</name></member>
+      <member refid="d8/d02/a01149_1a59073702a27cd15c61c689140c694836" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>operator=</name></member>
+      <member refid="d8/d02/a01149_1a748e5a18f80c783743223138a6fbd732" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>operator[]</name></member>
+      <member refid="d8/d02/a01149_1adde9844a61e4370af7f0eef6c4badc88" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Read</name></member>
+      <member refid="d8/d02/a01149_1ac211b59ec245499ac8cd426c57fb2e1e" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>ReadData</name></member>
+      <member refid="d8/d02/a01149_1a15ef6c2b5eec45d969f5fba28f8ce31f" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>SetClipFunc</name></member>
+      <member refid="d8/d02/a01149_1aa33a2b8078f4408eb02918676992f686" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>SetPrecision</name></member>
+      <member refid="d8/d02/a01149_1a81d2bebd09f892c33086468ec0d5a2a6" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>SubIterate</name></member>
+      <member refid="d8/d02/a01149_1a09cf25ee5d1fff0b79ae6b2a4d3cbb8a" prot="protected" virt="non-virtual"><scope>CIccCLUT</scope><name>UnitClip</name></member>
+      <member refid="d8/d02/a01149_1a20b9586e9c603687d1e36a6f75125380" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Validate</name></member>
+      <member refid="d8/d02/a01149_1ae3219c66d5cad056ceb7b452246c106b" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>Write</name></member>
+      <member refid="d8/d02/a01149_1a78313fc47d2ecde554d384e0246b6d05" prot="public" virt="non-virtual"><scope>CIccCLUT</scope><name>WriteData</name></member>
+      <member refid="d8/d02/a01149_1acfc05f7caea1190d708dbc5b750cdfca" prot="public" virt="virtual"><scope>CIccCLUT</scope><name>~CIccCLUT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d8/db2/a02125" kind="class" language="C++" prot="public">
+    <compoundname>CIccCfgColorData</compoundname>
+    <includes refid="dc/d50/a00332" local="no">IccCmmConfig.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" prot="public" static="no" mutable="no">
+        <type><ref refid="dc/d50/a00332_1a3334e5050aac21be9e76313cc1f2a326" kindref="member">CIccCfgDataEntryList</ref></type>
+        <definition>CIccCfgDataEntryList CIccCfgColorData::m_data</definition>
+        <argsstring></argsstring>
+        <name>m_data</name>
+        <qualifiedname>CIccCfgColorData::m_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="188" column="22" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="188" bodyend="-1"/>
+        <referencedby refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" compoundref="d8/d23/a00326" startline="1090" endline="1362">fromIt8</referencedby>
+        <referencedby refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" compoundref="d8/d23/a00326" startline="1364" endline="1399">fromJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1a16c5c855a20c0ed7793ad0492891b95b" compoundref="d8/d23/a00326" startline="979" endline="1061">fromLegacy</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+        <referencedby refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</referencedby>
+        <referencedby refid="d8/db2/a02125_1a26b6f4e3187f15b43d6ca42f88cbcdf5" compoundref="d8/d23/a00326" startline="1594" endline="1754">toIt8</referencedby>
+        <referencedby refid="d8/db2/a02125_1a80a3b1b4d42b4963d93973e3dd63e105" compoundref="d8/d23/a00326" startline="1756" endline="1778">toJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1adb55e5301ce7976543f09c36889edcfa" compoundref="d8/d23/a00326" startline="1401" endline="1496">toLegacy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/db2/a02125_1a9e3a4746dfdc5a73ad356b73613351af" prot="public" static="no" mutable="no">
+        <type>icFloatColorEncoding</type>
+        <definition>icFloatColorEncoding CIccCfgColorData::m_encoding</definition>
+        <argsstring></argsstring>
+        <name>m_encoding</name>
+        <qualifiedname>CIccCfgColorData::m_encoding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="183" column="22" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="183" bodyend="-1"/>
+        <referencedby refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" compoundref="d8/d23/a00326" startline="1364" endline="1399">fromJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1a16c5c855a20c0ed7793ad0492891b95b" compoundref="d8/d23/a00326" startline="979" endline="1061">fromLegacy</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+        <referencedby refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</referencedby>
+        <referencedby refid="d8/db2/a02125_1a80a3b1b4d42b4963d93973e3dd63e105" compoundref="d8/d23/a00326" startline="1756" endline="1778">toJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1adb55e5301ce7976543f09c36889edcfa" compoundref="d8/d23/a00326" startline="1401" endline="1496">toLegacy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/db2/a02125_1ad517b049063d5dde8a2b6aac56c8f895" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+        <definition>icColorSpaceSignature CIccCfgColorData::m_space</definition>
+        <argsstring></argsstring>
+        <name>m_space</name>
+        <qualifiedname>CIccCfgColorData::m_space</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="182" column="23" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="182" bodyend="-1"/>
+        <referencedby refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" compoundref="d8/d23/a00326" startline="1090" endline="1362">fromIt8</referencedby>
+        <referencedby refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" compoundref="d8/d23/a00326" startline="1364" endline="1399">fromJson</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+        <referencedby refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</referencedby>
+        <referencedby refid="d8/db2/a02125_1a26b6f4e3187f15b43d6ca42f88cbcdf5" compoundref="d8/d23/a00326" startline="1594" endline="1754">toIt8</referencedby>
+        <referencedby refid="d8/db2/a02125_1a80a3b1b4d42b4963d93973e3dd63e105" compoundref="d8/d23/a00326" startline="1756" endline="1778">toJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1adb55e5301ce7976543f09c36889edcfa" compoundref="d8/d23/a00326" startline="1401" endline="1496">toLegacy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/db2/a02125_1a1b8e5ed1f700cf1183adaf40565e9187" prot="public" static="no" mutable="no">
+        <type>icFloatColorEncoding</type>
+        <definition>icFloatColorEncoding CIccCfgColorData::m_srcEncoding</definition>
+        <argsstring></argsstring>
+        <name>m_srcEncoding</name>
+        <qualifiedname>CIccCfgColorData::m_srcEncoding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="186" column="22" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="186" bodyend="-1"/>
+        <referencedby refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" compoundref="d8/d23/a00326" startline="1364" endline="1399">fromJson</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+        <referencedby refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</referencedby>
+        <referencedby refid="d8/db2/a02125_1a80a3b1b4d42b4963d93973e3dd63e105" compoundref="d8/d23/a00326" startline="1756" endline="1778">toJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1adb55e5301ce7976543f09c36889edcfa" compoundref="d8/d23/a00326" startline="1401" endline="1496">toLegacy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+        <definition>icColorSpaceSignature CIccCfgColorData::m_srcSpace</definition>
+        <argsstring></argsstring>
+        <name>m_srcSpace</name>
+        <qualifiedname>CIccCfgColorData::m_srcSpace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="185" column="23" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="185" bodyend="-1"/>
+        <referencedby refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" compoundref="d8/d23/a00326" startline="1090" endline="1362">fromIt8</referencedby>
+        <referencedby refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" compoundref="d8/d23/a00326" startline="1364" endline="1399">fromJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1a16c5c855a20c0ed7793ad0492891b95b" compoundref="d8/d23/a00326" startline="979" endline="1061">fromLegacy</referencedby>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+        <referencedby refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</referencedby>
+        <referencedby refid="d8/db2/a02125_1a26b6f4e3187f15b43d6ca42f88cbcdf5" compoundref="d8/d23/a00326" startline="1594" endline="1754">toIt8</referencedby>
+        <referencedby refid="d8/db2/a02125_1a80a3b1b4d42b4963d93973e3dd63e105" compoundref="d8/d23/a00326" startline="1756" endline="1778">toJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1adb55e5301ce7976543f09c36889edcfa" compoundref="d8/d23/a00326" startline="1401" endline="1496">toLegacy</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/db2/a02125_1ad1cc620457a98a3c34630ca65ad59396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccCfgColorData::CIccCfgColorData</definition>
+        <argsstring>()</argsstring>
+        <name>CIccCfgColorData</name>
+        <qualifiedname>CIccCfgColorData::CIccCfgColorData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="170" column="3" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="896" bodyend="899"/>
+        <references refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1a63f08c81f39a0d4482614a5ff6395697" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CIccCfgColorData::~CIccCfgColorData</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccCfgColorData</name>
+        <qualifiedname>CIccCfgColorData::~CIccCfgColorData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="171" column="9" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCfgColorData::fromIt8</definition>
+        <argsstring>(const char *filename, bool bReset=false)</argsstring>
+        <name>fromIt8</name>
+        <qualifiedname>CIccCfgColorData::fromIt8</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bReset</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="175" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="1090" bodyend="1362"/>
+        <references refid="d7/d2d/a02145_1a7faaf93aa34134352710848544cacdb4" compoundref="d8/d23/a00326" startline="884" endline="890">CIccIt8Parser::findTokenLine</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac5ad31bfd82d421d33be30f0a68b4661" compoundref="d7/d46/a00002" startline="855">icSigCmykData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" compoundref="d7/d46/a00002" startline="847">icSigLabData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aa23b5cd6907746734b71b3a5eb2034f3" compoundref="d7/d46/a00002" startline="873">icSigNamedData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac8919c5ac8fc3849f57bf7fd2fc1d70a" compoundref="d7/d46/a00002" startline="891">icSigNChannelData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad0e9fe12d5f79f3a3b8b15be31288a30" compoundref="d7/d46/a00002" startline="851">icSigRgbData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7030370eb0ee02671895978dc61858d8" compoundref="d7/d46/a00002" startline="846">icSigXYZData</references>
+        <references refid="d7/d2d/a02145_1afca6d12e2efeebf3654fbf0d9dcca444" compoundref="d8/d23/a00326" startline="842" endline="842">CIccIt8Parser::isEOF</references>
+        <references refid="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" compoundref="dc/d50/a00332" startline="188">m_data</references>
+        <references refid="d6/d3b/a02121_1a7128bcf7665b459d588008bda03bb8d1" compoundref="dc/d50/a00332" startline="159">CIccCfgDataEntry::m_index</references>
+        <references refid="d6/d3b/a02121_1a8ab18b45d2019468dc54c8f4d2a6a201" compoundref="dc/d50/a00332" startline="160">CIccCfgDataEntry::m_label</references>
+        <references refid="d6/d3b/a02121_1adeab0cf5611dc106ab63cc63b6f264ae" compoundref="dc/d50/a00332" startline="155">CIccCfgDataEntry::m_name</references>
+        <references refid="d8/db2/a02125_1ad517b049063d5dde8a2b6aac56c8f895" compoundref="dc/d50/a00332" startline="182">m_space</references>
+        <references refid="d6/d3b/a02121_1a38c5058d881a54b3827c6be24db8db37" compoundref="dc/d50/a00332" startline="157">CIccCfgDataEntry::m_srcName</references>
+        <references refid="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" compoundref="dc/d50/a00332" startline="185">m_srcSpace</references>
+        <references refid="d6/d3b/a02121_1a1b2a2f8b1bcd3232c3a72add5dcc70e6" compoundref="dc/d50/a00332" startline="158">CIccCfgDataEntry::m_srcValues</references>
+        <references refid="d6/d3b/a02121_1a8d0fe6407e88840d0fed9a219594e81c" compoundref="dc/d50/a00332" startline="156">CIccCfgDataEntry::m_values</references>
+        <references refid="d2/da0/a02149_1acac8d83ec61ba89881df253d0ddc28cd" compoundref="d8/d23/a00326" startline="1072">CIccIndexValue::nIndex</references>
+        <references refid="d7/d2d/a02145_1a1ccacd3c54ce080d3fd06b5d68bfb371" compoundref="d8/d23/a00326" startline="836" endline="841">CIccIt8Parser::open</references>
+        <references refid="d7/d2d/a02145_1abcf1274cbca0838a94bbe190508271be" compoundref="d8/d23/a00326" startline="876" endline="882">CIccIt8Parser::parseNextLine</references>
+        <references refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</references>
+        <references refid="d8/d23/a00326_1ae276d740f87d71c81f6b57f5b579e559" compoundref="d8/d23/a00326" startline="1080" endline="1088">setSampleIndex</references>
+        <references refid="d2/da0/a02149_1a6466d569c9ded3e7714a661ca796c2ae" compoundref="d8/d23/a00326" startline="1074">CIccIndexValue::space</references>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCfgColorData::fromJson</definition>
+        <argsstring>(json obj, bool bReset=false)</argsstring>
+        <name>fromJson</name>
+        <qualifiedname>CIccCfgColorData::fromJson</qualifiedname>
+        <param>
+          <type><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bReset</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="176" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="1364" bodyend="1399"/>
+        <references refid="d6/d3b/a02121_1a4b06d5de03639308b6c9e0394829e111" compoundref="d8/d23/a00326" startline="1796" endline="1816">CIccCfgDataEntry::fromJson</references>
+        <references refid="d8/d23/a00326_1aff117b675bae07cf51310bc27298c403" compoundref="d8/d23/a00326" startline="112" endline="122">icSetJsonColorEncoding</references>
+        <references refid="dd/d4e/a00329_1a825829a545b125b794248ed18a2c3012" compoundref="de/d55/a00323" startline="379" endline="391">jsonToColorSpace</references>
+        <references refid="dd/d4e/a00329_1a9e557563ac390d47119184276e65ae9f" compoundref="de/d55/a00323" startline="200" endline="208">jsonToValue</references>
+        <references refid="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" compoundref="dc/d50/a00332" startline="188">m_data</references>
+        <references refid="d8/db2/a02125_1a9e3a4746dfdc5a73ad356b73613351af" compoundref="dc/d50/a00332" startline="183">m_encoding</references>
+        <references refid="d8/db2/a02125_1ad517b049063d5dde8a2b6aac56c8f895" compoundref="dc/d50/a00332" startline="182">m_space</references>
+        <references refid="d8/db2/a02125_1a1b8e5ed1f700cf1183adaf40565e9187" compoundref="dc/d50/a00332" startline="186">m_srcEncoding</references>
+        <references refid="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" compoundref="dc/d50/a00332" startline="185">m_srcSpace</references>
+        <references refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1a16c5c855a20c0ed7793ad0492891b95b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCfgColorData::fromLegacy</definition>
+        <argsstring>(const char *filename, bool bReset=false)</argsstring>
+        <name>fromLegacy</name>
+        <qualifiedname>CIccCfgColorData::fromLegacy</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bReset</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="174" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="979" bodyend="1061"/>
+        <references refid="d6/d3b/a02121_1aa5d9e4211e52bc04c3e48b71f35082e3" compoundref="d8/d23/a00326" startline="1780" endline="1783">CIccCfgDataEntry::CIccCfgDataEntry</references>
+        <references refid="d4/d53/a00429_1a913e7eb5f85235f9df5fcc1c0835d09a" compoundref="d5/db1/a00140" startline="2596" endline="2604">CIccPixelBuf::CIccPixelBuf</references>
+        <references refid="d7/dce/a00143_1a3a009765ea132eda6aadf6bedbf10e2d" compoundref="d5/db1/a00140" startline="1258" endline="1300">icGetSigVal</references>
+        <references refid="d7/dce/a00143_1a719dc0d47f230294e78ac9c8cbc91a89" compoundref="d5/db1/a00140" startline="1303" endline="1365">icGetSpaceSamples</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aa23b5cd6907746734b71b3a5eb2034f3" compoundref="d7/d46/a00002" startline="873">icSigNamedData</references>
+        <references refid="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" compoundref="dc/d50/a00332" startline="188">m_data</references>
+        <references refid="d8/db2/a02125_1a9e3a4746dfdc5a73ad356b73613351af" compoundref="dc/d50/a00332" startline="183">m_encoding</references>
+        <references refid="d6/d3b/a02121_1adeab0cf5611dc106ab63cc63b6f264ae" compoundref="dc/d50/a00332" startline="155">CIccCfgDataEntry::m_name</references>
+        <references refid="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" compoundref="dc/d50/a00332" startline="185">m_srcSpace</references>
+        <references refid="d6/d3b/a02121_1a8d0fe6407e88840d0fed9a219594e81c" compoundref="dc/d50/a00332" startline="156">CIccCfgDataEntry::m_values</references>
+        <references refid="d4/d53/a00429_1a01be9601e6d7b3f86d9e58be12af03cc" compoundref="d7/dce/a00143" startline="379" endline="379">CIccPixelBuf::operator[]</references>
+        <references refid="d8/d23/a00326_1a35bc78663994e6c7e00e4baa9eb0723b" compoundref="d8/d23/a00326" startline="957" endline="976">ParseName</references>
+        <references refid="d8/d23/a00326_1a0d5a7ac1d0f2248311c4de992cf5bc0e" compoundref="d8/d23/a00326" startline="936" endline="953">ParseNextNumber</references>
+        <references refid="d8/d23/a00326_1ad784822a75bc0ba2a7beefb5dddd0887" compoundref="d8/d23/a00326" startline="912" endline="934">ParseNumbers</references>
+        <references refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" compoundref="d8/d23/a00326" startline="901" endline="910">reset</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCfgColorData::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>CIccCfgColorData::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="173" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="901" bodyend="910"/>
+        <references refid="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" compoundref="dc/d50/a00332" startline="188">m_data</references>
+        <references refid="d8/db2/a02125_1a9e3a4746dfdc5a73ad356b73613351af" compoundref="dc/d50/a00332" startline="183">m_encoding</references>
+        <references refid="d8/db2/a02125_1ad517b049063d5dde8a2b6aac56c8f895" compoundref="dc/d50/a00332" startline="182">m_space</references>
+        <references refid="d8/db2/a02125_1a1b8e5ed1f700cf1183adaf40565e9187" compoundref="dc/d50/a00332" startline="186">m_srcEncoding</references>
+        <references refid="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" compoundref="dc/d50/a00332" startline="185">m_srcSpace</references>
+        <referencedby refid="d8/db2/a02125_1ad1cc620457a98a3c34630ca65ad59396" compoundref="d8/d23/a00326" startline="896" endline="899">CIccCfgColorData</referencedby>
+        <referencedby refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" compoundref="d8/d23/a00326" startline="1090" endline="1362">fromIt8</referencedby>
+        <referencedby refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" compoundref="d8/d23/a00326" startline="1364" endline="1399">fromJson</referencedby>
+        <referencedby refid="d8/db2/a02125_1a16c5c855a20c0ed7793ad0492891b95b" compoundref="d8/d23/a00326" startline="979" endline="1061">fromLegacy</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1a26b6f4e3187f15b43d6ca42f88cbcdf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCfgColorData::toIt8</definition>
+        <argsstring>(const char *filename, icUInt8Number nDigits, icUInt8Number nPrecision)</argsstring>
+        <name>toIt8</name>
+        <qualifiedname>CIccCfgColorData::toIt8</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nDigits</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nPrecision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="178" column="8" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="1594" bodyend="1754"/>
+        <references refid="d8/db2/a02125_1a28cdcf353c3dfdff513b41ff163815fd" compoundref="d8/d23/a00326" startline="1525" endline="1592">addFields</references>
+        <references refid="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" compoundref="dc/d50/a00332" startline="188">m_data</references>
+        <references refid="d6/d3b/a02121_1a7128bcf7665b459d588008bda03bb8d1" compoundref="dc/d50/a00332" startline="159">CIccCfgDataEntry::m_index</references>
+        <references refid="d6/d3b/a02121_1a8ab18b45d2019468dc54c8f4d2a6a201" compoundref="dc/d50/a00332" startline="160">CIccCfgDataEntry::m_label</references>
+        <references refid="d6/d3b/a02121_1adeab0cf5611dc106ab63cc63b6f264ae" compoundref="dc/d50/a00332" startline="155">CIccCfgDataEntry::m_name</references>
+        <references refid="d8/db2/a02125_1ad517b049063d5dde8a2b6aac56c8f895" compoundref="dc/d50/a00332" startline="182">m_space</references>
+        <references refid="d6/d3b/a02121_1a38c5058d881a54b3827c6be24db8db37" compoundref="dc/d50/a00332" startline="157">CIccCfgDataEntry::m_srcName</references>
+        <references refid="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" compoundref="dc/d50/a00332" startline="185">m_srcSpace</references>
+        <references refid="d6/d3b/a02121_1a1b2a2f8b1bcd3232c3a72add5dcc70e6" compoundref="dc/d50/a00332" startline="158">CIccCfgDataEntry::m_srcValues</references>
+        <references refid="d6/d3b/a02121_1a8d0fe6407e88840d0fed9a219594e81c" compoundref="dc/d50/a00332" startline="156">CIccCfgDataEntry::m_values</references>
+        <references refid="d8/db2/a02125_1a7ed37df9c7e4f03221a04c58bfb9a25a" compoundref="d8/d23/a00326" startline="1498" endline="1523">spaceName</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1a80a3b1b4d42b4963d93973e3dd63e105" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCfgColorData::toJson</definition>
+        <argsstring>(json &amp;obj) const</argsstring>
+        <name>toJson</name>
+        <qualifiedname>CIccCfgColorData::toJson</qualifiedname>
+        <param>
+          <type><ref refid="dd/d4e/a00329_1ab701e3ac61a85b337ec5c1abaad6742d" kindref="member">json</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="180" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="1756" bodyend="1778"/>
+        <references refid="d7/dce/a00143_1afba0058b0369309aa83134b2437ce717" compoundref="d5/db1/a00140" startline="1139" endline="1188">icGetColorSigStr</references>
+        <references refid="d8/d23/a00326_1afcd895a06394d184cbb89e2ca084606d" compoundref="d8/d23/a00326" startline="77" endline="105">icGetJsonFloatColorEncoding</references>
+        <references refid="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" compoundref="dc/d50/a00332" startline="188">m_data</references>
+        <references refid="d8/db2/a02125_1a9e3a4746dfdc5a73ad356b73613351af" compoundref="dc/d50/a00332" startline="183">m_encoding</references>
+        <references refid="d8/db2/a02125_1ad517b049063d5dde8a2b6aac56c8f895" compoundref="dc/d50/a00332" startline="182">m_space</references>
+        <references refid="d8/db2/a02125_1a1b8e5ed1f700cf1183adaf40565e9187" compoundref="dc/d50/a00332" startline="186">m_srcEncoding</references>
+        <references refid="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" compoundref="dc/d50/a00332" startline="185">m_srcSpace</references>
+        <references refid="d6/d3b/a02121_1afbc8dee5fbb1f974184bc91747d6f782" compoundref="d8/d23/a00326" startline="1818" endline="1838">CIccCfgDataEntry::toJson</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1adb55e5301ce7976543f09c36889edcfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccCfgColorData::toLegacy</definition>
+        <argsstring>(const char *filename, CIccCfgProfileSequence *pProfiles, icUInt8Number nDigits, icUInt8Number nPrecision, bool bShowDebug=false)</argsstring>
+        <name>toLegacy</name>
+        <qualifiedname>CIccCfgColorData::toLegacy</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d79/a02117" kindref="compound">CIccCfgProfileSequence</ref> *</type>
+          <declname>pProfiles</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nDigits</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nPrecision</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bShowDebug</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="177" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="1401" bodyend="1496"/>
+        <references refid="d7/dce/a00143_1a3f58bacb05f9bc76fc02474128e72113" compoundref="d5/db1/a00140" startline="1088" endline="1136">icGetColorSig</references>
+        <references refid="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" compoundref="dc/d50/a00332" startline="188">m_data</references>
+        <references refid="d6/d3b/a02121_1ab657ff0fe94f16e9edcb2aafd57a6996" compoundref="dc/d50/a00332" startline="161">CIccCfgDataEntry::m_debugInfo</references>
+        <references refid="d8/db2/a02125_1a9e3a4746dfdc5a73ad356b73613351af" compoundref="dc/d50/a00332" startline="183">m_encoding</references>
+        <references refid="d8/dc6/a02113_1a7b4b29dfcfd259dd40eba88c1d547148" compoundref="dc/d50/a00332" startline="114">CIccCfgProfile::m_iccFile</references>
+        <references refid="d6/d3b/a02121_1adeab0cf5611dc106ab63cc63b6f264ae" compoundref="dc/d50/a00332" startline="155">CIccCfgDataEntry::m_name</references>
+        <references refid="d8/dc6/a02113_1abb21518a641c6abfc122c565f1792e40" compoundref="dc/d50/a00332" startline="118">CIccCfgProfile::m_pccFile</references>
+        <references refid="d0/d79/a02117_1a4381b69cc0b5f0f9e9739ef41a97745e" compoundref="dc/d50/a00332" startline="142">CIccCfgProfileSequence::m_profiles</references>
+        <references refid="d8/db2/a02125_1ad517b049063d5dde8a2b6aac56c8f895" compoundref="dc/d50/a00332" startline="182">m_space</references>
+        <references refid="d8/db2/a02125_1a1b8e5ed1f700cf1183adaf40565e9187" compoundref="dc/d50/a00332" startline="186">m_srcEncoding</references>
+        <references refid="d6/d3b/a02121_1a38c5058d881a54b3827c6be24db8db37" compoundref="dc/d50/a00332" startline="157">CIccCfgDataEntry::m_srcName</references>
+        <references refid="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" compoundref="dc/d50/a00332" startline="185">m_srcSpace</references>
+        <references refid="d6/d3b/a02121_1a1b2a2f8b1bcd3232c3a72add5dcc70e6" compoundref="dc/d50/a00332" startline="158">CIccCfgDataEntry::m_srcValues</references>
+        <references refid="d6/d3b/a02121_1a8d0fe6407e88840d0fed9a219594e81c" compoundref="dc/d50/a00332" startline="156">CIccCfgDataEntry::m_values</references>
+        <referencedby refid="d3/d93/a00341_1ac0f2228420376f4db7e1274f2b41667c" compoundref="d3/d93/a00341" startline="234" endline="610">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d8/db2/a02125_1a28cdcf353c3dfdff513b41ff163815fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccCfgColorData::addFields</definition>
+        <argsstring>(std::string &amp;dataFormat, int &amp;nFields, int &amp;nSamples, icColorSpaceSignature sig, std::string prefix)</argsstring>
+        <name>addFields</name>
+        <qualifiedname>CIccCfgColorData::addFields</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>dataFormat</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>nFields</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>nSamples</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="192" column="6" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="1525" bodyend="1592"/>
+        <references refid="d7/dce/a00143_1a719dc0d47f230294e78ac9c8cbc91a89" compoundref="d5/db1/a00140" startline="1303" endline="1365">icGetSpaceSamples</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af20259a5702129c41fd08e21c7e94a74" compoundref="d7/d46/a00002" startline="856">icSigCmyData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac5ad31bfd82d421d33be30f0a68b4661" compoundref="d7/d46/a00002" startline="855">icSigCmykData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" compoundref="d7/d46/a00002" startline="847">icSigLabData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aa23b5cd6907746734b71b3a5eb2034f3" compoundref="d7/d46/a00002" startline="873">icSigNamedData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad0e9fe12d5f79f3a3b8b15be31288a30" compoundref="d7/d46/a00002" startline="851">icSigRgbData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7030370eb0ee02671895978dc61858d8" compoundref="d7/d46/a00002" startline="846">icSigXYZData</references>
+        <referencedby refid="d8/db2/a02125_1a26b6f4e3187f15b43d6ca42f88cbcdf5" compoundref="d8/d23/a00326" startline="1594" endline="1754">toIt8</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d8/db2/a02125_1a7ed37df9c7e4f03221a04c58bfb9a25a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string CIccCfgColorData::spaceName</definition>
+        <argsstring>(icColorSpaceSignature sig)</argsstring>
+        <name>spaceName</name>
+        <qualifiedname>CIccCfgColorData::spaceName</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="191" column="13" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.cpp" bodystart="1498" bodyend="1523"/>
+        <references refid="d7/dce/a00143_1a719dc0d47f230294e78ac9c8cbc91a89" compoundref="d5/db1/a00140" startline="1303" endline="1365">icGetSpaceSamples</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917af20259a5702129c41fd08e21c7e94a74" compoundref="d7/d46/a00002" startline="856">icSigCmyData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ac5ad31bfd82d421d33be30f0a68b4661" compoundref="d7/d46/a00002" startline="855">icSigCmykData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a0925d8599ecad36e7cc572c5ba1cd07f" compoundref="d7/d46/a00002" startline="847">icSigLabData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917aa23b5cd6907746734b71b3a5eb2034f3" compoundref="d7/d46/a00002" startline="873">icSigNamedData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917ad0e9fe12d5f79f3a3b8b15be31288a30" compoundref="d7/d46/a00002" startline="851">icSigRgbData</references>
+        <references refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917a7030370eb0ee02671895978dc61858d8" compoundref="d7/d46/a00002" startline="846">icSigXYZData</references>
+        <referencedby refid="d8/db2/a02125_1a26b6f4e3187f15b43d6ca42f88cbcdf5" compoundref="d8/d23/a00326" startline="1594" endline="1754">toIt8</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccCommon/IccCmmConfig.h" line="167" column="1" bodyfile="Tools/CmdLine/IccCommon/IccCmmConfig.h" bodystart="168" bodyend="193"/>
+    <listofallmembers>
+      <member refid="d8/db2/a02125_1a28cdcf353c3dfdff513b41ff163815fd" prot="protected" virt="non-virtual"><scope>CIccCfgColorData</scope><name>addFields</name></member>
+      <member refid="d8/db2/a02125_1ad1cc620457a98a3c34630ca65ad59396" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>CIccCfgColorData</name></member>
+      <member refid="d8/db2/a02125_1a5c2638361923e88974c049c23986018a" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>fromIt8</name></member>
+      <member refid="d8/db2/a02125_1a514514ebda19e651ac6ba4ba2b333419" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>fromJson</name></member>
+      <member refid="d8/db2/a02125_1a16c5c855a20c0ed7793ad0492891b95b" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>fromLegacy</name></member>
+      <member refid="d8/db2/a02125_1abd09ace530d4be2eb202fc5eb0599b56" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>m_data</name></member>
+      <member refid="d8/db2/a02125_1a9e3a4746dfdc5a73ad356b73613351af" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>m_encoding</name></member>
+      <member refid="d8/db2/a02125_1ad517b049063d5dde8a2b6aac56c8f895" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>m_space</name></member>
+      <member refid="d8/db2/a02125_1a1b8e5ed1f700cf1183adaf40565e9187" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>m_srcEncoding</name></member>
+      <member refid="d8/db2/a02125_1a391dd8a479c66dbf76cb06e494260d8d" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>m_srcSpace</name></member>
+      <member refid="d8/db2/a02125_1ad880790217a7d303e175b0f3e14ce804" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>reset</name></member>
+      <member refid="d8/db2/a02125_1a7ed37df9c7e4f03221a04c58bfb9a25a" prot="protected" virt="non-virtual"><scope>CIccCfgColorData</scope><name>spaceName</name></member>
+      <member refid="d8/db2/a02125_1a26b6f4e3187f15b43d6ca42f88cbcdf5" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>toIt8</name></member>
+      <member refid="d8/db2/a02125_1a80a3b1b4d42b4963d93973e3dd63e105" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>toJson</name></member>
+      <member refid="d8/db2/a02125_1adb55e5301ce7976543f09c36889edcfa" prot="public" virt="non-virtual"><scope>CIccCfgColorData</scope><name>toLegacy</name></member>
+      <member refid="d8/db2/a02125_1a63f08c81f39a0d4482614a5ff6395697" prot="public" virt="virtual"><scope>CIccCfgColorData</scope><name>~CIccCfgColorData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

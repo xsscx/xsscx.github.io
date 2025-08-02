@@ -1,0 +1,1261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d0/daa/a01029" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>CIccTagNumArray</compoundname>
+    <basecompoundref refid="d7/dfd/a00969" prot="public" virt="non-virtual">CIccTag</basecompoundref>
+    <derivedcompoundref refid="d2/d41/a01037" prot="public" virt="non-virtual">CIccTagFixedNum&lt; T, Tsig &gt;</derivedcompoundref>
+    <derivedcompoundref refid="d7/d46/a01045" prot="public" virt="non-virtual">CIccTagFloatNum&lt; T, Tsig &gt;</derivedcompoundref>
+    <derivedcompoundref refid="d1/d83/a01041" prot="public" virt="non-virtual">CIccTagNum&lt; T, Tsig &gt;</derivedcompoundref>
+    <derivedcompoundref refid="d2/d57/a01033" prot="public" virt="non-virtual">CIccTagSparseMatrixArray</derivedcompoundref>
+    <includes refid="da/dec/a00080" local="no">IccTagBasic.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dfd/a00969_1a48edb50964c5a62a2ce4108297dd045a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccTag::Describe</definition>
+        <argsstring>(std::string &amp;sDescription, int nVerboseness=0)</argsstring>
+        <name>Describe</name>
+        <qualifiedname>CIccTag::Describe</qualifiedname>
+        <reimplementedby refid="d1/d83/a01041_1a2e04c64b92484baf191aa4a8055662ab">Describe</reimplementedby>
+        <reimplementedby refid="d3/da5/a00973_1a6a054df623ac2d24924b2cb722667fc4">Describe</reimplementedby>
+        <reimplementedby refid="d5/d6c/a00977_1a4acf4a9855b0463a282fe0cf8be235d2">Describe</reimplementedby>
+        <reimplementedby refid="dd/d24/a00981_1a20e7e891508ed9f827554c269a5629ad">Describe</reimplementedby>
+        <reimplementedby refid="da/deb/a00985_1a9b31f82fe7ba1d61801864d6edbdb1ec">Describe</reimplementedby>
+        <reimplementedby refid="da/d0a/a00993_1ad339531952ecb500b627f49aaf4d5a0d">Describe</reimplementedby>
+        <reimplementedby refid="d0/d28/a00997_1a86fd0fff2283bd832a0384885ef7353e">Describe</reimplementedby>
+        <reimplementedby refid="df/d59/a01001_1a5b1cd1aaf8c091c8d373e2a7b138b0ab">Describe</reimplementedby>
+        <reimplementedby refid="d7/d59/a01013_1a067248be6a07c988e0f566cd5ac142ea">Describe</reimplementedby>
+        <reimplementedby refid="d3/ded/a01017_1a50d8cff80364fd289abf0be1c7d4a872">Describe</reimplementedby>
+        <reimplementedby refid="d5/dfb/a01021_1a90ec4f5d7e205e23c0db2d344fb7b9a4">Describe</reimplementedby>
+        <reimplementedby refid="db/d23/a01025_1af8ff55c12ac70837e6140249eb4e0d73">Describe</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1a75cf9311bdc3fc036ca2ba698312be8f">Describe</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a6caf8c16157f1fd67425ccf5e3f51647">Describe</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a548394e2478720e17dc3227497357b05">Describe</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a93a55ef10628d0a786a5fdf277a594fc">Describe</reimplementedby>
+        <reimplementedby refid="d0/d22/a01049_1a3e2a17306c40399999311006cb7309fd">Describe</reimplementedby>
+        <reimplementedby refid="d2/db8/a01057_1a8efff8fe78b729f4c382892169709749">Describe</reimplementedby>
+        <reimplementedby refid="de/d9e/a01061_1a641463ed6e219df0ec0825861e8a6c47">Describe</reimplementedby>
+        <reimplementedby refid="d0/dc9/a01065_1add07db65a1f47327aa538550851bd540">Describe</reimplementedby>
+        <reimplementedby refid="d8/d18/a01069_1af5300ba22d2fb0d2d03180329b1bad62">Describe</reimplementedby>
+        <reimplementedby refid="d9/d7c/a01073_1a45e10c9c440d1f1c473d78182ca3b8fc">Describe</reimplementedby>
+        <reimplementedby refid="d0/dd3/a01077_1a01d7a7a2d87135c2fec2e3597191febc">Describe</reimplementedby>
+        <reimplementedby refid="d3/dc4/a01089_1a7d1d6d470a3864dd497badec54fc2a28">Describe</reimplementedby>
+        <reimplementedby refid="de/d99/a01101_1acc083445890f09a651b8ec4260ad8a75">Describe</reimplementedby>
+        <reimplementedby refid="de/d1d/a01105_1acdaf495e084c265aae85729d8c787bdb">Describe</reimplementedby>
+        <reimplementedby refid="d8/dbf/a01109_1aa150241973b5410bec49077ba6ffca50">Describe</reimplementedby>
+        <reimplementedby refid="d8/ded/a01113_1a1856bf69351802c3a06fc1bb5ff45fa7">Describe</reimplementedby>
+        <reimplementedby refid="d6/d8b/a01117_1a3f505d74277cec3dd72eaba6e18bc29e">Describe</reimplementedby>
+        <reimplementedby refid="d5/d5f/a00461_1a2e25328a4c9d9fc7bc9149fb7bd6f718">Describe</reimplementedby>
+        <reimplementedby refid="db/de0/a00465_1a84a9831b699a71dccc5490410bedba4d">Describe</reimplementedby>
+        <reimplementedby refid="d6/da1/a01233_1ae97605331e10fbdaa0920c63b696ef6a">Describe</reimplementedby>
+        <reimplementedby refid="dc/dab/a01237_1aaaf88d380e45cb07399067b26a60f05c">Describe</reimplementedby>
+        <reimplementedby refid="d6/dc4/a01125_1a5ab31e2ac8e7a9e6504b44473bdb8ece">Describe</reimplementedby>
+        <reimplementedby refid="d9/d17/a01129_1ae9e2873d61225408aa110f95c7466481">Describe</reimplementedby>
+        <reimplementedby refid="db/d28/a01133_1a4a0017b1ebc31d1b788dbfbabe9d7180">Describe</reimplementedby>
+        <reimplementedby refid="dc/d06/a01153_1a30164c203eff281912c62009370f0650">Describe</reimplementedby>
+        <reimplementedby refid="dc/d98/a01177_1a8bd0fd4b7b8e128dfae23221477eb0d0">Describe</reimplementedby>
+        <reimplementedby refid="d5/d54/a01213_1af55b730879cfc0085ab6ada60bd7b875">Describe</reimplementedby>
+        <reimplementedby refid="dd/d3f/a01221_1a07f6691c8aecb0bca935880121e6aed7">Describe</reimplementedby>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sDescription</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nVerboseness</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: Describe(sDescription) Each derived tag will implement it&apos;s own <ref refid="d7/dfd/a00969_1a48edb50964c5a62a2ce4108297dd045a" kindref="member">Describe()</ref> function.</para>
+<para>Parameter(s): sDescription - A string to put the tag&apos;s description into.<itemizedlist>
+<listitem><para>verbosenss - integer value. Default=0. The larger the value, the more verbose the output. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="221" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="221" bodyend="221"/>
+        <referencedby refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog::MyTagDialog</referencedby>
+        <referencedby refid="dd/dee/a01081_1a00335003ac9434def281c2d1be1c135d" compoundref="d9/dd0/a00191" startline="9310" endline="9314">CIccProfileDescText::Describe</referencedby>
+        <referencedby refid="db/de0/a00465_1a84a9831b699a71dccc5490410bedba4d" compoundref="d5/dcb/a00170" startline="1168" endline="1200">CIccTagArray::Describe</referencedby>
+        <referencedby refid="da/dbf/a00393_1afed6df30c0a290f3e033930c60b607fe" compoundref="d1/d88/a00128" startline="115" endline="137">CIccStructUnknown::Describe</referencedby>
+        <referencedby refid="da/dc3/a00453_1a259291677d13d2f343c4c12725654051" compoundref="d5/dcb/a00170" startline="86" endline="108">IIccStruct::Describe</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a9956575349b08c9b0c7f6fc258d04f74" compoundref="d6/d2d/a00047" startline="3620" endline="3632">CIccMpeTintArray::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a8f09c8ce556188d595f49b9677d19200" compoundref="d0/d39/a00314" startline="90" endline="111">DumpTag</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a3b8c88576df48859517cda49e412c9f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CIccTag::DetachIO</definition>
+        <argsstring>()</argsstring>
+        <name>DetachIO</name>
+        <qualifiedname>CIccTag::DetachIO</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="d7/dfd/a00969_1affe66685d53e2ebf016a5a5126ed968d" kindref="member">ReadAll()</ref> - Read All sub data for tag from file. Called by CIccProfile::ReadAll() to read all sub data for tag</para>
+<para>Returns true if ReadAll is successful. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="183" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a753f38addfe5502d3424e69d233b3503" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+        <definition>virtual const icChar * CIccTag::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <qualifiedname>CIccTag::GetClassName</qualifiedname>
+        <reimplementedby refid="d3/da5/a00973_1a4d49a36163cba2b9f6888a6d35909eb0">GetClassName</reimplementedby>
+        <reimplementedby refid="d5/d6c/a00977_1abef6b444976020711a08d6d853875e67">GetClassName</reimplementedby>
+        <reimplementedby refid="dd/d24/a00981_1a3d28892f1c45990de48b6e6cd45d1179">GetClassName</reimplementedby>
+        <reimplementedby refid="da/deb/a00985_1afba5ddffd4fe360bae589e853416e3d2">GetClassName</reimplementedby>
+        <reimplementedby refid="d4/d95/a00989_1a6b9dd6163de37cd98c77251aa9f93adc">GetClassName</reimplementedby>
+        <reimplementedby refid="da/d0a/a00993_1ac25e047b775763390c715993e573068e">GetClassName</reimplementedby>
+        <reimplementedby refid="d0/d28/a00997_1a042714fd4ef9f9c68955babda04d1e2b">GetClassName</reimplementedby>
+        <reimplementedby refid="df/d59/a01001_1a78aa4be8956a4fda8a775f334ec60784">GetClassName</reimplementedby>
+        <reimplementedby refid="d7/d59/a01013_1a6c28f369f937c1cf40504c6cd2402233">GetClassName</reimplementedby>
+        <reimplementedby refid="d3/ded/a01017_1aa5c0dcad5c46483b5f84e78d76d33545">GetClassName</reimplementedby>
+        <reimplementedby refid="d5/dfb/a01021_1a670407dce457fb1b6b8451553f93314a">GetClassName</reimplementedby>
+        <reimplementedby refid="db/d23/a01025_1afb546a5bc0766977ad0b9eec49f625c1">GetClassName</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1a9f9cf1b3eeb56f97a0efef3e15806c44">GetClassName</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a95efd84ec3a136d6078ec450125429f1">GetClassName</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1afead885f061d067a83f2eebca3f1b1bd">GetClassName</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a81ade7a5c725649f199214ea47980da9">GetClassName</reimplementedby>
+        <reimplementedby refid="d0/d22/a01049_1a7671e9e685c6277d96b655ef0004c8c1">GetClassName</reimplementedby>
+        <reimplementedby refid="d2/db8/a01057_1aa538ae6ad53b0ea200e09ca891c43a0b">GetClassName</reimplementedby>
+        <reimplementedby refid="de/d9e/a01061_1a160d410da9352a7371fa7e80023fdb06">GetClassName</reimplementedby>
+        <reimplementedby refid="d0/dc9/a01065_1af980c24969f5fabeee4a59b5714c28ab">GetClassName</reimplementedby>
+        <reimplementedby refid="d8/d18/a01069_1a9bbe0b0d2c2ba1b8b1d344479ca8d0ff">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d7c/a01073_1a66d059162a01f932a8f53326ac34b0c5">GetClassName</reimplementedby>
+        <reimplementedby refid="d0/dd3/a01077_1abd7585f087485dba4809255e7be18283">GetClassName</reimplementedby>
+        <reimplementedby refid="d3/dc4/a01089_1a5bb2ddb8dcdf7fe8fd9b3b45eb939d3f">GetClassName</reimplementedby>
+        <reimplementedby refid="de/d99/a01101_1abc1f7a2639fab21990befdd74f2e92a4">GetClassName</reimplementedby>
+        <reimplementedby refid="de/d1d/a01105_1a51e9cd2201edff1a575ab172fcf57631">GetClassName</reimplementedby>
+        <reimplementedby refid="d8/dbf/a01109_1a2b10d3bc55d384a0642640c7fc8abd5e">GetClassName</reimplementedby>
+        <reimplementedby refid="d8/ded/a01113_1a8c747ead1f3bf85666072c184a1d6ada">GetClassName</reimplementedby>
+        <reimplementedby refid="d6/d8b/a01117_1aaaa9fd3f1ee85a7a1a4d76dbef5e36cc">GetClassName</reimplementedby>
+        <reimplementedby refid="d5/d5f/a00461_1a93b0edf56b59bceca26ae62f37ed5a9e">GetClassName</reimplementedby>
+        <reimplementedby refid="db/de0/a00465_1ad2d7dc6841b3a401c91a264f6978763c">GetClassName</reimplementedby>
+        <reimplementedby refid="d6/da1/a01233_1aaf976904a6dd1d4a23078cdcb7d53d1a">GetClassName</reimplementedby>
+        <reimplementedby refid="dc/dab/a01237_1ac4f80a3de373046d6f49aa7df15b4824">GetClassName</reimplementedby>
+        <reimplementedby refid="d6/dc4/a01125_1a49e05ed8bed5cf2cea4594a5ce007b8a">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d17/a01129_1a4362a98aec3d7f4c190b7f0b80aafbea">GetClassName</reimplementedby>
+        <reimplementedby refid="db/d28/a01133_1a458933c6e57119d5151ceda535118439">GetClassName</reimplementedby>
+        <reimplementedby refid="dc/d98/a01177_1a68355a668f643aa685e5259c1a537ca0">GetClassName</reimplementedby>
+        <reimplementedby refid="d5/d54/a01213_1a37d9ac9255d61164e94fd7b6b8b99e6a">GetClassName</reimplementedby>
+        <reimplementedby refid="dd/d3f/a01221_1a00d00229609e97a6473da95bf6ec4a53">GetClassName</reimplementedby>
+        <reimplementedby refid="d1/d20/a01813_1a29c69b447a0c0eb8a07b670a29157ff9">GetClassName</reimplementedby>
+        <reimplementedby refid="d4/d29/a01817_1a117a75d525011776fca031172f14bdf8">GetClassName</reimplementedby>
+        <reimplementedby refid="de/d3d/a01821_1aa22646acc94185965d4f28eb33eba0a1">GetClassName</reimplementedby>
+        <reimplementedby refid="df/dee/a01825_1aa9c808f312e69759ffcc2b8fbacfa61f">GetClassName</reimplementedby>
+        <reimplementedby refid="d6/dbd/a01829_1af901859ebe864fa59c16145a44f6c110">GetClassName</reimplementedby>
+        <reimplementedby refid="db/dd5/a01833_1aa4f993f0544a0f3efe36046a9a4c2d77">GetClassName</reimplementedby>
+        <reimplementedby refid="d7/db1/a01837_1ac9b9ae2aeb43832f0d64f0e6bd71fc06">GetClassName</reimplementedby>
+        <reimplementedby refid="d2/d5b/a01841_1abd6d8a0c775c003981049da90465b621">GetClassName</reimplementedby>
+        <reimplementedby refid="da/d8c/a01845_1aab69cd2eedf2bf2425910ef950a11277">GetClassName</reimplementedby>
+        <reimplementedby refid="db/dd4/a01849_1af4acbab604af274dfc86b0e8d4223dc7">GetClassName</reimplementedby>
+        <reimplementedby refid="db/d6b/a01853_1ad80083861bb5b35a2487fe5a0e1becf0">GetClassName</reimplementedby>
+        <reimplementedby refid="de/d51/a01857_1a808d50ed4cdc91f1c080b5dbccc81c7b">GetClassName</reimplementedby>
+        <reimplementedby refid="d6/d56/a01861_1a0a3ddc5382cd42485f76db0340fe1032">GetClassName</reimplementedby>
+        <reimplementedby refid="d5/da8/a01865_1a987c5b435d6827bf0898435333241348">GetClassName</reimplementedby>
+        <reimplementedby refid="d8/d3a/a01869_1a272bf01a34f5ee0d39aafa86847eda2e">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d63/a01877_1ae82d07078bb254802820c1dfafc9c800">GetClassName</reimplementedby>
+        <reimplementedby refid="de/d9f/a01881_1a8e48e1254986029f1aeb071ea3eb55e1">GetClassName</reimplementedby>
+        <reimplementedby refid="d7/d9c/a01885_1a3904f287a1b7542d5b0890bf8caf2043">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d9b/a01889_1a48023bb42a6438f4fa70b22374a57283">GetClassName</reimplementedby>
+        <reimplementedby refid="dd/d80/a01893_1a0e533f29f54130e475d520d335e9b82b">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d0c/a01897_1a0e65d68016ec39341a7a6b2c14e57bbe">GetClassName</reimplementedby>
+        <reimplementedby refid="d5/d99/a01901_1a8ba107a1f7c1f8f9306f39d975a68b88">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d65/a01905_1aa75916bb49b38b81b00ad4ecf7932da3">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d90/a01909_1a3c81bec079503b5def02267af5ab33a3">GetClassName</reimplementedby>
+        <reimplementedby refid="d4/d07/a01913_1ab23ebda9d2d43d96f51e82fcf38e8e27">GetClassName</reimplementedby>
+        <reimplementedby refid="d2/d54/a01917_1a9cc3a5b7c2f1d7f1aa64ec4ca95b7ce4">GetClassName</reimplementedby>
+        <reimplementedby refid="da/d6c/a01921_1ac5ff299f8ccae5eef02dd8a4b8342d93">GetClassName</reimplementedby>
+        <reimplementedby refid="dc/dc8/a01929_1a06b548fb37a525e4f2ff0b9415511940">GetClassName</reimplementedby>
+        <reimplementedby refid="dc/da7/a01933_1af95e1b3145f5857f122df77def3239e0">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d17/a01937_1abef94d7492ebd340588e58761cc05b78">GetClassName</reimplementedby>
+        <reimplementedby refid="da/d76/a01941_1a74fd435a7cd4cc4b2daaf1d691a3f0a4">GetClassName</reimplementedby>
+        <reimplementedby refid="d5/d39/a01945_1ab9c3c8acdba3593a2da83904f111d883">GetClassName</reimplementedby>
+        <reimplementedby refid="dd/d2e/a01949_1a56875363ac3d55a08ce423279936c8ae">GetClassName</reimplementedby>
+        <reimplementedby refid="d9/d97/a01953_1a76ca05a77c0358bc0c247b2bbf2ec3c1">GetClassName</reimplementedby>
+        <reimplementedby refid="d2/d6f/a01957_1a8509e48b76735f35a7b8e7a4b725fbf6">GetClassName</reimplementedby>
+        <reimplementedby refid="d2/d23/a01961_1aa922651c0c8e2f724c20296d39886666">GetClassName</reimplementedby>
+        <reimplementedby refid="d6/d9a/a01965_1abfeb1565788d2ee9bda77de6c7fb7de0">GetClassName</reimplementedby>
+        <reimplementedby refid="db/d49/a01969_1ae32e0842b2c0390c246639e37e952100">GetClassName</reimplementedby>
+        <reimplementedby refid="d3/d59/a01973_1aa521e836613a82bf289bee1b2d4483a3">GetClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="139" column="24" bodyfile="IccProfLib/IccTagBasic.h" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1aa4cc7f1dd04e9b537738d1dfa96a9790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d3/dcd/a00965" kindref="compound">IIccExtensionTag</ref> *</type>
+        <definition>virtual IIccExtensionTag * CIccTag::GetExtension</definition>
+        <argsstring>()</argsstring>
+        <name>GetExtension</name>
+        <qualifiedname>CIccTag::GetExtension</qualifiedname>
+        <reimplementedby refid="d1/d20/a01813_1ad5509e86a7d2973cfc112243270f7dae">GetExtension</reimplementedby>
+        <reimplementedby refid="d4/d29/a01817_1a189efbd5032ea2ff06758255b82953e5">GetExtension</reimplementedby>
+        <reimplementedby refid="de/d3d/a01821_1acc8ecc7bdb9f9a7e33e80e87a5279cbe">GetExtension</reimplementedby>
+        <reimplementedby refid="df/dee/a01825_1aab6f1cdb82c227f1464a4e4ddca5c294">GetExtension</reimplementedby>
+        <reimplementedby refid="d6/dbd/a01829_1a8e640540c6151e24eca4d48bf1230526">GetExtension</reimplementedby>
+        <reimplementedby refid="db/dd5/a01833_1a087d8d45f7a69f39ebe9d282dc385fdb">GetExtension</reimplementedby>
+        <reimplementedby refid="d7/db1/a01837_1a962021983847d9e230a7c8a51a1936dc">GetExtension</reimplementedby>
+        <reimplementedby refid="d2/d5b/a01841_1ab3a5c8a555b0a7bd1b8be6e9796ecf5b">GetExtension</reimplementedby>
+        <reimplementedby refid="da/d8c/a01845_1a86e5dc3f3fdac03b4ecbc9fd60d894bd">GetExtension</reimplementedby>
+        <reimplementedby refid="db/dd4/a01849_1a8e831ba6d3fa47d017f4864a3c99191f">GetExtension</reimplementedby>
+        <reimplementedby refid="db/d6b/a01853_1a0addd677ad02257ebfcd945009105992">GetExtension</reimplementedby>
+        <reimplementedby refid="de/d51/a01857_1ad10c9c1cc2ad02046cdddd9907eef0e7">GetExtension</reimplementedby>
+        <reimplementedby refid="d6/d56/a01861_1a891584ce4dcad5c7e29c2abff6dca391">GetExtension</reimplementedby>
+        <reimplementedby refid="d5/da8/a01865_1aa8f8ffdafeea11c46d772cba2088a448">GetExtension</reimplementedby>
+        <reimplementedby refid="d8/d3a/a01869_1ac3adf387ef05cfa3a67d0b9957a6da80">GetExtension</reimplementedby>
+        <reimplementedby refid="d9/d63/a01877_1a54f347139a771ad759ebea73ba170f72">GetExtension</reimplementedby>
+        <reimplementedby refid="de/d9f/a01881_1a10547854961ccd4c8430d3ca8fd5f8e9">GetExtension</reimplementedby>
+        <reimplementedby refid="d7/d9c/a01885_1ac7f68f7d65a8c72848b1b201ca941496">GetExtension</reimplementedby>
+        <reimplementedby refid="d9/d9b/a01889_1a4ac4ca326d3da38347ecc6b2f3b32e5e">GetExtension</reimplementedby>
+        <reimplementedby refid="dd/d80/a01893_1aa87d0b97c6773ce4edb0671fafef4b06">GetExtension</reimplementedby>
+        <reimplementedby refid="d9/d0c/a01897_1a5fc647e9b0fc24c6dbc3df04d3140838">GetExtension</reimplementedby>
+        <reimplementedby refid="d5/d99/a01901_1aaf94adcfbe3272916df84be0acbb0284">GetExtension</reimplementedby>
+        <reimplementedby refid="d9/d65/a01905_1a66a3e9080800c0e3bf89bb1576317978">GetExtension</reimplementedby>
+        <reimplementedby refid="d9/d90/a01909_1a3e59388b5be236f0765ebc3d45ea3ba4">GetExtension</reimplementedby>
+        <reimplementedby refid="d4/d07/a01913_1ac4e520b523389a5cedffcc740a547a4a">GetExtension</reimplementedby>
+        <reimplementedby refid="d2/d54/a01917_1ad27fdd3bdd8ee6c94557e7a98cfa36c1">GetExtension</reimplementedby>
+        <reimplementedby refid="da/d6c/a01921_1a853cd344acfb3f9260da52c4c2aacaaf">GetExtension</reimplementedby>
+        <reimplementedby refid="dc/dc8/a01929_1a343c337cab8b04122ed8b74d0aaf45b7">GetExtension</reimplementedby>
+        <reimplementedby refid="dc/da7/a01933_1a644899a058adfee190468613318eaeb8">GetExtension</reimplementedby>
+        <reimplementedby refid="d9/d17/a01937_1a2cd8bd35a2fc8db1a6030230b22450c5">GetExtension</reimplementedby>
+        <reimplementedby refid="da/d76/a01941_1a729bd2eadb32b14838e5b63fbc6a4944">GetExtension</reimplementedby>
+        <reimplementedby refid="d5/d39/a01945_1a4d08dcedfe474fd29016114c8bf02b7d">GetExtension</reimplementedby>
+        <reimplementedby refid="dd/d2e/a01949_1a1f0ac4be5c602a664811a969a187dfbb">GetExtension</reimplementedby>
+        <reimplementedby refid="d9/d97/a01953_1a9fe6d31cb5cee440a00d4358fcefac1a">GetExtension</reimplementedby>
+        <reimplementedby refid="d2/d6f/a01957_1a7958e077c6aec3a14ef91e81a33eb789">GetExtension</reimplementedby>
+        <reimplementedby refid="d2/d23/a01961_1a8baef1b581a434c866eef5dcf0981d14">GetExtension</reimplementedby>
+        <reimplementedby refid="d6/d9a/a01965_1a4e3bbbab57c20713d1f219ebb5b59f40">GetExtension</reimplementedby>
+        <reimplementedby refid="db/d49/a01969_1ae9b3881b8146c419d85396624cf0c178">GetExtension</reimplementedby>
+        <reimplementedby refid="d3/d59/a01973_1afb2ee97eb57d60377340abb3cea7cf07">GetExtension</reimplementedby>
+        <reimplementedby refid="d5/d92/a01977_1a71badf32f915daabd325a3b3dffc2ab0">GetExtension</reimplementedby>
+        <reimplementedby refid="df/db2/a01981_1a440efc7610125ab4cb211ace33c98ace">GetExtension</reimplementedby>
+        <reimplementedby refid="d3/def/a01985_1a1c3917e6b12a6073afbf5f1ef7faf2aa">GetExtension</reimplementedby>
+        <reimplementedby refid="dc/d67/a01989_1a4662e65a567bc485cbb5f54e49419780">GetExtension</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="143" column="28" bodyfile="IccProfLib/IccTagBasic.h" bodystart="143" bodyend="143"/>
+        <referencedby refid="d0/d27/a00239_1ab2ad4f9d9730453002176b26c0899dab" compoundref="d0/d27/a00239" startline="3232" endline="3299">icCurvesFromXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a0487825d4241d4ed1b2ad5825ba72cd9" compoundref="d0/d27/a00239" startline="3042" endline="3059">icCurvesToXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a5e18ab5a318311f6b8e807ae44b7ed45" compoundref="d0/d27/a00239" startline="2181" endline="2255">icProfDescToXml</referencedby>
+        <referencedby refid="d0/d27/a00239_1a0f0f9f2d4fbf03932c3a2512b8d63410" compoundref="d0/d27/a00239" startline="2257" endline="2338">icXmlParseProfDesc</referencedby>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+        <referencedby refid="db/d49/a01969_1adc66f52cad265a25289afdf71b69dcc7" compoundref="d0/d27/a00239" startline="4496" endline="4666">CIccTagXmlStruct::ParseTag</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+        <referencedby refid="d3/d59/a01973_1abccc6c4d4ab6b62ac620371e1e5ab361" compoundref="d0/d27/a00239" startline="4791" endline="4907">CIccTagXmlArray::ParseXml</referencedby>
+        <referencedby refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d" compoundref="dd/dd7/a00260" startline="1534" endline="1566">CIccMpeXmlTintArray::ToXml</referencedby>
+        <referencedby refid="db/d49/a01969_1a8a1f6fe1c2db87a647aa00e2f98844e4" compoundref="d0/d27/a00239" startline="4363" endline="4478">CIccTagXmlStruct::ToXml</referencedby>
+        <referencedby refid="d3/d59/a01973_1a90f7a44016b69c099ea5cb6b71772b0b" compoundref="d0/d27/a00239" startline="4734" endline="4788">CIccTagXmlArray::ToXml</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/daa/a01029_1a6daa7f82df8f43313401f709a86ae114" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>virtual icUInt32Number CIccTagNumArray::GetNumValues</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetNumValues</name>
+        <qualifiedname>CIccTagNumArray::GetNumValues</qualifiedname>
+        <reimplementedby refid="d2/d57/a01033_1a5fabaef71bb40042b04edc4f90d0707b">GetNumValues</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a36e15c19a7065cf00ea45d1acb8c2024">GetNumValues</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1add4eba699116fba5b8df63d15abb0216">GetNumValues</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a78d5291ac0dd7b33f763fe01fa5e1659">GetNumValues</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="794" column="26"/>
+        <referencedby refid="d7/dcf/a00845_1a9d5a042058dfd8ead530d1337d2149f0" compoundref="d6/d2d/a00047" startline="3760" endline="3771">CIccMpeTintArray::Begin</referencedby>
+        <referencedby refid="d5/d05/a00385_1a9425c5f4e45f89e119c7dd5add27f69a" compoundref="dc/de6/a00167" startline="315" endline="347">CIccArrayNamedColor::FindDeviceColor</referencedby>
+        <referencedby refid="d5/d05/a00385_1a94b8521face8ca8e1df119db8d7abeeb" compoundref="dc/de6/a00167" startline="349" endline="385">CIccArrayNamedColor::FindPcsColor</referencedby>
+        <referencedby refid="d5/d05/a00385_1a6c3143e1f5a2433144786f86e7d9becc" compoundref="dc/de6/a00167" startline="387" endline="422">CIccArrayNamedColor::FindSpectralColor</referencedby>
+        <referencedby refid="d7/d93/a00397_1a50a2be66d32c1af7cda4ca9f0b64a6ca" compoundref="d1/d88/a00128" startline="479" endline="554">CIccStructNamedColor::GetTint</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="d5/d05/a00385_1a0862295ad84631f6d56761091cf16474" compoundref="dc/de6/a00167" startline="480" endline="600">CIccArrayNamedColor::Validate</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a553846a76ebe4dd5dad3dc7e1d74da68" compoundref="d6/d2d/a00047" startline="3802" endline="3871">CIccMpeTintArray::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1acc454c2f425b8619187fc75f682d7aa4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8beb" kindref="member">icArraySignature</ref></type>
+        <definition>virtual icArraySignature CIccTag::GetTagArrayType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTagArrayType</name>
+        <qualifiedname>CIccTag::GetTagArrayType</qualifiedname>
+        <reimplementedby refid="db/de0/a00465_1ae4d0c4f6859dc47d44b5b0c9c6ab4e44">GetTagArrayType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="133" column="28" bodyfile="IccProfLib/IccTagBasic.h" bodystart="133" bodyend="133"/>
+        <references refid="d7/d46/a00002_1a97bb6c6d4e1859ba7290162215ac8bebaacdb6163fb714b3b729a4bed048cbf58" compoundref="d7/d46/a00002" startline="617">icSigUndefinedArray</references>
+        <referencedby refid="d5/dcb/a00170_1a1da288311c14e8b9be921885b9ed10ee" compoundref="d5/dcb/a00170" startline="1666" endline="1672">icGetTagArrayHandlerOfType</referencedby>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1ad53030e068551d6ac9f69124b4a6c9bb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614" kindref="member">icStructSignature</ref></type>
+        <definition>virtual icStructSignature CIccTag::GetTagStructType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTagStructType</name>
+        <qualifiedname>CIccTag::GetTagStructType</qualifiedname>
+        <reimplementedby refid="d5/d5f/a00461_1a6c6f5239d09682b0c51a5789a6870dbe">GetTagStructType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="132" column="29" bodyfile="IccProfLib/IccTagBasic.h" bodystart="132" bodyend="132"/>
+        <references refid="d7/d46/a00002_1a7b35df4bcbd6c7395ac7ed62f4198614ab751244db613c35960900eab9acc8201" compoundref="d7/d46/a00002" startline="606">icSigUndefinedStruct</references>
+        <referencedby refid="d1/da8/a00230_1a8d40b09340584db52c952e1e3c8476c3" compoundref="d5/dcb/a00170" startline="1646" endline="1652">icGetTagStructHandlerOfType</referencedby>
+        <referencedby refid="de/d08/a00381_1ac28db86091b3c137fb8d5aa2c184a083" compoundref="dc/de6/a00167" startline="180" endline="213">CIccArrayColorantInfo::Validate</referencedby>
+        <referencedby refid="d5/d05/a00385_1a0862295ad84631f6d56761091cf16474" compoundref="dc/de6/a00167" startline="480" endline="600">CIccArrayNamedColor::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+        <definition>virtual icTagTypeSignature CIccTag::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <qualifiedname>CIccTag::GetType</qualifiedname>
+        <reimplementedby refid="d3/da5/a00973_1a20409d3ca2aabd38d8941b9884710b58">GetType</reimplementedby>
+        <reimplementedby refid="d5/d6c/a00977_1a92ab7fb4fbb26fdd583b7f88ec873e8d">GetType</reimplementedby>
+        <reimplementedby refid="dd/d24/a00981_1a9e1bdd9d1b1a701360a034f8815d1297">GetType</reimplementedby>
+        <reimplementedby refid="da/deb/a00985_1a17e296db89b2cee4d7906b19d9bb2ba3">GetType</reimplementedby>
+        <reimplementedby refid="d4/d95/a00989_1a17c9e0940f9b1c0b87fa403285491189">GetType</reimplementedby>
+        <reimplementedby refid="da/d0a/a00993_1a93f18e702c10812e67df3a9e308954a3">GetType</reimplementedby>
+        <reimplementedby refid="d0/d28/a00997_1a3d3b81ff8ed2576f1b6a633549fc8d6e">GetType</reimplementedby>
+        <reimplementedby refid="df/d59/a01001_1ac28266a3bc9de142adc3399186b26555">GetType</reimplementedby>
+        <reimplementedby refid="d7/d59/a01013_1a6290e64097fa23c7847f24654bdf492a">GetType</reimplementedby>
+        <reimplementedby refid="d3/ded/a01017_1a9b2ebe9b12a781a6ea5d3a9db43d4ca3">GetType</reimplementedby>
+        <reimplementedby refid="d5/dfb/a01021_1a255101ab88f87031987cdd1c90893122">GetType</reimplementedby>
+        <reimplementedby refid="db/d23/a01025_1a55e00b22d73e088e2dcfae2d5e4d94ed">GetType</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1afbf8965527834ebac94c863d13fe72e4">GetType</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a23ee9d837547721c5ee8f4992d18b31b">GetType</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a2dc891fcec2ae84f0c35c3c5fdc027c9">GetType</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a188c4a18aae8581de9c60e6806da9ac5">GetType</reimplementedby>
+        <reimplementedby refid="d0/d22/a01049_1a046a8368f8109afcd10135ef706447d0">GetType</reimplementedby>
+        <reimplementedby refid="d2/db8/a01057_1ac395b6fbcd287746060be2e0fc01bdb7">GetType</reimplementedby>
+        <reimplementedby refid="de/d9e/a01061_1a064c363359f98e105c0f58f064af49c5">GetType</reimplementedby>
+        <reimplementedby refid="d0/dc9/a01065_1a8d1bcd83b81e7b59969e36a4515d73d8">GetType</reimplementedby>
+        <reimplementedby refid="d8/d18/a01069_1a9c88c4f27e150485b2b10e04190c2ef2">GetType</reimplementedby>
+        <reimplementedby refid="d9/d7c/a01073_1af9283328dbcc8947d3c0098eabdc1b0e">GetType</reimplementedby>
+        <reimplementedby refid="d0/dd3/a01077_1a48beff18a9a5f60f5aef79e90fbd7c49">GetType</reimplementedby>
+        <reimplementedby refid="d3/dc4/a01089_1ad6716dd6a9322d67b55641e191cfd6bd">GetType</reimplementedby>
+        <reimplementedby refid="de/d99/a01101_1a2918d6bba67ee2559d9dd3d910094c81">GetType</reimplementedby>
+        <reimplementedby refid="de/d1d/a01105_1a8380d05ba6efb95fd0278eb693a90ad7">GetType</reimplementedby>
+        <reimplementedby refid="d8/dbf/a01109_1a58a716e6b645527e18dbdb60e6c2ec25">GetType</reimplementedby>
+        <reimplementedby refid="d8/ded/a01113_1a3e4700ef6230010840de293347de0181">GetType</reimplementedby>
+        <reimplementedby refid="d6/d8b/a01117_1adb1df147d8da72a6ab17b7309f3f0db2">GetType</reimplementedby>
+        <reimplementedby refid="d5/d5f/a00461_1ae804ac466e895b5014629f9123012a76">GetType</reimplementedby>
+        <reimplementedby refid="db/de0/a00465_1adf88eb37dcba6d07ebe44f3a9947d1f2">GetType</reimplementedby>
+        <reimplementedby refid="d6/da1/a01233_1acea7822f80cd88460628ffc3f87d9922">GetType</reimplementedby>
+        <reimplementedby refid="dc/dab/a01237_1a1eeb8cb7d60c5b8c2a7946291d488ed5">GetType</reimplementedby>
+        <reimplementedby refid="d6/dc4/a01125_1ab635d64da22518cbcf52fd2100b999ed">GetType</reimplementedby>
+        <reimplementedby refid="d9/d17/a01129_1a68720fc48b2a7d1bf868de227ef1e84f">GetType</reimplementedby>
+        <reimplementedby refid="db/d28/a01133_1a40994e583cb526c417ace009ca3ec01c">GetType</reimplementedby>
+        <reimplementedby refid="d9/d25/a01157_1a10f25ea801981873411623262c4cc4e9">GetType</reimplementedby>
+        <reimplementedby refid="dc/d81/a01161_1a6c52b52cb9263d44a21f52b14da132a0">GetType</reimplementedby>
+        <reimplementedby refid="d8/d92/a01165_1a8b076b8fd0bc88f99d5d62227363ec87">GetType</reimplementedby>
+        <reimplementedby refid="d7/daf/a01169_1a63b1d751cc29b306d459184507b44820">GetType</reimplementedby>
+        <reimplementedby refid="dc/d98/a01177_1aa12e2afd2eb7c6eb90a55f2177adf3f4">GetType</reimplementedby>
+        <reimplementedby refid="d5/d54/a01213_1ae8f515764c2d848eb58eea0900c2bfb7">GetType</reimplementedby>
+        <reimplementedby refid="dd/d3f/a01221_1a8c76e96028010034795ccb6f694b1191">GetType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" kindref="member">GetType()</ref></para>
+<para>Purpose: Get Tag Type. Each derived tag will implement it&apos;s own <ref refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" kindref="member">GetType()</ref> function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="131" column="30" bodyfile="IccProfLib/IccTagBasic.h" bodystart="131" bodyend="131"/>
+        <referencedby refid="da/d19/a01217_1a254d9f120e2db24f728219930d6901d6" compoundref="de/df3/a00185" startline="114" endline="147">CIccProfileIdDesc::CIccProfileIdDesc</referencedby>
+        <referencedby refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog::MyTagDialog</referencedby>
+        <referencedby refid="db/de0/a00465_1a0eec94cc1fea6ce5febd2d2a2c33921f" compoundref="d5/dcb/a00170" startline="1145" endline="1155">CIccTagArray::AreAllOfType</referencedby>
+        <referencedby refid="dc/d06/a01153_1a30164c203eff281912c62009370f0650" compoundref="d4/d3e/a00116" startline="3444" endline="3515">CIccMBB::Describe</referencedby>
+        <referencedby refid="d0/d39/a00314_1a8f09c8ce556188d595f49b9677d19200" compoundref="d0/d39/a00314" startline="90" endline="111">DumpTag</referencedby>
+        <referencedby refid="d1/db5/a01701_1aefd712c96a8798a42b3982d12116638c" compoundref="db/db6/a00074" startline="203" endline="295">CIccPRMG::EvaluateProfile</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a0ba5568cbe27b91f0eaa5b7f86ef80e1" compoundref="d5/dcb/a00170" startline="698" endline="707">CIccTagStruct::FindElemOfType</referencedby>
+        <referencedby refid="d7/d00/a00401_1ae254249e0ddaf4e1a3c70501b25b2443" compoundref="d1/d88/a00128" startline="251" endline="265">CIccStructBRDF::GetBRDFFunction</referencedby>
+        <referencedby refid="d7/d00/a00401_1a9dfba644b72f1390fcd0c245a3c003fd" compoundref="d1/d88/a00128" startline="234" endline="248">CIccStructBRDF::GetBRDFType</referencedby>
+        <referencedby refid="d7/d93/a00397_1a5e4aa1c33ed61d8d91ca597e57ab7177" compoundref="d1/d88/a00128" startline="457" endline="468">CIccStructNamedColor::getName</referencedby>
+        <referencedby refid="dd/dee/a01081_1a3574cfc2a93ae239ba9bfd3b0fed6239" compoundref="d9/dd0/a00191" startline="9291" endline="9297">CIccProfileDescText::GetType</referencedby>
+        <referencedby refid="d1/da8/a00230_1ad185e4ba4865dcafcbca5d38bd001274" compoundref="d5/dcb/a00170" startline="1654" endline="1664">icGetTagArrayHandler</referencedby>
+        <referencedby refid="d1/da8/a00230_1adbbeedbafee107b4caa4bb44812f4def" compoundref="d5/dcb/a00170" startline="1634" endline="1644">icGetTagStructHandler</referencedby>
+        <referencedby refid="da/dec/a00080_1abc4f8ba851ab7f12c4d43f3484dd8b65" compoundref="d9/dd0/a00191" startline="11613" endline="11688">icGetTagText</referencedby>
+        <referencedby refid="d0/d27/a00239_1a5e18ab5a318311f6b8e807ae44b7ed45" compoundref="d0/d27/a00239" startline="2181" endline="2255">icProfDescToXml</referencedby>
+        <referencedby refid="d5/d88/a02141_1a6af285f7349d2a3e1e14356402d8650d" compoundref="d1/dc6/a00347" startline="457" endline="523">CDevLinkWriter::iterate</referencedby>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+        <referencedby refid="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" compoundref="d9/dd0/a00191" startline="9263" endline="9279">CIccProfileDescText::SetType</referencedby>
+        <referencedby refid="d8/d98/a02009_1afd9f966c3a39c281716e5c06baf8770d" compoundref="dd/dd7/a00260" startline="1534" endline="1566">CIccMpeXmlTintArray::ToXml</referencedby>
+        <referencedby refid="db/d49/a01969_1a8a1f6fe1c2db87a647aa00e2f98844e4" compoundref="d0/d27/a00239" startline="4363" endline="4478">CIccTagXmlStruct::ToXml</referencedby>
+        <referencedby refid="d3/d59/a01973_1a90f7a44016b69c099ea5cb6b71772b0b" compoundref="d0/d27/a00239" startline="4734" endline="4788">CIccTagXmlArray::ToXml</referencedby>
+        <referencedby refid="d6/d27/a01781_1a3fde5384cf19ae259cb72c3863f936b4" compoundref="dd/dd7/a00248" startline="82" endline="309">CIccProfileXml::ToXmlWithBlanks</referencedby>
+        <referencedby refid="d8/d92/a01165_1a44e621b483545b6ee27a8c873c9d4d01" compoundref="d4/d3e/a00116" startline="4780" endline="4889">CIccTagLut8::Validate</referencedby>
+        <referencedby refid="d7/daf/a01169_1a8d9c73f08ddad1bc2a8b963d90698d59" compoundref="d4/d3e/a00116" startline="5204" endline="5314">CIccTagLut16::Validate</referencedby>
+        <referencedby refid="d4/d13/a00377_1af963154771cc622580cd4251ce854596" compoundref="dc/de6/a00167" startline="122" endline="150">CIccArrayUnknown::Validate</referencedby>
+        <referencedby refid="de/d08/a00381_1ac28db86091b3c137fb8d5aa2c184a083" compoundref="dc/de6/a00167" startline="180" endline="213">CIccArrayColorantInfo::Validate</referencedby>
+        <referencedby refid="dd/dee/a01081_1a8e00e4fdacd1b9a729c797cb6c239966" compoundref="d9/dd0/a00191" startline="9385" endline="9398">CIccProfileDescText::Write</referencedby>
+        <referencedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf" compoundref="d4/d3e/a00116" startline="4665" endline="4763">CIccTagLut8::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/daa/a01029_1a2c8e9e09f0916181fc93e0d5ce1817d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTagNumArray::GetValues</definition>
+        <argsstring>(icFloatNumber *DstVector, icUInt32Number nStart=0, icUInt32Number nVectorSize=1) const =0</argsstring>
+        <name>GetValues</name>
+        <qualifiedname>CIccTagNumArray::GetValues</qualifiedname>
+        <reimplementedby refid="d1/d83/a01041_1a191670ae81c1c8b37ba3ccef2c8d2e97">GetValues</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1ad74cdfb96274a587b3684c122e1e55d3">GetValues</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1aadb0e365a3a5956803e7271bbfb28f6a">GetValues</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1adb87614cd9e107e92fc3ef0b3dbf1b48">GetValues</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a5da8d52bdfb3b1cefa5fd2e0e8a16201">GetValues</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a0e690449f88e2ae8bc7dfc058380dff7">GetValues</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>DstVector</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nStart</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nVectorSize</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="797" column="16"/>
+        <referencedby refid="d5/d05/a00385_1a9425c5f4e45f89e119c7dd5add27f69a" compoundref="dc/de6/a00167" startline="315" endline="347">CIccArrayNamedColor::FindDeviceColor</referencedby>
+        <referencedby refid="d5/d05/a00385_1a94b8521face8ca8e1df119db8d7abeeb" compoundref="dc/de6/a00167" startline="349" endline="385">CIccArrayNamedColor::FindPcsColor</referencedby>
+        <referencedby refid="d5/d05/a00385_1a6c3143e1f5a2433144786f86e7d9becc" compoundref="dc/de6/a00167" startline="387" endline="422">CIccArrayNamedColor::FindSpectralColor</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a3a289a5085d977f0682ea411e24b211f" compoundref="d5/dcb/a00170" startline="726" endline="739">CIccTagStruct::GetElemNumberValue</referencedby>
+        <referencedby refid="d7/d93/a00397_1a50a2be66d32c1af7cda4ca9f0b64a6ca" compoundref="d1/d88/a00128" startline="479" endline="554">CIccStructNamedColor::GetTint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/daa/a01029_1a0adc1a64a97ab62183b388bea9e9c66f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTagNumArray::Interpolate</definition>
+        <argsstring>(icFloatNumber *DstVector, icFloatNumber pos, icUInt32Number nVectorSize=1, icFloatNumber *zeroVals=NULL) const =0</argsstring>
+        <name>Interpolate</name>
+        <qualifiedname>CIccTagNumArray::Interpolate</qualifiedname>
+        <reimplementedby refid="d1/d83/a01041_1a20138fc187409e2e3bc2815566abfb1c">Interpolate</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a075b43d1edd0a09828a6ee010f47b9b7">Interpolate</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1af5c06e37ae045f24bbc7718c76aba63a">Interpolate</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a01530441139fa4c38f254925509a552b">Interpolate</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1ab8d9ab3c991c7c0bcfd3185d39e73ee0">Interpolate</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a749a1d99c15d8c3ddfb3722ec9b23bce">Interpolate</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>DstVector</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>nVectorSize</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>zeroVals</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="805" column="16"/>
+        <referencedby refid="d7/dcf/a00845_1a71f50fcb54e6ab7f9a806f72529b788e" compoundref="d6/d2d/a00047" startline="3783" endline="3790">CIccMpeTintArray::Apply</referencedby>
+        <referencedby refid="d7/d93/a00397_1a50a2be66d32c1af7cda4ca9f0b64a6ca" compoundref="d1/d88/a00128" startline="479" endline="554">CIccStructNamedColor::GetTint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a80251cce2257d65fff1f45c0d805480f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTag::IsArrayType</definition>
+        <argsstring>()</argsstring>
+        <name>IsArrayType</name>
+        <qualifiedname>CIccTag::IsArrayType</qualifiedname>
+        <reimplementedby refid="d3/ded/a01017_1a85d82a4f87ca0b9fffb0b56820b839cb">IsArrayType</reimplementedby>
+        <reimplementedby refid="d5/dfb/a01021_1a8231c9371519a1c9fad22b4d98ecc471">IsArrayType</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1a60a312b7474f6f5c4818289eac53205f">IsArrayType</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a155792fabb4905af6df47b5b54bc9cee">IsArrayType</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a1a608c9fab134351fef22d7fa0dc96dc">IsArrayType</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1ac2cee42bff9cb5dec5ccbdf1f820c529">IsArrayType</reimplementedby>
+        <reimplementedby refid="de/d9e/a01061_1a7bcf46bd46ef1edb957e17aacafe4c23">IsArrayType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="135" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="135" bodyend="135"/>
+        <referencedby refid="dc/d43/a02205_1ad7bbd825ec394a10eb2b6e6f7b9a8e49" compoundref="df/d95/a00299" startline="1108" endline="1192">MyTagDialog::MyTagDialog</referencedby>
+        <referencedby refid="d0/d39/a00314_1a8f09c8ce556188d595f49b9677d19200" compoundref="d0/d39/a00314" startline="90" endline="111">DumpTag</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/daa/a01029_1affd18d74e34a4397f3daeef5396c134f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTagNumArray::IsMatrixArray</definition>
+        <argsstring>() const =0</argsstring>
+        <name>IsMatrixArray</name>
+        <qualifiedname>CIccTagNumArray::IsMatrixArray</qualifiedname>
+        <reimplementedby refid="d2/d57/a01033_1ad21d3e550b6fa47526c44e2ca81db9f2">IsMatrixArray</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a28b2df54e7bac121524d79b22a01d950">IsMatrixArray</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a34cc653e6670e13667fac35497abec7d">IsMatrixArray</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1aed6a18ecbc7696ab3b0818c63bce4e63">IsMatrixArray</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="816" column="16"/>
+        <referencedby refid="d5/d05/a00385_1a0862295ad84631f6d56761091cf16474" compoundref="dc/de6/a00167" startline="480" endline="600">CIccArrayNamedColor::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a5cf5b72ab66ca68a6c8ddfd861741bb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTag::IsMBBType</definition>
+        <argsstring>()</argsstring>
+        <name>IsMBBType</name>
+        <qualifiedname>CIccTag::IsMBBType</qualifiedname>
+        <reimplementedby refid="dc/d06/a01153_1aedfafd03d9674429e9b7129920f0c961">IsMBBType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="136" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="136" bodyend="136"/>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1aa2a3dd91bfad9cf1297300d70936121a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTag::IsNumArrayType</definition>
+        <argsstring>() const</argsstring>
+        <name>IsNumArrayType</name>
+        <qualifiedname>CIccTag::IsNumArrayType</qualifiedname>
+        <reimplementedby refid="d2/d57/a01033_1a8f13e2553ee31dedc82ab426f8a53adb">IsNumArrayType</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a461055cad7f55c2271e985df8d71cd06">IsNumArrayType</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a5ed0b3f45a0a31a343ba082a04cb99e6">IsNumArrayType</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1afa69c2225a236494db0f88062eaa6904">IsNumArrayType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="137" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="137" bodyend="137"/>
+        <referencedby refid="d5/d05/a00385_1a9425c5f4e45f89e119c7dd5add27f69a" compoundref="dc/de6/a00167" startline="315" endline="347">CIccArrayNamedColor::FindDeviceColor</referencedby>
+        <referencedby refid="d5/d05/a00385_1a94b8521face8ca8e1df119db8d7abeeb" compoundref="dc/de6/a00167" startline="349" endline="385">CIccArrayNamedColor::FindPcsColor</referencedby>
+        <referencedby refid="d5/d05/a00385_1a6c3143e1f5a2433144786f86e7d9becc" compoundref="dc/de6/a00167" startline="387" endline="422">CIccArrayNamedColor::FindSpectralColor</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a3a289a5085d977f0682ea411e24b211f" compoundref="d5/dcb/a00170" startline="726" endline="739">CIccTagStruct::GetElemNumberValue</referencedby>
+        <referencedby refid="d7/d93/a00397_1a29aeaa159d5b68cd0badf917a11d8030" compoundref="d1/d88/a00128" startline="470" endline="477">CIccStructNamedColor::GetNumArray</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a3415307280dc7b871cc1797704008991" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTag::IsSupported</definition>
+        <argsstring>()</argsstring>
+        <name>IsSupported</name>
+        <qualifiedname>CIccTag::IsSupported</qualifiedname>
+        <reimplementedby refid="d3/da5/a00973_1a1a0d8fcf4838d2da3ccf573bce4683e1">IsSupported</reimplementedby>
+        <reimplementedby refid="dc/dab/a01237_1a6924e8cf27369ecfe2edfd8f366eb63a">IsSupported</reimplementedby>
+        <reimplementedby refid="d5/d54/a01213_1a07928be5f1f567d11d715a9d4713f431">IsSupported</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: IsSupported(size, pIO) - Check if tag fully supported for apply purposes. By Default inherited classes are supported. Unknown tag types are not supported.</para>
+<para>Returns true if tag type is supported. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="153" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1afc2491647e600a6f2ffefb36af6055d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+        <definition>virtual CIccTag * CIccTag::NewCopy</definition>
+        <argsstring>() const</argsstring>
+        <name>NewCopy</name>
+        <qualifiedname>CIccTag::NewCopy</qualifiedname>
+        <reimplementedby refid="d3/da5/a00973_1a999ae73d95b33965c53f6331ec094eeb">NewCopy</reimplementedby>
+        <reimplementedby refid="d5/d6c/a00977_1a49f54b375e39a62570cac49e86e6fad6">NewCopy</reimplementedby>
+        <reimplementedby refid="dd/d24/a00981_1a246ab1606c938c1f43cfcbfd3362c092">NewCopy</reimplementedby>
+        <reimplementedby refid="da/deb/a00985_1aa318ac0034179ee41808f246f932c9fb">NewCopy</reimplementedby>
+        <reimplementedby refid="d4/d95/a00989_1a2b1af78034c6f917173386ff8e956f00">NewCopy</reimplementedby>
+        <reimplementedby refid="da/d0a/a00993_1a4d37ac1443a27a7a36fcbbc4e3237822">NewCopy</reimplementedby>
+        <reimplementedby refid="d0/d28/a00997_1a7c72e7c8f3b9259b4a933447576d18c4">NewCopy</reimplementedby>
+        <reimplementedby refid="df/d59/a01001_1a0bf61c526d94652e62682ff23b59937d">NewCopy</reimplementedby>
+        <reimplementedby refid="d7/d59/a01013_1a83c85b016bdbb74a64d4163cb1891227">NewCopy</reimplementedby>
+        <reimplementedby refid="d3/ded/a01017_1a463263c2be38cad381684d56ebaee280">NewCopy</reimplementedby>
+        <reimplementedby refid="d5/dfb/a01021_1a68d8f33bf9c8712f3f516ba46170e5e6">NewCopy</reimplementedby>
+        <reimplementedby refid="db/d23/a01025_1a894f5c1293ee4648378f6a873ed7dd5b">NewCopy</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a6815b94a992c22366f7ca88f1d0c18b6">NewCopy</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1aef094caf5d4d776c0adeee6377113fd5">NewCopy</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a91780dd0f45d94b9583bb9f22c2c54b3">NewCopy</reimplementedby>
+        <reimplementedby refid="d0/d22/a01049_1a9b0a6711c400bf16d198b7da5b6f993f">NewCopy</reimplementedby>
+        <reimplementedby refid="d2/db8/a01057_1a1f95e9ddec7823fe775207080bef60f2">NewCopy</reimplementedby>
+        <reimplementedby refid="de/d9e/a01061_1a15271b0f4fe733313ea87b37383ec555">NewCopy</reimplementedby>
+        <reimplementedby refid="d0/dc9/a01065_1a7cacb8bede1ad1dbac9cede87d41bca2">NewCopy</reimplementedby>
+        <reimplementedby refid="d8/d18/a01069_1a5df9ad728daa847c0c9d5de611a4bd71">NewCopy</reimplementedby>
+        <reimplementedby refid="d9/d7c/a01073_1a850ae0dc096a2b7dfd625978569abbba">NewCopy</reimplementedby>
+        <reimplementedby refid="d0/dd3/a01077_1a622946cd234e7e3e5dd16f0045a1f35d">NewCopy</reimplementedby>
+        <reimplementedby refid="d3/dc4/a01089_1a75e27f7883e595e29575dca402d84a4e">NewCopy</reimplementedby>
+        <reimplementedby refid="de/d99/a01101_1a0cae629568288157f6b8b84e5c1106f2">NewCopy</reimplementedby>
+        <reimplementedby refid="de/d1d/a01105_1ac462403fb137565f7eed2344435d8c1d">NewCopy</reimplementedby>
+        <reimplementedby refid="d8/dbf/a01109_1a4012e30790dc36681721f18a49863a8f">NewCopy</reimplementedby>
+        <reimplementedby refid="d8/ded/a01113_1a87c7ad74888ce483f99495cbddc958fa">NewCopy</reimplementedby>
+        <reimplementedby refid="d6/d8b/a01117_1a6dacb06c248aa93fac201a5aa873358f">NewCopy</reimplementedby>
+        <reimplementedby refid="d5/d5f/a00461_1aecc8bace62fbdc50659767371e7a6092">NewCopy</reimplementedby>
+        <reimplementedby refid="db/de0/a00465_1a620f2c181693c398e3c3491a6a4c45ac">NewCopy</reimplementedby>
+        <reimplementedby refid="d6/da1/a01233_1a845446d7e456c70d42e884e33005ef71">NewCopy</reimplementedby>
+        <reimplementedby refid="dc/dab/a01237_1a40e9405eef7260b6bda5f0bd85cdd066">NewCopy</reimplementedby>
+        <reimplementedby refid="dd/de4/a01121_1a89d03bbea50e024bf507f2089ab536d7">NewCopy</reimplementedby>
+        <reimplementedby refid="d6/dc4/a01125_1a7551a7082dea9b07c1b2a2b6a887505d">NewCopy</reimplementedby>
+        <reimplementedby refid="d9/d17/a01129_1a1e1b0421b18b75962912b9caedfb1faf">NewCopy</reimplementedby>
+        <reimplementedby refid="db/d28/a01133_1a6198f1a2c152da522e7692da38ffc624">NewCopy</reimplementedby>
+        <reimplementedby refid="dc/d06/a01153_1a8b56b7bb506f04117a28c3ace8f65443">NewCopy</reimplementedby>
+        <reimplementedby refid="d9/d25/a01157_1a830b4cc7bf007fadfd4b2a71c4d9be3f">NewCopy</reimplementedby>
+        <reimplementedby refid="dc/d81/a01161_1ae4322b6a53a83453bfd0b6bab5c9e292">NewCopy</reimplementedby>
+        <reimplementedby refid="d8/d92/a01165_1a2733fd86604ef1f7c48d8c12e26d9714">NewCopy</reimplementedby>
+        <reimplementedby refid="d7/daf/a01169_1a7d31959960eda96f5cb378364e9c913d">NewCopy</reimplementedby>
+        <reimplementedby refid="dc/d98/a01177_1a6400a0941093bb8f98db816b5058d9c5">NewCopy</reimplementedby>
+        <reimplementedby refid="d5/d54/a01213_1a87956fe8fd516379d8a450d057f258fb">NewCopy</reimplementedby>
+        <reimplementedby refid="dd/d3f/a01221_1af954b7abf5aae8cd67ee85a401200a82">NewCopy</reimplementedby>
+        <reimplementedby refid="d4/d29/a01817_1a133c6b4ae9184240b1e5c207253324b4">NewCopy</reimplementedby>
+        <reimplementedby refid="de/d3d/a01821_1a1fabaff3f30d471891ab5f592135142b">NewCopy</reimplementedby>
+        <reimplementedby refid="df/dee/a01825_1aae198299fa5e5af16e85b29570b59c2f">NewCopy</reimplementedby>
+        <reimplementedby refid="d6/dbd/a01829_1a9aa36ea4a98e47a5ca862cee3c7cc520">NewCopy</reimplementedby>
+        <reimplementedby refid="db/dd5/a01833_1afbcbe6f7347e12a6d8f1e2a51aa5b3ef">NewCopy</reimplementedby>
+        <reimplementedby refid="d7/db1/a01837_1a3a326420e53a0e090153259bc2ff03e0">NewCopy</reimplementedby>
+        <reimplementedby refid="d7/d9c/a01885_1a675af217621644003d272d7c4e32c2a0">NewCopy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: NewCopy(sDescription) Each derived tag will implement it&apos;s own <ref refid="d7/dfd/a00969_1afc2491647e600a6f2ffefb36af6055d6" kindref="member">NewCopy()</ref> function.</para>
+<para>Parameter(s): none</para>
+<para>Returns a new <ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> object that is a copy of this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="121" column="19" bodyfile="IccProfLib/IccTagBasic.h" bodystart="121" bodyend="121"/>
+        <referencedby refid="d7/dcf/a00845_1a65468661591beaa13e7a49bde8988078" compoundref="d6/d2d/a00047" startline="3521" endline="3531">CIccMpeTintArray::CIccMpeTintArray</referencedby>
+        <referencedby refid="dd/dee/a01081_1ab6576e323d065d5e7f7515a9d6ab3412" compoundref="d9/dd0/a00191" startline="9190" endline="9200">CIccProfileDescText::CIccProfileDescText</referencedby>
+        <referencedby refid="db/de0/a00465_1a1361ea475ab69942f083fd6e108aabf9" compoundref="d5/dcb/a00170" startline="1030" endline="1050">CIccTagArray::CIccTagArray</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a26f7e89da7f62d7c542d84b02b71bf9c" compoundref="d5/dcb/a00170" startline="146" endline="177">CIccTagStruct::CIccTagStruct</referencedby>
+        <referencedby refid="d5/d88/a02141_1aee569da8bc1f6d0925523791867bc9d4" compoundref="d1/dc6/a00347" startline="301" endline="455">CDevLinkWriter::begin</referencedby>
+        <referencedby refid="d3/dd5/a00215_1aa1b934352875d96de59a8b3332dc8e1d" compoundref="de/d76/a00134" startline="538" endline="604">icConvertEncodingProfile</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a97ca457e4abf9d6a818b33a7e9d1b144" compoundref="d6/d2d/a00047" startline="3543" endline="3558">CIccMpeTintArray::operator=</referencedby>
+        <referencedby refid="dd/dee/a01081_1a45c411738f6363dc513c02bb46252ff0" compoundref="d9/dd0/a00191" startline="9213" endline="9231">CIccProfileDescText::operator=</referencedby>
+        <referencedby refid="db/de0/a00465_1a5595210ce0d4d09700158ca63e255807" compoundref="d5/dcb/a00170" startline="1062" endline="1090">CIccTagArray::operator=</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a49d90ea1aa4fca2e83259fd571a38170" compoundref="d5/dcb/a00170" startline="189" endline="225">CIccTagStruct::operator=</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a5568fff58a4e0e004f2456c44151307d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTag::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccTag::Read</qualifiedname>
+        <reimplementedby refid="d3/da5/a00973_1a3957f5eab366867344b44df2d62e36a2">Read</reimplementedby>
+        <reimplementedby refid="d5/d6c/a00977_1a7864b17f6ae5097cf91aa0868347c5b9">Read</reimplementedby>
+        <reimplementedby refid="dd/d24/a00981_1a83a1e653b635dc8de0d7ae5d954fac2f">Read</reimplementedby>
+        <reimplementedby refid="da/deb/a00985_1a54b57ff1d3862921f5b9521d36f8c1b9">Read</reimplementedby>
+        <reimplementedby refid="da/d0a/a00993_1a541b259a793c7a6a5ef550f6dcc5e3b5">Read</reimplementedby>
+        <reimplementedby refid="d0/d28/a00997_1a21f20acea58aebce6ed81c3ab99fc116">Read</reimplementedby>
+        <reimplementedby refid="df/d59/a01001_1a7a9c398068ff4923347784c5a49d0dd6">Read</reimplementedby>
+        <reimplementedby refid="d7/d59/a01013_1a7dc35fa353a34a281bf4dedccacef154">Read</reimplementedby>
+        <reimplementedby refid="d3/ded/a01017_1ae532c686e1218e1fa4b06170dbe6bf9b">Read</reimplementedby>
+        <reimplementedby refid="d5/dfb/a01021_1a6dd75947efad4af7776c7479d025cc29">Read</reimplementedby>
+        <reimplementedby refid="db/d23/a01025_1a8d879b749261432edad544fad531181e">Read</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032">Read</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1acef71609b8b4ed38f49f8e3f6ba9fcee">Read</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a1ae343363af0fc5c9f73b8a85a25c2f1">Read</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1ac6bd7df482255281c7d245b902acb1ef">Read</reimplementedby>
+        <reimplementedby refid="d0/d22/a01049_1a5f30945e89be4dcf7a0b9efd74ef6108">Read</reimplementedby>
+        <reimplementedby refid="d2/db8/a01057_1ad1c5b1272f6e344c2bb9ed0dfbee8f86">Read</reimplementedby>
+        <reimplementedby refid="de/d9e/a01061_1aba8584733382242a5302deab1639f404">Read</reimplementedby>
+        <reimplementedby refid="d0/dc9/a01065_1a351d04c1e658e77c5b1c54a8321ca212">Read</reimplementedby>
+        <reimplementedby refid="d8/d18/a01069_1a667e348cdeef45ba95f5834c6171531a">Read</reimplementedby>
+        <reimplementedby refid="d9/d7c/a01073_1aa0a7314bacc5e5562432f5ab9f10a83d">Read</reimplementedby>
+        <reimplementedby refid="d0/dd3/a01077_1ac07eaef0a9edd17a3ef51533a6c99d7d">Read</reimplementedby>
+        <reimplementedby refid="d3/dc4/a01089_1ae5af70d0e084a18fe04f7cfcaab17f7a">Read</reimplementedby>
+        <reimplementedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2">Read</reimplementedby>
+        <reimplementedby refid="de/d1d/a01105_1ad26da18f2fbaa300b05e71bbe90b3586">Read</reimplementedby>
+        <reimplementedby refid="d8/dbf/a01109_1a2517e82008350846709ef534e551bebe">Read</reimplementedby>
+        <reimplementedby refid="d8/ded/a01113_1a5147c62ec0b6383c6dcabf8ebeac5f5e">Read</reimplementedby>
+        <reimplementedby refid="d6/d8b/a01117_1a2758418b06545dd03f4b8c8f478da8e5">Read</reimplementedby>
+        <reimplementedby refid="d5/d5f/a00461_1a560ac9d14c6e3c5f85b2568a76823cb2">Read</reimplementedby>
+        <reimplementedby refid="db/de0/a00465_1aa3fe4ccface825d27a6c49ae022bcdb0">Read</reimplementedby>
+        <reimplementedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f">Read</reimplementedby>
+        <reimplementedby refid="dc/dab/a01237_1ab357984fdf4521ced0fb7727243ebb98">Read</reimplementedby>
+        <reimplementedby refid="d6/dc4/a01125_1a86401f42aa785fac984b8dcc1f721f39">Read</reimplementedby>
+        <reimplementedby refid="d9/d17/a01129_1a4226e608622c8c05df0962b90a116503">Read</reimplementedby>
+        <reimplementedby refid="db/d28/a01133_1a62b6d48c93f0573fc254b402a437f4cf">Read</reimplementedby>
+        <reimplementedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26">Read</reimplementedby>
+        <reimplementedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8">Read</reimplementedby>
+        <reimplementedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373">Read</reimplementedby>
+        <reimplementedby refid="dc/d98/a01177_1ac762581885a9375d6459cd390d538c94">Read</reimplementedby>
+        <reimplementedby refid="d5/d54/a01213_1a00eff526d38081625b79195b3da1728d">Read</reimplementedby>
+        <reimplementedby refid="dd/d3f/a01221_1aa1568bb1c77891e42ca498bc092b673f">Read</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: Read(size, pIO) - Read tag from file. Each derived tag will implement it&apos;s own <ref refid="d7/dfd/a00969_1a5568fff58a4e0e004f2456c44151307d" kindref="member">Read()</ref> function.</para>
+<para>Parameter(s): size - number of bytes in tag including the type signature. pIO - IO object used to read in tag. The IO object should already be initialized to point to the begining of the tag.</para>
+<para>Returns true if Read is successful. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="167" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="167" bodyend="167"/>
+        <referencedby refid="d5/d5f/a00461_1ac6d61b8ae0ec667a3a6de3cc20ab96fd" compoundref="d5/dcb/a00170" startline="847" endline="911">CIccTagStruct::LoadElem</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="dd/dee/a01081_1ad3ac0f6cdd51a837fe974550a1376038" compoundref="d9/dd0/a00191" startline="9331" endline="9369">CIccProfileDescText::Read</referencedby>
+        <referencedby refid="db/de0/a00465_1aa3fe4ccface825d27a6c49ae022bcdb0" compoundref="d5/dcb/a00170" startline="1213" endline="1316">CIccTagArray::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d7/dfd/a00969_1a9c4cabcc7ea3278e375131bb688a8293" compoundref="da/dec/a00080" startline="197" endline="197">CIccTag::Read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a9c4cabcc7ea3278e375131bb688a8293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTag::Read</definition>
+        <argsstring>(icUInt32Number size, CIccIO *pIO, CIccProfile *pProfile)</argsstring>
+        <name>Read</name>
+        <qualifiedname>CIccTag::Read</qualifiedname>
+        <reimplementedby refid="dc/dab/a01237_1afd8cd85808168cd64779b3d94273c344">Read</reimplementedby>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <param>
+          <type><ref refid="da/dec/a00080_1a8063b420b9048bd7b217c4aa451461c0" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: Read(size, pIO) - Read tag from file. Each derived tag will implement it&apos;s own <ref refid="d7/dfd/a00969_1a5568fff58a4e0e004f2456c44151307d" kindref="member">Read()</ref> function.</para>
+<para>Parameter(s): size - number of bytes in tag including the type signature. pIO - IO object used to read in tag. The IO object should already be initialized to point to the begining of the tag.</para>
+<para>Returns true if Read is successful. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="197" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="197" bodyend="197"/>
+        <references refid="d7/dfd/a00969_1a5568fff58a4e0e004f2456c44151307d" compoundref="da/dec/a00080" startline="167" endline="167">CIccTag::Read</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1affe66685d53e2ebf016a5a5126ed968d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTag::ReadAll</definition>
+        <argsstring>()</argsstring>
+        <name>ReadAll</name>
+        <qualifiedname>CIccTag::ReadAll</qualifiedname>
+        <reimplementedby refid="dc/dab/a01237_1a440dc243e63c6c37d100e8ec70f21c08">ReadAll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="d7/dfd/a00969_1affe66685d53e2ebf016a5a5126ed968d" kindref="member">ReadAll()</ref> - Read All sub data for tag from file. Called by CIccProfile::ReadAll() to read all sub data for tag</para>
+<para>Returns true if ReadAll is successful. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="175" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1a8c774206ae56bc1e504696da10977f18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964" kindref="member">icValidateStatus</ref></type>
+        <definition>icValidateStatus CIccTag::Validate</definition>
+        <argsstring>(std::string sigPath, std::string &amp;sReport, const CIccProfile *pProfile=NULL) const</argsstring>
+        <name>Validate</name>
+        <qualifiedname>CIccTag::Validate</qualifiedname>
+        <reimplementedby refid="dc/d98/a01177_1a35e15603a306985d25d670b6328e257b">Validate</reimplementedby>
+        <reimplementedby refid="d5/d6c/a00977_1a11f674aa13ce90e3d49cb96fdb3d97b5">Validate</reimplementedby>
+        <reimplementedby refid="dd/d24/a00981_1aabca61f520bf0d80e1f6c6bd9f29ebfe">Validate</reimplementedby>
+        <reimplementedby refid="da/deb/a00985_1a6d44f85a12ab8469ff8ed526c9b1ce4f">Validate</reimplementedby>
+        <reimplementedby refid="da/d0a/a00993_1ac0946f38c155aead0d5fdf292ed2b4da">Validate</reimplementedby>
+        <reimplementedby refid="d0/d28/a00997_1aa20bfff991d9bc819f33cc3b78bbd897">Validate</reimplementedby>
+        <reimplementedby refid="df/d59/a01001_1a7923e91a0c8942a0616ec2cad523dafa">Validate</reimplementedby>
+        <reimplementedby refid="d7/d59/a01013_1ac0354e0bf4c50fc04a8c2aab14690084">Validate</reimplementedby>
+        <reimplementedby refid="d3/ded/a01017_1a085ef8333b48a12156bfbeca4d7ea0a6">Validate</reimplementedby>
+        <reimplementedby refid="d5/dfb/a01021_1a363fa8d1549974c0ab2a50c9e6330927">Validate</reimplementedby>
+        <reimplementedby refid="db/d23/a01025_1aadd22549e640fe94f69690bb2308b180">Validate</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1a0425bc1b2a3489ac1caec150c85ab025">Validate</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a5a9feb512c4a89fec572b76d1798e38b">Validate</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a5448179b0e65e4422d46808e5b516ebb">Validate</reimplementedby>
+        <reimplementedby refid="d0/d22/a01049_1a1e63996a6dcb3195997623027486315d">Validate</reimplementedby>
+        <reimplementedby refid="d2/db8/a01057_1a725c1209bd34f547b2b56b504175bfcb">Validate</reimplementedby>
+        <reimplementedby refid="de/d9e/a01061_1a0c165a2dfc3f21babb4ff6ae9868981b">Validate</reimplementedby>
+        <reimplementedby refid="d0/dc9/a01065_1a2e8592a635b1e712758bdb65231b8911">Validate</reimplementedby>
+        <reimplementedby refid="d8/d18/a01069_1a4361502a44dcaa131346a8aec86172da">Validate</reimplementedby>
+        <reimplementedby refid="d9/d7c/a01073_1a8793138eaec712cb06b9a7c326f50d55">Validate</reimplementedby>
+        <reimplementedby refid="d0/dd3/a01077_1ae498dc86ec84e11c46036d3ab33b1f5c">Validate</reimplementedby>
+        <reimplementedby refid="d3/dc4/a01089_1a76fce6cca3932803be2f6c6974ee7ff0">Validate</reimplementedby>
+        <reimplementedby refid="de/d99/a01101_1a025f795911a18435967649ccac38f3a2">Validate</reimplementedby>
+        <reimplementedby refid="de/d1d/a01105_1a87b19a51bc56af0cf18704bb5cff1a16">Validate</reimplementedby>
+        <reimplementedby refid="d8/dbf/a01109_1a11a2673242d11dd1e19a93a6bff7a7d8">Validate</reimplementedby>
+        <reimplementedby refid="d8/ded/a01113_1ac56b7ea2312e53fdffc1fb77b1195fde">Validate</reimplementedby>
+        <reimplementedby refid="d6/d8b/a01117_1a51520355f27be869e3bc1350653f955f">Validate</reimplementedby>
+        <reimplementedby refid="d5/d5f/a00461_1a3081292ee5bd17119c61e22466e482ec">Validate</reimplementedby>
+        <reimplementedby refid="db/de0/a00465_1af4ca3bece348eb0c1233206fbe3fb8a6">Validate</reimplementedby>
+        <reimplementedby refid="d6/da1/a01233_1af0339febf31b983fa69e29aa62f5662e">Validate</reimplementedby>
+        <reimplementedby refid="dc/dab/a01237_1a39483430810402bbf631128d04e60690">Validate</reimplementedby>
+        <reimplementedby refid="d6/dc4/a01125_1afec4b4005ac6b85095673d3de298cda1">Validate</reimplementedby>
+        <reimplementedby refid="d9/d17/a01129_1a03eee7edd12951e6a62e5e1784188c09">Validate</reimplementedby>
+        <reimplementedby refid="db/d28/a01133_1a0edf35a32e3aba06b36533005713b4e3">Validate</reimplementedby>
+        <reimplementedby refid="d5/d54/a01213_1ada9c86287fe2987e6efc099dcdbfc28d">Validate</reimplementedby>
+        <reimplementedby refid="dd/d3f/a01221_1a72d91bd7fba5cfe3464e796e075d0c47">Validate</reimplementedby>
+        <param>
+          <type>std::string</type>
+          <declname>sigPath</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>sReport</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/dec/a00080_1a8063b420b9048bd7b217c4aa451461c0" kindref="member">CIccProfile</ref> *</type>
+          <declname>pProfile</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: Validate Each derived tag will implement it&apos;s own IsValid() function</para>
+<para>Parameter(s): sig - signature of tag being validated, sDescription - A string to put tag validation report.</para>
+<para>Name: <ref refid="d7/dfd/a00969_1a8c774206ae56bc1e504696da10977f18" kindref="member">CIccTag::Validate</ref></para>
+<para>Purpose: Check tag data validity. In base class we only look at the tag&apos;s reserved data value</para>
+<para>Args: sig = signature of tag being validated, sReport = String to add report information to</para>
+<para>Return: icValidateStatusOK if valid, or other error status. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="232" column="28" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="164" bodyend="178"/>
+        <references refid="dc/d2f/a00425_1ace3d488a34309a05a91f157c76a48366" compoundref="d5/db1/a00140" startline="1614" endline="1637">CIccInfo::GetSigPathName</references>
+        <references refid="d7/dce/a00143_1afc544e4cf29049a9dade4afa39fe5583" compoundref="d5/db1/a00140" startline="91">icMsgValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964afb5bd0ed92cee1ec73bc11b9f50a7e19" compoundref="d4/d81/a00110" startline="121">icValidateNonCompliant</references>
+        <references refid="d4/d81/a00110_1ad4386e65ad08f272e5f0d51bd2b24964a1184999230349b4dea16f282836683d2" compoundref="d4/d81/a00110" startline="119">icValidateOK</references>
+        <references refid="d7/dfd/a00969_1a0dbc39e419057e941c11cacb8c9e3fb0" compoundref="da/dec/a00080" startline="235">CIccTag::m_nReserved</references>
+        <referencedby refid="dc/d98/a01177_1a35e15603a306985d25d670b6328e257b" compoundref="d4/d3e/a00116" startline="5816" endline="5833">CIccTagGamutBoundaryDesc::Validate</referencedby>
+        <referencedby refid="dc/d06/a01153_1a8ee5ed15873b9957a76e8aad99c16c39" compoundref="d4/d3e/a00116" startline="3532" endline="3662">CIccMBB::Validate</referencedby>
+        <referencedby refid="d9/d25/a01157_1afba782ec7a479cebdc49a2ce92fb69ff" compoundref="d4/d3e/a00116" startline="4194" endline="4276">CIccTagLutAtoB::Validate</referencedby>
+        <referencedby refid="dc/d81/a01161_1ac351f0a08a54161218bc8c13b9fdcbff" compoundref="d4/d3e/a00116" startline="4342" endline="4442">CIccTagLutBtoA::Validate</referencedby>
+        <referencedby refid="d8/d92/a01165_1a44e621b483545b6ee27a8c873c9d4d01" compoundref="d4/d3e/a00116" startline="4780" endline="4889">CIccTagLut8::Validate</referencedby>
+        <referencedby refid="d7/daf/a01169_1a8d9c73f08ddad1bc2a8b963d90698d59" compoundref="d4/d3e/a00116" startline="5204" endline="5314">CIccTagLut16::Validate</referencedby>
+        <referencedby refid="d4/d13/a00377_1af963154771cc622580cd4251ce854596" compoundref="dc/de6/a00167" startline="122" endline="150">CIccArrayUnknown::Validate</referencedby>
+        <referencedby refid="de/d08/a00381_1ac28db86091b3c137fb8d5aa2c184a083" compoundref="dc/de6/a00167" startline="180" endline="213">CIccArrayColorantInfo::Validate</referencedby>
+        <referencedby refid="d5/d05/a00385_1a0862295ad84631f6d56761091cf16474" compoundref="dc/de6/a00167" startline="480" endline="600">CIccArrayNamedColor::Validate</referencedby>
+        <referencedby refid="da/dbf/a00393_1a2ca20ad9e6a3fda566db8c5c460fb3eb" compoundref="d1/d88/a00128" startline="181" endline="201">CIccStructUnknown::Validate</referencedby>
+        <referencedby refid="d5/d6c/a00977_1a11f674aa13ce90e3d49cb96fdb3d97b5" compoundref="d9/dd0/a00191" startline="651" endline="696">CIccTagText::Validate</referencedby>
+        <referencedby refid="dd/d24/a00981_1aabca61f520bf0d80e1f6c6bd9f29ebfe" compoundref="d9/dd0/a00191" startline="1027" endline="1043">CIccTagUtf8Text::Validate</referencedby>
+        <referencedby refid="da/deb/a00985_1a6d44f85a12ab8469ff8ed526c9b1ce4f" compoundref="d9/dd0/a00191" startline="1460" endline="1499">CIccTagZipUtf8Text::Validate</referencedby>
+        <referencedby refid="da/d0a/a00993_1ac0946f38c155aead0d5fdf292ed2b4da" compoundref="d9/dd0/a00191" startline="1886" endline="1901">CIccTagUtf16Text::Validate</referencedby>
+        <referencedby refid="d0/d28/a00997_1aa20bfff991d9bc819f33cc3b78bbd897" compoundref="d9/dd0/a00191" startline="2381" endline="2405">CIccTagTextDescription::Validate</referencedby>
+        <referencedby refid="df/d59/a01001_1a7923e91a0c8942a0616ec2cad523dafa" compoundref="d9/dd0/a00191" startline="2576" endline="2663">CIccTagSignature::Validate</referencedby>
+        <referencedby refid="d7/d59/a01013_1ac0354e0bf4c50fc04a8c2aab14690084" compoundref="d9/dd0/a00191" startline="3459" endline="3493">CIccTagNamedColor2::Validate</referencedby>
+        <referencedby refid="d3/ded/a01017_1a085ef8333b48a12156bfbeca4d7ea0a6" compoundref="d9/dd0/a00191" startline="3734" endline="3755">CIccTagXYZ::Validate</referencedby>
+        <referencedby refid="d5/dfb/a01021_1a363fa8d1549974c0ab2a50c9e6330927" compoundref="d9/dd0/a00191" startline="4014" endline="4094">CIccTagChromaticity::Validate</referencedby>
+        <referencedby refid="db/d23/a01025_1aadd22549e640fe94f69690bb2308b180" compoundref="d9/dd0/a00191" startline="4374" endline="4399">CIccTagCicp::Validate</referencedby>
+        <referencedby refid="d1/d83/a01041_1a5a9feb512c4a89fec572b76d1798e38b" compoundref="d9/dd0/a00191" startline="5868" endline="5887">CIccTagNum&lt; T, Tsig &gt;::Validate</referencedby>
+        <referencedby refid="d7/d46/a01045_1a5448179b0e65e4422d46808e5b516ebb" compoundref="d9/dd0/a00191" startline="6554" endline="6573">CIccTagFloatNum&lt; T, Tsig &gt;::Validate</referencedby>
+        <referencedby refid="d0/d22/a01049_1a1e63996a6dcb3195997623027486315d" compoundref="d9/dd0/a00191" startline="6890" endline="6943">CIccTagMeasurement::Validate</referencedby>
+        <referencedby refid="d2/db8/a01057_1a725c1209bd34f547b2b56b504175bfcb" compoundref="d9/dd0/a00191" startline="7654" endline="7675">CIccTagMultiLocalizedUnicode::Validate</referencedby>
+        <referencedby refid="de/d9e/a01061_1a0c165a2dfc3f21babb4ff6ae9868981b" compoundref="d9/dd0/a00191" startline="8077" endline="8118">CIccTagData::Validate</referencedby>
+        <referencedby refid="d0/dc9/a01065_1a2e8592a635b1e712758bdb65231b8911" compoundref="d9/dd0/a00191" startline="8305" endline="8313">CIccTagDateTime::Validate</referencedby>
+        <referencedby refid="d8/d18/a01069_1a4361502a44dcaa131346a8aec86172da" compoundref="d9/dd0/a00191" startline="8561" endline="8600">CIccTagColorantOrder::Validate</referencedby>
+        <referencedby refid="d9/d7c/a01073_1a8793138eaec712cb06b9a7c326f50d55" compoundref="d9/dd0/a00191" startline="8895" endline="8936">CIccTagColorantTable::Validate</referencedby>
+        <referencedby refid="d0/dd3/a01077_1ae498dc86ec84e11c46036d3ab33b1f5c" compoundref="d9/dd0/a00191" startline="9151" endline="9162">CIccTagViewingConditions::Validate</referencedby>
+        <referencedby refid="d3/dc4/a01089_1a76fce6cca3932803be2f6c6974ee7ff0" compoundref="d9/dd0/a00191" startline="9707" endline="9776">CIccTagProfileSeqDesc::Validate</referencedby>
+        <referencedby refid="de/d99/a01101_1a025f795911a18435967649ccac38f3a2" compoundref="d9/dd0/a00191" startline="10530" endline="10565">CIccTagResponseCurveSet16::Validate</referencedby>
+        <referencedby refid="de/d1d/a01105_1a87b19a51bc56af0cf18704bb5cff1a16" compoundref="d9/dd0/a00191" startline="10788" endline="10812">CIccTagSpectralDataInfo::Validate</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a11a2673242d11dd1e19a93a6bff7a7d8" compoundref="d9/dd0/a00191" startline="11246" endline="11299">CIccTagSpectralViewingConditions::Validate</referencedby>
+        <referencedby refid="d8/ded/a01113_1ac56b7ea2312e53fdffc1fb77b1195fde" compoundref="d9/dd0/a00191" startline="11979" endline="12009">CIccTagEmbeddedHeightImage::Validate</referencedby>
+        <referencedby refid="d6/d8b/a01117_1a51520355f27be869e3bc1350653f955f" compoundref="d9/dd0/a00191" startline="12278" endline="12329">CIccTagEmbeddedNormalImage::Validate</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a3081292ee5bd17119c61e22466e482ec" compoundref="d5/dcb/a00170" startline="519" endline="550">CIccTagStruct::Validate</referencedby>
+        <referencedby refid="db/de0/a00465_1af4ca3bece348eb0c1233206fbe3fb8a6" compoundref="d5/dcb/a00170" startline="1455" endline="1494">CIccTagArray::Validate</referencedby>
+        <referencedby refid="d6/da1/a01233_1af0339febf31b983fa69e29aa62f5662e" compoundref="dd/dc1/a00212" startline="917" endline="949">CIccTagDict::Validate</referencedby>
+        <referencedby refid="dc/dab/a01237_1a39483430810402bbf631128d04e60690" compoundref="d9/d01/a00227" startline="448" endline="483">CIccTagEmbeddedProfile::Validate</referencedby>
+        <referencedby refid="d6/dc4/a01125_1afec4b4005ac6b85095673d3de298cda1" compoundref="d4/d3e/a00116" startline="613" endline="635">CIccTagCurve::Validate</referencedby>
+        <referencedby refid="d9/d17/a01129_1a03eee7edd12951e6a62e5e1784188c09" compoundref="d4/d3e/a00116" startline="1090" endline="1171">CIccTagParametricCurve::Validate</referencedby>
+        <referencedby refid="dd/d3f/a01221_1a72d91bd7fba5cfe3464e796e075d0c47" compoundref="de/df3/a00185" startline="614" endline="629">CIccTagProfileSequenceId::Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d0/daa/a01029_1ab06fa6b1ea67f171dac64058fda586b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTagNumArray::ValuePos</definition>
+        <argsstring>(icFloatNumber &amp;DstPos, icFloatNumber val, bool &amp;bNoZero) const =0</argsstring>
+        <name>ValuePos</name>
+        <qualifiedname>CIccTagNumArray::ValuePos</qualifiedname>
+        <reimplementedby refid="d1/d83/a01041_1ae5ea49b56572844c3d83494717dac775">ValuePos</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1aaa3e8c2a9565a96692215ee2e12de05c">ValuePos</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1aac19b105ac9cfd1f73fb4329e68081b9">ValuePos</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a9f0123058c2034cfa31a731bb132364a">ValuePos</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1ae9fecdc97059c5b027e799db8f4dd72f">ValuePos</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a0f6f70e081a64bbdf5a47d752f0828e2">ValuePos</reimplementedby>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> &amp;</type>
+          <declname>DstPos</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>bNoZero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="814" column="16"/>
+        <referencedby refid="d7/d93/a00397_1a50a2be66d32c1af7cda4ca9f0b64a6ca" compoundref="d1/d88/a00128" startline="479" endline="554">CIccStructNamedColor::GetTint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d7/dfd/a00969_1aaa4a03afee156aacc066d0419cb79537" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CIccTag::Write</definition>
+        <argsstring>(CIccIO *pIO)</argsstring>
+        <name>Write</name>
+        <qualifiedname>CIccTag::Write</qualifiedname>
+        <reimplementedby refid="d3/da5/a00973_1a07905ecc6c14d71812b5c262d11eb0c6">Write</reimplementedby>
+        <reimplementedby refid="d5/d6c/a00977_1a2420c8aa5ef8596206d6634e86d0c2a7">Write</reimplementedby>
+        <reimplementedby refid="dd/d24/a00981_1a6d6e1d88e59b4303b0b9e2a51958e9e8">Write</reimplementedby>
+        <reimplementedby refid="da/deb/a00985_1a03f23410a51ff78712538aa985f4c719">Write</reimplementedby>
+        <reimplementedby refid="da/d0a/a00993_1a425df6d6990c5382d0790e468265a29b">Write</reimplementedby>
+        <reimplementedby refid="d0/d28/a00997_1a9559c228ba13084c2e36840d0f6c7edd">Write</reimplementedby>
+        <reimplementedby refid="df/d59/a01001_1a70aa191f560507eab577666320cce6fb">Write</reimplementedby>
+        <reimplementedby refid="d7/d59/a01013_1a7275fd6a6f74d1987274cd0a6cb4f9d9">Write</reimplementedby>
+        <reimplementedby refid="d3/ded/a01017_1aaa8f1b3a3fca9d237e537d623a1f70af">Write</reimplementedby>
+        <reimplementedby refid="d5/dfb/a01021_1a5c84516a7f909694815c730197c9ca1e">Write</reimplementedby>
+        <reimplementedby refid="db/d23/a01025_1a3b3f3a4ea79f37c343e56c9124be30c6">Write</reimplementedby>
+        <reimplementedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed">Write</reimplementedby>
+        <reimplementedby refid="d2/d41/a01037_1a1703b3c680165fd01691e12680057f8b">Write</reimplementedby>
+        <reimplementedby refid="d1/d83/a01041_1a936bd3aef111beef827f3e57b6c907c0">Write</reimplementedby>
+        <reimplementedby refid="d7/d46/a01045_1a305a6f569c1948ed158d69948ee5481d">Write</reimplementedby>
+        <reimplementedby refid="d0/d22/a01049_1a8875bed465480e096f923e7dd7c02892">Write</reimplementedby>
+        <reimplementedby refid="d2/db8/a01057_1af6652ac806b7cfeb91afb4c274a0be92">Write</reimplementedby>
+        <reimplementedby refid="de/d9e/a01061_1a5c38408813ceb02e19b00a1ef8e42fee">Write</reimplementedby>
+        <reimplementedby refid="d0/dc9/a01065_1a071ca9e3c84c008802d3f9531e9cb7f8">Write</reimplementedby>
+        <reimplementedby refid="d8/d18/a01069_1a589e222bf4d420b885053c461fc5fd9e">Write</reimplementedby>
+        <reimplementedby refid="d9/d7c/a01073_1a1eb67ae5b05fcb67d2a6d60b21cad938">Write</reimplementedby>
+        <reimplementedby refid="d0/dd3/a01077_1a07f17dde762d52f517c065148b349b7e">Write</reimplementedby>
+        <reimplementedby refid="d3/dc4/a01089_1a7d64032c11a24811af599c55681579ed">Write</reimplementedby>
+        <reimplementedby refid="de/d99/a01101_1ae5098d34ecc43ea5166662d3650f9e06">Write</reimplementedby>
+        <reimplementedby refid="de/d1d/a01105_1af0a0779928f736679bc07ea10784b356">Write</reimplementedby>
+        <reimplementedby refid="d8/dbf/a01109_1ad2d1da3030f6deadd1993d7938fed8c0">Write</reimplementedby>
+        <reimplementedby refid="d8/ded/a01113_1a06cdc977f66b84af9e47ef3e873b1b49">Write</reimplementedby>
+        <reimplementedby refid="d6/d8b/a01117_1aef90495e7c31d6694e540ddc04ed76fe">Write</reimplementedby>
+        <reimplementedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3">Write</reimplementedby>
+        <reimplementedby refid="db/de0/a00465_1acd5daadb93f9f89ede59f12310c5f076">Write</reimplementedby>
+        <reimplementedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a">Write</reimplementedby>
+        <reimplementedby refid="dc/dab/a01237_1a1d18120e63e422bb3cad2b0aef1a968a">Write</reimplementedby>
+        <reimplementedby refid="d6/dc4/a01125_1add153f2428e36419fdaf7465a49ad941">Write</reimplementedby>
+        <reimplementedby refid="d9/d17/a01129_1a7b40bd034c7d6dd0efc7668bb5151b92">Write</reimplementedby>
+        <reimplementedby refid="db/d28/a01133_1a6f9b4e9f2d1f5fa7ff98d5b4580623d2">Write</reimplementedby>
+        <reimplementedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59">Write</reimplementedby>
+        <reimplementedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf">Write</reimplementedby>
+        <reimplementedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15">Write</reimplementedby>
+        <reimplementedby refid="dc/d98/a01177_1a216c00ad5cd51842449bb7f50d382a28">Write</reimplementedby>
+        <reimplementedby refid="d5/d54/a01213_1aa4fc1619236076a2cf093cbeb9850d9d">Write</reimplementedby>
+        <reimplementedby refid="dd/d3f/a01221_1a3c3c2655304d893875fc32646ad9af3a">Write</reimplementedby>
+        <param>
+          <type><ref refid="dc/d2c/a00893" kindref="compound">CIccIO</ref> *</type>
+          <declname>pIO</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: Write(pIO) Each derived tag will implement it&apos;s own <ref refid="d7/dfd/a00969_1aaa4a03afee156aacc066d0419cb79537" kindref="member">Write()</ref> function.</para>
+<para>Parameter(s): pIO - IO object used to write a tag. The IO object should already be initialized to point to the begining of the tag.</para>
+<para>Returns true if Write is successful. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="211" column="16" bodyfile="IccProfLib/IccTagBasic.h" bodystart="211" bodyend="211"/>
+        <referencedby refid="d7/dcf/a00845_1ae44de3de19b91513bcc3b56812dc09eb" compoundref="d6/d2d/a00047" startline="3725" endline="3748">CIccMpeTintArray::Write</referencedby>
+        <referencedby refid="dd/dee/a01081_1a8e00e4fdacd1b9a729c797cb6c239966" compoundref="d9/dd0/a00191" startline="9385" endline="9398">CIccProfileDescText::Write</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+        <referencedby refid="db/de0/a00465_1acd5daadb93f9f89ede59f12310c5f076" compoundref="d5/dcb/a00170" startline="1328" endline="1407">CIccTagArray::Write</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/dfd/a00969_1a0dbc39e419057e941c11cacb8c9e3fb0" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/a00002_1a63276cc6df51af4efa1945ecae93a182" kindref="member">icUInt32Number</ref></type>
+        <definition>icUInt32Number CIccTag::m_nReserved</definition>
+        <argsstring></argsstring>
+        <name>m_nReserved</name>
+        <qualifiedname>CIccTag::m_nReserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="235" column="18" bodyfile="IccProfLib/IccTagBasic.h" bodystart="235" bodyend="-1"/>
+        <referencedby refid="d7/dfd/a00969_1aeb282f732beea9da50a69ec59ba1ec3e" compoundref="d9/dd0/a00191" startline="113" endline="116">CIccTag::CIccTag</referencedby>
+        <referencedby refid="d5/d54/a01213_1a30599c496b931c537e70f5d3e405403a" compoundref="dc/d87/a00032" startline="722" endline="756">CIccTagMultiProcessElement::CIccTagMultiProcessElement</referencedby>
+        <referencedby refid="d5/d54/a01213_1accc12b22f49ab9e476708f80fa61f412" compoundref="dc/d87/a00032" startline="695" endline="710">CIccTagMultiProcessElement::CIccTagMultiProcessElement</referencedby>
+        <referencedby refid="d5/d54/a01213_1aacbe95069557bb939a14590ee326699d" compoundref="dc/d87/a00032" startline="768" endline="802">CIccTagMultiProcessElement::operator=</referencedby>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+        <referencedby refid="db/d49/a01969_1adc66f52cad265a25289afdf71b69dcc7" compoundref="d0/d27/a00239" startline="4496" endline="4666">CIccTagXmlStruct::ParseTag</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+        <referencedby refid="d3/d59/a01973_1abccc6c4d4ab6b62ac620371e1e5ab361" compoundref="d0/d27/a00239" startline="4791" endline="4907">CIccTagXmlArray::ParseXml</referencedby>
+        <referencedby refid="d5/d6c/a00977_1a7864b17f6ae5097cf91aa0868347c5b9" compoundref="d9/dd0/a00191" startline="438" endline="467">CIccTagText::Read</referencedby>
+        <referencedby refid="dd/d24/a00981_1a83a1e653b635dc8de0d7ae5d954fac2f" compoundref="d9/dd0/a00191" startline="783" endline="814">CIccTagUtf8Text::Read</referencedby>
+        <referencedby refid="da/deb/a00985_1a54b57ff1d3862921f5b9521d36f8c1b9" compoundref="d9/dd0/a00191" startline="1133" endline="1159">CIccTagZipUtf8Text::Read</referencedby>
+        <referencedby refid="da/d0a/a00993_1a541b259a793c7a6a5ef550f6dcc5e3b5" compoundref="d9/dd0/a00191" startline="1605" endline="1633">CIccTagUtf16Text::Read</referencedby>
+        <referencedby refid="d0/d28/a00997_1a21f20acea58aebce6ed81c3ab99fc116" compoundref="d9/dd0/a00191" startline="2055" endline="2133">CIccTagTextDescription::Read</referencedby>
+        <referencedby refid="df/d59/a01001_1a7a9c398068ff4923347784c5a49d0dd6" compoundref="d9/dd0/a00191" startline="2486" endline="2508">CIccTagSignature::Read</referencedby>
+        <referencedby refid="d7/d59/a01013_1a7dc35fa353a34a281bf4dedccacef154" compoundref="d9/dd0/a00191" startline="2891" endline="2945">CIccTagNamedColor2::Read</referencedby>
+        <referencedby refid="d3/ded/a01017_1ae532c686e1218e1fa4b06170dbe6bf9b" compoundref="d9/dd0/a00191" startline="3591" endline="3620">CIccTagXYZ::Read</referencedby>
+        <referencedby refid="d5/dfb/a01021_1a6dd75947efad4af7776c7479d025cc29" compoundref="d9/dd0/a00191" startline="3852" endline="3894">CIccTagChromaticity::Read</referencedby>
+        <referencedby refid="db/d23/a01025_1a8d879b749261432edad544fad531181e" compoundref="d9/dd0/a00191" startline="4184" endline="4210">CIccTagCicp::Read</referencedby>
+        <referencedby refid="d2/d57/a01033_1a5ee8df72722d4859ce38314560e70032" compoundref="d9/dd0/a00191" startline="4513" endline="4695">CIccTagSparseMatrixArray::Read</referencedby>
+        <referencedby refid="d2/d41/a01037_1acef71609b8b4ed38f49f8e3f6ba9fcee" compoundref="d9/dd0/a00191" startline="5245" endline="5273">CIccTagFixedNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d1/d83/a01041_1a1ae343363af0fc5c9f73b8a85a25c2f1" compoundref="d9/dd0/a00191" startline="5708" endline="5752">CIccTagNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d7/d46/a01045_1ac6bd7df482255281c7d245b902acb1ef" compoundref="d9/dd0/a00191" startline="6313" endline="6371">CIccTagFloatNum&lt; T, Tsig &gt;::Read</referencedby>
+        <referencedby refid="d0/d22/a01049_1a5f30945e89be4dcf7a0b9efd74ef6108" compoundref="d9/dd0/a00191" startline="6786" endline="6811">CIccTagMeasurement::Read</referencedby>
+        <referencedby refid="d2/db8/a01057_1ad1c5b1272f6e344c2bb9ed0dfbee8f86" compoundref="d9/dd0/a00191" startline="7451" endline="7527">CIccTagMultiLocalizedUnicode::Read</referencedby>
+        <referencedby refid="de/d9e/a01061_1aba8584733382242a5302deab1639f404" compoundref="d9/dd0/a00191" startline="7893" endline="7929">CIccTagData::Read</referencedby>
+        <referencedby refid="d0/dc9/a01065_1a351d04c1e658e77c5b1c54a8321ca212" compoundref="d9/dd0/a00191" startline="8200" endline="8229">CIccTagDateTime::Read</referencedby>
+        <referencedby refid="d8/d18/a01069_1a667e348cdeef45ba95f5834c6171531a" compoundref="d9/dd0/a00191" startline="8413" endline="8448">CIccTagColorantOrder::Read</referencedby>
+        <referencedby refid="d9/d7c/a01073_1aa0a7314bacc5e5562432f5ab9f10a83d" compoundref="d9/dd0/a00191" startline="8701" endline="8744">CIccTagColorantTable::Read</referencedby>
+        <referencedby refid="d0/dd3/a01077_1ac07eaef0a9edd17a3ef51533a6c99d7d" compoundref="d9/dd0/a00191" startline="9031" endline="9060">CIccTagViewingConditions::Read</referencedby>
+        <referencedby refid="d3/dc4/a01089_1ae5af70d0e084a18fe04f7cfcaab17f7a" compoundref="d9/dd0/a00191" startline="9544" endline="9596">CIccTagProfileSeqDesc::Read</referencedby>
+        <referencedby refid="de/d99/a01101_1a55f8557f343583861799606df07d41a2" compoundref="d9/dd0/a00191" startline="10217" endline="10275">CIccTagResponseCurveSet16::Read</referencedby>
+        <referencedby refid="de/d1d/a01105_1ad26da18f2fbaa300b05e71bbe90b3586" compoundref="d9/dd0/a00191" startline="10653" endline="10695">CIccTagSpectralDataInfo::Read</referencedby>
+        <referencedby refid="d8/dbf/a01109_1a2517e82008350846709ef534e551bebe" compoundref="d9/dd0/a00191" startline="10992" endline="11090">CIccTagSpectralViewingConditions::Read</referencedby>
+        <referencedby refid="d8/ded/a01113_1a5147c62ec0b6383c6dcabf8ebeac5f5e" compoundref="d9/dd0/a00191" startline="11797" endline="11841">CIccTagEmbeddedHeightImage::Read</referencedby>
+        <referencedby refid="d6/d8b/a01117_1a2758418b06545dd03f4b8c8f478da8e5" compoundref="d9/dd0/a00191" startline="12113" endline="12149">CIccTagEmbeddedNormalImage::Read</referencedby>
+        <referencedby refid="d5/d5f/a00461_1a560ac9d14c6e3c5f85b2568a76823cb2" compoundref="d5/dcb/a00170" startline="346" endline="413">CIccTagStruct::Read</referencedby>
+        <referencedby refid="db/de0/a00465_1aa3fe4ccface825d27a6c49ae022bcdb0" compoundref="d5/dcb/a00170" startline="1213" endline="1316">CIccTagArray::Read</referencedby>
+        <referencedby refid="d6/da1/a01233_1a31b523f5815debc15955c2ab115e036f" compoundref="dd/dc1/a00212" startline="494" endline="781">CIccTagDict::Read</referencedby>
+        <referencedby refid="d6/dc4/a01125_1a86401f42aa785fac984b8dcc1f721f39" compoundref="d4/d3e/a00116" startline="229" endline="266">CIccTagCurve::Read</referencedby>
+        <referencedby refid="d9/d17/a01129_1a4226e608622c8c05df0962b90a116503" compoundref="d4/d3e/a00116" startline="732" endline="775">CIccTagParametricCurve::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+        <referencedby refid="dc/d98/a01177_1ac762581885a9375d6459cd390d538c94" compoundref="d4/d3e/a00116" startline="5484" endline="5561">CIccTagGamutBoundaryDesc::Read</referencedby>
+        <referencedby refid="d5/d54/a01213_1a00eff526d38081625b79195b3da1728d" compoundref="dc/d87/a00032" startline="969" endline="1072">CIccTagMultiProcessElement::Read</referencedby>
+        <referencedby refid="dd/d3f/a01221_1aa1568bb1c77891e42ca498bc092b673f" compoundref="de/df3/a00185" startline="461" endline="530">CIccTagProfileSequenceId::Read</referencedby>
+        <referencedby refid="dc/dab/a01237_1afd8cd85808168cd64779b3d94273c344" compoundref="d9/d01/a00227" startline="172" endline="232">CIccTagEmbeddedProfile::Read</referencedby>
+        <referencedby refid="d7/dfd/a00969_1a8c774206ae56bc1e504696da10977f18" compoundref="d9/dd0/a00191" startline="164" endline="178">CIccTag::Validate</referencedby>
+        <referencedby refid="d5/d6c/a00977_1a2420c8aa5ef8596206d6634e86d0c2a7" compoundref="d9/dd0/a00191" startline="482" endline="504">CIccTagText::Write</referencedby>
+        <referencedby refid="dd/d24/a00981_1a6d6e1d88e59b4303b0b9e2a51958e9e8" compoundref="d9/dd0/a00191" startline="829" endline="851">CIccTagUtf8Text::Write</referencedby>
+        <referencedby refid="da/deb/a00985_1a03f23410a51ff78712538aa985f4c719" compoundref="d9/dd0/a00191" startline="1174" endline="1192">CIccTagZipUtf8Text::Write</referencedby>
+        <referencedby refid="da/d0a/a00993_1a425df6d6990c5382d0790e468265a29b" compoundref="d9/dd0/a00191" startline="1648" endline="1672">CIccTagUtf16Text::Write</referencedby>
+        <referencedby refid="d0/d28/a00997_1a9559c228ba13084c2e36840d0f6c7edd" compoundref="d9/dd0/a00191" startline="2148" endline="2187">CIccTagTextDescription::Write</referencedby>
+        <referencedby refid="df/d59/a01001_1a70aa191f560507eab577666320cce6fb" compoundref="d9/dd0/a00191" startline="2523" endline="2540">CIccTagSignature::Write</referencedby>
+        <referencedby refid="d7/d59/a01013_1a7275fd6a6f74d1987274cd0a6cb4f9d9" compoundref="d9/dd0/a00191" startline="2961" endline="3004">CIccTagNamedColor2::Write</referencedby>
+        <referencedby refid="d3/ded/a01017_1aaa8f1b3a3fca9d237e537d623a1f70af" compoundref="d9/dd0/a00191" startline="3636" endline="3656">CIccTagXYZ::Write</referencedby>
+        <referencedby refid="d5/dfb/a01021_1a5c84516a7f909694815c730197c9ca1e" compoundref="d9/dd0/a00191" startline="3910" endline="3935">CIccTagChromaticity::Write</referencedby>
+        <referencedby refid="db/d23/a01025_1a3b3f3a4ea79f37c343e56c9124be30c6" compoundref="d9/dd0/a00191" startline="4226" endline="4246">CIccTagCicp::Write</referencedby>
+        <referencedby refid="d2/d57/a01033_1ac77a340433b4d32ee5e4d74bc7c152ed" compoundref="d9/dd0/a00191" startline="4711" endline="4777">CIccTagSparseMatrixArray::Write</referencedby>
+        <referencedby refid="d2/d41/a01037_1a1703b3c680165fd01691e12680057f8b" compoundref="d9/dd0/a00191" startline="5290" endline="5307">CIccTagFixedNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d1/d83/a01041_1a936bd3aef111beef827f3e57b6c907c0" compoundref="d9/dd0/a00191" startline="5769" endline="5802">CIccTagNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d7/d46/a01045_1a305a6f569c1948ed158d69948ee5481d" compoundref="d9/dd0/a00191" startline="6388" endline="6417">CIccTagFloatNum&lt; T, Tsig &gt;::Write</referencedby>
+        <referencedby refid="d0/d22/a01049_1a8875bed465480e096f923e7dd7c02892" compoundref="d9/dd0/a00191" startline="6827" endline="6846">CIccTagMeasurement::Write</referencedby>
+        <referencedby refid="d2/db8/a01057_1af6652ac806b7cfeb91afb4c274a0be92" compoundref="d9/dd0/a00191" startline="7543" endline="7585">CIccTagMultiLocalizedUnicode::Write</referencedby>
+        <referencedby refid="de/d9e/a01061_1a5c38408813ceb02e19b00a1ef8e42fee" compoundref="d9/dd0/a00191" startline="7945" endline="7975">CIccTagData::Write</referencedby>
+        <referencedby refid="d0/dc9/a01065_1a071ca9e3c84c008802d3f9531e9cb7f8" compoundref="d9/dd0/a00191" startline="8246" endline="8263">CIccTagDateTime::Write</referencedby>
+        <referencedby refid="d8/d18/a01069_1a589e222bf4d420b885053c461fc5fd9e" compoundref="d9/dd0/a00191" startline="8465" endline="8485">CIccTagColorantOrder::Write</referencedby>
+        <referencedby refid="d9/d7c/a01073_1a1eb67ae5b05fcb67d2a6d60b21cad938" compoundref="d9/dd0/a00191" startline="8760" endline="8788">CIccTagColorantTable::Write</referencedby>
+        <referencedby refid="d0/dd3/a01077_1a07f17dde762d52f517c065148b349b7e" compoundref="d9/dd0/a00191" startline="9076" endline="9099">CIccTagViewingConditions::Write</referencedby>
+        <referencedby refid="d3/dc4/a01089_1a7d64032c11a24811af599c55681579ed" compoundref="d9/dd0/a00191" startline="9612" endline="9642">CIccTagProfileSeqDesc::Write</referencedby>
+        <referencedby refid="de/d99/a01101_1ae5098d34ecc43ea5166662d3650f9e06" compoundref="d9/dd0/a00191" startline="10291" endline="10343">CIccTagResponseCurveSet16::Write</referencedby>
+        <referencedby refid="de/d1d/a01105_1af0a0779928f736679bc07ea10784b356" compoundref="d9/dd0/a00191" startline="10710" endline="10744">CIccTagSpectralDataInfo::Write</referencedby>
+        <referencedby refid="d8/dbf/a01109_1ad2d1da3030f6deadd1993d7938fed8c0" compoundref="d9/dd0/a00191" startline="11106" endline="11151">CIccTagSpectralViewingConditions::Write</referencedby>
+        <referencedby refid="d8/ded/a01113_1a06cdc977f66b84af9e47ef3e873b1b49" compoundref="d9/dd0/a00191" startline="11857" endline="11886">CIccTagEmbeddedHeightImage::Write</referencedby>
+        <referencedby refid="d6/d8b/a01117_1aef90495e7c31d6694e540ddc04ed76fe" compoundref="d9/dd0/a00191" startline="12165" endline="12188">CIccTagEmbeddedNormalImage::Write</referencedby>
+        <referencedby refid="d5/d5f/a00461_1aa4cd042278ce9775cbfbbaa0e11e39f3" compoundref="d5/dcb/a00170" startline="425" endline="506">CIccTagStruct::Write</referencedby>
+        <referencedby refid="db/de0/a00465_1acd5daadb93f9f89ede59f12310c5f076" compoundref="d5/dcb/a00170" startline="1328" endline="1407">CIccTagArray::Write</referencedby>
+        <referencedby refid="d6/da1/a01233_1ad8928732b7863b076e40fcafe7ec046a" compoundref="dd/dc1/a00212" startline="793" endline="904">CIccTagDict::Write</referencedby>
+        <referencedby refid="dc/dab/a01237_1a1d18120e63e422bb3cad2b0aef1a968a" compoundref="d9/d01/a00227" startline="267" endline="295">CIccTagEmbeddedProfile::Write</referencedby>
+        <referencedby refid="d6/dc4/a01125_1add153f2428e36419fdaf7465a49ad941" compoundref="d4/d3e/a00116" startline="282" endline="305">CIccTagCurve::Write</referencedby>
+        <referencedby refid="d9/d17/a01129_1a7b40bd034c7d6dd0efc7668bb5151b92" compoundref="d4/d3e/a00116" startline="791" endline="820">CIccTagParametricCurve::Write</referencedby>
+        <referencedby refid="d9/d25/a01157_1a5642ef5374bc297493ca2ea471998f59" compoundref="d4/d3e/a00116" startline="4072" endline="4177">CIccTagLutAtoB::Write</referencedby>
+        <referencedby refid="d8/d92/a01165_1aaa80a24eded57679fa232adff50e4bbf" compoundref="d4/d3e/a00116" startline="4665" endline="4763">CIccTagLut8::Write</referencedby>
+        <referencedby refid="d7/daf/a01169_1a710daf6715914c8df10a86dc63bf2e15" compoundref="d4/d3e/a00116" startline="5112" endline="5187">CIccTagLut16::Write</referencedby>
+        <referencedby refid="dc/d98/a01177_1a216c00ad5cd51842449bb7f50d382a28" compoundref="d4/d3e/a00116" startline="5576" endline="5621">CIccTagGamutBoundaryDesc::Write</referencedby>
+        <referencedby refid="d5/d54/a01213_1aa4fc1619236076a2cf093cbeb9850d9d" compoundref="dc/d87/a00032" startline="1084" endline="1177">CIccTagMultiProcessElement::Write</referencedby>
+        <referencedby refid="dd/d3f/a01221_1a3c3c2655304d893875fc32646ad9af3a" compoundref="de/df3/a00185" startline="542" endline="601">CIccTagProfileSequenceId::Write</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/dfd/a00969_1a2a2efdbfae5e8820c0dc4cdd1af691a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+        <definition>CIccTag * CIccTag::Create</definition>
+        <argsstring>(icTagTypeSignature sig)</argsstring>
+        <name>Create</name>
+        <qualifiedname>CIccTag::Create</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417dde" kindref="member">icTagTypeSignature</ref></type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Name: <ref refid="d7/dfd/a00969_1a2a2efdbfae5e8820c0dc4cdd1af691a8" kindref="member">CIccTag::Create</ref></para>
+<para>Purpose: This is a static tag creator based upon tag signature type</para>
+<para>Args: sig = tag type signature</para>
+<para>Return: Pointer to Allocated tag </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccTagBasic.h" line="141" column="18" bodyfile="IccProfLib/IccTagBasic.cpp" bodystart="143" bodyend="146"/>
+        <references refid="da/dd8/a01265_1a220110bcce89b9d96006c30067a7aa12" compoundref="d8/d41/a00038" startline="279" endline="280">CIccTagCreator::CreateTag</references>
+        <referencedby refid="da/d45/a00961_1a98a922452ab9a40cd72718afb7cf1ea1" compoundref="de/d76/a00134" startline="142" endline="515">CIccDefaultEncProfileConverter::ConvertFromParams</referencedby>
+        <referencedby refid="d5/d5f/a00461_1ac6d61b8ae0ec667a3a6de3cc20ab96fd" compoundref="d5/dcb/a00170" startline="847" endline="911">CIccTagStruct::LoadElem</referencedby>
+        <referencedby refid="d6/d27/a01781_1abf34239bc20b8c58e1940bd4b132b659" compoundref="dd/dd7/a00248" startline="574" endline="797">CIccProfileXml::ParseTag</referencedby>
+        <referencedby refid="db/d49/a01969_1adc66f52cad265a25289afdf71b69dcc7" compoundref="d0/d27/a00239" startline="4496" endline="4666">CIccTagXmlStruct::ParseTag</referencedby>
+        <referencedby refid="d8/d98/a02009_1a19998ce7d4f5678af3c3e2211292e9f6" compoundref="dd/dd7/a00260" startline="1569" endline="1643">CIccMpeXmlTintArray::ParseXml</referencedby>
+        <referencedby refid="d3/d59/a01973_1abccc6c4d4ab6b62ac620371e1e5ab361" compoundref="d0/d27/a00239" startline="4791" endline="4907">CIccTagXmlArray::ParseXml</referencedby>
+        <referencedby refid="d7/dcf/a00845_1a2eab5d878d7c6cc6bb1aa8d5b2d62a3b" compoundref="d6/d2d/a00047" startline="3644" endline="3713">CIccMpeTintArray::Read</referencedby>
+        <referencedby refid="d9/d25/a01157_1ab6854c689f3e79f7bdbd35fdb258ec26" compoundref="d4/d3e/a00116" startline="3907" endline="4055">CIccTagLutAtoB::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1acbfa60149e5d0102dd64cc4a8ac55ed8" compoundref="d4/d3e/a00116" startline="4527" endline="4599">CIccTagLut8::Read</referencedby>
+        <referencedby refid="d7/daf/a01169_1a9135f52eaed6877a4d4d506300cb0373" compoundref="d4/d3e/a00116" startline="4974" endline="5046">CIccTagLut16::Read</referencedby>
+        <referencedby refid="d8/d92/a01165_1af8ae88b5402bfc99710e8f4903f88f40" compoundref="d4/d3e/a00116" startline="4614" endline="4649">CIccTagLut8::SetColorSpaces</referencedby>
+        <referencedby refid="d7/daf/a01169_1ad4acc5b6aaa16a0811d380bc2fbc9cd7" compoundref="d4/d3e/a00116" startline="5061" endline="5096">CIccTagLut16::SetColorSpaces</referencedby>
+        <referencedby refid="dd/dee/a01081_1a810b999f96989574608c3502a6fa2f35" compoundref="d9/dd0/a00191" startline="9263" endline="9279">CIccProfileDescText::SetType</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d0/daa/a01029" kindref="compound">CIccTagNumArray</ref></para>
+<para>Purpose: An Interface for getting icFloatNumber values out of a tag containing a number of values. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="3">
+        <label>CIccTagFixedNum&lt; T, Tsig &gt;</label>
+        <link refid="d2/d41/a01037"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>CIccTagFloatNum&lt; T, Tsig &gt;</label>
+        <link refid="d7/d46/a01045"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>CIccTagNum&lt; T, Tsig &gt;</label>
+        <link refid="d1/d83/a01041"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CIccTagNumArray</label>
+        <link refid="d0/daa/a01029"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>CIccTagSparseMatrixArray</label>
+        <link refid="d2/d57/a01033"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>CIccTagXmlFixedNum&lt; T, Tsig &gt;</label>
+        <link refid="d5/da8/a01865"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>CIccTagXmlFloatNum&lt; T, A, Tsig &gt;</label>
+        <link refid="d9/d63/a01877"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>CIccTagXmlNum&lt; T, A, Tsig &gt;</label>
+        <link refid="d8/d3a/a01869"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>CIccTagXmlSparseMatrixArray</label>
+        <link refid="d6/d56/a01861"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CIccTag</label>
+        <link refid="d7/dfd/a00969"/>
+      </node>
+      <node id="1">
+        <label>CIccTagNumArray</label>
+        <link refid="d0/daa/a01029"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/IccTagBasic.h" line="790" column="1" bodyfile="IccProfLib/IccTagBasic.h" bodystart="791" bodyend="818"/>
+    <listofallmembers>
+      <member refid="d7/dfd/a00969_1aeb282f732beea9da50a69ec59ba1ec3e" prot="public" virt="non-virtual"><scope>CIccTagNumArray</scope><name>CIccTag</name></member>
+      <member refid="d7/dfd/a00969_1a2a2efdbfae5e8820c0dc4cdd1af691a8" prot="public" virt="non-virtual"><scope>CIccTagNumArray</scope><name>Create</name></member>
+      <member refid="d7/dfd/a00969_1a48edb50964c5a62a2ce4108297dd045a" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>Describe</name></member>
+      <member refid="d7/dfd/a00969_1a3b8c88576df48859517cda49e412c9f3" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>DetachIO</name></member>
+      <member refid="d7/dfd/a00969_1a753f38addfe5502d3424e69d233b3503" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>GetClassName</name></member>
+      <member refid="d7/dfd/a00969_1aa4cc7f1dd04e9b537738d1dfa96a9790" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>GetExtension</name></member>
+      <member refid="d0/daa/a01029_1a6daa7f82df8f43313401f709a86ae114" prot="public" virt="pure-virtual"><scope>CIccTagNumArray</scope><name>GetNumValues</name></member>
+      <member refid="d7/dfd/a00969_1acc454c2f425b8619187fc75f682d7aa4" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>GetTagArrayType</name></member>
+      <member refid="d7/dfd/a00969_1ad53030e068551d6ac9f69124b4a6c9bb" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>GetTagStructType</name></member>
+      <member refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>GetType</name></member>
+      <member refid="d0/daa/a01029_1a2c8e9e09f0916181fc93e0d5ce1817d8" prot="public" virt="pure-virtual"><scope>CIccTagNumArray</scope><name>GetValues</name></member>
+      <member refid="d0/daa/a01029_1a0adc1a64a97ab62183b388bea9e9c66f" prot="public" virt="pure-virtual"><scope>CIccTagNumArray</scope><name>Interpolate</name></member>
+      <member refid="d7/dfd/a00969_1a80251cce2257d65fff1f45c0d805480f" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>IsArrayType</name></member>
+      <member refid="d0/daa/a01029_1affd18d74e34a4397f3daeef5396c134f" prot="public" virt="pure-virtual"><scope>CIccTagNumArray</scope><name>IsMatrixArray</name></member>
+      <member refid="d7/dfd/a00969_1a5cf5b72ab66ca68a6c8ddfd861741bb8" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>IsMBBType</name></member>
+      <member refid="d7/dfd/a00969_1aa2a3dd91bfad9cf1297300d70936121a" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>IsNumArrayType</name></member>
+      <member refid="d7/dfd/a00969_1a3415307280dc7b871cc1797704008991" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>IsSupported</name></member>
+      <member refid="d7/dfd/a00969_1a0dbc39e419057e941c11cacb8c9e3fb0" prot="public" virt="non-virtual"><scope>CIccTagNumArray</scope><name>m_nReserved</name></member>
+      <member refid="d7/dfd/a00969_1afc2491647e600a6f2ffefb36af6055d6" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>NewCopy</name></member>
+      <member refid="d7/dfd/a00969_1a5568fff58a4e0e004f2456c44151307d" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>Read</name></member>
+      <member refid="d7/dfd/a00969_1a9c4cabcc7ea3278e375131bb688a8293" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>Read</name></member>
+      <member refid="d7/dfd/a00969_1affe66685d53e2ebf016a5a5126ed968d" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>ReadAll</name></member>
+      <member refid="d7/dfd/a00969_1a8c774206ae56bc1e504696da10977f18" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>Validate</name></member>
+      <member refid="d0/daa/a01029_1ab06fa6b1ea67f171dac64058fda586b9" prot="public" virt="pure-virtual"><scope>CIccTagNumArray</scope><name>ValuePos</name></member>
+      <member refid="d7/dfd/a00969_1aaa4a03afee156aacc066d0419cb79537" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>Write</name></member>
+      <member refid="d7/dfd/a00969_1a50057115474dec92a81be67e76e8f1c7" prot="public" virt="virtual"><scope>CIccTagNumArray</scope><name>~CIccTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

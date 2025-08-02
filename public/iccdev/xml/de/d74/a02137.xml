@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="de/d74/a02137" kind="class" language="C++" prot="public">
+    <compoundname>CCubeWriter</compoundname>
+    <basecompoundref refid="da/d67/a02133" prot="public" virt="non-virtual">ILinkWriter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IXformIterator</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/d74/a02137_1acdc79dddc874f459f7781d65c2c26dc0" prot="protected" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* CCubeWriter::m_f</definition>
+        <argsstring></argsstring>
+        <name>m_f</name>
+        <qualifiedname>CCubeWriter::m_f</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="253" column="8" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="253" bodyend="-1"/>
+        <referencedby refid="de/d74/a02137_1a397e39df131a5dfc13d96b830ce084b2" compoundref="d1/dc6/a00347" startline="119" endline="123">~CCubeWriter</referencedby>
+        <referencedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" compoundref="d1/dc6/a00347" startline="160" endline="201">begin</referencedby>
+        <referencedby refid="de/d74/a02137_1aa70013a9ea8f9e68e2d0d04c3fbfb499" compoundref="d1/dc6/a00347" startline="231" endline="239">finish</referencedby>
+        <referencedby refid="de/d74/a02137_1afc345bbe4c130144573995e66f9e9c82" compoundref="d1/dc6/a00347" startline="203" endline="216">iterate</referencedby>
+        <referencedby refid="de/d74/a02137_1a217362c288100a55aa3d57bc5c3aa9b7" compoundref="d1/dc6/a00347" startline="218" endline="229">setNextNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d74/a02137_1ad4533205db721200b008a25a95b75749" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CCubeWriter::m_filename</definition>
+        <argsstring></argsstring>
+        <name>m_filename</name>
+        <qualifiedname>CCubeWriter::m_filename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="242" column="15" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="242" bodyend="-1"/>
+        <referencedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" compoundref="d1/dc6/a00347" startline="160" endline="201">begin</referencedby>
+        <referencedby refid="de/d74/a02137_1a509811f33b1079af3d06cf407ddd5fe7" compoundref="d1/dc6/a00347" startline="125" endline="130">setFile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d74/a02137_1adfef1571833b11ffd0d64088aa987007" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CCubeWriter::m_fMaxInput</definition>
+        <argsstring></argsstring>
+        <name>m_fMaxInput</name>
+        <qualifiedname>CCubeWriter::m_fMaxInput</qualifiedname>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="251" column="17" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="251" bodyend="-1"/>
+        <referencedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" compoundref="d1/dc6/a00347" startline="160" endline="201">begin</referencedby>
+        <referencedby refid="de/d74/a02137_1a86a9ed47e899fbc473f9d9b083f12ed8" compoundref="d1/dc6/a00347" startline="154" endline="158">setInputRange</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d74/a02137_1a513b083d3fc44fc17d8c17babe025031" prot="protected" static="no" mutable="no">
+        <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+        <definition>icFloatNumber CCubeWriter::m_fMinInput</definition>
+        <argsstring></argsstring>
+        <name>m_fMinInput</name>
+        <qualifiedname>CCubeWriter::m_fMinInput</qualifiedname>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="250" column="17" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="250" bodyend="-1"/>
+        <referencedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" compoundref="d1/dc6/a00347" startline="160" endline="201">begin</referencedby>
+        <referencedby refid="de/d74/a02137_1a86a9ed47e899fbc473f9d9b083f12ed8" compoundref="d1/dc6/a00347" startline="154" endline="158">setInputRange</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d74/a02137_1a79820f55e7da92bb8f2a5d2048ca4614" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CCubeWriter::m_grid</definition>
+        <argsstring></argsstring>
+        <name>m_grid</name>
+        <qualifiedname>CCubeWriter::m_grid</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="248" column="7" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="248" bodyend="-1"/>
+        <referencedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" compoundref="d1/dc6/a00347" startline="160" endline="201">begin</referencedby>
+        <referencedby refid="de/d74/a02137_1ae1bac8dcc0821d1f42d56f1b832438db" compoundref="d1/dc6/a00347" startline="147" endline="152">setLutSize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d74/a02137_1af6eac97fd8bbf34a1277cc0bbdcdbf2f" prot="protected" static="no" mutable="no">
+        <type>CIccCmm *</type>
+        <definition>CIccCmm* CCubeWriter::m_pCmm</definition>
+        <argsstring></argsstring>
+        <name>m_pCmm</name>
+        <qualifiedname>CCubeWriter::m_pCmm</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="246" column="11" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="246" bodyend="-1"/>
+        <referencedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" compoundref="d1/dc6/a00347" startline="160" endline="201">begin</referencedby>
+        <referencedby refid="de/d74/a02137_1abb6226fa5a03a0014cdd76359c3c2332" compoundref="d1/dc6/a00347" startline="142" endline="145">setCmm</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d74/a02137_1a4b29aa89396dc1ad7025b4af8ed369bc" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CCubeWriter::m_precision</definition>
+        <argsstring></argsstring>
+        <name>m_precision</name>
+        <qualifiedname>CCubeWriter::m_precision</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="243" column="7" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="243" bodyend="-1"/>
+        <referencedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" compoundref="d1/dc6/a00347" startline="160" endline="201">begin</referencedby>
+        <referencedby refid="de/d74/a02137_1a217362c288100a55aa3d57bc5c3aa9b7" compoundref="d1/dc6/a00347" startline="218" endline="229">setNextNode</referencedby>
+        <referencedby refid="de/d74/a02137_1af903818b3e3e3930bb6358f6392b1ffd" compoundref="d1/dc6/a00347" startline="132" endline="135">setOption</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="de/d74/a02137_1a590b4572a16b66dd345868b7486a2f54" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CCubeWriter::m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <qualifiedname>CCubeWriter::m_title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="244" column="15" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="244" bodyend="-1"/>
+        <referencedby refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" compoundref="d1/dc6/a00347" startline="160" endline="201">begin</referencedby>
+        <referencedby refid="de/d74/a02137_1a7da0bc654aed0b0bacf64bb6f189d71b" compoundref="d1/dc6/a00347" startline="137" endline="140">setTitle</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d74/a02137_1a2f5e2a40de5b60df6a6d02551fa09da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CCubeWriter::CCubeWriter</definition>
+        <argsstring>()</argsstring>
+        <name>CCubeWriter</name>
+        <qualifiedname>CCubeWriter::CCubeWriter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="118" column="3" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="118" bodyend="118"/>
+        <referencedby refid="d1/dc6/a00347_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d1/dc6/a00347" startline="639" endline="866">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1a397e39df131a5dfc13d96b830ce084b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CCubeWriter::~CCubeWriter</definition>
+        <argsstring>()</argsstring>
+        <name>~CCubeWriter</name>
+        <qualifiedname>CCubeWriter::~CCubeWriter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="119" column="11" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="119" bodyend="123"/>
+        <references refid="de/d74/a02137_1acdc79dddc874f459f7781d65c2c26dc0" compoundref="d1/dc6/a00347" startline="253">m_f</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CCubeWriter::begin</definition>
+        <argsstring>(icColorSpaceSignature srcSpace, icColorSpaceSignature dstSpace)</argsstring>
+        <name>begin</name>
+        <qualifiedname>CCubeWriter::begin</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a9f00675904807a232de4a21629aeaa2c">begin</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>srcSpace</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a61e8bac86860cdefe93533feac126917" kindref="member">icColorSpaceSignature</ref></type>
+          <declname>dstSpace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="160" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="160" bodyend="201"/>
+        <references refid="d7/dce/a00143_1a719dc0d47f230294e78ac9c8cbc91a89" compoundref="d5/db1/a00140" startline="1303" endline="1365">icGetSpaceSamples</references>
+        <references refid="d7/dce/a00143_1aaf96c225d68d992235383deca65d96c9" compoundref="d5/db1/a00140" startline="142" endline="145">icIsNear</references>
+        <references refid="de/d74/a02137_1acdc79dddc874f459f7781d65c2c26dc0" compoundref="d1/dc6/a00347" startline="253">m_f</references>
+        <references refid="de/d74/a02137_1ad4533205db721200b008a25a95b75749" compoundref="d1/dc6/a00347" startline="242">m_filename</references>
+        <references refid="de/d74/a02137_1adfef1571833b11ffd0d64088aa987007" compoundref="d1/dc6/a00347" startline="251">m_fMaxInput</references>
+        <references refid="de/d74/a02137_1a513b083d3fc44fc17d8c17babe025031" compoundref="d1/dc6/a00347" startline="250">m_fMinInput</references>
+        <references refid="de/d74/a02137_1a79820f55e7da92bb8f2a5d2048ca4614" compoundref="d1/dc6/a00347" startline="248">m_grid</references>
+        <references refid="de/d74/a02137_1af6eac97fd8bbf34a1277cc0bbdcdbf2f" compoundref="d1/dc6/a00347" startline="246">m_pCmm</references>
+        <references refid="de/d74/a02137_1a4b29aa89396dc1ad7025b4af8ed369bc" compoundref="d1/dc6/a00347" startline="243">m_precision</references>
+        <references refid="de/d74/a02137_1a590b4572a16b66dd345868b7486a2f54" compoundref="d1/dc6/a00347" startline="244">m_title</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1aa70013a9ea8f9e68e2d0d04c3fbfb499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CCubeWriter::finish</definition>
+        <argsstring>()</argsstring>
+        <name>finish</name>
+        <qualifiedname>CCubeWriter::finish</qualifiedname>
+        <reimplements refid="da/d67/a02133_1abb39a43bb7ffad13c59ae3923bd44b74">finish</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="231" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="231" bodyend="239"/>
+        <references refid="de/d74/a02137_1acdc79dddc874f459f7781d65c2c26dc0" compoundref="d1/dc6/a00347" startline="253">m_f</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1afc345bbe4c130144573995e66f9e9c82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CCubeWriter::iterate</definition>
+        <argsstring>(const CIccXform *pXform)</argsstring>
+        <name>iterate</name>
+        <qualifiedname>CCubeWriter::iterate</qualifiedname>
+        <param>
+          <type>const CIccXform *</type>
+          <declname>pXform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="203" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="203" bodyend="216"/>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <references refid="da/dec/a00080_1abc4f8ba851ab7f12c4d43f3484dd8b65" compoundref="d9/dd0/a00191" startline="11613" endline="11688">icGetTagText</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a92a815c1697e8b8a4f91474a8f4a5b6b" compoundref="d7/d46/a00002" startline="452">icSigProfileDescriptionTag</references>
+        <references refid="de/d74/a02137_1acdc79dddc874f459f7781d65c2c26dc0" compoundref="d1/dc6/a00347" startline="253">m_f</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1abb6226fa5a03a0014cdd76359c3c2332" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CCubeWriter::setCmm</definition>
+        <argsstring>(CIccCmm *pCmm)</argsstring>
+        <name>setCmm</name>
+        <qualifiedname>CCubeWriter::setCmm</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a5c5eb0fb9133cc203275e77b34a17e18">setCmm</reimplements>
+        <param>
+          <type>CIccCmm *</type>
+          <declname>pCmm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="142" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="142" bodyend="145"/>
+        <references refid="de/d74/a02137_1af6eac97fd8bbf34a1277cc0bbdcdbf2f" compoundref="d1/dc6/a00347" startline="246">m_pCmm</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1a509811f33b1079af3d06cf407ddd5fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CCubeWriter::setFile</definition>
+        <argsstring>(const char *szOutputFile)</argsstring>
+        <name>setFile</name>
+        <qualifiedname>CCubeWriter::setFile</qualifiedname>
+        <reimplements refid="da/d67/a02133_1ace533c051e60dce185bd3fa8a9286aae">setFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>szOutputFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="125" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="125" bodyend="130"/>
+        <references refid="de/d74/a02137_1ad4533205db721200b008a25a95b75749" compoundref="d1/dc6/a00347" startline="242">m_filename</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1a86a9ed47e899fbc473f9d9b083f12ed8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CCubeWriter::setInputRange</definition>
+        <argsstring>(icFloatNumber fMinInput, icFloatNumber fMaxInput)</argsstring>
+        <name>setInputRange</name>
+        <qualifiedname>CCubeWriter::setInputRange</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a1a0ec1de1132136c692e47fef95ea4df">setInputRange</reimplements>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>fMinInput</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref></type>
+          <declname>fMaxInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="154" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="154" bodyend="158"/>
+        <references refid="de/d74/a02137_1adfef1571833b11ffd0d64088aa987007" compoundref="d1/dc6/a00347" startline="251">m_fMaxInput</references>
+        <references refid="de/d74/a02137_1a513b083d3fc44fc17d8c17babe025031" compoundref="d1/dc6/a00347" startline="250">m_fMinInput</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1ae1bac8dcc0821d1f42d56f1b832438db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool CCubeWriter::setLutSize</definition>
+        <argsstring>(icUInt8Number nGridSize)</argsstring>
+        <name>setLutSize</name>
+        <qualifiedname>CCubeWriter::setLutSize</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a1e84b92da6f85a0e87aa285196482c5a">setLutSize</reimplements>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a0462ca2992be7c80b056e640a192b325" kindref="member">icUInt8Number</ref></type>
+          <declname>nGridSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="147" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="147" bodyend="152"/>
+        <references refid="de/d74/a02137_1a79820f55e7da92bb8f2a5d2048ca4614" compoundref="d1/dc6/a00347" startline="248">m_grid</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1a217362c288100a55aa3d57bc5c3aa9b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CCubeWriter::setNextNode</definition>
+        <argsstring>(icFloatNumber *pPixel)</argsstring>
+        <name>setNextNode</name>
+        <qualifiedname>CCubeWriter::setNextNode</qualifiedname>
+        <reimplements refid="da/d67/a02133_1aee554824cef19c23dc5db814aa8cba3f">setNextNode</reimplements>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a2879c29939ce675796753098691799b2" kindref="member">icFloatNumber</ref> *</type>
+          <declname>pPixel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="218" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="218" bodyend="229"/>
+        <references refid="de/d74/a02137_1acdc79dddc874f459f7781d65c2c26dc0" compoundref="d1/dc6/a00347" startline="253">m_f</references>
+        <references refid="de/d74/a02137_1a4b29aa89396dc1ad7025b4af8ed369bc" compoundref="d1/dc6/a00347" startline="243">m_precision</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1af903818b3e3e3930bb6358f6392b1ffd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CCubeWriter::setOption</definition>
+        <argsstring>(int nOptionValue)</argsstring>
+        <name>setOption</name>
+        <qualifiedname>CCubeWriter::setOption</qualifiedname>
+        <reimplements refid="da/d67/a02133_1aee195159919752a100c3014b3cd484be">setOption</reimplements>
+        <param>
+          <type>int</type>
+          <declname>nOptionValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="132" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="132" bodyend="135"/>
+        <references refid="de/d74/a02137_1a4b29aa89396dc1ad7025b4af8ed369bc" compoundref="d1/dc6/a00347" startline="243">m_precision</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d74/a02137_1a7da0bc654aed0b0bacf64bb6f189d71b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CCubeWriter::setTitle</definition>
+        <argsstring>(const char *szTitle)</argsstring>
+        <name>setTitle</name>
+        <qualifiedname>CCubeWriter::setTitle</qualifiedname>
+        <reimplements refid="da/d67/a02133_1a325a3d01dc27511586f735e07e1c6363">setTitle</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>szTitle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="137" column="16" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="137" bodyend="140"/>
+        <references refid="de/d74/a02137_1a590b4572a16b66dd345868b7486a2f54" compoundref="d1/dc6/a00347" startline="244">m_title</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CCubeWriter</label>
+        <link refid="de/d74/a02137"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ILinkWriter</label>
+        <link refid="da/d67/a02133"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CCubeWriter</label>
+        <link refid="de/d74/a02137"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ILinkWriter</label>
+        <link refid="da/d67/a02133"/>
+      </node>
+    </collaborationgraph>
+    <location file="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" line="115" column="1" bodyfile="Tools/CmdLine/IccApplyToLink/iccApplyToLink.cpp" bodystart="116" bodyend="254"/>
+    <listofallmembers>
+      <member refid="de/d74/a02137_1a8feff8674099725eddf3980c56fccad3" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>begin</name></member>
+      <member refid="de/d74/a02137_1a2f5e2a40de5b60df6a6d02551fa09da7" prot="public" virt="non-virtual"><scope>CCubeWriter</scope><name>CCubeWriter</name></member>
+      <member refid="de/d74/a02137_1aa70013a9ea8f9e68e2d0d04c3fbfb499" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>finish</name></member>
+      <member refid="da/d67/a02133_1a317774e1a02fccdbf3175f741ea3930f" prot="public" virt="non-virtual"><scope>CCubeWriter</scope><name>ILinkWriter</name></member>
+      <member refid="de/d74/a02137_1afc345bbe4c130144573995e66f9e9c82" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>iterate</name></member>
+      <member refid="de/d74/a02137_1acdc79dddc874f459f7781d65c2c26dc0" prot="protected" virt="non-virtual"><scope>CCubeWriter</scope><name>m_f</name></member>
+      <member refid="de/d74/a02137_1ad4533205db721200b008a25a95b75749" prot="protected" virt="non-virtual"><scope>CCubeWriter</scope><name>m_filename</name></member>
+      <member refid="de/d74/a02137_1adfef1571833b11ffd0d64088aa987007" prot="protected" virt="non-virtual"><scope>CCubeWriter</scope><name>m_fMaxInput</name></member>
+      <member refid="de/d74/a02137_1a513b083d3fc44fc17d8c17babe025031" prot="protected" virt="non-virtual"><scope>CCubeWriter</scope><name>m_fMinInput</name></member>
+      <member refid="de/d74/a02137_1a79820f55e7da92bb8f2a5d2048ca4614" prot="protected" virt="non-virtual"><scope>CCubeWriter</scope><name>m_grid</name></member>
+      <member refid="de/d74/a02137_1af6eac97fd8bbf34a1277cc0bbdcdbf2f" prot="protected" virt="non-virtual"><scope>CCubeWriter</scope><name>m_pCmm</name></member>
+      <member refid="de/d74/a02137_1a4b29aa89396dc1ad7025b4af8ed369bc" prot="protected" virt="non-virtual"><scope>CCubeWriter</scope><name>m_precision</name></member>
+      <member refid="de/d74/a02137_1a590b4572a16b66dd345868b7486a2f54" prot="protected" virt="non-virtual"><scope>CCubeWriter</scope><name>m_title</name></member>
+      <member refid="de/d74/a02137_1abb6226fa5a03a0014cdd76359c3c2332" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>setCmm</name></member>
+      <member refid="de/d74/a02137_1a509811f33b1079af3d06cf407ddd5fe7" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>setFile</name></member>
+      <member refid="de/d74/a02137_1a86a9ed47e899fbc473f9d9b083f12ed8" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>setInputRange</name></member>
+      <member refid="de/d74/a02137_1ae1bac8dcc0821d1f42d56f1b832438db" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>setLutSize</name></member>
+      <member refid="de/d74/a02137_1a217362c288100a55aa3d57bc5c3aa9b7" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>setNextNode</name></member>
+      <member refid="de/d74/a02137_1af903818b3e3e3930bb6358f6392b1ffd" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>setOption</name></member>
+      <member refid="de/d74/a02137_1a7da0bc654aed0b0bacf64bb6f189d71b" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>setTitle</name></member>
+      <member refid="de/d74/a02137_1a397e39df131a5dfc13d96b830ce084b2" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>~CCubeWriter</name></member>
+      <member refid="da/d67/a02133_1a05552ceaf3b6e6860a4b27159480d3ab" prot="public" virt="virtual"><scope>CCubeWriter</scope><name>~ILinkWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

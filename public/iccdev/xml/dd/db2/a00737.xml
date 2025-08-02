@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/db2/a00737" kind="struct" language="C++" prot="public">
+    <compoundname>icUInt32ArrayType</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/db2/a00737_1a25d1d0268fa06f4892ba5c9f462468f5" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icUInt32ArrayType::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icUInt32ArrayType::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1938" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1938" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/db2/a00737_1aa8efc449cbb02b863459f5ad29e27063" prot="public" static="no" mutable="no">
+        <type><ref refid="da/d05/a00489" kindref="compound">icUInt32Array</ref></type>
+        <definition>icUInt32Array icUInt32ArrayType::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>icUInt32ArrayType::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1939" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1939" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>uInt32Type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+      <node id="3">
+        <label>icUInt32Array</label>
+        <link refid="da/d05/a00489"/>
+      </node>
+      <node id="1">
+        <label>icUInt32ArrayType</label>
+        <link refid="dd/db2/a00737"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1937" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1937" bodyend="1940"/>
+    <listofallmembers>
+      <member refid="dd/db2/a00737_1a25d1d0268fa06f4892ba5c9f462468f5" prot="public" virt="non-virtual"><scope>icUInt32ArrayType</scope><name>base</name></member>
+      <member refid="dd/db2/a00737_1aa8efc449cbb02b863459f5ad29e27063" prot="public" virt="non-virtual"><scope>icUInt32ArrayType</scope><name>data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

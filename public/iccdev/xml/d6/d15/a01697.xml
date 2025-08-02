@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d6/d15/a01697" kind="class" language="C++" prot="public">
+    <compoundname>CIccMpeCreator</compoundname>
+    <includes refid="dc/d57/a00194" local="no">IccMpeFactory.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d6/d15/a01697_1a82f1d06ee624f6ccd1236578ab15054a" prot="private" static="yes" mutable="no">
+        <type><ref refid="dc/d57/a00194_1a38cd2741b86aecba3233c4472243d4cf" kindref="member">CIccMpeCreatorPtr</ref></type>
+        <definition>CIccMpeCreatorPtr CIccMpeCreator::theElementCreator</definition>
+        <argsstring></argsstring>
+        <name>theElementCreator</name>
+        <qualifiedname>CIccMpeCreator::theElementCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="287" column="28" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="287" bodyend="-1"/>
+        <referencedby refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" compoundref="d9/db6/a00146" startline="237" endline="246">GetInstance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d15/a01697_1ab786d9c33ede15d6aa2e9a9fe26ec181" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d57/a00194_1adc8aa35c9f6c0f1f69a56c79c2d18900" kindref="member">CIccMpeFactoryList</ref></type>
+        <definition>CIccMpeFactoryList CIccMpeCreator::factoryStack</definition>
+        <argsstring></argsstring>
+        <name>factoryStack</name>
+        <qualifiedname>CIccMpeCreator::factoryStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="289" column="22" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="289" bodyend="-1"/>
+        <referencedby refid="d6/d15/a01697_1a5518331b97ab9dbb0934e7f04a0ff1f4" compoundref="d9/db6/a00146" startline="248" endline="259">DoCreateElement</referencedby>
+        <referencedby refid="d6/d15/a01697_1ae70b0c0cb6f60f21d651e4227a70e8c5" compoundref="d9/db6/a00146" startline="261" endline="271">DoGetElementSigName</referencedby>
+        <referencedby refid="d6/d15/a01697_1a0c81ff12874e5a868df18421e64f9036" compoundref="d9/db6/a00146" startline="278" endline="287">DoPopFactory</referencedby>
+        <referencedby refid="d6/d15/a01697_1a286fbe9730ca31c066f5f8bcebe2c04e" compoundref="d9/db6/a00146" startline="273" endline="276">DoPushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d15/a01697_1ac716b726736dca865dff7486b3a8bc17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccMpeCreator::~CIccMpeCreator</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccMpeCreator</name>
+        <qualifiedname>CIccMpeCreator::~CIccMpeCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="199" column="3" bodyfile="IccProfLib/IccMpeFactory.cpp" bodystart="227" bodyend="235"/>
+        <references refid="d6/d15/a01697_1a0c81ff12874e5a868df18421e64f9036" compoundref="d9/db6/a00146" startline="278" endline="287">DoPopFactory</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d15/a01697_1abcc6f083b23b883d12dc88cc1f366673" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>static CIccMultiProcessElement * CIccMpeCreator::CreateElement</definition>
+        <argsstring>(icElemTypeSignature elemTypeSig)</argsstring>
+        <name>CreateElement</name>
+        <qualifiedname>CIccMpeCreator::CreateElement</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elemTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateElement(elemTypeSig) Create a element of type elemTypeSig.</para>
+<para>Parameter(s): elemTypeSig = signature of the ICC element type for the element to be created</para>
+<para>Returns a new CIccProcessElement object of the given signature type. Each factory in the factoryStack is used until a factory supports the signature type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="213" column="34" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="213" bodyend="214"/>
+        <references refid="d6/d15/a01697_1a5518331b97ab9dbb0934e7f04a0ff1f4" compoundref="d9/db6/a00146" startline="248" endline="259">DoCreateElement</references>
+        <references refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" compoundref="d9/db6/a00146" startline="237" endline="246">GetInstance</references>
+        <referencedby refid="dd/d43/a01193_1ab48227aba24bb193c81b0fd7956203f5" compoundref="dc/d87/a00032" startline="131" endline="134">CIccMultiProcessElement::Create</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/a01697_1adb40b8192b4afd94f3e2f214dbb34373" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool CIccMpeCreator::GetElementSigName</definition>
+        <argsstring>(std::string &amp;elemName, icElemTypeSignature elemTypeSig)</argsstring>
+        <name>GetElementSigName</name>
+        <qualifiedname>CIccMpeCreator::GetElementSigName</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>elemName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elemTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: GetElementSigName(elemTypeSig) Get display name of elemTypeSig.</para>
+<para>Parameter(s): elemName = string to put element name into elemTypeSig = signature of the ICC element type to get a name for</para>
+<para>Returns true if element type is recognized by any factory, false if all factories do not create elemTypeSig elements. If element type is not recognized by any factories a suitable display name will be placed in elemName. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="229" column="15" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="229" bodyend="230"/>
+        <references refid="d6/d15/a01697_1ae70b0c0cb6f60f21d651e4227a70e8c5" compoundref="d9/db6/a00146" startline="261" endline="271">DoGetElementSigName</references>
+        <references refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" compoundref="d9/db6/a00146" startline="237" endline="246">GetInstance</references>
+        <referencedby refid="dc/d2f/a00425_1a5d8a7ba8e3bcc56823823d6f051b8af4" compoundref="d5/db1/a00140" startline="1604" endline="1612">CIccInfo::GetElementTypeSigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/a01697_1ae449dbffc230d98841210ecc28aa5468" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> *</type>
+        <definition>static IIccMpeFactory * CIccMpeCreator::PopFactory</definition>
+        <argsstring>()</argsstring>
+        <name>PopFactory</name>
+        <qualifiedname>CIccMpeCreator::PopFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="d6/d15/a01697_1ae449dbffc230d98841210ecc28aa5468" kindref="member">PopFactory()</ref> Remove the top <ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> from the stack of element factories tracked by the system.</para>
+<para>Parameter(s): None</para>
+<para>Returns the top <ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> from the stack of element factories tracked by the system. The returned element factory is no longer owned by the system and needs to be deleted to avoid memory leaks.</para>
+<para>Note: The initial CIccBasicElemFactory cannot be popped off the stack. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="262" column="25" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="262" bodyend="263"/>
+        <references refid="d6/d15/a01697_1a0c81ff12874e5a868df18421e64f9036" compoundref="d9/db6/a00146" startline="278" endline="287">DoPopFactory</references>
+        <references refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" compoundref="d9/db6/a00146" startline="237" endline="246">GetInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/a01697_1a2c9c2043489bd488cadc6e22b012914e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CIccMpeCreator::PushFactory</definition>
+        <argsstring>(IIccMpeFactory *pFactory)</argsstring>
+        <name>PushFactory</name>
+        <qualifiedname>CIccMpeCreator::PushFactory</qualifiedname>
+        <param>
+          <type><ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> *</type>
+          <declname>pFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: PushFactory(pFactory) Add an <ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> to the stack of element factories tracked by the system.</para>
+<para>Parameter(s): pFactory = pointer to an <ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> object to add to the system. The pFactory must be created with new, and will be owned <ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref> until popped off the stack using <ref refid="d6/d15/a01697_1ae449dbffc230d98841210ecc28aa5468" kindref="member">PopFactory()</ref>. Any factories not popped off will be taken care of properly on application shutdown. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="245" column="15" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="245" bodyend="246"/>
+        <references refid="d6/d15/a01697_1a286fbe9730ca31c066f5f8bcebe2c04e" compoundref="d9/db6/a00146" startline="273" endline="276">DoPushFactory</references>
+        <references refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" compoundref="d9/db6/a00146" startline="237" endline="246">GetInstance</references>
+        <referencedby refid="d2/d04/a00281_1a0ddf1224851353fc92bfbff6f499fa97" compoundref="d2/d04/a00281" startline="14" endline="113">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/d15/a01697_1ab4a834b6ae608750f6ab553c91092892" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccMpeCreator::CIccMpeCreator</definition>
+        <argsstring>()</argsstring>
+        <name>CIccMpeCreator</name>
+        <qualifiedname>CIccMpeCreator::CIccMpeCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only <ref refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" kindref="member">GetInstance()</ref> can create the singleton </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="267" column="3" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="267" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/a01697_1a5518331b97ab9dbb0934e7f04a0ff1f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d43/a01193" kindref="compound">CIccMultiProcessElement</ref> *</type>
+        <definition>CIccMultiProcessElement * CIccMpeCreator::DoCreateElement</definition>
+        <argsstring>(icElemTypeSignature elemTypeSig)</argsstring>
+        <name>DoCreateElement</name>
+        <qualifiedname>CIccMpeCreator::DoCreateElement</qualifiedname>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elemTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="282" column="27" bodyfile="IccProfLib/IccMpeFactory.cpp" bodystart="248" bodyend="259"/>
+        <references refid="da/d20/a01689_1a9e3ee9e5b0978a03846c770681f42c6a">IIccMpeFactory::CreateElement</references>
+        <references refid="d6/d15/a01697_1ab786d9c33ede15d6aa2e9a9fe26ec181" compoundref="dc/d57/a00194" startline="289">factoryStack</references>
+        <referencedby refid="d6/d15/a01697_1abcc6f083b23b883d12dc88cc1f366673" compoundref="dc/d57/a00194" startline="213" endline="214">CreateElement</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/a01697_1ae70b0c0cb6f60f21d651e4227a70e8c5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CIccMpeCreator::DoGetElementSigName</definition>
+        <argsstring>(std::string &amp;elemName, icElemTypeSignature elemTypeSig)</argsstring>
+        <name>DoGetElementSigName</name>
+        <qualifiedname>CIccMpeCreator::DoGetElementSigName</qualifiedname>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>elemName</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d46/a00002_1a5dbecf663e56b6445a7f199306ee1b4d" kindref="member">icElemTypeSignature</ref></type>
+          <declname>elemTypeSig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="283" column="8" bodyfile="IccProfLib/IccMpeFactory.cpp" bodystart="261" bodyend="271"/>
+        <references refid="d6/d15/a01697_1ab786d9c33ede15d6aa2e9a9fe26ec181" compoundref="dc/d57/a00194" startline="289">factoryStack</references>
+        <references refid="da/d20/a01689_1aab3a1365474e7deb94027d2253ef24ab">IIccMpeFactory::GetElementSigName</references>
+        <referencedby refid="d6/d15/a01697_1adb40b8192b4afd94f3e2f214dbb34373" compoundref="dc/d57/a00194" startline="229" endline="230">GetElementSigName</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/a01697_1a0c81ff12874e5a868df18421e64f9036" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> *</type>
+        <definition>IIccMpeFactory * CIccMpeCreator::DoPopFactory</definition>
+        <argsstring>(bool bAll=false)</argsstring>
+        <name>DoPopFactory</name>
+        <qualifiedname>CIccMpeCreator::DoPopFactory</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>bAll</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="285" column="18" bodyfile="IccProfLib/IccMpeFactory.cpp" bodystart="278" bodyend="287"/>
+        <references refid="d6/d15/a01697_1ab786d9c33ede15d6aa2e9a9fe26ec181" compoundref="dc/d57/a00194" startline="289">factoryStack</references>
+        <referencedby refid="d6/d15/a01697_1ac716b726736dca865dff7486b3a8bc17" compoundref="d9/db6/a00146" startline="227" endline="235">~CIccMpeCreator</referencedby>
+        <referencedby refid="d6/d15/a01697_1ae449dbffc230d98841210ecc28aa5468" compoundref="dc/d57/a00194" startline="262" endline="263">PopFactory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d15/a01697_1a286fbe9730ca31c066f5f8bcebe2c04e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccMpeCreator::DoPushFactory</definition>
+        <argsstring>(IIccMpeFactory *pFactory)</argsstring>
+        <name>DoPushFactory</name>
+        <qualifiedname>CIccMpeCreator::DoPushFactory</qualifiedname>
+        <param>
+          <type><ref refid="da/d20/a01689" kindref="compound">IIccMpeFactory</ref> *</type>
+          <declname>pFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="284" column="8" bodyfile="IccProfLib/IccMpeFactory.cpp" bodystart="273" bodyend="276"/>
+        <references refid="d6/d15/a01697_1ab786d9c33ede15d6aa2e9a9fe26ec181" compoundref="dc/d57/a00194" startline="289">factoryStack</references>
+        <referencedby refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" compoundref="d9/db6/a00146" startline="237" endline="246">GetInstance</referencedby>
+        <referencedby refid="d6/d15/a01697_1a2c9c2043489bd488cadc6e22b012914e" compoundref="dc/d57/a00194" startline="245" endline="246">PushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref> *</type>
+        <definition>CIccMpeCreator * CIccMpeCreator::GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <qualifiedname>CIccMpeCreator::GetInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" kindref="member">GetInstance()</ref> Private static function to access singleton CiccElementCreator Object.</para>
+<para>Parameter(s): None</para>
+<para>Returns the singleton <ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref> object. It will allocate a new one and push a single CIccSpecElement Factory object onto the factory stack if the singleton has not been intialized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccMpeFactory.h" line="280" column="25" bodyfile="IccProfLib/IccMpeFactory.cpp" bodystart="237" bodyend="246"/>
+        <references refid="d6/d15/a01697_1a286fbe9730ca31c066f5f8bcebe2c04e" compoundref="d9/db6/a00146" startline="273" endline="276">DoPushFactory</references>
+        <references refid="d6/d15/a01697_1a82f1d06ee624f6ccd1236578ab15054a" compoundref="dc/d57/a00194" startline="287">theElementCreator</references>
+        <referencedby refid="d6/d15/a01697_1abcc6f083b23b883d12dc88cc1f366673" compoundref="dc/d57/a00194" startline="213" endline="214">CreateElement</referencedby>
+        <referencedby refid="d6/d15/a01697_1adb40b8192b4afd94f3e2f214dbb34373" compoundref="dc/d57/a00194" startline="229" endline="230">GetElementSigName</referencedby>
+        <referencedby refid="d6/d15/a01697_1ae449dbffc230d98841210ecc28aa5468" compoundref="dc/d57/a00194" startline="262" endline="263">PopFactory</referencedby>
+        <referencedby refid="d6/d15/a01697_1a2c9c2043489bd488cadc6e22b012914e" compoundref="dc/d57/a00194" startline="245" endline="246">PushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref></para>
+<para>Purpose: <ref refid="d6/d15/a01697" kindref="compound">CIccMpeCreator</ref> uses a singleton pattern to provide dynamically upgradeable CIccProcessElement derived object creation based on element signature. </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccMpeFactory.h" line="196" column="1" bodyfile="IccProfLib/IccMpeFactory.h" bodystart="197" bodyend="290"/>
+    <listofallmembers>
+      <member refid="d6/d15/a01697_1ab4a834b6ae608750f6ab553c91092892" prot="private" virt="non-virtual"><scope>CIccMpeCreator</scope><name>CIccMpeCreator</name></member>
+      <member refid="d6/d15/a01697_1abcc6f083b23b883d12dc88cc1f366673" prot="public" virt="non-virtual"><scope>CIccMpeCreator</scope><name>CreateElement</name></member>
+      <member refid="d6/d15/a01697_1a5518331b97ab9dbb0934e7f04a0ff1f4" prot="private" virt="non-virtual"><scope>CIccMpeCreator</scope><name>DoCreateElement</name></member>
+      <member refid="d6/d15/a01697_1ae70b0c0cb6f60f21d651e4227a70e8c5" prot="private" virt="non-virtual"><scope>CIccMpeCreator</scope><name>DoGetElementSigName</name></member>
+      <member refid="d6/d15/a01697_1a0c81ff12874e5a868df18421e64f9036" prot="private" virt="non-virtual"><scope>CIccMpeCreator</scope><name>DoPopFactory</name></member>
+      <member refid="d6/d15/a01697_1a286fbe9730ca31c066f5f8bcebe2c04e" prot="private" virt="non-virtual"><scope>CIccMpeCreator</scope><name>DoPushFactory</name></member>
+      <member refid="d6/d15/a01697_1ab786d9c33ede15d6aa2e9a9fe26ec181" prot="private" virt="non-virtual"><scope>CIccMpeCreator</scope><name>factoryStack</name></member>
+      <member refid="d6/d15/a01697_1adb40b8192b4afd94f3e2f214dbb34373" prot="public" virt="non-virtual"><scope>CIccMpeCreator</scope><name>GetElementSigName</name></member>
+      <member refid="d6/d15/a01697_1aea376e5453ea3cd626e7306012b7d872" prot="private" virt="non-virtual"><scope>CIccMpeCreator</scope><name>GetInstance</name></member>
+      <member refid="d6/d15/a01697_1ae449dbffc230d98841210ecc28aa5468" prot="public" virt="non-virtual"><scope>CIccMpeCreator</scope><name>PopFactory</name></member>
+      <member refid="d6/d15/a01697_1a2c9c2043489bd488cadc6e22b012914e" prot="public" virt="non-virtual"><scope>CIccMpeCreator</scope><name>PushFactory</name></member>
+      <member refid="d6/d15/a01697_1a82f1d06ee624f6ccd1236578ab15054a" prot="private" virt="non-virtual"><scope>CIccMpeCreator</scope><name>theElementCreator</name></member>
+      <member refid="d6/d15/a01697_1ac716b726736dca865dff7486b3a8bc17" prot="public" virt="non-virtual"><scope>CIccMpeCreator</scope><name>~CIccMpeCreator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

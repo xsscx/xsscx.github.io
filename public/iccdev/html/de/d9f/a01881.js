@@ -1,0 +1,28 @@
+var a01881 =
+[
+    [ "~CIccTagXmlMeasurement", "de/d9f/a01881.html#a3ae013c589d467ab7ad9f21b0ba738c8", null ],
+    [ "Create", "de/d9f/a01881.html#a2a2efdbfae5e8820c0dc4cdd1af691a8", null ],
+    [ "Describe", "de/d9f/a01881.html#a3e2a17306c40399999311006cb7309fd", null ],
+    [ "DetachIO", "de/d9f/a01881.html#a3b8c88576df48859517cda49e412c9f3", null ],
+    [ "GetClassName", "de/d9f/a01881.html#a8e48e1254986029f1aeb071ea3eb55e1", null ],
+    [ "GetExtClassName", "de/d9f/a01881.html#a67786e088d1e0f900a3aa28bb3499d2b", null ],
+    [ "GetExtDerivedClassName", "de/d9f/a01881.html#ac5c03ff6c0ef73be014eb9da37ec6113", null ],
+    [ "GetExtension", "de/d9f/a01881.html#a10547854961ccd4c8430d3ca8fd5f8e9", null ],
+    [ "GetTagArrayType", "de/d9f/a01881.html#acc454c2f425b8619187fc75f682d7aa4", null ],
+    [ "GetTagStructType", "de/d9f/a01881.html#ad53030e068551d6ac9f69124b4a6c9bb", null ],
+    [ "GetType", "de/d9f/a01881.html#a046a8368f8109afcd10135ef706447d0", null ],
+    [ "IsArrayType", "de/d9f/a01881.html#a80251cce2257d65fff1f45c0d805480f", null ],
+    [ "IsMBBType", "de/d9f/a01881.html#a5cf5b72ab66ca68a6c8ddfd861741bb8", null ],
+    [ "IsNumArrayType", "de/d9f/a01881.html#aa2a3dd91bfad9cf1297300d70936121a", null ],
+    [ "IsSupported", "de/d9f/a01881.html#a3415307280dc7b871cc1797704008991", null ],
+    [ "NewCopy", "de/d9f/a01881.html#a9b0a6711c400bf16d198b7da5b6f993f", null ],
+    [ "ParseXml", "de/d9f/a01881.html#a157b1263fdf8de283af4d229d2e4bd94", null ],
+    [ "Read", "de/d9f/a01881.html#a5f30945e89be4dcf7a0b9efd74ef6108", null ],
+    [ "Read", "de/d9f/a01881.html#a9c4cabcc7ea3278e375131bb688a8293", null ],
+    [ "ReadAll", "de/d9f/a01881.html#affe66685d53e2ebf016a5a5126ed968d", null ],
+    [ "ToXml", "de/d9f/a01881.html#a943c0e19163087a7e59350c75b14491c", null ],
+    [ "Validate", "de/d9f/a01881.html#a1e63996a6dcb3195997623027486315d", null ],
+    [ "Write", "de/d9f/a01881.html#a8875bed465480e096f923e7dd7c02892", null ],
+    [ "m_Data", "de/d9f/a01881.html#a6893e09e0c9f1624d3848afbf9f6ecfd", null ],
+    [ "m_nReserved", "de/d9f/a01881.html#a0dbc39e419057e941c11cacb8c9e3fb0", null ]
+];

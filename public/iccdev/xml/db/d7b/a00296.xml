@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="db/d7b/a00296" kind="file" language="C++">
+    <compoundname>wxProfileDump.h</compoundname>
+    <includes local="no">wx/toolbar.h</includes>
+    <includes local="no">wx/listctrl.h</includes>
+    <includes local="no">wx/docview.h</includes>
+    <includes local="no">wx/dnd.h</includes>
+    <includedby refid="df/d95/a00299" local="yes">Tools/wxWidget/wxProfileDump/wxProfileDump.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Tools/wxWidget/wxProfileDump/wxProfileDump.h</label>
+        <link refid="db/d7b/a00296"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>wx/dnd.h</label>
+      </node>
+      <node id="4">
+        <label>wx/docview.h</label>
+      </node>
+      <node id="3">
+        <label>wx/listctrl.h</label>
+      </node>
+      <node id="2">
+        <label>wx/toolbar.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>Tools/wxWidget/wxProfileDump/wxProfileDump.cpp</label>
+        <link refid="df/d95/a00299"/>
+      </node>
+      <node id="1">
+        <label>Tools/wxWidget/wxProfileDump/wxProfileDump.h</label>
+        <link refid="db/d7b/a00296"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d3/d90/a02177" prot="public">MyApp</innerclass>
+    <innerclass refid="d5/d85/a02181" prot="public">MyCanvas</innerclass>
+    <innerclass refid="d5/dbb/a02193" prot="public">MyChild</innerclass>
+    <innerclass refid="de/df6/a02197" prot="public">MyDialog</innerclass>
+    <innerclass refid="d8/d85/a02189" prot="public">MyDnDFile</innerclass>
+    <innerclass refid="dd/d02/a02185" prot="public">MyFrame</innerclass>
+    <innerclass refid="dd/d14/a02201" prot="public">MyRoundTripDialog</innerclass>
+    <innerclass refid="dc/d43/a02205" prot="public">MyTagDialog</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600" prot="public" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <enumvalue id="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a5a7dabc48c483bd273c5ee8a844df000" prot="public">
+          <name>MDI_QUIT</name>
+          <initializer>= wxID_EXIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600af4d744606a100e76aebf842b96a1e708" prot="public">
+          <name>MDI_OPEN_PROFILE</name>
+          <initializer>= 101</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a9ef29a1af5871809bd96d107307b0442" prot="public">
+          <name>MDI_CHILD_QUIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a37616aa4a4d5ba83d63384d71fd000c0" prot="public">
+          <name>MDI_ABOUT</name>
+          <initializer>= wxID_ABOUT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h" line="217" column="1" bodyfile="Tools/wxWidget/wxProfileDump/wxProfileDump.h" bodystart="218" bodyend="223"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File: <ref refid="db/d7b/a00296" kindref="compound">wxProfileDump.h</ref></para>
+<para>Contains: Header file for main application that displays profile contents using wxWidgets</para>
+<para>Version: V1</para>
+<para>Copyright: (c) see ICC Software License </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment">*<sp/>Copyright<sp/>(c)<sp/>2003-2012<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="comment">*<sp/>reserved.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="38"><highlight class="comment">*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="43"><highlight class="comment">*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="44"><highlight class="comment">*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="56"><highlight class="comment">*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment">*<sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="comment">*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment">*<sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment">*<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;wx/toolbar.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;wx/listctrl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;wx/docview.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;wx/dnd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Define<sp/>a<sp/>new<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="d3/d90/a02177" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d90/a02177" kindref="compound">MyApp</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxApp</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d3/d90/a02177_1a79fa75d1155f0e85e20f2869538296d6" kindref="member">OnInit</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d3/d90/a02177_1ac89908f7a347ca2cc44611a4179b35ef" kindref="member">OnExit</ref>();</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="d3/d90/a02177_1a4e9f1b6c149712c61b91aa53d5c31492" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxFileHistory<sp/><ref refid="d3/d90/a02177_1a4e9f1b6c149712c61b91aa53d5c31492" kindref="member">m_history</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="d5/d85/a02181" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d85/a02181" kindref="compound">MyCanvas</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxScrolledWindow</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="83" refid="d5/d85/a02181_1a9fbdd157eb1a41e3c578ada4cb3ce631" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d85/a02181_1a9fbdd157eb1a41e3c578ada4cb3ce631" kindref="member">MyCanvas</ref>(wxWindow<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxPoint&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxSize&amp;<sp/>size);</highlight></codeline>
+<codeline lineno="84" refid="d5/d85/a02181_1a1b63e5afbceefe59d5416742baa481a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d85/a02181_1a1b63e5afbceefe59d5416742baa481a8" kindref="member">OnDraw</ref>(wxDC&amp;<sp/>dc);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="d5/d85/a02181_1a60a073fe8912ac76381958467dfd6198" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/d85/a02181_1a60a073fe8912ac76381958467dfd6198" kindref="member">IsDirty</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d5/d85/a02181_1a70bd8c80e114c1d02b11779b644fd4e3" kindref="member">m_dirty</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="d5/d85/a02181_1ad0f3e67d6797ebba9ae30f097d5e081d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/d85/a02181_1ad0f3e67d6797ebba9ae30f097d5e081d" kindref="member">OnEvent</ref>(wxMouseEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="91" refid="d5/d85/a02181_1a70bd8c80e114c1d02b11779b644fd4e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d5/d85/a02181_1a70bd8c80e114c1d02b11779b644fd4e3" kindref="member">m_dirty</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>DECLARE_EVENT_TABLE()</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Define<sp/>a<sp/>new<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="dd/d02/a02185" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d02/a02185" kindref="compound">MyFrame</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxMDIParentFrame</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d02/a02185" kindref="compound">MyFrame</ref>(wxWindow<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxWindowID<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxString&amp;<sp/>title,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxPoint&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxSize&amp;<sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>style);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="dd/d02/a02185_1aa83727c4a41064c7f82b8047f7a5633e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d02/a02185_1aa83727c4a41064c7f82b8047f7a5633e" kindref="member">InitToolBar</ref>(wxToolBar*<sp/>toolBar);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d02/a02185_1ab470cba0c5d8d46980c602589d556ee5" kindref="member">OnAbout</ref>(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d02/a02185_1a780ad27e648864c47bc6cda2fca9a5dd" kindref="member">OnOpenProfile</ref>(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d02/a02185_1a9e6c4824efad3aa9f4c3a3025a616e2d" kindref="member">OnQuit</ref>(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d02/a02185_1aca8e8d9ade335e41689ae7ccbbc8675a" kindref="member">OnClose</ref>(wxCloseEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d02/a02185_1a56366311e24a2cb0fba7e5ad1ece97ce" kindref="member">OpenFile</ref>(wxString<sp/>path);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>DECLARE_EVENT_TABLE()</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="d8/d85/a02189" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d85/a02189" kindref="compound">MyDnDFile</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxFileDropTarget</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="118" refid="d8/d85/a02189_1ab9fd525edd657e5ab4f9961e99f50f33" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d8/d85/a02189_1ab9fd525edd657e5ab4f9961e99f50f33" kindref="member">MyDnDFile</ref>(<ref refid="dd/d02/a02185" kindref="compound">MyFrame</ref><sp/>*owner)<sp/>{<sp/><ref refid="d8/d85/a02189_1a65a1e0ecdf017b7bc48236b86ca939d9" kindref="member">m_owner</ref><sp/>=<sp/>owner;<sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="d8/d85/a02189_1a67d3e0825e17672efa60a50c34de77b8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d85/a02189_1a67d3e0825e17672efa60a50c34de77b8" kindref="member">OnDropFiles</ref>(wxCoord<sp/>x,<sp/>wxCoord<sp/>y,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxArrayString&amp;<sp/>filenames)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nFiles<sp/>=<sp/>filenames.GetCount();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>wxString<sp/>str;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n=0;<sp/>n&lt;nFiles;<sp/>n++)<sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d85/a02189_1a65a1e0ecdf017b7bc48236b86ca939d9" kindref="member">m_owner</ref>-&gt;<ref refid="dd/d02/a02185_1a56366311e24a2cb0fba7e5ad1ece97ce" kindref="member">OpenFile</ref>(filenames[n]);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="131" refid="d8/d85/a02189_1a65a1e0ecdf017b7bc48236b86ca939d9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="dd/d02/a02185" kindref="compound">MyFrame</ref><sp/>*<ref refid="d8/d85/a02189_1a65a1e0ecdf017b7bc48236b86ca939d9" kindref="member">m_owner</ref>;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="d5/dbb/a02193" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dbb/a02193" kindref="compound">MyChild</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxMDIChildFrame</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dbb/a02193" kindref="compound">MyChild</ref>(wxMDIParentFrame<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxString&amp;<sp/>title,<sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*pIcc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxString<sp/>&amp;profilePath);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dbb/a02193_1a5d5b3be242bebdbbd60ee5d7738db1fe" kindref="member">~MyChild</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="d5/dbb/a02193_1ad0fa989b2bf11f16aa4ca003280f1389" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1ad0fa989b2bf11f16aa4ca003280f1389" kindref="member">OnActivate</ref>(wxActivateEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="d5/dbb/a02193_1a719091638518f0595d0c30c85328d3b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1a719091638518f0595d0c30c85328d3b1" kindref="member">OnRefresh</ref>(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="143" refid="d5/dbb/a02193_1a60157c7f1f07c0d84b15d8c247302eb8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1a60157c7f1f07c0d84b15d8c247302eb8" kindref="member">OnUpdateRefresh</ref>(wxUpdateUIEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1a4c613c7eaeaf46305674b7a0b1576efa" kindref="member">OnQuit</ref>(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1a51bf0003a9bb8205ee1956e83c0d8a3c" kindref="member">OnClose</ref>(wxCloseEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1a4dedc6dc4316875cb7e52638685d0461" kindref="member">OnValidate</ref>(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1a99a38affa576cb8518592cbd296ca1a4" kindref="member">OnRoundTrip</ref>(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1a996166fbf4f426213223d706176a3c7c" kindref="member">OnTagClicked</ref>(wxListEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/dbb/a02193_1a501afd57949b45d52101113110a05922" kindref="member">SetFileMenu</ref>(wxMenu<sp/>*menu);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="153" refid="d5/dbb/a02193_1a5f3e56bb5ca4d90eecb982be9c618608" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxMenu<sp/>*<ref refid="d5/dbb/a02193_1a5f3e56bb5ca4d90eecb982be9c618608" kindref="member">m_fileMenu</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="d5/dbb/a02193_1a11bc597c8e240fa2fc2af39e8cd07ed8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*<ref refid="d5/dbb/a02193_1a11bc597c8e240fa2fc2af39e8cd07ed8" kindref="member">m_pIcc</ref>;</highlight></codeline>
+<codeline lineno="156" refid="d5/dbb/a02193_1a9f3d9e1f0166f7b3d86fcc118af7dd4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxString<sp/><ref refid="d5/dbb/a02193_1a9f3d9e1f0166f7b3d86fcc118af7dd4e" kindref="member">m_profilePath</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="d5/dbb/a02193_1ab8ac39c3405c5b5cf9e682ef3b3fe8d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxPanel<sp/>*<ref refid="d5/dbb/a02193_1ab8ac39c3405c5b5cf9e682ef3b3fe8d6" kindref="member">m_panel</ref>;</highlight></codeline>
+<codeline lineno="159" refid="d5/dbb/a02193_1a98ef279e93291734ea2fdd975b19ff9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxListCtrl<sp/>*<ref refid="d5/dbb/a02193_1a98ef279e93291734ea2fdd975b19ff9e" kindref="member">m_tagsCtrl</ref>;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="d5/dbb/a02193_1a18edf66e6684911a9771ef1d773b9d17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a18edf66e6684911a9771ef1d773b9d17" kindref="member">m_textAttribute</ref>;</highlight></codeline>
+<codeline lineno="162" refid="d5/dbb/a02193_1a6aa8faf7599e5dba21eebcb24f28f011" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a6aa8faf7599e5dba21eebcb24f28f011" kindref="member">m_textBiSpectralWavelengths</ref>;</highlight></codeline>
+<codeline lineno="163" refid="d5/dbb/a02193_1ad28e4d36972a647390be6cb97f206b55" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1ad28e4d36972a647390be6cb97f206b55" kindref="member">m_textCMM</ref>;</highlight></codeline>
+<codeline lineno="164" refid="d5/dbb/a02193_1a8437e207eac57689bab5736f63068deb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a8437e207eac57689bab5736f63068deb" kindref="member">m_textColorSpace</ref>;</highlight></codeline>
+<codeline lineno="165" refid="d5/dbb/a02193_1af2fc459f47e3a4cb7b97d4d4193ead9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1af2fc459f47e3a4cb7b97d4d4193ead9d" kindref="member">m_textCreationDate</ref>;</highlight></codeline>
+<codeline lineno="166" refid="d5/dbb/a02193_1a50dbd2b6217dfa625c4e85742c12db2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a50dbd2b6217dfa625c4e85742c12db2b" kindref="member">m_textCreator</ref>;</highlight></codeline>
+<codeline lineno="167" refid="d5/dbb/a02193_1a2868e240c885bff309b3629e61da216e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a2868e240c885bff309b3629e61da216e" kindref="member">m_textFlags</ref>;</highlight></codeline>
+<codeline lineno="168" refid="d5/dbb/a02193_1a0dbc318f05ebda120acbb3d0b4698dd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a0dbc318f05ebda120acbb3d0b4698dd7" kindref="member">m_textIlluminant</ref>;</highlight></codeline>
+<codeline lineno="169" refid="d5/dbb/a02193_1ac3ae0851222738b0053b0489bb694b51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1ac3ae0851222738b0053b0489bb694b51" kindref="member">m_textPCS</ref>;</highlight></codeline>
+<codeline lineno="170" refid="d5/dbb/a02193_1a4161772cbecb4b0cfe421a07690d4ac9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a4161772cbecb4b0cfe421a07690d4ac9" kindref="member">m_textPlatform</ref>;</highlight></codeline>
+<codeline lineno="171" refid="d5/dbb/a02193_1a1d640dfd8abe80397a1de614f275189f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a1d640dfd8abe80397a1de614f275189f" kindref="member">m_textDeviceManufacturer</ref>;</highlight></codeline>
+<codeline lineno="172" refid="d5/dbb/a02193_1a946b0a6d98f4cf141203b6fd57459773" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a946b0a6d98f4cf141203b6fd57459773" kindref="member">m_textProfileID</ref>;</highlight></codeline>
+<codeline lineno="173" refid="d5/dbb/a02193_1a47785697464ea5c363362dcb1582a099" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a47785697464ea5c363362dcb1582a099" kindref="member">m_textRenderingIntent</ref>;</highlight></codeline>
+<codeline lineno="174" refid="d5/dbb/a02193_1a9380a7fd078440385fd3659f82c1bbd8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a9380a7fd078440385fd3659f82c1bbd8" kindref="member">m_textSpectralPCS</ref>;</highlight></codeline>
+<codeline lineno="175" refid="d5/dbb/a02193_1a4a9ca0525abd3f4c15fbad54e0a89d0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a4a9ca0525abd3f4c15fbad54e0a89d0a" kindref="member">m_textSpectralWavelengths</ref>;</highlight></codeline>
+<codeline lineno="176" refid="d5/dbb/a02193_1afcacf64ca13a704c892195dcd69685f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1afcacf64ca13a704c892195dcd69685f5" kindref="member">m_textMaterialColorSpace</ref>;</highlight></codeline>
+<codeline lineno="177" refid="d5/dbb/a02193_1a518f26772d435f809a2a557bc935db20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a518f26772d435f809a2a557bc935db20" kindref="member">m_textSize</ref>;</highlight></codeline>
+<codeline lineno="178" refid="d5/dbb/a02193_1a6dcf3cd9a7be19dc91f750119856c450" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a6dcf3cd9a7be19dc91f750119856c450" kindref="member">m_textClass</ref>;</highlight></codeline>
+<codeline lineno="179" refid="d5/dbb/a02193_1a236dac6bbae0cc02e8c0293a4d9ecd48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1a236dac6bbae0cc02e8c0293a4d9ecd48" kindref="member">m_textSubClass</ref>;</highlight></codeline>
+<codeline lineno="180" refid="d5/dbb/a02193_1ae072cceac2438608c094a609dc2219f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1ae072cceac2438608c094a609dc2219f2" kindref="member">m_textVersion</ref>;</highlight></codeline>
+<codeline lineno="181" refid="d5/dbb/a02193_1acfe99eba30db5209c7a461233b9804a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxStaticText<sp/>*<ref refid="d5/dbb/a02193_1acfe99eba30db5209c7a461233b9804a0" kindref="member">m_textSubClassVersion</ref>;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>wxSizer<sp/>*<ref refid="d5/dbb/a02193_1a4046bfc881b2b04d0645a3c8558829fa" kindref="member">CreateSizerWithText</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxString<sp/>&amp;labelText,<sp/>wxStaticText<sp/>**ppText);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>DECLARE_EVENT_TABLE()</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="de/df6/a02197" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/df6/a02197" kindref="compound">MyDialog</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxDialog</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/df6/a02197" kindref="compound">MyDialog</ref>(wxWindow<sp/>*pParent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxString&amp;<sp/>title,<sp/>wxString<sp/>&amp;profilePath);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="de/df6/a02197_1a42080260812a609ef4de2020af0671e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxString<sp/><ref refid="de/df6/a02197_1a42080260812a609ef4de2020af0671e3" kindref="member">m_profilePath</ref>;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="dd/d14/a02201" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d14/a02201" kindref="compound">MyRoundTripDialog</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxDialog</highlight></codeline>
+<codeline lineno="197"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><ref refid="dd/d14/a02201" kindref="compound">MyRoundTripDialog</ref>(wxWindow<sp/>*pParent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxString&amp;<sp/>title,<sp/>wxString<sp/>&amp;profilePath,<sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*pIcc);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="dd/d14/a02201_1af4e2a1e4b79fc5950275536ffc6a0b50" refkind="member"><highlight class="normal"><sp/><sp/>wxString<sp/><ref refid="dd/d14/a02201_1af4e2a1e4b79fc5950275536ffc6a0b50" kindref="member">m_profilePath</ref>;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="dc/d43/a02205" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d43/a02205" kindref="compound">MyTagDialog</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxDialog</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d43/a02205" kindref="compound">MyTagDialog</ref>(wxWindow<sp/>*pParent,<sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*pIcc<sp/></highlight><highlight class="comment">/*=NULL*/</highlight><highlight class="normal">,<sp/><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref><sp/>sig</highlight><highlight class="comment">/*=icMaxEnumTag*/</highlight><highlight class="normal">,<sp/><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref><sp/>*pTag<sp/></highlight><highlight class="comment">/*=NULL*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="dc/d43/a02205_1ad4e3aa93043afedcb36a77bd6eb6f44c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*<ref refid="dc/d43/a02205_1ad4e3aa93043afedcb36a77bd6eb6f44c" kindref="member">m_pIcc</ref>;</highlight></codeline>
+<codeline lineno="210" refid="dc/d43/a02205_1a06e99cf98129fcd835631ac8cc5b2cee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5" kindref="member">icTagSignature</ref><sp/><ref refid="dc/d43/a02205_1a06e99cf98129fcd835631ac8cc5b2cee" kindref="member">m_sigTag</ref>;</highlight></codeline>
+<codeline lineno="211" refid="dc/d43/a02205_1aee35d832ff8474eafcb17e514ce4f4f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref><sp/>*<ref refid="dc/d43/a02205_1aee35d832ff8474eafcb17e514ce4f4f0" kindref="member">m_pTag</ref>;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="dc/d43/a02205_1a55d3c3cc10b7a81c27d66460fe9d09d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>wxFont<sp/><ref refid="dc/d43/a02205_1a55d3c3cc10b7a81c27d66460fe9d09d4" kindref="member">m_FixedFont</ref>;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">//<sp/>menu<sp/>items<sp/>ids</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="219" refid="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a5a7dabc48c483bd273c5ee8a844df000" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a5a7dabc48c483bd273c5ee8a844df000" kindref="member">MDI_QUIT</ref><sp/>=<sp/>wxID_EXIT,</highlight></codeline>
+<codeline lineno="220" refid="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600af4d744606a100e76aebf842b96a1e708" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600af4d744606a100e76aebf842b96a1e708" kindref="member">MDI_OPEN_PROFILE</ref><sp/>=<sp/>101,</highlight></codeline>
+<codeline lineno="221" refid="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a9ef29a1af5871809bd96d107307b0442" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a9ef29a1af5871809bd96d107307b0442" kindref="member">MDI_CHILD_QUIT</ref>,</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a37616aa4a4d5ba83d63384d71fd000c0" kindref="member">MDI_ABOUT</ref><sp/>=<sp/>wxID_ABOUT</highlight></codeline>
+<codeline lineno="223" refid="db/d7b/a00296_1abed82baf7f470b522273a3e37c24c600a37616aa4a4d5ba83d63384d71fd000c0" refkind="member"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Tools/wxWidget/wxProfileDump/wxProfileDump.h"/>
+  </compounddef>
+</doxygen>

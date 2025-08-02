@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/dc5/a02293" kind="page">
+    <compoundname>md_Tools_2CmdLine_2IccApplyProfiles_2Readme</compoundname>
+    <title>iccApplyProfiles</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="dd/dc5/a02293_1autotoc_md51"/> </para>
+<sect1 id="dd/dc5/a02293_1autotoc_md52">
+<title>Overview</title>
+<para><computeroutput>iccApplyProfiles</computeroutput> is a command-line tool that applies a sequence of ICC profiles to a TIFF image. It supports TIFF read/write with compression, planar or interleaved data, optional ICC embedding, and various interpolation/rendering intent modes.</para>
+<para>It is particularly well-suited for automated pipelines where precise color transformations must be applied across TIFF files using complex ICC profiles, including those with profile connection conditions.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dc5/a02293_1autotoc_md54">
+<title>Features</title>
+<para><itemizedlist>
+<listitem><para>Applies multiple ICC profiles to a TIFF image</para>
+</listitem><listitem><para>Supports input/output bit depths: 8-bit, 16-bit, float (32-bit)</para>
+</listitem><listitem><para>Maintains embedded profile or overrides with custom profile</para>
+</listitem><listitem><para>Handles profile connection conditions (PCC)</para>
+</listitem><listitem><para>Includes support for BPC (black point compensation)</para>
+</listitem><listitem><para>Offers both linear and tetrahedral interpolation</para>
+</listitem><listitem><para>Full CLI and JSON configuration support</para>
+</listitem><listitem><para>Supports Luminance PCS adjustments and environmental variable overrides</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dc5/a02293_1autotoc_md56">
+<title>Usage</title>
+<sect2 id="dd/dc5/a02293_1autotoc_md57">
+<title>Command-Line Mode</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyProfiles<sp/>input.tif<sp/>output.tif<sp/>encoding<sp/>compression<sp/>planar<sp/>embed_icc<sp/>interpolation<sp/>{{-ENV:sig<sp/>value}<sp/>profile.icc<sp/>intent<sp/>{-PCC<sp/>pcc.icc}}</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="dd/dc5/a02293_1autotoc_md58">
+<title>Config File Mode</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyProfiles<sp/>-cfg<sp/>config.json</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="dd/dc5/a02293_1autotoc_md60">
+<title>Arguments (CLI Mode)</title>
+<para><itemizedlist>
+<listitem><para><computeroutput>encoding</computeroutput>:<itemizedlist>
+<listitem><para><computeroutput>0</computeroutput> = Same as source</para>
+</listitem><listitem><para><computeroutput>1</computeroutput> = 8-bit</para>
+</listitem><listitem><para><computeroutput>2</computeroutput> = 16-bit</para>
+</listitem><listitem><para><computeroutput>4</computeroutput> = Float (32-bit)</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><computeroutput>compression</computeroutput>:<itemizedlist>
+<listitem><para><computeroutput>0</computeroutput> = None</para>
+</listitem><listitem><para><computeroutput>1</computeroutput> = LZW</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><computeroutput>planar</computeroutput>:<itemizedlist>
+<listitem><para><computeroutput>0</computeroutput> = Interleaved</para>
+</listitem><listitem><para><computeroutput>1</computeroutput> = Separated</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><computeroutput>embed_icc</computeroutput>:<itemizedlist>
+<listitem><para><computeroutput>0</computeroutput> = Do not embed</para>
+</listitem><listitem><para><computeroutput>1</computeroutput> = Embed last ICC profile</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><computeroutput>interpolation</computeroutput>:<itemizedlist>
+<listitem><para><computeroutput>0</computeroutput> = Linear</para>
+</listitem><listitem><para><computeroutput>1</computeroutput> = Tetrahedral</para>
+</listitem></itemizedlist>
+</para>
+</listitem><listitem><para><computeroutput>intent</computeroutput>:<itemizedlist>
+<listitem><para>Standard (0–3), Preview (20–23), Gamut (30+), No D2Bx (10+), BPC (40+)</para>
+</listitem><listitem><para><computeroutput>+100</computeroutput> adds luminance-based PCS adjustment</para>
+</listitem><listitem><para><computeroutput>+1000</computeroutput> enables ICCv5 sub-profile selection</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dc5/a02293_1autotoc_md62">
+<title>JSON Config Support</title>
+<para>The tool also accepts a JSON configuration file that must define:</para>
+<para><itemizedlist>
+<listitem><para><computeroutput>&quot;imageFiles&quot;</computeroutput> (for input/output settings)</para>
+</listitem><listitem><para><computeroutput>&quot;profileSequence&quot;</computeroutput> (for color transformations)</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dc5/a02293_1autotoc_md64">
+<title>Build Instructions</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">cd<sp/>Build/</highlight></codeline>
+<codeline><highlight class="normal">rm<sp/>-rf<sp/>CMakeCache.txt<sp/>CMakeFiles/<sp/>Makefile<sp/>IccProfLib/<sp/>IccXML/<sp/>Testing/<sp/>Tools/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_INSTALL_PREFIX=$HOME/.local<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_BUILD_TYPE=Debug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-DCMAKE_CXX_FLAGS=&quot;-g<sp/>-fsanitize=address,undefined<sp/>-fno-omit-frame-pointer<sp/>-Wall&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Wno-dev<sp/>-DENABLE_TOOLS=YES<sp/>Cmake/</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">make<sp/>-j32</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dc5/a02293_1autotoc_md66">
+<title>Example</title>
+<para><programlisting filename=".sh"><codeline><highlight class="normal">iccApplyProfiles<sp/>input.tif<sp/>output.tif<sp/>2<sp/>1<sp/>0<sp/>1<sp/>1<sp/>source.icc<sp/>1<sp/>printer.icc<sp/>0</highlight></codeline>
+</programlisting></para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="dd/dc5/a02293_1autotoc_md68">
+<title>Changelog</title>
+<para><itemizedlist>
+<listitem><para>Original version by Max Derhak (2003)</para>
+</listitem><listitem><para>Enhanced for iccMAX and JSON configs in 2014–2016</para>
+</listitem><listitem><para>CLI+JSON dual mode &amp; extended BPC / luminance logic by David Hoyt (2025) </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="Tools/CmdLine/IccApplyProfiles/Readme.md"/>
+  </compounddef>
+</doxygen>

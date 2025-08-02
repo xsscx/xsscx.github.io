@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="d4/def/a00359" kind="file" language="C++">
+    <compoundname>iccTiffDump.cpp</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="d6/d5b/a00026" local="yes">IccCmm.h</includes>
+    <includes refid="d7/dce/a00143" local="yes">IccUtil.h</includes>
+    <includes refid="d4/d81/a00110" local="yes">IccDefs.h</includes>
+    <includes refid="dd/dad/a00005" local="yes">IccProfLibVer.h</includes>
+    <includes refid="d4/dee/a00008" local="yes">IccApplyBPC.h</includes>
+    <includes refid="db/d10/a00350" local="yes">TiffImg.h</includes>
+    <incdepgraph>
+      <node id="30">
+        <label>IccApplyBPC.h</label>
+        <link refid="d4/dee/a00008"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IccCmm.h</label>
+        <link refid="d6/d5b/a00026"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IccDefs.h</label>
+        <link refid="d4/d81/a00110"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>IccIO.h</label>
+        <link refid="df/d6a/a00119"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>IccMatrixMath.h</label>
+        <link refid="dc/dfe/a00125"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>IccPcc.h</label>
+        <link refid="d4/d3a/a00101"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>IccProfLibConf.h</label>
+        <link refid="d5/d16/a00029"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>IccProfLibVer.h</label>
+        <link refid="dd/dad/a00005"/>
+      </node>
+      <node id="4">
+        <label>IccProfile.h</label>
+        <link refid="d4/d51/a00017"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>IccTag.h</label>
+        <link refid="d2/df5/a00137"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IccTagBasic.h</label>
+        <link refid="da/dec/a00080"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>IccTagComposite.h</label>
+        <link refid="d1/da8/a00230"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>IccTagDict.h</label>
+        <link refid="df/d03/a00062"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>IccTagEmbedIcc.h</label>
+        <link refid="dc/d9a/a00218"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>IccTagFactory.h</label>
+        <link refid="d8/d41/a00038"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>IccTagLut.h</label>
+        <link refid="da/d24/a00068"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>IccTagMPE.h</label>
+        <link refid="d7/d25/a00182"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>IccTagProfSeqId.h</label>
+        <link refid="d5/df1/a00206"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>IccUtil.h</label>
+        <link refid="d7/dce/a00143"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>icProfileHeader.h</label>
+        <link refid="d7/d46/a00002"/>
+      </node>
+      <node id="31">
+        <label>TiffImg.h</label>
+        <link refid="db/d10/a00350"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Tools/CmdLine/IccTiffDump/iccTiffDump.cpp</label>
+        <link refid="d4/def/a00359"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>cstdlib</label>
+      </node>
+      <node id="27">
+        <label>cstring</label>
+      </node>
+      <node id="25">
+        <label>limits</label>
+      </node>
+      <node id="11">
+        <label>list</label>
+      </node>
+      <node id="19">
+        <label>memory</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="32">
+        <label>tiffio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="df/dbf/a02161" prot="public">IdList</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" prot="public" static="no">
+        <name>UNKNOWNID</name>
+        <initializer>0xffffffff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" line="84" column="9" bodyfile="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="d4/def/a00359_1af1d7af19c793d114f69368411d2d2e9c" prot="public" static="no" mutable="no">
+        <type><ref refid="df/dbf/a02161" kindref="compound">IdList</ref></type>
+        <definition>IdList compression_types[]</definition>
+        <argsstring>[]</argsstring>
+        <name>compression_types</name>
+        <initializer>= {
+  {COMPRESSION_NONE,         &quot;None&quot;},
+  {COMPRESSION_LZW,          &quot;LZW&quot;},
+  {COMPRESSION_JPEG,         &quot;JPEG&quot;},
+  {COMPRESSION_DEFLATE,      &quot;Deflate&quot;},
+  {COMPRESSION_ADOBE_DEFLATE,&quot;Deflate&quot;},
+  {<ref refid="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" kindref="member">UNKNOWNID</ref>,                &quot;Unknown&quot;},
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" line="101" column="8" bodyfile="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" bodystart="101" bodyend="108"/>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/def/a00359_1aba231175f5d0acefd718050d09857018" prot="public" static="no" mutable="no">
+        <type><ref refid="df/dbf/a02161" kindref="compound">IdList</ref></type>
+        <definition>IdList photo_types[]</definition>
+        <argsstring>[]</argsstring>
+        <name>photo_types</name>
+        <initializer>= {
+  {<ref refid="db/d10/a00350_1afde13a7eabb130990ad0269cd86b77d8" kindref="member">PHOTO_MINISWHITE</ref>, &quot;Min Is White&quot;},
+  {<ref refid="db/d10/a00350_1a3ac452a1abf537c67bbaa2ee089502c2" kindref="member">PHOTO_MINISBLACK</ref>, &quot;Min Is Black&quot;},
+  {<ref refid="db/d10/a00350_1a175838d243f822b08053d3c940da67bb" kindref="member">PHOTO_CIELAB</ref>,     &quot;CIELab&quot;},
+  {<ref refid="db/d10/a00350_1ab98bd4a728d3404332eeedab6075e5e8" kindref="member">PHOTO_ICCLAB</ref>,     &quot;IccLab&quot;},
+  {<ref refid="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" kindref="member">UNKNOWNID</ref>,        &quot;Unknown&quot;},
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" line="93" column="8" bodyfile="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" bodystart="93" bodyend="99"/>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/def/a00359_1aaec8e4b721dd30aca16855f77153f4c0" prot="public" static="no" mutable="no">
+        <type><ref refid="df/dbf/a02161" kindref="compound">IdList</ref></type>
+        <definition>IdList planar_types[]</definition>
+        <argsstring>[]</argsstring>
+        <name>planar_types</name>
+        <initializer>= {
+  {0,  &quot;Interleaved samples&quot;},
+  {PLANARCONFIG_CONTIG,  &quot;Interleaved samples&quot;},
+  {PLANARCONFIG_SEPARATE, &quot;Samples in separate planes&quot;},
+  {<ref refid="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" kindref="member">UNKNOWNID</ref>, &quot;Unknown&quot;},
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" line="86" column="8" bodyfile="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" bodystart="86" bodyend="91"/>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d4/def/a00359_1a9bf9f7790ed5433526f4e23a35dac8ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * GetId</definition>
+        <argsstring>(unsigned long nId, IdList *pIdList)</argsstring>
+        <name>GetId</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>nId</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dbf/a02161" kindref="compound">IdList</ref> *</type>
+          <declname>pIdList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" line="110" column="12" bodyfile="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" bodystart="110" bodyend="114"/>
+        <references refid="df/dbf/a02161_1a96559be2ce20118b4ed252f96dbc536c" compoundref="d4/def/a00359" startline="81">IdList::nId</references>
+        <references refid="df/dbf/a02161_1aedcee8b5beecee37d19800569db1dec6" compoundref="d4/def/a00359" startline="82">IdList::szName</references>
+        <referencedby refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" compoundref="d4/def/a00359" startline="124" endline="222">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(int argc, icChar *argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref> *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" line="124" column="5" bodyfile="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" bodystart="124" bodyend="222"/>
+        <references refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" compoundref="d7/d46/a00002" startline="2064">icHeader::biSpectralRange</references>
+        <references refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" compoundref="d4/d3a/a00101" startline="80">CIccProfile</references>
+        <references refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" compoundref="db/ddc/a00353" startline="104" endline="122">CTiffImg::Close</references>
+        <references refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" compoundref="d7/d46/a00002" startline="2048">icHeader::colorSpace</references>
+        <references refid="d4/def/a00359_1af1d7af19c793d114f69368411d2d2e9c" compoundref="d4/def/a00359" startline="101" endline="108">compression_types</references>
+        <references refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" compoundref="d7/d46/a00002" startline="1468">icSpectralRange::end</references>
+        <references refid="db/d26/a02129_1a20639680f1c2d3935295c0eaf277f198" compoundref="db/d10/a00350" startline="103" endline="103">CTiffImg::GetBitsPerSample</references>
+        <references refid="db/d26/a02129_1aa89d15bc35d33c5f74cdd5b4b333297a" compoundref="db/d10/a00350" startline="112" endline="112">CTiffImg::GetBytesPerLine</references>
+        <references refid="dc/d2f/a00425_1aa0a8f4850e598e92b3c8b0e65843bb20" compoundref="d5/db1/a00140" startline="1640" endline="1767">CIccInfo::GetColorSpaceSigName</references>
+        <references refid="db/d26/a02129_1aec83628e5640a6a6fea546d9d43a8d05" compoundref="db/d10/a00350" startline="107" endline="107">CTiffImg::GetCompress</references>
+        <references refid="db/d26/a02129_1a8d3efc73ec83f59cfaea9c5e03687137" compoundref="db/d10/a00350" startline="106" endline="106">CTiffImg::GetExtraSamples</references>
+        <references refid="db/d26/a02129_1a93aff9a530fb494c957c1fb3a05682db" compoundref="db/d10/a00350" startline="100" endline="100">CTiffImg::GetHeight</references>
+        <references refid="db/d26/a02129_1a5b7303a00dcf5356188a9efb84f8126e" compoundref="db/d10/a00350" startline="102" endline="102">CTiffImg::GetHeightIn</references>
+        <references refid="db/d26/a02129_1acbb26ff13f50f3d2ddd757422a9858b4" compoundref="db/ddc/a00353" startline="410" endline="418">CTiffImg::GetIccProfile</references>
+        <references refid="d4/def/a00359_1a9bf9f7790ed5433526f4e23a35dac8ec" compoundref="d4/def/a00359" startline="110" endline="114">GetId</references>
+        <references refid="db/d26/a02129_1a77533f61a8eceef6c6fb6155242e8bde" compoundref="db/ddc/a00353" startline="391" endline="407">CTiffImg::GetPhoto</references>
+        <references refid="db/d26/a02129_1a501d5972938549997de84d9c632ac499" compoundref="db/d10/a00350" startline="108" endline="108">CTiffImg::GetPlanar</references>
+        <references refid="db/d26/a02129_1a8c1ee0a16e8d393d24290965289bdca2" compoundref="db/d10/a00350" startline="105" endline="105">CTiffImg::GetSamples</references>
+        <references refid="dc/d2f/a00425_1a18e5049b3381864771e310baca9b0a0a" compoundref="d5/db1/a00140" startline="1769" endline="1802">CIccInfo::GetSpectralColorSigName</references>
+        <references refid="d0/d28/a00997_1a302835964708130e2c27899cd1228cf0" compoundref="da/dec/a00080" startline="497" endline="497">CIccTagTextDescription::GetText</references>
+        <references refid="dc/d99/a01053_1ae599f33b9bb493026c243658dc2eee7b" compoundref="d9/dd0/a00191" startline="7083" endline="7127">CIccLocalizedUnicode::GetText</references>
+        <references refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" compoundref="da/dec/a00080" startline="131" endline="131">CIccTag::GetType</references>
+        <references refid="db/d26/a02129_1a30cb0eaa739b586c7e32b8051c0bc7c2" compoundref="db/d10/a00350" startline="99" endline="99">CTiffImg::GetWidth</references>
+        <references refid="db/d26/a02129_1a67d5200a3e5473db3b0e5b5604d5e743" compoundref="db/d10/a00350" startline="101" endline="101">CTiffImg::GetWidthIn</references>
+        <references refid="db/d26/a02129_1a6dc830ba9ac0c9e2d1a85bda879131bc" compoundref="db/d10/a00350" startline="109" endline="109">CTiffImg::GetXRes</references>
+        <references refid="db/d26/a02129_1a113ea4ef5fc10e4778a2cb585d704fbe" compoundref="db/d10/a00350" startline="110" endline="110">CTiffImg::GetYRes</references>
+        <references refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" compoundref="d5/db1/a00140" startline="629" endline="671">icF16toF</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6138e5639e8125b850bbb5ac1ff683ce" compoundref="d7/d46/a00002" startline="549">icSigMultiLocalizedUnicodeType</references>
+        <references refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a92a815c1697e8b8a4f91474a8f4a5b6b" compoundref="d7/d46/a00002" startline="452">icSigProfileDescriptionTag</references>
+        <references refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" compoundref="d7/d46/a00002" startline="566">icSigTextDescriptionType</references>
+        <references refid="d2/db8/a01057_1ab7ac67e04b5ffd5e3c798708cacbe14e" compoundref="da/dec/a00080" startline="1260">CIccTagMultiLocalizedUnicode::m_Strings</references>
+        <references refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" compoundref="db/ddc/a00353" startline="228" endline="299">CTiffImg::Open</references>
+        <references refid="d0/dc2/a00104_1a52a86e674c0a7574b7269ac75c2c0069" compoundref="d0/dc2/a00104" startline="3472" endline="3490">OpenIccProfile</references>
+        <references refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" compoundref="d7/d46/a00002" startline="2049">icHeader::pcs</references>
+        <references refid="d4/def/a00359_1aba231175f5d0acefd718050d09857018" compoundref="d4/def/a00359" startline="93" endline="99">photo_types</references>
+        <references refid="d4/def/a00359_1aaec8e4b721dd30aca16855f77153f4c0" compoundref="d4/def/a00359" startline="86" endline="91">planar_types</references>
+        <references refid="d4/dd7/a00793_1a5fb0774621ef2028b8e33376633417fa" compoundref="d7/d46/a00002" startline="2062">icHeader::spectralPCS</references>
+        <references refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" compoundref="d7/d46/a00002" startline="2063">icHeader::spectralRange</references>
+        <references refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" compoundref="d7/d46/a00002" startline="1467">icSpectralRange::start</references>
+        <references refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" compoundref="d7/d46/a00002" startline="1469">icSpectralRange::steps</references>
+        <references refid="d3/d93/a00341_1a5ae07f63d6b390e42068d941038dadf2" compoundref="d3/d93/a00341" startline="185" endline="229">Usage</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/def/a00359_1a5ae07f63d6b390e42068d941038dadf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Usage</definition>
+        <argsstring>()</argsstring>
+        <name>Usage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" line="116" column="6" bodyfile="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp" bodystart="116" bodyend="120"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/>File:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>iccTiffDump.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>Contains:<sp/><sp/><sp/>Console<sp/>app<sp/>display<sp/>info<sp/>about<sp/>Tiff<sp/>file<sp/>and<sp/>its<sp/>ICC<sp/>profile</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>Version:<sp/><sp/><sp/><sp/>V1</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/>Copyright:<sp/><sp/>(c)<sp/>see<sp/>below</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>The<sp/>ICC<sp/>Software<sp/>License,<sp/>Version<sp/>0.2</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2003-2010<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/>All<sp/>rights<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>reserved.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>1.<sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>2.<sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>distribution.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>3.<sp/>In<sp/>the<sp/>absence<sp/>of<sp/>prior<sp/>written<sp/>permission,<sp/>the<sp/>names<sp/>&quot;ICC&quot;<sp/>and<sp/>&quot;The</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>International<sp/>Color<sp/>Consortium&quot;<sp/>must<sp/>not<sp/>be<sp/>used<sp/>to<sp/>imply<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>ICC<sp/>organization<sp/>endorses<sp/>or<sp/>promotes<sp/>products<sp/>derived<sp/>from<sp/>this</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>software.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>``AS<sp/>IS&apos;&apos;<sp/>AND<sp/>ANY<sp/>EXPRESSED<sp/>OR<sp/>IMPLIED</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>DISCLAIMED.<sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>INTERNATIONAL<sp/>COLOR<sp/>CONSORTIUM<sp/>OR</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>ITS<sp/>CONTRIBUTING<sp/>MEMBERS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>====================================================================</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>This<sp/>software<sp/>consists<sp/>of<sp/>voluntary<sp/>contributions<sp/>made<sp/>by<sp/>many</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>individuals<sp/>on<sp/>behalf<sp/>of<sp/>the<sp/>The<sp/>International<sp/>Color<sp/>Consortium.<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*<sp/>Membership<sp/>in<sp/>the<sp/>ICC<sp/>is<sp/>encouraged<sp/>when<sp/>this<sp/>software<sp/>is<sp/>used<sp/>for</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/>*<sp/>commercial<sp/>purposes.<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>For<sp/>more<sp/>information<sp/>on<sp/>The<sp/>International<sp/>Color<sp/>Consortium,<sp/>please</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>see<sp/>&lt;http://www.color.org/&gt;.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">//<sp/>HISTORY:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Initial<sp/>implementation<sp/>by<sp/>Max<sp/>Derhak<sp/>5-15-2003</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-Fix<sp/>Saving<sp/>to<sp/>Icc<sp/>Profile<sp/>by<sp/>David<sp/>Hoyt<sp/>16-APR-2025</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d6/d5b/a00026" kindref="compound">IccCmm.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d7/dce/a00143" kindref="compound">IccUtil.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/d81/a00110" kindref="compound">IccDefs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dd/dad/a00005" kindref="compound">IccProfLibVer.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/dee/a00008" kindref="compound">IccApplyBPC.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="db/d10/a00350" kindref="compound">TiffImg.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="df/dbf/a02161" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="81" refid="df/dbf/a02161_1a96559be2ce20118b4ed252f96dbc536c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="df/dbf/a02161_1a96559be2ce20118b4ed252f96dbc536c" kindref="member">nId</ref>;</highlight></codeline>
+<codeline lineno="82" refid="df/dbf/a02161_1aedcee8b5beecee37d19800569db1dec6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="df/dbf/a02161_1aedcee8b5beecee37d19800569db1dec6" kindref="member">szName</ref>;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}<sp/><ref refid="df/dbf/a02161" kindref="compound">IdList</ref>;</highlight></codeline>
+<codeline lineno="84" refid="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNKNOWNID<sp/>0xffffffff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="d4/def/a00359_1aaec8e4b721dd30aca16855f77153f4c0" refkind="member"><highlight class="normal"><ref refid="df/dbf/a02161" kindref="compound">IdList</ref><sp/><ref refid="d4/def/a00359_1aaec8e4b721dd30aca16855f77153f4c0" kindref="member">planar_types</ref>[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>{0,<sp/><sp/></highlight><highlight class="stringliteral">&quot;Interleaved<sp/>samples&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>{PLANARCONFIG_CONTIG,<sp/><sp/></highlight><highlight class="stringliteral">&quot;Interleaved<sp/>samples&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>{PLANARCONFIG_SEPARATE,<sp/></highlight><highlight class="stringliteral">&quot;Samples<sp/>in<sp/>separate<sp/>planes&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>{<ref refid="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" kindref="member">UNKNOWNID</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Unknown&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="d4/def/a00359_1aba231175f5d0acefd718050d09857018" refkind="member"><highlight class="normal"><ref refid="df/dbf/a02161" kindref="compound">IdList</ref><sp/><ref refid="d4/def/a00359_1aba231175f5d0acefd718050d09857018" kindref="member">photo_types</ref>[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>{<ref refid="db/d10/a00350_1afde13a7eabb130990ad0269cd86b77d8" kindref="member">PHOTO_MINISWHITE</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Min<sp/>Is<sp/>White&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>{<ref refid="db/d10/a00350_1a3ac452a1abf537c67bbaa2ee089502c2" kindref="member">PHOTO_MINISBLACK</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Min<sp/>Is<sp/>Black&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>{<ref refid="db/d10/a00350_1a175838d243f822b08053d3c940da67bb" kindref="member">PHOTO_CIELAB</ref>,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;CIELab&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>{<ref refid="db/d10/a00350_1ab98bd4a728d3404332eeedab6075e5e8" kindref="member">PHOTO_ICCLAB</ref>,<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;IccLab&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>{<ref refid="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" kindref="member">UNKNOWNID</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Unknown&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="d4/def/a00359_1af1d7af19c793d114f69368411d2d2e9c" refkind="member"><highlight class="normal"><ref refid="df/dbf/a02161" kindref="compound">IdList</ref><sp/><ref refid="d4/def/a00359_1af1d7af19c793d114f69368411d2d2e9c" kindref="member">compression_types</ref>[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>{COMPRESSION_NONE,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;None&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>{COMPRESSION_LZW,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;LZW&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>{COMPRESSION_JPEG,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;JPEG&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>{COMPRESSION_DEFLATE,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Deflate&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>{COMPRESSION_ADOBE_DEFLATE,</highlight><highlight class="stringliteral">&quot;Deflate&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>{<ref refid="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" kindref="member">UNKNOWNID</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Unknown&quot;</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="d4/def/a00359_1a9bf9f7790ed5433526f4e23a35dac8ec" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="d4/def/a00359_1a9bf9f7790ed5433526f4e23a35dac8ec" kindref="member">GetId</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>nId,<sp/><ref refid="df/dbf/a02161" kindref="compound">IdList</ref>*<sp/>pIdList)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(;pIdList-&gt;<ref refid="df/dbf/a02161_1a96559be2ce20118b4ed252f96dbc536c" kindref="member">nId</ref><sp/>!=<sp/>nId<sp/>&amp;&amp;<sp/>pIdList-&gt;<ref refid="df/dbf/a02161_1a96559be2ce20118b4ed252f96dbc536c" kindref="member">nId</ref><sp/>!=<sp/><ref refid="d4/def/a00359_1adb0248587d77896429e2e221a07e2e8f" kindref="member">UNKNOWNID</ref>;<sp/>pIdList++);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pIdList-&gt;<ref refid="df/dbf/a02161_1aedcee8b5beecee37d19800569db1dec6" kindref="member">szName</ref>;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="d4/def/a00359_1a5ae07f63d6b390e42068d941038dadf2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/def/a00359_1a5ae07f63d6b390e42068d941038dadf2" kindref="member">Usage</ref>()<sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;iccTiffDump<sp/>built<sp/>with<sp/>IccProfLib<sp/>version<sp/>&quot;</highlight><highlight class="normal"><sp/><ref refid="dd/dad/a00005_1add1e4665c853f45a0eae98494be22e62" kindref="member">ICCPROFLIBVER</ref><sp/></highlight><highlight class="stringliteral">&quot;\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Usage:<sp/>iccTiffDump<sp/>tiff_file<sp/>{exported_icc_file}\n\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="comment">//===================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d4/def/a00359_1a28200b999bf1d10f61edb3763ec741e3" kindref="member">main</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/><ref refid="d4/d81/a00110_1a706623de1338f49b9c9cf7bed2eab0f2" kindref="member">icChar</ref>*<sp/>argv[])</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minargs<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(argc<sp/>&lt;=<sp/>minargs)<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/def/a00359_1a5ae07f63d6b390e42068d941038dadf2" kindref="member">Usage</ref>();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><ref refid="db/d26/a02129" kindref="compound">CTiffImg</ref><sp/>SrcImg;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!SrcImg.<ref refid="db/d26/a02129_1a12a0ac684a02a90c90309cf1d71ddf19" kindref="member">Open</ref>(argv[1]))<sp/>{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nFile<sp/>[%s]<sp/>cannot<sp/>be<sp/>opened.\n&quot;</highlight><highlight class="normal">,<sp/>argv[1]);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;--------------------&gt;Tiff<sp/>Image<sp/>Dump&lt;---------------------------\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Filename:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>argv[1]);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Size:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(%d<sp/>x<sp/>%d)<sp/>pixels,<sp/>(%.2lf\&quot;<sp/>x<sp/>%.2lf\&quot;)\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>SrcImg.<ref refid="db/d26/a02129_1a30cb0eaa739b586c7e32b8051c0bc7c2" kindref="member">GetWidth</ref>(),<sp/>SrcImg.<ref refid="db/d26/a02129_1a93aff9a530fb494c957c1fb3a05682db" kindref="member">GetHeight</ref>(),</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>SrcImg.<ref refid="db/d26/a02129_1a67d5200a3e5473db3b0e5b5604d5e743" kindref="member">GetWidthIn</ref>(),<sp/>SrcImg.<ref refid="db/d26/a02129_1a5b7303a00dcf5356188a9efb84f8126e" kindref="member">GetHeightIn</ref>());</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Planar:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="d4/def/a00359_1a9bf9f7790ed5433526f4e23a35dac8ec" kindref="member">GetId</ref>(SrcImg.<ref refid="db/d26/a02129_1a501d5972938549997de84d9c632ac499" kindref="member">GetPlanar</ref>(),<sp/><ref refid="d4/def/a00359_1aaec8e4b721dd30aca16855f77153f4c0" kindref="member">planar_types</ref>));</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;BitsPerSample:<sp/><sp/><sp/><sp/><sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>SrcImg.<ref refid="db/d26/a02129_1a20639680f1c2d3935295c0eaf277f198" kindref="member">GetBitsPerSample</ref>());</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;SamplesPerPixel:<sp/><sp/><sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>SrcImg.<ref refid="db/d26/a02129_1a8c1ee0a16e8d393d24290965289bdca2" kindref="member">GetSamples</ref>());</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nExtra<sp/>=<sp/>SrcImg.<ref refid="db/d26/a02129_1a8d3efc73ec83f59cfaea9c5e03687137" kindref="member">GetExtraSamples</ref>();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(nExtra)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ExtraSamples:<sp/><sp/><sp/><sp/><sp/><sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>nExtra);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Photometric:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="d4/def/a00359_1a9bf9f7790ed5433526f4e23a35dac8ec" kindref="member">GetId</ref>(SrcImg.<ref refid="db/d26/a02129_1a77533f61a8eceef6c6fb6155242e8bde" kindref="member">GetPhoto</ref>(),<sp/><ref refid="d4/def/a00359_1aba231175f5d0acefd718050d09857018" kindref="member">photo_types</ref>));</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;BytesPerLine:<sp/><sp/><sp/><sp/><sp/><sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>SrcImg.<ref refid="db/d26/a02129_1aa89d15bc35d33c5f74cdd5b4b333297a" kindref="member">GetBytesPerLine</ref>());</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Resolution:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(%lf<sp/>x<sp/>%lf)<sp/>pixels<sp/>per/inch\n&quot;</highlight><highlight class="normal">,<sp/>SrcImg.<ref refid="db/d26/a02129_1a6dc830ba9ac0c9e2d1a85bda879131bc" kindref="member">GetXRes</ref>(),<sp/>SrcImg.<ref refid="db/d26/a02129_1a113ea4ef5fc10e4778a2cb585d704fbe" kindref="member">GetYRes</ref>());</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Compression:<sp/><sp/><sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="d4/def/a00359_1a9bf9f7790ed5433526f4e23a35dac8ec" kindref="member">GetId</ref>(SrcImg.<ref refid="db/d26/a02129_1aec83628e5640a6a6fea546d9d43a8d05" kindref="member">GetCompress</ref>(),<sp/><ref refid="d4/def/a00359_1af1d7af19c793d114f69368411d2d2e9c" kindref="member">compression_types</ref>));</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pProfMem<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nLen<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(SrcImg.<ref refid="db/d26/a02129_1acbb26ff13f50f3d2ddd757422a9858b4" kindref="member">GetIccProfile</ref>(pProfMem,<sp/>nLen))<sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Profile:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Embedded\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Optional<sp/>profile<sp/>export</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(argc<sp/>&gt;<sp/>2<sp/>&amp;&amp;<sp/>pProfMem<sp/>&amp;&amp;<sp/>nLen<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>FILE<sp/>*fp<sp/>=<sp/>fopen(argv[2],<sp/></highlight><highlight class="stringliteral">&quot;wb&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fp)<sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fwrite(pProfMem,<sp/>1,<sp/>nLen,<sp/>fp);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fclose(fp);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;ICC<sp/>profile<sp/>saved<sp/>to:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>argv[2]);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fprintf(stderr,<sp/></highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>write<sp/>ICC<sp/>profile<sp/>to<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>argv[2]);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Profile<sp/>description<sp/>and<sp/>metadata</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d3a/a00101_1a14e10b61df6e9ec7c90c5d3bc38c78d9" kindref="member">CIccProfile</ref><sp/>*pProfile<sp/>=<sp/><ref refid="d0/dc2/a00104_1a97134bdd4b4bf5e8a43ef018bba0917e" kindref="member">OpenIccProfile</ref>(pProfMem,<sp/>nLen);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pProfile)<sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/a00793" kindref="compound">icHeader</ref><sp/>*pHdr<sp/>=<sp/>&amp;pProfile-&gt;m_Header;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dc/d2f/a00425" kindref="compound">CIccInfo</ref><sp/>Fmt;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pHdr-&gt;<ref refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" kindref="member">colorSpace</ref>)</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>Color<sp/>Space:<sp/><sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>Fmt.<ref refid="dc/d2f/a00425_1aa0a8f4850e598e92b3c8b0e65843bb20" kindref="member">GetColorSpaceSigName</ref>(pHdr-&gt;<ref refid="d4/dd7/a00793_1a14e131b497989c1876e397c5ff0c5ad6" kindref="member">colorSpace</ref>));</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pHdr-&gt;<ref refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" kindref="member">pcs</ref>)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>Colorimetric<sp/>PCS:<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>Fmt.<ref refid="dc/d2f/a00425_1aa0a8f4850e598e92b3c8b0e65843bb20" kindref="member">GetColorSpaceSigName</ref>(pHdr-&gt;<ref refid="d4/dd7/a00793_1afc7d91a6461857bba027696d4a8e5867" kindref="member">pcs</ref>));</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pHdr-&gt;<ref refid="d4/dd7/a00793_1a5fb0774621ef2028b8e33376633417fa" kindref="member">spectralPCS</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>Spectral<sp/>PCS:<sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>Fmt.<ref refid="dc/d2f/a00425_1a18e5049b3381864771e310baca9b0a0a" kindref="member">GetSpectralColorSigName</ref>(pHdr-&gt;<ref refid="d4/dd7/a00793_1a5fb0774621ef2028b8e33376633417fa" kindref="member">spectralPCS</ref>));</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pHdr-&gt;<ref refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" kindref="member">spectralRange</ref>.<ref refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" kindref="member">start</ref><sp/>||<sp/>pHdr-&gt;<ref refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" kindref="member">spectralRange</ref>.<ref refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" kindref="member">end</ref><sp/>||<sp/>pHdr-&gt;<ref refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" kindref="member">spectralRange</ref>.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>Spectral<sp/>Range:<sp/><sp/><sp/>start=%.1fnm,<sp/>end=%.1fnm,<sp/>steps=%d\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" kindref="member">icF16toF</ref>(pHdr-&gt;<ref refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" kindref="member">spectralRange</ref>.<ref refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" kindref="member">start</ref>),</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" kindref="member">icF16toF</ref>(pHdr-&gt;<ref refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" kindref="member">spectralRange</ref>.<ref refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" kindref="member">end</ref>),</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pHdr-&gt;<ref refid="d4/dd7/a00793_1a08d267e380baf10c288818a2387bd38e" kindref="member">spectralRange</ref>.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pHdr-&gt;<ref refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" kindref="member">biSpectralRange</ref>.<ref refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" kindref="member">start</ref><sp/>||<sp/>pHdr-&gt;<ref refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" kindref="member">biSpectralRange</ref>.<ref refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" kindref="member">end</ref><sp/>||<sp/>pHdr-&gt;<ref refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" kindref="member">biSpectralRange</ref>.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>BiSpectral<sp/>Range:<sp/>start=%.1fnm,<sp/>end=%.1fnm,<sp/>steps=%d\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" kindref="member">icF16toF</ref>(pHdr-&gt;<ref refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" kindref="member">biSpectralRange</ref>.<ref refid="dd/d72/a00541_1a65d0544793f49b86857f2d54f9897446" kindref="member">start</ref>),</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dce/a00143_1af29908d138da11b5eb2b6174fb9020e2" kindref="member">icF16toF</ref>(pHdr-&gt;<ref refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" kindref="member">biSpectralRange</ref>.<ref refid="dd/d72/a00541_1a81f6d2d938687df976c13f1f3c8d4b09" kindref="member">end</ref>),</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pHdr-&gt;<ref refid="d4/dd7/a00793_1ae17d18497f13e67897d28e3c5a96a370" kindref="member">biSpectralRange</ref>.<ref refid="dd/d72/a00541_1a3cf7d4cc4e63f81e4480198a14bc4fd4" kindref="member">steps</ref>);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref><sp/>*pDesc<sp/>=<sp/>pProfile-&gt;FindTag(<ref refid="d7/d46/a00002_1ac82636cc27ba918bd737e94a62715af5a92a815c1697e8b8a4f91474a8f4a5b6b" kindref="member">icSigProfileDescriptionTag</ref>);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pDesc)<sp/>{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pDesc-&gt;<ref refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" kindref="member">GetType</ref>()<sp/>==<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea84b2e692b68a25e23d02e3f817ba50dd" kindref="member">icSigTextDescriptionType</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d28/a00997" kindref="compound">CIccTagTextDescription</ref><sp/>*pText<sp/>=<sp/>(<ref refid="d0/d28/a00997" kindref="compound">CIccTagTextDescription</ref>*)pDesc;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>Description:<sp/><sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>pText-&gt;<ref refid="d0/d28/a00997_1a302835964708130e2c27899cd1228cf0" kindref="member">GetText</ref>());</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pDesc-&gt;<ref refid="d7/dfd/a00969_1a0d6f4b6f857134bd87bfb0cd54025208" kindref="member">GetType</ref>()<sp/>==<sp/><ref refid="d7/d46/a00002_1a7ac6c9395974f6a0dc5025b7c7417ddea6138e5639e8125b850bbb5ac1ff683ce" kindref="member">icSigMultiLocalizedUnicodeType</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref><sp/>*pStrs<sp/>=<sp/>(<ref refid="d2/db8/a01057" kindref="compound">CIccTagMultiLocalizedUnicode</ref>*)pDesc;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(pStrs-&gt;<ref refid="d2/db8/a01057_1ab7ac67e04b5ffd5e3c798708cacbe14e" kindref="member">m_Strings</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CIccMultiLocalizedUnicode::iterator<sp/>text<sp/>=<sp/>pStrs-&gt;<ref refid="d2/db8/a01057_1ab7ac67e04b5ffd5e3c798708cacbe14e" kindref="member">m_Strings</ref>-&gt;begin();</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(text<sp/>!=<sp/>pStrs-&gt;<ref refid="d2/db8/a01057_1ab7ac67e04b5ffd5e3c798708cacbe14e" kindref="member">m_Strings</ref>-&gt;end())<sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>line;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text-&gt;GetText(line);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>Description:<sp/><sp/><sp/><sp/><sp/><sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>line.c_str());</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Profile:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>None\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/>SrcImg.<ref refid="db/d26/a02129_1a167188093c35120a4a4df438b4a083ce" kindref="member">Close</ref>();</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Tools/CmdLine/IccTiffDump/iccTiffDump.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dd/d7e/a00809" kind="class" language="C++" prot="public">
+    <compoundname>CIccXformCreator</compoundname>
+    <includes refid="df/d98/a00107" local="no">IccXformFactory.h</includes>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/d7e/a00809_1a76dbd784e71cc86e95276f10b8e2a58c" prot="private" static="yes" mutable="no">
+        <type><ref refid="df/d98/a00107_1a40bb60ad3aa852f5de718e06d4348b5a" kindref="member">CIccXformCreatorPtr</ref></type>
+        <definition>std::unique_ptr&lt; CIccXformCreator &gt; CIccXformCreator::theXformCreator</definition>
+        <argsstring></argsstring>
+        <name>theXformCreator</name>
+        <qualifiedname>CIccXformCreator::theXformCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="239" column="30" bodyfile="IccProfLib/IccXformFactory.h" bodystart="239" bodyend="-1"/>
+        <referencedby refid="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" compoundref="d4/d8c/a00035" startline="130" endline="139">GetInstance</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/d7e/a00809_1a9e12a4d38fc56ae701e428ec83b3b5ab" prot="private" static="no" mutable="no">
+        <type><ref refid="df/d98/a00107_1ad0ac7fab37f3a2371d1a3610665475f3" kindref="member">CIccXformFactoryList</ref></type>
+        <definition>CIccXformFactoryList CIccXformCreator::factoryStack</definition>
+        <argsstring></argsstring>
+        <name>factoryStack</name>
+        <qualifiedname>CIccXformCreator::factoryStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="241" column="24" bodyfile="IccProfLib/IccXformFactory.h" bodystart="241" bodyend="-1"/>
+        <referencedby refid="dd/d7e/a00809_1a6945c1c1d014c79213966ff6a4049b05" compoundref="d4/d8c/a00035" startline="141" endline="152">DoCreateXform</referencedby>
+        <referencedby refid="dd/d7e/a00809_1ab9c2a84d198064f7588bb76f8cdf9508" compoundref="d4/d8c/a00035" startline="159" endline="170">DoPopFactory</referencedby>
+        <referencedby refid="dd/d7e/a00809_1aef1defcb8daef46763ea7376f2c99b3d" compoundref="d4/d8c/a00035" startline="154" endline="157">DoPushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d7e/a00809_1a6ffd0b49c41f6215c14747cca7daf4c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CIccXformCreator::~CIccXformCreator</definition>
+        <argsstring>()</argsstring>
+        <name>~CIccXformCreator</name>
+        <qualifiedname>CIccXformCreator::~CIccXformCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="170" column="3" bodyfile="IccProfLib/IccXformFactory.cpp" bodystart="120" bodyend="128"/>
+        <references refid="dd/d7e/a00809_1ab9c2a84d198064f7588bb76f8cdf9508" compoundref="d4/d8c/a00035" startline="159" endline="170">DoPopFactory</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/d7e/a00809_1a194b94632e3d77385001a1596380d884" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CIccXform *</type>
+        <definition>static CIccXform * CIccXformCreator::CreateXform</definition>
+        <argsstring>(icXformType xformType, CIccTag *pTag=NULL, CIccCreateXformHintManager *pHintManager=NULL)</argsstring>
+        <name>CreateXform</name>
+        <qualifiedname>CIccXformCreator::CreateXform</qualifiedname>
+        <param>
+          <type><ref refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180f" kindref="member">icXformType</ref></type>
+          <declname>xformType</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+          <declname>pTag</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>CIccCreateXformHintManager *</type>
+          <declname>pHintManager</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: CreateXform(xformTypeSig) Create a xform of type xformTypeSig.</para>
+<para>Parameter(s): xformType = signature of the ICC xform type for the xform to be created pTag = tag information for created xform pHintManager = contains additional information used to create xform</para>
+<para>Returns a new CIccXform object of the given xform type. Each factory in the factoryStack is used until a factory supports the signature type. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="185" column="20" bodyfile="IccProfLib/IccXformFactory.h" bodystart="185" bodyend="186"/>
+        <references refid="dd/d7e/a00809_1a6945c1c1d014c79213966ff6a4049b05" compoundref="d4/d8c/a00035" startline="141" endline="152">DoCreateXform</references>
+        <references refid="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" compoundref="d4/d8c/a00035" startline="130" endline="139">GetInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d7e/a00809_1abafc639e6cd5ed2e89c64898ed056684" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> *</type>
+        <definition>static IIccXformFactory * CIccXformCreator::PopFactory</definition>
+        <argsstring>()</argsstring>
+        <name>PopFactory</name>
+        <qualifiedname>CIccXformCreator::PopFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="dd/d7e/a00809_1abafc639e6cd5ed2e89c64898ed056684" kindref="member">PopFactory()</ref> Remove the top <ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> from the stack of xform factories tracked by the system.</para>
+<para>Parameter(s): None</para>
+<para>Returns the top <ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> from the stack of xform factories tracked by the system. The returned xform factory is no longer owned by the system and needs to be deleted to avoid memory leaks.</para>
+<para>Note: The initial CIccSpecXformFactory cannot be popped off the stack. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="215" column="27" bodyfile="IccProfLib/IccXformFactory.h" bodystart="215" bodyend="216"/>
+        <references refid="dd/d7e/a00809_1ab9c2a84d198064f7588bb76f8cdf9508" compoundref="d4/d8c/a00035" startline="159" endline="170">DoPopFactory</references>
+        <references refid="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" compoundref="d4/d8c/a00035" startline="130" endline="139">GetInstance</references>
+      </memberdef>
+      <memberdef kind="function" id="dd/d7e/a00809_1a03b36d159e3c0d4cf4f3179e01bbb742" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void CIccXformCreator::PushFactory</definition>
+        <argsstring>(IIccXformFactory *pFactory)</argsstring>
+        <name>PushFactory</name>
+        <qualifiedname>CIccXformCreator::PushFactory</qualifiedname>
+        <param>
+          <type><ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> *</type>
+          <declname>pFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: PushFactory(pFactory) Add an <ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> to the stack of xform factories tracked by the system.</para>
+<para>Parameter(s): pFactory = pointer to an <ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> object to add to the system. The pFactory must be created with new, and will be owned <ref refid="dd/d7e/a00809" kindref="compound">CIccXformCreator</ref> until popped off the stack using <ref refid="dd/d7e/a00809_1abafc639e6cd5ed2e89c64898ed056684" kindref="member">PopFactory()</ref>. Any factories not popped off will be taken care of properly on application shutdown. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="199" column="15" bodyfile="IccProfLib/IccXformFactory.h" bodystart="199" bodyend="200"/>
+        <references refid="dd/d7e/a00809_1aef1defcb8daef46763ea7376f2c99b3d" compoundref="d4/d8c/a00035" startline="154" endline="157">DoPushFactory</references>
+        <references refid="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" compoundref="d4/d8c/a00035" startline="130" endline="139">GetInstance</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="dd/d7e/a00809_1a958deb2e764c1ca1f6e6e6567c080c57" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CIccXformCreator::CIccXformCreator</definition>
+        <argsstring>()</argsstring>
+        <name>CIccXformCreator</name>
+        <qualifiedname>CIccXformCreator::CIccXformCreator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only <ref refid="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" kindref="member">GetInstance()</ref> can create the signleton </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="220" column="3" bodyfile="IccProfLib/IccXformFactory.h" bodystart="220" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d7e/a00809_1a6945c1c1d014c79213966ff6a4049b05" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CIccXform *</type>
+        <definition>CIccXform * CIccXformCreator::DoCreateXform</definition>
+        <argsstring>(icXformType xformType, CIccTag *pTag=NULL, CIccCreateXformHintManager *pHintManager=NULL)</argsstring>
+        <name>DoCreateXform</name>
+        <qualifiedname>CIccXformCreator::DoCreateXform</qualifiedname>
+        <param>
+          <type><ref refid="d6/d5b/a00026_1ae7ce272997e0752433886bd1019e180f" kindref="member">icXformType</ref></type>
+          <declname>xformType</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/dfd/a00969" kindref="compound">CIccTag</ref> *</type>
+          <declname>pTag</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>CIccCreateXformHintManager *</type>
+          <declname>pHintManager</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="235" column="13" bodyfile="IccProfLib/IccXformFactory.cpp" bodystart="141" bodyend="152"/>
+        <references refid="d7/d0a/a00801_1a2b95b3c0df7fd1c94c93fe8ea6bc6d80">IIccXformFactory::CreateXform</references>
+        <references refid="dd/d7e/a00809_1a9e12a4d38fc56ae701e428ec83b3b5ab" compoundref="df/d98/a00107" startline="241">factoryStack</references>
+        <referencedby refid="dd/d7e/a00809_1a194b94632e3d77385001a1596380d884" compoundref="df/d98/a00107" startline="185" endline="186">CreateXform</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d7e/a00809_1ab9c2a84d198064f7588bb76f8cdf9508" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> *</type>
+        <definition>IIccXformFactory * CIccXformCreator::DoPopFactory</definition>
+        <argsstring>(bool bAll=false)</argsstring>
+        <name>DoPopFactory</name>
+        <qualifiedname>CIccXformCreator::DoPopFactory</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>bAll</declname>
+          <defval><ref refid="d5/ddf/a00224_1a65e9886d74aaee76545e83dd09011727" kindref="member">false</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="237" column="20" bodyfile="IccProfLib/IccXformFactory.cpp" bodystart="159" bodyend="170"/>
+        <references refid="dd/d7e/a00809_1a9e12a4d38fc56ae701e428ec83b3b5ab" compoundref="df/d98/a00107" startline="241">factoryStack</references>
+        <referencedby refid="dd/d7e/a00809_1a6ffd0b49c41f6215c14747cca7daf4c3" compoundref="d4/d8c/a00035" startline="120" endline="128">~CIccXformCreator</referencedby>
+        <referencedby refid="dd/d7e/a00809_1abafc639e6cd5ed2e89c64898ed056684" compoundref="df/d98/a00107" startline="215" endline="216">PopFactory</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="dd/d7e/a00809_1aef1defcb8daef46763ea7376f2c99b3d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CIccXformCreator::DoPushFactory</definition>
+        <argsstring>(IIccXformFactory *pFactory)</argsstring>
+        <name>DoPushFactory</name>
+        <qualifiedname>CIccXformCreator::DoPushFactory</qualifiedname>
+        <param>
+          <type><ref refid="d7/d0a/a00801" kindref="compound">IIccXformFactory</ref> *</type>
+          <declname>pFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="236" column="8" bodyfile="IccProfLib/IccXformFactory.cpp" bodystart="154" bodyend="157"/>
+        <references refid="dd/d7e/a00809_1a9e12a4d38fc56ae701e428ec83b3b5ab" compoundref="df/d98/a00107" startline="241">factoryStack</references>
+        <referencedby refid="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" compoundref="d4/d8c/a00035" startline="130" endline="139">GetInstance</referencedby>
+        <referencedby refid="dd/d7e/a00809_1a03b36d159e3c0d4cf4f3179e01bbb742" compoundref="df/d98/a00107" startline="199" endline="200">PushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d7e/a00809" kindref="compound">CIccXformCreator</ref> *</type>
+        <definition>CIccXformCreator * CIccXformCreator::GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <qualifiedname>CIccXformCreator::GetInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function: <ref refid="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" kindref="member">GetInstance()</ref> Private static function to access singleton CiccXformCreator Object.</para>
+<para>Parameter(s): None</para>
+<para>Returns the singleton <ref refid="dd/d7e/a00809" kindref="compound">CIccXformCreator</ref> object. It will allocate a new one and push a single CIccSpecXform Factory object onto the factory stack if the singleton has not been intialized. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/IccXformFactory.h" line="233" column="27" bodyfile="IccProfLib/IccXformFactory.cpp" bodystart="130" bodyend="139"/>
+        <references refid="dd/d7e/a00809_1aef1defcb8daef46763ea7376f2c99b3d" compoundref="d4/d8c/a00035" startline="154" endline="157">DoPushFactory</references>
+        <references refid="dd/d7e/a00809_1a76dbd784e71cc86e95276f10b8e2a58c" compoundref="df/d98/a00107" startline="239">theXformCreator</references>
+        <referencedby refid="dd/d7e/a00809_1a194b94632e3d77385001a1596380d884" compoundref="df/d98/a00107" startline="185" endline="186">CreateXform</referencedby>
+        <referencedby refid="dd/d7e/a00809_1abafc639e6cd5ed2e89c64898ed056684" compoundref="df/d98/a00107" startline="215" endline="216">PopFactory</referencedby>
+        <referencedby refid="dd/d7e/a00809_1a03b36d159e3c0d4cf4f3179e01bbb742" compoundref="df/d98/a00107" startline="199" endline="200">PushFactory</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class: <ref refid="dd/d7e/a00809" kindref="compound">CIccXformCreator</ref></para>
+<para>Purpose: <ref refid="dd/d7e/a00809" kindref="compound">CIccXformCreator</ref> uses a singleton pattern to provide dynamically upgradeable CIccXform derived object creation based on xform type. </para>
+    </detaileddescription>
+    <location file="IccProfLib/IccXformFactory.h" line="167" column="1" bodyfile="IccProfLib/IccXformFactory.h" bodystart="168" bodyend="242"/>
+    <listofallmembers>
+      <member refid="dd/d7e/a00809_1a958deb2e764c1ca1f6e6e6567c080c57" prot="private" virt="non-virtual"><scope>CIccXformCreator</scope><name>CIccXformCreator</name></member>
+      <member refid="dd/d7e/a00809_1a194b94632e3d77385001a1596380d884" prot="public" virt="non-virtual"><scope>CIccXformCreator</scope><name>CreateXform</name></member>
+      <member refid="dd/d7e/a00809_1a6945c1c1d014c79213966ff6a4049b05" prot="private" virt="non-virtual"><scope>CIccXformCreator</scope><name>DoCreateXform</name></member>
+      <member refid="dd/d7e/a00809_1ab9c2a84d198064f7588bb76f8cdf9508" prot="private" virt="non-virtual"><scope>CIccXformCreator</scope><name>DoPopFactory</name></member>
+      <member refid="dd/d7e/a00809_1aef1defcb8daef46763ea7376f2c99b3d" prot="private" virt="non-virtual"><scope>CIccXformCreator</scope><name>DoPushFactory</name></member>
+      <member refid="dd/d7e/a00809_1a9e12a4d38fc56ae701e428ec83b3b5ab" prot="private" virt="non-virtual"><scope>CIccXformCreator</scope><name>factoryStack</name></member>
+      <member refid="dd/d7e/a00809_1acac241fa1b9a41f0f5b51d3e4b5c5790" prot="private" virt="non-virtual"><scope>CIccXformCreator</scope><name>GetInstance</name></member>
+      <member refid="dd/d7e/a00809_1abafc639e6cd5ed2e89c64898ed056684" prot="public" virt="non-virtual"><scope>CIccXformCreator</scope><name>PopFactory</name></member>
+      <member refid="dd/d7e/a00809_1a03b36d159e3c0d4cf4f3179e01bbb742" prot="public" virt="non-virtual"><scope>CIccXformCreator</scope><name>PushFactory</name></member>
+      <member refid="dd/d7e/a00809_1a76dbd784e71cc86e95276f10b8e2a58c" prot="private" virt="non-virtual"><scope>CIccXformCreator</scope><name>theXformCreator</name></member>
+      <member refid="dd/d7e/a00809_1a6ffd0b49c41f6215c14747cca7daf4c3" prot="public" virt="non-virtual"><scope>CIccXformCreator</scope><name>~CIccXformCreator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

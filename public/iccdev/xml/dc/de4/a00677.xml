@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dc/de4/a00677" kind="struct" language="C++" prot="public">
+    <compoundname>icLut16Type</compoundname>
+    <includes refid="d7/d46/a00002" local="no">icProfileHeader.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/de4/a00677_1a5e67279c9f240b48575683940893e874" prot="public" static="no" mutable="no">
+        <type><ref refid="de/ddd/a00653" kindref="compound">icTagBase</ref></type>
+        <definition>icTagBase icLut16Type::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <qualifiedname>icLut16Type::base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1844" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/de4/a00677_1a0d1466dfc964dd189c4cdb56e3a12565" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/d9e/a00569" kindref="compound">icLut16</ref></type>
+        <definition>icLut16 icLut16Type::lut</definition>
+        <argsstring></argsstring>
+        <name>lut</name>
+        <qualifiedname>icLut16Type::lut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IccProfLib/icProfileHeader.h" line="1845" column="25" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1845" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>lut16Type </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>icLut16</label>
+        <link refid="d4/d9e/a00569"/>
+      </node>
+      <node id="1">
+        <label>icLut16Type</label>
+        <link refid="dc/de4/a00677"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>base</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>lut</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>icTagBase</label>
+        <link refid="de/ddd/a00653"/>
+      </node>
+    </collaborationgraph>
+    <location file="IccProfLib/icProfileHeader.h" line="1843" column="1" bodyfile="IccProfLib/icProfileHeader.h" bodystart="1843" bodyend="1846"/>
+    <listofallmembers>
+      <member refid="dc/de4/a00677_1a5e67279c9f240b48575683940893e874" prot="public" virt="non-virtual"><scope>icLut16Type</scope><name>base</name></member>
+      <member refid="dc/de4/a00677_1a0d1466dfc964dd189c4cdb56e3a12565" prot="public" virt="non-virtual"><scope>icLut16Type</scope><name>lut</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
