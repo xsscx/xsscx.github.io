@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="iccdev.js — ICCMAX Color Management in WebAssembly for browsers and Node.js" />
+  <title>iccdev.js — ICCMAX in WebAssembly</title>
+
+  <!-- Favicon and Manifest -->
+  <link rel="icon" href="iccdev-v231-release-wasm.png" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Syntax Highlighting for code examples -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+  <style>
+    html, body {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      font-family: "Inter", sans-serif;
+      scroll-behavior: smooth;
+    }
+    header.icc-header {
+      background-color: #ffffff;
+      color: #000000;
+      text-align: center;
+      padding: 20px 10px;
+      border-bottom: 4px solid #1d4ed8;
+    }
+    nav.icc-nav {
+      background-color: #1e293b;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav.icc-nav a {
+      color: #cbd5e1;
+      margin: 0 15px;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    nav.icc-nav a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+    .tool-card:hover {
+      transform: translateY(-4px);
+      transition: all 0.2s ease-in-out;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+  <!-- ICC Navigation -->
+  <nav class="icc-nav">
+    <a href="https://color.org">Home</a>
+    <a href="https://github.com/InternationalColorConsortium/iccDEV">GitHub</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 bg-gradient-to-b from-slate-900 to-slate-800">
+    <h1 class="text-4xl font-bold mb-2">iccdev.js — ICCMAX in WebAssembly</h1>
+    <p class="text-slate-400 max-w-xl mx-auto">
+      High-performance ICC profile and color management tools compiled from ICCMAX reference libraries into WebAssembly.
+    </p>
+    <div class="mt-6">
+      <a href="#tools" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-xl text-white font-medium shadow-lg">Explore Tools</a>
+      <a href="https://www.npmjs.com/package/iccdev" target="_blank" class="ml-4 border border-blue-400 px-6 py-3 rounded-xl text-blue-300 hover:bg-blue-800/40">Install via NPM</a>
+    </div>
+  </section>
+
+  <!-- WASM Support Warning -->
+  <div id="wasm-warning" class="hidden bg-red-700 text-white text-center py-3 font-semibold">
+    ⚠️ Your browser does not support WebAssembly. Please use Chrome, Edge, or Firefox.
+  </div>
+
+  <!-- Tools Section -->
+  <main id="tools" class="flex-1 container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-semibold text-center mb-10">Available WebAssembly Tools</h2>
+    <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+
+      <div class="tool-card bg-slate-800 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">IccToXml</h3>
+        <p class="text-slate-400 mb-4">Convert ICC profiles to XML format.</p>
+        <a href="./IccToXml/index.html" class="inline-block bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-white text-sm">Open Demo</a>
+      </div>
+
+      <div class="tool-card bg-slate-800 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">IccFromXml</h3>
+        <p class="text-slate-400 mb-4">Create ICC profiles from XML definitions.</p>
+        <a href="./IccFromXml/index.html" class="inline-block bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-white text-sm">Open Demo</a>
+      </div>
+
+      <div class="tool-card bg-slate-800 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">IccDumpProfile</h3>
+        <p class="text-slate-400 mb-4">Dump ICC profile data in readable form.</p>
+        <a href="./IccDumpProfile/index.html" class="inline-block bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-white text-sm">Open Demo</a>
+      </div>
+
+      <div class="tool-card bg-slate-800 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">IccRoundTrip</h3>
+        <p class="text-slate-400 mb-4">Run forward/backward color conversions to validate transformations.</p>
+        <a href="./IccRoundTrip/index.html" class="inline-block bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-white text-sm">Open Demo</a>
+      </div>
+
+      <div class="tool-card bg-slate-800 p-6 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">IccScan</h3>
+        <p class="text-slate-400 mb-4">Analyze and verify ICC profile compliance.</p>
+        <a href="./IccScan/index.html" class="inline-block bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-white text-sm">Open Demo</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Install Section -->
+  <section id="install" class="bg-slate-900 py-16 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-6">Install via NPM</h2>
+      <pre><code class="language-bash">npm install iccdev</code></pre>
+
+      <h3 class="text-xl font-semibold mt-10 mb-4">Example Usage (Node.js or Browser)</h3>
+      <pre><code class="language-javascript">
+// Import a module
+import { IccToXml } from 'iccdev';
+
+// Convert ICC binary to XML
+const response = await fetch('./Testing/sRGB_v4_ICC_preference.icc');
+const buffer = await response.arrayBuffer();
+const xml = await IccToXml(buffer);
+console.log(xml);
+      </code></pre>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-slate-500 text-center py-8 text-sm">
+    <p>© 2025 International Color Consortium — iccdev.js | Built from ICCMAX Reference Implementation</p>
+    <p class="mt-2">
+      <a href="docs/index.md" class="underline hover:text-slate-300">Documentation</a> |
+      <a href="https://github.com/InternationalColorConsortium/iccDEV" target="_blank" class="underline hover:text-slate-300">GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    // WASM support detection
+    if (typeof WebAssembly === "undefined") {
+      document.getElementById("wasm-warning").classList.remove("hidden");
+    }
+
+    // Highlight code
+    hljs.highlightAll();
+  </script>
+</body>
+</html>

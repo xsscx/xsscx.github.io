@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Little ICC Scanner (WebAssembly)</title>
+<style>
+  body {
+    font-family: monospace;
+    background: #111;
+    color: #0f0;
+    margin: 20px;
+  }
+  header img { margin-right: 8px; vertical-align: middle; }
+  textarea {
+    width: 100%;
+    height: 500px;
+    resize: vertical;
+    overflow: auto;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    background: #000;
+    color: #0f0;
+    border: 1px solid #333;
+    padding: 1em;
+  }
+  input, button {
+    font-family: inherit;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  label { display: block; margin-top: 0.5em; }
+</style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <a href="https://color.org/index.xalter">
+        <img src="https://color.org/system/images/ICC_logo_text.gif" width="368" height="27"
+             alt="International Color Consortium">
+      </a>
+    </div>
+    <div>
+      <img src="https://color.org/system/images/ICC_logo_top.gif" width="143" height="65" alt="ICC Logo">
+      <img src="https://color.org/system/images/hd_images.jpg" width="657" height="46"
+           alt="Making color seamless between devices and documents">
+    </div>
+  </header>
+
+  <h2>Little ICC Scanner (WebAssembly)</h2>
+
+  <label>Select ICC Profile File:
+    <input type="file" id="iccFile" accept=".icc,.icm" />
+  </label>
+  <label>Arguments (example: <code>-v1</code>):
+    <input type="text" id="args" value="-v1" style="width:300px;" />
+  </label>
+  <button id="runButton">Run Scan</button>
+
+  <textarea id="outputLog" readonly placeholder="Scan output will appear here..."></textarea>
+
+  <!-- Load Emscripten-generated JS (creates global createLiccModule) -->
+  <script src="iccScan.js"></script>
+  <script>
+    const logEl = document.getElementById("outputLog");
+    const log = txt => {
+      logEl.value += txt + "\n";
+      logEl.scrollTop = logEl.scrollHeight;
+    };
+
+    createLiccModule({
+      print: log,
+      printErr: log,
+    }).then(Module => {
+      log("✅ licc WebAssembly module initialized.\n");
+
+      document.getElementById("runButton").addEventListener("click", async () => {
+        const fileInput = document.getElementById("iccFile");
+        const file = fileInput.files[0];
+        const argLine = document.getElementById("args").value.trim();
+        const argv = argLine ? argLine.split(/\s+/) : [];
+
+        logEl.value = "";
+        if (!file) {
+          alert("Please select an ICC profile (.icc or .icm).");
+          return;
+        }
+
+        const buf = new Uint8Array(await file.arrayBuffer());
+        Module.FS.writeFile(file.name, buf);
+        argv.push(file.name);
+
+        log(`Running licc ${argv.join(" ")}\n`);
+        try {
+          Module.callMain(argv);
+        } catch (err) {
+          log("💥 Runtime error: " + err);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
